@@ -48,6 +48,14 @@ Delphi is the Event Management System used for banquet/event management. Banquet
 
 ---
 
+## Tickets
+
+| Ticket | Subject | Status |
+|---|---|---|
+| UNIFOCUS-247305 | KBI Calculation Error / Stayover KBI / Rooms Forecast — SLS | 🔴 Active |
+
+---
+
 ## Active Issues
 
 ### 🔴 KBI Calculation Error — SLS (KBI 8021 Missing)
