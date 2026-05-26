@@ -35,9 +35,7 @@ Two separate settings within a labor standard. Always evaluate independently.
 
 **Example:** A 2.5-hour minimum shift length with a remainder triggering that threshold produces a 5:15–7:45pm shift in a dinner operation.
 
-**Fix:** Set Daily Hours to a clean multiple of the shift length. No remainder = no short shift.
-
-**Fix:** Set Daily Hours to a clean multiple of the **actual** shift length — verify real shift duration, not just the labeled duration in the standard.
+**Fix:** Set Daily Hours to a clean multiple of the **actual** shift length — verify real shift duration, not just the labeled duration in the standard. No remainder = no short shift.
 
 **Client guidance:** Explain outcomes and actions, not mechanics. Tell the client what to expect and what to do — not how the calculation works.
 
@@ -53,6 +51,23 @@ Two separate settings within a labor standard. Always evaluate independently.
 - A shift labeled 4.5 hours that actually runs 5 hours (e.g., 5:15–10:15pm) will produce systematic short shifts even when Daily Hours appear to be a clean multiple
 - Confirm actual start/end times with the client before diagnosing Daily Hours math
 - Common source of error: historical shift lengths that changed operationally but were never updated in the standard
+
+---
+
+### Shift Generation Sequence
+
+Unifocus generates shifts in this order. Understanding the sequence is essential for diagnosing short shift and rounding problems.
+
+1. **Hours first** — The standard calculates total hours required (Daily Hours + volume-driven Units/Shift)
+2. **Full shifts** — System fills as many complete shifts as the hours allow
+3. **Remainder** — Any leftover hours are evaluated against rounding rules
+4. **Rounding Threshold Below One** — If the remainder is below this value, it is absorbed (no additional shift generated). Set to 0.00 = nothing is absorbed; any remainder triggers a shift.
+5. **Rounding Threshold Above One** — If the remainder exceeds this value, it rounds up to a full shift
+6. **Min/Max Shift Length** — If a new shift is created from the remainder, it must fall within these bounds. If the remainder is below the minimum, no shift is created. If it meets or exceeds the minimum, a short shift appears.
+
+**Key insight:** A leftover hour might become a 5-hour shift (if rounding rounds up) or disappear entirely (if absorbed) or produce a short shift (if it hits the minimum floor) — depending entirely on these settings working together.
+
+**Mohonk Main Dining example:** Rounding Threshold Below One = 0.00 means nothing is absorbed. Any remainder creates a shift. Min shift length = 2.5 hours. So even a small remainder produces a visible short shift.
 
 ---
 

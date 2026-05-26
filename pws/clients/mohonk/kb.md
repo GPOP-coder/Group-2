@@ -84,6 +84,22 @@ Last updated: 2026-05-26
 Volume range: 180–∞ (lunch) | 1–∞ (dinner)
 Distribution: Non-Flow, Beginning
 
+### 2 - Food and Beverage \ Dining Room - Main \ Server \ Main Dining AM — Planner Settings
+
+| Setting | Inherited Value |
+|---|---|
+| Period Length | 15 Minutes |
+| Standard Type | KBI Related |
+| Min / Max Shift Lengths | min: 2.5 hrs; max: 12 hrs |
+| Rounding Threshold Below One | 0.00 |
+| Rounding Threshold Above One | 0.2 |
+| Generate Long Shifts | Yes |
+| Limit Shift To Max Shift For Non-... | Yes |
+| Simple Non-Flowed Distribution | Beginning |
+| Effective Dates | 1/1 – 12/31 |
+
+Note: All values are inherited (no overrides set). Rounding Threshold Below One = 0.00 means no remainder is absorbed — any leftover hours will attempt to generate a shift, governed by the 2.5-hour minimum.
+
 ---
 
 ## Client Communication Notes
