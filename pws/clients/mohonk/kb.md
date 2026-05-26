@@ -38,10 +38,14 @@ Last updated: 2026-05-26
 - Result: server scheduled 5:15–7:45pm instead of 5:15–10:15pm
 
 **Fix applied:**
-- Confirmed with James: both shifts are 5:15–10:15 — Friday separation was historical, not intentional
-- Changed Sun–Thu Daily Hours from 9.0 → 10.0 (correct multiple of 5-hour shift)
-- Retained the day-of-week split structure in case Mohonk wants to differentiate in the future
+- Confirmed with James: Friday separation IS intentional — Friday always opens at 5:15 PM; Sun–Thu sometimes opens at 6:00 PM
+- Changed Sun–Thu Daily Hours from 9.0 → 10.0 to prevent the short shift the misconfigured standard was generating
+- Retained day-of-week split — separation is operationally valid
 - James to confirm next week whether short shifts are eliminated
+
+**Open — deferred to F&B standards review:**
+- What conditions trigger the 6:00 PM start on Sunday–Thursday?
+- If Sun–Thu can run a 4.25-hour shift (6:00–10:15), Daily Hours and shift length may need revisiting at that time
 
 **Lesson learned:**
 - "Note the issue and move on" applies to rare edge cases when the standard is correctly configured
