@@ -61,7 +61,7 @@ Delphi is the Event Management System used for banquet/event management. Banquet
 ### 🔴 KBI Calculation Error — SLS (KBI 8021 Missing)
 **Ticket:** UNIFOCUS-247305
 **Reported:** May 26, 2026
-**Status:** 🔴 Root cause identified — fix in progress
+**Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM
 
 **Root cause (from audit):**
 On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#8021` → `#7821`. At least one formula (most likely the SLS Stayovers KBI) still references `##8021` — the old code that no longer exists. This causes the Calculate KBIs task to fail whenever it runs.
@@ -69,14 +69,11 @@ On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#80
 **Why it surfaced now:** The task only runs when a forecast has been entered. No forecast was entered for the period ending 05/31, so the error was not triggered until the week ending 06/07 forecast was submitted.
 
 **Fix applied:**
-- KBI #7101 (Grand Hyatt HSKP S/O to Clean 90%) — formula updated from `##8021[0]*.9` to `##7010[0]*.9`
-- `##7010` = GH Hotel Stayovers (correct base for GH housekeeping workload)
-- `##8021` was Resort TTl Arrivals (wrong base; also no longer exists after 5/14 renumbering)
+- KBI #7101 (Grand Hyatt HSKP S/O to Clean 90%) — formula updated to `##7010[0]*.9`
+- `##7010[0]` = GH Hotel Stayovers, today's value (the `[0]` day qualifier is required — omitting it causes a separate failure)
+- Previous formula `##8021[0]*.9` failed because ##8021 no longer exists after 5/14 renumbering
 
-**Secondary finding:**
-KBI #7101 (and similar GH-specific housekeeping metrics) should not exist in the SLS database at all. Implementers duplicated property-specific workload KBIs across all properties unnecessarily. SLS has no use for GH housekeeping stayover calculations. These should be deactivated — flagged for cleanup during standards review.
-
-**Status:** Fix in testing — awaiting Calculate KBIs confirmation
+**Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
 
 **Full 5/14 session audit:**
 

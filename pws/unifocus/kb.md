@@ -132,6 +132,10 @@ KBIs are calculated metrics in Unifocus that aggregate operational data for fore
 
 **Calculate KBIs task:** A system task that runs KBI formulas on a schedule. If a formula references a KBI that does not exist, the entire task fails. The error only surfaces when the task actually runs — which only happens when a forecast has been entered for that period.
 
+**Generate Standard Hours:** An alternative path that also triggers KBI calculations. Either task can expose formula errors. Both must succeed for labor planning to function correctly.
+
+**Day qualifier — required in all KBI formula references:** Every cross-reference to another KBI must include a day qualifier. `[0]` = today's value. `[-1]` = yesterday's value. Omitting the qualifier causes the calculation to fail even if the KBI code itself is valid. Example: `##7010[0]*.9` is correct; `##7010*.9` will fail.
+
 **Cross-property KBIs:** KBIs that aggregate data across multiple properties within a shared database (e.g., Baha Mar campus). Must be built at each property individually and tested to confirm cross-property inclusion is correct after any property is added to the database.
 
 **Purpose of cross-property KBIs:** The goal is Resort Total Rooms, Arrivals, Guests, and Stayovers — and most critically, **Resort Total Available Guests by meal period**. Campus-wide outlets whose covers are modeled by regression depend on the entire resort guest population (total guests minus all banquet events). All property inputs must be accurate for the regression to produce valid results.
