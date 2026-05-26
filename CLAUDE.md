@@ -11,7 +11,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 - Power of Attorney for father **William Castellano**, age 90 — retired Navy Commander, 100% VA disabled
   - Manages all father's finances, accounts, and bills (due 10th/11th monthly)
   - Father currently in Orlando (near sister Camille) during Pensacola home renovation; official residence remains Pensacola
-- Building a **capstone Chief of Staff agent** to monitor, coordinate, and act across all identities — active learning project with Claude and other AI consultants
+- Building a **capstone Chief of Staff agent** to monitor, coordinate, and act across all identities — enrolled in a structured course on creating agents; this Claude Code repo is the working environment for that course
 - May have ADHD-Inattentive — gets pulled into tangents; Claude should gently redirect to billable priorities
 
 ---

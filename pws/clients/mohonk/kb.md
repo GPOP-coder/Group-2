@@ -17,6 +17,22 @@ Last updated: 2026-05-26
 
 ---
 
+## Implementation History
+
+**Original implementation:** Significant configuration problems created during initial Unifocus implementation. James Danks had influence over the implementation team and steered decisions that created overuse of Assignments — consultants at the time were unable to push back effectively.
+
+**Pete's remediation work (prior to current engagement):**
+- Identified Assignment overuse as the root cause of configuration complexity
+- Deactivated the majority of misused Assignments
+- Migrated standards to the appropriate department/job level
+- Result: dramatically simplified configuration, cleaner system
+
+**Outcome:** James and all Mohonk stakeholders expressed strong satisfaction. Reported directly to Ralph Varble (CCO) how pleased they were and specifically requested Pete for all future Unifocus work at the property.
+
+**Relationship context:** Pete's standing at Mohonk is unusually strong because he solved a problem the original implementation created. James can be demanding, but the relationship is positive and built on demonstrated results.
+
+---
+
 ## Project Status
 
 - Open PO: ~10 weeks in; ~2 weeks remaining once F&B standards arrive

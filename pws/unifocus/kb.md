@@ -81,6 +81,36 @@ Unifocus generates shifts in this order. Understanding the sequence is essential
 
 ---
 
+### Jobs and Assignments
+
+**Jobs** are the base labor classification in Unifocus (e.g., Server, Cook, Bartender).
+
+**Assignments** (sub-jobs) allow different labor standards to exist under a single job code. Use cases:
+- **Kitchen stations:** TA tracks the job (Cook), but standards are by station (Grill, Fryer, Salads, Prep)
+- **Seasonality:** Separate assignments for Summer vs. Winter with different hours of operation and effective dates
+- Standards can live on the job, the assignment, or both
+
+**Effective dates** apply to both jobs and assignments. This enables seasonal configuration without creating new job codes.
+
+**Permanent limitation:** Jobs and assignments cannot be deleted — only deactivated. Deactivated items can linger and create confusion in the interface. There is no tool to make them disappear completely.
+
+**Pete's philosophy on assignments:**
+- Do NOT use job codes or assignments to indicate time of day (AM vs. PM) — there are better tools for that within the standard itself
+- Overuse of assignments creates configuration debt that is painful to unwind
+- When assignments are misused, the correct fix is deactivation and migration of standards to the appropriate department/job level
+
+---
+
+### Rounding — Purpose and Limits
+
+Rounding settings (Threshold Below One, Threshold Above One) govern how leftover hours after full shifts are handled. They are **not** the right tool for preventing partial shifts caused by misconfigured standards.
+
+- Changing rounding to hide a short-shift symptom creates downstream problems elsewhere
+- The correct fix for systematic short shifts is always to correct the standard itself (Daily Hours as a clean multiple of actual shift length)
+- Rounding is a fine-tuning tool, not a diagnostic workaround
+
+---
+
 ## Client Communication Standard (PWS)
 
 > Explain outcomes and actions, not mechanics. The client's job is to run the operation. Our job is to know why it works. Reserve technical detail for when the client specifically needs it to make a decision.
