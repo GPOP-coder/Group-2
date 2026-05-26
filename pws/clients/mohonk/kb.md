@@ -9,10 +9,11 @@ Last updated: 2026-05-26
 | Name | Title | Contact |
 |---|---|---|
 | James Danks | Director of Dining Services | jdanks@mohonk.com \| 845.256.2073 |
+| Bron Walis | (Dining — CC on issues) | bron@mohonk.com |
 | Lou Petruzzelli | On-call Main Dining Room Server (position) | lpetruzzelli@mohonk.com |
 | Patrice Huart | (Dining — CC on issues) | phuart@mohonk.com |
-| Bron Walis | (Dining — CC on issues) | bron@mohonk.com |
 | Susanna Briggs | Unifocus internal contact | sbriggs@unifocus.com |
+| Ralph Varble | Unifocus Chief Customer Officer | O: 972-512-5083 \| C: 832-226-8945 \| rvarble@unifocus.com |
 
 ---
 
@@ -21,6 +22,22 @@ Last updated: 2026-05-26
 - Open PO: ~10 weeks in; ~2 weeks remaining once F&B standards arrive
 - **Holding all F&B standard changes** pending Mohonk's operational decisions
 - On-call main dining room server position: Lou Petruzzelli green-lit — configure with James Danks
+
+## Onsite Visit — August 2026
+
+**Arranged by:** Ralph Varble (CCO) and Susanna Briggs with Bron Walis and Lou Petruzzelli
+**Purpose:** F&B standards review + training
+**Tentative dates:** First week of August (second week also an option — Pete to confirm preference)
+**Billing:** Covered under existing active change order
+**Travel notes (from Ralph, who has been there):**
+- Fly into **Newark** — easier than NYC; 10 miles further but avoids navigating out of the city
+- Rent a car — approximately 2-hour drive to Mohonk
+- First hour out of Newark covers only ~⅓ of the distance due to traffic; much faster once across NJ/NY border
+- Albany is physically closer but harder to fly into and likely more expensive
+- Must arrive **Sunday**, depart **Saturday** — Mohonk expects the full week
+
+**Next step:** Unifocus to schedule a follow-up call with Mohonk in ~2 weeks; Pete will be invited
+**Pete's status:** Blocking first week of August; checking for conflicts with Kim
 
 ---
 

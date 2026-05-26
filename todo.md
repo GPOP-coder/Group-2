@@ -22,6 +22,9 @@ Last updated: 2026-05-26
 - [ ] **MHBR** — Schedule 1 week onsite training (property offered to set dates)
 - [ ] **Mohonk** — Configure on-call main dining room server position with James Danks (Lou Petruzzelli green-lit)
 - [ ] **Mohonk** — Confirm short shift fix worked after next scheduling cycle
+- [ ] **Mohonk onsite** — Confirm week preference (first vs. second week of August) to Ralph Varble / Susanna Briggs
+- [ ] **Mohonk onsite** — Check calendar and clear with Kim; block first week of August as placeholder
+- [ ] **Mohonk onsite** — Watch for Unifocus/Mohonk follow-up call invite (~2 weeks out)
 - [ ] **Baha Mar** — BQT mapping (incomplete, billable backlog)
 
 ---

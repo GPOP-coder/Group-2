@@ -121,6 +121,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 - Pushing back on unnecessary job code for call-in shifts
 - Open PO ~10 weeks; ~2 weeks remaining once F&B standards arrive
 - On-call main dining room server: Lou Petruzzelli green-lit, configure with James Danks
+- **Onsite visit planned: first week of August** — standards review + training; covered under existing change order; confirm week with Ralph Varble (CCO)
 
 **Baha Mar Campus** (Nassau) — 🟡 Significant billable work remaining
 - BQT mapping incomplete
