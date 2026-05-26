@@ -245,3 +245,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Full tech stack inventory
 - [ ] Board member roster for BTTR
 - [ ] Agent architecture design sessions (ongoing)
+- [ ] Class action settlements — check if Pete is a party and entitled to claim. Start with Krispy Kreme (June 2026 deadline). Build habit of checking these periodically.
