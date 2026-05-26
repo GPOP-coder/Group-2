@@ -130,9 +130,12 @@ This applies across all PWS clients, not just Unifocus engagements.
 
 KBIs are calculated metrics in Unifocus that aggregate operational data for forecasting, reporting, and labor planning.
 
-**Calculate KBIs task:** A system task that runs KBI formulas on a schedule. If a formula references a KBI that does not exist, the entire task fails. The error only surfaces when the task actually runs — which only happens when a forecast has been entered for that period.
+**KBI calculation triggers — three paths:** Any of the following will run KBI formulas and fail if a formula references a nonexistent KBI code:
+1. **Calculate KBIs task** — scheduled system task; only runs when a forecast has been entered for that period
+2. **Generate Standard Hours** — triggers KBI calculations as part of the standard hours generation process
+3. **Generate Projected Hours** — also triggers KBI calculations
 
-**Generate Standard Hours:** An alternative path that also triggers KBI calculations. Either task can expose formula errors. Both must succeed for labor planning to function correctly.
+All three must succeed for labor planning to function correctly. A broken formula blocks all three.
 
 **Day qualifier — required in all KBI formula references:** Every cross-reference to another KBI must include a day qualifier. `[0]` = today's value. `[-1]` = yesterday's value. Omitting the qualifier causes the calculation to fail even if the KBI code itself is valid. Example: `##7010[0]*.9` is correct; `##7010*.9` will fail.
 
