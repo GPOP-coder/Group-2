@@ -70,6 +70,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 - **Microsoft Edge** — dedicated workspace for father's financial accounts
 - **Hume Body Pod** — daily body composition, syncs to Apple Health (free tier)
 - **Apple Health** — data aggregator, future dashboard project
+- **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor
+- **Lenovo Yoga** — portable/travel machine; kept in laptop bag
+- **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
+- Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
 
 ---

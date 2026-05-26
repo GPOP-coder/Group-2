@@ -29,27 +29,23 @@ Last updated: 2026-05-26
 ### Incomplete / Short Shifts — Main Dining Room Server
 **Reported by:** James Danks, May 25, 2026
 **Job:** `2 - Food and Beverage\Dining Room - Main\Server`
-**Status:** 🟡 Partially resolved — awaiting James's answer on Friday question
+**Status:** ✅ Resolved — May 26, 2026
 
-**Root cause identified:**
-- A Friday-specific shift exists (1715–2215, 5-hour) separate from Sun–Thu (1715–2215, 4.5-hour)
-- Daily Hours: Friday = 10.0 | Sun–Thu = 9.0
-- Both are clean multiples of their respective shift lengths
-- Discrepancy between the two creates the appearance of inconsistency; may also interact with Units/Shift to generate short shifts in edge cases
-- Short shifts (e.g., 5:15–7:45pm) result when the 2.5-hour minimum shift length is triggered
+**Root cause:**
+- Sun–Thu shift was mislabeled as 4.5 hours when the actual shift is 5:15–10:15pm (5 hours), matching Friday
+- Sun–Thu Daily Hours = 9.0 (correct multiple of 4.5, but 4.5 was wrong)
+- 9 hours ÷ 5-hour actual shift = 1 full shift + 4-hour remainder → triggered short shift at 2.5-hour minimum floor
+- Result: server scheduled 5:15–7:45pm instead of 5:15–10:15pm
 
-**Open question sent to James:**
-> Is Friday truly a different operation, or is the Friday shift a historical artifact that should be unified with the rest of the week?
+**Fix applied:**
+- Confirmed with James: both shifts are 5:15–10:15 — Friday separation was historical, not intentional
+- Changed Sun–Thu Daily Hours from 9.0 → 10.0 (correct multiple of 5-hour shift)
+- Retained the day-of-week split structure in case Mohonk wants to differentiate in the future
+- James to confirm next week whether short shifts are eliminated
 
-**Resolution path:**
-- If Friday is the same: unify shift length and Daily Hours across all days
-- If Friday is truly different: document as intentional and leave as-is
-- No broader F&B standard changes until Mohonk confirms operational direction
-
-**Guidance given to James:**
-- Standards model hours to run, not hours to schedule
-- When short shifts appear: note the issue and move on; the schedule won't re-draft
-- The schedule is theirs to manage once drafted
+**Lesson learned:**
+- "Note the issue and move on" applies to rare edge cases when the standard is correctly configured
+- When short shifts are systematic (every week, same shift), the standard itself is misconfigured — fix the standard
 
 ---
 
@@ -62,7 +58,7 @@ Last updated: 2026-05-26
 | 1145–1445 | M–F | 3 hrs | 6.0 | Suppressed (0) |
 | 1700–2215 | Sat | 5.25 hrs | 10.50 | 15 |
 | 1715–2215 | Fri | 5 hrs | 10.0 | 15 |
-| 1715–2215 | Sun–Thu | 4.5 hrs | 9.0 | 15 |
+| 1715–2215 | Sun–Thu | 5 hrs | 10.0 | 15 |
 
 Volume range: 180–∞ (lunch) | 1–∞ (dinner)
 Distribution: Non-Flow, Beginning

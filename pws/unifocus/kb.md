@@ -37,7 +37,22 @@ Two separate settings within a labor standard. Always evaluate independently.
 
 **Fix:** Set Daily Hours to a clean multiple of the shift length. No remainder = no short shift.
 
-**Client guidance:** Explain outcomes and actions, not mechanics. Tell the client what to expect and what to do — not how the calculation works. If short shifts appear: note the issue, move on, the schedule won't re-draft.
+**Fix:** Set Daily Hours to a clean multiple of the **actual** shift length — verify real shift duration, not just the labeled duration in the standard.
+
+**Client guidance:** Explain outcomes and actions, not mechanics. Tell the client what to expect and what to do — not how the calculation works.
+
+**Important distinction:**
+- "Note the issue and move on" applies when the standard is correctly configured and a rare edge case creates an occasional short shift
+- When short shifts are systematic (recurring every week on the same shift), the standard itself is misconfigured — diagnose and fix the standard, don't tell the client to absorb it
+
+---
+
+### Shift Length Accuracy
+
+- Always verify the **actual** shift duration against the labeled shift length in the standard
+- A shift labeled 4.5 hours that actually runs 5 hours (e.g., 5:15–10:15pm) will produce systematic short shifts even when Daily Hours appear to be a clean multiple
+- Confirm actual start/end times with the client before diagnosing Daily Hours math
+- Common source of error: historical shift lengths that changed operationally but were never updated in the standard
 
 ---
 
