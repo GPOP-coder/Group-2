@@ -68,7 +68,15 @@ On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#80
 
 **Why it surfaced now:** The task only runs when a forecast has been entered. No forecast was entered for the period ending 05/31, so the error was not triggered until the week ending 06/07 forecast was submitted.
 
-**Fix:** Find the formula(s) referencing `##8021` and update to `##7821` (or the correct current SLS arrivals KBI code). Rerun Calculate KBIs to confirm.
+**Fix applied:**
+- KBI #7101 (Grand Hyatt HSKP S/O to Clean 90%) — formula updated from `##8021[0]*.9` to `##7010[0]*.9`
+- `##7010` = GH Hotel Stayovers (correct base for GH housekeeping workload)
+- `##8021` was Resort TTl Arrivals (wrong base; also no longer exists after 5/14 renumbering)
+
+**Secondary finding:**
+KBI #7101 (and similar GH-specific housekeeping metrics) should not exist in the SLS database at all. Implementers duplicated property-specific workload KBIs across all properties unnecessarily. SLS has no use for GH housekeeping stayover calculations. These should be deactivated — flagged for cleanup during standards review.
+
+**Status:** Fix in testing — awaiting Calculate KBIs confirmation
 
 **Full 5/14 session audit:**
 

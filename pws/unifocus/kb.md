@@ -134,6 +134,10 @@ KBIs are calculated metrics in Unifocus that aggregate operational data for fore
 
 **Cross-property KBIs:** KBIs that aggregate data across multiple properties within a shared database (e.g., Baha Mar campus). Must be built at each property individually and tested to confirm cross-property inclusion is correct after any property is added to the database.
 
+**Purpose of cross-property KBIs:** The goal is Resort Total Rooms, Arrivals, Guests, and Stayovers — and most critically, **Resort Total Available Guests by meal period**. Campus-wide outlets whose covers are modeled by regression depend on the entire resort guest population (total guests minus all banquet events). All property inputs must be accurate for the regression to produce valid results.
+
+**Implementation anti-pattern:** Do NOT replicate property-specific operational KBIs (e.g., GH housekeeping workload) in other properties' databases. Each property only needs its own operational KBIs plus the cross-property aggregates. Duplicating property-specific KBIs across the campus creates noise, confusion, and maintenance burden.
+
 **Total Resort KBI:** Aggregates rooms + banquet available guests for each meal period across all properties. The target end-state for Baha Mar's cross-property KBI build.
 
 **Stayover KBI:** Tracks guests staying over (not arriving or departing). Separate formula from arrival/departure counts; a common source of formula errors when KBI IDs change or are referenced incorrectly.
