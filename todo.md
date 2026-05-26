@@ -25,7 +25,10 @@ Last updated: 2026-05-26
 - [ ] **Mohonk onsite** — Confirm week preference (first vs. second week of August) to Ralph Varble / Susanna Briggs
 - [ ] **Mohonk onsite** — Confirm with Kim: no cruise conflicts in August (cruises are Sept + Nov); block first week as placeholder
 - [ ] **Mohonk onsite** — Watch for Unifocus/Mohonk follow-up call invite (~2 weeks out)
-- [ ] **Baha Mar** — BQT mapping (incomplete, billable backlog)
+- [ ] **Baha Mar / SLS** — Investigate KBI 8021 missing; fix stayover KBI formula; report to Ahmed and Val (Ticket: UNIFOCUS-247305)
+- [ ] **Baha Mar** — Rosewood cross-property KBI: build at Rosewood, retest at all properties
+- [ ] **Baha Mar** — BQT mapping: await EMS admin contacts from Val for SLS and GH, then execute dummy BEO import
+- [ ] **Baha Mar** — Confirm: are SLS and GH on a single shared Baha Mar Delphi instance?
 
 ---
 

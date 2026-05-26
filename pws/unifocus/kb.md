@@ -123,3 +123,36 @@ This applies across all PWS clients, not just Unifocus engagements.
 
 - [ ] PWS employment opportunity: Product Owner role under Priyanka Kalia (VP Product Management) — compensation not yet discussed
 - [ ] M365 connector (pcastellano@unifocus.com): approved and active — monitor and provide feedback
+
+---
+
+## KBIs — Key Business Indicators
+
+KBIs are calculated metrics in Unifocus that aggregate operational data for forecasting, reporting, and labor planning.
+
+**Calculate KBIs task:** A system task that runs KBI formulas on a schedule. If a formula references a KBI that does not exist, the entire task fails. The error only surfaces when the task actually runs — which only happens when a forecast has been entered for that period.
+
+**Cross-property KBIs:** KBIs that aggregate data across multiple properties within a shared database (e.g., Baha Mar campus). Must be built at each property individually and tested to confirm cross-property inclusion is correct after any property is added to the database.
+
+**Total Resort KBI:** Aggregates rooms + banquet available guests for each meal period across all properties. The target end-state for Baha Mar's cross-property KBI build.
+
+**Stayover KBI:** Tracks guests staying over (not arriving or departing). Separate formula from arrival/departure counts; a common source of formula errors when KBI IDs change or are referenced incorrectly.
+
+---
+
+## Banquet Mapping — Booking/Event Type Combinations
+
+Unifocus maps imported banquet data (from EMS/Delphi) to internal planning using Booking/Event Type combinations. The mapping screen only shows combinations the system has encountered in an actual import.
+
+**Problem:** Initial mapping captures only the combinations present in BEOs imported at go-live. New combinations added later are invisible to the mapping screen.
+
+**Solution — Dummy BEO File Approach:**
+1. Create a synthetic BEO file containing every valid Booking/Event Type combination for a property
+2. Unifocus imports team (e.g., Monali) does a one-time import
+3. All combinations become visible in the mapping screen
+4. Dummy file is deleted — does not affect any past or future planning weeks
+5. Full mapping can now be completed
+
+This is a one-time setup step per property. Must be repeated if new combinations are ever added to the EMS.
+
+**Delphi:** The Event Management System (EMS) used for banquet/event management at hotel properties. Can be property-specific or a shared companywide instance. Banquet files are exported from Delphi and imported into Unifocus.
