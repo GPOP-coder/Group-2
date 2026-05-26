@@ -1,40 +1,85 @@
 # Peter Castellano — Claude Code Context
 
-This file loads at the start of every Claude Code session. Keep it current.
-Last updated: 2026-05-26
+Loads at the start of every session. Keep current. Last updated: 2026-05-26
 
 ---
 
 ## About Peter
 
-- Located in the Omaha, Nebraska area
-- Operates across multiple organizational identities simultaneously
-- Building toward a **capstone Chief of Staff agent** that monitors, coordinates, and acts across all identities and organizations
-- Learning agent design with Claude and other AI consultants
-- Power of Attorney (POA) for his 90-year-old father; manages his father's finances
+- **Pete Castellano** — Bellevue, NE | (402) 669-0643
+- Oldest of 4 siblings, Navy brat, married to **Kimberly Kae Castellano** since October 8, 1988
+- Power of Attorney for father **William Castellano**, age 90 — retired Navy Commander, 100% VA disabled
+  - Manages all father's finances, accounts, and bills (due 10th/11th monthly)
+  - Father currently in Orlando (near sister Camille) during Pensacola home renovation; official residence remains Pensacola
+- Building a **capstone Chief of Staff agent** to monitor, coordinate, and act across all identities — active learning project with Claude and other AI consultants
+- May have ADHD-Inattentive — gets pulled into tangents; Claude should gently redirect to billable priorities
+
+---
+
+## Family
+
+| Person | Relationship | Notes |
+|---|---|---|
+| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. |
+| Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
+| Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
+| William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
+| Camille | Sister | Orlando FL |
+| Diane Yarborough | Sister | NC, youngest sibling |
+| Third sibling | Sibling | Name TBD |
+
+---
+
+## Email & Account Inventory
+
+| Account | Purpose |
+|---|---|
+| peter.a.castellano@outlook.com | ⭐ PRIMARY — single source of truth: contacts, calendar, OneNote, archive. iPhone syncs here only. |
+| pcastellano@unifocus.com | Unifocus work/contractor account — M365 connector approved and active |
+| pete.castellano@gmail.com | Personal; original Microsoft login ID |
+| finance.castellano@outlook.com | Banking/bills — shared with Kim |
+| pete@platinumworkforcestrategies.com | PWS business email (GoDaddy/M365) |
+| pacrat.direct@outlook.com | eBay identity |
+
+**M365 Connector status:** Personal account = consumer tier, Claude connector unsupported. Workaround: monthly manual CSV export from personal → wipe → import to Unifocus + upload CSV to Claude.
 
 ---
 
 ## Organizational Identities & Ecosystems
 
-Peter maintains separate identities across multiple ecosystems. Each organization lives in its own environment and must be tracked proactively to avoid missed responsibilities.
-
 | Identity | Ecosystem | Role |
 |---|---|---|
 | PWS | Microsoft 365 | Owner |
 | BTTR | TBD | President |
-| New Hearts | TBD | Treasurer |
+| New Hearts / NTSG | TBD | Treasurer (de facto — Kim listed but inactive) |
 | Photography | TBD | Personal |
-| eBay | TBD | Personal |
-| Father's POA | TBD | POA/Finance Manager |
+| eBay | pacrat.direct@outlook.com | Personal |
+| Father's POA | Microsoft Edge (dedicated) | POA/Finance Manager |
 
 ---
 
 ## Tech Stack
 
-- **Microsoft 365** (primary productivity suite)
-- **Clockify** (time tracking)
+- **Microsoft 365** — primary productivity suite
+- **Clockify** — billable time tracking; always start before Unifocus work
+- **Quicken Simplifi** — personal finance (~10 years data from Mint)
+- **Microsoft OneNote** — primary notes
+- **Microsoft To-Do** — tasks and lists (groceries separate list)
+- **iPhone iOS** — Voice Memos auto-transcribes (key capture tool for journaling/meetings)
+- **Outlook desktop** — multiple accounts; master contacts in primary account
+- **Microsoft Edge** — dedicated workspace for father's financial accounts
+- **Hume Body Pod** — daily body composition, syncs to Apple Health (free tier)
+- **Apple Health** — data aggregator, future dashboard project
 - Additional tools to be inventoried as we go
+
+---
+
+## Claude Project Structure (claude.ai)
+
+- **"Pete"** — Master Profile v2, Philosophy & Books, BTTR, NTSG
+- **"PWS — Unifocus"** — Unifocus KB, Baha Mar KB, client files (Rosewood Miramar, MHBR, Mohonk), employment opportunity
+- **"How to Use Claude"** — integration guide, tech stack, contacts methodology
+- Document versioning: Master Profile v2 replaces v1 — do not upload both
 
 ---
 
@@ -42,68 +87,157 @@ Peter maintains separate identities across multiple ecosystems. Each organizatio
 
 ### PWS — Platinum Workforce Strategies, LLC
 
-- Sole proprietor LLC
-- Peter is a former consultant at **Unifocus** (workforce management software/consulting); left to go independent
-- PWS's expertise and methodology is grounded in the **Unifocus knowledge base**
-- **Client structure:**
-  - Separate clients, each with their own projects
-  - **Unifocus is itself a client** of PWS, and Unifocus has its own sub-clients, each with projects
-  - Projects can span multiple clients
-  - Some clients have projects under the Unifocus umbrella AND independent projects outside of it
-- Complexity: multi-level client/project hierarchy requires careful tracking
+- Sole proprietor LLC, established May 2024
+- Peter is a former Unifocus consultant; PWS expertise grounded in **Unifocus methodology and knowledge base**
+- **Rates:** $500/day remote | $600/day onsite | +$100 casino | $5,000/week (MHBR model)
+- **Rates context:** Unifocus charged clients ~$1,500/day for Peter — current rates are well below market; raise is a goal
+- **Confidentiality:** All PWS methodology, client details, and Unifocus architecture are proprietary — not for model training
+
+#### Client Hierarchy
+
+- Separate clients, each with their own projects
+- **Unifocus is itself a PWS client**, with its own sub-clients — each with projects
+- Projects can span multiple clients; some clients have Unifocus-umbrella projects AND independent projects
+
+#### Active Clients
+
+**Rosewood Miramar Beach** (Montecito, CA) — 🔴 Overdue/billable
+- Labor standards configuration overdue — start immediately
+- BQT file broken 1+ year; Anthony Weber contacted, Nattha following up
+- All outlets met Feb 16–20 except AMA Sushi and Spa — configure remotely
+- Pool & Beach: shift times still needed from Robinette Unpingco
+
+**Margaritaville Hollywood Beach Resort (MHBR)** — 🔴 Analysis overdue
+- Housekeeping savings analysis overdue for Genevieve Kelley (DOF)
+- Benchmark: .644 HPOR (2019 post-impl) vs .682 (2024 problem) = $101,000/year gap
+- ProfitSword export issue — call scheduled week of May 18
+- 1 week onsite training still owed; property recently offered to set dates
+
+**Mohonk Mountain House (MMH)** — 🟡 Active
+- Pushing back on unnecessary job code for call-in shifts
+- Open PO ~10 weeks; ~2 weeks remaining once F&B standards arrive
+- On-call main dining room server: Lou Petruzzelli green-lit, configure with James Danks
+
+**Baha Mar Campus** (Nassau) — 🟡 Significant billable work remaining
+- BQT mapping incomplete
+- KBI audit done May 9 — open issues documented
+- Rosewood missing resort total KBI suite; GH/SLS missing Local booking type (confirm intent)
+- Potential new direct client: Baha Mar casino operations
+
+**Unifocus Employment Opportunity**
+- Product Owner role under Priyanka Kalia (VP Product Management)
+- Call done May 12 — went well; compensation not yet discussed
+- Pete & Kim agreed: stay interested in case Kim's health requires benefits/stability
 
 ---
 
 ### BTTR — Back to the River, Inc.
 
-- Nonprofit organization
-- Peter is a **founding member** (~30 years) and helped incorporate BTTR in 2001
-- Became **President in November 2025**
-- **Active projects:**
-  - **Records Preservation**: gather, store, and assimilate 25+ years of records, meeting minutes, and communications
-  - **Bob Kerrey Pedestrian Bridge Coffee Table Book**: documenting a signature BTTR accomplishment
-  - **Lewis & Clark Monuments**: reviving an original BTTR project involving a series of monuments
-- **Governance needs:**
-  - Claude tracks board membership and stakeholders (both org-wide and per-project)
-  - **Urgent: BTTR desperately needs a Treasurer**
+- Nonprofit; Peter is founding member (~30 years) and helped incorporate in 2001
+- Became **President November 2025**
+- Claude tracks board membership and stakeholders (org-wide and per-project)
+
+**Active Projects:**
+- **Records Preservation** — gather, store, assimilate 25+ years of records, minutes, communications
+- **Bob Kerrey Pedestrian Bridge Coffee Table Book** — documenting a signature BTTR accomplishment
+- **Lewis & Clark Monuments** — reviving an original BTTR project, series of monuments
+
+**🔴 Urgent: Recruit Treasurer**
+- Karen Bluvas is Assistant Treasurer but does not want the Treasurer role
+- Open board position — can come from outside the organization
+- Potential candidate suggested by Gary DiSilvestro — follow up
+- **Remind Pete at every planning session**
 
 ---
 
-### New Hearts, Inc. — dba Nebraska Transplant Support Group
+### New Hearts, Inc. — dba Nebraska Transplant Support Group (NTSG)
 
-- Nonprofit organization
-- Peter is **Treasurer** (role is relatively new)
-- Peter is learning financial practices here that cross-apply to BTTR, and vice versa
-- Financial learnings are meant to be shared and synchronized across both nonprofits
+- Nonprofit; Peter is de facto Treasurer (Kim listed but inactive)
+- Peter is learning financial practices that cross-apply to BTTR, and vice versa
+- **🔴 Urgent: Engage Registered Agent** — vendor selected and board-approved; Pete must contact vendor, execute agreement, pay
+
+---
+
+### Pensacola Renovation (Father's Property)
+
+- Lindal Cedar Home — designed and built by father as a model home (he was a real estate agent)
+- **Renter:** garage access May 21, move-in June 1 — tight deadline
+- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed
+- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy)
+- **Cabinets/countertops:** Viva Designs (Everson); Interior designer Amanda Wade (recently more responsive)
+- **Sister Diane** collaborating on design — prepared document for Everson
+- **Decisions made:** New cabinets ✅, Sparkling White quartz countertops ✅, sink/faucet decided, faucet purchased and onsite
+- Pete onsite until renters move in
 
 ---
 
 ## Agent Architecture Goal
 
-Peter is building a **Chief of Staff agent** as a capstone project. The agent's purpose:
+Peter is building a **Chief of Staff agent** as a capstone project:
 - Monitor all organizational identities across ecosystems (Microsoft, Google, Apple)
 - Surface responsibilities, deadlines, and action items proactively
 - Coordinate subordinate agents (one per organization or domain)
-- Prevent anything from falling through the cracks across PWS, BTTR, New Hearts, photography, eBay, and father's POA
-
-This is an active learning project. Claude is a collaborator in designing and building this architecture.
+- Prevent anything from falling through the cracks: PWS, BTTR, NTSG, Photography, eBay, Father's POA
 
 ---
 
-## Working Conventions
+## Working Conventions & Preferences
 
-- Single repo for now; may expand to per-organization repos later
-- Inventory tech stack and identities incrementally as we work
-- When Claude learns something new and persistent about Peter's context, suggest adding it here
-- Check this file with `/memory` if instructions seem stale
+- **Always start sessions** with current date and time — Claude has no live clock
+- **Morning planning + evening wrap-up** is the daily rhythm
+- **Voice first:** Thinks faster than types. Voice Memos → transcript → paste to Claude is preferred for stream-of-consciousness capture
+- **Billable work:** Log in Clockify. Narrate work to Claude simultaneously to build knowledge base
+- **File naming:** `yyyy_mmdd Description` (e.g., `2026_0512 Contacts Export.csv`)
+- **Writing style:** Prose for planning conversations; structured lists for to-dos
+- **Tangent-prone:** Claude should gently redirect to billable priorities
+- **Contacts:** Monthly CSV export from personal Outlook → wipe → import to Unifocus → upload to Claude
+
+---
+
+## Goals & What Pete Is Building Toward
+
+- **PWS growth:** More direct client relationships; raise rates toward market value
+- **Longevity:** 99 years old, get up from chair under own power, walk unassisted. Foundations: sleep, diet, exercise, social support
+- **Kim's book:** Convince Kim to write her story — reluctant but story is extraordinary; New York Post story pending may be catalyst
+- **Pete's book:** Gratitude as starting point (the WHY to complement Atomic Habits' HOW); AI as journal may be the path
+- **Baha Mar tool:** Build Claude artifact — BQT mapping completeness checker
+- **Health dashboard:** Apple Health export → Claude personal body composition dashboard
+- **AI as journal:** Voice Memos → transcript → Claude → organized reflection (ongoing workflow to develop)
+
+---
+
+## Recurring Reminders
+
+| Cadence | Task |
+|---|---|
+| Every session | Start with date & time |
+| Every planning session | Remind Pete to recruit BTTR Treasurer |
+| 10th/11th monthly | Pay father's bills |
+| Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
+| Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |
+| Early October 2026 | Request mail-in ballot for November general election |
+| October 2026 | Father's tax return deadline (involves PenAir details and cost basis for house) |
 
 ---
 
 ## Open Items / Known Gaps
 
-- [ ] Ecosystem assignments for BTTR, New Hearts, Photography, eBay, Father's POA
+- [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working
+- [ ] Rosewood Miramar: Is Local booking type intentionally absent at GH and SLS?
+- [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
+- [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?
+- [ ] MHBR: Which jobs were included in the original .644 HPOR benchmark?
+- [ ] Pensacola: Monitor progress toward June 1 move-in
+- [ ] Pensacola: Confirm Pete's travel dates and book return travel home
+- [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
+- [ ] Craig Taylor — not yet added to Outlook contacts
+- [ ] Father's taxes — details TBD, October deadline (PenAir details, cost basis for house)
+- [ ] Priyanka Kalia — compensation discussion still needed, pending offer
+- [ ] Kim's book — still need more conversation
+- [ ] PWS rates — should be raised, timing TBD
+- [ ] BTTR Treasurer — Gary DiSilvestro suggested a potential candidate; follow up
+- [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
+- [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA
 - [ ] Full tech stack inventory
-- [ ] Client list for PWS (to be built out separately)
 - [ ] Board member roster for BTTR
-- [ ] Treasurer search strategy for BTTR
 - [ ] Agent architecture design sessions (ongoing)
