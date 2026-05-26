@@ -61,19 +61,36 @@ Delphi is the Event Management System used for banquet/event management. Banquet
 ### 🔴 KBI Calculation Error — SLS (KBI 8021 Missing)
 **Ticket:** UNIFOCUS-247305
 **Reported:** May 26, 2026
-**Status:** Active — Pete investigating
+**Status:** 🔴 Root cause identified — fix in progress
 
-**What happened:**
-- KBI formula at SLS references KBI 8021, which does not exist
-- This causes the Calculate KBIs task to fail
-- Audit shows changes around 05/14 but no record of changes to KBI 8021 itself
-- Task ran cleanly through period ending 05/24
-- Period ending 05/31 had no forecast entered — task never ran, issue not triggered
-- Period ending 06/07: forecast entered, task ran, error surfaced
+**Root cause (from audit):**
+On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#8021` → `#7821`. At least one formula (most likely the SLS Stayovers KBI) still references `##8021` — the old code that no longer exists. This causes the Calculate KBIs task to fail whenever it runs.
 
-**Pete's plan:** Investigate the stayover KBI formula, correct or add the formula, report back to Ahmed and Val.
+**Why it surfaced now:** The task only runs when a forecast has been entered. No forecast was entered for the period ending 05/31, so the error was not triggered until the week ending 06/07 forecast was submitted.
 
-**People affected:** Val (Valquir Correa), Gia Turnquest, Adriel Marshall, Lolita Marshall, Christian Laskaros
+**Fix:** Find the formula(s) referencing `##8021` and update to `##7821` (or the correct current SLS arrivals KBI code). Rerun Calculate KBIs to confirm.
+
+**Full 5/14 session audit:**
+
+| Time | KBI | Change |
+|---|---|---|
+| 8:15 PM | Resort TTl Arrivals | Code changed #8021 → #7821 ← **root cause** |
+| 9:43 PM | GH Hotel Stayovers | Fixed incomplete formula: added `##7004[0]` (departures component) |
+| 10:01 PM | Rosewood 06. Stayovers | Added new KBI |
+| 10:03 PM | Resort TTL Stayovers | Added Rosewood (##9006[0]); caught and fixed syntax error in same edit |
+| 10:10–13 PM | Rosewood 05. Occ. Rms. Yesterday | Added; changed type I → C; renamed |
+| 10:14 PM | Rosewood 06. Stayovers | Updated formula from `##9001[-1] - ##9004[0]` to `##9005[0] - ##9004[0]` |
+
+**KBI numbering pattern (Baha Mar):**
+
+| Range | Property |
+|---|---|
+| ##1xxx | SLS |
+| ##7xxx | Grand Hyatt |
+| ##78xx | Resort totals (after renumbering) |
+| ##9xxx | Rosewood |
+
+**Formula syntax note:** `[-1]` = yesterday's value of that KBI. `[0]` = today's value. Using a dedicated "Occ. Rms. Yesterday" KBI (type C) with `[0]` is cleaner than `[-1]` references when the KBI needs to be visible in reporting.
 
 ---
 
