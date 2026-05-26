@@ -245,4 +245,8 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Full tech stack inventory
 - [ ] Board member roster for BTTR
 - [ ] Agent architecture design sessions (ongoing)
-- [ ] Class action settlements — check if Pete is a party and entitled to claim. Start with Krispy Kreme (June 2026 deadline). Build habit of checking these periodically.
+- [ ] **Krispy Kreme settlement** — $75–$3,500. Data breach Nov 2024. Check if you received a breach notification email. File at settlement website. **Deadline: June 26, 2026**
+- [ ] **Apple iPhone settlement** — $25–$95/device. Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice.
+- [ ] **Capital One 360 Savings settlement** — Had a Capital One 360 Savings account Sept 2019–June 2025? Auto-payment July 2027 if eligible — confirm account history.
+- [ ] **Blue Cross Blue Shield settlement** — Had BCBS coverage 2008–2020? New claims closed (Nov 2021 deadline passed). If you filed then, payment due May 2026 — check if received.
+- [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
