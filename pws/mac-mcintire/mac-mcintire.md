@@ -7,8 +7,8 @@ Last updated: 2026-05-27
 ## Who Is Mac McIntire
 
 **Full name:** Mac McIntire
-**Born:** October 26, 1953 *(unverified — from conversation notes; no obituary located)*
-**Died:** November 2023 *(confirmed by IMG website tribute; exact date unverified)*
+**Born:** October 26, 1953
+**Died:** November 30, 2023 — cancer, age 70
 **Company:** Innovative Management Group (IMG)
 **Website:** imglv.com | mac@imglv.com | 702-592-6431
 **Address:** 3321 Calle Del Torre, Las Vegas, NV 89102 *(Las Vegas; later moved to Wyoming)*
@@ -28,6 +28,10 @@ Last updated: 2026-05-27
 **Education:** BA, Education, History, Journalism, Public Relations — Brigham Young University, 1975–1978. VP Student Development; Editor of Daily Universe Newspaper.
 
 **LinkedIn:** https://www.linkedin.com/in/macmcintire/ | https://www.linkedin.com/company/innovative-management-group/
+
+**Family contact:** Nadine McIntire — nadinemcintire@yahoo.com — 3321 Calle Del Torre, Las Vegas, NV 89102
+
+**Funeral service:** Saturday, December 9, 2023, noon — The Church of Jesus Christ of Latter-day Saints, 3400 W Charleston Ave, Las Vegas, NV
 
 ---
 
