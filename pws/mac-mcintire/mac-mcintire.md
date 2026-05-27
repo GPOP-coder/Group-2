@@ -42,6 +42,11 @@ Last updated: 2026-05-27
 - Pete paid for the Manager's Toolkit consulting course — Mac later said Pete was the only paying student and offered a refund; Pete declined
 - Pete and Mac discussed Pete joining or taking over Innovative Management Group; could not determine a value for the company without Mac
 
+**Voicemail from Nadine McIntire — December 1, 2023, 10:13 AM:**
+> "Hello Pete this is Nadine McIntyre I'm sorry to leave this message on your voicemail but Mac wanted me to call you and let you know that he passed away yesterday morning and he wanted me to tell you how very much he appreciated and enjoyed your friendship and that he loved you dearly his funeral will be Saturday, December 9 and this friend is going to broadcast live on YouTube and it'll be posted there if you wanna watch it sometime again I'm sorry to do this on voicemail"
+
+*Mac passed away November 30, 2023. One of his last acts was to ask Nadine to call Pete.*
+
 **Pete's description of the relationship:**
 > "If I have the science of business, Mac had the religion. He had few handouts. I leave behind systems."
 
