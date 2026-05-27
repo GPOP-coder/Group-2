@@ -180,12 +180,13 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 - **Address:** 5577 North Shore Way, Pensacola FL
 - Lindal Cedar Home — post and beam, premium Western red cedar; designed and built by father as a model home (he was a real estate agent)
-- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, move-in June 1; 24-month lease
-- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed
-- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing
-- **Cabinets/countertops:** Viva Designs (Everson Silva); Interior designer Amanda Wade (recently more responsive); Everson owns cabinet install through countertop completion including sink setting
+- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, move-in June 1; 24-month lease — **delay being initiated; countertop install earliest June 1**
+- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed; Pete texted re: how to handle renter delay
+- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing; Jeremy on site May 27 measuring for painters
+- **Cabinets/countertops:** Viva Designs (Everson Silva); on site May 27 finishing trim, outlet boxes; countertop quote still pending — 3 options coming: Sparkling White quartz, Level 1 quartz, granite
 - **Sister Diane** collaborating on design — prepared document for Everson
-- **Decisions made:** New cabinets ✅, Sparkling White quartz countertops ✅, sink/faucet decided, faucet purchased and onsite
+- **Decisions made:** New cabinets ✅, sink/faucet decided, faucet purchased and onsite
+- **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - Pete onsite through June 1
