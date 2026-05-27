@@ -7,17 +7,27 @@ Last updated: 2026-05-27
 ## Who Is Mac McIntire
 
 **Full name:** Mac McIntire
+**Born:** October 26, 1953 *(unverified — from conversation notes; no obituary located)*
+**Died:** November 2023 *(confirmed by IMG website tribute; exact date unverified)*
 **Company:** Innovative Management Group (IMG)
 **Website:** imglv.com | mac@imglv.com | 702-592-6431
-**Address:** 3321 Calle Del Torre, Las Vegas, NV 89102
+**Address:** 3321 Calle Del Torre, Las Vegas, NV 89102 *(Las Vegas; later moved to Wyoming)*
 **Founded:** 1990
-**Status:** Deceased — 2023 (approximate)
+**Status:** Deceased — November 2023
 
 **Specialties:** Strategic planning, management development, organizational development, customer service, cultural change, executive coaching, leadership training, process improvement.
 
+**Career:** 35+ years in training and organizational development. Consulted with Global 500 companies worldwide.
+
+**Notable engagements:**
+- Facilitated the team that repaired the Hubble Space Telescope
+- American Express Travelers Cheque corporate HQ relocation to Salt Lake City
+- Southern California Edison — redesigned the electric distribution business line
+- $120 million energy efficiency company startup in Los Angeles
+
 **Education:** BA, Education, History, Journalism, Public Relations — Brigham Young University, 1975–1978. VP Student Development; Editor of Daily Universe Newspaper.
 
-**LinkedIn:** https://www.linkedin.com/company/innovative-management-group/
+**LinkedIn:** https://www.linkedin.com/in/macmcintire/ | https://www.linkedin.com/company/innovative-management-group/
 
 ---
 
@@ -47,6 +57,8 @@ Prior to his passing, Mac sent Pete his entire body of work — all articles, id
 ## Company Succession — Paul Welling
 
 Mac ultimately reached an agreement with **Paul Welling** to will him the company (copyright, company name, website). Paul has more social and religious alignment with Mac.
+
+**Welling EntreP:** Paul finalized the acquisition of IMG and incorporated it into his consulting business, **Welling EntreP** — a Wyoming-based consulting and training firm. IMG now operates as part of Welling EntreP. Website imglv.com remains active under Paul's ownership.
 
 **Pete and Paul's relationship:**
 - Had conversations before and after Mac's passing
