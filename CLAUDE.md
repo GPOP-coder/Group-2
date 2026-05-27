@@ -259,7 +259,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Pensacola: Monitor progress toward June 1 move-in
 - [ ] Pensacola: Confirm Pete's travel dates and book return travel home
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
-- [ ] Craig Taylor — not yet added to Outlook contacts
+- [x] Craig Taylor — added to Outlook contacts
 - [ ] Father's taxes — details TBD, October deadline (PenAir details, cost basis for house)
 - [ ] Priyanka Kalia — compensation discussion still needed, pending offer
 - [ ] Kim's book — still need more conversation
@@ -275,5 +275,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Capital One 360 Savings settlement** — Had a Capital One 360 Savings account Sept 2019–June 2025? Auto-payment July 2027 if eligible — confirm account history.
 - [ ] **Blue Cross Blue Shield settlement** — Had BCBS coverage 2008–2020? New claims closed (Nov 2021 deadline passed). If you filed then, payment due May 2026 — check if received.
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
-- [ ] **At PC: Add Nadine McIntire to Outlook contacts** — nadinemcintire@yahoo.com | 3321 Calle Del Torre, Las Vegas NV 89102 | Mac's wife; offered condolences after funeral; plan to report back when Mac's work is deployed with a client
 - [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
