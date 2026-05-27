@@ -276,4 +276,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Blue Cross Blue Shield settlement** — Had BCBS coverage 2008–2020? New claims closed (Nov 2021 deadline passed). If you filed then, payment due May 2026 — check if received.
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
 - [ ] **At PC: Add Nadine McIntire to Outlook contacts** — nadinemcintire@yahoo.com | 3321 Calle Del Torre, Las Vegas NV 89102 | Mac's wife; offered condolences after funeral; plan to report back when Mac's work is deployed with a client
-- [ ] **At PC: Review Google privacy post** — draft text about Google data collection / Gemini Spark running in background; decide whether to post and where
+- [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
