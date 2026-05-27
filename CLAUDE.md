@@ -269,6 +269,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?
 - [ ] MHBR: Which jobs were included in the original .644 HPOR benchmark?
+- [ ] **Baha Mar Casino** — contact Clay Price and Ed Peek re: Unifocus closing a deal; Pete likely doing the implementation
 - [ ] Pensacola: Monitor progress toward move-in — countertop install earliest June 4; coordinate renter delay with John Hallam
 - [ ] Pensacola: Confirm Pete's travel dates and book return travel home
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
