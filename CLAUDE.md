@@ -23,7 +23,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 | Person | Relationship | Notes |
 |---|---|---|
 | Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. |
-| Tamara Holland | Kim's donor's mother | Kristian's mother. Contact shared. Gift sent (heartbeat bear). |
+| Tamara Holland | Kim's donor's mother | Kristian Nicole Holland's mother — raising all 5 of Kristian's children (ages 4-14) plus her own 4 kids. hollandtamara@yahoo.com \| (316) 806-7316 \| 717 Lexington Rd, Wichita KS 67218. Gift sent: heartbeat bear with Kim's heartbeat recording. |
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
 | William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
@@ -99,6 +99,11 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Rates:** $500/day remote | $600/day onsite | +$100 casino | $5,000/week (MHBR model)
 - **Rates context:** Unifocus charged clients ~$1,500/day for Peter — current rates are well below market; raise is a goal
 - **Confidentiality:** All PWS methodology, client details, and Unifocus architecture are proprietary — not for model training
+- **Non-compete carve-outs** (from Unifocus contract — Pete may serve these as direct PWS clients):
+  - CTF BM Operations d/b/a Rosewood
+  - CTF BM Operations d/b/a Baha Mar
+  - Happy Hour Lessee LLC d/b/a Margaritaville Hollywood Beach Resort
+  - Davidson Hotel Company LLC d/b/a Davidson Hospitality Group
 
 #### Client Hierarchy
 
@@ -183,6 +188,17 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 ---
 
+## Agile for Defense
+
+- Local professional community centered around Offutt AFB and Sarpy County — defense contractors, developers, project managers, Agile practitioners
+- **Pete's value:** Learning AI/Claude, vibe coding, practical tech applications. Networking. Employment safety net.
+- **Organizer:** Darin Plum
+- **Format:** Monthly happy hour, typically hosted by a sponsor (TEKsystems) at a brewery
+- Pete joined ~1.5–2 years ago
+- May 6, 2026 meeting: Kros Strain Brewing, La Vista — Pete met **Craig Taylor** (still needs to be added to Outlook contacts)
+
+---
+
 ## Agent Architecture Goal
 
 Peter is building a **Chief of Staff agent** as a capstone project:
@@ -225,7 +241,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 |---|---|
 | Every session | Start with date & time |
 | Every planning session | Remind Pete to recruit BTTR Treasurer |
-| 10th/11th monthly | Pay father's bills |
+| 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
 | Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
 | Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |
 | Early October 2026 | Request mail-in ballot for November general election |
