@@ -1,13 +1,15 @@
 # Peter Castellano — Claude Code Context
 
-Loads at the start of every session. Keep current. Last updated: 2026-05-26
+Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 ---
 
 ## About Peter
 
 - **Pete Castellano** — Bellevue, NE | (402) 669-0643
-- Oldest of 4 siblings, Navy brat, married to **Kimberly Kae Castellano** since October 8, 1988
+- Navy brat, political operative, casino workforce strategist, nonprofit founder, eBay seller, grandfather — and a man actively building a personal philosophy about gratitude, value, and intentional living
+- **Core philosophy:** Gratitude is not a destination — it is a starting point. Radical acceptance of the present. Embrace the past. Choose the future. The WHY that complements the HOW of Atomic Habits.
+- Oldest of 4 siblings, married to **Kimberly Kae Castellano** since October 8, 1988
 - Power of Attorney for father **William Castellano**, age 90 — retired Navy Commander, 100% VA disabled
   - Manages all father's finances, accounts, and bills (due 10th/11th monthly)
   - Father currently in Orlando (near sister Camille) during Pensacola home renovation; official residence remains Pensacola
@@ -20,7 +22,8 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 
 | Person | Relationship | Notes |
 |---|---|---|
-| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. |
+| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. |
+| Tamara Holland | Kim's donor's mother | Kristian's mother. Contact shared. Gift sent (heartbeat bear). |
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
 | William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
@@ -114,7 +117,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 **Margaritaville Hollywood Beach Resort (MHBR)** — 🔴 Analysis overdue
 - Housekeeping savings analysis overdue for Genevieve Kelley (DOF)
 - Benchmark: .644 HPOR (2019 post-impl) vs .682 (2024 problem) = $101,000/year gap
-- ProfitSword export issue — call scheduled week of May 18
+- ProfitSword export issue — call scheduled week of May 18 (Genevieve Kelley, Jackelyn Schafer, John Grech)
 - 1 week onsite training still owed; property recently offered to set dates
 
 **Mohonk Mountain House (MMH)** — 🟡 Active
@@ -131,6 +134,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 
 **Unifocus Employment Opportunity**
 - Product Owner role under Priyanka Kalia (VP Product Management)
+- John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return
 - Call done May 12 — went well; compensation not yet discussed
 - Pete & Kim agreed: stay interested in case Kim's health requires benefits/stability
 
@@ -165,14 +169,17 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-26
 
 ### Pensacola Renovation (Father's Property)
 
-- Lindal Cedar Home — designed and built by father as a model home (he was a real estate agent)
-- **Renter:** garage access May 21, move-in June 1 — tight deadline
+- **Address:** 5577 North Shore Way, Pensacola FL
+- Lindal Cedar Home — post and beam, premium Western red cedar; designed and built by father as a model home (he was a real estate agent)
+- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, move-in June 1; 24-month lease
 - **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed
-- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy)
-- **Cabinets/countertops:** Viva Designs (Everson); Interior designer Amanda Wade (recently more responsive)
+- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing
+- **Cabinets/countertops:** Viva Designs (Everson Silva); Interior designer Amanda Wade (recently more responsive); Everson owns cabinet install through countertop completion including sink setting
 - **Sister Diane** collaborating on design — prepared document for Everson
 - **Decisions made:** New cabinets ✅, Sparkling White quartz countertops ✅, sink/faucet decided, faucet purchased and onsite
-- Pete onsite until renters move in
+- **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
+- **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
+- Pete onsite through June 1
 
 ---
 
@@ -205,6 +212,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - **Longevity:** 99 years old, get up from chair under own power, walk unassisted. Foundations: sleep, diet, exercise, social support
 - **Kim's book:** Convince Kim to write her story — reluctant but story is extraordinary; New York Post story pending may be catalyst
 - **Pete's book:** Gratitude as starting point (the WHY to complement Atomic Habits' HOW); AI as journal may be the path
+- **Stuff philosophy / book:** Objects, value, togetherness, and letting go. The Plates, The Red Couch, The Single Sock Paradox, The Community. Photography as memory storage. "The memory isn't in the plate." Writing itself through conversation.
 - **Baha Mar tool:** Build Claude artifact — BQT mapping completeness checker
 - **Health dashboard:** Apple Health export → Claude personal body composition dashboard
 - **AI as journal:** Voice Memos → transcript → Claude → organized reflection (ongoing workflow to develop)
