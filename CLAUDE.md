@@ -180,10 +180,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 - **Address:** 5577 North Shore Way, Pensacola FL
 - Lindal Cedar Home — post and beam, premium Western red cedar; designed and built by father as a model home (he was a real estate agent)
-- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, move-in June 1; 24-month lease — **delay being initiated; countertop install earliest June 1**
-- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed; Pete texted re: how to handle renter delay
+- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, original move-in June 1; 24-month lease — **move-in delayed; countertop install earliest June 4; working plan with John Hallam**
+- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed; Pete texted re: renter delay plan (June 4 countertop install)
 - **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing; Jeremy on site May 27 measuring for painters
-- **Cabinets/countertops:** Viva Designs (Everson Silva); on site May 27 finishing trim, outlet boxes; countertop quote still pending — 3 options coming: Sparkling White quartz, Level 1 quartz, granite
+- **Cabinets/countertops:** Viva Designs (Everson Silva); on site May 27 finishing trim, outlet boxes; countertop quote still pending — 3 options coming: Sparkling White quartz, Level 1 quartz, granite — **install earliest June 4 regardless of material selection**
 - **Sister Diane** collaborating on design — prepared document for Everson
 - **Decisions made:** New cabinets ✅, sink/faucet decided, one faucet purchased and onsite (second unopened — return it)
 - **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
@@ -269,7 +269,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?
 - [ ] MHBR: Which jobs were included in the original .644 HPOR benchmark?
-- [ ] Pensacola: Monitor progress toward June 1 move-in
+- [ ] Pensacola: Monitor progress toward move-in — countertop install earliest June 4; coordinate renter delay with John Hallam
 - [ ] Pensacola: Confirm Pete's travel dates and book return travel home
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
 - [x] Craig Taylor — added to Outlook contacts
