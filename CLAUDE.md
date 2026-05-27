@@ -76,7 +76,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor; currently at Pensacola apartment/Airbnb
 - **Lenovo Yoga** — portable/travel machine; current machine (at father's house, Pensacola)
 - **Git for Windows 2.54.0** — installed on Lenovo Yoga May 27, 2026
-- **Claude Code CLI** — installing on Lenovo Yoga May 27, 2026
+- **Claude Code CLI 2.1.152** — installed on Lenovo Yoga May 27, 2026
+- **Visual Studio Code** — installing on Lenovo Yoga May 27, 2026; Claude Code runs inside VS Code as primary interface
+- **Windows Terminal** — modern terminal replacement for PowerShell default
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
