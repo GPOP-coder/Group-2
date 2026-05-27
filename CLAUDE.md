@@ -27,9 +27,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
 | William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
-| Camille | Sister | Orlando FL |
+| Camille | Sister | Orlando FL — twin with Tom |
+| Tom (Tommy) Castellano | Brother | Twin with Camille. Handled early renter correspondence for Pensacola property. |
 | Diane Yarborough | Sister | NC, youngest sibling |
-| Third sibling | Sibling | Name TBD |
 
 ---
 
@@ -185,11 +185,19 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing; Jeremy on site May 27 measuring for painters
 - **Cabinets/countertops:** Viva Designs (Everson Silva); on site May 27 finishing trim, outlet boxes; countertop quote still pending — 3 options coming: Sparkling White quartz, Level 1 quartz, granite
 - **Sister Diane** collaborating on design — prepared document for Everson
-- **Decisions made:** New cabinets ✅, sink/faucet decided, faucet purchased and onsite
-- **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received)
+- **Decisions made:** New cabinets ✅, sink/faucet decided, one faucet purchased and onsite (second unopened — return it)
+- **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
+- **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
 - Pete onsite through June 1
+
+**USAA Claim:**
+- Claim filed for renovation/storm damage
+- **RCV (Replacement Cost Value):** $33,651.71
+- **Net payout (after deductible):** $31,651.71
+- **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
+- Tommy Castellano handled early renter correspondence before Pete took over
 
 ---
 
@@ -281,3 +289,5 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Blue Cross Blue Shield settlement** — Had BCBS coverage 2008–2020? New claims closed (Nov 2021 deadline passed). If you filed then, payment due May 2026 — check if received.
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
 - [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
+- [ ] **Pensacola: File USAA loss of rent supplement** after project completion — gather: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease from John Hallam. Supplement claim covers rent from moment of loss through project completion.
+- [ ] **Pensacola: Return second (unopened) kitchen faucet** — one installed, one backup to return
