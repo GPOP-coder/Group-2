@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-05-26
+Last updated: 2026-05-28
 
 ---
 
@@ -57,9 +57,41 @@ Last updated: 2026-05-26
 
 ---
 
+## Tickets
+
+| Ticket | Subject | Status |
+|---|---|---|
+| UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
+
+---
+
 ## Active Issues
 
-### Incomplete / Short Shifts — Main Dining Room Server
+### 🔴 Shifts Not Generating — Founders Outlet
+**Ticket:** UNIFOCUS-247559
+**Reported by:** James Danks — May 28, 2026
+**Participants:** Pete Castellano, Susanna Briggs, bron@mohonk.com
+**Status:** 🔴 Open — not yet diagnosed
+
+**Issue:** System is not generating shifts for four Founders positions:
+- Founders Head Runner
+- Founders Runner
+- Founders Head Host
+- Founders Host
+
+Forecast counts are being entered, so the trigger condition is met — the system should be producing shifts. It is not.
+
+**Likely diagnostic areas:**
+- Standards may not be configured for these job codes (no standard = no shift generation)
+- Standards may exist but have zero or missing volume thresholds
+- Outlet or department may be inactive or misconfigured
+- Forecast may be entering to the wrong KBI
+
+**Next step:** Pete to investigate configuration for Founders outlet job codes
+
+---
+
+### ✅ Incomplete / Short Shifts — Main Dining Room Server
 **Reported by:** James Danks, May 25, 2026
 **Job:** `2 - Food and Beverage\Dining Room - Main\Server`
 **Status:** ✅ Resolved — May 26, 2026
