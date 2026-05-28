@@ -90,9 +90,11 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 **Diagnostic progress (May 28):**
 - Standards ARE built for the affected positions — configuration exists
 - Founders Server works correctly — using it as the comparison baseline
-- Investigating: which KBI drives each position and whether the non-generating positions reference the same KBI or a different one
+- Investigated KBI references and standard settings — no obvious configuration error found
+- **Pete's assessment:** Legitimate Unifocus bug — no configuration reason for the failure; compounds James' existing frustrations
+- **Escalated to Susanna Briggs via Teams** with Jira link: https://ufjira.atlassian.net/browse/UNIFOCUS-247559
 
-**Next step:** Pete to investigate configuration for Founders outlet job codes
+**Status:** ⏳ In Unifocus hands — Pete cannot resolve from the configuration side
 
 ---
 
