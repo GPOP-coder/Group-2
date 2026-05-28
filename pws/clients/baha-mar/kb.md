@@ -159,7 +159,25 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 | May 13 | CTF | 57. Rosewood Occupancy Yesterday | #8007 | Calculated | `##8001[-1]` | ✅ Done |
 | May 13 | CTF | 58. Rosewood Stayovers | #8010 | Calculated | `##8007[0]-##8005[0]` | ✅ Done |
 
+<<<<<<< HEAD
 ### 5/14/26 Session Audit (root cause of UNIFOCUS-247305)
+=======
+**Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
+
+**How the issue surfaced:**
+- Adriel Marshall (SLS Revenue Management) reported multiple failed attempts to update Unifocus forecast
+- Gia Turnquest (SLS Finance) escalated; Valquir Correa raised support ticket UNIFOCUS-247305
+- Ahmed Chadid diagnosed root cause: broken KBI formula referencing non-existent #8021
+- Workaround during outage: teams manually adjusting forecasts and inputting covers
+
+**Pete's contributions to resolution:**
+- Provided broader system context — cross-property KBI development, Rosewood database integration
+- Identified potential stayover logic discrepancies at SLS (separate from the #8021 issue)
+- Proposed dummy BEO file solution ("1975 trick") for full mapping visibility
+- Requested Delphi admin access for SLS and GH — Valquir agreed to connect appropriate administrators
+
+**Full 5/14 session audit:**
+>>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5
 
 | Time | KBI | Change |
 |---|---|---|
@@ -326,6 +344,7 @@ Banquet files for all three properties are imported into all four properties. Ma
 4. Delete the dummy file — does not affect any past or future planning weeks
 5. Complete the mapping with all combinations now visible
 
+<<<<<<< HEAD
 **Status:** Awaiting EMS admin contacts for SLS and GH
 
 ### Mapping Rules
@@ -355,6 +374,26 @@ Banquet files for all three properties are imported into all four properties. Ma
 | CTF resort total formula updates | RW banquet KBIs at CTF not yet built |
 | Tastings decision (roll into Ttl or standalone) | Pete decision pending |
 | INHS mapping | Research pending |
+=======
+**Status:** ⏳ Awaiting EMS admin contacts for SLS and GH — Valquir Correa agreed to identify and connect appropriate Delphi administrators for both properties
+
+**Delphi coordination status:**
+- Rosewood: separate companywide Delphi instance — coordination with corporate administrator underway
+- SLS + Grand Hyatt: Valquir Correa connecting Pete with the appropriate administrators
+
+---
+
+## Remaining Actions
+
+| Action | Owner | Status |
+|---|---|---|
+| Complete KBI builds across all properties | Pete | ⏳ In progress |
+| Execute dummy BEO import ("1975 trick") | Pete | ⏳ Pending Delphi access |
+| Validate calculations across all properties including Rosewood | Pete | ⏳ Pending |
+| Connect SLS Delphi administrator | Valquir Correa | ⏳ Pending |
+| Connect GH Delphi administrator | Valquir Correa | ⏳ Pending |
+| Rosewood Delphi coordination | Corporate admin | ⏳ Underway |
+>>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5
 
 ---
 
@@ -365,9 +404,12 @@ Banquet files for all three properties are imported into all four properties. Ma
 - [ ] Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Are Cocktail and Full Reception intentionally absent at GH and SLS?
 - [ ] What does SLS "Boat & Airline" event type map to?
+<<<<<<< HEAD
 - [ ] Tastings — roll into Ttl Lunch or remain standalone?
 - [ ] INHS — confirm maps to Local at source property
 - [ ] Wild-west KBIs at Rosewood (Breakout, General Session, etc.) — cleanup plan?
 - [ ] CTF Breakfast Available Guests formula — verify correct
 - [ ] Val to connect Pete with EMS administrators for SLS and GH
 - [ ] What are the correct RW Avail Guests codes at GH (needed for #7825–7827 update)?
+=======
+>>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5

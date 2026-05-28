@@ -27,9 +27,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
 | William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
-| Camille | Sister | Orlando FL |
+| Camille | Sister | Orlando FL — twin with Tom |
+| Tom (Tommy) Castellano | Brother | Twin with Camille. Handled early renter correspondence for Pensacola property. |
 | Diane Yarborough | Sister | NC, youngest sibling |
-| Third sibling | Sibling | Name TBD |
 
 ---
 
@@ -76,7 +76,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor; currently at Pensacola apartment/Airbnb
 - **Lenovo Yoga** — portable/travel machine; current machine (at father's house, Pensacola)
 - **Git for Windows 2.54.0** — installed on Lenovo Yoga May 27, 2026
-- **Claude Code CLI** — installing on Lenovo Yoga May 27, 2026
+- **Claude Code CLI 2.1.152** — installed on Lenovo Yoga May 27, 2026
+- **Visual Studio Code** — installing on Lenovo Yoga May 27, 2026; Claude Code runs inside VS Code as primary interface
+- **Windows Terminal** — modern terminal replacement for PowerShell default
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
@@ -178,15 +180,30 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 - **Address:** 5577 North Shore Way, Pensacola FL
 - Lindal Cedar Home — post and beam, premium Western red cedar; designed and built by father as a model home (he was a real estate agent)
-- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, move-in June 1; 24-month lease
-- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed
-- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing
-- **Cabinets/countertops:** Viva Designs (Everson Silva); Interior designer Amanda Wade (recently more responsive); Everson owns cabinet install through countertop completion including sink setting
+- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, original move-in June 1; 24-month lease — **move-in delayed; countertop install earliest June 4; working plan with John Hallam**
+- **Renter delay plan (via John):** Proposed deal — move in June 1 with known limited/no kitchen. No rent for half a month. Kitchen status at move-in: no countertop, no sink, no water to fridge, refrigerator and microwave uncertain. All wiring off or safely terminated. Context: original deal already anticipated possible cabinet doors/drawer fronts missing if refinished — partial kitchen not a surprise, just a different limitation. **Hartlaubs confirmed: moving in June 1, will tolerate no kitchen.**
+- **Pre-move-in work (confirmed with Jeremy):** Paint hall and bedrooms; add waterline box; secure all electrical (wired to correct outlet boxes or powered off at fuse box). **$6,500 change order — Jeremy sending tomorrow.** Renters know: no sink, no dishwasher, some power questionable.
+  - **Electrical:** In scope of USAA claim — Paul Davis/Jeremy negotiate directly with USAA as GC; already being paid for electrical through that channel. Pete does not manage this portion.
+  - **Painting (hall + bedrooms):** Pete's elective addition — out of pocket. Practical while rooms are empty and painters on site; ceilings are full post-and-beam height, cedar needs protection. Not in original scope.
+  - **Waterline box:** Pete's elective addition — out of pocket. New improvement; previously just a bare copper line through drywall.
+  - **Note:** Paul Davis handles all contractor-side USAA supplements directly. Pete's separate USAA action is the loss-of-rent supplement (filed after project completion).
+- **Property manager:** John Hallam, Perdido Key Resort Realty — management agreement signed; Pete texted re: renter delay plan (June 4 countertop install)
+- **Contractor:** Paul Davis Emerald Coast (PM: Jeremy) — owns drywall, painting, plumbing; Jeremy on site May 27 measuring for painters
+- **Cabinets/countertops:** Viva Designs (Everson Silva); on site May 27 finishing trim, outlet boxes; countertop quote still pending — 3 options coming: Sparkling White quartz, Level 1 quartz, granite — **install earliest June 4 regardless of material selection**
 - **Sister Diane** collaborating on design — prepared document for Everson
-- **Decisions made:** New cabinets ✅, Sparkling White quartz countertops ✅, sink/faucet decided, faucet purchased and onsite
+- **Decisions made:** New cabinets ✅, sink/faucet decided, one faucet purchased and onsite (second unopened — return it)
+- **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
+- **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
 - Pete onsite through June 1
+
+**USAA Claim:**
+- Claim filed for renovation/storm damage
+- **RCV (Replacement Cost Value):** $33,651.71
+- **Net payout (after deductible):** $31,651.71
+- **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
+- Tommy Castellano handled early renter correspondence before Pete took over
 
 ---
 
@@ -258,7 +275,8 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?
 - [ ] MHBR: Which jobs were included in the original .644 HPOR benchmark?
-- [ ] Pensacola: Monitor progress toward June 1 move-in
+- [ ] **Baha Mar Casino** — contact Clay Price and Ed Peek re: Unifocus closing a deal; Pete likely doing the implementation
+- [ ] Pensacola: Monitor progress toward move-in — countertop install earliest June 4; coordinate renter delay with John Hallam
 - [ ] Pensacola: Confirm Pete's travel dates and book return travel home
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
 - [x] Craig Taylor — added to Outlook contacts
@@ -278,3 +296,5 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Blue Cross Blue Shield settlement** — Had BCBS coverage 2008–2020? New claims closed (Nov 2021 deadline passed). If you filed then, payment due May 2026 — check if received.
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
 - [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
+- [ ] **Pensacola: File USAA loss of rent supplement** after project completion — gather: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease from John Hallam. Supplement claim covers rent from moment of loss through project completion.
+- [ ] **Pensacola: Return second (unopened) kitchen faucet** — one installed, one backup to return

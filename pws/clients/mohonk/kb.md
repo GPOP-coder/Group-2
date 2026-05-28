@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-05-26
+Last updated: 2026-05-28
 
 ---
 
@@ -57,9 +57,55 @@ Last updated: 2026-05-26
 
 ---
 
+## Tickets
+
+| Ticket | Subject | Status |
+|---|---|---|
+| UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
+
+---
+
 ## Active Issues
 
-### Incomplete / Short Shifts — Main Dining Room Server
+### 🔴 Shifts Not Generating — Founders Outlet
+**Ticket:** UNIFOCUS-247559
+**Reported by:** James Danks — May 28, 2026
+**Participants:** Pete Castellano, Susanna Briggs, bron@mohonk.com
+**Status:** 🔴 Open — not yet diagnosed
+
+**Issue:** System is not generating shifts for four Founders positions:
+- Founders Head Runner
+- Founders Runner
+- Founders Head Host
+- Founders Host
+
+Forecast counts are being entered, so the trigger condition is met — the system should be producing shifts. It is not.
+
+**Likely diagnostic areas:**
+- Standards may not be configured for these job codes (no standard = no shift generation)
+- Standards may exist but have zero or missing volume thresholds
+- Outlet or department may be inactive or misconfigured
+- Forecast may be entering to the wrong KBI
+
+**Diagnostic progress (May 28):**
+- Standards ARE built for the affected positions — configuration exists
+- Founders Server works correctly — using it as the comparison baseline
+- Investigated KBI references and standard settings — no obvious configuration error found
+- **Pete's assessment:** Legitimate Unifocus bug — no configuration reason for the failure; compounds James' existing frustrations
+- **Escalated to Susanna Briggs via Teams** with Jira link: https://ufjira.atlassian.net/browse/UNIFOCUS-247559
+
+**Status:** ⏳ In Unifocus hands — Pete cannot resolve from the configuration side
+**Billing:** Diagnostic time logged in Clockify
+
+**Susanna Briggs (Teams, May 28):**
+- Confirmed ticket is in Support's hands — not her lane
+- Pete: just keeping her in the loop
+- Susanna's note: struggling to track what James has asked for vs. what he's been told — "brain overload"; woke up to 98 emails
+- May try to connect with Pete later today
+
+---
+
+### ✅ Incomplete / Short Shifts — Main Dining Room Server
 **Reported by:** James Danks, May 25, 2026
 **Job:** `2 - Food and Beverage\Dining Room - Main\Server`
 **Status:** ✅ Resolved — May 26, 2026
