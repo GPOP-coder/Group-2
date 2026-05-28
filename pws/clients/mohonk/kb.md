@@ -97,6 +97,12 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 **Status:** ⏳ In Unifocus hands — Pete cannot resolve from the configuration side
 **Billing:** Diagnostic time logged in Clockify
 
+**Susanna Briggs (Teams, May 28):**
+- Confirmed ticket is in Support's hands — not her lane
+- Pete: just keeping her in the loop
+- Susanna's note: struggling to track what James has asked for vs. what he's been told — "brain overload"; woke up to 98 emails
+- May try to connect with Pete later today
+
 ---
 
 ### ✅ Incomplete / Short Shifts — Main Dining Room Server
