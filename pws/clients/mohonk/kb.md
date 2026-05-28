@@ -87,6 +87,11 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 - Outlet or department may be inactive or misconfigured
 - Forecast may be entering to the wrong KBI
 
+**Diagnostic progress (May 28):**
+- Standards ARE built for the affected positions — configuration exists
+- Founders Server works correctly — using it as the comparison baseline
+- Investigating: which KBI drives each position and whether the non-generating positions reference the same KBI or a different one
+
 **Next step:** Pete to investigate configuration for Founders outlet job codes
 
 ---
