@@ -95,6 +95,7 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 - **Escalated to Susanna Briggs via Teams** with Jira link: https://ufjira.atlassian.net/browse/UNIFOCUS-247559
 
 **Status:** ⏳ In Unifocus hands — Pete cannot resolve from the configuration side
+**Billing:** Diagnostic time logged in Clockify
 
 ---
 
