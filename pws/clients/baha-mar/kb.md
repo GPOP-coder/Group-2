@@ -1,6 +1,6 @@
 # Baha Mar Campus — Knowledge Base
 
-Last updated: 2026-05-26
+Last updated: 2026-05-28
 
 ---
 
@@ -52,7 +52,7 @@ Delphi is the Event Management System used for banquet/event management. Banquet
 
 | Ticket | Subject | Status |
 |---|---|---|
-| UNIFOCUS-247305 | KBI Calculation Error / Stayover KBI / Rooms Forecast — SLS | 🔴 Active |
+| UNIFOCUS-247305 | KBI Calculation Error / Stayover KBI / Rooms Forecast — SLS | ✅ Resolved |
 
 ---
 
@@ -74,6 +74,18 @@ On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#80
 - Previous formula `##8021[0]*.9` failed because ##8021 no longer exists after 5/14 renumbering
 
 **Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
+
+**How the issue surfaced:**
+- Adriel Marshall (SLS Revenue Management) reported multiple failed attempts to update Unifocus forecast
+- Gia Turnquest (SLS Finance) escalated; Valquir Correa raised support ticket UNIFOCUS-247305
+- Ahmed Chadid diagnosed root cause: broken KBI formula referencing non-existent #8021
+- Workaround during outage: teams manually adjusting forecasts and inputting covers
+
+**Pete's contributions to resolution:**
+- Provided broader system context — cross-property KBI development, Rosewood database integration
+- Identified potential stayover logic discrepancies at SLS (separate from the #8021 issue)
+- Proposed dummy BEO file solution ("1975 trick") for full mapping visibility
+- Requested Delphi admin access for SLS and GH — Valquir agreed to connect appropriate administrators
 
 **Full 5/14 session audit:**
 
@@ -119,7 +131,24 @@ On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#80
 4. Delete the dummy file — does not affect any past or future planning weeks
 5. Complete the mapping with all combinations now visible
 
-**Status:** Awaiting EMS admin contacts for SLS and GH to execute this
+**Status:** ⏳ Awaiting EMS admin contacts for SLS and GH — Valquir Correa agreed to identify and connect appropriate Delphi administrators for both properties
+
+**Delphi coordination status:**
+- Rosewood: separate companywide Delphi instance — coordination with corporate administrator underway
+- SLS + Grand Hyatt: Valquir Correa connecting Pete with the appropriate administrators
+
+---
+
+## Remaining Actions
+
+| Action | Owner | Status |
+|---|---|---|
+| Complete KBI builds across all properties | Pete | ⏳ In progress |
+| Execute dummy BEO import ("1975 trick") | Pete | ⏳ Pending Delphi access |
+| Validate calculations across all properties including Rosewood | Pete | ⏳ Pending |
+| Connect SLS Delphi administrator | Valquir Correa | ⏳ Pending |
+| Connect GH Delphi administrator | Valquir Correa | ⏳ Pending |
+| Rosewood Delphi coordination | Corporate admin | ⏳ Underway |
 
 ---
 
@@ -129,4 +158,3 @@ On 5/14/26 at 8:15 PM, Pete changed the code for "Resort TTl Arrivals" from `#80
 - [ ] Is Local booking type intentionally absent at GH and SLS?
 - [ ] Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] What does SLS "Boat & Airline" event type map to?
-- [ ] Val to connect Pete with EMS administrators for SLS and GH
