@@ -1,6 +1,6 @@
 # Baha Mar Campus — Knowledge Base
 
-Last updated: 2026-05-28
+Last updated: 2026-05-28 (evening session)
 
 ---
 
@@ -122,7 +122,15 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 
 **Deactivation convention.** Deactivated KBIs must have: (1) name prefixed with z/zz/zzz/x/DNU (lowercase z preferred — sorts to bottom), (2) all mappings removed, (3) formula deleted, (4) type changed to Input. A deactivated KBI with an active formula is a configuration error.
 
-**Resort totals range 7820–7833 is campus-wide.** Same codes, same purpose at GH, SLS, CTF, and now being built at RW.
+**Resort totals range 7820–7833 is campus-wide.** Same codes, same purpose at GH, SLS, CTF, and now built at RW.
+
+**Build KBIs in dependency order.** A formula referencing a KBI that doesn't exist yet will be rejected. Build Inputs first, then Calculated sub-totals, then totals that reference them. In a live system every save is potentially active — sequencing is non-negotiable. The "build everything before anything calculates" window only exists at initial implementation.
+
+**New unreferenced KBIs can be hard-deleted.** Unifocus normally prevents deletion, but a KBI that was just created and has no formulas referencing it can be hard-deleted. Once entangled in other calculations, deactivation (z-prefix, remove formula, type→Input) is the only option.
+
+**Yesterday KBIs are only needed for Stayovers, not Avail Guests.** The `[-1]` offset works inline in Avail Guests formulas without triggering a duplication alert. Only the Stayover formula needs an intermediate "yesterday" KBI because Departures already incorporates `OccRooms[-1]`.
+
+**Name all KBIs with a property identifier.** At GH, every KBI is named "GH ...", "SLS ...", "Rosewood ..." — making formulas self-documenting. At RW, native KBIs lack a property prefix (e.g., "Bqt Ttl 1 Bkfst"), making cross-property formulas harder to read. Apply property prefix to all KBIs at future property setups.
 
 ---
 
@@ -158,10 +166,18 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 | May 13 | SLS | Rosewood 06. Stayovers | #9006 | Calculated | `##9005[0]-##9004[0]` | ✅ Done |
 | May 13 | CTF | 57. Rosewood Occupancy Yesterday | #8007 | Calculated | `##8001[-1]` | ✅ Done |
 | May 13 | CTF | 58. Rosewood Stayovers | #8010 | Calculated | `##8007[0]-##8005[0]` | ✅ Done |
+| May 28 | RW | 60 cross-property KBIs (6xxx, 7xxx, 78xx) | #6101–#7833 | Various | See Work Plan below | ✅ Done |
+| May 28 | GH | RW Avail Guests Bkfst | #9521 | Calculated | `##9003[-1]-##9101[0]` | ✅ Done |
+| May 28 | GH | RW Avail Guests Lunch | #9522 | Calculated | `##9003[-1]-##9201[0]` | ✅ Done |
+| May 28 | GH | RW Avail Guests Dinner | #9523 | Calculated | `##9003[0]-##9301[0]` | ✅ Done |
+| May 28 | GH | RW Bqt Grp Break | #9401 | Input | mapped from RW BQT file (later) | ✅ Done |
+| May 28 | GH | RW Bqt Ttl Meals | #9731 | Calculated | `@SUM(##9101[0],##9201[0],##9301[0],##9501[0])` | ✅ Done |
+| May 28 | SLS | RW Avail Guests Bkfst | #9520 | Calculated | `##9003[-1]-##9101[0]` | ✅ Done |
+| May 28 | SLS | RW Avail Guests Lunch | #9521 | Calculated | `##9003[-1]-##9201[0]` | ✅ Done |
+| May 28 | SLS | RW Avail Guests Dinner | #9522 | Calculated | `##9003[0]-##9301[0]` | ✅ Done |
+| May 28 | SLS | RW Bqt Grp Break | #9401 | Input | mapped from RW BQT file (later) | ✅ Done |
+| May 28 | SLS | RW Bqt Ttl Meals | #9731 | Calculated | `@SUM(##9101[0],##9201[0],##9301[0],##9501[0])` | ✅ Done |
 
-<<<<<<< HEAD
-### 5/14/26 Session Audit (root cause of UNIFOCUS-247305)
-=======
 **Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
 
 **How the issue surfaced:**
@@ -176,8 +192,7 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 - Proposed dummy BEO file solution ("1975 trick") for full mapping visibility
 - Requested Delphi admin access for SLS and GH — Valquir agreed to connect appropriate administrators
 
-**Full 5/14 session audit:**
->>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5
+### 5/14/26 Session Audit (root cause of UNIFOCUS-247305)
 
 | Time | KBI | Change |
 |---|---|---|
@@ -190,9 +205,9 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 
 ---
 
-## Work Plan: KBIs to Build at Rosewood (60 total)
+## Work Plan: KBIs Built at Rosewood (60 total) — ✅ Complete May 28
 
-All 60 KBIs are at property **Rosewood Baha Mar**. Build in this order: GH banquet (6xxx) → SLS banquet (7xxx) → Resort totals (78xx).
+All 60 KBIs built at property **Rosewood Baha Mar** on May 28, 2026. Order: GH banquet (6xxx) → SLS banquet (7xxx) → Resort totals (78xx).
 
 ### Phase 1 — GH Cross-Property Banquet at RW (6xxx) — 23 KBIs
 
@@ -356,14 +371,16 @@ Banquet files for all three properties are imported into all four properties. Ma
 
 ## Priority / Next Steps
 
-1. **Build 60 KBIs at Rosewood in Unifocus** — GH 6xxx (23) → SLS 7xxx (23) → Resort totals 78xx (14)
-   - Watch for duplication alert on #7824 stayovers; create intermediate yesterday KBIs if needed
-2. **Map GH and SLS BQT files at Rosewood** — blocked on: KBIs built + EMS config reports + 1975 trick import
-3. **Update GH resort total formulas** (#7825–7833) to add Rosewood — 9 formulas
-4. **Update SLS resort total formulas** (#7825, 7832, 7833) — 5 formulas (GRP totals already done)
+1. ✅ **Build 60 KBIs at Rosewood** — Done May 28. #7824 Resort TTL Stayovers left as Input pending ##1105/##1205.
+2. ✅ **Update GH resort total formulas** — Done May 28. Also built #9521–9523, #9401, #9731 at GH.
+3. ✅ **Update SLS resort total formulas** — Done May 28. Also built #9520–9522, #9401, #9731 at SLS.
+4. **Build ##1105 (GH Stayovers) and ##1205 (SLS Stayovers) at RW**, then convert #7824 from Input to Calculated
 5. **Build Rosewood banquet cross-property KBIs at CTF** (8xxx range), then update 9 CTF campus total formulas
-6. **BQT mapping audit at all properties** — EMS config reports + dummy BEO files at each property
-7. **Future tool:** KBI Generation and Validation Artifact — generates properly named/numbered KBIs for Unifocus entry, validates numbering for conflicts, regenerates cross-property lists when a new property is added
+6. **Map GH and SLS BQT files at Rosewood** — blocked on: EMS config reports + 1975 trick import
+7. **BQT mapping audit at all properties** — EMS config reports + dummy BEO files at each property
+8. **Verify with Ahmed/Val:** are resort-level Breaks and Reception totals used in any reporting? Deactivate if not.
+9. **Research current USALI standard** — confirm whether Breaks count toward F&B productivity covers
+10. **Future tool:** KBI Generation and Validation Artifact
 
 ### Blocked Items
 
