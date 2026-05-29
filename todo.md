@@ -8,6 +8,7 @@ Last updated: 2026-05-26
 
 - [ ] **Krispy Kreme settlement** — Search all inboxes for breach notice (Nov–Dec 2024). File claim at settlement website. **Deadline: June 26, 2026**
 - [ ] **NTSG Registered Agent** — Contact vendor, execute agreement, pay
+- [ ] **Pensacola** — Sign and pay Jeremy's change order immediately when received (May 29) — crew is staged and waiting
 - [ ] **Pensacola** — Monitor cabinet install progress toward June 1 renter move-in
 - [ ] **Pensacola** — Confirm Pete's travel dates and book return travel home
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
@@ -34,6 +35,8 @@ Last updated: 2026-05-26
 
 ## 🟡 Admin / Personal
 
+- [ ] **Stripe/Link — Remove card** — Accidentally saved FNBO card ending 0733 to Link (Stripe wallet) during Scribd signup. Go to link.com, sign in with pete@platinumworkforcestrategies.com, remove card.
+- [ ] **Scribd — CANCEL before June 27** — Signed up May 29 (pete@platinumworkforcestrategies.com, FNBO Evergreen Visa, card ending 0733). Charge hits June 28. Download USALI 12th edition while active.
 - [ ] **Apple iPhone settlement** — Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice
 - [ ] **Capital One 360 settlement** — Had a 360 Savings account Sept 2019–June 2025? Auto-payment July 2027 — confirm account history
 - [ ] **BCBS settlement** — Had BCBS coverage 2008–2020 and filed claim before Nov 2021? Payment expected May 2026 — check if received

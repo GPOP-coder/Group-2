@@ -403,6 +403,48 @@ Banquet files for all three properties are imported into all four properties. Ma
 
 ---
 
+## USALI 12th Edition Reference (Effective January 1, 2026)
+
+*Source: USALI 12th Revised Edition, downloaded from Scribd May 29, 2026. Queried via claude.ai.*
+
+### Key Definitions (Page 314)
+- **Customer** — A person served in a food-and-beverage venue or function space. *Operative word: served.*
+- **Meal Period** — Breakfast, lunch, or dinner, defined by time of day. Only three prescribed periods — anything else is "Other."
+- **Venue** — An individual F&B facility (restaurant, lounge). Banquet rooms and function space are NOT venues.
+- **Function Space** — Space between four walls used for meal functions and meeting-room setups. Customers served here count.
+
+### Covers vs. Customers
+USALI 12th edition does not use the word "covers." The standard term is **Number of Customers**. The meal period statistics table (page 316) lists Breakfast, Lunch, Dinner, and Other — four buckets only.
+
+### What Counts as a Customer (BEO Event Type Guide)
+
+| BEO Event Type | Food/Bev Served? | USALI Customer? | Feed Cover KBI? |
+|---|---|---|---|
+| Breakfast (plated, buffet, continental, box) | Yes | Yes | ✅ Yes |
+| Lunch / Dinner (plated, buffet, box) | Yes | Yes | ✅ Yes |
+| Reception (cocktail, full, heavy, lite) | Yes | Yes | ✅ Yes |
+| Break (coffee, afternoon) | Yes | Yes | ✅ Yes |
+| Meeting (room only, no F&B) | No | No | ❌ Map to Meeting KBI |
+| Breakout / General Session (room only) | No | No | ❌ Map to Meeting KBI |
+| Registration / Hold / Setup / Teardown | No | No | ❌ Ignore |
+| In-House Meeting (INHS) | No | No | ❌ Map to Meeting KBI |
+
+**Test:** Was food or beverage served? If yes, count attendees. If no, count is zero.
+
+### Breaks and Labor Productivity — Important Distinction
+USALI confirms breaks with food service generate customers — this is correct for **revenue tracking and average check analysis**. However, for **labor regression purposes**, breaks and plated meal service are NOT equivalent: same headcount, very different labor intensity. Including breaks in a labor regression driver can overstate banquet, culinary, and stewarding productivity. This is a Unifocus configuration decision, not a USALI one. Pete's concern is operationally valid.
+
+### Group vs. Local Construct
+The Group/Local booking type split is primarily for **Revenue Center (outlet) forecasting** — tracking in-house group covers vs. walk-in/local covers for outlet volume prediction. For **labor standards**, the distinction doesn't matter; Group + Local are combined to get total covers. The open question about whether Local is intentionally absent at GH and SLS is a forecasting question, not a labor question.
+
+### Rosewood "Afternoon" Meal Period
+Not a USALI-prescribed meal period (only Breakfast, Lunch, Dinner + Other are standard). This is a Rosewood corporate brand addition — entirely permitted under USALI, just non-standard. It would fall into "Other" under USALI statistical reporting.
+
+### Schedule 2 (F&B Operating Statement)
+Customer/cover counts do NOT appear on the face of Schedule 2. All cover statistics route to Part V (Metrics, Ratios, and Optional Schedules). Banquet productivity is measured in USALI as Revenue per Group Room Sold and Revenue per Square Foot of Function Space — not per cover. Cover-level productivity is a property/brand-level subschedule, not prescribed by USALI.
+
+---
+
 ## Open Questions
 
 - [ ] Are SLS and GH on a single shared Baha Mar Delphi instance?
