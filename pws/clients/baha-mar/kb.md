@@ -431,11 +431,28 @@ USALI 12th edition does not use the word "covers." The standard term is **Number
 
 **Test:** Was food or beverage served? If yes, count attendees. If no, count is zero.
 
+**Note on Cocktail Reception:** A cocktail event with no food service = 0 USALI customers even though guests are present. Only receptions with food (Lite, Full, Heavy) generate a customer count.
+
 ### Breaks and Labor Productivity — Important Distinction
 USALI confirms breaks with food service generate customers — this is correct for **revenue tracking and average check analysis**. However, for **labor regression purposes**, breaks and plated meal service are NOT equivalent: same headcount, very different labor intensity. Including breaks in a labor regression driver can overstate banquet, culinary, and stewarding productivity. This is a Unifocus configuration decision, not a USALI one. Pete's concern is operationally valid.
 
 ### Group vs. Local Construct
 The Group/Local booking type split is primarily for **Revenue Center (outlet) forecasting** — tracking in-house group covers vs. walk-in/local covers for outlet volume prediction. For **labor standards**, the distinction doesn't matter; Group + Local are combined to get total covers. The open question about whether Local is intentionally absent at GH and SLS is a forecasting question, not a labor question.
+
+### Banquet Service Type Framework (Pete's Standard)
+
+**Meal period order for KBI numbering:** Breakfast → Lunch → Dinner → Late. Then: Receptions, Breaks, Meetings.
+
+**Service styles within each meal period** (drive different labor intensity — not all brands track these):
+- Plated, Buffet, Continental, Box, Special, Wedding
+
+**Reception types** (level of service matters for labor):
+- Cocktail (beverages only, NO food → 0 USALI customers)
+- Light/Lite (light food service)
+- Full
+- Heavy
+
+**Rosewood brand meal periods** (non-standard, brand additions beyond USALI): Breakfast, Lunch, Afternoon, Dinner, Late, Overnight. "Afternoon" and "Overnight" are not USALI-prescribed — they fall into USALI's "Other" bucket.
 
 ### Rosewood "Afternoon" Meal Period
 Not a USALI-prescribed meal period (only Breakfast, Lunch, Dinner + Other are standard). This is a Rosewood corporate brand addition — entirely permitted under USALI, just non-standard. It would fall into "Other" under USALI statistical reporting.
