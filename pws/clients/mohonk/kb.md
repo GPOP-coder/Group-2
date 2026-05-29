@@ -97,11 +97,13 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 **Status:** ⏳ In Unifocus hands — Pete cannot resolve from the configuration side
 **Billing:** Diagnostic time logged in Clockify
 
-**Susanna Briggs (Teams, May 28):**
-- Confirmed ticket is in Support's hands — not her lane
-- Pete: just keeping her in the loop
-- Susanna's note: struggling to track what James has asked for vs. what he's been told — "brain overload"; woke up to 98 emails
-- May try to connect with Pete later today
+**Call — May 28: Pete, Susanna Briggs, Melody (Unifocus senior support)**
+- Pete confirmed: legitimate bug or system-level issue — not a configuration error
+- Melody reviewing detailed processing logs
+- Working theory: stale configuration that experienced a change but did not propagate the update everywhere — a known failure mode in Unifocus
+- **Proposed resolution path:** Break the configuration and rebuild from scratch
+- **Test approach:** Rebuild one position as a proof of concept; if the rebuilt version generates correctly, confirms the stale-config theory and the path forward is rebuild all four
+- Status: ⏳ Waiting on Melody's log review
 
 ---
 
