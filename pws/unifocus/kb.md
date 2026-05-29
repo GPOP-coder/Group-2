@@ -111,6 +111,57 @@ Rounding settings (Threshold Below One, Threshold Above One) govern how leftover
 
 ---
 
+## Standard Banquet KBI Numbering Pattern
+
+*Cross-client standard. Used repeatedly across PWS engagements. Captured May 29, 2026.*
+
+### Meal Period Code Ranges (5xxx = own banquet at each property)
+
+| Range | Meal Period | Notes |
+|---|---|---|
+| 5100s | Breakfast | |
+| 5200s | Lunch | |
+| 5300s | Dinner | Late not typically seen in banquet KBIs |
+| 5400s | Receptions | |
+| 5500s | Meetings | |
+| 5600s | Breaks | |
+
+### Sub-Code Convention Within Each Range
+
+| Ending | Meaning |
+|---|---|
+| x00 | **Total** (e.g., 5100 = Breakfast Total) |
+| x01 | **Group** |
+| x02 | **Local** |
+
+Group and Local are added back together for labor standards; the split is for Revenue Center forecasting only.
+
+### Service Types Within Meal Periods (Breakfast, Lunch, Dinner, Reception)
+
+- Plated
+- Buffet
+- Continental
+- Box
+- Special
+- Wedding
+
+Special and Wedding apply across Breakfast, Lunch, Dinner, AND Reception — not just Dinner territory.
+
+### Reception Types
+
+| Type | Food Served? | USALI Customers? |
+|---|---|---|
+| Cocktail | No (beverages only) | ❌ 0 customers |
+| Light / Lite | Yes | ✅ Count attendees |
+| Full | Yes | ✅ Count attendees |
+| Heavy | Yes | ✅ Count attendees |
+
+### Meal Period Notes
+- **Late:** Not typically seen in banquet KBI structures. Prepare numbering to accommodate (5700s) but don't build unless the property uses it.
+- **Afternoon / Overnight (Rosewood-specific):** Brand additions beyond USALI standard. Map Afternoon → Lunch in Unifocus unless a dedicated KBI is needed. Falls into USALI "Other" bucket.
+
+---
+
 ## Client Communication Standard (PWS)
 
 > Explain outcomes and actions, not mechanics. The client's job is to run the operation. Our job is to know why it works. Reserve technical detail for when the client specifically needs it to make a decision.
