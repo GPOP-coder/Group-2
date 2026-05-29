@@ -204,6 +204,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Net payout (after deductible):** $31,651.71
 - **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
 - Tommy Castellano handled early renter correspondence before Pete took over
+- **Water conditioner/filter:** The leak originated from the water filter behind the fridge — this fixture is NOT covered (Pete pays for replacement). USAA covers the resulting water damage only. Same rule as a leaking garbage disposal: insurance covers the damage, owner covers the failed appliance.
 
 ---
 
