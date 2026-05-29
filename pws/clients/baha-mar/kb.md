@@ -130,6 +130,10 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 
 **Yesterday KBIs are only needed for Stayovers, not Avail Guests.** The `[-1]` offset works inline in Avail Guests formulas without triggering a duplication alert. Only the Stayover formula needs an intermediate "yesterday" KBI because Departures already incorporates `OccRooms[-1]`.
 
+**Hidden spaces in the Code field cause silent formula failures.** A KBI code with a leading space displays identically to the correct code but sorts before all numeric codes in the KBI list (space sorts before digits in ASCII). Formula references to the affected code return "Invalid KBI Code." Fix: open the KBI, click into the Code field, select all, retype the number by hand (no copy-paste), save. Unifocus re-resolves affected formulas automatically — no need to re-enter them. Always type KBI codes manually; never copy-paste from another source.
+
+**Generate Projected Hours is the correct validation in production.** Runs automatically 3+ times daily or on demand. Do not submit test forecasts in a live system — disruptive. Formula errors surface in the next GPH cycle.
+
 **Name all KBIs with a property identifier.** At GH, every KBI is named "GH ...", "SLS ...", "Rosewood ..." — making formulas self-documenting. At RW, native KBIs lack a property prefix (e.g., "Bqt Ttl 1 Bkfst"), making cross-property formulas harder to read. Apply property prefix to all KBIs at future property setups.
 
 ---
@@ -177,6 +181,8 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 | May 28 | SLS | RW Avail Guests Dinner | #9522 | Calculated | `##9003[0]-##9301[0]` | ✅ Done |
 | May 28 | SLS | RW Bqt Grp Break | #9401 | Input | mapped from RW BQT file (later) | ✅ Done |
 | May 28 | SLS | RW Bqt Ttl Meals | #9731 | Calculated | `@SUM(##9101[0],##9201[0],##9301[0],##9501[0])` | ✅ Done |
+| May 29 | CTF | 23 RW banquet KBIs (8xxx: inputs + calculated) | #8101–#8731 | Various | See Work Plan below | ✅ Done |
+| May 29 | CTF | RW Avail Guests Bkfst/Lunch/Dinner | #8107–#8109 | Calculated | `##8003[-1]-##8x01[0]` / `##8003[0]-##8301[0]` | ✅ Done |
 
 **Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
 
@@ -359,13 +365,16 @@ Banquet files for all three properties are imported into all four properties. Ma
 4. Delete the dummy file — does not affect any past or future planning weeks
 5. Complete the mapping with all combinations now visible
 
-<<<<<<< HEAD
-**Status:** Awaiting EMS admin contacts for SLS and GH
+**Status:** ⏳ Awaiting EMS admin contacts for SLS and GH — Valquir Correa agreed to identify and connect appropriate Delphi administrators for both properties
+
+**Delphi coordination status:**
+- Rosewood: separate companywide Delphi instance — coordination with corporate administrator underway
+- SLS + Grand Hyatt: Valquir Correa connecting Pete with the appropriate administrators
 
 ### Mapping Rules
 - A KBI cannot be both Calculated type AND have a BQT mapping — causes silent failure (see Structural Discoveries)
 - Both forecast AND actuals mapping screens must be mapped to the same KBIs
-- BQT mapping at Rosewood (GH and SLS files) is blocked pending: KBI build complete + EMS config reports + dummy BEO import
+- BQT mapping at Rosewood (GH and SLS files) is blocked pending: EMS config reports + 1975 trick import
 
 ---
 
@@ -374,43 +383,23 @@ Banquet files for all three properties are imported into all four properties. Ma
 1. ✅ **Build 60 KBIs at Rosewood** — Done May 28. #7824 Resort TTL Stayovers left as Input pending ##1105/##1205.
 2. ✅ **Update GH resort total formulas** — Done May 28. Also built #9521–9523, #9401, #9731 at GH.
 3. ✅ **Update SLS resort total formulas** — Done May 28. Also built #9520–9522, #9401, #9731 at SLS.
-4. **Build ##1105 (GH Stayovers) and ##1205 (SLS Stayovers) at RW**, then convert #7824 from Input to Calculated
-5. **Build Rosewood banquet cross-property KBIs at CTF** (8xxx range), then update 9 CTF campus total formulas
-6. **Map GH and SLS BQT files at Rosewood** — blocked on: EMS config reports + 1975 trick import
-7. **BQT mapping audit at all properties** — EMS config reports + dummy BEO files at each property
-8. **Verify with Ahmed/Val:** are resort-level Breaks and Reception totals used in any reporting? Deactivate if not.
-9. **Research current USALI standard** — confirm whether Breaks count toward F&B productivity covers
-10. **Future tool:** KBI Generation and Validation Artifact
+4. ✅ **Build Rosewood banquet cross-property KBIs at CTF (8xxx) + update 9 CTF formulas** — Done May 29.
+5. **Monitor Generate Projected Hours** for formula errors across all properties — next automated cycle or run on demand
+6. **Build ##1105 (GH Stayovers) and ##1205 (SLS Stayovers) at RW**, then convert #7824 from Input to Calculated
+7. **Map GH and SLS BQT files at Rosewood** — blocked on: EMS config reports + 1975 trick import
+8. **BQT mapping audit at all properties** — EMS config reports + dummy BEO files at each property
+9. **Verify with Ahmed/Val:** are resort-level Breaks and Reception totals used in any reporting? Deactivate if not.
+10. **Research current USALI standard** — confirm whether Breaks count toward F&B productivity covers
+11. **Future tool:** KBI Generation and Validation Artifact
 
 ### Blocked Items
 
 | Item | Blocked By |
 |---|---|
-| BQT mapping at Rosewood | KBIs not yet built + EMS config reports needed |
+| BQT mapping at Rosewood | EMS config reports + dummy BEO import |
 | BQT mapping audit (all properties) | EMS config reports + dummy BEO files |
-| CTF resort total formula updates | RW banquet KBIs at CTF not yet built |
 | Tastings decision (roll into Ttl or standalone) | Pete decision pending |
 | INHS mapping | Research pending |
-=======
-**Status:** ⏳ Awaiting EMS admin contacts for SLS and GH — Valquir Correa agreed to identify and connect appropriate Delphi administrators for both properties
-
-**Delphi coordination status:**
-- Rosewood: separate companywide Delphi instance — coordination with corporate administrator underway
-- SLS + Grand Hyatt: Valquir Correa connecting Pete with the appropriate administrators
-
----
-
-## Remaining Actions
-
-| Action | Owner | Status |
-|---|---|---|
-| Complete KBI builds across all properties | Pete | ⏳ In progress |
-| Execute dummy BEO import ("1975 trick") | Pete | ⏳ Pending Delphi access |
-| Validate calculations across all properties including Rosewood | Pete | ⏳ Pending |
-| Connect SLS Delphi administrator | Valquir Correa | ⏳ Pending |
-| Connect GH Delphi administrator | Valquir Correa | ⏳ Pending |
-| Rosewood Delphi coordination | Corporate admin | ⏳ Underway |
->>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5
 
 ---
 
@@ -421,12 +410,8 @@ Banquet files for all three properties are imported into all four properties. Ma
 - [ ] Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Are Cocktail and Full Reception intentionally absent at GH and SLS?
 - [ ] What does SLS "Boat & Airline" event type map to?
-<<<<<<< HEAD
 - [ ] Tastings — roll into Ttl Lunch or remain standalone?
 - [ ] INHS — confirm maps to Local at source property
 - [ ] Wild-west KBIs at Rosewood (Breakout, General Session, etc.) — cleanup plan?
 - [ ] CTF Breakfast Available Guests formula — verify correct
 - [ ] Val to connect Pete with EMS administrators for SLS and GH
-- [ ] What are the correct RW Avail Guests codes at GH (needed for #7825–7827 update)?
-=======
->>>>>>> e3e7c4aa301b68fab4ebe0a5336530695d6ae6c5
