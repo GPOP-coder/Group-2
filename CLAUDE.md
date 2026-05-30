@@ -197,6 +197,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
 - Pete onsite through June 1
+- **Return travel booked:** Southwest AU84MN — PNS → BNA → STL → OMA, June 1, departs 5:20 PM, arrives 11:00 PM. Used $442.20 Southwest flight credit (expires Aug 2026); out of pocket $51.30.
+- **Budget rental:** Dropping Chevy Equinox at PNS on June 1. Extended to 6/1 at $935.36 additional (original $616.38 sunk). One-way Omaha drop rejected ($2,100+ with $900 one-way fee — not justified for a carload).
+- **Monday June 1 sequence:** Renter meeting (timing TBD) → pack luggage → return Equinox at PNS → airport by ~3:30 PM → 5:20 PM departure.
+- **Note:** Files + 48x18" acrylic print need to come home eventually — proper truckload move needed, not a carload at a time.
 
 **USAA Claim:**
 - Claim filed for renovation/storm damage

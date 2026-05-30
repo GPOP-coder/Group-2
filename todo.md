@@ -10,7 +10,8 @@ Last updated: 2026-05-26
 - [ ] **NTSG Registered Agent** — Contact vendor, execute agreement, pay
 - [ ] **Pensacola** — Sign and pay Jeremy's change order immediately when received (May 29) — crew is staged and waiting
 - [ ] **Pensacola** — Monitor cabinet install progress toward June 1 renter move-in
-- [ ] **Pensacola** — Confirm Pete's travel dates and book return travel home
+- [x] **Pensacola** — Confirm Pete's travel dates and book return travel home — ✅ Southwest AU84MN booked, June 1 PNS→OMA 5:20 PM
+- [ ] **Pensacola** — Monday June 1: dig out luggage this weekend, pack files, renter meeting, return Equinox by 5 PM, airport 3:30 PM
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
 
 ---
