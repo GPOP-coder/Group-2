@@ -196,11 +196,23 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
-- Pete onsite through June 1
+- Pete departed June 1 — future contractor visits to be coordinated through renters
 - **Return travel booked:** Southwest AU84MN — PNS → BNA → STL → OMA, June 1, departs 5:20 PM, arrives 11:00 PM. Used $442.20 Southwest flight credit (expires Aug 2026); out of pocket $51.30.
 - **Budget rental:** Dropping Chevy Equinox at PNS on June 1. Extended to 6/1 at $935.36 additional (original $616.38 sunk). One-way Omaha drop rejected ($2,100+ with $900 one-way fee — not justified for a carload).
-- **Monday June 1 sequence:** Renter meeting (timing TBD) → pack luggage → return Equinox at PNS → airport by ~3:30 PM → 5:20 PM departure.
 - **Note:** Files + 48x18" acrylic print need to come home eventually — proper truckload move needed, not a carload at a time.
+
+**Move-in Day — June 1, 2026:**
+- Pete checked out of apartment, met Hartlaubs at house — welcomed them home
+- **Jeremy / change order saga:**
+  - Thursday May 29: Jeremy confirmed he'd send the $6,500 change order "tomorrow" (Friday)
+  - Friday–Sunday: change order never arrived; nobody showed up despite Jeremy claiming his people work weekends
+  - Monday June 1 (move-in morning): Jeremy called saying painters were on the way for the hall/bedroom painting — still no signed change order
+  - Pete declined: Hartlaubs had moved in less than an hour earlier; subjecting them to painters while moving in furniture was unreasonable; the value of the elective painting was always timing (empty rooms) — that window is closed
+  - Jeremy then revealed the original claim scope painting was already done — painters were coming only for the elective extra work
+  - Pete inspected the house: **great room (non-renovated section) was NOT painted** — Jeremy had previously told Pete the USAA claim covers the great room up to the clear edge of the hallway
+  - Pete told Jeremy to paint the great room today before renters fill it with furniture — Jeremy leaning toward yes but unresolved at time of departure
+  - **Elective painting (hall + bedrooms): off the table** — opportunity lost due to Jeremy's delay
+  - All future contractor visits to be coordinated through the Hartlaubs
 
 **USAA Claim:**
 - Claim filed for renovation/storm damage
@@ -209,6 +221,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
 - Tommy Castellano handled early renter correspondence before Pete took over
 - **Water conditioner/filter:** The leak originated from the water filter behind the fridge — this fixture is NOT covered (Pete pays for replacement). USAA covers the resulting water damage only. Same rule as a leaking garbage disposal: insurance covers the damage, owner covers the failed appliance.
+- **Great room painting:** Jeremy confirmed this is in the USAA claim scope (up to the hallway edge) — hallway was elective/outside claim boundary
 
 ---
 
