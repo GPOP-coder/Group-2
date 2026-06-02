@@ -288,6 +288,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 
 ## Open Items / Known Gaps
 
+- [ ] **Test Microsoft 365 MCP server** — added via `claude mcp add --transport http microsoft365 https://microsoft365.mcp.claude.com/mcp`; got 403 "host not in allowlist" in remote session; test on local machine (Lenovo Yoga or Surface Studio) running Claude Code natively
 - [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working
 - [ ] Rosewood Miramar: Is Local booking type intentionally absent at GH and SLS?
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
