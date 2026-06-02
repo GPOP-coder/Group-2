@@ -17,6 +17,7 @@ Last updated: 2026-06-01
 - Food/beverage tokens (limited)
 
 **Ticket distribution:** Larry Foster handling — call 402-990-1057 or email him
+**Pete's plans:** Attending. Contact Larry for tickets/parking pass.
 
 ---
 
@@ -27,5 +28,5 @@ Last updated: 2026-06-01
 **Highlight:** Fantasy Drone Show — 300 drones
 **Cost:** Free
 **Notes:** Promoting bike access; free bike parking available
-**BTTR role:** Not a BTTR event — community event Larry included for awareness
+**Pete's plans:** Attending both events.
 
