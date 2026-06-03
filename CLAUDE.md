@@ -41,7 +41,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 | pcastellano@unifocus.com | Unifocus work/contractor account — M365 connector approved and active |
 | pete.castellano@gmail.com | Personal; original Microsoft login ID |
 | finance.castellano@outlook.com | Banking/bills — shared with Kim |
-| pete@platinumworkforcestrategies.com | PWS business email (GoDaddy/M365) |
+| pete@platinumworkforcestrategies.com | PWS business email (GoDaddy/Microsoft email only) |
 | pacrat.direct@outlook.com | eBay identity |
 
 **M365 Connector status:** Personal account = consumer tier, Claude connector unsupported. Workaround: monthly manual CSV export from personal → wipe → import to Unifocus + upload CSV to Claude.
@@ -52,12 +52,11 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 | Identity | Ecosystem | Role |
 |---|---|---|
-| PWS | Microsoft 365 | Owner |
-| BTTR | TBD | President |
-| New Hearts / NTSG | TBD | Treasurer (de facto — Kim listed but inactive) |
-| Photography | TBD | Personal |
-| eBay | pacrat.direct@outlook.com | Personal |
-| Father's POA | Microsoft Edge (dedicated) | POA/Finance Manager |
+| PWS | QuickBooks (future) | Owner, business accounting |
+| BTTR | QuickBooks (future) | President, nonprofit accounting |
+| New Hearts / NTSG | QuickBooks (future) | Treasurer (de facto), nonprofit accounting |
+| eBay/Photography | QuickBooks (future), Schedule C | Combined business, accounting (longstanding) |
+| Father's POA | Microsoft Edge (dedicated), Quicken Simplifi | POA/Finance Manager |
 
 ---
 
@@ -82,6 +81,37 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
+
+---
+
+## Financial Infrastructure & Accounting (Finalized May 30, 2026)
+
+**Architecture Decision:**
+- **QuickBooks:** Business/org accounting for PWS, NTSG, BTTR, eBay/Photography
+- **Quicken Simplifi:** Personal finance (Pete + Kim household, ~10 years data)
+- **Claude Receipt Capture System:** Unified photo → extraction → feeds both QB + Quicken
+
+**Business Entities in QuickBooks:**
+- **PWS** — Platinum Workforce Strategies (consulting, primary business)
+- **NTSG** — Nebraska Transplant Support Group (nonprofit treasurer responsibilities)
+- **BTTR** — Back to the River (nonprofit president)
+- **eBay/Photography** — Combined business on Schedule C (longstanding setup, kept as one entity)
+
+**Receipt Management:**
+- iPhone photo → Claude extraction → Quicken Simplifi (personal) + QB (business/org)
+- Both systems support receipt image attachment for audit trail
+- One source of truth per system type
+
+**QuickBooks Setup Status:**
+- Not yet acquired (exploring eBay seller discount/promo pricing)
+- Pending: Set up company files for each business entity
+- Timeline: After current trip expenses finalized
+
+**Workflow Future State:**
+- Personal trip expenses: iPhone → Quicken Simplifi + receipt attachment
+- PWS billable work: Directly to QB for client reimbursement tracking
+- NTSG/BTTR expenses: To QB for org accounting + tax reporting
+- eBay/Photography: To QB for Schedule C tracking
 
 ---
 
@@ -291,7 +321,9 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] BTTR Treasurer — Gary DiSilvestro suggested a potential candidate; follow up
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
-- [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA
+- [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
+- [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems
+- [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA (now mapped to QB)
 - [ ] Full tech stack inventory
 - [ ] Board member roster for BTTR
 - [ ] Agent architecture design sessions (ongoing)

@@ -13,7 +13,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 ### Schedule
 - Send on the **15th and last day of the month**
 - If either date falls on a weekend, send the **Friday before**
-- Billing periods: **1–14** and **15–EOM**
+- Billing periods: **1–15** and **16–EOM**
 
 ### Distribution — Current (as of May 2026)
 
@@ -29,8 +29,9 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 ### Invoice Format
 
 **Numbering:** `UF` + `YYYYMMDD` + `PAC` (e.g., `UF20260514PAC` = May 14, 2026 invoice)  
-**Customer ID:** 20240515 (Pete's Unifocus engagement start date)  
+**Customer ID:** 20240515 (Pete's Unifocus employment termination date)  
 **Payment terms:** Due upon receipt  
+**Due Date is the closest of 5th or 20th of the month
 **No timesheet required** — invoice only (per Ralph, June 2025)
 
 **Bill to:**

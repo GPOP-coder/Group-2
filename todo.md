@@ -12,6 +12,7 @@ Last updated: 2026-05-26
 - [ ] **Pensacola** — Monitor cabinet install progress toward June 1 renter move-in
 - [x] **Pensacola** — Confirm Pete's travel dates and book return travel home — ✅ Southwest AU84MN booked, June 1 PNS→OMA 5:20 PM
 - [ ] **Pensacola** — Monday June 1: dig out luggage this weekend, pack files, renter meeting, return Equinox by 5 PM, airport 3:30 PM
+- [ ] **Pensacola insurance premium adjustment** — Sent lease to USAA and Citizens (5/31/26); awaiting response on policy reduction for 24-month lease term
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
 
 ---
