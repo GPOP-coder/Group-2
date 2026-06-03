@@ -305,6 +305,9 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] BTTR Treasurer — Gary DiSilvestro suggested a potential candidate; follow up
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
+- [ ] NTSG: pay insurance bill
+- [ ] NTSG: prepare to pay for picnic location
+- [ ] NTSG: get QuickBooks
 - [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA
 - [ ] Full tech stack inventory
 - [ ] Board member roster for BTTR
