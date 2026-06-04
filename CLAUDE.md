@@ -224,13 +224,26 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Decisions made:** New cabinets ✅, sink/faucet decided, one faucet purchased and onsite (second unopened — return it)
 - **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
+- **Lawn care:** Alison Nix — mows every 2 weeks, $70/visit via Apple Pay. Payment flow: Pete pays from NFCU personal checking → opens NFCU app → switches to Dad's trust account → transfers $70 to personal checking as reimbursement. Last paid: June 1, 2026.
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
-- Pete onsite through June 1
+- Pete departed June 1 — future contractor visits to be coordinated through renters
 - **Return travel booked:** Southwest AU84MN — PNS → BNA → STL → OMA, June 1, departs 5:20 PM, arrives 11:00 PM. Used $442.20 Southwest flight credit (expires Aug 2026); out of pocket $51.30.
 - **Budget rental:** Dropping Chevy Equinox at PNS on June 1. Extended to 6/1 at $935.36 additional (original $616.38 sunk). One-way Omaha drop rejected ($2,100+ with $900 one-way fee — not justified for a carload).
-- **Monday June 1 sequence:** Renter meeting (timing TBD) → pack luggage → return Equinox at PNS → airport by ~3:30 PM → 5:20 PM departure.
 - **Note:** Files + 48x18" acrylic print need to come home eventually — proper truckload move needed, not a carload at a time.
+
+**Move-in Day — June 1, 2026:**
+- Pete checked out of apartment, met Hartlaubs at house — welcomed them home
+- **Jeremy / change order saga:**
+  - Thursday May 29: Jeremy confirmed he'd send the $6,500 change order "tomorrow" (Friday)
+  - Friday–Sunday: change order never arrived; nobody showed up despite Jeremy claiming his people work weekends
+  - Monday June 1 (move-in morning): Jeremy called saying painters were on the way for the hall/bedroom painting — still no signed change order
+  - Pete declined: Hartlaubs had moved in less than an hour earlier; subjecting them to painters while moving in furniture was unreasonable; the value of the elective painting was always timing (empty rooms) — that window is closed
+  - Jeremy then revealed the original claim scope painting was already done — painters were coming only for the elective extra work
+  - Pete inspected the house: **great room (non-renovated section) was NOT painted** — Jeremy had previously told Pete the USAA claim covers the great room up to the clear edge of the hallway
+  - Pete told Jeremy to paint the great room today before renters fill it with furniture — Jeremy leaning toward yes but unresolved at time of departure
+  - **Elective painting (hall + bedrooms): off the table** — opportunity lost due to Jeremy's delay
+  - All future contractor visits to be coordinated through the Hartlaubs
 
 **USAA Claim:**
 - Claim filed for renovation/storm damage
@@ -239,6 +252,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
 - Tommy Castellano handled early renter correspondence before Pete took over
 - **Water conditioner/filter:** The leak originated from the water filter behind the fridge — this fixture is NOT covered (Pete pays for replacement). USAA covers the resulting water damage only. Same rule as a leaking garbage disposal: insurance covers the damage, owner covers the failed appliance.
+- **Great room painting:** Jeremy confirmed this is in the USAA claim scope (up to the hallway edge) — hallway was elective/outside claim boundary
 
 ---
 
@@ -298,6 +312,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 | 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
 | Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
 | Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |
+| Every 2 weeks | Alison Nix lawn payment — $70 Apple Pay, reimburse from Dad's NFCU trust account (last paid June 1) |
 | Early October 2026 | Request mail-in ballot for November general election |
 | October 2026 | Father's tax return deadline (involves PenAir details and cost basis for house) |
 
@@ -305,6 +320,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 
 ## Open Items / Known Gaps
 
+- [ ] **Test Microsoft 365 MCP server** — added via `claude mcp add --transport http microsoft365 https://microsoft365.mcp.claude.com/mcp`; got 403 "host not in allowlist" in remote session; test on local machine (Lenovo Yoga or Surface Studio) running Claude Code natively
 - [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working
 - [ ] Rosewood Miramar: Is Local booking type intentionally absent at GH and SLS?
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
@@ -319,8 +335,10 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Priyanka Kalia — compensation discussion still needed, pending offer
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
-- [ ] BTTR Treasurer — Gary DiSilvestro suggested a potential candidate; follow up
+- [ ] BTTR Treasurer — **noon meeting June 4 with David Dover** (former Kerrey office intern, candidate suggested via Gary DiSilvestro)
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
+- [ ] NTSG: pay insurance bill (Policy PHPK2741797-000; contact Elizabeth Hovorka (402) 330-7979)
+- [ ] NTSG: prepare to pay for picnic location/reservation
 - [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
 - [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems
 - [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA (now mapped to QB)
@@ -334,4 +352,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
 - [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
 - [ ] **Pensacola: File USAA loss of rent supplement** after project completion — gather: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease from John Hallam. Supplement claim covers rent from moment of loss through project completion.
-- [ ] **Pensacola: Return second (unopened) kitchen faucet** — one installed, one backup to return
+- [x] **Pensacola: Return second (unopened) kitchen faucet** — returned to Lowe's Pensacola June 1 on way to airport
