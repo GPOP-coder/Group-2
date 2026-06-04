@@ -305,7 +305,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Priyanka Kalia — compensation discussion still needed, pending offer
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
-- [ ] BTTR Treasurer — Gary DiSilvestro suggested a potential candidate; follow up
+- [ ] BTTR Treasurer — **noon meeting June 4 with David Dover** (former Kerrey office intern, candidate suggested via Gary DiSilvestro)
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
 - [ ] NTSG: pay insurance bill
 - [ ] NTSG: prepare to pay for picnic location
