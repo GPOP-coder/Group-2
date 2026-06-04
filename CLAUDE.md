@@ -194,6 +194,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Decisions made:** New cabinets ✅, sink/faucet decided, one faucet purchased and onsite (second unopened — return it)
 - **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
+- **Lawn care:** Alison Nix — mows every 2 weeks, $70/visit via Apple Pay. Payment flow: Pete pays from NFCU personal checking → opens NFCU app → switches to Dad's trust account → transfers $70 to personal checking as reimbursement. Last paid: June 1, 2026.
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
 - Pete departed June 1 — future contractor visits to be coordinated through renters
@@ -281,6 +282,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 | 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
 | Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
 | Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |
+| Every 2 weeks | Alison Nix lawn payment — $70 Apple Pay, reimburse from Dad's NFCU trust account (last paid June 1) |
 | Early October 2026 | Request mail-in ballot for November general election |
 | October 2026 | Father's tax return deadline (involves PenAir details and cost basis for house) |
 
