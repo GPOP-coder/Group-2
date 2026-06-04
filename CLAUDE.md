@@ -321,4 +321,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Build habit: check settlement aggregators (ClassAction.org) periodically for new eligibility
 - [ ] **At PC: Google privacy audit** — go to myaccount.google.com → Data & Privacy → review Web & App Activity, Location History, YouTube History; turn off what you don't recognize. Also check Gemini Spark background access. Source: trusted email, GetKim.com. Decide what to block and what to share publicly.
 - [ ] **Pensacola: File USAA loss of rent supplement** after project completion — gather: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease from John Hallam. Supplement claim covers rent from moment of loss through project completion.
-- [ ] **Pensacola: Return second (unopened) kitchen faucet** — one installed, one backup to return
+- [x] **Pensacola: Return second (unopened) kitchen faucet** — returned to Lowe's Pensacola June 1 on way to airport
