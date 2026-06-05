@@ -11,13 +11,25 @@ Last updated: 2026-06-01
 **Cost:** Free (public)
 **Website:** Check event website for full schedule
 
-**BTTR Sponsorship Benefits:**
+**BTTR Sponsorship / Funding:**
+- BTTR is a **title sponsor** — contributed **$15,000 to the Bellevue Community Foundation** for the event
 - 16 special seating section tickets
 - 8 parking passes
 - Food/beverage tokens (limited)
 
 **Ticket distribution:** Larry Foster handling — call 402-990-1057 or email him
-**Pete's plans:** Attending. Contact Larry for tickets/parking pass.
+**Pete's plans:** Attending. Scouted Thursday June 4 — will return later in the weekend.
+
+**Thursday June 4 recon:**
+- Rain 1400–2000 kept crowd away; Pete and Kim checked it at 6:30 PM, left due to rain, had dinner elsewhere
+- Pete returned alone after rain cleared ~2000
+- Setup: typical county fair — rides, carnival games, fried food, beer garden
+- Band: USAF Raptors (rock/pop cover band) — played as scheduled
+- Crowd: thin (~200 people) — rain lasted too late to recover Thursday night attendance
+- Fireworks: happened Thursday (unusual choice for opening night)
+- Ground: mushy but manageable post-rain
+- VIP/special seating area scouted — know where it is for return visits
+- Weather after 2000: perfect
 
 ---
 

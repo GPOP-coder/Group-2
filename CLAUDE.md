@@ -22,7 +22,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 | Person | Relationship | Notes |
 |---|---|---|
-| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. |
+| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. June 4 follow-up: small medication adjustment; labs again Monday June 8. |
 | Tamara Holland | Kim's donor's mother | Kristian Nicole Holland's mother — raising all 5 of Kristian's children (ages 4-14) plus her own 4 kids. hollandtamara@yahoo.com \| (316) 806-7316 \| 717 Lexington Rd, Wichita KS 67218. Gift sent: heartbeat bear with Kim's heartbeat recording. |
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
@@ -335,9 +335,9 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Priyanka Kalia — compensation discussion still needed, pending offer
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
-- [ ] BTTR Treasurer — **noon meeting June 4 with David Dover** (former Kerrey office intern, candidate suggested via Gary DiSilvestro)
+- [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; need talking points to present him to the board. Nobody else has stepped up.
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
-- [ ] NTSG: pay insurance bill (Policy PHPK2741797-000; contact Elizabeth Hovorka (402) 330-7979)
+- [ ] NTSG: pay insurance bill — Policy PHPK2741797-000; contact Elizabeth Hovorka (402) 330-7979; having technical difficulties
 - [ ] NTSG: prepare to pay for picnic location/reservation
 - [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
 - [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems

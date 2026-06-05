@@ -9,7 +9,7 @@ Last updated: 2026-06-01
 | Pete Castellano | President (Nov 2025) | peter.a.castellano@outlook.com \| (402) 669-0643 |
 | Karen Bluvas | Assistant Treasurer | — |
 | Larry Foster | Board member / community liaison | 402-990-1057 |
-| David Dover | Treasurer candidate | Former intern in the Kerrey office — meeting June 4, noon |
+| David Dover | Treasurer candidate | Former intern in the Kerrey office — met June 4 noon; strong candidate; Pete needs talking points to present to board |
 
 **Open:** Treasurer role vacant — Karen Bluvas is Assistant Treasurer but does not want the Treasurer role. Gary DiSilvestro suggested a potential outside candidate. Remind Pete every planning session.
 
