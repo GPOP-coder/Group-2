@@ -171,6 +171,14 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - Rosewood missing resort total KBI suite; GH/SLS missing Local booking type (confirm intent)
 - Potential new direct client: Baha Mar casino operations
 
+**Steve Carrell** (Unifocus — Senior Workforce Performance Consultant) — called Pete June 5 to say he recommended Pete to Ralph Varble as a trainer for new clients, possibly on contract. Aligns with Ralph's "more work for you" email (June 4) about MakeReady/Rockbridge + HMAlpha training projects. Pete held the same consultant role for many years before moving into Client Success Manager.
+
+**New Training Projects (June 2026):**
+- **MakeReady (part of Rockbridge)** — 3 new properties; Pete as trainer
+- **HMAlpha (spin-off of Dimension)** — 15 properties; Pete as trainer
+- Schedule butts up against Mohonk (Aug 2–7) but does not overlap — likely July or post-Aug 7
+- Ralph copied Pete on "Fw: Unifocus set up- timeline" and "Re: Proposed Pilot Training Schedule" for context
+
 **Unifocus Employment Opportunity**
 - Product Owner role under Priyanka Kalia (VP Product Management)
 - John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return
@@ -180,6 +188,8 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 ---
 
 ### BTTR — Back to the River, Inc.
+
+**Recent:** Karen Bluvas (Assistant Treasurer) moved funds from savings to checking (FNBO) June 5 to cover upcoming expenses.
 
 - Nonprofit; Peter is founding member (~30 years) and helped incorporate in 2001
 - Became **President November 2025**
@@ -332,12 +342,15 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
 - [x] Craig Taylor — added to Outlook contacts
 - [ ] Father's taxes — details TBD, October deadline (PenAir details, cost basis for house)
+- [ ] **Call Ralph Varble** — discuss MakeReady (3 props) + HMAlpha (15 props) training projects; schedule butts up against Mohonk Aug 2–7 but doesn't overlap
+- [ ] **Read "Fw: Unifocus set up- timeline" and "Re: Proposed Pilot Training Schedule"** emails Ralph copied Pete on — context for MakeReady/HMAlpha projects
+- [ ] **Mohonk flights** — book OMA→(SWF/EWR/JFK/LGA); arrive Sunday Aug 2, depart Friday Aug 7; comp room provided by property
 - [ ] Priyanka Kalia — compensation discussion still needed, pending offer
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; need talking points to present him to the board. Nobody else has stepped up.
 - [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
-- [ ] NTSG: pay insurance bill — Policy PHPK2741797-000; contact Elizabeth Hovorka (402) 330-7979; having technical difficulties
+- [ ] NTSG: pay insurance bill — Policy PHPK2741797-000; **payment initiated June 5** — provided bank account info to Elizabeth Hovorka (402) 330-7979; $674/year liability coverage (picnic, holiday party, parades, etc.); Pete moved $1,000 savings→checking to cover; awaiting confirmation from Elizabeth that payment cleared
 - [ ] NTSG: prepare to pay for picnic location/reservation
 - [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
 - [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems

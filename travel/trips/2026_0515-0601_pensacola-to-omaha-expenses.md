@@ -120,11 +120,17 @@
 7. Airbnb/Landing reservation (5/23-6/1, HM2WZN44BE) — email confirmation
 8. McDonald's (5/16) — physical receipt
 9. Popeyes (5/17) — physical receipt
-10. The Sports Bar (5/17) — physical receipt
+10. The Sports Bar (5/17, $30.07 total on card) — PDF receipt confirmed ✓  
+    - Food: Wing Basket $15.99 + proportional surcharge/tax = **$17.85 reimbursable**  
+    - Alcohol: 2 Yuengling $6.94 + proportional surcharge/tax = **$7.75 excluded**  
+    - ⚠ Working file had food at $20.32 / alcohol at $8.82 — use receipt figures when reconciling  
+    - ⚠ Food portion missing from final report reimbursable section — needs to be added
 11. USPS/Perdido Pack & Ship (5/21) — physical receipt
 12. Murphy USA gas (5/23) — physical receipt
 13. Shell gas (5/17) — physical receipt
 14. Home Depot kitchen faucet (5/19, renovation expense — separate file) — physical receipt
+15. Circle K gas (6/1, $36.64, Pensacola FL) — physical receipt, photographed ✓
+16. Southwest baggage fee (6/1, $55.00, AU84MN PNS→OMA) — physical receipt, photographed ✓
 
 ---
 
