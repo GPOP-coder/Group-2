@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\peter\\\\.claude\\\\projects\\\\c--Users-peter-Documents-group-2\" -Recurse -File | Where-Object { $_.Name -match \"\\\\.jsonl|transcript|kbi|baha\" } | Select-Object Name, LastWriteTime)",
+      "Read(//c/Users/peter/.claude/projects/c--Users-peter-Documents-group-2/**)"
+    ]
+  }
+}
