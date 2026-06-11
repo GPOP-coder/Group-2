@@ -1,6 +1,6 @@
-# Cultural Reference Movies
+# Cultural Reference — Movies, TV & Commercials
 
-Movies that hold important cultural references that transcend the films themselves.
+Media that holds important cultural references that transcend the source material.
 Started as a list Pete made his kids watch — expanded from a work project where experienced consultants would quote movies and newer colleagues had no idea what they were talking about.
 
 At a Unifocus in-person conference, the team spent a month building a list and voted March Madness-style on which movie to watch together. **Young Frankenstein** and **Airplane** won.
@@ -9,7 +9,7 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 
 ---
 
-## The List
+## Movies
 
 | Movie | Why It Matters |
 |---|---|
@@ -26,6 +26,27 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | Austin Powers: International Man of Mystery (1997) | — |
 | Naked Gun: From the Files of Police Squad! (1988) | — |
 | Monty Python and the Holy Grail (1975) | — |
+
+---
+
+## TV Shows
+
+| Show | Why It Matters |
+|---|---|
+| Get Smart (1965–1970) | Maxwell Smart = Agent 86. Spy parody — only works if you know spy tropes. Pete pondering "Agent 86" as the name for his Chief of Staff agent. |
+| The Brady Bunch (1969–1974) | Cultural shorthand for blended family, suburban idealism, American TV family mythology |
+| Gilligan's Island (1964–1967) | Every character is an archetype; the situation is a lens for human nature |
+
+---
+
+## Commercials
+
+| Commercial | Why It Matters |
+|---|---|
+| Prego "It's in there!" (1980s) | Pete uses this to explain regression — the dependent variable is already "in there," you just have to find it |
+
+**Prego regression explainer:**
+https://youtu.be/2J87QekxQVI?is=TusbAoySEfjmQpW_
 
 ---
 
