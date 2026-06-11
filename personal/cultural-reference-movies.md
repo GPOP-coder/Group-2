@@ -5,6 +5,8 @@ Started as a list Pete made his kids watch — expanded from a work project wher
 
 At a Unifocus in-person conference, the team spent a month building a list and voted March Madness-style on which movie to watch together. **Young Frankenstein** and **Airplane** won.
 
+**On parodies:** Parodies are important because you HAVE to understand — or are forced to learn — the underlying truth of why they are funny. They teach the source material by demanding it.
+
 ---
 
 ## The List
@@ -17,10 +19,13 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | Blues Brothers | — |
 | Animal House | Age-appropriate before going to college |
 | Legally Blonde | — |
-| This Is Spinal Tap | "Turn it up to 11" — the concept of exceeding the expected scale |
-| Mr. Mom | "220, 221 — whatever it takes" — improvising with confidence |
-| Young Frankenstein | Watched at Unifocus conference (won the vote) |
-| Airplane! | Watched at Unifocus conference (won the vote) |
+| This Is Spinal Tap (1984) | "Turn it up to 11" — the concept of exceeding the expected scale |
+| Mr. Mom (1983) | "220, 221 — whatever it takes" — improvising with confidence |
+| Young Frankenstein (1974) | Watched at Unifocus conference (won the vote) |
+| Airplane! (1980) | Watched at Unifocus conference (won the vote) |
+| Austin Powers: International Man of Mystery (1997) | — |
+| Naked Gun: From the Files of Police Squad! (1988) | — |
+| Monty Python and the Holy Grail (1975) | — |
 
 ---
 
