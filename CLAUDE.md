@@ -1,6 +1,6 @@
 # Peter Castellano — Claude Code Context
 
-Loads at the start of every session. Keep current. Last updated: 2026-05-27
+Loads at the start of every session. Keep current. Last updated: 2026-06-12
 
 ---
 
@@ -22,7 +22,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 | Person | Relationship | Notes |
 |---|---|---|
-| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. June 4 follow-up: small medication adjustment; labs again Monday June 8. |
+| Kimberly (Kim) Castellano | Wife | Heart transplant recipient Oct 31, 2024, Nebraska Medicine, Heart #587. Executive Assistant, Nebraska Medicine. 18-month checkup April 29 — doing well. Hospitalized Mother's Day, discharged Thursday. Biopsy showed minor rejection, may have self-resolved. June 4 follow-up: small medication adjustment; labs June 8 — results good. |
 | Tamara Holland | Kim's donor's mother | Kristian Nicole Holland's mother — raising all 5 of Kristian's children (ages 4-14) plus her own 4 kids. hollandtamara@yahoo.com \| (316) 806-7316 \| 717 Lexington Rd, Wichita KS 67218. Gift sent: heartbeat bear with Kim's heartbeat recording. |
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
 | Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
@@ -72,7 +72,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Microsoft Edge** — dedicated workspace for father's financial accounts
 - **Hume Body Pod** — daily body composition, syncs to Apple Health (free tier)
 - **Apple Health** — data aggregator, future dashboard project
-- **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor; currently at Pensacola apartment/Airbnb
+- **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor; Bellevue home office
 - **Lenovo Yoga** — portable/travel machine; current machine (at father's house, Pensacola)
 - **Git for Windows 2.54.0** — installed on Lenovo Yoga May 27, 2026
 - **Claude Code CLI 2.1.152** — installed on Lenovo Yoga May 27, 2026
@@ -147,6 +147,11 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 #### Active Clients
 
+**Election Systems and Software (ESS)** (Omaha, NE) — 🟡 Occasional
+- Occasional onsite consultant; trips booked through ESS's Amex Global Business Travel system
+- Corporate travel card: AX -1011 (ESS or Amex GBT billing account — not Pete's personal card)
+- Credits and personal SkyMiles earned on ESS trips are Pete's to keep
+
 **Rosewood Miramar Beach** (Montecito, CA) — 🔴 Overdue/billable
 - Labor standards configuration overdue — start immediately
 - BQT file broken 1+ year; Anthony Weber contacted, Nattha following up
@@ -171,19 +176,37 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - Rosewood missing resort total KBI suite; GH/SLS missing Local booking type (confirm intent)
 - Potential new direct client: Baha Mar casino operations
 
-**Steve Carrell** (Unifocus — Senior Workforce Performance Consultant) — called Pete June 5 to say he recommended Pete to Ralph Varble as a trainer for new clients, possibly on contract. Aligns with Ralph's "more work for you" email (June 4) about MakeReady/Rockbridge + HMAlpha training projects. Pete held the same consultant role for many years before moving into Client Success Manager.
+**Steve Carrell** (Unifocus — Senior Workforce Performance Consultant) | scarrell@unifocus.com — called Pete June 5 to say he recommended Pete to Ralph Varble as a trainer for new clients, possibly on contract. Owns MakeReady configuration phase (all 3 properties). Pete held the same consultant role for many years before moving into Client Success Manager.
 
 **New Training Projects (June 2026):**
-- **MakeReady (part of Rockbridge)** — 3 new properties; Pete as trainer
+- **MakeReady (part of Rockbridge)** — 3 properties; Pete as trainer (with Akram Chahin). Steve Carrell owns config; John Grech owns post-config; Taylor Walton owns post go-live follow-up.
+  - **The Joseph, Nashville** — Week of Jul 6: config/setup. Week of Jul 20: training (Pete/Akram). Dates confirmed by Lynn Snyder (Area MD).
+  - **The Moran, Houston** — Training week: Aug 10–14 (Pete traveling onsite)
+  - **Heathman, Portland** — Dates TBD; Ralph confirming
 - **HMAlpha (spin-off of Dimension)** — 15 properties; Pete as trainer
-- Schedule butts up against Mohonk (Aug 2–7) but does not overlap — likely July or post-Aug 7
-- Ralph copied Pete on "Fw: Unifocus set up- timeline" and "Re: Proposed Pilot Training Schedule" for context
+  - Jun 22–26: New Orleans / Intercontinental — **may have fallen off calendar; confirm with Ralph**
+  - Aug 17–21: Indianapolis / Hilton
+- **Consulting travel pattern:** Monday arrival / Friday departure for onsite training weeks
+- **COS resource:** `2025 IM_Consultants Daily Resource Calendar.xlsm` — Ralph's team resource calendar; Chief of Staff agent should monitor this for scheduling conflicts
+- **Unifocus team:** Ralph Varble (CCO) rvarble@unifocus.com O:972-512-5083 C:832-226-8945 | John Grech jgrech@unifocus.com | Akram Chahin achahin@unifocus.com | Taylor Walton twalton@unifocus.com | Susanna Briggs sbriggs@unifocus.com | Ahmed Chadid AChadid@unifocus.com
+- **MakeReady contact:** Michelle Lewis (Corp. Dir. Rooms & Guest Experience) mlewis@makereadyexperience.com | 510-827-2000 | 1202 Dragon St. STE 104 Dallas TX 75207
+- **The Joseph Nashville contacts:** Lynn Snyder (Area MD) lynn.snyder@thejosephnashville.com O:612-248-1990 M:219-252-9994 | Sean Barnes Sean.Barnes@thejosephnashville.com
+
+**Upcoming Travel (calendar coordination needed):**
+- **Jun 14–21, 2026** — Orlando: watch Camille's house + dog, proximity to Dad; Father's Day away from kids/grandkids. Booked: SW C8R96Z (OMA-MCO, WN435). **Return may go MCO→MSY direct (straight to New Orleans) — do not book OMA return until New Orleans status confirmed.**
+- **Jun 22–26, 2026** — New Orleans / Intercontinental — HMAlpha / PWS onsite training. **Status: may have fallen off calendar — confirm with Ralph. If still on, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip.**
+- **~Jul 20–24, 2026** — The Joseph, Nashville — MakeReady training (Pete/Akram). **Not yet on Pete's calendar — confirm with Ralph.**
+- **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
+- **Aug 10–14, 2026** — The Moran, Houston TX — MakeReady onsite training
+- **Aug 17–21, 2026** — Hilton Indianapolis — HMAlpha onsite training
+- **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
+- **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
 
 **Unifocus Employment Opportunity**
-- Product Owner role under Priyanka Kalia (VP Product Management)
+- Product Owner role under Priyanka Kalia (VP Product Management) — **role went to Daniel (June 10, 2026)**
+- Pete is at peace with the outcome; sees his path as a **WFM evangelist** (consultant/trainer), not an employee PO
 - John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return
-- Call done May 12 — went well; compensation not yet discussed
-- Pete & Kim agreed: stay interested in case Kim's health requires benefits/stability
+- Option remains open if Kim's health ever requires benefits/stability
 
 ---
 
@@ -193,11 +216,14 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 
 - Nonprofit; Peter is founding member (~30 years) and helped incorporate in 2001
 - Became **President November 2025**
+- **CPA:** Cathie Kellogg CPA — BTTR accountant
 - Claude tracks board membership and stakeholders (org-wide and per-project)
 
 **Active Projects:**
 - **Records Preservation** — gather, store, assimilate 25+ years of records, minutes, communications
 - **Bob Kerrey Pedestrian Bridge Coffee Table Book** — documenting a signature BTTR accomplishment
+  - **Hal Daub interview — June 11, 2026** — 2.5 hours, video recorded. Conducted by Jim and John (Legacy). Larry Foster (Director of Parks & Recreation under Daub) also present. Videographer on site. Pete's role: BTTR President / book producer. Daub was Omaha Mayor during riverfront development, instrumental in its success. Pete personal note: only person to work for both Kerrey (D) and Daub (R); Daub hired Pete after Kerrey left office. Recording pending upload/transcription.
+  - **Larry Foster** — Director of Parks & Recreation under Mayor Hal Daub; key figure in riverfront/bridge story; potential additional interview subject
 - **Lewis & Clark Monuments** — reviving an original BTTR project, series of monuments
 
 **🔴 Urgent: Recruit Treasurer**
@@ -235,9 +261,13 @@ Loads at the start of every session. Keep current. Last updated: 2026-05-27
 - **Decisions pending:** Countertop selection (3 options from Everson — quote not yet received: Sparkling White quartz, Level 1 quartz, granite)
 - **Neighbors:** Sherry & Randy Beene — across the street, very helpful; send Omaha Steaks gift card
 - **Lawn care:** Alison Nix — mows every 2 weeks, $70/visit via Apple Pay. Payment flow: Pete pays from NFCU personal checking → opens NFCU app → switches to Dad's trust account → transfers $70 to personal checking as reimbursement. Last paid: June 1, 2026.
+- **Pest control:** ENSEC — authorized 6/8/26; scheduling contact is Desiree Hartlaub (renter). Services: fire ant treatment ($374/year), tri-annual bug spray (inside + outside), annual termite plan. ENSEC will call Desiree directly for all scheduling going forward.
 - **House quirks:** Jenn-Air downdraft range previously installed — hole in floor under stove location (filled by Dad, raised floor around pipe). Acrylic print (SF skyline, Claremont resort, HDR by Pete) in storage — goes home to Bellevue, not for sale.
 - **Power:** Property is on a meter — no auto-pay risk while vacant; confirm prior to renter move-in
 - Pete departed June 1 — future contractor visits to be coordinated through renters
+- **2-10 Home Warranty** — plumbing issue reported 6/8/26; ball rolling, more details TBD
+- **Garbage disposal replacement** — Jeremy (Paul Davis) called 6/9/26 ~2:58 PM; Pete approved replacement at "Home Depot" pricing. Plumber already on site getting supplies. Jeremy also wants a trip charge — **Pete disputed this** (plumber is already there) but approved pending breakdown. Asked Jeremy to itemize disposal and trip charge separately on the change order so it can be reviewed. **Owner expense — not USAA covered** (same rule as water filter: insurance covers damage, owner pays for the failed appliance).
+- **Construction/maintenance files** — found large collection at property; first pass confirms cost basis will be much less than county's current assessed value (critical for October tax return)
 - **Return travel booked:** Southwest AU84MN — PNS → BNA → STL → OMA, June 1, departs 5:20 PM, arrives 11:00 PM. Used $442.20 Southwest flight credit (expires Aug 2026); out of pocket $51.30.
 - **Budget rental:** Dropping Chevy Equinox at PNS on June 1. Extended to 6/1 at $935.36 additional (original $616.38 sunk). One-way Omaha drop rejected ($2,100+ with $900 one-way fee — not justified for a carload).
 - **Note:** Files + 48x18" acrylic print need to come home eventually — proper truckload move needed, not a carload at a time.
@@ -292,6 +322,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - **Always start sessions** with current date and time — Claude has no live clock
 - **Morning planning + evening wrap-up** is the daily rhythm
 - **Voice first:** Thinks faster than types. Voice Memos → transcript → paste to Claude is preferred for stream-of-consciousness capture
+- **Post-call debrief habit:** After any high-value call (Ralph Varble, clients, board members), immediately record a Voice Memo brain dump while still fresh — then transcript → Claude for structured notes, action items, and knowledge base. Target: within 5 minutes of hanging up. This feeds the Chief of Staff agent knowledge base.
 - **Billable work:** Log in Clockify. Narrate work to Claude simultaneously to build knowledge base
 - **File naming:** `yyyy_mmdd Description` (e.g., `2026_0512 Contacts Export.csv`)
 - **Writing style:** Prose for planning conversations; structured lists for to-dos
@@ -318,11 +349,13 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 | Cadence | Task |
 |---|---|
 | Every session | Start with date & time |
+| After every high-value call | Voice Memo brain dump → transcript → paste to Claude for structured notes + Chief of Staff KB |
 | Every planning session | Remind Pete to recruit BTTR Treasurer |
 | 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
 | Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
 | Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |
 | Every 2 weeks | Alison Nix lawn payment — $70 Apple Pay, reimburse from Dad's NFCU trust account (last paid June 1) |
+| Annually (renewal ~June 2027) | ENSEC pest control — $374 fire ant treatment; confirm tri-annual spray + termite plan renewal; Desiree Hartlaub is scheduling contact |
 | Early October 2026 | Request mail-in ballot for November general election |
 | October 2026 | Father's tax return deadline (involves PenAir details and cost basis for house) |
 
@@ -330,7 +363,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 
 ## Open Items / Known Gaps
 
-- [ ] **Test Microsoft 365 MCP server** — added via `claude mcp add --transport http microsoft365 https://microsoft365.mcp.claude.com/mcp`; got 403 "host not in allowlist" in remote session; test on local machine (Lenovo Yoga or Surface Studio) running Claude Code natively
+- [x] **Microsoft 365 MCP server** — confirmed working on Surface Studio 2026-06-11; reads Teams chats (Unifocus tenant: pcastellano@unifocus.com), Outlook email, calendar, SharePoint/OneDrive, Teams meeting transcripts
 - [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working
 - [ ] Rosewood Miramar: Is Local booking type intentionally absent at GH and SLS?
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
@@ -340,24 +373,40 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Pensacola: Monitor progress toward move-in — countertop install earliest June 4; coordinate renter delay with John Hallam
 - [ ] Pensacola: Confirm Pete's travel dates and book return travel home
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
+- [ ] Pay Tom for early months of storage (Pensacola property)
 - [x] Craig Taylor — added to Outlook contacts
-- [ ] Father's taxes — details TBD, October deadline (PenAir details, cost basis for house)
-- [ ] **Call Ralph Varble** — discuss MakeReady (3 props) + HMAlpha (15 props) training projects; schedule butts up against Mohonk Aug 2–7 but doesn't overlap
-- [ ] **Read "Fw: Unifocus set up- timeline" and "Re: Proposed Pilot Training Schedule"** emails Ralph copied Pete on — context for MakeReady/HMAlpha projects
-- [ ] **Mohonk flights** — book OMA→(SWF/EWR/JFK/LGA); arrive Sunday Aug 2, depart Friday Aug 7; comp room provided by property
-- [ ] Priyanka Kalia — compensation discussion still needed, pending offer
+- [ ] Father's taxes — October deadline; construction/maintenance files found at property (confirms cost basis < county assessed value); PenAir details still needed
+- [ ] **Call Ralph Varble** — confirm: (1) Jun 22–26 New Orleans/HMAlpha still on? (2) Pete on The Joseph Nashville training week of Jul 20? (3) Heathman Portland dates? (4) Aug 10–14 Moran Houston + Aug 17–21 Indianapolis confirmed?
+- [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Joseph (Nashville), Heathman (Portland), Moran (Houston). Joseph training confirmed weeks of Jul 6 + Jul 20.
+- [x] **Mohonk flights** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
+- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), ~Jul 20–24 (Joseph Nashville, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Hilton Indianapolis). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
+- [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
+- [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
+- [ ] **Send thank you to Hal Daub** — for Bob Kerrey Bridge book interview (6/11/26, 2.5 hours, recorded); upload transcript when ready
+- [ ] **Reconcile claude.ai open items → CLAUDE.md** — review recent claude.ai "Pete" project chats for to-dos, reminders, and commitments that never made it here; Scribd cancellation reminder is a known example of the gap
 - [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; need talking points to present him to the board. Nobody else has stepped up.
-- [ ] NTSG Registered Agent — contact vendor, execute agreement, pay
-- [ ] NTSG: pay insurance bill — Policy PHPK2741797-000; **payment initiated June 5** — provided bank account info to Elizabeth Hovorka (402) 330-7979; $674/year liability coverage (picnic, holiday party, parades, etc.); Pete moved $1,000 savings→checking to cover; awaiting confirmation from Elizabeth that payment cleared
-- [ ] NTSG: prepare to pay for picnic location/reservation
+- [ ] **BTTR meeting** — coordinate with Karen Bluvas (Asst. Treasurer) + Cathie Kellogg CPA (BTTR accountant)
+- [x] **NTSG Registered Agent** — account setup complete 2026-06-10; vendor: Registered Agent Solutions, Inc. (RASi) | https://rasi.com | portal: https://rasi.corpliance.com/ | Brian Pride — Brian.Pride@wolterskluwer.com | 512-640-6606
+- [x] NTSG: pay insurance bill — Policy PHPK2741797-000; confirmed paid 6/8/26; policy copy received and stored 6/8/26; copy also sent to Lisa Carmichael. Elizabeth Hovorka (402) 330-7979.
+- [x] NTSG: picnic location deposit paid — 2026-06-10
 - [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
 - [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems
 - [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA (now mapped to QB)
 - [ ] Full tech stack inventory
 - [ ] Board member roster for BTTR
 - [ ] Agent architecture design sessions (ongoing)
+- [ ] **Clear iPhone voicemail** — flagged May 26, still unresolved
+- [ ] **Watch Honor Flight Mission 36 video** — on thumb drive; narrative draft saved at `journal/2026-06-12_honor-flight-mission-36.md`; re-extraction from claude.ai needed (some conversations blended in current draft)
+- [ ] **Upload Kim's LinkedIn/professional profile** to claude.ai "Pete" project — requested May 19
+- [ ] **Mac McIntire / Strategic Logics derivative** — review and refine for PWS use; flagged May 26 (confirm if still relevant)
+- [ ] **Mohonk: Projected Hours issue** — Founders/Granary shifts not generating; James taking notes/screenshots, Bron/Casey to submit support ticket — confirm ticket was submitted
+- [ ] **UNIFOCUS-246757** — Rosewood Baha Mar Banquet Forecast not populating; escalated to Data Integration; follow up on resolution; also review related tickets 246339, 241784, 238540 for pattern
+- [ ] **Baha Mar: Tastings mapping decision** — Menu Tasting KBIs: roll into Ttl Lunch/Dinner or stay separate? Deliberate call needed; flagged as "don't let this be an accidental omission"
+- [ ] **MHBR: F&B standards migration** — Excel staffing guides need to be migrated into Unifocus and validated with outlets; open from original engagement
+- [ ] **Baha Mar: Request EMS config reports** from all 3 properties — needed to enable dummy BEO files and complete BQT mapping
 - [ ] **Krispy Kreme settlement** — $75–$3,500. Data breach Nov 2024. Check if you received a breach notification email. File at settlement website. **Deadline: June 26, 2026**
 - [ ] **Apple iPhone settlement** — $25–$95/device. Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice.
 - [ ] **Capital One 360 Savings settlement** — Had a Capital One 360 Savings account Sept 2019–June 2025? Auto-payment July 2027 if eligible — confirm account history.
