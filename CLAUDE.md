@@ -1,6 +1,6 @@
 # Peter Castellano — Claude Code Context
 
-Loads at the start of every session. Keep current. Last updated: 2026-06-12
+Loads at the start of every session. Keep current. Last updated: 2026-06-15
 
 ---
 
@@ -183,9 +183,11 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-12
   - **The Joseph, Nashville** — Week of Jul 6: config/setup. Week of Jul 20: training (Pete/Akram). Dates confirmed by Lynn Snyder (Area MD).
   - **The Moran, Houston** — Training week: Aug 10–14 (Pete traveling onsite)
   - **Heathman, Portland** — Dates TBD; Ralph confirming
-- **HMAlpha (spin-off of Dimension)** — 15 properties; Pete as trainer
-  - Jun 22–26: New Orleans / Intercontinental — **may have fallen off calendar; confirm with Ralph**
-  - Aug 17–21: Indianapolis / Hilton
+- **HMAlpha (spin-off of Dimension)** — 5 pilot properties confirmed (not 15); Pete as trainer
+  - **Jun 22 (week of):** New Orleans / Intercontinental — 3 days (1 admin + 2 manager; 13 managers). **BLOCKED pending HMAlpha approval to contact property.** Ralph says "every week they push it a week" due to BLSBD config issues (budget/standards misalignment). 50+ emails related to BLSBD concerns across 5 pilots. HMAlpha forcing direct calls with properties to resolve concerns before training proceeds.
+  - **Jun 29 (week of):** Nashville / Autograph Union Station — 3 days (same structure as New Orleans; 13 managers)
+  - **Aug 17 (week of):** Westin LaPalma — TBD days
+  - **Status:** Configuration done March/April; BLSBD crisis with properties; Pete cannot contact until HMAlpha approves (got in trouble doing so early). Ralph has locked further-out dates; if New Orleans slips, it bumps into locked schedule and goes to "back of the line."
 - **Consulting travel pattern:** Monday arrival / Friday departure for onsite training weeks
 - **COS resource:** `2025 IM_Consultants Daily Resource Calendar.xlsm` — Ralph's team resource calendar; Chief of Staff agent should monitor this for scheduling conflicts
 - **Unifocus team:** Ralph Varble (CCO) rvarble@unifocus.com O:972-512-5083 C:832-226-8945 | John Grech jgrech@unifocus.com | Akram Chahin achahin@unifocus.com | Taylor Walton twalton@unifocus.com | Susanna Briggs sbriggs@unifocus.com | Ahmed Chadid AChadid@unifocus.com
@@ -194,7 +196,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-12
 
 **Upcoming Travel (calendar coordination needed):**
 - **Jun 14–21, 2026** — Orlando: watch Camille's house + dog, proximity to Dad; Father's Day away from kids/grandkids. Booked: SW C8R96Z (OMA-MCO, WN435). **Return may go MCO→MSY direct (straight to New Orleans) — do not book OMA return until New Orleans status confirmed.**
-- **Jun 22–26, 2026** — New Orleans / Intercontinental — HMAlpha / PWS onsite training. **Status: may have fallen off calendar — confirm with Ralph. If still on, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip.**
+- **Jun 22–26, 2026 (tentative)** — New Orleans / Intercontinental — HMAlpha onsite training (3 days: 1 admin + 2 manager for 13 managers). **Status (6/15): HMAlpha not yet approved to contact property. Ralph says approval "every week they push it a week" — expect last-minute confirmation. If confirmed, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip. Cannot contact property until HMAlpha says OK. Pete to brief with Steve (config) and Akram (training email) on Tuesday 6/16.**
 - **~Jul 20–24, 2026** — The Joseph, Nashville — MakeReady training (Pete/Akram). **Not yet on Pete's calendar — confirm with Ralph.**
 - **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
 - **Aug 10–14, 2026** — The Moran, Houston TX — MakeReady onsite training
@@ -246,8 +248,8 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-12
 
 - **Address:** 5577 North Shore Way, Pensacola FL
 - Lindal Cedar Home — post and beam, premium Western red cedar; designed and built by father as a model home (he was a real estate agent)
-- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon still enlisted, Naval Aviation); garage access May 21, original move-in June 1; 24-month lease — **move-in delayed; countertop install earliest June 4; working plan with John Hallam**
-- **Renter delay plan (via John):** Proposed deal — move in June 1 with known limited/no kitchen. No rent for half a month. Kitchen status at move-in: no countertop, no sink, no water to fridge, refrigerator and microwave uncertain. All wiring off or safely terminated. Context: original deal already anticipated possible cabinet doors/drawer fronts missing if refinished — partial kitchen not a surprise, just a different limitation. **Hartlaubs confirmed: moving in June 1, will tolerate no kitchen.**
+- **Renters:** Brandon & Desiree Hartlaub (5 kids; Brandon completed OCS, now commissioned officer, heading to NAS Pensacola for naval aviator flight training); both "mustangs" (enlisted who became officers); garage access May 21, **moved in June 1, 2026** ✅; 24-month lease; **rent forgiven June 1–15 while house was incomplete**
+- **Move-in status (June 1, 2026):** Renters moved in intentionally incomplete; AC fixed day before move-in; house deep cleaned day before move-in. Countertops installed week of 6/1. Faucet and dishwasher plumbing completed week of 6/8. **Renters thrilled with results.** Pete has NOT formally signed off on project completion (pending water filter status confirmation).
 - **Pre-move-in work (confirmed with Jeremy):** Paint hall and bedrooms (NOT master — see below); add waterline box; secure all electrical. **New change order coming May 29 — sign and pay immediately when received.** Jeremy's crew is staged and waiting; he will call them as soon as Pete signs.
   - **Electrical:** In scope of USAA claim — Paul Davis/Jeremy negotiate directly with USAA as GC. Pete does not manage this portion.
   - **Painting (hall + bedrooms only — master bedroom removed):** Pete's elective addition — out of pocket. **Master bedroom NOT being painted** — Pete and John Hallam both agree it's too expensive at contractor rates. John manages 160 short-term rentals and has cheaper painting/carpet/tile resources; can get master done within 30 days after move-in at better price.
@@ -291,8 +293,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-12
 - **Net payout (after deductible):** $31,651.71
 - **Loss of Rent coverage:** Active from moment of loss until project completion — must prove property was listed for rent and ultimately rented. Documentation: homes.mil listing inquiry March 10, 2026 + email thread + signed lease when received
 - Tommy Castellano handled early renter correspondence before Pete took over
-- **Water conditioner/filter:** The leak originated from the water filter behind the fridge — this fixture is NOT covered (Pete pays for replacement). USAA covers the resulting water damage only. Same rule as a leaking garbage disposal: insurance covers the damage, owner covers the failed appliance.
+- **Water filter behind fridge:** Unclear if replaced as part of plumbing work (6/8 week). **OPEN ITEM: confirm replacement status.** If failed unit was never replaced, Pete pays out of pocket (insurance covered damage, not appliance). Same rule as garbage disposal.
 - **Great room painting:** Jeremy confirmed this is in the USAA claim scope (up to the hallway edge) — hallway was elective/outside claim boundary
+- **Loss-of-rent supplement:** Ready to file. Gather: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease. Supplement covers rent from loss date through project completion. Rent was forgiven 6/1–6/15, so supplement will document this period.
+- **USAA insurance coordination:** See pensacola_house_insurance memory for complete details on Citizens Wind & Hail, flood insurance (FEMA vs Neptune), Primary Residence credit, Wind Mitigation discount. Called USAA 6/15 for 2.5 hours; Mary (USAA) coordinating. Check discounts before 6/30; verify on 7/9 payment.
 
 ---
 
@@ -349,6 +353,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 | Cadence | Task |
 |---|---|
 | Every session | Start with date & time |
+| **15th and last day of month, noon CT** | **CRITICAL: Unifocus invoice deadline.** Log Clockify hours, convert to days, build invoice, send to Shilpa Bhando. See unifocus_invoice_deadlines memory. |
 | After every high-value call | Voice Memo brain dump → transcript → paste to Claude for structured notes + Chief of Staff KB |
 | Every planning session | Remind Pete to recruit BTTR Treasurer |
 | 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
@@ -370,8 +375,8 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?
 - [ ] MHBR: Which jobs were included in the original .644 HPOR benchmark?
 - [ ] **Baha Mar Casino** — contact Clay Price and Ed Peek re: Unifocus closing a deal; Pete likely doing the implementation
-- [ ] Pensacola: Monitor progress toward move-in — countertop install earliest June 4; coordinate renter delay with John Hallam
-- [ ] Pensacola: Confirm Pete's travel dates and book return travel home
+- [x] **Pensacola move-in** — Renters moved in June 1, 2026 ✅; house incomplete but intentional; countertops/plumbing completed week of 6/1–6/8; renters thrilled
+- [x] **Pensacola travel** — June 1–6/14 trip to Orlando and Pensacola completed; visited Dad, managed renter move-in, worked with contractors
 - [ ] Omaha Steaks gift card for Sherry & Randy Beene — not yet sent
 - [ ] Pay Tom for early months of storage (Pensacola property)
 - [x] Craig Taylor — added to Outlook contacts
@@ -406,7 +411,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **UNIFOCUS-246757** — Rosewood Baha Mar Banquet Forecast not populating; escalated to Data Integration; follow up on resolution; also review related tickets 246339, 241784, 238540 for pattern
 - [ ] **Baha Mar: Tastings mapping decision** — Menu Tasting KBIs: roll into Ttl Lunch/Dinner or stay separate? Deliberate call needed; flagged as "don't let this be an accidental omission"
 - [ ] **MHBR: F&B standards migration** — Excel staffing guides need to be migrated into Unifocus and validated with outlets; open from original engagement
-- [ ] **Baha Mar: Request EMS config reports** from all 3 properties — needed to enable dummy BEO files and complete BQT mapping
+- [ ] **Baha Mar SLS & Grand Hyatt mapping** — Waiting for Rhondi (SLS) and Jon (Grand Hyatt) to identify their Event Management System administrators so Pete can get complete Event/Booking category configuration. Follow-up email sent 6/15 for early delivery 6/16. Once received, create dummy BEO files with all combinations per property, import with Monali, delete. This lights up all mapping options without disrupting live data.
 - [ ] **Krispy Kreme settlement** — $75–$3,500. Data breach Nov 2024. Check if you received a breach notification email. File at settlement website. **Deadline: June 26, 2026**
 - [ ] **Apple iPhone settlement** — $25–$95/device. Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice.
 - [ ] **Capital One 360 Savings settlement** — Had a Capital One 360 Savings account Sept 2019–June 2025? Auto-payment July 2027 if eligible — confirm account history.
