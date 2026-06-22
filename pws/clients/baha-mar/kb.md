@@ -1,6 +1,6 @@
 # Baha Mar Campus — Knowledge Base
 
-Last updated: 2026-05-28 (evening session)
+Last updated: 2026-06-10
 
 ---
 
@@ -20,17 +20,19 @@ Last updated: 2026-05-28 (evening session)
 
 | Name | Title | Property/Org | Contact |
 |---|---|---|---|
-| Valquir Correa (Val) | — | Baha Mar (campus-level) | valquir.correa@bahamar.com |
+| Valquir Correa (Val) | VP Corporate Finance | Baha Mar (campus-level) | valquir.correa@bahamar.com \| +1 242 788 8009 \| +1 242 376 5910 |
 | Ahmed Chadid | Client Success Manager | Unifocus | AChadid@unifocus.com \| O: 972-512-5167 |
 | Gia Turnquest | Asst. Director of Finance | SLS Baha Mar | Gia.Turnquest@slshotels.com \| +1 242 788 7271 |
 | Adriel Marshall | Asst. Director Revenue Management | SLS Baha Mar | adriel.marshall@slshotels.com \| +1 242 788 7248 |
 | Lolita Marshall | — | SLS Baha Mar | lolita.marshall@slshotels.com |
 | Christian Laskaros | — | SLS Baha Mar | Christian.LASKAROS@slshotels.com |
+| Rhondi Hobson | — (EMS contact — role TBD) | SLS Baha Mar | Rhondi.HOBSON@slshotels.com |
+| Jon Finch | — (EMS contact — role TBD) | Grand Hyatt Baha Mar | jon.finch@hyatt.com |
 | Monali | — | Unifocus (imports team) | Handles one-time BEO imports for mapping setup |
 
 **Needed — not yet obtained:**
-- EMS (Delphi) administrator for SLS Baha Mar
-- EMS (Delphi) administrator for Grand Hyatt Baha Mar
+- EMS (Delphi) administrator for SLS Baha Mar — Val reached out to Rhondi Hobson 5/26/26; Pete followed up directly to Rhondi + Jon 6/10/26
+- EMS (Delphi) administrator for Grand Hyatt Baha Mar — Val reached out to Jon Finch 5/26/26; Pete followed up directly to Rhondi + Jon 6/10/26
 - Rosewood corporate Delphi administrator already in communication
 
 ---
@@ -183,6 +185,11 @@ These are non-obvious Unifocus behaviors confirmed during Baha Mar configuration
 | May 28 | SLS | RW Bqt Ttl Meals | #9731 | Calculated | `@SUM(##9101[0],##9201[0],##9301[0],##9501[0])` | ✅ Done |
 | May 29 | CTF | 23 RW banquet KBIs (8xxx: inputs + calculated) | #8101–#8731 | Various | See Work Plan below | ✅ Done |
 | May 29 | CTF | RW Avail Guests Bkfst/Lunch/Dinner | #8107–#8109 | Calculated | `##8003[-1]-##8x01[0]` / `##8003[0]-##8301[0]` | ✅ Done |
+| Jun (confirmed 6/10/26) | RW | GH Occ Rms Yesterday at RW | #1105 | Calculated | `##1101[-1]` | ✅ Done |
+| Jun (confirmed 6/10/26) | RW | GH Stayovers at RW | #1106 | Calculated | `##1105[0]-##1104[0]` | ✅ Done |
+| Jun (confirmed 6/10/26) | RW | SLS Occ Rms Yesterday at RW | #1205 | Calculated | `##1201[-1]` | ✅ Done |
+| Jun (confirmed 6/10/26) | RW | SLS Stayovers at RW | #1206 | Calculated | `##1205[0]-##1204[0]` | ✅ Done |
+| Jun (confirmed 6/10/26) | RW | Resort TTL Stayovers (converted Input→Calculated) | #7824 | Calculated | `@SUM(##1005[0],##1106[0],##1206[0])` | ✅ Done |
 
 **Status:** ✅ Resolved — Generate Standard Hours completed 5/26/26 6:55 PM (failed at 5:51 PM, fixed, passed at 6:55 PM)
 
@@ -283,7 +290,7 @@ All type: Calculated.
 | Resort TTL Arrivals | #7821 | `@SUM(##1002[0],##1102[0],##1202[0])` | RW+GH+SLS |
 | Resort TTL Guests | #7822 | `@SUM(##1003[0],##1103[0],##1203[0])` | RW+GH+SLS |
 | Resort TTL Departures | #7823 | `@SUM(##1004[0],##1104[0],##1204[0])` | RW+GH+SLS |
-| Resort TTL Stayovers | #7824 | `@SUM(##1005[0],##1101[-1]-##1104[0],##1201[-1]-##1204[0])` | ⚠️ see note |
+| Resort TTL Stayovers | #7824 | `@SUM(##1005[0],##1106[0],##1206[0])` | ✅ Calculated — uses intermediate KBIs ##1105/##1106/##1205/##1206 |
 | Resort TTL Avail Guest Bkfst | #7825 | `@SUM(##1008[0],##6107[0],##7107[0])` | RW+GH+SLS |
 | Resort TTL Avail Guest Lunch | #7826 | `@SUM(##1009[0],##6108[0],##7108[0])` | RW+GH+SLS |
 | Resort TTL Avail Guest Dinner | #7827 | `@SUM(##1010[0],##6109[0],##7109[0])` | RW+GH+SLS |
@@ -294,62 +301,61 @@ All type: Calculated.
 | Resort TTL Bqt Breaks | #7832 | `@SUM(##5500[0],##6411[0],##7411[0])` | RW+GH+SLS |
 | Resort TTL Bqt Meals | #7833 | `@SUM(##5020[0],##6731[0],##7731[0])` | RW Ttl Covers BLDR+GH+SLS |
 
-**⚠️ #7824 Stayovers note:** The inline `##1101[-1]-##1104[0]` may trigger a Unifocus duplication alert. If so, create intermediate yesterday KBIs first:
-- `GH Occ Rms Yesterday at RW` = `##1101[-1]` → use `##[newcode][0]-##1104[0]`
-- `SLS Occ Rms Yesterday at RW` = `##1201[-1]` → use `##[newcode][0]-##1204[0]`
-Use next available codes in 1xxx range at RW (1105+ or 1205+ are clean).
+**Note on #7824:** The inline `-1` offset in the stayover formula would have triggered a Unifocus duplication alert. Resolved by building intermediate KBIs ##1105 (GH Occ Rms Yesterday), ##1106 (GH Stayovers), ##1205 (SLS Occ Rms Yesterday), ##1206 (SLS Stayovers) at RW first, then using those in the formula. ##1005 = "01-RW Hotel Stay Throughs" — Rosewood's own term for stayovers. Notes field in Unifocus shows `@SUM(##1005[0],##1105[0],##1205[0])` — minor mislabeling in the notes, actual formula is correct.
 
 ---
 
-## Work Plan: Resort Total Formula Updates at Other Properties
+## Resort Total Formula Updates — Confirmed Complete (May 28–29, 2026)
 
-These existing formulas are missing Rosewood. Update AFTER the Rosewood KBIs are built and confirmed.
+All resort total formulas at GH, SLS, and CTF confirmed updated to include Rosewood, per config review 6/10/26. Two bugs identified at GH; one minor SLS issue to monitor.
 
-### At GH — 9 formulas to update
+### At GH — ✅ Complete (two issues need correction)
 
-GH Rosewood mirrors are 9xxx. Existing RW banquet totals at GH: `#9101` (Bqt TTL Grp Bkfst), `#9201` (Lunch), `#9301` (Dinner), `#9501` (Reception).
-
-| KBI | Code | Current Formula | New Formula |
+| KBI | Code | Confirmed Formula | Status |
 |---|---|---|---|
-| Resort TTL Avail Guest Bkfst | #7825 | `@SUM(##1021[0],##7107[0])` | `@SUM(##1021[0],##7107[0],##[RWcode][0])` |
-| Resort TTL Avail Guest Lunch | #7826 | `@SUM(##1022[0],##7108[0])` | `@SUM(##1022[0],##7108[0],##[RWcode][0])` |
-| Resort TTL Avail Guest Dinner | #7827 | `@SUM(##1023[0],##7109[0])` | `@SUM(##1023[0],##7109[0],##[RWcode][0])` |
-| Resort TTL GRP Bkfst | #7828 | `@SUM(##5101[0],##7141[0])` | `@SUM(##5101[0],##7141[0],##9101[0])` |
-| Resort TTL GRP Lunch | #7829 | `@SUM(##5201[0],##7241[0])` | `@SUM(##5201[0],##7241[0],##9201[0])` |
-| Resort TTL GRP Dinner | #7830 | `@SUM(##5301[0],##7341[0])` | `@SUM(##5301[0],##7341[0],##9301[0])` |
-| Resort TTL GRP Reception | #7831 | `@SUM(##5501[0],##7541[0])` | `@SUM(##5501[0],##7541[0],##9501[0])` |
-| Resort TTL Bqt Breaks | #7832 | `@SUM(##5411[0],##7411[0])` | TBD — need RW Break mirror code at GH |
-| Resort TTL Bqt Meals | #7833 | `@SUM(##5900[0],##7731[0])` | TBD — need RW Meals mirror code at GH |
+| Resort TTL Avail Guest Bkfst | #7825 | `@SUM(##1021[0],##7107[0],##9521[0])` | ✅ |
+| Resort TTL Avail Guest Lunch | #7826 | `@SUM(##1022[0],##7108[0],##9522[0])` | ✅ |
+| Resort TTL Avail Guest Dinner | #7827 | `@SUM(##1023[0],##7109[0],##9523[0])` | ✅ |
+| Resort TTL GRP Bkfst | #7828 | `@SUM(##5101[0],##7141[0],##9101[0])` | ✅ |
+| Resort TTL GRP Lunch | #7829 | `@SUM(##5201[0],##7241[0],##9201[0])` | ✅ |
+| Resort TTL GRP Dinner | #7830 | `@SUM(##5301[0],##7341[0],##9301[0])` | ✅ |
+| Resort TTL GRP Reception | #7831 | `@SUM(##5501[0],##7541[0],##9501[0])` | ✅ |
+| Resort TTL Bqt Breaks | #7832 | `@SUM(##5411[0],##7411[0],##9401[0])` | ✅ |
+| Resort TTL Bqt Meals | #7833 | `@SUM(##5900[0],##7731[0],##9731[0])` | 🔴 Bug — see below |
 
-**RW Avail Guests codes at GH** — confirm codes before updating #7825–7827.
+**🔴 Bug — GH #7833 wrong GH component.** `##5900` = GH Bqt Ttl ALL Covers (includes breaks and meetings — confirmed formula `@SUM(##5411,##5601,##5301,##5201,##5501,##5101,##5603)`). Should be `##5905` = GH Bqt TTL Meals (B+L+D+R only). At SLS and RW, this KBI correctly uses a meals-only total. Fix: change `##5900[0]` → `##5905[0]` in #7833.
 
-### At SLS — 5 formulas to update
+**🟡 Issue — GH SLS HSK Stayover #7012 not corrected.** Formula still `##7001[-1]*.6` (yesterday's SLS occupied rooms). CTF already has the corrected version: `##7010[0]*.6` (today's SLS stayovers). GH was missed. Fix: change to `##7010[0]*.6`.
 
-SLS already has RW GRP totals in some resort formulas (9101, 9201, 9301, 9501). Still missing:
+**🟡 Pre-existing — GH SLS Arr+Dep #7007 formula mismatch.** KBI named "SLS 19. Hotel Arr + Dep" but formula is `@SUM(##1002[0], ##1004[0])` — uses GH codes (1xxx), not SLS codes. Should likely be `@SUM(##7002[0], ##7004[0])`. Confirm with Ahmed before changing.
 
-| KBI | Code | Current Formula | Needs |
+### At SLS — ✅ Complete
+
+| KBI | Code | Confirmed Formula | Status |
 |---|---|---|---|
-| Resort TTL Avail Guest Bkfst | #7825 | `@SUM(##1021[0],##7107[0])` | + RW Avail Guests Bkfst |
-| Resort TTL Avail Guest Lunch | #7826 | `@SUM(##1022[0],##7108[0])` | + RW Avail Guests Lunch |
-| Resort TTL Avail Guest Dinner | #7827 | `@SUM(##1023[0],##7109[0])` | + RW Avail Guests Dinner |
-| Resort TTL Bqt Breaks | #7832 | `@SUM(##5411[0],##7411[0])` | + RW Break mirror |
-| Resort TTL Bqt Meals | #7833 | `@SUM(##8007[0],##7731[0])` | + RW Meals mirror |
+| Resort TTL Avail Guest Bkfst | #7825 | `@SUM(##1021[0],##7107[0],##9520[0])` | ✅ |
+| Resort TTL Avail Guest Lunch | #7826 | `@SUM(##1022[0],##7108[0],##9521[0])` | ✅ |
+| Resort TTL Avail Guest Dinner | #7827 | `@SUM(##1023[0],##7109[0],##9522[0])` | ✅ |
+| Resort TTL Bqt Breaks | #7832 | `@SUM(##5411[0],##7411[0],##9401[0])` | ✅ |
+| Resort TTL Bqt Meals | #7833 | `@SUM(##8007[0],##7731[0],##9731[0])` | ✅ |
 
-### At CTF — 9 formulas to update
+**Note — SLS #1023 Available Guests Dinner:** Formula is `##1003[0]-##8003[0] - ##5521[0]` — subtracts SLS Dinner covers AND SLS Reception Heavy covers from available guests. Intentional; present in live config. Reflects that Reception Heavy dinner-period service competes for the same covers.
 
-CTF RW is 8xxx. RW banquet cross-property KBIs do NOT yet exist at CTF. Build 8xxx KBIs at CTF first, then update:
+**🟡 Monitor — SLS Rosewood 06. Stayovers #9006 formula prefix.** Config export shows `=##9005[0] - ##9004[0]` with a leading `=`. Almost certainly a CSV export artifact (Excel treats leading `=` as formula indicator). Verify the formula displays correctly in Unifocus UI — if it shows the `=` there too, remove it.
 
-| KBI | Code | Current Formula | Needs |
+### At CTF — ✅ Complete (May 29)
+
+| KBI | Code | Confirmed Formula | Status |
 |---|---|---|---|
-| Baha Mar TTL Avail Guest Bkfst | #1008 | `@SUM(##7107[0],##9107[0])` | + RW Avail Guests Bkfst |
-| Baha Mar TTL Avail Guest Lunch | #1009 | `@SUM(##7108[0],##9108[0])` | + RW Avail Guests Lunch |
-| Baha Mar TTL Avail Guest Dinner | #1010 | `@SUM(##7109[0],##9109[0])` | + RW Avail Guests Dinner |
-| Baha Mar TTL GRP Bkfst | #7828 | `@SUM(##7141[0],##9141[0])` | + RW Bqt mirror |
-| Baha Mar TTL GRP Lunch | #7829 | `@SUM(##7241[0],##9241[0])` | + RW Bqt mirror |
-| Baha Mar TTL GRP Dinner | #7830 | `@SUM(##7341[0],##9341[0])` | + RW Bqt mirror |
-| Baha Mar TTL GRP Reception | #7831 | `@SUM(##7541[0],##9541[0])` | + RW Bqt mirror |
-| Baha Mar TTL Bqt Breaks | #7832 | `@SUM(##7411[0],##9411[0])` | + RW Break mirror |
-| Baha Mar TTL Bqt Meals | #7833 | `@SUM(##7731[0],##9731[0])` | + RW Meals mirror |
+| Baha Mar TTL Avail Guest Bkfst | #1008 | `@SUM(##7107[0],##9107[0],##8107[0])` | ✅ |
+| Baha Mar TTL Avail Guest Lunch | #1009 | `@SUM(##7108[0],##9108[0],##8108[0])` | ✅ |
+| Baha Mar TTL Avail Guest Dinner | #1010 | `@SUM(##7109[0],##9109[0],##8109[0])` | ✅ |
+| Baha Mar TTL GRP Bkfst | #7828 | `@SUM(##7141[0],##9141[0],##8101[0])` | ✅ |
+| Baha Mar TTL GRP Lunch | #7829 | `@SUM(##7241[0],##9241[0],##8201[0])` | ✅ |
+| Baha Mar TTL GRP Dinner | #7830 | `@SUM(##7341[0],##9341[0],##8301[0])` | ✅ |
+| Baha Mar TTL GRP Reception | #7831 | `@SUM(##7541[0],##9541[0],##8501[0])` | ✅ |
+| Baha Mar TTL Bqt Breaks | #7832 | `@SUM(##7411[0],##9411[0],##8411[0])` | ✅ |
+| Baha Mar TTL Bqt Meals | #7833 | `@SUM(##7731[0],##9731[0],##8731[0])` | ✅ |
 
 ---
 
@@ -380,26 +386,31 @@ Banquet files for all three properties are imported into all four properties. Ma
 
 ## Priority / Next Steps
 
-1. ✅ **Build 60 KBIs at Rosewood** — Done May 28. #7824 Resort TTL Stayovers left as Input pending ##1105/##1205.
-2. ✅ **Update GH resort total formulas** — Done May 28. Also built #9521–9523, #9401, #9731 at GH.
-3. ✅ **Update SLS resort total formulas** — Done May 28. Also built #9520–9522, #9401, #9731 at SLS.
+1. ✅ **Build 60 KBIs at Rosewood** — Done May 28.
+2. ✅ **Update GH resort total formulas** — Done May 28. Built #9521–9523, #9401, #9731 at GH.
+3. ✅ **Update SLS resort total formulas** — Done May 28. Built #9520–9522, #9401, #9731 at SLS.
 4. ✅ **Build Rosewood banquet cross-property KBIs at CTF (8xxx) + update 9 CTF formulas** — Done May 29.
-5. **Monitor Generate Projected Hours** for formula errors across all properties — next automated cycle or run on demand
-6. **Build ##1105 (GH Stayovers) and ##1205 (SLS Stayovers) at RW**, then convert #7824 from Input to Calculated
-7. **Map GH and SLS BQT files at Rosewood** — blocked on: EMS config reports + 1975 trick import
-8. **BQT mapping audit at all properties** — EMS config reports + dummy BEO files at each property
-9. **Verify with Ahmed/Val:** are resort-level Breaks and Reception totals used in any reporting? Deactivate if not.
-10. **Research current USALI standard** — confirm whether Breaks count toward F&B productivity covers
-11. **Future tool:** KBI Generation and Validation Artifact
+5. ✅ **Monitor Generate Projected Hours** — ticket UNIFOCUS-247305 resolved 5/26/26; formula errors cleared.
+6. ✅ **Build ##1105/##1106/##1205/##1206 at RW; convert #7824 to Calculated** — Confirmed complete 6/10/26.
+7. 🔴 **Fix GH #7833** — Change `##5900[0]` → `##5905[0]`. Breaks and Meetings currently inflating resort banquet meal count at GH. Billable; fix at next Unifocus session.
+8. 🟡 **Fix GH SLS HSK Stayover #7012** — Change `##7001[-1]*.6` → `##7010[0]*.6`. CTF already corrected; GH was missed.
+9. 🟡 **Confirm GH SLS Arr+Dep #7007 formula** — Named "SLS Hotel Arr+Dep" but uses GH 1xxx codes. Verify with Ahmed before changing.
+10. **Await EMS admin response** — Email sent directly to Rhondi Hobson (SLS) + Jon Finch (GH) on 6/10/26. Once they respond: get full Booking/Event Type list from Delphi, create dummy BEO files with every combination, coordinate 1975 trick import with Monali.
+11. **BQT mapping audit at all properties** — blocked on EMS config reports + dummy BEO files.
+12. **Boat & Airline decision** — SLS #5522 is currently an orphaned input not feeding any labor total (same at GH #7522, CTF #7522). Confirm intentional exclusion OR map to appropriate cover category. Likely crew meals; if excluded by design, document it.
+13. **Wild-west KBIs at Rosewood** — full list in config: Breakout, General Session, Activity/Tournament, Afternoon, Hold, Hold 24 Hour, Office/Ready Room, Registration, Setup (plus Local equivalents). Cleanup plan: deactivate (z-prefix) if non-operational, or confirm which types warrant cover entry.
+14. **Tastings decision** — roll into Ttl Lunch or remain standalone? Pete decision pending.
+15. **Verify SLS Rosewood 06 Stayovers `=` prefix** — check formula in Unifocus UI. If `=` appears there, remove it; if not, it was a CSV export artifact and no action needed.
+16. **Future tool:** KBI Generation and Validation Artifact.
 
 ### Blocked Items
 
 | Item | Blocked By |
 |---|---|
-| BQT mapping at Rosewood | EMS config reports + dummy BEO import |
-| BQT mapping audit (all properties) | EMS config reports + dummy BEO files |
-| Tastings decision (roll into Ttl or standalone) | Pete decision pending |
+| BQT mapping (all properties) | EMS config reports + dummy BEO import — waiting on Rhondi/Jon |
+| Tastings decision | Pete decision pending |
 | INHS mapping | Research pending |
+| Boat & Airline mapping | Pete + property decision |
 
 ---
 
@@ -462,15 +473,47 @@ Customer/cover counts do NOT appear on the face of Schedule 2. All cover statist
 
 ---
 
+## Structural Facts Confirmed — 6/10/26 Config Review
+
+These were previously open questions — now answered from live config exports pulled 10:01–10:05 AM 6/10/26.
+
+| Question | Answer |
+|---|---|
+| Local booking type absent at GH and SLS? | **Confirmed absent.** Both have Group-only banquet KBIs. Rosewood has full Group + Local split (Bqt Grp + Bqt Loc series, summed in Bqt Ttl). This is a BQT mapping gap — when Local-type BEOs arrive from GH/SLS, there are no KBIs to receive them. |
+| Breakfast Box and Dinner Box absent at GH and SLS? | **Confirmed absent.** Both have Lunch Box Meal only (#5231). Rosewood has Bkfst Box (#5151), Lunch Boxed (#5251), Dinner Box (#5351). |
+| Cocktail and Full Reception absent at GH and SLS? | **Confirmed absent.** Both have Lite (#5511) and Heavy (#5521) only. Rosewood has Cocktail (#5411), Lite (#5421), Full (#5431), Heavy (#5441). |
+| What does SLS "Boat & Airline" event type map to? | **Orphaned input — maps to nothing.** `SLS Bqt Grp Boat & Airline #5522` at SLS is an Input KBI not included in any total, reception formula, or labor calculation. Mirrored at GH (#7522) and CTF (#7522) — same state. Likely crew meals, intentionally excluded. Needs formal decision and documentation. |
+| CTF Breakfast Available Guests formula correct? | **Confirmed correct.** `#1008 = @SUM(##7107[0],##9107[0],##8107[0])` — SLS + GH + RW all three included. |
+| ##1105/##1205/##1106/##1206 built at RW? #7824 Calculated? | **Confirmed complete.** All four intermediate KBIs present. #7824 is Calculated type using `@SUM(##1005[0],##1106[0],##1206[0])`. |
+
+## Rosewood Banquet Structure — Key Differences from GH/SLS
+
+| Feature | Rosewood | GH | SLS |
+|---|---|---|---|
+| Booking types | Group + Local (both, with Ttl summaries) | Group only | Group only |
+| Box meals | Bkfst Box, Lunch Boxed, Dinner Box | Lunch Box only | Lunch Box only |
+| Reception types | Cocktail, Lite, Full, Heavy | Lite, Heavy | Lite, Heavy |
+| "Afternoon" meal period | Yes (#5611 Grp, #5213 Loc) | No | No |
+| INHS (In-House Meeting) | No | Yes (#5603) | Yes (#5606) |
+| Boat & Airline | No | SLS mirror only (#7522) | Yes (#5522) |
+| Wild-west event types | Yes (Activity, Breakout, General Session, Afternoon, Hold, Hold 24 Hr, Office/Ready Room, Registration, Setup — both Grp and Loc) | No | No |
+
+**BQT mapping implication:** When EMS data arrives, GH and SLS BEO files may contain Local-type events with no target KBIs. Decision needed: add Local KBIs at GH and SLS, or map Local BEOs to Group KBIs as a workaround.
+
 ## Open Questions
 
 - [ ] Are SLS and GH on a single shared Baha Mar Delphi instance?
-- [ ] Is Local booking type intentionally absent at GH and SLS?
-- [ ] Are Breakfast Box and Dinner Box used at GH and SLS?
-- [ ] Are Cocktail and Full Reception intentionally absent at GH and SLS?
-- [ ] What does SLS "Boat & Airline" event type map to?
+- [x] Is Local booking type intentionally absent at GH and SLS? → **Confirmed absent** — now a BQT mapping gap to resolve
+- [x] Are Breakfast Box and Dinner Box absent at GH and SLS? → **Confirmed absent** (Lunch Box only)
+- [x] Are Cocktail and Full Reception absent at GH and SLS? → **Confirmed absent**
+- [ ] **Boat & Airline** — confirm intentional labor exclusion OR map to cover category (Priority #12)
 - [ ] Tastings — roll into Ttl Lunch or remain standalone?
 - [ ] INHS — confirm maps to Local at source property
-- [ ] Wild-west KBIs at Rosewood (Breakout, General Session, etc.) — cleanup plan?
-- [ ] CTF Breakfast Available Guests formula — verify correct
-- [ ] Val to connect Pete with EMS administrators for SLS and GH
+- [ ] Wild-west KBIs at Rosewood — cleanup plan (Priority #13)
+- [x] CTF Breakfast Available Guests formula → **Confirmed correct** (#1008 = all three properties)
+- [ ] EMS administrators for SLS and GH — email sent directly to Rhondi Hobson + Jon Finch 6/10/26; awaiting response
+- [ ] Confirm GH SLS Arr+Dep #7007 formula (Priority #9)
+
+---
+
+*© Peter A. Castellano. All rights reserved.*
