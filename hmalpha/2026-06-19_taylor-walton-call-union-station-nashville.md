@@ -213,7 +213,7 @@ Taylor Walton is the Unifocus consultant responsible for Union Station Nashville
 | 3 | Confirm schedule export trigger with Monali — publish-only or timer? Ticket for publish-trigger if not set; raise to Ralph/Akram as universal HMAlpha setting | Taylor | URGENT | Open |
 | 4 | Follow up with property: who is distributing training materials to all managers? Must happen TODAY or Saturday | Taylor | URGENT | Open |
 | 5 | Update LMS timeline with all corrections from this call + resend to property and Devon | Taylor | Today | Open |
-| 6 | Include manager registration status list with timeline distribution (resend invites to unregistered) | Taylor | Today | Open |
+| 6 | Include manager registration status list with timeline distribution (resend invites to unregistered) | Taylor | Today | ✅ Done 6/22 — updated list with column E comments sent; follow-up invites sent to all unregistered users |
 | 7 | Confirm banquet KBI import is scheduled for 12:30 PM Friday (separate from rooms import at noon) | Taylor / Monali | This week | Open |
 | 8 | Identify "actual/completed" field in BEO file to confirm past actuals are captured | Taylor | This week | ✅ Field confirmed: column labeled "Actual" — past dates have data |
 | 9 | Get revenue center forecast generation moved to later on Friday (after Brad reviews rooms + banquet) | Taylor | This week | Open |
