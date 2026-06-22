@@ -210,7 +210,7 @@ Unifocus maps imported banquet data (from EMS/Delphi) to internal planning using
 
 **Solution — Dummy BEO File Approach:**
 1. Create a synthetic BEO file containing every valid Booking/Event Type combination for a property
-2. Unifocus imports team (e.g., Monali) does a one-time import
+2. Monali Desai (Lead, Data Integration & Interface Implementation) does a one-time import
 3. All combinations become visible in the mapping screen
 4. Dummy file is deleted — does not affect any past or future planning weeks
 5. Full mapping can now be completed

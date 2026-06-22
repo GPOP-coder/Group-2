@@ -28,7 +28,7 @@ Last updated: 2026-06-10
 | Christian Laskaros | — | SLS Baha Mar | Christian.LASKAROS@slshotels.com |
 | Rhondi Hobson | — (EMS contact — role TBD) | SLS Baha Mar | Rhondi.HOBSON@slshotels.com |
 | Jon Finch | — (EMS contact — role TBD) | Grand Hyatt Baha Mar | jon.finch@hyatt.com |
-| Monali | — | Unifocus (imports team) | Handles one-time BEO imports for mapping setup |
+| Monali Desai | Lead, Data Integration & Interface Implementation | Unifocus | Interface/imports authority; handles one-time BEO imports for mapping setup |
 
 **Needed — not yet obtained:**
 - EMS (Delphi) administrator for SLS Baha Mar — Val reached out to Rhondi Hobson 5/26/26; Pete followed up directly to Rhondi + Jon 6/10/26
