@@ -14,9 +14,9 @@
 
 | Category | Amount | Count |
 |----------|--------|-------|
-| Restaurant Meals | $497.64 | 21 |
+| Restaurant Meals | $494.04 | 21 |
 | Groceries | $121.36 | 5 |
-| **TOTAL** | **$619.00** | **26** |
+| **TOTAL** | **$615.40** | **26** |
 
 ---
 
@@ -24,10 +24,10 @@
 
 | Card Last 4 | Type | Total Charged |
 |-------------|------|----------------|
-| -8289 | VISA WF Debit | $469.16 |
+| -8289 | VISA WF Debit | $465.56 |
 | -7552 | VISA WF Active Cash | $135.98 |
 | -2409 | Target Debit Card | $13.86 |
-| **TOTAL** | | **$619.00** |
+| **TOTAL** | | **$615.40** |
 
 ---
 
@@ -38,7 +38,7 @@
 | 5/16/26 | $8.81 | McDonald's, Orlando FL | Restaurant | -8289 |
 | 5/17/26 | $11.64 | Popeyes, Atlanta GA (layover) | Restaurant | -8289 |
 | 5/17/26 | $20.92 | The Sports Bar, Pensacola FL (Food — Wing Basket, proportional) | Restaurant | -8289 |
-| 5/18/26 | $21.49 | Hub Stacey's at The Point (Lunch — Unsweet Tea + Chicken Salad), Pensacola FL | Restaurant | -8289 |
+| 5/18/26 | $17.89 | Hub Stacey's at The Point (Lunch — Unsweet Tea + Chicken Salad), Pensacola FL | Restaurant | -8289 |
 | 5/18/26 | $44.18 | Publix (Perdido Key), Pensacola FL (groceries) | Groceries | -8289 |
 | 5/19/26 | $13.10 | Burger King #4914, Pensacola FL | Restaurant | -8289 |
 | 5/19/26 | $16.18 | Walmart Supercenter, Pensacola FL (groceries) | Groceries | -8289 |
@@ -98,7 +98,7 @@
 - Drinks-only receipts excluded in full (no food component to split)
 - These expenses are NOT Schedule E deductions — this is a direct POA reimbursement from father's trust account for oversight-related expenses
 - Main deductible expense report (air, car, hotel, supplies): `2026-05-15_2026-06-01_pensacola-expense-report-final.md` — $6,089.92
-- **6/27/26 amendment:** Added Hub Stacey's 5/18 lunch ($21.49, -8289) from physical receipt submitted after original compilation. New total: $619.00.
+- **6/27/26 amendment:** Added Hub Stacey's 5/18 lunch ($17.89, -8289) from physical receipt submitted after original compilation. Receipt: Tea $3.12 + Chicken Salad $13.52 + tax $1.25 = $17.89. New total: $615.40.
 
 ---
 
