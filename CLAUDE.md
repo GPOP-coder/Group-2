@@ -97,9 +97,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 
 **iPhone**
 - No Claude Code CLI — not supported on iOS
-- Access via **Claude.ai web app** (browser or app) for conversational sessions
-- Primary capture workflow: Voice Memos → auto-transcribed → paste into Claude
-- Not a coding device; used for capture and review only
+- **Claude Code web app** (claude.ai/code) works fully in iPhone browser — git runs in a remote cloud container, so commits and pushes to GitHub work from iPhone just like a laptop
+- Primary capture workflow: Voice Memos → auto-transcribed → paste into Claude Code web session
+- Can do real repo work on the go; not just capture
 
 **Lenovo Yoga** (portable/travel machine)
 - Git for Windows 2.54.0 — installed May 27, 2026
