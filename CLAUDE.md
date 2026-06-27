@@ -86,6 +86,39 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
 
+### Claude Code Configuration by Device
+
+**GitHub Repository: `gpop-coder/Group-2`**
+- The persistent memory and knowledge base for Pete's Chief of Staff agent project
+- Branch: `claude/code-onboarding-walkthrough-01miz` — all active development here
+- Contains: PWS client KBs (Baha Mar, Mohonk, MHBR, Rosewood Miramar), BTTR nonprofit files, NTSG contacts, personal journal, travel/expense reports, Chief of Staff context documents, Mac McIntire IP, PWS foundations, HMAlpha training files, cultural references, finances
+- CLAUDE.md loads at the start of every session as master context
+- Commit and push at the end of every session so work is available on all devices
+
+**iPhone**
+- No Claude Code CLI — not supported on iOS
+- Access via **Claude.ai web app** (browser or app) for conversational sessions
+- Primary capture workflow: Voice Memos → auto-transcribed → paste into Claude
+- Not a coding device; used for capture and review only
+
+**Lenovo Yoga** (portable/travel machine)
+- Git for Windows 2.54.0 — installed May 27, 2026
+- Claude Code CLI 2.1.152 — installed May 27, 2026 via `winget install Anthropic.ClaudeCode`
+- Visual Studio Code — installed May 27, 2026; Claude Code extension (asterisk icon) active
+- Windows Terminal — primary terminal interface
+- M365 MCP server — configured; connects to Unifocus M365 tenant (pcastellano@unifocus.com)
+- Working directory: cloned `gpop-coder/Group-2` repo
+- Used on travel/remote trips; commit before switching to Surface Studio
+
+**Surface Studio** (primary office machine, Bellevue home office)
+- Git — installed June 2026
+- Claude Code CLI — installed June 2026 via `winget install Anthropic.ClaudeCode`
+- Visual Studio Code — installed June 2026; Claude Code extension active
+- Windows Terminal — primary terminal interface
+- M365 MCP server — confirmed working June 11, 2026; reads Unifocus Teams, Outlook, SharePoint, OneDrive, Teams meeting transcripts
+- Working directory: cloned `gpop-coder/Group-2` repo
+- Paired with ASUS lightweight second monitor
+
 ---
 
 ## Financial Infrastructure & Accounting (Finalized May 30, 2026)
