@@ -99,6 +99,8 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 - No Claude Code CLI — not supported on iOS
 - **Claude Code web app** (claude.ai/code) works fully in iPhone browser — git runs in a remote cloud container, so commits and pushes to GitHub work from iPhone just like a laptop
 - Primary capture workflow: Voice Memos → auto-transcribed → paste into Claude Code web session
+- Can drop photos, receipt images, and voice memo transcripts directly into a session — Claude extracts, files, and commits to the repo without needing a laptop in the loop
+- This makes the iPhone a real-time knowledge base intake terminal: anything worth capturing goes straight into the repo, not into a "deal with later" pile
 - Can do real repo work on the go; not just capture
 
 **Lenovo Yoga** (portable/travel machine)
