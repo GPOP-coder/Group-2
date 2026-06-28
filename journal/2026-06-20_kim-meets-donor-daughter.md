@@ -64,3 +64,48 @@ Kim Castellano met **Thomaree Holland**, 15-year-old daughter of her heart donor
 - This write-up + media interviews may be the catalyst Pete has been waiting for to encourage Kim's book
 - Tamara Holland (Kristian's mother) is raising all 5 of Kristian's children — Thomaree is among them; Tamara was not present at this Denver meeting
 - The necklace Kim gave Thomaree mirrors the heartbeat bear Pete previously sent Tamara — both gestures of tangible connection across the donor/recipient divide
+
+---
+
+## CNN 5 Things Coverage — June 27, 2026
+
+**Source:** CNN 5 Things podcast, "5 Good Things: Ever Wonder What a Plant Sounds Like?"
+https://podcasts.apple.com/us/podcast/cnn-5-things/id1436719991?i=1000774448359&r=211
+*(Note: This material may be protected by copyright. Transcript quoted for personal/journaling purposes only.)*
+
+Kim's story was featured nationally on CNN the day after she submitted her write-up to Nebraska Medicine (June 26). This is the first known national media coverage.
+
+**Name spelling note:** CNN spells the donor's daughter's name as "Tamari Holland" and the donor as "Christian Nicole Holland." Our records use "Thomaree" and "Kristian" — the CNN spellings are likely phonetic. Confirm correct spelling with family.
+
+### New Details from CNN Not in Kim's Write-Up
+
+**Kim's heart has a name: Boo.**
+Named for Halloween — the day of the transplant (October 31, 2024). At her first heartversary, Kim set a place at the table for her donor before she knew who it was. *"My donor was with me."*
+
+**The Boo coincidence.**
+When Thomaree (Tamari) learned the heart was named Boo, she was moved: *"I always say Boo, and my mom, like, she would say Boo. So it was just, like, such a coincidence that you gave it that name, where we say that a lot. That was just kind of special to me."*
+
+**Tamari had been saving Kim's letters.**
+After Kim sent a thank-you letter to the donor family, they wrote back. Letters turned into texts. Tamari kept every one.
+
+**Gifts were exchanged both ways.**
+Kim gave the heart-shaped necklace. Tamari gave Kim **a bookmark covered with her mother's photos** — a detail not in Kim's own write-up.
+
+**The organ preservation technology angle.**
+CNN noted Kim struggled to find a match and that a new organ preservation technology (XVIVO) allowed her to receive a heart from farther away than previously possible. This is why XVIVO facilitated the meeting.
+
+**What they both came home saying.**
+*"I can't speak for her, but I know we both coming home said, that just felt right. Like, that just felt like something we needed."*
+Tamari: *"Knowing that her heart is really in a better place, like, knowing it, seeing it, it definitely makes it easier to go on about my day."*
+
+**Future plans:** They intend to meet again and potentially compete together in future Transplant Games.
+
+### CNN Transcript (verbatim excerpt)
+
+> "When she walked in, I was like, we hugged each other. And I held back the tears. I was proud of myself. I did really well until my daughter hugged her. Because me being the mom and seeing the two daughters hug each other, that's when I lost it."
+
+> "So my heart's name is Boo. For my first heartversary, it was a beautiful heartversary. And we had this beautiful table set up for my donor because I didn't know who it was at the time. It was lovely. So my donor was with me."
+
+> "I always say Boo, and my mom, like, she would say Boo. So it was just, like, such a coincidence that you gave it that name, where we say that a lot. That was just kind of special to me."
+
+> "I can't speak for her, but I know we both coming home said, that just felt right. Like, that just felt like something we needed, you know, to just know that where my heart came from was a great place. Knowing that her heart is really in a better place, like, knowing it, seeing it, it definitely makes it easier to go on about my day. And knowing that it's with someone who's good and positive and doing good things."
