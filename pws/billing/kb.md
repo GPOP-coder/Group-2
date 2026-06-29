@@ -1,6 +1,6 @@
 # PWS — Billing & Invoicing
 
-Last updated: 2026-05-27
+Last updated: 2026-06-29
 
 ---
 
@@ -20,7 +20,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 | Period | To | CC |
 |---|---|---|
 | Through May 31 invoices | Ralph Varble (RVarble@unifocus.com) | Shilpa Bhando (Shilpab@unifocus.com); peter.a.castellano@outlook.com; heartprincess71@yahoo.com |
-| Mid-June invoice onward | Shilpa Bhando (Shilpab@unifocus.com) | peter.a.castellano@outlook.com; heartprincess71@yahoo.com |
+| Mid-June invoice onward | Shilpa Bhando, VP of Operations (Shilpab@unifocus.com) | peter.a.castellano@outlook.com; heartprincess71@yahoo.com |
 
 **Note:** Starting June, Shilpa approves invoices. She forwards approved invoices to: `invoices@unifocus.com`, Rahul Verma, Nita Rawtini. No longer need to include Ralph on mid-June invoice or later.
 
@@ -29,28 +29,25 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 ### Invoice Format
 
 **Numbering:** `UF` + `YYYYMMDD` + `PAC` (e.g., `UF20260514PAC` = May 14, 2026 invoice)  
-**Customer ID:** 20240515 (Pete's Unifocus employment termination date)  
+**Customer ID:** 20240515
 **Payment terms:** Due upon receipt  
-**Due Date is the closest of 5th or 20th of the month
+**Due Date:** closest upcoming 5th or 20th after invoice date
 **No timesheet required** — invoice only (per Ralph, June 2025)
 
 **Bill to:**
-> Attn: [Approver]  
-> Unifocus (Texas), L.P.  
-> 511 E John W Carpenter Fwy  
+> Attn: Shilpa Bhando, VP of Operations
+> Unifocus (Texas), L.P.
+> 511 E John W Carpenter Fwy
 > Irving, TX 75062
+> (954) 512-5100
 
-**Line item structure:**
+**Rounding rule:** Days = TRUNCATE(hours ÷ 8, 3 decimal places). Line Total = truncated days × rate. Math stands alone — no rounding explanation needed on the invoice.
 
-| Qty | Item | Description | Location | Unit Price |
-|---|---|---|---|---|
-| (days, decimal) | Remote Consulting | [task description] | [client/property] | $500.00 |
-| (days, decimal) | Onsite Consulting | [task description] | [client/property] | $600.00 |
+**Descriptions:** Use Clockify entry descriptions as the default; edit each period as needed. Description in Clockify does not need to match the invoice.
 
-- Qty is in **days** (not hours) — Clockify tracks hours; divide by 8 to convert to days
-- Description can be general ("Post Go-Live Support and Configuration Adjustments")
-- Internal Unifocus meetings are billed as Remote Consulting against "Unifocus"
-- Lines with no hours logged can remain on the invoice at $0 (placeholder for the period)
+**Zero-hour lines:** Per Shilpa (June 2026 onward) — only include projects with actual billable hours.
+
+**Rates:** See `pws/billing/rate-table.md` — the authoritative source. Use `/invoice [period]` skill to calculate from Clockify PDF.
 
 ### Rates
 | Type | Rate |
@@ -84,6 +81,10 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 *$0 lines = no hours logged for those categories during May 1–14*
 
 ---
+
+## Invoice Archive
+
+Standalone invoice files stored in `pws/billing/invoices/[invoice-number].md`
 
 ## May 15–31 Billing Progress
 
