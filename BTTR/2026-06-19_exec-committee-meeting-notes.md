@@ -43,10 +43,10 @@ Pete presented David's background to the group:
 
 **Meet and Greet:**
 - Group consensus: informal meet-and-greet before July 17, not walking in cold
-- **Date: June 30, late afternoon 3–4pm, at Papio (small meeting room)**
+- ~~Date: June 30, late afternoon 3–4pm, at Papio~~ — **rescheduled; David unavailable June 30**
+- **Confirmed: July 10, afternoon — David Dover confirmed**
 - Pete returns from Nashville June 29; Karen available June 30, leaves July 1 (back July 7)
-- **Action: Pete → confirm with David, send invite to exec committee + Larry + Jim**
-- All exec committee confirmed available June 30 afternoon
+- **Action: Pete → send invite to exec committee + Larry + Jim for July 10 afternoon**
 
 ### b. Financial Account Updates (Karen Bluvas)
 
@@ -157,7 +157,7 @@ Pete presented David's background to the group:
 |---|---|---|---|
 | 1 | Ask Larry to find bike vendor email / logo master file | Pete | ASAP |
 | 2 | Bring digital storage proposal (2–3 options) to July 17 | Michelle | July 17 |
-| 3 | Confirm June 30 meet-and-greet with David Dover; invite exec + Larry + Jim; book Papio 3–4pm | Pete | This week |
+| 3 | Send invite to exec + Larry + Jim for July 10 afternoon meet-and-greet with David Dover | Pete | ASAP |
 | 4 | Get exact requirements to add signatories to investment account | Karen | Monday 6/22 |
 | 5 | Review bylaws for existing financial governance language | Pete | Before July 17 |
 | 6 | Develop annual budget framework for July 17 | Michelle | July 17 |
