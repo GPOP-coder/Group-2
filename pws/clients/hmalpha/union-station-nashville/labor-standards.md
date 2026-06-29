@@ -7,7 +7,9 @@
 **Source sessions:** Onsite F&B Director meeting June 25, 2026; remote follow-up June 2026
 **Status:** In progress — configured remotely after onsite session
 
-**⚠️ Open: Contact F&B Director** — Stationairy configuration incomplete; need to reconnect to finalize Busperson, Host/Hostess, Server, and Supervisor edits, and confirm break rule threshold. F&B Director name/contact not yet captured — locate and add.
+**⚠️ Open: Contact Brad Stewart + Trey Jensen** — Stationairy configuration incomplete; need to reconnect to finalize Busperson, Host/Hostess, Server, and Supervisor edits, and confirm break rule threshold (≥6 hrs clock).
+- Brad Stewart (Director of Food and Beverage): Brad.Stewart@theunionstationnashvilleyards.com
+- Trey Jensen (Assistant Director of Outlets): Trey.Jensen@theunionstationnashvilleyards.com
 
 ---
 
