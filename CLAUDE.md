@@ -218,10 +218,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 **Steve Carrell** (Unifocus — Senior Workforce Performance Consultant) | scarrell@unifocus.com — called Pete June 5 to say he recommended Pete to Ralph Varble as a trainer for new clients, possibly on contract. Owns MakeReady configuration phase (all 3 properties). Pete held the same consultant role for many years before moving into Client Success Manager.
 
 **New Training Projects (June 2026):**
-- **MakeReady (part of Rockbridge)** — 3 properties; Pete as trainer (with Akram Chahin). Steve Carrell owns config; John Grech owns post-config; Taylor Walton owns post go-live follow-up.
-  - **The Joseph, Nashville** — Week of Jul 6: config/setup. Week of Jul 20: training (Pete/Akram). Dates confirmed by Lynn Snyder (Area MD).
+- **MakeReady (part of Rockbridge)** — 2 properties; Pete as trainer. Steve Carrell owns config; John Grech owns post-config; Taylor Walton owns post go-live follow-up.
   - **The Moran, Houston** — Training week: Aug 10–14 (Pete traveling onsite)
   - **Heathman, Portland** — Dates TBD; Ralph confirming
+  - *(The Joseph Nashville is a Highgate property — managed by Highgate, not MakeReady. Steve Carrell did that consulting. Pete has no involvement.)*
 - **HMAlpha (spin-off of Dimension)** — 5 pilot properties confirmed (not 15); Pete as trainer
   - **Jun 22 (week of):** New Orleans / Intercontinental — 3 days (1 admin + 2 manager; 13 managers). **BLOCKED pending HMAlpha approval to contact property.** Ralph says "every week they push it a week" due to BLSBD config issues (budget/standards misalignment). 50+ emails related to BLSBD concerns across 5 pilots. HMAlpha forcing direct calls with properties to resolve concerns before training proceeds.
   - **Jun 29 (week of):** Nashville / Autograph Union Station — 3 days (same structure as New Orleans; 13 managers)
@@ -231,15 +231,14 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 - **COS resource:** `2025 IM_Consultants Daily Resource Calendar.xlsm` — Ralph's team resource calendar; Chief of Staff agent should monitor this for scheduling conflicts
 - **Unifocus team:** Ralph Varble (CCO) rvarble@unifocus.com O:972-512-5083 C:832-226-8945 | John Grech jgrech@unifocus.com | Akram Chahin achahin@unifocus.com | Taylor Walton twalton@unifocus.com | Susanna Briggs sbriggs@unifocus.com | Ahmed Chadid AChadid@unifocus.com
 - **MakeReady contact:** Michelle Lewis (Corp. Dir. Rooms & Guest Experience) mlewis@makereadyexperience.com | 510-827-2000 | 1202 Dragon St. STE 104 Dallas TX 75207
-- **The Joseph Nashville contacts:** Lynn Snyder (Area MD) lynn.snyder@thejosephnashville.com O:612-248-1990 M:219-252-9994 | Sean Barnes Sean.Barnes@thejosephnashville.com
+- **The Joseph Nashville (Highgate/Steve Carrell — not Pete's engagement):** Lynn Snyder (Area MD) lynn.snyder@thejosephnashville.com O:612-248-1990 M:219-252-9994 | Sean Barnes Sean.Barnes@thejosephnashville.com
 
 **Upcoming Travel (calendar coordination needed):**
 - **Jun 14–21, 2026** — Orlando: watch Camille's house + dog, proximity to Dad; Father's Day away from kids/grandkids. Booked: SW C8R96Z (OMA-MCO, WN435). **Return may go MCO→MSY direct (straight to New Orleans) — do not book OMA return until New Orleans status confirmed.**
 - **Jun 22–26, 2026 (tentative)** — New Orleans / Intercontinental — HMAlpha onsite training (3 days: 1 admin + 2 manager for 13 managers). **Status (6/15): HMAlpha not yet approved to contact property. Ralph says approval "every week they push it a week" — expect last-minute confirmation. If confirmed, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip. Cannot contact property until HMAlpha says OK. Pete to brief with Steve (config) and Akram (training email) on Tuesday 6/16.**
-- **~Jul 20–24, 2026** — The Joseph, Nashville — MakeReady training (Pete/Akram). **Not yet on Pete's calendar — confirm with Ralph.**
 - **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
 - **Aug 10–14, 2026** — The Moran, Houston TX — MakeReady onsite training
-- **Aug 17–21, 2026** — Hilton Indianapolis — HMAlpha onsite training
+- **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
 - **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
 
@@ -420,10 +419,10 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Pay Tom for early months of storage (Pensacola property)
 - [x] Craig Taylor — added to Outlook contacts
 - [ ] Father's taxes — October deadline; construction/maintenance files found at property (confirms cost basis < county assessed value); PenAir details still needed
-- [ ] **Call Ralph Varble** — confirm: (1) Jun 22–26 New Orleans/HMAlpha still on? (2) Pete on The Joseph Nashville training week of Jul 20? (3) Heathman Portland dates? (4) Aug 10–14 Moran Houston + Aug 17–21 Indianapolis confirmed?
-- [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Joseph (Nashville), Heathman (Portland), Moran (Houston). Joseph training confirmed weeks of Jul 6 + Jul 20.
+- [ ] **Call Ralph Varble** — confirm: (1) Heathman Portland dates? (2) Aug 10–14 Moran Houston + Aug 17–21 Indianapolis confirmed?
+- [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Heathman (Portland), Moran (Houston). *(The Joseph Nashville is Highgate/Steve Carrell — not Pete's engagement.)*
 - [x] **Mohonk flights** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
-- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), ~Jul 20–24 (Joseph Nashville, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Hilton Indianapolis). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Westin La Paloma Tucson). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
 - [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
 - [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
 - [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path
