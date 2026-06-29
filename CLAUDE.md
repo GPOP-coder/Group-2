@@ -430,7 +430,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] **Send thank you to Hal Daub** — for Bob Kerrey Bridge book interview (6/11/26, 2.5 hours, recorded); upload transcript when ready
 - [ ] **Reconcile claude.ai open items → CLAUDE.md** — review recent claude.ai "Pete" project chats for to-dos, reminders, and commitments that never made it here; Scribd cancellation reminder is a known example of the gap
-- [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; need talking points to present him to the board. Nobody else has stepped up.
+- [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; exec committee meet-and-greet moved to **July 10, 3–4 PM, Papio** (was June 30; David unavailable). Treasurer vote planned July 17 board meeting. Exec committee notice being sent 6/30 morning.
 - [ ] **BTTR meeting** — coordinate with Karen Bluvas (Asst. Treasurer) + Cathie Kellogg CPA (BTTR accountant)
 - [x] **NTSG Registered Agent** — account setup complete 2026-06-10; vendor: Registered Agent Solutions, Inc. (RASi) | https://rasi.com | portal: https://rasi.corpliance.com/ | Brian Pride — Brian.Pride@wolterskluwer.com | 512-640-6606
 - [x] NTSG: pay insurance bill — Policy PHPK2741797-000; confirmed paid 6/8/26; policy copy received and stored 6/8/26; copy also sent to Lisa Carmichael. Elizabeth Hovorka (402) 330-7979.
