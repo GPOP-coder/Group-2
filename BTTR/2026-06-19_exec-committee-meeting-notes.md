@@ -157,7 +157,7 @@ Pete presented David's background to the group:
 |---|---|---|---|
 | 1 | Ask Larry to find bike vendor email / logo master file | Pete | ASAP |
 | 2 | Bring digital storage proposal (2–3 options) to July 17 | Michelle | July 17 |
-| 3 | Send invite to exec + Larry + Jim for July 10 afternoon meet-and-greet with David Dover | Pete | ASAP |
+| 3 | Send invite to exec + Larry + Jim for July 10 afternoon meet-and-greet with David Dover | Pete | ✅ Done 6/27 |
 | 4 | Get exact requirements to add signatories to investment account | Karen | Monday 6/22 |
 | 5 | Review bylaws for existing financial governance language | Pete | Before July 17 |
 | 6 | Develop annual budget framework for July 17 | Michelle | July 17 |
