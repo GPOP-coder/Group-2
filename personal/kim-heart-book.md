@@ -44,5 +44,20 @@ Full text in: `journal/2026-06-20_kim-meets-donor-daughter.md`
 - The image of the two daughters hugging is the emotional center.
 - The XVIVO organ preservation technology angle gives it a science/hope dimension beyond the personal story.
 - One donor, five children left behind — and a recipient who named the heart after the day it arrived.
-- New York Post story was pending as a potential catalyst — status unknown.
+- New York Post story was pending as a potential catalyst — not yet published as of June 2026.
 - CNN national coverage changes the calculus. This is no longer just a Nebraska Medicine story.
+- Nebraska Medicine has not yet published Kim's write-up (submitted June 26, 2026).
+
+## Story Threads to Develop
+
+- **The full cost of a transplant** — Round up all insurance EOBs to calculate total cost of Kim's heart journey. What does a life actually cost the system? Powerful layer for the book.
+- **Income disparity: donors vs. recipients** — Who donates organs and who receives them? The socioeconomic gap between Kristian Holland's family (Wichita — Tamara Holland, Kristian's mother, is raising Kristian's 5 children as grandchildren, ages 4–14) and the transplant recipient world is a story in itself.
+- **Kim's original thank-you letter** — The letter that started the relationship with the Holland family. Needs to be located and preserved.
+
+## Open Items
+
+- [ ] Find Kim's original thank-you letter to the Holland family
+- [ ] Collect all insurance EOBs for the transplant journey
+- [ ] New York Post story — not yet published; follow up
+- [ ] Nebraska Medicine publication of Kim's write-up — pending
+- [ ] Confirm correct spelling: Thomaree vs. Tamari (CNN phonetic)
