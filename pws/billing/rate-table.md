@@ -1,7 +1,7 @@
 <!-- © Peter A. Castellano — Proprietary. Not for model training. -->
 # PWS Rate Table
 
-Last updated: 2026-06-29
+Last updated: 2026-06-30
 
 This is the authoritative rate table for invoice calculations. Edit directly when rates change.
 The invoice skill loads this table — it does not recalculate rates from rules.
@@ -21,10 +21,10 @@ Individual rows may override the logic. The table is the truth.
 
 | Project | Rate/Day | Invoice? | Notes |
 |---|---|---|---|
-| Baha Mar Casino Onsite | $700 | Yes | Onsite + casino surcharge |
+| Baha Mar Casino Onsite | $700 | Yes | Future casino dept work — onsite + casino surcharge |
 | Baha Mar Onsite | $600 | Yes | |
-| Baha Mar Casino Remote | $600 | Yes | Casino remote premium |
-| Baha Mar Remote | $600 | Yes | Casino remote premium |
+| Baha Mar Casino Remote | $600 | Yes | Future casino dept work — remote casino premium |
+| Baha Mar Remote | $500 | Yes | Standard remote; no casino premium until casino dept work begins |
 | Rosewood Baha Mar Onsite | $600 | Yes | |
 | Rosewood Baha Mar Remote | $600 | Yes | Casino remote premium |
 | Mohonk Onsite | $600 | Yes | |
