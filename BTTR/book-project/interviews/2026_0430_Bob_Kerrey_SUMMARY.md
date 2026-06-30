@@ -5,6 +5,9 @@ metadata:
   type: project
 ---
 
+<!-- © Peter A. Castellano — Proprietary and Confidential. -->
+<!-- Secured under promise of confidentiality: not for publication except in the book, or with additional permission obtained. -->
+
 # Bob Kerrey Interview Summary
 ## April 30, 2026
 

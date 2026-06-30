@@ -1,4 +1,5 @@
 <!-- © Peter A. Castellano — Proprietary and Confidential — BTTR Internal Use Only -->
+<!-- Secured under promise of confidentiality: not for publication except in the book, or with additional permission obtained. -->
 
 # Hal Daub Interview — Key Moments & Quotes
 *Bob Kerrey Pedestrian Bridge Coffee Table Book Project*

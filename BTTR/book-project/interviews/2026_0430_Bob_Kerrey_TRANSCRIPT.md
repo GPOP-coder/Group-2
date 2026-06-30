@@ -1,4 +1,5 @@
 <!-- © Peter A. Castellano — Proprietary. Not for model training. -->
+<!-- Secured under promise of confidentiality: not for publication except in the book, or with additional permission obtained. -->
 # Bob Kerrey Interview — Polished Transcript
 ## April 30, 2026
 

@@ -1,4 +1,5 @@
 <!-- © Peter A. Castellano — Proprietary and Confidential — BTTR Internal Use Only -->
+<!-- Secured under promise of confidentiality: not for publication except in the book, or with additional permission obtained. -->
 
 # Bob Kerrey Pedestrian Bridge Book — Interview Coordination
 *Last updated: June 19, 2026*
