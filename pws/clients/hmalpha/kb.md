@@ -78,13 +78,27 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 
 ## Key HM Alpha Contacts
 
+**Corporate address:** 21 Platform Way S., Ste. 1540, Nashville, TN 37203 | hmalpha.com
+
 | Name | Title | Email | Notes |
 |---|---|---|---|
 | Devon Peters | Manager, Strategy & Analytics | DPeters@hmalpha.com | Primary point of contact; intelligent, asks scaling questions; trigger-happy on emails |
-| Nicole Mendez | (New hire) | NMendez@hmalpha.com | Learning the system; attends training |
+| Nicole Mendez | Labor Analyst | NMendez@hmalpha.com | Learning the system; attends training onsite; CC on all training communications |
 | Treana Armstrong | | tarmstrong@hmalpha.com | |
 | Esther White | | ewhite@hmalpha.com | |
 | Matthew Schupbach | | MSchupbach@hmalpha.com | |
+
+**Key Unifocus Contacts on HM Alpha Engagement:**
+
+| Name | Email | Notes |
+|---|---|---|
+| Ralph Varble | rvarble@unifocus.com | CCO; O:972-512-5083 C:832-226-8945 |
+| Stephen (Steve) Carrell | scarrell@unifocus.com | Senior WFP Consultant — Configurer |
+| Akram Chahin | achahin@unifocus.com | Consultant |
+| John Grech | jgrech@unifocus.com | Post-config / CSM |
+| Taylor Walton | twalton@unifocus.com | Post-config / CSM |
+| Elliott Welburn | ewelburn@unifocus.com | Unifocus — role TBD; on HM Alpha training CC |
+| Alain Derderian | aderderian@unifocus.com | Unifocus — role TBD; on HM Alpha training CC |
 
 ---
 
