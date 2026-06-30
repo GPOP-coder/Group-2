@@ -97,8 +97,8 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | Akram Chahin | achahin@unifocus.com | Consultant |
 | John Grech | jgrech@unifocus.com | Post-config / CSM |
 | Taylor Walton | twalton@unifocus.com | Post-config / CSM |
-| Elliott Welburn | ewelburn@unifocus.com | Unifocus — role TBD; on HM Alpha training CC |
-| Alain Derderian | aderderian@unifocus.com | Unifocus — role TBD; on HM Alpha training CC |
+| Elliott Welburn | ewelburn@unifocus.com | Customer Success Manager (CSM) |
+| Alain Derderian | aderderian@unifocus.com | Director of Operations, Workforce Performance — Professional Services |
 
 ---
 
