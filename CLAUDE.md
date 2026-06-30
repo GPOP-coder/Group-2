@@ -1,6 +1,6 @@
 # Peter Castellano — Claude Code Context
 
-Loads at the start of every session. Keep current. Last updated: 2026-06-26
+Loads at the start of every session. Keep current. Last updated: 2026-06-30
 
 > **Claude Code directive:** Before answering any question about Claude Code features, capabilities, or documentation, search the web for the most recent documentation. Do not rely on what you already know — it's probably outdated. These tools ship new features weekly.
 
@@ -263,6 +263,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-26
 - **Records Preservation** — gather, store, assimilate 25+ years of records, minutes, communications
 - **Bob Kerrey Pedestrian Bridge Coffee Table Book** — documenting a signature BTTR accomplishment
   - **Hal Daub interview — June 11, 2026** — 2.5 hours, video recorded. Conducted by Jim and John (Legacy). Larry Foster (Director of Parks & Recreation under Daub) also present. Videographer on site. Pete's role: BTTR President / book producer. Daub was Omaha Mayor during riverfront development, instrumental in its success. Pete personal note: only person to work for both Kerrey (D) and Daub (R); Daub hired Pete after Kerrey left office. Recording pending upload/transcription.
+  - **Tom Hanafan interview — June 30, 2026** — Council Bluffs Mayor. Pete's phone recording stopped at 2:06 (picked up phone accidentally). Legacy contractors recorded audio — transcript coming, same as Daub and Kerrey. Hanafan's role: Council Bluffs side of the bridge story.
   - **Larry Foster** — Director of Parks & Recreation under Mayor Hal Daub; key figure in riverfront/bridge story; potential additional interview subject
 - **Lewis & Clark Monuments** — reviving an original BTTR project, series of monuments
 
@@ -429,6 +430,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] **Send thank you to Hal Daub** — for Bob Kerrey Bridge book interview (6/11/26, 2.5 hours, recorded); upload transcript when ready
+- [ ] **Tom Hanafan transcript** — Legacy contractors recorded 6/30/26 interview; await audio/transcript delivery; same pipeline as Daub
 - [ ] **Reconcile claude.ai open items → CLAUDE.md** — review recent claude.ai "Pete" project chats for to-dos, reminders, and commitments that never made it here; Scribd cancellation reminder is a known example of the gap
 - [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; exec committee meet-and-greet moved to **July 10, 3–4 PM, Papio** (was June 30; David unavailable). Treasurer vote planned July 17 board meeting. Exec committee notice being sent 6/30 morning.
 - [ ] **BTTR meeting** — coordinate with Karen Bluvas (Asst. Treasurer) + Cathie Kellogg CPA (BTTR accountant)
