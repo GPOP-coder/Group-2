@@ -118,5 +118,7 @@ metadata:
 ## Status
 
 ✅ **First interview complete**  
-⏳ **Awaiting:** Follow-up interviews with Fahey, Daub, Corps, Foster, Shelby  
-📋 **Next:** Schedule Fahey interview; determine if Daub/Shelby still living and available
+✅ **Summary source:** Pete's own recording (this file)  
+⏳ **Polished Legacy transcript:** Exists — Pete to locate and add to repo  
+⏳ **Awaiting:** Follow-up interviews with Fahey, Daub (done 6/11), Hanafan (done 6/30), Corps, Foster, Shelby  
+📋 **Next:** File Legacy transcripts (Kerrey, Daub, Hanafan) when received

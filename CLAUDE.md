@@ -430,6 +430,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Kim's book — still need more conversation
 - [ ] PWS rates — should be raised, timing TBD
 - [ ] **Send thank you to Hal Daub** — for Bob Kerrey Bridge book interview (6/11/26, 2.5 hours, recorded); upload transcript when ready
+- [ ] **Bob Kerrey polished transcript** — Legacy transcript exists; Pete to locate and add to repo (summary already in BTTR/book-project/interviews/)
 - [ ] **Tom Hanafan transcript** — Legacy contractors recorded 6/30/26 interview; await audio/transcript delivery; same pipeline as Daub
 - [ ] **Reconcile claude.ai open items → CLAUDE.md** — review recent claude.ai "Pete" project chats for to-dos, reminders, and commitments that never made it here; Scribd cancellation reminder is a known example of the gap
 - [ ] BTTR Treasurer — David Dover met June 4 — **strong candidate**; exec committee meet-and-greet moved to **July 10, 3–4 PM, Papio** (was June 30; David unavailable). Treasurer vote planned July 17 board meeting. Exec committee notice being sent 6/30 morning.
