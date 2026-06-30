@@ -66,7 +66,12 @@
 - Forecast × Labor Standard = Projected Hours
 - System can auto-generate suggested schedules (optional feature)
 
-**F. Manage/Publish Schedules**
+**F. Planning Tab — Period Check (Critical)**
+- Before doing anything in the Planning menu, verify the planning period is set correctly
+- Incorrect period = all data entry, forecast edits, and schedule generation happen in the wrong week
+- Admins must make this a reflex: check period first, then proceed
+
+**G. Manage/Publish Schedules**
 - Admins approve schedules managers built
 - Publish to staff (makes visible to employees and locks against changes)
 - Manage archival of previous schedules
@@ -128,6 +133,56 @@
 
 ---
 
+### 3B. Operating Codes and Schedule Groups (30 min)
+
+**Facilitator Key Points:**
+
+**A. Operating Codes — What They Are**
+- An operating code (opcode) is simply a **package of jobs** — nothing more
+- Jobs are often scattered for HR, payroll, or financial reasons; opcodes re-unify them for operational analysis
+- Example: Room Attendant Grade 1 + Room Attendant Grade 2 + On-Call → one opcode for total housekeeping view
+- Can cross department lines (e.g., all cooks regardless of outlet)
+- Show individual job detail AND a summary total at the bottom
+
+**B. Operating Codes — What They Cannot Do**
+- **Productivity measurements cannot be placed on an opcode** — those live on jobs/departments only
+- Opcodes do nothing until: (a) jobs are added AND (b) users are given access
+
+**C. Operating Codes — The Only Report That Aggregates Them**
+- Weekly Labor Summary is the only report that can add multiple opcodes together
+- Select multiple opcodes; each shows its own total; report adds them
+
+**D. Operating Code Setup Sequence**
+Admin creates → names → adds jobs → grants user access → opcode becomes functional
+
+**E. Schedule Groups — Purpose and Common Confusion**
+- Schedule Groups group **employees** (not jobs); used in the scheduling screen for filtering
+- Admin creates the group, names it, and grants manager access to it
+- **Manager** then controls which employees are in their schedule group — not admin
+- Purpose: create a time-of-day or role slice for the scheduling view (e.g., "Morning F&B Team," "Just the Cooks")
+- Most common early complaint: "A new employee isn't on my schedule" — manager forgot to add them to the group
+- Common misconception: managers try to create "all servers" group — unnecessary, since you can already filter by the Server job code in scheduling
+
+**F. Key Distinction**
+
+| | Operating Codes | Schedule Groups |
+|---|---|---|
+| Created by | Admin | Admin |
+| Groups | Jobs | Employees |
+| Used for | Reporting / analysis | Scheduling screen filter |
+| Membership managed by | Admin (adds jobs) | Manager (adds employees) |
+
+**Hands-On Exercise:**
+- Create one operating code for the property's highest-volume department; add jobs; grant access to one user
+- Create one schedule group; grant manager access; manager adds 3–5 employees
+
+**Success Criteria:**
+- Admins understand the difference between opcodes and schedule groups
+- Admins know they create/configure both; managers control schedule group membership
+- Admins understand that productivity measurements cannot be placed on opcodes
+
+---
+
 ### 4. Time & Attendance Integration (45 min)
 
 **Facilitator Key Points:**
@@ -141,6 +196,19 @@
 - TK codes (special time codes for non-standard situations)
 - Examples: Paid time off, training, meetings, call-out, no-show
 - Reconcile codes (how to handle exceptions in the calculation)
+
+**C. Reconcile Error Email**
+- Daily automated email sent after overnight employee data sync
+- Flags employee records that failed to import or import cleanly
+- Common errors: missing/mismatched job assignments, duplicate employee IDs, conflicting hire dates, gaps in service
+- Admin's role: treat as a daily checklist; resolve each item in Employee Maintenance before it affects scheduling
+- Designate who receives this email at go-live; document the resolution workflow
+
+**D. Hours Transfer Errors Email**
+- Analogous to the Reconcile Error Email, but for T&A / hours data
+- Flags hours that failed to transfer into Unifocus from the time & attendance system
+- Same daily-checklist posture as the Reconcile Error Email
+- Details to be documented based on live property experience; ask Unifocus CSM for field list at setup
 
 **Hands-On Exercise:**
 - Review your property's T&A job codes
@@ -385,6 +453,31 @@
 **Success Criteria:**
 - Admins know basic troubleshooting
 - Know when to contact Unifocus
+
+---
+
+## Official Success Criteria (Baha Mar — Verbatim)
+
+*From the Baha Mar client success criteria document. This is the client-facing standard.*
+
+Admins/System Champions should be able to:
+- Have the same general understanding of the Department Manager functions
+- Add/edit users in User Maintenance
+- Create/modify Employee Groups and Operating Codes
+- Edit Forecasts and apply Environments
+- Edit the labor structure, including:
+  - Adding, moving, or putting an end date on a job
+  - Managing secondary jobs
+  - Resolving reconcile issues found in Employee Maintenance
+  - Modifying productivity or other factors associated with the labor structure
+- Create or modify basic labor standards *(complex standards are a long-term goal, not initial expectation)*
+- Create or modify revenue centers
+- Create or modify KBIs, including understanding how to build calculated KBIs
+- After project transition, know who the assigned CSM is, and how to contact them, and for what
+- Know how to open technical support tickets with Unifocus, and what is typically a ticket item vs. a CSM item
+- Understand how to run a weekly labor meeting *(not all PS Admins will necessarily be involved)*
+- Know how to find online help and what it includes
+- Understand the current state of the knowledge base
 
 ---
 

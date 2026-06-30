@@ -160,4 +160,33 @@ Managers should be able to:
 
 ---
 
+## Official Success Criteria (Baha Mar — Verbatim)
+
+*From the Baha Mar client success criteria document.*
+
+### Department Managers should be able to:
+
+- View and understand their labor standards
+- Understand the Weekly Timeline and deadlines
+- View, Edit and Manage Schedules
+- Access and modify employee availability and other items in Employee Maintenance
+- Access the help screen and the quick reference videos embedded therein
+- Know how to access key reports:
+  - Labor Effectiveness Report (no $)
+  - Weekly Labor Summary
+  - Weekly Projected Schedule Report
+- Understand the information flow between Unifocus and Infor
+- Understand manager functions in the mobile app
+- Know how to prepare for a weekly labor meeting
+
+### Forecasting Managers should be able to:
+
+- Understand the source of the draft forecast
+- Edit forecasts
+- Know how to access key reports:
+  - Rooms Forecast Report
+  - Revenue Center Report
+
+---
+
 *© Peter A. Castellano / Platinum Workforce Strategies. Unifocus methodology and content proprietary.*
