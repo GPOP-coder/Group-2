@@ -1,4 +1,6 @@
-# HMAlpha — Taylor Walton Call: Union Station Follow-Up & Status Report
+<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+
+# HM Alpha — Taylor Walton Call: Union Station Follow-Up & Status Report
 **Date:** June 30, 2026
 **Participants:** Pete Castellano, Taylor Walton (Unifocus)
 **Context:** Status letter prep; post-training follow-up coordination for Union Station (Nashville) and Westlake (Westin La Paloma)
@@ -9,7 +11,7 @@
 
 - Pete is working on it now; has about 30 minutes tonight; billing was priority through end of day
 - **Correct template:** Version Taylor sent Pete — has the signature block at the bottom (Shilpa / LA requirement); this is the latest and greatest
-- Akram sent a West Lake version today via Teams with a note about interfaces section — Pete needs to open and compare side by side
+- Akram sent a Westlake version today via Teams with a note about interfaces section — Pete needs to open and compare side by side
 - **Template structure (correct version):**
   - Block 1: Project Detail
   - Block 2: Project Status — includes an **Interfaces** section (recently added)
@@ -32,7 +34,7 @@
 
 ## Training Debrief — Union Station vs. John's Training
 
-- HMAlpha was on property and closely observed Pete's training; then compared to John's
+- HM Alpha was on property and closely observed Pete's training; then compared to John's
 - Feedback: John finished faster; Pete added extra items
 - Pete's additions (documented, has a written copy):
   - Forecast mapping
@@ -43,7 +45,7 @@
 
 ---
 
-## NOLA Intercontinental — Follow-Up Coordination
+## NOLA InterContinental — Follow-Up Coordination
 
 - Taylor will send Pete a proposed day/time for the NOLA post-training weekly meetings
 - Pete to surface the proposal with the property while onsite next week
@@ -55,4 +57,4 @@
 
 - Taylor recorded Ralph's post-training spiel 3 times; plans to feed all 3 transcripts to AI to blend into a clean version
 - Pete: expense report still needs to be filed (back in Bellevue home office, was up until 2–3 AM)
-- Template issue root cause: every iteration of a shared document diverges slightly — like telephone; Hilton forced uniformity in the past; HMAlpha will push for same given they're CC'd on everything
+- Template issue root cause: every iteration of a shared document diverges slightly — like telephone; Hilton forced uniformity in the past; HM Alpha will push for same given they're CC'd on everything
