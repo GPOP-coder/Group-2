@@ -111,3 +111,6 @@ Full CI/TY technical detail: see [Marriott Brand KB](../../../brands/marriott/kb
 - [HM Alpha Weekly Call Notes — June 25, 2026](../../2026-06-25_hmalpha-weekly-call-notes.md)
 - [HM Alpha Training Contacts](../../../memory/contacts_hmalpha_training_2026.md)
 - [Marriott Brand KB](../../../brands/marriott/kb.md)
+- [Union Station Nashville Yards — Contacts](union-station-nashville/contacts.md)
+- [Grand Hyatt Nashville — Contacts](grand-hyatt-nashville/contacts.md)
+- [Westin La Paloma — Contacts](westin-la-paloma/contacts.md)
