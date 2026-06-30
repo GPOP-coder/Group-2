@@ -63,6 +63,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 | Invoice # | Period | Amount | Status |
 |---|---|---|---|
 | UF20260514PAC | May 1–14, 2026 | $1,928.50 | Sent to Ralph; CC Shilpa |
+| UF20260629PAC | June 16–29, 2026 | $4,197.30 | To Shilpa; CC peter.a + heartprincess71 |
 
 ### May 1–14, 2026 Detail
 | Qty | Type | Description | Client | Total |
