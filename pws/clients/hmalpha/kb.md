@@ -90,15 +90,16 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 
 **Key Unifocus Contacts on HM Alpha Engagement:**
 
-| Name | Email | Notes |
-|---|---|---|
-| Ralph Varble | rvarble@unifocus.com | CCO; O:972-512-5083 C:832-226-8945 |
-| Stephen (Steve) Carrell | scarrell@unifocus.com | Senior WFP Consultant — Configurer |
-| Akram Chahin | achahin@unifocus.com | Consultant |
-| John Grech | jgrech@unifocus.com | Post-config / CSM |
-| Taylor Walton | twalton@unifocus.com | Post-config / CSM |
-| Elliott Welburn | ewelburn@unifocus.com | Customer Success Manager (CSM) |
-| Alain Derderian | aderderian@unifocus.com | Director of Operations, Workforce Performance — Professional Services |
+| Name | Title | Email | Notes |
+|---|---|---|---|
+| Ralph Varble | Chief Customer Officer (CCO) | rvarble@unifocus.com | O:972-512-5083 C:832-226-8945. "Consultants" portion of CCO role going away; now detached from direct consultant oversight. PM-ing HM Alpha, MakeReady, and a few others as customer continuity — did not want this in his promotion; it's consuming. |
+| Alain Derderian | Director of Operations, WFP / Professional Services | aderderian@unifocus.com | Migrating to report to Shilpa (VP of Operations — Ralph's former role). No longer under Ralph. |
+| Shilpa Bhando | VP of Operations | sbhando@unifocus.com | Ralph's former title/role. Alain will report to her. Also Pete's invoice recipient. |
+| Stephen (Steve) Carrell | Senior WFP Consultant — Configurer | scarrell@unifocus.com | |
+| Akram Chahin | Consultant | achahin@unifocus.com | |
+| John Grech | Post-config / CSM | jgrech@unifocus.com | |
+| Taylor Walton | Post-config / CSM | twalton@unifocus.com | |
+| Elliott Welburn | Customer Success Manager (CSM) | ewelburn@unifocus.com | |
 
 ---
 
