@@ -119,6 +119,6 @@ metadata:
 
 ✅ **First interview complete**  
 ✅ **Summary source:** Pete's own recording (this file)  
-⏳ **Polished Legacy transcript:** Exists — Pete to locate and add to repo  
+✅ **Polished Legacy transcript:** Filed — `2026_0430_Bob_Kerrey_TRANSCRIPT.md`  
 ⏳ **Awaiting:** Follow-up interviews with Fahey, Daub (done 6/11), Hanafan (done 6/30), Corps, Foster, Shelby  
 📋 **Next:** File Legacy transcripts (Kerrey, Daub, Hanafan) when received
