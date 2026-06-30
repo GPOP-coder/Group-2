@@ -51,15 +51,28 @@ Full CI/TY technical detail: see [Marriott Brand KB](../../../brands/marriott/kb
 
 *5 pilot properties confirmed. Training and configuration in progress as of mid-2026.*
 
-| Property | Brand | EMS | Pete's Role | Trainer | Configurer | Status |
-|---|---|---|---|---|---|---|
-| Union Station Nashville Yards | Autograph Collection (Marriott) | CI/TY | Trainer | Pete Castellano | Taylor Walton | Training complete June 2026; remote F&B standards open |
-| InterContinental New Orleans | InterContinental (IHG) | Confirm | Trainer | Pete Castellano | Steve Carrell | Training July 6–9, 2026 |
-| Westin La Paloma, Tucson AZ | Westin (Marriott) | CI/TY | Trainer | Pete Castellano | TBD | Training week of Aug 17, 2026 |
-| JW Marriott Houston | JW Marriott | CI/TY | None | Akram Chahin | Steve Carrell | Scheduled |
-| DoubleTree Raleigh | DoubleTree (Hilton) | Delphi | None | TBD | TBD | Scheduled |
+| Property | Brand | EMS | Pete's Role | Trainer | Configurer | Post-Config | Status |
+|---|---|---|---|---|---|---|---|
+| Union Station Nashville Yards | Autograph Collection (Marriott) | CI/TY | Trainer | Pete Castellano | Taylor Walton | John Grech | Training complete June 2026; remote F&B standards open |
+| InterContinental New Orleans | InterContinental (IHG) | Delphi (confirm) | Trainer | Pete Castellano | Steve Carrell | John Grech | Training week of Jul 6, 2026 |
+| Westin La Paloma, Tucson AZ | Westin (Marriott) | CI/TY | Trainer | Pete Castellano | Steve Carrell | John Grech | Training week of Aug 17, 2026 |
+| Marriott Del Mar, San Diego CA | Marriott | CI/TY | Trainer | Pete Castellano | TBD | Taylor Walton | Training week of Sep 7, 2026 — ⚠️ confirm with Ralph |
+| JW Marriott Houston | JW Marriott | CI/TY | None | Akram Chahin | Steve Carrell | John Grech | Training week of Jul 13, 2026 |
+| DoubleTree Raleigh | DoubleTree (Hilton) | Delphi | None | John Grech | TBD | John Grech | Training week of Jun 29, 2026 |
 
 *Note: Grand Hyatt Baha Mar is NOT an HM Alpha property — it is part of the Baha Mar campus (separate PWS client).*
+
+## Full 15-Property Rollout Schedule (Resource Calendar as of 6/24/26)
+
+See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week consultant assignments.
+
+| Property | Pete Training Week | Primary Configurer | Post-Config Lead |
+|---|---|---|---|
+| Autograph US (Union Station Nashville) | W6 — 6/22 ✅ | Taylor Walton | John Grech |
+| Intercon NO (InterContinental New Orleans) | W8 — 7/6 | Steve Carrell | John Grech |
+| WLP (Westin La Paloma) | W14 — 8/17 | Steve Carrell | John Grech |
+| Marriott Del Mar | W17 — 9/7 ⚠️ confirm | TBD | Taylor Walton |
+| All others | — | Various | Ralph/Taylor/John |
 
 ---
 

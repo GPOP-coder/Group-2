@@ -239,6 +239,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
 - **Aug 10–14, 2026** — The Moran, Houston TX — MakeReady onsite training
 - **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
+- **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — ⚠️ NEW from 6/24 resource calendar; confirm with Ralph Varble
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
 - **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
 
@@ -423,7 +424,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Call Ralph Varble** — confirm: (1) Heathman Portland dates? (2) Aug 10–14 Moran Houston + Aug 17–21 Indianapolis confirmed?
 - [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Heathman (Portland), Moran (Houston). *(The Joseph Nashville is Highgate/Steve Carrell — not Pete's engagement.)*
 - [x] **Mohonk flights** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
-- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Westin La Paloma Tucson). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Westin La Paloma Tucson), Sep 7 (Marriott Del Mar — confirm). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
 - [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
 - [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
 - [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path
