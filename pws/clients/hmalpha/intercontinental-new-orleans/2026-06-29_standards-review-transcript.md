@@ -1,4 +1,6 @@
-# HMAlpha — NOLA Intercontinental Config Review Call
+<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+
+# HM Alpha — NOLA InterContinental Config Review Call
 **Date:** June 29, 2026
 **Note:** Recording started ~3 minutes into call
 
@@ -7,9 +9,9 @@
 ## Participants
 - Pete Castellano (PWS — trainer)
 - Steve Carrell (Unifocus — config owner)
-- Devin (HMAlpha)
-- Nicole (HMAlpha — going onsite next week)
-- Taylor (mentioned)
+- Devin Peters (HM Alpha)
+- Nicole Mendez (HM Alpha — going onsite next week)
+- Taylor Walton (mentioned)
 
 ---
 
@@ -96,7 +98,7 @@
 - Steve recommends allowing it to reveal itself; property will self-correct
 - Future direction: Move toward **run rate standard** (minutes per cover / productivity-based) rather than shift-break-point scheduling standard
 - Pete's framework: Pick a start time, use minutes per cover, allow overscheduling, watch actual vs. standard closely
-- **Flow standard** discussed as future possibility (15-minute increments) — but too expensive/complex for where HMAlpha is now; "you're not even close to being there yet"
+- **Flow standard** discussed as future possibility (15-minute increments) — but too expensive/complex for where HM Alpha is now; "you're not even close to being there yet"
 
 ### 3. Rooms Forecast — Garbage In / Negative Departures
 - Import is coming from ProfitSword
@@ -112,9 +114,9 @@
 ### 4. Granular Banquet Data — Delphi Integration
 - Currently receiving only total lunch / total dinner from Delphi (not granular by event type)
 - Property wants to switch to granular — system is set up for it, just needs the Delphi feed
-- Triana (HMAlpha) working with Duff on report parameters in Delphi; email sent to Manali today for confirmation
-- Until integration is live: manual daily send from Delphi → HMAlpha team → property
-- HMAlpha team getting Delphi access (Devin already submitted IHG brand-level request)
+- Triana (HM Alpha) working with Duff on report parameters in Delphi; email sent to Manali today for confirmation
+- Until integration is live: manual daily send from Delphi → HM Alpha team → property
+- HM Alpha team getting Delphi access (Devin already submitted IHG brand-level request)
 - Plan: Make screenshot how-to for DOS team to run and send the report daily
 - Nicole may be able to work with DOS onsite next week to get it set up
 - **Action: Devin/Triana → confirm with Manali; get Delphi access; set up manual send process**
@@ -137,7 +139,7 @@
 
 ---
 
-## Training Schedule — Next Week (NOLA Intercontinental)
+## Training Schedule — Next Week (NOLA InterContinental)
 - **Nicole:** Late Thursday flight out; arriving Thursday night; onsite Friday+
 - **Pete:** Arriving Monday; late Thursday flight out (can push to Friday if needed)
 - Format: 1 admin day + 2 manager days; 13 managers (same structure as Nashville)
@@ -146,7 +148,7 @@
 ---
 
 ## Side Notes
-- **"Pete's" restaurant:** The Intercontinental NOLA has a restaurant called "Pete's." Group made jokes about renaming it after training. Pete said: "I got more. Just wait."
+- **"Pete's" restaurant:** The InterContinental NOLA has a restaurant called "Pete's." Group made jokes about renaming it after training. Pete said: "I got more. Just wait."
 - **"You're special like everybody else"** — Pete's standard line when a property insists they're different. Contest: how many minutes before a property says it. Record: 6 minutes. Union Station "felt different because we're a hotel with a restaurant. No one's ever done that before."
 - **Crawl before you walk before you run** — Pete's phrase; also used by Devin
 - Cross-portfolio configuration comparison: No reporting in Unifocus for comparing standards (minutes/cover, etc.) across properties. Pete recommends keeping an external record. "More about results, not configuration."

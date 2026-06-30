@@ -114,3 +114,5 @@ Full CI/TY technical detail: see [Marriott Brand KB](../../../brands/marriott/kb
 - [Union Station Nashville Yards — Contacts](union-station-nashville/contacts.md)
 - [Grand Hyatt Nashville — Contacts](grand-hyatt-nashville/contacts.md)
 - [Westin La Paloma — Contacts](westin-la-paloma/contacts.md)
+- [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
+- [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
