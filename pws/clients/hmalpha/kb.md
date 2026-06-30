@@ -94,12 +94,17 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 |---|---|---|---|
 | Ralph Varble | Chief Customer Officer (CCO) | rvarble@unifocus.com | O:972-512-5083 C:832-226-8945. "Consultants" portion of CCO role going away; now detached from direct consultant oversight. PM-ing HM Alpha, MakeReady, and a few others as customer continuity — did not want this in his promotion; it's consuming. |
 | Alain Derderian | Director of Operations, WFP / Professional Services | aderderian@unifocus.com | Migrating to report to Shilpa (VP of Operations — Ralph's former role). No longer under Ralph. |
-| Shilpa Bhando | VP of Operations | sbhando@unifocus.com | Ralph's former title/role. Alain will report to her. Also Pete's invoice recipient. |
+| Shilpa Bhando | VP of Operations | Shilpab@unifocus.com | Ralph's former title/role. Alain will report to her. Also Pete's invoice recipient. |
 | Stephen (Steve) Carrell | Senior WFP Consultant — Configurer | scarrell@unifocus.com | |
-| Akram Chahin | Consultant | achahin@unifocus.com | |
+| Akram Chahin | Workforce Performance Consultant | achahin@unifocus.com | O: 972-512-5158 C: 714-873-2335 |
 | John Grech | Post-config / CSM | jgrech@unifocus.com | |
 | Taylor Walton | Post-config / CSM | twalton@unifocus.com | |
 | Elliott Welburn | Customer Success Manager (CSM) | ewelburn@unifocus.com | |
+| Susanna Briggs | (TBD) | sbriggs@unifocus.com | On HM Alpha status letter CC |
+
+**Status Letter Protocol:**
+- Deliver as PDF; require acknowledgement reply from property
+- CC list: Full Unifocus team + HM Alpha corporate (Devon, Nicole)
 
 ---
 
@@ -144,3 +149,4 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [Westin La Paloma — Contacts](westin-la-paloma/contacts.md)
 - [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
+- [Hyatt Westlake — Contacts](hyatt-westlake/contacts.md)
