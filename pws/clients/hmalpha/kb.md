@@ -150,3 +150,4 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
 - [Hyatt Westlake — Contacts](hyatt-westlake/contacts.md)
+- [Interface Reference](interfaces.md)
