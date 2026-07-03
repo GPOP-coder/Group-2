@@ -6,6 +6,7 @@ Last updated: 2026-05-26
 
 ## 🔴 Urgent / Deadline-Driven
 
+- [x] **Mohonk UNIFOCUS-247559** — Verify Founders outlet shifts are actually generating in the live system — ✅ Confirmed 7/2/26 via admin login; Standard Hours generating correctly for all four Founders jobs
 - [ ] **Krispy Kreme settlement** — Search all inboxes for breach notice (Nov–Dec 2024). File claim at settlement website. **Deadline: June 26, 2026**
 - [ ] **NTSG Registered Agent** — Contact vendor, execute agreement, pay
 - [ ] **Pensacola** — Sign and pay Jeremy's change order immediately when received (May 29) — crew is staged and waiting
@@ -27,7 +28,10 @@ Last updated: 2026-05-26
 - [ ] **Mohonk** — Confirm short shift fix worked after next scheduling cycle
 - [ ] **Mohonk onsite** — Confirm week preference (first vs. second week of August) to Ralph Varble / Susanna Briggs
 - [ ] **Mohonk onsite** — Confirm with Kim: no cruise conflicts in August (cruises are Sept + Nov); block first week as placeholder
-- [ ] **Mohonk onsite** — Watch for Unifocus/Mohonk follow-up call invite (~2 weeks out)
+- [x] **Mohonk onsite** — Watch for Unifocus/Mohonk follow-up call invite (~2 weeks out) — ✅ Unifocus Interface Flow call held 7/1/26
+- [ ] **Mohonk — RMSOPS-14129** — Watch for Monali Desai to export mapping/data backup and delete the BQT mapping (banquet actuals overwrite fix — Monali's action, not Pete's)
+- [ ] **Mohonk — future** — Restore the BQT mapping once Mohonk resumes sending a BQT file (after Infor SCS → Datavision automation goes live)
+- [ ] **Mohonk — Interface Flow follow-up** — Confirm Casey Dow submitted the Beverage Job Standards support ticket
 - [x] **Baha Mar / SLS** — Investigate KBI 8021 missing; fix stayover KBI formula; report to Ahmed and Val (Ticket: UNIFOCUS-247305) — ✅ Resolved 5/26/26
 - [ ] **Baha Mar** — Rosewood cross-property KBI: build at Rosewood, retest at all properties
 - [ ] **Baha Mar** — BQT mapping: await EMS admin contacts from Val for SLS and GH, then execute dummy BEO import
@@ -72,3 +76,4 @@ Last updated: 2026-05-26
 - [ ] **Health dashboard** — Apple Health export → Claude body composition dashboard
 - [ ] **BTTR board roster** — Document full membership
 - [ ] **Ecosystem assignments** — Confirm for BTTR, NTSG, Photography, eBay, Father's POA
+- [ ] **Dedicated PWS credit card** — Currently using FNBO Evergreen (0733, shared with eBay) for PWS expenses; watching for a good card deal/offer before signing up

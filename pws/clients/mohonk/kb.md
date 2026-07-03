@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-05-28
+Last updated: 2026-07-01
 
 ---
 
@@ -9,11 +9,13 @@ Last updated: 2026-05-28
 | Name | Title | Contact |
 |---|---|---|
 | James Danks | Director of Dining Services | jdanks@mohonk.com \| 845.256.2073 |
-| Bron Walis | (Dining — CC on issues) | bron@mohonk.com |
+| Bron Walis | Director of Information Technology | bron@mohonk.com (email header address) / bwalis@mohonk.com (signature block — confirm which is primary) \| 845.256.2141 |
 | Lou Petruzzelli | On-call Main Dining Room Server (position) | lpetruzzelli@mohonk.com |
 | Patrice Huart | (Dining — CC on issues) | phuart@mohonk.com |
-| Susanna Briggs | Unifocus internal contact | sbriggs@unifocus.com |
+| Casey Dow | Mohonk (IT, per Interface Flow call attendance) | cdow@mohonk.com |
+| Susanna Briggs | Unifocus internal contact | sbriggs@unifocus.com \| O: 972.512.5113 |
 | Ralph Varble | Unifocus Chief Customer Officer | O: 972-512-5083 \| C: 832-226-8945 \| rvarble@unifocus.com |
+| Monali Desai | Unifocus — Lead, Data Integration | mdesai@unifocus.com |
 
 ---
 
@@ -62,16 +64,20 @@ Last updated: 2026-05-28
 | Ticket | Subject | Status |
 |---|---|---|
 | UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
+| RMSOPS-14129 | Banquet actuals overwritten after entry | 🔴 Root cause found; fix requested from Monali 7/2/26 |
+| (pending) | Beverage Job Standards — standards not generating hours | 🔴 Casey Dow to submit, per 7/1/26 call |
+
+See [Interface Reference](interfaces.md) for full interface-by-interface status (Rooms KBI, F&B Covers, Banquet, Spa, ADP feeds) as of the 7/1/26 Interface Flow call.
 
 ---
 
 ## Active Issues
 
-### 🔴 Shifts Not Generating — Founders Outlet
+### ✅ Shifts Not Generating — Founders Outlet
 **Ticket:** UNIFOCUS-247559
 **Reported by:** James Danks — May 28, 2026
-**Participants:** Pete Castellano, Susanna Briggs, bron@mohonk.com
-**Status:** 🔴 Open — not yet diagnosed
+**Participants:** Pete Castellano, Susanna Briggs, bron@mohonk.com, Melody Tate (Unifocus Service Desk)
+**Status:** ✅ Verified resolved — Pete confirmed directly in the live system 7/2/26 (admin login), Standard Hours generating appropriately for all four Founders jobs. Ticket confirmed closed, no need to reopen.
 
 **Issue:** System is not generating shifts for four Founders positions:
 - Founders Head Runner
@@ -104,6 +110,44 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 - **Proposed resolution path:** Break the configuration and rebuild from scratch
 - **Test approach:** Rebuild one position as a proof of concept; if the rebuilt version generates correctly, confirms the stale-config theory and the path forward is rebuild all four
 - Status: ⏳ Waiting on Melody's log review
+
+**Actual fix applied (per ticket comments, 5/28/26 11:22 PM):** Melody's real fix diverged from the per-job "rebuild" theory above — instead, she found the issue at the **Task Scheduler level**: created a new "Generate Projected Hours" task (name prefix `07a.`), configured identically to the existing one, then **disabled the original task**. Plan was to let the new task run through the next Wednesday cycle and check results before proceeding further.
+
+**Resolution claimed (Melody Tate, 7/1/26):** "We have confirmed the updated Task Scheduler task ... is and has been generating the projected hours as expected when forecasted KBI volumes are in place for the selected jobs including the Founders Head Runner, Founders Runner, Founders Head Host and Founders Host jobs." Ticket marked Resolved. **72-hour window to reply and reopen — window closes ~7/4/26.**
+
+**🚩 Pete's read (7/2/26): Not confident this is actually resolved.** Susanna asked Melody 6/29 whether the new task had been verified to fix it and got no response on that specific question before Melody's 7/1 resolution comment — the resolution reads as asserted, not demonstrated with evidence (no screenshot/data cited). **Action: verify directly in the live system that Founders shifts are now generating before the 72-hour reopen window closes, and reopen the ticket if not confirmed.**
+
+**Related tickets flagged by Jira automation (possibly same underlying bug pattern):** UNIFOCUS-246836, UNIFOCUS-246800, UNIFOCUS-246799 — not yet reviewed, worth checking for a recurring pattern across properties.
+
+---
+
+### 🔴 Banquet Actuals Being Overwritten
+**Ticket:** [RMSOPS-14129](https://ufjira.atlassian.net/browse/RMSOPS-14129) — "Mohonk - Investigate Banquet Actuals Being Overwritten After Initial Entry"
+**Reported by:** James Danks (via Bron Walis) — first noticed ~6/19–6/23, recurred 6/28
+**Status:** 🔴 Root cause identified 7/1/26; fix requested via Jira comment, awaiting Monali's action
+
+**Issue:** Manually entered banquet actuals (38 KBIs, entered weekly) disappear/reset to zero within days of entry. Two documented examples: actuals entered 6/19 missing by 6/23; actuals entered 6/28 partially overwritten by 7/1 (screenshots from Bron, attached to the ticket).
+
+**Root cause (found 7/1/26 Interface Flow call):** Legacy Delphi.fdc-era interface mappings are still active from before Mohonk switched to Infor SCS as their event system. Those stale mappings still trigger automated imports that overwrite the manual entries with zeros.
+
+**Fix path:**
+- **Monali Desai (Unifocus):** Export current mapping + forecast/actuals data, then **delete the BQT mapping** — the only way to stop the overwrite; a quick config change on her end
+- **Pete:** Requested the export/deletion via Jira comment; will **restore the mapping once Mohonk resumes sending a BQT file** (i.e., once Infor SCS → Datavision automation goes live)
+
+**Context:** Banquet KBI import was automated via Delphi.fdc until the Infor SCS switch; SCS → Datavision automation is expected within ~a month of 6/23/26, which would allow re-automating banquet data properly instead of James's current couple-times-a-week manual entry.
+
+Full detail: [interfaces.md — Banquet section](interfaces.md#banquet--high-priority-)
+
+---
+
+### 🔴 Spa Interface Not Processing
+**Status:** 🔴 Open — escalated to Unifocus engineering, no resolution timeline
+
+**Issue:** Book4time → Datavision → Unifocus spa volume data is arriving at Unifocus but not processing correctly, resulting in zero values for spa reception forecasting.
+
+**Action:** Monali Desai escalated to Unifocus engineering team (7/1/26 call). Low priority relative to Rooms/F&B/Banquet, but open.
+
+Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
 ---
 
@@ -171,3 +215,10 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - James understands operational outcomes; does not need technical Unifocus mechanics explained
 - Explain what to expect and what to do — not how the system calculates it
 - Responsive via email; copy Susanna Briggs (Unifocus) on all threads
+
+---
+
+## Related Files
+
+- [Interface Reference](interfaces.md) — full Rooms/F&B/Banquet/Spa/ADP interface map and status
+- [Call Notes — Unifocus Interface Flow, 7/1/26](2026-07-01_unifocus-interface-flow-call.md)
