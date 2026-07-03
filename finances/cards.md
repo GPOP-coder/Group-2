@@ -15,7 +15,7 @@
 | Wells Fargo Platinum Debit | Wells Fargo | Debit VISA | 8289 | Main joint checking | Active |
 | Wells Fargo Active Cash | Wells Fargo | Signature VISA | 7552 | Recurring expenses (2% cash back; usage now mixed) | Active |
 | Southwest Rapid Rewards Plus | Southwest Airlines | Signature VISA | 2674 | Southwest flights and travel | Active |
-| FNBO Evergreen | FNBO | Signature VISA | 0733 | eBay (expenses, COGS) | Active |
+| FNBO Evergreen | FNBO | Signature VISA | 0733 | eBay (expenses, COGS); also used interchangeably for PWS expenses (no dedicated PWS credit card yet) | Active |
 | FNBO Debit VISA (eBay) | FNBO | Debit VISA | 9115 | eBay revenue / rarely used | Active |
 | FNBO Debit VISA (PWS) | FNBO | Debit VISA | 6072 | PWS business expenses | Active |
 
@@ -36,6 +36,7 @@
 ## Notes
 
 - **FNBO Evergreen (0733):** Accidentally saved to Stripe/Link during Scribd signup May 29 — need to remove from link.com
+- **FNBO Evergreen (0733):** Used interchangeably for both eBay and PWS expenses. Pete wants a dedicated PWS credit card — watching for a good deal/offer before signing up.
 - **FNBO Debit (eBay, 9115):** Rarely used; Pete unsure why still carrying
 - **Nebraska Medicine FSA (5711):** Kim has 2 identical cards
 - **FNBO Checking (eBay):** Receives eBay revenue; paired with both eBay cards (FNBO Evergreen 0733 and Debit 9115)
