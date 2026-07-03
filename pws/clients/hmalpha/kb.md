@@ -141,6 +141,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 
 ## Related Files
 
+- [Wave 2 Kickoff Summary](wave2-kickoff-summary.md) — unified summary across the five Wave 2 kickoff sessions
 - [HM Alpha Weekly Call Notes — June 25, 2026](../../2026-06-25_hmalpha-weekly-call-notes.md)
 - [HM Alpha Training Contacts](../../../memory/contacts_hmalpha_training_2026.md)
 - [Marriott Brand KB](../../../brands/marriott/kb.md)
