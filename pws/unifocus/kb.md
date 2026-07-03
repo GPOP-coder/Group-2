@@ -1,6 +1,6 @@
 # Unifocus — Knowledge Base
 
-Last updated: 2026-05-26
+Last updated: 2026-07-03
 
 ---
 
@@ -68,6 +68,31 @@ Unifocus generates shifts in this order. Understanding the sequence is essential
 **Key insight:** A leftover hour might become a 5-hour shift (if rounding rounds up) or disappear entirely (if absorbed) or produce a short shift (if it hits the minimum floor) — depending entirely on these settings working together.
 
 **Mohonk Main Dining example:** Rounding Threshold Below One = 0.00 means nothing is absorbed. Any remainder creates a shift. Min shift length = 2.5 hours. So even a small remainder produces a visible short shift.
+
+---
+
+### Schedule Generation Sequence — Standards → Shifts → Auto-Scheduler
+
+*Captured 2026-07-03, from Mohonk beverage jobs troubleshooting.*
+
+Three distinct steps, in order. Each depends on the one before it — a failure anywhere upstream will look identical to a failure at the final step unless you check each stage independently.
+
+1. **Forecast Volumes** — the demand input (covers, transactions, etc.) that feeds the standard.
+2. **Generate Projected Hours** — applies the labor standard to the forecast and **creates shifts**. This is where "standard hours" live.
+3. **Generate Schedules** — activates the **auto-scheduler**, which **fills** the shifts created in step 2 with employees, according to the settings in **Employee Maintenance** (controlled by the manager).
+
+**Critical misconception:** The output looks like the auto-scheduler "schedules employees." It does not. **It fills shifts that already exist.** If no shift was created in step 2, there is nothing for the auto-scheduler to fill in step 3 — and the symptom presents identically to an auto-scheduler failure.
+
+**Troubleshooting order — always work backwards from the end result:**
+1. Check the job in the auto-scheduler. **Pick the correct week first** — if the reporting party didn't specify one, don't assume; check the current/upcoming week ending (WE) and say so explicitly when documenting. Are there **unassigned Open Shifts**?
+   - **Yes** → shifts exist, meaning steps 1–2 worked (forecast and standard hours generated correctly). The problem is downstream of shift creation — but don't jump straight to Employee Maintenance. See step 2.
+   - **No** → shifts were never created. Stop looking at the auto-scheduler entirely — the problem is upstream, in Generate Projected Hours / the standard itself.
+2. **Before diagnosing Employee Maintenance, check the Generate Schedules task itself (Task Scheduler → the task's Labor Structure / job selection).** Confirmed failure mode (Mohonk, 2026-07-03): the task can have a Labor Structure selection that **silently excludes specific jobs**. Shifts for those jobs generate correctly and sit as unassigned Open Shifts forever — not because no eligible employee existed, but because the auto-scheduler task never ran against that job at all. This looks identical to an Employee Maintenance eligibility problem from the schedule screen alone; the only way to catch it is to open the task's job selection list and check whether the affected job is actually checked.
+3. Only after confirming the job is in-scope for the Generate Schedules task should you move to true Employee Maintenance diagnosis (availability, qualifications, scheduling rules).
+
+**Why this matters:** "Job X isn't auto-scheduling" is a description of the end result, not a diagnosis. It conflates at least three independent failure points: shift generation (step 2), task scope/configuration (which jobs the Generate Schedules task even considers), and shift filling (actual employee eligibility). Always work backwards through all three before concluding it's an Employee Maintenance issue.
+
+**Related pattern — Task Scheduler as a recurring root cause:** [UNIFOCUS-247559](https://ufjira.atlassian.net/browse/UNIFOCUS-247559) (Mohonk Founders outlet, Generate Projected Hours) was resolved by creating a new task and disabling the old one. The Mohonk beverage jobs case (2026-07-03) is a different Task Scheduler failure mode on the Generate Schedules task — not a stale/duplicate task, but an incomplete job selection within the task's configuration. Both point to the same lesson: when a job's numbers look right but its output is missing, check the **task configuration itself**, not just the standard or the schedule screen.
 
 ---
 

@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-07-01
+Last updated: 2026-07-03
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: 2026-07-01
 | Bron Walis | Director of Information Technology | bron@mohonk.com (email header address) / bwalis@mohonk.com (signature block — confirm which is primary) \| 845.256.2141 |
 | Lou Petruzzelli | On-call Main Dining Room Server (position) | lpetruzzelli@mohonk.com |
 | Patrice Huart | (Dining — CC on issues) | phuart@mohonk.com |
-| Casey Dow | Mohonk (IT, per Interface Flow call attendance) | cdow@mohonk.com |
+| Casey Dow | Software Specialist & Level III Tech. | cdow@mohonk.com \| 845.256.2169 |
 | Susanna Briggs | Unifocus internal contact | sbriggs@unifocus.com \| O: 972.512.5113 |
 | Ralph Varble | Unifocus Chief Customer Officer | O: 972-512-5083 \| C: 832-226-8945 \| rvarble@unifocus.com |
 | Monali Desai | Unifocus — Lead, Data Integration | mdesai@unifocus.com |
@@ -65,7 +65,7 @@ Last updated: 2026-07-01
 |---|---|---|
 | UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
 | RMSOPS-14129 | Banquet actuals overwritten after entry | 🔴 Root cause found; fix requested from Monali 7/2/26 |
-| (pending) | Beverage Job Standards — standards not generating hours | 🔴 Casey Dow to submit, per 7/1/26 call |
+| (no ticket needed) | Beverage jobs missing from Generate Schedules task's job selection | 🟢 Fixed 7/3/26 — see below |
 
 See [Interface Reference](interfaces.md) for full interface-by-interface status (Rooms KBI, F&B Covers, Banquet, Spa, ADP feeds) as of the 7/1/26 Interface Flow call.
 
@@ -137,6 +137,38 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 **Context:** Banquet KBI import was automated via Delphi.fdc until the Infor SCS switch; SCS → Datavision automation is expected within ~a month of 6/23/26, which would allow re-automating banquet data properly instead of James's current couple-times-a-week manual entry.
 
 Full detail: [interfaces.md — Banquet section](interfaces.md#banquet--high-priority-)
+
+---
+
+### 🟢 Beverage Jobs — "Not Auto-Scheduling" — Root Cause Found and Fixed
+**No ticket filed** — Pete diagnosed and fixed directly; email reply to Casey Dow pending.
+**Status:** 🟢 Fixed 7/3/26, pending confirmation the next Generate Schedules run picks up the affected jobs
+
+**Correct mental model (see [Unifocus KB — Schedule Generation Sequence](../../unifocus/kb.md#schedule-generation-sequence--standards--shifts--auto-scheduler)):** There are three sequential steps — Forecast Volumes → Generate Projected Hours (creates shifts) → Generate Schedules (auto-scheduler fills shifts per Employee Maintenance settings). The auto-scheduler does not "schedule employees" — it fills shifts that already exist. "Job not auto-scheduling" could mean either (a) no shift was ever created (an upstream Generate Projected Hours / standard problem), or (b) the shift exists as an unassigned Open Shift and the auto-scheduler had no eligible employee to fill it (an Employee Maintenance problem). These require completely different fixes.
+
+**Diagnosis (7/3/26, Schedule Editor, Carriage Lounge Bartender, WE 7/12 — week not specified by reporter, so Pete checked the upcoming week ending and noted the assumption):**
+- Filtered Schedule Editor by job. **Projected Hours existed and unassigned Open Shifts existed** → steps 1–2 (Forecast, Generate Projected Hours) worked correctly. 7 shifts had also been manually added by the property.
+- This ruled out a standards/projected-hours problem and pointed toward the auto-scheduler step — but rather than assume an Employee Maintenance eligibility problem, Pete recalled [UNIFOCUS-247559](https://ufjira.atlassian.net/browse/UNIFOCUS-247559) (the Founders outlet ticket, resolved by recreating the Generate Projected Hours task) and checked the **Generate Schedules task's Labor Structure (job) selection** instead.
+- **Root cause found:** The Generate Schedules task's Labor Structure selection (406 jobs selected) was **missing several jobs**, including Carriage Lounge Bartender, Founders Service Bartender, and (implied) Central Services Service Bartender. Founders Server was checked but Founders Service Bartender was not, in the same Dining Room - Founders branch — an easy-to-miss omission in a long tree with partial/indeterminate checkbox states at parent nodes.
+- These jobs' shifts generated correctly but the auto-scheduler task never attempted to fill them, because the task itself was never configured to run against them. Not a stale/duplicate task issue like 247559, and not an Employee Maintenance eligibility issue — a straightforward gap in the task's job scope.
+- **Fix applied 7/3/26:** Pete added the missing jobs to the Generate Schedules task's Labor Structure selection. Pending: confirm the next scheduled run of the task actually fills the previously-orphaned Open Shifts.
+
+**Timeline:**
+- **7/1/26 (Interface Flow call):** Susanna flagged that some beverage roles weren't generating standard hours despite correct configuration — a system issue, not config. Recommended Casey open a UF support ticket.
+- **7/2/26, 3:21 PM:** Casey checked two jobs — **Carriage Lounge Bartender** and **Central Services Service Bartender** — and confirmed standard hours were now generating. Asked if this tied to the adjusted standard-hours generation timeline (the ~9 AM ET run Monali added during the interface flow work).
+- **7/2/26, 5:15 PM:** Pete replied: he'd created **one new task** to Generate Standard Hours, and opened the others "as if to edit" without changing anything (same pattern Melody used on the Founders outlet fix — recreating/touching a task to force it to re-run cleanly). Task Log showed all tasks had run once since the 7/1 call. Pete called it resolved and asked Casey if any other jobs were still missing standard hours.
+- **7/3/26, 8:54 AM (email being answered now):** Casey relayed word from Mohonk's Beverage Manager — a **different problem**, shifts not **auto-scheduling**, for:
+  - Carriage Lounge Bartender *(same job — standard hours now fine, but shifts still not auto-generating)*
+  - Founders Service Bartender *(new — not previously flagged)*
+  - Central Services Service Bartender *(same job — standard hours now fine, but shifts still not auto-generating)*
+
+  **Working correctly (auto-scheduling shifts fine):** Assistant Beverage Manager, Barback – Main, Bartender – Main Service Bar Granary, Bartender – Main Service Bar Main Dining Room.
+
+  Casey asked Pete to take a look, or whether he should open a formal UF support ticket.
+
+**Pattern worth noting:** This is the second Mohonk incident traced to Task Scheduler configuration rather than the standard itself — see the now-resolved [Founders Outlet ticket](#-shifts-not-generating--founders-outlet) above (stale/duplicate Generate Projected Hours task) and the general writeup in [Unifocus KB — Schedule Generation Sequence](../../unifocus/kb.md#schedule-generation-sequence--standards--shifts--auto-scheduler). Worth periodically auditing task job-selection lists at Mohonk for other silent gaps, since this failure mode produces no error — it just quietly does nothing for the omitted jobs.
+
+**Next:** Draft email reply to Casey Dow — explain the root cause in outcome/action terms (per [Client Communication Standard](../../unifocus/kb.md#client-communication-standard-pws)), confirm no ticket needed since resolved directly, and ask Mohonk to confirm the three jobs fill correctly on the next schedule generation run.
 
 ---
 
