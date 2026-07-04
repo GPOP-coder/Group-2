@@ -6,7 +6,8 @@
       "Bash(cd /mnt/c/Users/peter && pwd)",
       "Read(//mnt/c/Users/**)",
       "Bash(git fetch *)",
-      "Bash(git pull *)"
+      "Bash(git pull *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
