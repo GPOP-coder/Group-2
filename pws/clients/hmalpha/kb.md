@@ -84,9 +84,9 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 |---|---|---|---|
 | Devon Peters | Manager, Strategy & Analytics | DPeters@hmalpha.com | Primary point of contact; intelligent, asks scaling questions; trigger-happy on emails |
 | Nicole Mendez | Labor Analyst | NMendez@hmalpha.com | Learning the system; attends training onsite; CC on all training communications |
-| Treana Armstrong | | tarmstrong@hmalpha.com | |
-| Esther White | | ewhite@hmalpha.com | |
-| Matthew Schupbach | | MSchupbach@hmalpha.com | |
+| Treana Armstrong | VP Information Technology | tarmstrong@hmalpha.com | Title confirmed via Kickoff deck (7/3/26); works Delphi/interface granularity issues (see interfaces.md) |
+| Esther White | | ewhite@hmalpha.com | Also GM, Union Station Nashville Yards |
+| Matthew Schupbach | VP Finance | MSchupbach@hmalpha.com | Title confirmed via Kickoff deck (7/3/26) |
 
 **Key Unifocus Contacts on HM Alpha Engagement:**
 
@@ -95,12 +95,13 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | Ralph Varble | Chief Customer Officer (CCO) | rvarble@unifocus.com | O:972-512-5083 C:832-226-8945. "Consultants" portion of CCO role going away; now detached from direct consultant oversight. PM-ing HM Alpha, MakeReady, and a few others as customer continuity — did not want this in his promotion; it's consuming. |
 | Alain Derderian | Director of Operations, WFP / Professional Services | aderderian@unifocus.com | Migrating to report to Shilpa (VP of Operations — Ralph's former role). No longer under Ralph. |
 | Shilpa Bhando | VP of Operations | Shilpab@unifocus.com | Ralph's former title/role. Alain will report to her. Also Pete's invoice recipient. |
-| Stephen (Steve) Carrell | Senior WFP Consultant — Configurer | scarrell@unifocus.com | |
+| Stephen (Steve) Carrell | Sr. Workforce Performance Consultant — Configurer | scarrell@unifocus.com | |
 | Akram Chahin | Workforce Performance Consultant | achahin@unifocus.com | O: 972-512-5158 C: 714-873-2335 |
-| John Grech | Post-config / CSM | jgrech@unifocus.com | |
-| Taylor Walton | Post-config / CSM | twalton@unifocus.com | |
+| John Grech | Sr. Workforce Performance Consultant | jgrech@unifocus.com | Functions as post-config/CSM on HM Alpha specifically |
+| Taylor Walton | Workforce Performance Consultant | twalton@unifocus.com | Functions as post-config/CSM on HM Alpha specifically |
 | Elliott Welburn | Customer Success Manager (CSM) | ewelburn@unifocus.com | |
-| Susanna Briggs | (TBD) | sbriggs@unifocus.com | On HM Alpha status letter CC |
+| Susanna Briggs | Client Success Manager | sbriggs@unifocus.com | On HM Alpha status letter CC |
+| Monali Desai | Data Integration Lead | mdesai@unifocus.com | HM Alpha interfaces; BEO imports; Envision Group/Local config |
 
 **Status Letter Protocol:**
 - Deliver as PDF; require acknowledgement reply from property

@@ -8,6 +8,10 @@ Last updated: 2026-07-03
 
 Unifocus is a workforce management platform. PWS's consulting methodology is grounded in Unifocus architecture and best practices. All client work involving Unifocus is proprietary — not for model training.
 
+**Company facts (per standard kickoff deck, confirmed 2026-07-03):** 42 years of consulting; software line since 1999 (27 years). Over 3,000 customers in 114 countries. HQ Dallas, TX; other offices in London, Singapore, Shanghai, Delhi. Hospitality-only focus. 4 core products: Time & Attendance, **Planning & Scheduling** (PWS's engagement area), Operations Suite, Survey Solutions.
+
+**Kickoff/onboarding content:** See [Unifocus Implementation Kickoff Guide](../kb/unifocus-implementation-kickoff-guide.md) for the full client-facing kickoff framework (implementation phases, conceptual Forecast→Standards→Schedule model, weekly labor cycle, success factors, post-go-live adoption practices).
+
 ---
 
 ## Core Concepts

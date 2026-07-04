@@ -247,6 +247,7 @@ Use measurement:
 
 ## Next Steps
 
+- [ ] **Reconcile with live dashboard's 5th metric:** The actual Unifocus dashboard toggles a 5th line, **Paid Hours** (from payroll/T&A). Confirmed via HM Alpha Kickoff deck review, 2026-07-03. **Working distinction (Pete, 7/3/26 — holds unless contradicted): Paid Hours is payroll's concern; Worked Hours (= Actual Hours in UF reporting) is labor management's concern.** This 2×2 framework is built entirely on the labor-management side (Projected/Scheduled/Standard/Actual) — Paid Hours is a different domain (payroll reconciliation) and likely does NOT belong inside this framework at all, rather than needing a 3rd dimension added to it. Treat it as an adjacent/optional lens, not a 5th quadrant. See [Unifocus Implementation Kickoff Guide](kb/unifocus-implementation-kickoff-guide.md#trend-graph-demo) for where this was spotted.
 - [ ] Visual design (colors, logo, layout)
 - [ ] Consider alternative visual representations (gauges? timeline? other?)
 - [ ] Test with actual properties/operational data
