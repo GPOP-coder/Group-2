@@ -20,8 +20,9 @@ $yellow    = [long]0xFFFF99
 # Date, Amount, ExchRate, Paid by, Details, Category, Billable/UF, Charge Code
 # =====================================================================
 $knownRows = @(
-    @("7/6/2026", 545.19, 1.00, "PERSONAL", "SW OMA-DAL-MSY (CVMCLW) - card charge portion, Visa -2674", "Air Fare", "HM Alpha - InterContinental New Orleans", ""),
-    @("7/6/2026", 316.20, 1.00, "PERSONAL", "SW OMA-DAL-MSY (CVMCLW) - SW travel credit applied", "Air Fare", "HM Alpha - InterContinental New Orleans", "")
+    @("7/6/2026", 545.19, 1.00, "PERSONAL", "SW round-trip OMA-MSY (CVMCLW): outbound OMA-DEN-MSY (WN2060/WN1643, rebooked from OMA-DAL-MSY - mechanical delay); return MSY-STL-OMA 7/9 (WN3021/WN4912) - card charge portion, Visa -2674", "Air Fare", "HM Alpha - InterContinental New Orleans", ""),
+    @("7/6/2026", 316.20, 1.00, "PERSONAL", "SW round-trip OMA-MSY (CVMCLW) - SW travel credit applied", "Air Fare", "HM Alpha - InterContinental New Orleans", ""),
+    @("7/6/2026", 31.08, 1.00, "PERSONAL", "HMSHost/Great Divide C, Denver Airport (DEN layover, mechanical delay) - taco barbacoa, soda, tip", "Lunch", "HM Alpha - InterContinental New Orleans", "")
 )
 $blankRowCount = 14
 
