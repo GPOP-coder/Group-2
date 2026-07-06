@@ -41,9 +41,12 @@ Comped directly by Union Station Nashville Yards (coordinated by Kristen Bacon, 
 
 ---
 
-## PENDING ITEMS — DO NOT SUBMIT UNTIL RESOLVED
+## SUBMISSION
 
-- **Submission channel** — confirm whether this expense report goes to Shilpa Bhando (same as invoicing) or a different Unifocus contact/process.
+**Send to: Ralph Varble** (HM Alpha project manager) — confirmed by Ralph directly, 7/5/26. Not Shilpa Bhando (invoice recipient for billable hours only).
+
+## OPEN (non-blocking)
+
 - **Documentation/per-diem requirements** — meals confirmed reimbursement-eligible (Pete, 7/4/26), but full policy detail (receipt requirements, per-diem caps, alcohol handling) is still unconfirmed. See [[project-unifocus-contract-review]].
 
 ---
