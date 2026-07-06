@@ -10,6 +10,7 @@
 
 | Date | Vendor | Location | Category | Items | Subtotal | Tax | Tip | Total | Card |
 |---|---|---|---|---|---|---|---|---|---|
+| 7/6/2026 | **[FLIGHT — add from other device]** | OMA → MSY | Airfare | — | — | — | — | **TBD** | — |
 | 7/6/2026 | HMSHost Great Divide C | Denver Airport (DEN) | Meal — Lunch | Taco Barbacoa, Soda Bar M | $23.98 | $1.92 | $5.18 | $31.08 | Chase VISA |
 
 ---
