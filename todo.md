@@ -1,11 +1,13 @@
 # Pete Castellano — To Do
 
-Last updated: 2026-05-26
+Last updated: 2026-07-07
 
 ---
 
 ## 🔴 Urgent / Deadline-Driven
 
+- [ ] **🚨 CRITICAL: Pensacola flood insurance** — Florida now requires flood insurance in effect by **10/09/2026** to renew Citizens Wind & Hail policy. Research USAA Flood vs. Neptune (FEMA) options, obtain quotes, activate by 10/9/26. **Deadline: 10/09/2026** (92 days)
+- [x] **Pensacola Citizens payment** — ✅ Paid 7/7/26 ($434.40); coverage 10/09/2025–10/09/2026
 - [x] **Mohonk UNIFOCUS-247559** — Verify Founders outlet shifts are actually generating in the live system — ✅ Confirmed 7/2/26 via admin login; Standard Hours generating correctly for all four Founders jobs
 - [ ] **Krispy Kreme settlement** — Search all inboxes for breach notice (Nov–Dec 2024). File claim at settlement website. **Deadline: June 26, 2026**
 - [ ] **NTSG Registered Agent** — Contact vendor, execute agreement, pay
@@ -13,7 +15,7 @@ Last updated: 2026-05-26
 - [ ] **Pensacola** — Monitor cabinet install progress toward June 1 renter move-in
 - [x] **Pensacola** — Confirm Pete's travel dates and book return travel home — ✅ Southwest AU84MN booked, June 1 PNS→OMA 5:20 PM
 - [ ] **Pensacola** — Monday June 1: dig out luggage this weekend, pack files, renter meeting, return Equinox by 5 PM, airport 3:30 PM
-- [ ] **Pensacola insurance premium adjustment** — Sent lease to USAA and Citizens (5/31/26); awaiting response on policy reduction for 24-month lease term
+- [x] **Pensacola insurance premium adjustment** — ✅ Primary Residence discount applied by Citizens (effective 6/1/26 after lease submission); reflected in 7/7/26 payment ($434.40)
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
 
 ---
