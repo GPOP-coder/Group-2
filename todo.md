@@ -22,6 +22,7 @@ Last updated: 2026-07-07
 
 ## 🟡 PWS / Billable
 
+- [ ] **Margaritaville (MHBR)** — Check room availability for September 19–21, 2026 (3 rooms needed)
 - [ ] **Rosewood Miramar** — Labor standards configuration (overdue, billable) — start immediately
 - [ ] **MHBR** — Housekeeping savings analysis for Genevieve Kelley (DOF) — overdue
 - [ ] **MHBR** — Confirm ProfitSword export call (week of May 18)
