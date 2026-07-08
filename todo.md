@@ -77,6 +77,6 @@ Last updated: 2026-07-07
 - [ ] **PWS rates** — Raise toward market value; timing TBD
 - [ ] **Baha Mar tool** — Build BQT mapping completeness checker artifact
 - [ ] **Health dashboard** — Apple Health export → Claude body composition dashboard
-- [ ] **BTTR board roster** — Document full membership
+- [x] **BTTR board roster** — Document full membership — ✅ Done 7/8/26, see BTTR/board-roster.md + BTTR/bylaws-summary.md
 - [ ] **Ecosystem assignments** — Confirm for BTTR, NTSG, Photography, eBay, Father's POA
 - [ ] **Dedicated PWS credit card** — Currently using FNBO Evergreen (0733, shared with eBay) for PWS expenses; watching for a good card deal/offer before signing up
