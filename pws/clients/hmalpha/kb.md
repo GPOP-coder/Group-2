@@ -152,4 +152,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
 - [Hyatt Westlake — Contacts](hyatt-westlake/contacts.md)
+- [Hilton Indianapolis — Contacts](hilton-indianapolis/contacts.md)
+- [DoubleTree Charlotte — Contacts](doubletree-charlotte/contacts.md)
+- [Hyatt Regency Valencia — Contacts](hyatt-regency-valencia/contacts.md)
 - [Interface Reference](interfaces.md)
