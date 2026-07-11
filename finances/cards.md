@@ -27,6 +27,14 @@
 
 ---
 
+## Gift Cards
+
+| Nickname | Issuer | Type | Last 4 | Balance | Purpose | Status |
+|---|---|---|---|---|---|---|
+| VanillaGift Visa | VanillaGift.com | Prepaid Debit VISA | 1594 | $500 | From sister Camille — over-reimbursement for the 6/14/26 Orlando flight (C8R96Z, dog-sitting trip); Camille effectively covered that flight in thanks. Plan: use to pay for upcoming Nashville flight. See `travel/flight-credits.md` for the reimbursement chain. | Active |
+
+---
+
 ## Closed / Old Cards
 
 *(To be added as inventoried)*

@@ -52,6 +52,7 @@ Last updated: 2026-07-07
 - [ ] **Omaha Steaks gift card** — Send to Sherry & Randy Beene
 - [ ] **Craig Taylor** — Add to Outlook contacts
 - [ ] **Priyanka Kalia** — Compensation discussion still needed; pending offer decision
+- [ ] **Flight credits SW-2026-005 ($95) / SW-2026-006 ($353.40)** — Look up source cards in Southwest account → Travel Funds. Pete thinks these might be from Kim's card. See `travel/flight-credits.md` open items and the VanillaGift reimbursement chain memory.
 
 ---
 

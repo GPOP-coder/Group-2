@@ -2,7 +2,7 @@
 *Pete & Kim Castellano — All Airlines, All Travel*
 *Purpose: Track original form of payment behind every credit so card balances are reduced accurately. Credits are not free money.*
 
-Last updated: 2026-06-11
+Last updated: 2026-07-10
 
 ---
 
@@ -104,6 +104,11 @@ One row per event. Every earn, transfer, application, or expiration gets a row.
 - [ ] **DL-2026-002 (0060219672547, $113.40, exp 5/19/26)** — Expired 5/19/26. Call Delta to request reinstatement before booking next Delta flight — they often restore expired credits on request. Do when ready to book.
 - [ ] **Card -3563** — Appears in Pete's AA tracking (OMA-MCO 9/12/25, $493.18). Not in current card inventory. Identify.
 - [ ] **SW-2026-002 status** — $159.31 from Kim (BHK5DP) may not have been used for C8R96Z. Verify current balance in SW account to confirm it's still $159.31 active.
+- [ ] **VanillaGift Visa Debit -1594 — reimbursement chain (confirmed 7/10/26):** This is **not** a source card for C8R96Z — the C8R96Z confirmation email (6/7/26) confirms all $478.40 was paid via 3 flight credits (SW-2026-003 $30.00 + SW-2026-005 $95.00 + SW-2026-006 $353.40), zero card charge. Instead: sister **Camille** gave Pete this $500 gift card as **over-reimbursement** for that Orlando/dog-sitting trip — for all practical purposes, she covered the flight. Plan going forward:
+  1. Pete will use the -1594 gift card ($500) to pay for his **upcoming Nashville flight** (booking TBD — add a Credit/Activity row once booked).
+  2. When that Nashville trip is reimbursed (business trip), Pete wants to apply the reimbursement toward **paying off the original card(s) that funded SW-2026-005 ($95.00) and SW-2026-006 ($353.40)** — both still "source unknown," traceable via SW account → Travel Funds.
+  3. Net effect: closes the loop — Camille's gift effectively pays for the personal Orlando trip, freeing the Nashville business reimbursement to retire the underlying card balances those Orlando credits originally drew down.
+  - **Next step:** identify the source cards for SW-2026-005 and SW-2026-006 (see existing open item above), then once Nashville reimbursement lands, note the payoff amounts/dates here. **Pete's hunch (7/10/26): these might be from Kim's card** — check her statements too, not just Pete's, when tracing via SW Travel Funds.
 
 ---
 
