@@ -13,8 +13,8 @@
 |---|---|---|
 | VISA WF Debit 8289 | $13.10 | Tools, electronics, books |
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
-| Card ending -0733 | $180.00 | Business insurance (State Farm) |
-| **TOTAL PWS EXPENSES** | **$199.01** | |
+| Card ending -0733 | $207.77 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) |
+| **TOTAL PWS EXPENSES** | **$226.78** | |
 
 ---
 
@@ -34,7 +34,8 @@
 | Date | Vendor | Location | Items | Amount | Card | Category |
 |---|---|---|---|---|---|---|
 | 5/28 | The Redemption Store | Pensacola, FL | Computer Accessories | $4.00 | 8289 | Computer/Office |
-| **ACCESSORIES SUBTOTAL** | | | | **$4.00** | | |
+| 7/3 | GoodBytes (Goodwill Industries), Omaha NE | Omaha, NE | Accessories Cables ($3.99), Accessories Mice x2 ($7.98), Belkin Power Strip ($3.99), j5create USB 3.0 Hub Model JUH377 ($9.99), sales tax ($1.82) | $27.77 | -0733 | Computer/Office |
+| **ACCESSORIES SUBTOTAL** | | | | **$31.77** | | |
 
 ### Books
 
@@ -54,8 +55,8 @@
 
 ## Notes
 
-- All expenses during Pensacola trip (May 17–June 1, 2026) for PWS work
-- Sourced from thrift stores (Redemption Store, Teen Challenge SuperThrift) — cost optimization
+- Most expenses during Pensacola trip (May 17–June 1, 2026) for PWS work; the 7/3/26 Goodwill purchase (Omaha) is separate, post-trip office/computer restocking
+- Sourced from thrift stores (Redemption Store, Teen Challenge SuperThrift, Goodwill GoodBytes) — cost optimization
 - Computer accessories, tools, and supplies are deductible business expenses under Schedule C (PWS)
 - Business Fire policy (97-EG-4466-1, 13606 S 20th St) is a recurring PWS insurance expense — watch for future payment receipts to add here
 - Receipts captured photographically; physical copies stored for audit trail
@@ -70,4 +71,5 @@
 3. Teen Challenge SuperThrift (5/21, Electronics bundle) — physical receipt
 4. Dollar General #9271 (5/19, Utility Knife + Packing Tape) — physical receipt
 5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
+6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03_goodwill-pws-goodbytes.pdf`
 
