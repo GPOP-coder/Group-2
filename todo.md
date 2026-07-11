@@ -6,6 +6,7 @@ Last updated: 2026-07-07
 
 ## 🔴 Urgent / Deadline-Driven
 
+- [ ] **URGENT: Nashville hotel booking** — HMAlpha hotels sold out; need to book hotel ~$200/night or less for Mon 7/13–Thu 7/16 (3 nights). See `travel/trips/2026-07-13_2026-07-16_nashville-hmalpha-training.md`. **Deadline: ASAP (leave Monday 7/13)**
 - [ ] **🚨 CRITICAL: Pensacola flood insurance** — Florida now requires flood insurance in effect by **10/09/2026** to renew Citizens Wind & Hail policy. Research USAA Flood vs. Neptune (FEMA) options, obtain quotes, activate by 10/9/26. **Deadline: 10/09/2026** (92 days)
 - [x] **Pensacola Citizens payment** — ✅ Paid 7/7/26 ($434.40); coverage 10/09/2025–10/09/2026
 - [x] **Mohonk UNIFOCUS-247559** — Verify Founders outlet shifts are actually generating in the live system — ✅ Confirmed 7/2/26 via admin login; Standard Hours generating correctly for all four Founders jobs
