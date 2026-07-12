@@ -17,6 +17,7 @@ Last updated: 2026-07-07
 - [x] **Pensacola** — Confirm Pete's travel dates and book return travel home — ✅ Southwest AU84MN booked, June 1 PNS→OMA 5:20 PM
 - [ ] **Pensacola** — Monday June 1: dig out luggage this weekend, pack files, renter meeting, return Equinox by 5 PM, airport 3:30 PM
 - [x] **Pensacola insurance premium adjustment** — ✅ Primary Residence discount applied by Citizens (effective 6/1/26 after lease submission); reflected in 7/7/26 payment ($434.40)
+- [ ] **Father's Best Buy/Lively account** — Follow up on POA access restoration (email sent 7/12/26). Confirm online access + phone authorization restored, billing address back to Bellevue NE, emergency location still Winter Garden FL. See `finances/father-bestbuy-lively-account-poa.md`
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
 
 ---
