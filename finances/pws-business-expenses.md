@@ -74,6 +74,6 @@
 3. Teen Challenge SuperThrift (5/21, Electronics bundle) — physical receipt
 4. Dollar General #9271 (5/19, Utility Knife + Packing Tape) — physical receipt
 5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
-6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03_goodwill-pws-goodbytes.pdf`
-7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — `finances/receipts/2026-07-12_target-bellevue-pws-split.jpeg`
+6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03 Goodwill GoodBytes PWS.pdf`
+7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — `finances/receipts/2026-07-12 Target Bellevue PWS split.jpeg`
 
