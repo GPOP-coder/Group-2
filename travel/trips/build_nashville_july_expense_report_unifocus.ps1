@@ -22,7 +22,8 @@ $yellow    = [long]0xFFFF99
 # =====================================================================
 $knownRows = @(
     @("7/13/2026", 888.41, 1.00, "PERSONAL", "SW round-trip OMA-BNA (BEU2FS): outbound OMA-DEN-BNA (WN2060/WN570); return BNA-STL-OMA 7/16 (WN770/WN4912) - RR Visa -2674", "Air Fare", "HM Alpha - Corporate Admin Training Nashville", ""),
-    @("7/13/2026",  21.59, 1.00, "PERSONAL", "445 Bar 14, Omaha Airport (OMA) - sausage/egg/cheese sandwich, Coke Zero, tip; Visa -7552", "Bkfst", "HM Alpha - Corporate Admin Training Nashville", "")
+    @("7/13/2026",  21.59, 1.00, "PERSONAL", "445 Bar 14, Omaha Airport (OMA) - sausage/egg/cheese sandwich, Coke Zero, tip; Visa -7552", "Bkfst", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/13/2026", 694.05, 1.00, "PERSONAL", "The Nashville Reserve, 301 Rosa L Parks Ave Nashville TN - 3 nights (7/13-7/16), Studio Suite; Hotels.com itinerary 73493828457425; Visa -2785", "Hotel", "HM Alpha - Corporate Admin Training Nashville", "")
 )
 $blankRowCount = 16
 
@@ -145,7 +146,7 @@ $notes = @(
     "- Extra tip noted non-reimbursable (445 Bar 14, 7/13): only $21.59 claimed; $3.60 cash tip excluded.",
     "",
     "OPEN ITEMS — add as receipts come in:",
-    "- Hotel (3 nights, 7/13-7/16) — Pete booking independently, ~$200/night",
+    "- Hotel (3 nights, 7/13-7/16) — The Nashville Reserve, $694.05 total (Visa -2785) ADDED",
     "- Ground transport BNA airport → hotel (7/13)",
     "- Ground transport hotel → BNA airport (7/16)",
     "- Any meal receipts 7/13-7/16"
