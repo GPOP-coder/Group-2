@@ -44,11 +44,11 @@ dates: July 13-16, 2026
 |---|---|
 | **Union Station Nashville** | ❌ Sold out (was comp, SWVP rate) |
 | **Grand Hyatt Nashville** | ❌ Sold out |
-| **Budget** | ~$200/night or less (Pete to book) |
+| **Booked** | ✅ The Nashville Reserve, 301 Rosa L Parks Ave, Nashville TN 37203 — Studio Suite |
 | **Dates** | Mon 7/13 – Thu 7/16 (3 nights) |
-| **Contact** | Devon Peters will not provide comp room; Pete booking independently |
-
-**ACTION:** Pete to find hotel in Nashville metro, $200/night or less, Mon-Thu.
+| **Cost** | $196.03/night x 3 + $105.96 taxes/fees = **$694.05 total**, paid Visa -2785 (Hotels.com, 32% member discount) |
+| **Booked** | 7/12/26 via Hotels.com, itinerary #73493828457425 |
+| **Contact** | Devon Peters will not provide comp room; Pete booked independently |
 
 ---
 
