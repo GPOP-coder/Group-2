@@ -137,7 +137,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **PWS** — Platinum Workforce Strategies (consulting, primary business)
 - **NTSG** — Nebraska Transplant Support Group (nonprofit treasurer responsibilities)
 - **BTTR** — Back to the River (nonprofit president)
-- **eBay/Photography** — Combined business on Schedule C (longstanding setup, kept as one entity)
+- **eBay/Photography** — Combined business on Schedule C (longstanding setup, kept as one entity); photography brand: **Pacific Aperture**; Flickr: pac402
 
 **Receipt Management:**
 - iPhone photo → Claude extraction → Quicken Simplifi (personal) + QB (business/org)
