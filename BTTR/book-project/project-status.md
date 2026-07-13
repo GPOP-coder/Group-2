@@ -37,6 +37,12 @@ type: Project Tracker
 **Down Payment:** $5,000 (waived if introductory phase proceeds as outlined — **status: likely waived**)  
 **Billing:** Monthly invoices starting June 1, 2026
 
+### Payment Log
+
+| Invoice Date | Amount | Status | Action |
+|---|---|---|---|
+| June 1, 2026 | $7,500 | ⏳ Delegated | Pete delegated payment to **Karen Bluvas** (7/16/2026) |
+
 ---
 
 ## Budget (Pre-Printing)
