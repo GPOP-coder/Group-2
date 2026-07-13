@@ -29,18 +29,19 @@
 ## File Naming Convention
 
 ```
-YYYY-MM-DD_vendor-description.ext
+YYYY-MM-DD Vendor Description.ext
 ```
 
 **Examples:**
-- `2026-07-03_goodwill-pws-goodbytes.pdf`
-- `2026-07-12_target-bellevue-pws-split.jpeg`
-- `2026-07-06_hmshost-denver-airport.jpeg`
+- `2026-07-03 Goodwill GoodBytes PWS.pdf`
+- `2026-07-12 Target Bellevue PWS split.jpeg`
+- `2026-07-06 HMSHost Denver Airport.jpeg`
+- `2026-07-09 Sazerac Bar MSY.jpeg`
 
 **Rules:**
-- Date first (ISO format), then underscore, then vendor/description in lowercase with hyphens
+- Date first (ISO format), space, then vendor name; additional description words are optional — add only to differentiate when the same vendor appears more than once on the same date
 - Extension matches the actual file type (`.pdf` for scans, `.jpeg` for phone photos)
-- For mixed-category receipts, append `-split` to signal that proportional allocation was applied
+- For mixed-category receipts, append `split` in the description to signal that proportional allocation was applied
 
 ---
 

@@ -47,7 +47,7 @@ Pete operates across multiple organizational identities simultaneously: PWS (con
 
 ## Conventions
 
-- **File naming:** `YYYY-MM-DD_description` (e.g., `2026-07-06_hmshost-denver-airport.jpeg`); words separated by hyphens, date from name separated by underscore. Older files may use a space instead of underscore — underscore is the current standard.
+- **File naming:** `YYYY-MM-DD Description` (e.g., `2026-06-22 Meeting Notes.md`)
 - **All `.md` files** are proprietary © Peter A. Castellano — include copyright notice
 - **CLAUDE.md** is the single source of truth for session context — keep it current
 - **Voice first:** most content originates as iPhone Voice Memos → transcript → paste to Claude → structured file
