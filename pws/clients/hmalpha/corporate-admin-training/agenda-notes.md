@@ -33,12 +33,12 @@ This framework is the eventual home for the raw TOC distribution below — once 
 ### Emphasis areas (must land)
 - [ ] Above-Property Reporting — confirm EXECUScope Tab is the right module, then build the session
 - [ ] Master KBI and Jobs Mapping — deep dive using KBIs section + Labor Structure section as backbone
-- [ ] Interface Level Mapping — distinct from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA
+- [ ] Interface Level Mapping — distinct from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA. **Defined 7/13:** tracking each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location) — see companion doc `interface-mapping-tracker.md`, being built live during training
 - [ ] Weekly Labor Meeting (train-the-trainer) — build from scratch, no reference material to lean on
 
 ### Decisions still needed
 - [ ] Confirm EXECUScope Tab = above-property reporting module (or find the right one)
-- [ ] Identify which handbook section/module covers Interface Level Mapping
+- [x] Identify which handbook section/module covers Interface Level Mapping — **resolved:** it's not a handbook section at all, it's source-system integration mapping (Paychex, etc.) — tracked in `interface-mapping-tracker.md`
 - [ ] Decide whether Labor Budgeting is in scope — flag to Devon/Nicole, don't assume
 - [ ] Decide how deep to go on Security Primer (multi-property permissions) vs. property-level User Administration
 
@@ -58,9 +58,9 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 | 2 | Revenue Centers | Day 1 | ❌ Not covered — new foundational topic |
 | 3 | Environments & Global Environments | Day 1 | ❌ Not covered — new foundational topic |
 | 4 | Flow Patterns & Flow Plans | Day 1 | ❌ Not covered — new foundational topic |
-| 5 | KBIs | Day 1 | 🟡 Partial — property guide's "Forecast Structure" covered review/modify calculated KBIs only; statistical, % of base, environmental, and KBI sets are new depth |
-| 6 | Labor Structure | Day 1 | 🟡 Partial — property guide covered add/edit jobs, productivity, dashboard, sort order, min hours/days off; moving/copying/prioritizing jobs & assignments is new |
-| — | *Interface Level Mapping* | Day 1 | ⚠️ Custom topic, not in either TOC — what Pete/Nicole worked on in NOLA; likely relates to property guide's "T&A — Mapping Jobs" (🟡 partial) but needs confirmation |
+| 5 | KBIs (incl. KBI Mapping) | Day 1 | 🟡 Partial — property guide's "Forecast Structure" covered review/modify calculated KBIs only; KBI Mapping is discussed here, not under Labor Structure. Statistical, % of base, environmental, and KBI sets are new depth |
+| 6 | Labor Structure (incl. Jobs Mapping) | Day 1 | 🟡 Partial — property guide covered add/edit jobs, productivity, dashboard, sort order, min hours/days off; moving/copying/prioritizing jobs & assignments is new. Jobs Mapping lives here, separate from KBI Mapping above |
+| — | *Interface Level Mapping* | Day 1 | ✅ Defined 7/13 — tracks each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location). Not a handbook section; see companion doc `interface-mapping-tracker.md` |
 | 7 | Planning | Day 2 | 🟡 Partial — property guide's "Planning Menu" + "Weekly Timeline" covered rooms/banquet/rev center forecast, project hours, generate/manage/publish schedules |
 | 8 | Revenue Center Forecasts | Day 2 | 🟡 Partial — rev center forecast generation covered under Planning Menu; this section's depth (legend, planning period/rev center selectors, editing forecasting) is new |
 | 9 | Work Rules | Day 2 | ❌ Not covered — no mention in property guide at all |
@@ -82,8 +82,8 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 
 **Day 1 — Tue 7/14: Configuration Foundations + Master KBI/Jobs Mapping + Interface Level Mapping**
 - Foundational config layer (new): Market Groups & Market Segments, Revenue Centers, Environments & Global Environments, Flow Patterns & Flow Plans
-- Deep dive (partial prior exposure — check questions, then go deeper): KBIs, Labor Structure
-- Interface Level Mapping — distinct topic from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA. ⚠️ Needs definition: which handbook section covers this?
+- Deep dive (partial prior exposure — check questions, then go deeper): KBIs + Forecast Structure (this is where KBI Mapping lives), Labor Structure (this is where Jobs Mapping lives — separate discussion from KBI Mapping)
+- Interface Level Mapping — tracks each source-system feed into Unifocus; build out `interface-mapping-tracker.md` live as examples come up (Employee Reconcile/Paychex, Actual Hours/Paychex T&A already captured)
 - Goal: "teach her how to fish" — Nicole and Devon leave able to build/adjust KBIs, job mappings, and interface mappings themselves, not just watch
 
 **Day 2 — Wed 7/15: Operational Planning, Scheduling & Employee Admin**
