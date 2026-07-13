@@ -14,7 +14,8 @@
 | VISA WF Debit 8289 | $13.10 | Tools, electronics, books |
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
 | Card ending -0733 | $207.77 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) |
-| **TOTAL PWS EXPENSES** | **$226.78** | |
+| Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
+| **TOTAL PWS EXPENSES** | **$239.97** | |
 
 ---
 
@@ -26,8 +27,10 @@
 |---|---|---|---|---|---|---|
 | 5/23 | The Redemption Store | Pensacola, FL | Hand Tool | $3.00 | 8289 | Tools |
 | 5/21 | Teen Challenge SuperThrift | Pensacola, FL | Electronics (3 items, 50% discount) | $4.10 | 8289 | Electronics |
+| 7/12 | Target, Bellevue NE | Bellevue, NE | Electronics item (reg $19.99, sale $5.99; proportional Circle discount -$0.30, NE tax +$0.40) | $6.09 | Target Debit -2363 | Electronics |
 | 5/19 | Dollar General #9271 | Pensacola, FL | Utility Knife + Packing Tape | $5.91 | 7552 | Tools/Office Supplies |
-| **TOOLS SUBTOTAL** | | | | **$13.01** | | |
+| 7/12 | Target, Bellevue NE | Bellevue, NE | Sharpie (reg $7.93, sale $6.99; proportional Circle discount -$0.35, NE tax +$0.46) | $7.10 | Target Debit -2363 | Office Supplies |
+| **TOOLS SUBTOTAL** | | | | **$26.20** | | |
 
 ### Office & Computer Accessories
 
@@ -72,4 +75,5 @@
 4. Dollar General #9271 (5/19, Utility Knife + Packing Tape) — physical receipt
 5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
 6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03_goodwill-pws-goodbytes.pdf`
+7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — `finances/receipts/2026-07-12_target-bellevue-pws-split.jpeg`
 
