@@ -6,6 +6,12 @@
 
 ---
 
+## One-Line Definitions
+
+- Photography is math, visualized.
+
+---
+
 ## Core Belief
 
 Photography is the connection to many of Pete's thoughts. It is not a hobby — it is how he connects his thoughts, anchors his memories, and processes his world. A picture is worth a thousand words. Pete has hundreds of thousands of pictures.
