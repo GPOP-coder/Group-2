@@ -18,6 +18,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - Building a **capstone Chief of Staff agent** to monitor, coordinate, and act across all identities — enrolled in a structured course on creating agents; this Claude Code repo is the working environment for that course
 - May have ADHD-Inattentive — gets pulled into tangents; Claude should gently redirect to billable priorities
 - **Dance dad** his daughters' entire lives — Jessica (still teaches dance; granddaughter Cecilia just had her first recital) and Jennie were both in dance and marching band. Pete was a **pit-pop** (dad who moved equipment on and off the field) and the unofficial **band photographer** — always had a camera, earned the nickname **"Paparazzi Pete"** (aka Pit-aparazzi). Photography as memory-keeping is a lifelong identity, not just a business.
+- **Photography philosophy:** Over 50 years behind the camera. Photos are notes, mile markers, reminders, memories, prompts. HDR realist — compensates for camera's f-stop limits to reach what the eye sees. First job at 15: Sears Portrait Studio. Paid for all high school camera gear by selling event photos to parents. See `personal/photography-philosophy.md` and `personal/photography-gear.md`.
 
 ---
 
