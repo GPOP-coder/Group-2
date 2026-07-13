@@ -14,6 +14,7 @@ $lightBlue = [long]0xD6E4F0
 $white     = [long]0xFFFFFF
 $lightGray = [long]0xF2F2F2
 $yellow    = [long]0xFFFF99
+$darkRed   = [long]0xC00000
 
 # =====================================================================
 # Known data (airfare only confirmed pre-trip; trip is 7/6-7/9/26)
@@ -126,7 +127,138 @@ $s1.Rows.Item(5).Select() | Out-Null
 $excel.ActiveWindow.FreezePanes = $true
 
 # =====================================================================
-# SHEET 2: Notes (cheat-sheet quick reference, usable offline on the trip)
+# SHEET 2: SUMMARY
+# =====================================================================
+$s3 = $wb.Sheets.Add([System.Type]::Missing, $s1)
+$s3.Name = "Summary"
+
+$s3.Columns.Item(1).ColumnWidth = 22
+$s3.Columns.Item(2).ColumnWidth = 28
+$s3.Columns.Item(3).ColumnWidth = 14
+$s3.Columns.Item(4).ColumnWidth = 12
+$s3.Columns.Item(5).ColumnWidth = 12
+
+$r = $s3.Range("A1:E1"); $r.Merge()
+$c = $s3.Cells.Item(1,1)
+$c.Value2 = "NEW ORLEANS TRIP EXPENSE REPORT  -  JULY 6 to JULY 9, 2026"
+$c.Font.Bold = $true; $c.Font.Size = 14; $c.Font.Color = $white
+$c.Interior.Color = $darkBlue; $c.HorizontalAlignment = -4108
+$s3.Rows.Item(1).RowHeight = 24
+
+$infoItems = @(
+    @("Traveler", "Pete Castellano"),
+    @("Purpose", "HM Alpha training - InterContinental New Orleans (billable to Unifocus)"),
+    @("Dates", "July 6 - July 9, 2026 (4 days)"),
+    @("Property", "InterContinental New Orleans"),
+    @("Compiled", "July 10, 2026"),
+    @("Note", "Hotel comped by property. Trip reopened 7/10/26 to add Uber receipt found after close-out.")
+)
+$row = 2
+foreach ($i in $infoItems) {
+    $s3.Cells.Item($row,1).Value2 = $i[0]; $s3.Cells.Item($row,1).Font.Bold = $true
+    $r2 = $s3.Range($s3.Cells.Item($row,2), $s3.Cells.Item($row,5)); $r2.NumberFormat = "@"; $r2.Merge()
+    $s3.Cells.Item($row,2).Value2 = $i[1]
+    $row++
+}
+$row++
+
+# ---- SUMMARY BY CATEGORY ----
+$r = $s3.Range($s3.Cells.Item($row,1), $s3.Cells.Item($row,5)); $r.Merge()
+$c = $s3.Cells.Item($row,1)
+$c.Value2 = "SUMMARY BY CATEGORY"; $c.Font.Bold = $true; $c.Font.Size = 11
+$c.Font.Color = $white; $c.Interior.Color = $midBlue; $c.HorizontalAlignment = -4108
+$row++
+
+$catHdrs = @("Category","Amount","# Items")
+for ($i = 0; $i -lt 3; $i++) {
+    $c = $s3.Cells.Item($row,$i+1); $c.Value2 = $catHdrs[$i]
+    $c.Font.Bold = $true; $c.Interior.Color = $lightBlue
+}
+$row++
+
+$cats = @(
+    @("Air Fare",         966.40, 3),
+    @("Lunch",             51.20, 2),
+    @("Dinner",            25.61, 1),
+    @("Taxi/Train/Bus",    44.34, 1)
+)
+$catStart = $row
+foreach ($cat in $cats) {
+    $bg = if (($row % 2) -eq 0) { $lightGray } else { $white }
+    $s3.Cells.Item($row,1).Value2 = $cat[0]; $s3.Cells.Item($row,1).Interior.Color = $bg
+    $s3.Cells.Item($row,2).Value2 = [double]$cat[1]; $s3.Cells.Item($row,2).NumberFormat = '$#,##0.00'
+    $s3.Cells.Item($row,2).HorizontalAlignment = -4152; $s3.Cells.Item($row,2).Interior.Color = $bg
+    $s3.Cells.Item($row,3).Value2 = [int]$cat[2]; $s3.Cells.Item($row,3).HorizontalAlignment = -4108
+    $s3.Cells.Item($row,3).Interior.Color = $bg
+    $row++
+}
+$s3.Cells.Item($row,1).Value2 = "TOTAL REIMBURSABLE"; $s3.Cells.Item($row,1).Font.Bold = $true
+$s3.Cells.Item($row,1).Interior.Color = $darkBlue; $s3.Cells.Item($row,1).Font.Color = $white
+$tc = $s3.Cells.Item($row,2)
+$tc.Formula = '=SUM(B' + $catStart + ':B' + ($row-1) + ')'
+$tc.NumberFormat = '$#,##0.00'; $tc.Font.Bold = $true
+$tc.Interior.Color = $darkBlue; $tc.Font.Color = $white; $tc.HorizontalAlignment = -4152
+$s3.Cells.Item($row,3).Interior.Color = $darkBlue
+$rng = $s3.Range($s3.Cells.Item($catStart-1,1), $s3.Cells.Item($row,3))
+$rng.Borders.Item(7).LineStyle = 1; $rng.Borders.Item(8).LineStyle = 1
+$rng.Borders.Item(9).LineStyle = 1; $rng.Borders.Item(10).LineStyle = 1
+$rng.Borders.Item(11).LineStyle = 1; $rng.Borders.Item(12).LineStyle = 1
+$row += 2
+
+# ---- SUMMARY BY PAYMENT TYPE ----
+$r = $s3.Range($s3.Cells.Item($row,1), $s3.Cells.Item($row,5)); $r.Merge()
+$c = $s3.Cells.Item($row,1)
+$c.Value2 = "SUMMARY BY PAYMENT TYPE"; $c.Font.Bold = $true; $c.Font.Size = 11
+$c.Font.Color = $white; $c.Interior.Color = $midBlue; $c.HorizontalAlignment = -4108
+$row++
+
+$ptHdrs = @("Payment Type","Description","Amount")
+for ($i = 0; $i -lt 3; $i++) {
+    $c = $s3.Cells.Item($row,$i+1); $c.Value2 = $ptHdrs[$i]
+    $c.Font.Bold = $true; $c.Interior.Color = $lightBlue
+}
+$row++
+$ptStart = $row
+
+# Payment type, description, amount (traced from nola-receipt-log.md card column)
+$paymentTypes = @(
+    @("-2674",     "VISA SW Rapid Rewards+ (flight base + fare diff + Moe's DFW)", 675.81),
+    @("SW Credit", "Southwest Flight Credit",                                      316.20),
+    @("Chase VISA","Chase VISA (Denver + Sazerac Bar lunches)",                     51.20),
+    @("-0733",     "VISA Personal / FNBO Evergreen (Uber MSY)",                     44.34)
+)
+foreach ($pt in $paymentTypes) {
+    $bg = if (($row % 2) -eq 0) { $lightGray } else { $white }
+    $c1 = $s3.Cells.Item($row,1); $c1.NumberFormat = "@"; $c1.Value2 = [string]$pt[0]; $c1.Interior.Color = $bg; $c1.HorizontalAlignment = -4108
+    $c2 = $s3.Cells.Item($row,2); $c2.Value2 = [string]$pt[1]; $c2.Interior.Color = $bg
+    $c3 = $s3.Cells.Item($row,3); $c3.Value2 = [double]$pt[2]; $c3.NumberFormat = '$#,##0.00'; $c3.HorizontalAlignment = -4152; $c3.Interior.Color = $bg
+    $row++
+}
+$ptEndRow = $row - 1
+$s3.Cells.Item($row,1).Value2 = "TOTAL"; $s3.Cells.Item($row,1).Font.Bold = $true
+$s3.Cells.Item($row,1).Interior.Color = $darkBlue; $s3.Cells.Item($row,1).Font.Color = $white
+$s3.Cells.Item($row,2).Interior.Color = $darkBlue
+$tc = $s3.Cells.Item($row,3)
+$tc.Formula = '=SUM(C' + $ptStart + ':C' + $ptEndRow + ')'
+$tc.NumberFormat = '$#,##0.00'; $tc.Font.Bold = $true
+$tc.Interior.Color = $darkBlue; $tc.Font.Color = $white; $tc.HorizontalAlignment = -4152
+$rng = $s3.Range($s3.Cells.Item($ptStart-1,1), $s3.Cells.Item($row,3))
+$rng.Borders.Item(7).LineStyle = 1; $rng.Borders.Item(8).LineStyle = 1
+$rng.Borders.Item(9).LineStyle = 1; $rng.Borders.Item(10).LineStyle = 1
+$rng.Borders.Item(11).LineStyle = 1; $rng.Borders.Item(12).LineStyle = 1
+$row += 2
+
+# ---- OPEN ITEMS ----
+$r = $s3.Range($s3.Cells.Item($row,1), $s3.Cells.Item($row,5)); $r.Merge()
+$c = $s3.Cells.Item($row,1)
+$c.Value2 = "OPEN ITEMS BEFORE SUBMISSION"; $c.Font.Bold = $true; $c.Font.Size = 11
+$c.Font.Color = $white; $c.Interior.Color = $darkRed; $c.HorizontalAlignment = -4108
+$row++
+$s3.Cells.Item($row,1).Value2 = "Trip closed 7/10/26 - all known charges (flights, meals, Uber) reflected above."
+$r3 = $s3.Range($s3.Cells.Item($row,1), $s3.Cells.Item($row,5)); $r3.Merge()
+
+# =====================================================================
+# SHEET 3: Notes (cheat-sheet quick reference, usable offline on the trip)
 # =====================================================================
 $s2 = $wb.Sheets.Add([System.Type]::Missing, $s1)
 $s2.Name = "Notes"
@@ -166,9 +298,14 @@ foreach ($n in $notes) {
 }
 
 # =====================================================================
+# Sheet order: Summary | ER Detail | Notes
+# =====================================================================
+$s3.Move($wb.Sheets.Item(1))
+
+$s3.Activate()
+$s3.Tab.Color = $darkBlue
 $s1.Tab.Color = $midBlue
 $s2.Tab.Color = $lightBlue
-$s1.Activate()
 
 if (Test-Path $outputPath) { Remove-Item $outputPath -Force }
 $wb.SaveAs($outputPath, 51)
