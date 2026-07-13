@@ -84,6 +84,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Windows Terminal** — modern terminal replacement for PowerShell default
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
 - **Brother ADS-2000** — duplex sheet-fed ADF scanner; primary receipt scanner; scans straight to PDF
+- **Epson Perfection V850** — watching for a deal on a used unit (not yet acquired)
 - **Brother 2380** — flatbed MFC/DCP printer; secondary receipt scanner for crumpled/fragile receipts; not powering up as of 7/16/2026 — troubleshoot or replace when home
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
