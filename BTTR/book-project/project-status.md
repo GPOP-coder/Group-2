@@ -39,9 +39,9 @@ type: Project Tracker
 
 ### Payment Log
 
-| Invoice Date | Amount | Status | Action |
+| Payment | Amount | Status | Notes |
 |---|---|---|---|
-| June 1, 2026 | $7,500 | ⏳ Delegated | Pete delegated payment to **Karen Bluvas** (7/16/2026) |
+| Initial contract / startup | $7,500 | ⏳ Delegated to Karen Bluvas (7/16/2026) | Full amount of introductory agreement — one-time payment to get Legacy started. Board has committed only to this amount. Full MOU/contract vote expected at **Q3 board meeting**. |
 
 ---
 
