@@ -8,6 +8,26 @@
 
 ---
 
+## PETE'S OVERALL TRAINING FRAMEWORK (noted 7/13, in progress)
+
+This is Pete's own organizing structure for WFM admin training — distinct from the handbook's raw TOC order. **Not final** — Pete will add to it as he sees how all the training items fit, or if it needs more pieces.
+
+1. Intro to WFM
+2. Labor Structure
+3. Employee Maintenance
+4. Forecast Structure
+5. Labor Standards
+6. Reporting
+7. WFM Culture
+   - Weekly Labor Cycle / Sequence
+   - Weekly Labor Meeting
+
+**Key insight driving this:** The System Admin Handbook is written from a **software implementation perspective** — its TOC order (Market Groups → Revenue Centers → KBIs → Environments → Flow Patterns → Labor Structure → ...) is a build sequence for standing up a brand-new client from scratch. That's why the config-layer sections (Market Groups/Segments, Revenue Centers, Environments, Flow Patterns) felt front-loaded in the raw TOC distribution above — they're setup prerequisites, not an ongoing-admin training sequence. HMAlpha is already configured/implemented/launched, so this framework instead organizes around **how a working admin operates the system day-to-day**, ending in the human/process layer (WFM Culture, weekly labor cycle, weekly labor meeting) rather than starting there.
+
+This framework is the eventual home for the raw TOC distribution below — once mature, each handbook section should sort into one of these 7 buckets rather than staying in handbook order. Revisit and re-map when Pete has had time to see how the pieces fit.
+
+---
+
 ## MASTER CHECKLIST — knock off as we build the curriculum
 
 ### Emphasis areas (must land)
@@ -95,6 +115,7 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 
 **2. Master KBI and Jobs Mapping**
 - Core admin skill — ability to add/adjust KBIs and map job codes
+- **KBI Mapping specifically is part of the KBIs + Forecast Structure discussion** (correction, 7/13) — not a standalone topic. Ties directly to the property guide's "Forecast Structure — Review KBIs, Modify Calculated KBIs" and the handbook's KBIs section. Jobs mapping is the separate half of this emphasis area (Labor Structure territory).
 - "Teach her how to fish" — she's ready to learn configuration, not just consume it
 
 **2b. Interface Level Mapping** *(distinct topic — added 7/13)*
