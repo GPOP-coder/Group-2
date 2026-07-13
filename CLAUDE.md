@@ -83,6 +83,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Visual Studio Code** — installing on Lenovo Yoga May 27, 2026; Claude Code runs inside VS Code as primary interface
 - **Windows Terminal** — modern terminal replacement for PowerShell default
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
+- **Brother 2380** — printer; not powering up as of 7/16/2026 — troubleshoot or replace when home
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
 
