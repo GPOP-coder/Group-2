@@ -36,6 +36,15 @@ This framework is the eventual home for the raw TOC distribution below — once 
 - [ ] Interface Level Mapping — distinct from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA. **Defined 7/13:** tracking each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location) — see companion doc `interface-mapping-tracker.md`, being built live during training
 - [ ] Weekly Labor Meeting (train-the-trainer) — build from scratch, no reference material to lean on
 
+### Topics to place — must be on the agenda somewhere
+*(Pete: "If these things are not included, we will have to find a place for them.")*
+- [ ] **Task Scheduler** — referenced under Weekly Timeline in the property guide TOC; confirm whether that property-level treatment is sufficient or if corporate needs a deeper pass
+- [ ] **Automatic Messaging** — not mentioned anywhere in either TOC; genuinely new topic that needs to be placed explicitly
+- [ ] **Weekly Timeline** — in the property guide TOC (Finalize timeline, task ownership, Task Scheduler, Labor/Scheduler screen); confirm Devon/Nicole have this down or give it time on Day 2
+- [ ] **Property Level Reports** — property guide covers Reports/Dashboard (Labor Effectiveness, Weekly Labor Summary, schedule reports, labor dashboard); confirm whether a dedicated property-level reporting module needs time vs. quick pass
+
+---
+
 ### Decisions still needed
 - [ ] Confirm EXECUScope Tab = above-property reporting module (or find the right one)
 - [x] Identify which handbook section/module covers Interface Level Mapping — **resolved:** it's not a handbook section at all, it's source-system integration mapping (Paychex, etc.) — tracked in `interface-mapping-tracker.md`
