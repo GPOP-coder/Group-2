@@ -24,6 +24,7 @@ $knownRows = @(
     @("7/13/2026", 888.41, 1.00, "PERSONAL", "SW round-trip OMA-BNA (BEU2FS): outbound OMA-DEN-BNA (WN2060/WN570); return BNA-STL-OMA 7/16 (WN770/WN4912) - RR Visa -2674", "Air Fare", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  21.59, 1.00, "PERSONAL", "445 Bar 14, Omaha Airport (OMA) - sausage/egg/cheese sandwich, Coke Zero, tip; Visa -7552", "Bkfst", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  38.38, 1.00, "PERSONAL", "HMSHost Great Divide C, Denver Airport (DEN) - bison burger, medium fries, soda, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/13/2026",  83.64, 1.00, "PERSONAL", "Earls Nashville Yards, 26 Platform Way South, Nashville TN - crispy tuna, little gem caesar, iced tea, toffee cake, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026", 694.05, 1.00, "PERSONAL", "The Nashville Reserve, 301 Rosa L Parks Ave Nashville TN - 3 nights (7/13-7/16), Studio Suite; Hotels.com itinerary 73493828457425; Visa -2785", "Hotel", "HM Alpha - Corporate Admin Training Nashville", "")
 )
 $blankRowCount = 16
@@ -151,7 +152,8 @@ $notes = @(
     "- Ground transport BNA airport → hotel (7/13)",
     "- Ground transport hotel → BNA airport (7/16)",
     "- Lunch 7/13 — HMSHost Great Divide C, Denver Airport (DEN), $38.38 (Chase VISA -2674) ADDED",
-    "- Any other meal receipts 7/13-7/16"
+    "- Dinner 7/13 — Earls Nashville Yards, $83.64 (Chase VISA -2674) ADDED",
+    "- Any other meal receipts 7/14-7/16"
 )
 $row = 1
 foreach ($n in $notes) {
