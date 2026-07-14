@@ -38,8 +38,7 @@ This framework is the eventual home for the raw TOC distribution below — once 
 
 ### Topics to place — must be on the agenda somewhere
 *(Pete: "If these things are not included, we will have to find a place for them.")*
-- [ ] **Task Scheduler** — referenced under Weekly Timeline in the property guide TOC; confirm whether that property-level treatment is sufficient or if corporate needs a deeper pass
-- [ ] **Automatic Messaging** — not mentioned anywhere in either TOC; genuinely new topic that needs to be placed explicitly
+- [ ] **Task Scheduler** — referenced under Weekly Timeline in the property guide TOC; confirm whether that property-level treatment is sufficient or if corporate needs a deeper pass. **Includes Automatic Messaging** — a message can be triggered when an automated task runs; teach as part of Task Scheduler, not a separate topic
 - [ ] **Weekly Timeline** — in the property guide TOC (Finalize timeline, task ownership, Task Scheduler, Labor/Scheduler screen); confirm Devon/Nicole have this down or give it time on Day 2
 - [ ] **Property Level Reports** — property guide covers Reports/Dashboard (Labor Effectiveness, Weekly Labor Summary, schedule reports, labor dashboard); confirm whether a dedicated property-level reporting module needs time vs. quick pass
 
