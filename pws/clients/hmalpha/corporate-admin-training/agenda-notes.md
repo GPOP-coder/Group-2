@@ -38,9 +38,9 @@ This framework is the eventual home for the raw TOC distribution below — once 
 
 ### Topics to place — must be on the agenda somewhere
 *(Pete: "If these things are not included, we will have to find a place for them.")*
-- [ ] **Task Scheduler** — referenced under Weekly Timeline in the property guide TOC; confirm whether that property-level treatment is sufficient or if corporate needs a deeper pass. **Includes Automatic Messaging** — a message can be triggered when an automated task runs; teach as part of Task Scheduler, not a separate topic
-- [ ] **Weekly Timeline** — in the property guide TOC (Finalize timeline, task ownership, Task Scheduler, Labor/Scheduler screen); confirm Devon/Nicole have this down or give it time on Day 2
-- [ ] **Property Level Reports** — property guide covers Reports/Dashboard (Labor Effectiveness, Weekly Labor Summary, schedule reports, labor dashboard); confirm whether a dedicated property-level reporting module needs time vs. quick pass
+- [x] **Task Scheduler** (incl. Automatic Messaging) — placed Day 2, paired with Planning/Weekly Timeline. See FULL TOC DISTRIBUTION and DRAFT SESSION OUTLINE below.
+- [x] **Weekly Timeline** — placed Day 2, paired with Planning. See FULL TOC DISTRIBUTION and DRAFT SESSION OUTLINE below.
+- [x] **Property Level Reports** — placed Day 3, as a quick property-level refresher immediately before EXECUScope/Above-Property Reporting (sets up the property-vs-corporate contrast). See below.
 
 ---
 
@@ -70,6 +70,8 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 | 6 | Labor Structure (incl. Jobs Mapping) | Day 1 | 🟡 Partial — property guide covered add/edit jobs, productivity, dashboard, sort order, min hours/days off; moving/copying/prioritizing jobs & assignments is new. Jobs Mapping lives here, separate from KBI Mapping above |
 | — | *Interface Level Mapping* | Day 1 | ✅ Defined 7/13 — tracks each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location). Not a handbook section; see companion doc `interface-mapping-tracker.md` |
 | 7 | Planning | Day 2 | 🟡 Partial — property guide's "Planning Menu" + "Weekly Timeline" covered rooms/banquet/rev center forecast, project hours, generate/manage/publish schedules |
+| — | *Weekly Timeline* | Day 2 | 🟡 Partial — property guide covered finalize timeline, task ownership, Labor/Scheduler screen; confirm Devon/Nicole have this down, or give it dedicated time here |
+| — | *Task Scheduler (incl. Automatic Messaging)* | Day 2 | 🟡 Partial — sub-topic of Weekly Timeline in property guide; confirm whether that treatment was sufficient or corporate needs deeper pass. Automatic Messaging (message triggered when an automated task runs) taught here, not as its own topic |
 | 8 | Revenue Center Forecasts | Day 2 | 🟡 Partial — rev center forecast generation covered under Planning Menu; this section's depth (legend, planning period/rev center selectors, editing forecasting) is new |
 | 9 | Work Rules | Day 2 | ❌ Not covered — no mention in property guide at all |
 | 10 | Employee Maintenance | Day 2 | 🟡 Partial — property guide covered reconcile employee errors, add contract labor, bulk mobile invitations; full record creation across General/Status/Jobs/Scheduling/Schedule Groups/Assignments/Work Rules tabs is new |
@@ -78,11 +80,12 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 | 13 | Timeline Scheduling | Day 2 | ❌ Not covered — not named anywhere in property guide |
 | 14 | Labor Budgeting | Day 3 | ❌ Not covered — conditional: confirm in scope with Devon/Nicole before building |
 | 15 | Security Primer | Day 3 | 🟡 Partial — property guide's "User Administration" covered security credentials, add/clone users, tabs overview; Actions tab breakdown (Global/System Setup, Reports, Labor Forecasting/Reports, Scheduler, Adhoc) is new depth |
+| — | *Property Level Reports* | Day 3 | ✅ Covered — property guide's "Reports/Dashboard" (Labor Effectiveness, Weekly Labor Summary, file types, schedule reports, labor dashboard); quick refresher here, immediately before EXECUScope, to set up the property-vs-corporate contrast |
 | 16 | EXECUScope Tab | Day 3 | ❌ Not covered — emphasis area #1, no property-level equivalent; confirm this is actually the above-property reporting module first |
 | — | *Weekly Labor Meeting (train-the-trainer)* | Day 3 | ❌ Not covered — custom topic, no handbook equivalent at all |
 
 **Not placed on any day (property-guide-only topics with no distinct handbook TOC heading found):**
-- Mobile Configuration, Employee User Maps, Actuals, Reports/Dashboard — these appeared in the property-level guide but don't map to a standalone section in the full handbook TOC. Likely already fully covered at property level; flag if Devon/Nicole raise questions, otherwise no dedicated time needed.
+- Mobile Configuration, Employee User Maps, Actuals — these appeared in the property-level guide but don't map to a standalone section in the full handbook TOC. Likely already fully covered at property level; flag if Devon/Nicole raise questions, otherwise no dedicated time needed.
 
 ---
 
@@ -95,11 +98,13 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 - Goal: "teach her how to fish" — Nicole and Devon leave able to build/adjust KBIs, job mappings, and interface mappings themselves, not just watch
 
 **Day 2 — Wed 7/15: Operational Planning, Scheduling & Employee Admin**
+- Weekly Timeline + Task Scheduler (incl. Automatic Messaging) — confirm property-level treatment was sufficient before deciding how much time this needs
 - Planning, Revenue Center Forecasts, Employee Maintenance, Schedules (all partial — check questions on the property-level basics, then cover the new depth)
 - Employee Requests — fully covered at property level, quick check only
 - Work Rules, Timeline Scheduling — entirely new, no property-level exposure
 
 **Day 3 — Thu 7/16: Above-Property Reporting + Security + Budgeting + Train the Trainer**
+- Property Level Reports — quick refresher (already covered at property level), sets up the contrast before going above-property
 - EXECUScope / Above-Property Reporting — confirm module, then build session (no property equivalent)
 - Security Primer — property guide covered the basics; go deeper on Actions tab breakdown for multi-property permissions
 - Labor Budgeting — only if Devon/Nicole confirm it's in scope; otherwise use the time for open Q&A and review of Days 1–2
