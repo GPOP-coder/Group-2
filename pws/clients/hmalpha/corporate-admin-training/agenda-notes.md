@@ -8,6 +8,90 @@
 
 ---
 
+## DAY 1 COMPLETE — Tuesday, 7/14/26
+
+**Actual session structure:** two ~2-hour sessions (not one continuous 4-hour block as originally drafted).
+
+**Actual vs. planned:** Day 1 was drafted as "Configuration Foundations + Master KBI/Jobs Mapping + Interface Level Mapping" (Market Groups, Revenue Centers, Environments, Flow Patterns, KBIs, Labor Structure). What actually happened: Environments and Flow Patterns were addressed but as quick **decisions not to use them yet**, not full configuration teaching. Market Groups and Revenue Centers were not covered in Session 1 or 2 — carry forward if still needed. Actual depth went instead into: forecasting method status, the EMS/interface landscape (a major, unplanned but valuable detour), and a full Labor Structure deep dive including the job-naming action item and TK/Reconcile code mechanics. Reassess whether Market Groups/Revenue Centers still need dedicated time on Day 2 or 3, or whether they're low-priority enough to skip given the time already spent.
+
+## DAY 1 SESSION NOTES (live, from transcript — 7/14)
+
+### Forecasting Method — Current State
+- **TASE (trend-adjusted exponential smoothing)** is what's actually configured everywhere right now — described plainly as "a fancy way of saying weighted average," using a rolling 13-week window. Nothing is set up with regression yet anywhere Pete has checked.
+- **Regression requires, before it's viable:** 13 weeks of accurate "available guest count" data (guests in-house minus group breakfast guests that morning) + 13 weeks of correctly-mapped banquet data (group vs. local) + a working rooms forecast — all running cleanly at the same time. InterContinental doesn't have banquets mapped yet, so it can't move to regression until that's resolved (ties directly to the interface onboarding work above).
+- **Why regression is better once available:** it uses a fresh, rolling capture ratio (covers ÷ available guest count) that reacts immediately to swings — TASE is still just an average of the recent trend, so it lags reality; capture ratio tends to hold steady even as volume swings, so regression "follows you off a cliff" while TASE gradually catches up.
+- Regression is calculated **per meal period, per day of week** — a 3-meal restaurant can have up to 21 separate regressions running.
+- **Forecast ownership belongs to the property, not Unifocus** — whichever method is used, someone at the property must still own eyeballing and adjusting the number. This is a deliberate design point Pete makes repeatedly.
+
+### Environments — Decision: Not Being Used Yet
+- Two purposes: (1) forecast into a recurring-but-irregular event (needs 10–13 historical data points to be worth using), or (2) exclude a one-off anomalous event from actuals history (skip it, reach back further for a "normal" data point instead).
+- No property is using environments in a sophisticated way yet — deferred as a later training topic, not part of this trip's scope.
+
+### Flow Patterns — Decision: Not Being Set Up
+- Flow patterns require granular (e.g. 15-minute-increment) setup — too expensive/time-consuming to justify at HMAlpha's current properties. Available in the system if ever needed, but explicitly out of scope for now.
+
+### Labor Structure ↔ Above-Property Reporting
+- **Important connection surfaced on the call:** Labor Structure is what above-property reporting is actually built on top of — confirms Labor Structure deserves the Day 1 depth already planned, since it's not just a property-level topic.
+
+### Work Rules — Status
+- Barely covered in property-level training so far (maybe one example: scheduled lunch/break spacing).
+- **Open item:** HMAlpha needs a confirmed default lunch/break policy stance — the legal answer varies by state (e.g., a state may require a break at 6 hours, or not require one at all), and the property's own policy may be stricter than the state minimum. Need to know both the legal floor and HMAlpths's chosen default before finalizing work rules, since UF's labor standard settings interact directly with break rules (the system adds the break time on top of the standard, so getting this wrong throws off shift-length math).
+- Unifocus is not a payroll/T&A system of record for these rules — it helps avoid overtime and enforce break-aware scheduling, but doesn't enforce compliance itself.
+
+### Employee Requests — Open Question (not yet decided)
+- Currently ALL time-off requests flow through Paychex. Pete flagged, but explicitly did not resolve: should there be an exception path for some time-off requests to be entered directly in Unifocus instead of through Paychex? Revisit later, not a Day 1 decision.
+
+### Go-Live / Schedule Interface Cutover — Key Decision
+- **Problem surfaced:** communication has been inconsistent across properties about whether they can dual-run the old scheduling method alongside Unifocus during the transition — Akram had offered some properties the option to "trial run" both systems in parallel, which Devon/Ralph didn't intend.
+- **Decision (Devon + Ralph, confirmed with Pete):** rip the band-aid off. Whatever schedule a property is already working on has to be in Unifocus by the end of that property's training week, going forward from Unifocus from then on. Properties may keep an old method going informally as long as they want, but the **official/published schedule must live in Unifocus**, not both places.
+- This applies to banquet-based scheduling too, however granular — even if staffing is done BEO-by-BEO, it still has to end up in Unifocus.
+- **Direction of schedule data flow:** Unifocus → Paychex only, going forward (future schedule, ~21 days out). Nothing flows backward from Paychex to Unifocus except actuals/time-and-attendance data. Open question Pete flagged but didn't resolve: is anything in Paychex dependent on the *old* schedule being accurate for closing payroll or catching exceptions? Needs confirmation before assuming a clean cutover.
+- **Publish workflow recommendation:** each property designates who has publish rights (likely one scheduling manager/admin per property — HMAlpha's team structures are generally not complex enough to need a separate approver layer, though Grand Hyatt might be an exception). Recommended sequence: schedule complete/submitted → weekly labor meeting happens and changes get discussed → changes made → published by a set cutoff time that same day. **This directly ties to the Weekly Labor Meeting / WFM Culture topic already on Day 3.**
+- Confirmed: Unifocus is not currently sending unpublished schedules over the interface — only published ones.
+
+### Budgeting
+- Pete wants a **dedicated, separate session** for Labor Budgeting — not clear yet how much Devon/Nicole already know, doesn't want to show everything at once. Reinforces the existing "confirm if in scope" open item rather than resolving it.
+
+### Master KBI — Teased, Not Yet Explained
+- Pete introduced the concept ("call it whatever you want, it all boils up to total occupied rooms") but deferred the full explanation. **Open thread — circle back to fully explain Master KBI.**
+
+---
+
+## DAY 1 SESSION NOTES, CONTINUED — Labor Structure Deep Dive (Session 2, 7/14)
+
+### Labor Structure Fundamentals
+- Labor Structure is foundational — you cannot have employees, hours, or labor standards without it. Not arbitrary: generally follows the property's chart of accounts (USALI).
+- **One deliberate exception:** Management is broken out into its own division — not for accounting reasons, but for functionality (isolating user administration visibility, reporting access, and dollar visibility/security).
+- Standard divisions: Rooms, F&B, Other Operating, Non-Operating. HMAlpha isn't using Non-Operating currently (their "Support" may be the closest analog).
+- Structure nests like folders (property → division → department → job), but **the real functionality lives at the job level** — it's the bucket everything else (KBIs, standards, hours, reporting) actually attaches to.
+- **Moving things is risky:** dragging a job/department/division elsewhere can break things or drag unintended dependencies along with it. Pete is deliberately cautious about this.
+
+### Adding a New Job — Governance Is Still an Open SOP, Not a Tech Setting
+- **The problem:** any system admin at any property currently CAN add a new job — it's just an unchecked permission box, not a hard technical restriction. Whether that *should* be centralized is a management-practice question, not something Unifocus enforces.
+- **Current real-world process (as described by Devon):** net-new jobs are typically created centrally by HMA's payroll/accounting team when a property's HR contact requests one; the same centralized pattern likely makes sense for who then adds the corresponding job in Unifocus.
+- **Decision:** this needs to become a documented HMAlpha SOP (who requests, who approves, who executes in Paychex, who executes/notifies for Unifocus) — **not a Unifocus permission lockdown**. Devon wants to land on this internally and align messaging before the next round of property admin training, so it's communicated consistently.
+- **⚠️ Critical warning — jobs cannot be deleted once used:** once a job accumulates any hours or codes (even by accident), it cannot be removed — only disconnected/inactivated, or moved into a "Do Not Use" division (hidden from non-admins via Labor Structure visibility permissions). The same rule applies to KBIs once they've been used. Mis-created jobs/KBIs become a real support-ticket burden to unwind. Pete noted HMAlpha's properties (praised Steve and Taylor's config work) haven't hit this problem yet — worth keeping it that way.
+
+### Job Naming Convention — Decision + Action Item (in progress this trip)
+- **Problem identified live:** many jobs across outlets are just named generically ("Server," "Bartender") with no outlet identifier. This breaks schedules for any employee who floats between outlets (Nicole's example: an employee scheduled at 3 different restaurants that all just say "Bartender" has no way to tell from the printed schedule which outlet each shift is at).
+- **Convention going forward:** every outlet-specific job should start with a short abbreviation identifying the outlet/department (e.g., "BQT Server" for banquet vs. a restaurant-specific bartender name) and stay compact — long names truncate/wrap on schedule prints and narrow UI columns.
+- **What stays uniform vs. what's flexible:** Divisions (Rooms, F&B) and most Departments should stay identical across all properties for cross-property comparison — but property-specific department/outlet names can flex to match local culture (e.g., "Front Office" vs. "Front Desk"), as can specific outlet abbreviations, as long as they're short and consistent within that property.
+- Renaming has **zero functional/technical impact** — it's purely cosmetic, and any admin can do it at any time.
+- **Action taken this trip:** Pete, Devon, and Nicole are doing a first-pass rename/shortening effort now, prioritizing the first 5 pilot properties — urgency driven by Indianapolis cloning its property setup **next week**, and new properties clone off of already-existing properties (not a clean master template), so bad naming would otherwise keep propagating forward. Plan: do an initial shortening pass, communicate the change to properties, then let each property suggest their own preferred outlet abbreviation within the new shorter convention. Devon is building a glossary of standard abbreviations (e.g., BQT = Banquet, TTL = Total) to distribute.
+
+### Job-Level Configuration Fields (walkthrough)
+- **Code column:** no functionality at all — purely a scrolling/reference convenience (frozen leftmost column). Pete's convention: 4-digit job code for jobs, department number for divisions/departments.
+- **Abbreviation field:** rarely used at HMAlpha currently; surfaces in a handful of specific reports. Leave blank until a real need for it appears.
+- **Job Category:** not currently configured/used for HMAlpha. Purpose: rolls differently-named jobs up to a master category for corporate-level reporting/consolidation (e.g., different property naming conventions still consolidating to one comparable bucket). Caution: changes here don't propagate automatically across properties — must be manually verified property-by-property, so avoid casual changes once set.
+- **Variance %:** planning/scheduling variance reports default to 5% +/- unless overridden per job (e.g., a union-specific overtime rule).
+- **Master Job / Productivity / Show on Dashboard:** must be set explicitly every time a new job is created — doesn't auto-populate. Standard practice: match the settings of similar/neighboring jobs rather than reconfiguring from scratch.
+- **Job Schedule Order:** controls what order the auto-scheduler fills shifts (not literally "who gets scheduled," but which shift gets attention first and who's next in line). Options: left-to-right by day, Cascade, **Modified Peak** (HMAlpha's current default — prioritizes the day the system judges hardest to fill), by employee set (alphabetical/seniority), or Manual (a manager can hand-set the order).
+- **Job Rank:** the tie-breaker sequence — distinct from Job Schedule Order. Fills full-time first, then part-time, then contract; within each tier, breaks ties by seniority/hire date/alphabetical. **Not** productivity-based — there's no "most productive employee" signal driving this.
+- **Minimum Days Off** (set at the job level, not division-level despite an apparent division-level control — must be changed line by line): currently set to 1 at HMAlpha; Pete typically recommends 2. This is the auto-scheduler's guardrail — it won't auto-schedule a 7th consecutive day at 1, though managers can still manually schedule doubles/7-days if needed. Relevant to banquet scheduling specifically, since banquets generate many small shifts and a low min-days-off setting can let senior/first-in-line employees soak up all of them while others get nothing.
+- **Schedule Approval/Publish requirement (checkbox):** exists at the job level to require manager approval before a schedule can publish. Technology supports it; **management practice is still evolving and explicitly not yet decided for HMAlpha.** Cautionary example from another Pete client: turning on strict "won't publish without approval" backfired because the approval bottleneck delayed schedules reaching employees via the mobile app. Devon's take: most HMAlpha properties have the same person making and would-be-approving the schedule, so a formal approval layer may not be needed (Grand Hyatt possibly the exception given its complexity). HMAlpha's stated management-culture position: deliberately "Goldilocks" between centralized and decentralized — not fully settled either way yet.
+
+---
+
 ## PETE'S OVERALL TRAINING FRAMEWORK (noted 7/13, in progress)
 
 This is Pete's own organizing structure for WFM admin training — distinct from the handbook's raw TOC order. **Not final** — Pete will add to it as he sees how all the training items fit, or if it needs more pieces.
@@ -51,7 +135,7 @@ This framework is the eventual home for the raw TOC distribution below — once 
 - [ ] Decide how deep to go on Security Primer (multi-property permissions) vs. property-level User Administration
 
 ### Logistics
-- [x] Sessions: Tue 7/14, Wed 7/15, Thu 7/16 — three 4-hour sessions, 9:00 AM–1:00 PM each day
+- [x] Sessions: Tue 7/14, Wed 7/15, Thu 7/16 — planned as three 4-hour sessions, 9:00 AM–1:00 PM each day. **Actual (Day 1, 7/14):** ran as two ~2-hour sessions rather than one continuous 4-hour block — confirm if Day 2/3 follow the same split-session pattern.
 - [ ] Location: HMAlpha Corporate Offices, Nashville
 
 ---

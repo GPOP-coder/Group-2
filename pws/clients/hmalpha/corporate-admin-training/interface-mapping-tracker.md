@@ -23,8 +23,8 @@
 
 | Interface | Source | Frequency | Source Notes | Mapped in UF |
 |---|---|---|---|---|
-| Employee Reconcile | Paychex employee list | Once a day, time TBD | Source has primary and secondary jobs | Labor Structure / Reconcile Codes |
-| Actual Hours | Paychex Time and Attendance | Once a day, time TBD | Source only sends approved shifts — recommend it send ALL shifts, approved or not | Labor Structure / TK Codes |
+| Employee Reconcile | Paychex employee list | Once a day, before the hours imports | Source has primary and secondary jobs. **Runs first** — if an incoming employee's job code isn't recognized/mapped, that employee will NOT import at all (surfaces on the Reconcile/Transfer Hours report) | Labor Structure / Reconcile Codes |
+| Actual Hours | Paychex Time and Attendance **+ Work Records (contract labor)** | Twice a day — **two separate imports** at different times, one from Paychex, one from Work Records, following the same job-code-matching logic | Source only sends approved shifts — recommend it send ALL shifts, approved or not. See Work Records granularity issue below | Labor Structure / TK Codes |
 | Time Off Requests | Paychex | TBD | TBD | TBD |
 | Schedules | Paychex (UF → Paychex — **outbound**, opposite direction from the interfaces above) | TBD | TBD | TBD |
 | Rooms Forecast | ProfitSword | TBD | TBD | TBD |
@@ -36,17 +36,48 @@
 
 ### Banquet Forecast/Actuals — Source System by Property
 
-| Property | EMS Source | Notes |
+**CORRECTION (7/14, from Day 1 training call — supersedes earlier note):** HMAlpha does **not** have its own company-wide EMS. Devon asked Pete directly on the call whether HMAlpha has its own system or depends on each brand — Pete confirmed: **"No, it's just each brand."** There are four brand-level sources, and Delphi is used by two different brands as **two separate, unrelated instances** (same software, not the same deployment):
+
+| Property / Brand | EMS Source | Notes |
 |---|---|---|
-| Union Station Nashville | Marriott CI/TY | Marriott-brand system, since Union Station is Autograph Collection |
-| InterContinental New Orleans | Delphi — IHG brand-wide instance | Shared across the InterContinental/IHG brand family (not property-specific, and not the same shared instance as the HMA-managed one below) |
-| Other HMAlpha properties | Shared Delphi instance under HMA | HMA (the management company) hosts one unified Delphi for multiple properties — a third, distinct pattern from both the Marriott brand system and IHG's brand-wide Delphi |
+| Union Station Nashville (Marriott/Autograph Collection) | Marriott CI/TY | |
+| InterContinental New Orleans (IHG) | Delphi — **IHG's own instance** | Separate from Hilton's Delphi below despite being the same software |
+| Hilton-brand properties (e.g. Hilton Indianapolis, DoubleTree Charlotte) | Delphi — **Hilton's own instance** | Separate from IHG's Delphi above |
+| Hyatt-brand properties (e.g. Grand Hyatt Nashville, Hyatt Regency Valencia, Hyatt Westlake) | Envision | |
 
 *(Add more properties as we confirm their EMS during training.)*
+
+### Centralized Reporting Process (confirmed 7/14)
+- Reports are being **centralized through Nicole** rather than each property submitting individually — Nicole will receive **4 reports per day total** (one per brand: Marriott/CI-TY, IHG/Delphi, Hilton/Delphi, Hyatt/Envision), then Manali maps/imports on the Unifocus side.
+- **Destination:** files go to **PMSfiles@unifocus.com**
+- **Mapping confirmation status (as of 7/14):**
+  - ✅ Marriott/CI-TY format confirmed good by Manali — built from Triana's InterContinental export, condensed to only the columns Manali needs (removed manager/other columns not required)
+  - ⚠️ Still need confirmation on: the Hyatt/Envision format (sent by "Julie") and the second Delphi format (Hilton's — sent by Triana, not Julie)
+  - Known gap: there's no formal written data-spec package from Manali's side (field names, data types, required format) — Pete to track down/request that document so future brands don't have to reverse-engineer it through back-and-forth
+- **Historicals status:** 2+ years of data (starting 2024) sent for Marriott/CI-TY in the confirmed format; not yet imported for InterContinental (blocked on mapping being finalized — see onboarding process below)
+
+### Interface Onboarding Process (general method, applies to any new EMS/brand feed)
+1. Get the source file format right first (match Unifocus's spec exactly)
+2. Send one **dummy/fake file with every possible value** in it (all event types, booking types, etc.) — this lights up all the mapping dropdown options in UF for that property, without needing to wait on real production data
+3. Do the mapping using that lit-up dropdown
+4. Import a **real, current file** (e.g. a 21-day banquet window) to validate the mapping actually works end-to-end
+5. Only after that's validated, backfill/import full historical data (however many years are available)
+6. **Each property's mapping starts blank** — even properties on the same brand/EMS don't inherit another property's mapping. This is by design.
+7. **Watch for miscategorized source data:** one property had been putting every single banquet event into "Continental Breakfast" in their EMS because no one was using the real event-type field — always sanity-check what the source categories actually mean before trusting the import, not just whether the technical pipe works
+8. IT/technical contact for the EMS feed varies by property/brand — there's no single universal contact. Best practice: identify whoever manages the EMS at each property (could be brand IT, a regional event-systems person, sometimes a "sales-y" role) and let them coordinate directly with Manali on the technical/file-format level, rather than Devon/Nicole being the go-between on that layer.
+
+### TK Codes / Reconcile Codes — Technical Detail (from Day 1, Session 2)
+
+- **Two completely separate interfaces from the same source (Paychex)** — TK codes (hours import) and Reconcile codes (employee import) look similar but are independently mapped. Don't assume they're interchangeable or stack them together.
+- **Critical matching quirk:** UF matches on the **entire line/string** Paychex sends, not just the 4-digit job code. If the job code number stays the same but someone edits the text label in Paychex, the mapping breaks — it's an exact-string match, not an ID-based match. In hindsight, mapping to just "property identifier + job code" would have been more robust, but the interface was built to match what Paychex actually sends, and that can't be redesigned now.
+- **Work Records granularity issue:** Work Records (staffing agency system) sometimes lumps distinct roles into one generic code (e.g., a general "Housekeeping" person instead of separate House Person / Room Attendant / Public Space Cleaner). This was never a problem before UF — hours flowed fine and agency invoices reconciled — but UF requires hours to hit a **specific job**, not just a department bucket. Fix has to happen on the Work Records side: request the agency create and correctly use the granular job codes, then UF can allocate hours properly.
+- **Contract labor / "on call" (Baha Mar's term for it) handling — HMAlpha's pattern:** hours are flagged as contract labor **on the same job code** as they come in through the interface, rather than creating a separate "Room Attendant – Contract" job for every role (which is what some other clients do, doubling their labor structure size). This lets UF report on contract vs. regular hours without separate job codes — **but that reporting split does not currently feed HMAlpha's P&L**, since Paychex/payroll (not Unifocus) is the source system for the P&L.
+- **Big picture:** even when Time & Attendance itself isn't the payroll system of record, TK/Reconcile codes still feed reporting, User Administration visibility, and general system functionality — described on the call as "a tree, and all these other things are ornaments" hanging off it.
 
 ---
 
 ## Other Interfaces to Eventually Document
 - [ ] Fill in Frequency / exact UF menu path for the TBD rows above as they come up in training
-- [ ] Confirm which specific HMAlpha properties share the unified Delphi instance vs. running standalone
+- [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Manali (Marriott/CI-TY already confirmed)
+- [ ] Get the formal written data-spec document from Manali/Unifocus side
 - [ ] (add more as discovered during training)
