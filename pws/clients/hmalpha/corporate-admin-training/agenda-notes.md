@@ -69,6 +69,8 @@
 - **Why:** culinary, stewarding, and setup/houseperson teams do their work in the days *leading up to* a banquet event, not all on the event day — prep, staging, breakdown all span a window of days, but the system's standard hours booking lands it all on the single event date.
 - **Practical recommendation:** Banquet culinary, stewarding, and setup (houseperson) roles should be evaluated over **the whole week or longer**, not day-by-day, to avoid a misleading mismatch between when the standard hours land (event day) and when the actual labor was really incurred (the days before).
 
+**✅ Real-world validation (7/14, IC New Orleans go-live support call, same day):** InterContinental hit exactly this problem — banquet labor standards (3 min/cover for house persons, units-per-shift for servers) generated a 6:00–9:00 AM breakfast shift when actual service ran 7:45–9:00 AM, missing all the setup/cleanup time. Same root cause Pete identified here. Full writeup: `pws/clients/hmalpha/intercontinental-new-orleans/2026-07-14_go-live-support-week1-meeting-notes.md`. Taylor Walton (Unifocus) is taking it to Devin (HMAlpha) to review the standards. Worth bringing this real example into the Day 2/3 banquet discussion with Devon/Nicole as concrete proof of the philosophy above.
+
 ---
 
 ## DAY 1 SESSION NOTES, CONTINUED — Labor Structure Deep Dive (Session 2, 7/14)
