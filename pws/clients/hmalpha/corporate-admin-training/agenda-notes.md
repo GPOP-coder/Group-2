@@ -58,6 +58,19 @@
 
 ---
 
+## PETE'S THOUGHTS — Banquets (developing philosophy, not yet delivered to Devon/Nicole, 7/14)
+
+*Pete's own reasoning, captured for later — not yet taught in a session. Worth developing into an explicit teaching point given how much time Day 1 already spent on banquet interfaces/forecasting.*
+
+- **The structural mismatch:** Banquet forecast KBIs get pulled too early (per the interface tracker, banquet files come in on a ~21-day-out window) to ever make Projected Hours accurate for a specific banquet event. This isn't a data-quality problem to fix — it's inherent to how far ahead the forecast has to be pulled.
+- **Consequence — don't over-scrutinize the banquet schedule itself.** Because the underlying forecast can't be precise this far out, judging the schedule against projected hours day-by-day is judging it against a number that was never going to be accurate in the first place.
+- **The right comparison for anything touching banquets is Actual vs. Standard** — not actual vs. schedule, not actual vs. projected/forecast.
+- **But Standard Hours themselves shouldn't be scrutinized day-by-day either**, because of a separate mechanical quirk: **all standard hours are calculated and attributed to the day of the event itself**, even though the labor to support that event is actually spent over multiple days.
+- **Why:** culinary, stewarding, and setup/houseperson teams do their work in the days *leading up to* a banquet event, not all on the event day — prep, staging, breakdown all span a window of days, but the system's standard hours booking lands it all on the single event date.
+- **Practical recommendation:** Banquet culinary, stewarding, and setup (houseperson) roles should be evaluated over **the whole week or longer**, not day-by-day, to avoid a misleading mismatch between when the standard hours land (event day) and when the actual labor was really incurred (the days before).
+
+---
+
 ## DAY 1 SESSION NOTES, CONTINUED — Labor Structure Deep Dive (Session 2, 7/14)
 
 ### Labor Structure Fundamentals

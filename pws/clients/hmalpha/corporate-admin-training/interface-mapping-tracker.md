@@ -53,7 +53,7 @@
 - **Mapping confirmation status (as of 7/14):**
   - ✅ Marriott/CI-TY format confirmed good by Manali — built from Triana's InterContinental export, condensed to only the columns Manali needs (removed manager/other columns not required)
   - ⚠️ Still need confirmation on: the Hyatt/Envision format (sent by "Julie") and the second Delphi format (Hilton's — sent by Triana, not Julie)
-  - Known gap: there's no formal written data-spec package from Manali's side (field names, data types, required format) — Pete to track down/request that document so future brands don't have to reverse-engineer it through back-and-forth
+  - **Update (7/14):** Pete found a formal written spec package DOES exist — Monali Desai (Data Integration Specialist, mdesai@unifocus.com) sent specs + sample files on 8/8/2022 for exactly four interfaces: (1) Employee Reconciliation, (2) Hours and Dollars, (3) Actual KBIs, (4) Banquet BEOs. That confirms these are Unifocus's canonical named interface categories, matching what's been built organically in this tracker. **Open:** Pete emailed Monali 7/14/26 5:36 PM asking whether these 2022 specs are still current and where to source them going forward (a standing location vs. asking each time) — awaiting her reply. Pete's framing to her: just checking for reference to help Nicole, not changing anything already running for HMAlpha.
 - **Historicals status:** 2+ years of data (starting 2024) sent for Marriott/CI-TY in the confirmed format; not yet imported for InterContinental (blocked on mapping being finalized — see onboarding process below)
 
 ### Interface Onboarding Process (general method, applies to any new EMS/brand feed)
@@ -65,6 +65,37 @@
 6. **Each property's mapping starts blank** — even properties on the same brand/EMS don't inherit another property's mapping. This is by design.
 7. **Watch for miscategorized source data:** one property had been putting every single banquet event into "Continental Breakfast" in their EMS because no one was using the real event-type field — always sanity-check what the source categories actually mean before trusting the import, not just whether the technical pipe works
 8. IT/technical contact for the EMS feed varies by property/brand — there's no single universal contact. Best practice: identify whoever manages the EMS at each property (could be brand IT, a regional event-systems person, sometimes a "sales-y" role) and let them coordinate directly with Manali on the technical/file-format level, rather than Devon/Nicole being the go-between on that layer.
+
+### Banquet KBI Mapping — Hands-On Walkthrough (Day 1, bonus Session 3, 7/14 — worked live with Nicole on InterContinental/Delphi)
+
+This is the concrete, step-by-step version of the generic onboarding process above, specific to banquet KBI mapping. InterContinental was used as the live example since it was still completely unmapped (access to Delphi had just been granted).
+
+#### The core classification logic
+- Delphi (and EMS systems generally) classify every banquet event under a booking/revenue type — for InterContinental, the three types are **Banquet**, **Catering**, **In House**.
+- **Banquet = Group** in Unifocus terms. Group means someone is sleeping in the hotel and attending the event (sales thinks of "group" as people they're selling rooms *and* banquet events to).
+- **Catering = Local**, **In House = Local** (by default) — Local covers everything that isn't tied to overnight room-nights (an outside company's event, or the hotel's own internal/employee event).
+- **Meetings (no food covers) don't need the Group/Local split** — that distinction only matters where covers/guest-count are involved.
+- **Every event type/meal-period/style combination needs mapping 6 times**: 3 on the Actual side (Group/Banquet, Catering, In House) × 2 screens (Actual KBI Mapping and Forecast KBI Mapping — see below).
+
+#### Actual KBI Mapping vs. Forecast KBI Mapping — they run backwards from each other
+Both live under **Setup → Labor → [Input] Actual KBI Mapping** and **Setup → Labor → Forecast KBI Mapping** respectively. Do not assume they work the same way:
+- **Actual KBI Mapping:** you start from the Unifocus KBI (e.g. "Banquet Local Breakfast Buffet") and **add lines** to it — multiple Delphi source codes (e.g. both "Catering" and "In House") can be added as separate lines feeding into that *one* KBI, since Local = Catering + In-House combined. A given KBI should only appear once as a mapped target, but that one entry can absorb multiple source lines.
+- **Forecast KBI Mapping:** the direction reverses — you start from the source/mapping code and assign it a KBI. Here, the **mapping code must be unique per row** (can't reuse a mapping code), but the **same KBI can be selected on multiple different rows** (e.g. two separate forecast rows, one tied to the Catering source code and one tied to the In House source code, both pointing at the same "Local Breakfast Buffet" KBI). Since row titles are otherwise identical, give each a distinguishing suffix (e.g. "...Breakfast Buffet - CA" vs. "...Breakfast Buffet - IH").
+- **Revenue Centers don't get their own forecast import** — they're generated automatically from the Rooms Forecast + Banquet Forecast (the independent-variable inputs), confirming the independent/dependent-variable relationship already noted under Forecasting.
+- Manali has to import the dummy/test file **twice** — once against Actual KBI Mapping, once against Forecast KBI Mapping — "completely different programs" even though conceptually linked.
+- UI mechanics: you must click **Edit** before a mapping screen becomes editable — can't just start typing. New line numbers auto-assign and **cannot be changed after creation** — plan out your full list of intended mappings before starting, since the screen only sorts by line number (not by KBI name), and finding one missing mapping later means scrolling through however many dozens/hundreds already exist.
+
+#### Building the dummy/test file — concrete method
+1. Pull a real historical export from the source EMS — ideally a **full year**, to maximize the odds of capturing every event type actually used.
+2. Deduplicate down to the unique values in the event-type/classification column. This is your master list of event types needing mapping.
+3. **Manually review and exclude non-mappable/non-labor categories.** Examples explicitly excluded for InterContinental: Setup, Hold Space, Tear Down, Not a Meal, Breakout (meeting type), Ceremony (meeting type), Speaker Ready Room (meeting type), On a Sign/Unassigned, blank rows, 24-Hour Hold. Rationale: these are either meeting-only (no covers) or would double-count labor already captured elsewhere in the event itself.
+4. **Flag ambiguous categories for follow-up rather than guessing:** examples hit live — "Breakfast Sales" (unclear meaning, needs asking the property), "Amenity Delivery" (unclear which department owns it — house persons vs. in-room dining, varies by property), "Off Site" (ambiguous whether the group's event is literally off-property — don't assume "no labor" without confirming), "Hospitality" (means different things per property — one property's "Hospitality" was a no-food reception, name-tags/gift-bags only, no bartender needed), the "Set" column (meant to tell setup staff how many to physically set up for vs. the guaranteed count, e.g. "dinner for 32, set for 40" — but used inconsistently property to property, sometimes left blank entirely).
+5. Keep a **persistent running list of what's deliberately not mapped**, per property, so this institutional knowledge isn't relitigated or forgotten later.
+6. Triplicate the cleaned event-type list (one copy per Banquet/Catering/In House), apply one consistent, arbitrary date across every row (the actual date value doesn't matter — even 1975 works, since it'll get overwritten by real data anyway — but picking something you can consciously check post-import is smart), and give each count-column (Expected/Guaranteed/Actual/Set — exact column letters vary by property's export) a unique/incrementing placeholder value so you can verify specific numbers made it through after import.
+7. **⚠️ Exact string matching gotcha (same category of risk as the Paychex TK-code issue above):** source values must match character-for-character. One property had both "In-House" (hyphen) and "In House" (space) inconsistently used in their own EMS due to a mid-year internal change — this either requires mapping both variants or getting the property to standardize going forward.
+8. **Caution pulling a full year of history:** if a property changed field values mid-year, a full-year pull captures both old and new versions as if they're distinct categories — catch this and ask the property why, don't just map both blindly.
+9. Once a property's mapping is built and validated, **it's a one-time job — never needs to be redone** for that property.
+10. **Unresolved/needs follow-up:** if there's no direct system configuration report listing every valid event-type value, one workaround is opening the EMS's "create new booking" screen and inspecting the event-type dropdown directly — this was attempted live for Delphi/InterContinental but not successfully located by end of session. There is reportedly an internal Unifocus Teams location with interface documentation, also not located by end of session.
 
 ### TK Codes / Reconcile Codes — Technical Detail (from Day 1, Session 2)
 
@@ -79,5 +110,11 @@
 ## Other Interfaces to Eventually Document
 - [ ] Fill in Frequency / exact UF menu path for the TBD rows above as they come up in training
 - [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Manali (Marriott/CI-TY already confirmed)
-- [ ] Get the formal written data-spec document from Manali/Unifocus side
+- [ ] **Pending Monali's reply (asked 7/14):** confirm the 2022 spec package (Employee Reconciliation, Hours and Dollars, Actual KBIs, Banquet BEOs) is still current, and find out where to source it going forward instead of asking each time
+- [ ] Ask InterContinental/Matthew what "Breakfast Sales" event type actually means in Delphi
+- [ ] Confirm which department owns "Amenity Delivery" at InterContinental (house persons vs. in-room dining)
+- [ ] Confirm what "Off Site" means at InterContinental (event physically off-property vs. some other designation) before assuming zero labor
+- [ ] Confirm how "Hospitality" is being used at InterContinental (has varied property to property elsewhere)
+- [ ] Find a Delphi configuration report/screen listing all valid event-type values (attempted live, not located as of 7/14)
+- [ ] Locate the internal Unifocus Teams folder with interface-mapping documentation (attempted live, not located as of 7/14 — note: the 2022 specs above were found via an old email instead, not this Teams location, so the Teams search is still a separate open thread)
 - [ ] (add more as discovered during training)
