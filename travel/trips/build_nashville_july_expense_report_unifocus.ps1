@@ -26,7 +26,8 @@ $knownRows = @(
     @("7/13/2026",  38.38, 1.00, "PERSONAL", "HMSHost Great Divide C, Denver Airport (DEN) - bison burger, medium fries, soda, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  83.64, 1.00, "PERSONAL", "Earls Nashville Yards, 26 Platform Way South, Nashville TN - crispy tuna, little gem caesar, iced tea, toffee cake, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026", 694.05, 1.00, "PERSONAL", "The Nashville Reserve, 301 Rosa L Parks Ave Nashville TN - 3 nights (7/13-7/16), Studio Suite; Hotels.com itinerary 73493828457425; Visa -2785", "Hotel", "HM Alpha - Corporate Admin Training Nashville", ""),
-    @("7/14/2026",  20.63, 1.00, "PERSONAL", "Nick The Greek, 943 Church St, Nashville TN - beef/lamb gyro bowl, pita & drink, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", "")
+    @("7/14/2026",  20.63, 1.00, "PERSONAL", "Nick The Greek, 943 Church St, Nashville TN - beef/lamb gyro bowl, pita & drink, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/14/2026",  22.53, 1.00, "PERSONAL", "Assembly Food Hall (Honey Fire Barbeque), 5055 Broadway Pl, Nashville TN - chicken sandwich, baked beans, fountain drink, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", "")
 )
 $blankRowCount = 16
 
@@ -155,7 +156,8 @@ $notes = @(
     "- Lunch 7/13 — HMSHost Great Divide C, Denver Airport (DEN), $38.38 (Chase VISA -2674) ADDED",
     "- Dinner 7/13 — Earls Nashville Yards, $83.64 (Chase VISA -2674) ADDED",
     "- Lunch 7/14 — Nick The Greek, Nashville, $20.63 (Chase VISA -2674) ADDED",
-    "- Any other meal receipts 7/14-7/16"
+    "- Dinner 7/14 — Assembly Food Hall (Honey Fire BBQ), Nashville, $22.53 (Chase VISA -2674) ADDED",
+    "- Any other meal receipts 7/15-7/16"
 )
 $row = 1
 foreach ($n in $notes) {
