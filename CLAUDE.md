@@ -222,9 +222,11 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 **Steve Carrell** (Unifocus — Senior Workforce Performance Consultant) | scarrell@unifocus.com — called Pete June 5 to say he recommended Pete to Ralph Varble as a trainer for new clients, possibly on contract. Owns MakeReady configuration phase (all 3 properties). Pete held the same consultant role for many years before moving into Client Success Manager.
 
 **New Training Projects (June 2026):**
-- **MakeReady (part of Rockbridge)** — 2 properties; Pete as trainer. Steve Carrell owns config; John Grech owns post-config; Taylor Walton owns post go-live follow-up.
-  - **The Moran, Houston** — Training week: Aug 10–14 (Pete traveling onsite)
-  - **Heathman, Portland** — Dates TBD; Ralph confirming
+- **MakeReady (part of Rockbridge)** — 3 properties total (Moran, Heathman, and Greenleigh — see below); Pete as trainer. Steve Carrell owns config; John Grech owns post-config; Taylor Walton owns post go-live follow-up.
+  - **Timeline of 7/14/26:** Both Moran and Heathman were postponed off Pete's schedule earlier in the day (root cause: The Moran's onsite leadership — Robbie/GM, Monica Brock/DOF, Christian/Dir. F&B, JC/Asst. F&B Mgr — unavailable during the originally slated config week of 7/21, split between the MakeReady Experience conference in Dallas 7/21–23 and taskforce duty; config needs finance in the room to reconcile labor standards against budget, so Michelle Lewis's offered Zoom workaround for the 3 absent leaders was declined in favor of postponing). Steve Carrell still asked The Moran to send the property profile immediately so prework isn't blocked regardless of reschedule date. **Later that same evening, Ralph found an earlier opening and re-slotted The Moran** (see below) — Heathman's status from the morning round (config week of Sept 28) was not explicitly revised in the evening email, but Ralph's stated reasoning (wants to give Heathman more time to settle since they're mid-manager-turnover, unlike Moran) suggests Heathman may end up later than Sept 28, not earlier — treat that date as soft until Ralph confirms directly.
+  - **The Moran, Houston** — ✅ **CONFIRMED.** Config week of Aug 17, 2026; Training week of Aug 31, 2026 (Pete's week). Config is Steve Carrell's, not Pete's.
+  - **Heathman, Portland** — Tentative: **Oct 12–15, 2026.** (Supersedes the earlier "config week of Sept 28" estimate — consistent with Ralph's stated intent to give Heathman more time before scheduling them, since they're mid-manager-turnover.)
+  - **Greenleigh** — **NEW, 7/14/26.** Third MakeReady property, not previously tracked. Ralph flagged that Q4 dates need discussion soon, since Unifocus's PS team calendar is filling up with international projects. No dates yet — approximate Q4 timing only.
   - *(The Joseph Nashville is a Highgate property — managed by Highgate, not MakeReady. Steve Carrell did that consulting. Pete has no involvement.)*
 - **HMAlpha (spin-off of Dimension)** — 5 pilot properties confirmed (not 15); Pete as trainer
   - **Jun 22 (week of):** New Orleans / Intercontinental — 3 days (1 admin + 2 manager; 13 managers). **BLOCKED pending HMAlpha approval to contact property.** Ralph says "every week they push it a week" due to BLSBD config issues (budget/standards misalignment). 50+ emails related to BLSBD concerns across 5 pilots. HMAlpha forcing direct calls with properties to resolve concerns before training proceeds.
@@ -241,9 +243,10 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Jun 14–21, 2026** — Orlando: watch Camille's house + dog, proximity to Dad; Father's Day away from kids/grandkids. Booked: SW C8R96Z (OMA-MCO, WN435). **Return may go MCO→MSY direct (straight to New Orleans) — do not book OMA return until New Orleans status confirmed.**
 - **Jun 22–26, 2026 (tentative)** — New Orleans / Intercontinental — HMAlpha onsite training (3 days: 1 admin + 2 manager for 13 managers). **Status (6/15): HMAlpha not yet approved to contact property. Ralph says approval "every week they push it a week" — expect last-minute confirmation. If confirmed, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip. Cannot contact property until HMAlpha says OK. Pete to brief with Steve (config) and Akram (training email) on Tuesday 6/16.**
 - **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
-- **Aug 10–14, 2026** — The Moran, Houston TX — MakeReady onsite training
 - **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
+- **Aug 31, 2026 (week of)** — The Moran, Houston TX — MakeReady onsite training — ✅ CONFIRMED (rescheduled 7/14/26 from original Aug 10–14 date)
 - **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — ⚠️ NEW from 6/24 resource calendar; confirm with Ralph Varble
+- **Oct 12–15, 2026** — Heathman, Portland OR — MakeReady onsite training — tentative
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
 - **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
 
@@ -425,10 +428,10 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] Pay Tom for early months of storage (Pensacola property)
 - [x] Craig Taylor — added to Outlook contacts
 - [ ] Father's taxes — October deadline; construction/maintenance files found at property (confirms cost basis < county assessed value); PenAir details still needed
-- [ ] **Call Ralph Varble** — confirm: (1) Heathman Portland dates? (2) Aug 10–14 Moran Houston + Aug 17–21 Indianapolis confirmed?
+- [x] **Call Ralph Varble** — Heathman/Moran dates answered via email 7/14/26 (not a call): both postponed, see MakeReady section above. Aug 17–21 Indianapolis was already swapped for Westin La Paloma Tucson per the Upcoming Travel list — still separately unconfirmed.
 - [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Heathman (Portland), Moran (Houston). *(The Joseph Nashville is Highgate/Steve Carrell — not Pete's engagement.)*
 - [x] **Mohonk flights** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
-- [ ] **Calendar coordination** — Full consulting schedule: Jun 22–26 (New Orleans, TBC), Aug 2–7 (Mohonk), Aug 10–14 (Moran Houston), Aug 17–21 (Westin La Paloma Tucson), Sep 7 (Marriott Del Mar — confirm). Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Calendar coordination** — Full consulting schedule: Aug 2–7 (Mohonk), Aug 17–21 (Westin La Paloma Tucson), Aug 31 week (Moran Houston — confirmed), Sep 7 (Marriott Del Mar — confirm), Oct 12–15 (Heathman Portland — tentative), Greenleigh still needs approximate Q4 dates. Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
 - [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
 - [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
 - [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path
