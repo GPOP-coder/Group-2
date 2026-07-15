@@ -23,9 +23,9 @@ David is currently COO and President of Operations and Government Affairs at Lif
 
 David brings exactly the combination of operational discipline, civic leadership, and executive experience we need in a Treasurer — someone who understands how organizations are built and run, and who is deeply rooted in this community.
 
-The Executive Committee had a chance to meet David on July 10. I think it's fair to say the reaction was less "we need to think about this" and more "what took us so long." I'm confident the full board will feel the same.
+Thursday will be your opportunity to meet David. I'd encourage you to arrive a few minutes early if you can — I think you'll come away feeling the same way I do about this candidacy.
 
-If you have any questions before Thursday, please don't hesitate to reach out to me directly.
+If you have any questions before the meeting, please don't hesitate to reach out to me directly.
 
 Looking forward to seeing everyone at the meeting.
 
