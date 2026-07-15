@@ -45,6 +45,8 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 
 **Descriptions:** Use Clockify entry descriptions as the default; edit each period as needed. Description in Clockify does not need to match the invoice.
 
+**Location column (confirmed 2026-07-15):** City/state of the client property (or Unifocus HQ, Irving TX, for internal work) — NOT a project name or shortened label. E.g., Baha Mar → Nassau, Bahamas; HM Alpha Nashville properties → Nashville, TN; HM Alpha NOLA/Intercontinental → New Orleans, LA; Mohonk → New Paltz, NY; Unifocus-internal → Irving, TX.
+
 **Zero-hour lines:** Per Shilpa (June 2026 onward) — only include projects with actual billable hours.
 
 **Rates:** See `pws/billing/rate-table.md` — the authoritative source. Use `/invoice [period]` skill to calculate from Clockify PDF.
@@ -64,6 +66,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 |---|---|---|---|
 | UF20260514PAC | May 1–14, 2026 | $1,928.50 | Sent to Ralph; CC Shilpa |
 | UF20260629PAC | June 15–29, 2026 | $4,269.50 | To Shilpa; CC peter.a + heartprincess71 |
+| UF20260714PAC | June 30–July 14, 2026 | $4,396.50 | Sent 2026-07-15 to Shilpa; CC peter.a + heartprincess71 |
 
 ### May 1–14, 2026 Detail
 | Qty | Type | Description | Client | Total |

@@ -35,6 +35,7 @@ Individual rows may override the logic. The table is the truth.
 | HM Alpha Nashville Autograph Union Station Remote | $500 | Yes | |
 | HM Alpha NOLA Intercontinental Onsite | $600 | Yes | Pending Clockify project split |
 | HM Alpha NOLA Intercontinental Remote | $500 | Yes | Pending Clockify project split |
+| HM Alpha Corporate Onsite | $600 | Yes | Added 2026-07-15, confirmed by Pete |
 | HM Alpha Corporate Remote | $500 | Yes | |
 | UF Internal Remote Billable | $500 | Yes | |
 | Jumeirah International LLC | $500 | Yes | |
