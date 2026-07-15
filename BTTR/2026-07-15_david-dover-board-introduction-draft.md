@@ -4,6 +4,7 @@
 
 **From:** Pete Castellano, BTTR President  
 **To:** BTTR Board of Directors  
+**Cc:** David Dover (dover.david@gmail.com)  
 **Subject:** Introducing David Dover — Treasurer Candidate (Vote July 17)  
 **Date:** July 15, 2026  
 **Status:** DRAFT — review before sending
@@ -22,7 +23,7 @@ David is currently COO and President of Operations and Government Affairs at Lif
 
 David brings exactly the combination of operational discipline, civic leadership, and executive experience we need in a Treasurer — someone who understands how organizations are built and run, and who is deeply rooted in this community.
 
-The Executive Committee had a chance to meet David on July 10, and the reception was strong. I'm confident you'll feel the same.
+The Executive Committee had a chance to meet David on July 10. I think it's fair to say the reaction was less "we need to think about this" and more "what took us so long." I'm confident the full board will feel the same.
 
 If you have any questions before Thursday, please don't hesitate to reach out to me directly.
 
@@ -34,8 +35,8 @@ President, Back to the River, Inc.
 
 ---
 
-*Notes for Pete before sending:*
-- *Confirm vote is still on the July 17 agenda*
-- *Confirm exec committee meeting July 10 went well — any reservations to address?*
-- *Add any personal notes from your June 4 or July 10 meetings that might warm the intro further*
-- *Consider whether to cc David on this email or send separately*
+## Pre-Send Checklist
+
+- [ ] **Forward to David:** Mark Brohman's board agenda and most recent meeting minutes (before or with this email, so David arrives Thursday prepared)
+- [ ] Confirm vote is still on the July 17 agenda
+- [ ] Send email and cc dover.david@gmail.com
