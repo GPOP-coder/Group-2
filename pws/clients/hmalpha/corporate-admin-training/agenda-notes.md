@@ -108,6 +108,124 @@
 
 ---
 
+## DAY 2 — Wednesday, 7/15/26 (in progress)
+
+## DAY 2 SESSION NOTES (Session 1, live from transcript — 7/15)
+
+**Property used for hands-on walkthrough:** JW Marriott Houston (Rooms division) — chosen live/unrehearsed by Pete as a "standard" mid-complexity property.
+
+### Labor Standards — Foundational Concepts
+- **Settings cascade down the hierarchy:** division settings copy to every department under it; department settings copy to every job under it. Set the boilerplate once at the top (division) — minimum 4-hour / maximum 8-hour shift, KBI-related flag — and only exceptions need managing from there down.
+- **Every labor standard must be KBI-related** — it needs a volume driver, even if the range is just "1 to infinity." Set this once at the division level so it doesn't have to be re-set at every department/job.
+- **Salary labor standards exist but are deliberately not used** by Pete/HMAlpha — the alternative model is just "multiples of 40" (or whatever the property's FTE is), with no true actual-hours tracking behind it. Raised and set aside; not in use here.
+- **Shift length is the real bucket size**, independent of what "maximum shift" is set to elsewhere — build a 10-hour shift but cap the job's max at 8, and the system forces it down to 8, producing confusing conflicts. Always watch how a shift actually behaves after creating it; don't assume the min/max settings alone control it.
+
+### Shift Naming Convention (reinforced)
+- Format: **[Shift Name] [Start]-[End, 4-digit military time] (worked hours in parentheses)** — e.g., a shift running 5:30–12:00 gets a "(6.5)" suffix.
+- Purpose: once you're down in the Labor Standards grid, the shift's actual start/end time is no longer visible — the parenthetical is the only way to know how many hours are being distributed into that bucket without flipping back and forth.
+- **Follow this every time** — it prevents exactly the error found live in this session (JW Houston Club Lounge, below).
+
+### Work Rules Must Be Understood Before Building Shifts
+- Work Rules (specifically the scheduled-lunch rule) directly change the effective shift length — e.g., an 8-hour shift + a 30-minute unpaid lunch produces an 8.5-hour **schedule**, even though the labor **standard**/shift is still 8 hours. Get this backwards and shift-length math breaks.
+- **Critical distinction: "at X hours" vs. "over X hours."** A property was found configured with a break trigger at exactly 5 hours instead of "over 5 hours" — meaning a 5-hour shift with *no* break required entering the minimum as 5.01 hours, not 5. Easy to get backwards, with real consequences for whether a shift includes a break.
+- **State law is the floor, not the answer** — work rules vary by state (Nashville/Tennessee required real legal research with Taylor before Union Station's rules were finalized), and a property's own policy can be stricter than the state minimum. Confirm both before configuring; "no state requirement" doesn't mean "no rule needed" — HMAlpha as a company may still want a default break policy regardless of a given state's floor.
+- **Name the work rule to describe what it does** (e.g., "30-minute unpaid break after 8 hours") in the rule's own title — the system doesn't surface this clearly elsewhere, and a vague label makes it very hard to audit later.
+- Work rules can attach to either the **job** or the **person**; a "priority" setting resolves conflicts between the two, but this almost never matters on a cleanly configured property.
+
+### Shift vs. Schedule vs. Standard — Core Vocabulary
+- **Shift** = the defined worked-hours window (the bucket itself — start time, end time, fixed size).
+- **Schedule** = a shift once a person is actually attached to it (this is what triggers work-rule application — e.g., the lunch rule only fires once a schedule exists).
+- **Standard** = the KBI-driven (or fixed) formula that decides how many hours of a given shift type get created for a given day.
+
+### The "Pitcher and Glasses" Model — How Standards Fill Shifts
+- Think of total standard hours for a day as a **pitcher of water**, and each defined shift length as a **glass of fixed size**. The system fills one glass completely before starting the next — it does **not** spread hours evenly across all available shift slots.
+- If the underlying shift buckets are inconsistent (e.g., mixing 6-hour and 6.5-hour definitions under one shift record), the pour lands in an unintended combination — see the JW Houston Club Lounge case below.
+- **Rounding threshold:** defaults to 20% of the job's minimum shift length (typically 4 hours, so roughly 0.8 hours of "leftover" is needed) before the system creates one more shift rather than stopping. Configurable per job. Matters most for productivity/volume-driven standards, where hours accumulate in small increments (minutes per room, per cover, etc.) rather than big block numbers.
+
+### Real Example — JW Houston Club Lounge Breakfast Attendant (found broken live)
+- Original config: one shift record named for a 5:30–12:00 (6.5-hour) bucket, but with 12 hours entered as the weekday standard. Because the shift was defined as a single 6.5-hour bucket, the system poured 12 hours into it as **one 6.5-hour shift + one 5.5-hour shift** — not the two 6.5-hour shifts (13 hours) implied by the naming.
+- **Root cause:** the original builder likely intended two different shift times (two people starting at 5:30, one at 6:00 — three ~6-hour shifts, 18–19.5 hours total) but built it as a single shift record with inconsistent underlying start times across days, which doesn't surface unless the shift is opened and checked.
+- **Fix applied live:** split into two clean shift records — 5:30–12:00 (6.5 hrs, all days) and 6:00–12:00 (6 hrs, all days) — then set standard hours explicitly per shift: weekdays 13 hrs into the 5:30 shift (two 6.5s) + 6 hrs into the 6:00 shift; weekends 0 into the 5:30 shift + 18 hrs into the 6:00 shift (three 6-hr shifts).
+- **Lesson for HMAlpha:** consultant style varies (Pete builds one flexible shift record and manages variation in the standards grid — faster; Steve builds a separate shift line per distinct bucket size — slower, easier to read at a glance). Both work, but **the underlying shift record must always match what its own name/parenthetical claims**, or this exact silent error creeps in. Expect both styles across the HMAlpha portfolio; that's inconsistency, not a bug.
+- **Standard changes don't retroactively fix anything** — editing a labor standard does nothing to already-generated projected hours/schedules. The system regenerates standard hours automatically 4x/day (looking back ~3 weeks); a manual "Regenerate Projected Hours" can test changes immediately but risks clearing the existing schedule for that job, so use cautiously.
+
+### Fixed vs. KBI-Driven Standards
+- The Club Lounge Breakfast/Evening Attendant standards above are **fixed** (no KBI driver) — flat staffing regardless of business volume, because HMAlpha doesn't currently have a reliable KBI (e.g., club lounge covers/attendance) to drive them.
+- **Opportunity flagged, not yet built:** if club lounge attendance/covers can be forecasted and actualized reliably over time, this standard could convert from fixed to KBI-driven.
+- **Gap found, needs property follow-up:** the Club Lounge Evening Attendant standard only produces a shift Sunday–Thursday — nothing Friday/Saturday. Unclear whether intentional (e.g., a different job code covers weekends) or an oversight. **Action item: Nicole to screenshot and ask the property** whether this is deliberate — non-urgent.
+
+### Demonstrated (Not Implemented) — Front Desk/Bellman Conditional "Mid" Shift
+- Baseline: Front Desk/Bellman runs two fixed 8-hour shifts every day (AM/PM), no KBI driver — someone is scheduled regardless of volume.
+- Pete built a **live, for-learning-purposes-only** third "mid" shift (10:00 AM–6:00 PM, 8-hour bucket) to demonstrate a KBI-driven standard layered on top of a fixed baseline:
+  - **Non-flow beginning**, driven by Hotel Departures, threshold 200, value 4 hours — fills the *first* 4 hours of the bucket if departures exceed 200.
+  - **Non-flow ending**, driven by Hotel Arrivals, threshold 200, value 4 hours — fills the *last* 4 hours of the bucket if arrivals exceed 200.
+  - If **both** conditions hit, the two 4-hour fills combine into a single 8-hour shift (with a lunch break, since it crosses the 8-hour threshold). If only **one** hits, it's a 4-hour shift with no break. If neither hits, no shift is created.
+- **Business case for building thresholds even above current volume:** there's no downside to configuring a standard at a threshold the property isn't hitting yet (Pete's example: setting it at 1,000 rooms for an 800-room hotel) — it costs nothing, and gives the GM a documented, defensible trigger ("if you cross this line, you get another person") instead of an ad hoc argument. Directly answers a recurring GM objection pattern ("I don't have another person to put on") — the point isn't to force staffing, it's to have the threshold ready.
+- This was **not saved/implemented** — for-learning-purposes only, reverted after the walkthrough.
+
+### Standards Work "Forwards and Backwards"
+- **Forward:** the standard generates projected hours and shifts for planning purposes.
+- **Backward:** after the fact, actual-vs-standard comparison is how you validate whether ad hoc manager decisions (e.g., adding an extra 4-hour shift during a surprise high-arrival day) should be formalized into the standard, rather than staying a one-off manual override. Pete's framing: if a manager keeps adding the same kind of exception, "that should be your plan" — build it into the standard.
+- *(Transcript quality degrades in the closing minutes — this actual-vs-standard reconciliation thread was still in progress when the transcript cuts off. Revisit if a Session 2 recording/continuation becomes available.)*
+
+**Transcription note:** This session's raw transcript was auto-generated and materially garbled, especially near the end (Front Desk/Bellman standard-reconciliation discussion). The summary above reflects Pete's best-confidence read of the technical content; treat anything not captured here as unconfirmed.
+
+---
+
+## DAY 2 SESSION NOTES (Session 2, live from transcript — 7/15)
+
+**Property:** Continuing on JW Marriott Houston, moving faster and skipping around rather than walking every job line-by-line — explicitly framed by Pete as a pace Devon/Nicole should adopt themselves going forward rather than reviewing every job in depth.
+
+**UI tip (new):** The small box above the "Audit" label toggles a zoomed/collapsed view that trims unnecessary screen real estate on the standards screen; the caret next to "Planner Settings and Shifts" collapses that section too — use both together to get more usable screen space when auditing a standard.
+
+### Housekeeping — House Person, Supervisor/Inspector
+- House Person: AM shift + a fixed 2:30 PM shift every day regardless of volume, plus a late/closer PM shift — all built as full 8-hour shifts with different start times by day of week (this is fine; a shift can vary its start time by day and still be a clean single shift record, unlike the JW Club Lounge problem from Session 1). Variable portion scales off **departures**: a floor of 2 people at low volume, +1 additional shift roughly every 70 departures.
+- **Multiple equally valid ways to build the same math:** you can either (a) write incrementing capped lines (1–70 → 2, 71–140 → 3, etc., where each line individually shuts off once volume exceeds its own range), or (b) write a fixed floor line (1→infinity, 8 hrs) plus a separate "units per shift" line (1→infinity, 70 units/shift) that adds capacity continuously. Different math, same result — **each line on a standard is its own independent decision**, and (critically) **shifts don't know about each other** — the AM shift and the 2:30 shift have zero awareness of one another; they're fully independent buckets.
+- Housekeeping Supervisor/Inspector: similar ratio logic to House Person (~1 per 70), reviewing/checking the people who clean rather than cleaning directly.
+
+### Public Area Attendant — Fixed, With a Flagged Origin Story
+- Currently a fully fixed standard (no KBI driver) — Pete's assessment: acceptable as-is for now, though there's a plausible future case for adding variability tied to total events (e.g., an AM/PM event-driven line, similar to how a big breakfast event could justify extra coverage) — not built, just a noted possibility.
+- **Origin story surfaced live:** this particular configuration traces back to a rushed BLSPD (budget/standards alignment) call where a consultant added an extra shift mainly to consume budgeted hours that would otherwise go unused for the week — not derived from a clean volume driver. Pete's framing: this is a normal, acceptable outcome of fast initial configuration, not a defect — the more mature approach (once mature) is to convert that kind of "we just needed to use the hours" shift into something volume-based, triggered often enough (e.g., ~50% of the time) to defensibly justify the extra labor, using **percentile analysis of historical KBI data** ("statify their data" — e.g., "this covers threshold is hit 85% of the time") rather than guessing.
+- **Bigger strategic point Pete made here:** with a 15-property portfolio, exhaustive per-property tuning at initial config isn't realistic — the more important deliverable is establishing **an ongoing rhythm for evaluating/refining standards throughout the year**, not achieving perfection at kickoff. Devon pushed back a bit on the pace/depth tradeoff (paying for consulting time but getting a fast pass); Pete's response: fast configuration gets people using the system sooner, and the standard "won't lead you way astray" even if imperfect — refinement is a deliberate later phase, not a missed step.
+
+### Room Attendant — Departures/Stayovers, with a DND-Adjusted KBI
+- Confirmed consistent setup pattern across properties: 8-hour shift bucket, varying start times by day, but always calculated as if cleaning all rooms within one shift (even if the property actually splits labor across two time blocks) — you back hours out and relocate them elsewhere rather than trying to model the split directly in this standard.
+- **Room Attendants clean departures and stayovers — never all occupied rooms.** Cleaning time differs meaningfully by type (departure clean takes longer than a stayover touch-up).
+- **D&D (Do Not Disturb) adjustment:** the KBI backs out roughly 15% of stayovers to account for rooms that go Do Not Disturb and don't get serviced — a property-trackable metric worth continuing to monitor (their actual D&D rate as a % of stayovers, not of total occupied rooms).
+- Uses a **minutes-per-unit** (staff minutes) standard — e.g., 20 minutes per room — rather than a flat headcount-per-volume-range standard.
+
+### ⚠️ Important Mechanic — How "Staff Minutes" / Minutes-Per-Unit Standards Actually Distribute Hours
+This came up as a dedicated deep-dive because it explains behavior Nicole and Devon will see in real reports and could otherwise mistake for a bug:
+- A minutes-per-unit standard calculates total minutes needed in **one pass** (e.g., 10 people's worth of departures/stayovers × 20 min = 200 minutes), then pours that total into shift-length "cups" (per the shift's min/max settings) **in a second, separate pass**.
+- **It does NOT recombine a leftover partial shift back into the pool before continuing** — there's reportedly a long-standing, never-implemented product request for this behavior. Instead, the system counts how many "cups" (shifts) it created — including any partial/short one — and then, separately, adds a fixed number of minutes **per cup/person** for things like a pre-shift stand-up meeting (Pete's example: 20 minutes × however many people/shifts resulted from the first pass).
+- **Practical consequence: expect at least one short shift out of the box on any minutes-per-unit standard**, and by default the system hands out short shifts *first* (they tend to sit at the top of the generated shift list, especially under the default top-to-bottom fill sort). This is expected behavior, not a misconfiguration — **the first troubleshooting step on any productivity-based standard is to look for the short shifts and evaluate whether to expand them**, not assume something's broken.
+- **The shift length itself is part of the standard's math here** — change the shift's min/max hours and you change how many "cups" get created and therefore how the same total minutes get redistributed (Pete's example: an 8-hour cup made 10 shifts off 200 minutes/room; a hypothetical 6-hour cup would have made more, smaller shifts off the same total).
+- The 20% rounding threshold (from Session 1) applies here too, and interacts with this same first-pass/second-pass mechanic.
+
+### The Negative-Hours Trick
+- You can enter a **negative number** directly into a standard line to net out labor that's already accounted for elsewhere — Pete's example: turndown attendants who spend part of their shift doing room-cleaning work already counted under the Room Attendant standard. Enter e.g. "-8" in the relevant standard line to prevent double-counting; this adjustment is not visibly expressed anywhere else in the system — it's a pure internal netting mechanism.
+- **Alternative approach:** have the employee clock in under the correct secondary job code for that portion of work instead of adjusting the standard with negative hours. Both approaches are valid and used across HMAlpha's properties (roughly half do one, half the other, per Pete's experience) — **the important thing is picking one method per property and being consistent**, not mixing both for the same labor.
+
+### Laundry Attendant
+- Mostly fixed, driven off hotel rooms with a modest additional variable tier off departures. Not measuring actual laundry weight/pounds — Pete's assessment: acceptable at this level of precision; a pounds-based KBI would be a "nice to have," not a gap worth fixing now.
+
+### Food & Beverage — Servers (Outlet, Non-Banquet)
+- Simple breakpoint-style variability: AM shifts driven by AM total coverage (breakfast + lunch), PM shifts driven by dinner covers. Not a finely graduated curve — just a handful of volume breakpoints producing roughly 4–6 total shifts depending on the day.
+- Culinary, by contrast, is largely **fixed** with only minor variability — driven more by kitchen physical layout/station design than by covers volume, even under a well-refined standard.
+
+### Banquets — A Fundamentally Different, Guess-Based Category
+Pete was explicit and repeated this framing multiple times: **banquet standards are inherently an estimate, not a precise calculation**, because the system isn't reading BEOs (Banquet Event Orders) — it only has broad daily totals (e.g., total dinner covers), not event-type detail (plated vs. buffet vs. reception vs. box dinner) or event count.
+
+- **Banquet Bartender — a live-found likely misconfiguration (unconfirmed, session was cut short — see note below):** the standard appeared to trigger a minimum of ~10 hours of bartender labor (a short ~4-hour setup/bar-run shift plus a separate 6-hour shift, at a ratio of roughly 2 bartenders per 75 dinner covers) off **total dinners alone** — meaning a stand-alone reception (with a bar but no dinner) would get **zero** bartender coverage under this standard, while every dinner automatically gets a bartender whether or not that specific event actually has a bar. Pete's read: this looks like the KBI is mapped to Dinner when it should likely be mapped to (or also include) Reception — but this needs to be verified against the property's actual banquet KBI/CI file setup before treating it as confirmed broken, not assumed from the standard screen alone. **Action item: Nicole to follow up either directly with the property, or with Elliott Welburn (the implementing consultant on this property, now a Unifocus Client Success Manager) to confirm whether receptions are mapped as their own KBI or folded into dinner.**
+- **System outage interrupted verification:** shortly after finding this, both Pete and Nicole hit a platform error ("Watson" — internal nickname for a system component — appears to have broken; described as losing Labor Structure access, being logged out/reset) and had to stop mid-investigation. The Banquet Bartender finding above should be treated as a flagged lead, not a confirmed conclusion, until re-checked.
+- **Banquet Captain — explicitly described by Pete as one of the hardest categories to standardize well:** driven simply by whether AM covers (breakfast+lunch) or PM covers (dinner) exist at all that day (a >0 threshold), not by number of banquets or banquet size, because the system has no reliable count of how many separate banquet events are happening. Consequence: a day with one small 10-cover breakfast and a day with a 1,000-cover plated dinner both trigger "a captain," even though real staffing need would differ hugely — and there will be days the standard clearly over- or under-shoots reality. Pete's guidance: **this is acceptable** — the goal isn't day-level precision, it's landing on budget over time and being able to **explain variance** at the weekly labor meeting using knowledge of how the standard was built, not achieving a perfect daily match.
+- **Consulting-depth tangent (context, not a decision):** Pete contrasted this fast/guess-based approach with an earlier, much slower engagement (JW Marriott Indianapolis — a brand-new-to-Unifocus client, 3–4 consultants on-site for 5–6 weeks doing direct time-and-motion observation) to explain why HMAlpha's faster 15-property rollout necessarily trades some initial precision for speed to go-live. Pete's philosophy on where real productivity gains come from: **workflow/process observation matters far more than granular stopwatch math** — examples given: a stewarding "rack-scrape-stack" dish-flow discipline matters more than measuring exact dishwasher throughput, and a housekeeping engagement where the real time loss was staff making multiple trips per room (not carrying a full cleaning tote in at once) and not isolating stained linens before laundry, not raw cleaning speed itself.
+- **Banquet Server:** shift length itself is the more useful lever to adjust here, since actual event call times vary by event type (Pete's example: a "call 2 hours before, 30 min cleanup after" event really wants a 3.5-hour shift, but the standard uses a generic AM/lunch/PM/break shift shape since exact BEO timing isn't known). Break coverage (AM break + PM break) is deliberately consolidated into one generic break shift/KBI rather than split into two, to keep the standard simple. *(Transcript cuts off here — the rest of the Banquet Server discussion was not captured.)*
+
+**Transcription note:** This session's raw transcript was both auto-generated (garbled throughout, worse than Session 1) **and cut off mid-session** by the source recording/transcript length limit, ending abruptly during the Banquet Server discussion. Treat the Banquet Bartender finding above as an open lead requiring verification with the property or Elliott Welburn, not a confirmed issue, and expect there is unrecovered content after this point — ask if a continuation (Session 2 continued, or a Session 3) exists before assuming Day 2 training is fully documented.
+
+---
+
 ## PETE'S OVERALL TRAINING FRAMEWORK (noted 7/13, in progress)
 
 This is Pete's own organizing structure for WFM admin training — distinct from the handbook's raw TOC order. **Not final** — Pete will add to it as he sees how all the training items fit, or if it needs more pieces.
@@ -149,6 +267,9 @@ This framework is the eventual home for the raw TOC distribution below — once 
 - [x] Identify which handbook section/module covers Interface Level Mapping — **resolved:** it's not a handbook section at all, it's source-system integration mapping (Paychex, etc.) — tracked in `interface-mapping-tracker.md`
 - [ ] Decide whether Labor Budgeting is in scope — flag to Devon/Nicole, don't assume
 - [ ] Decide how deep to go on Security Primer (multi-property permissions) vs. property-level User Administration
+- [ ] **Nicole to follow up with JW Marriott Houston:** is the Club Lounge Evening Attendant standard intentionally absent Friday/Saturday, or is that a gap? (raised Day 2, Session 1)
+- [ ] **Nicole to follow up with the property or Elliott Welburn (implementing consultant on this property, now Unifocus Client Success Manager):** is JW Marriott Houston's Banquet Bartender standard correctly mapped to Dinner only, or should Reception be its own driving KBI? Session 2 finding, unverified — investigation was cut short by a system outage before confirming against the property's actual banquet KBI/CI file. (raised Day 2, Session 2)
+- [ ] **Confirm whether a Day 2 Session 3 / continuation transcript exists** — Session 2's transcript both degraded and cut off mid-discussion (Banquet Server topic unfinished); if there's more recording, it needs processing too.
 
 ### Logistics
 - [x] Sessions: Tue 7/14, Wed 7/15, Thu 7/16 — planned as three 4-hour sessions, 9:00 AM–1:00 PM each day. **Actual (Day 1, 7/14):** ran as two ~2-hour sessions rather than one continuous 4-hour block — confirm if Day 2/3 follow the same split-session pattern.
@@ -175,7 +296,8 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 | — | *Weekly Timeline* | Day 2 | 🟡 Partial — property guide covered finalize timeline, task ownership, Labor/Scheduler screen; confirm Devon/Nicole have this down, or give it dedicated time here | ⬜ Not yet started |
 | — | *Task Scheduler (incl. Automatic Messaging)* | Day 2 | 🟡 Partial — sub-topic of Weekly Timeline in property guide; confirm whether that treatment was sufficient or corporate needs deeper pass. Automatic Messaging (message triggered when an automated task runs) taught here, not as its own topic | ⬜ Not yet started |
 | 8 | Revenue Center Forecasts | Day 2 | 🟡 Partial — rev center forecast generation covered under Planning Menu; this section's depth (legend, planning period/rev center selectors, editing forecasting) is new | ⬜ Not yet started |
-| 9 | Work Rules | Day 2 | ❌ Not covered — no mention in property guide at all | 🟡 **Partially done** — touched on Day 1 as a status/open-item discussion (need HMAlpha's default lunch/break policy), not a full Day 2 session yet |
+| 9 | Work Rules | Day 2 | ❌ Not covered — no mention in property guide at all | ✅ **Substantially done** (Day 2, Session 1) — scheduled-lunch rule mechanics, "at X hours" vs. "over X hours" threshold trap, state-floor-vs-property-policy distinction, and naming convention for rule titles all covered live on JW Houston |
+| — | *Labor Standards* | Day 2 | 🟡 Partial — property guide's "Labor Standards" listed only as "build + audit labor standards," no depth | ✅ **Substantially done, biggest focus of the session** (Day 2, Session 1) — KBI-driven requirement, shift/schedule/standard vocabulary, shift naming convention, the "pitcher and glasses" fill model, 20% rounding threshold, fixed vs. KBI-driven standards, and a live example of finding/fixing a broken standard on JW Houston Club Lounge. Not previously tracked as its own row in this table — added here since it turned out to be foundational, not a sub-topic of Work Rules or Labor Structure |
 | 10 | Employee Maintenance | Day 2 | 🟡 Partial — property guide covered reconcile employee errors, add contract labor, bulk mobile invitations; full record creation across General/Status/Jobs/Scheduling/Schedule Groups/Assignments/Work Rules tabs is new | ⬜ Not yet started |
 | 11 | Employee Requests | Day 2 | ✅ Covered — property guide's "Employee Request" (create/approve time off) matches directly; quick check only | 🟡 **Partially done** — open question raised on Day 1 (should some requests bypass Paychex?) but explicitly not resolved |
 | 12 | Schedules | Day 2 | 🟡 Partial — schedule generation/management covered under Planning Menu/Weekly Timeline; detailed shift editing, copying, swapping, printing is new | 🟡 **Partially done** — the go-live/cutover decision and publish workflow were covered in depth on Day 1; hands-on shift editing/copying/swapping mechanics not yet done |
