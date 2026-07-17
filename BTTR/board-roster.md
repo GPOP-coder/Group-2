@@ -53,8 +53,11 @@
 | Assignment | Guest | Voting | Affiliation | Phone | Email |
 |---|---|---|---|---|---|
 | N/A | Bob Holmstedt | Non-voting | Bob Kerrey's representative | — | see Bob Kerrey entry above |
-| N/A | Mark Weekley | Non-voting | National Park Service | 402-661-1806 | — |
+| N/A | Neal Bedlan | Non-voting | Superintendent, Lewis and Clark National Historic Trail, National Park Service | 402-661-1806 | neal_bedlan@nps.gov |
+| N/A | Kevin McCarthy | Non-voting | Visual Information Specialist, Lewis and Clark National Historic Trail, National Park Service | 402-661-1824 | kevin_mccarthy@nps.gov |
 | Douglas County Alternate | Kent Holm | Non-voting | Douglas County Environmental Services, Director | — | — |
+
+*(Mark Weekley, formerly listed here as National Park Service, retired — succeeded by Neal Bedlan as Superintendent. Confirmed by Pete 2026-07-17.)*
 
 ---
 

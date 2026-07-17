@@ -27,6 +27,7 @@ Last updated: 2026-07-06
 | Peter Fankhauser | Amplify Arts | peter@amplifyarts.org |
 | Amy Cherko | Amplify Arts — Public Art lead (new) | amy@amplifyarts.org |
 | Kevin P. McCarthy | NPS — Visual Information Specialist, Lewis and Clark National Historic Trail | kevin_mccarthy@nps.gov \| 402-661-1824 \| 601 Riverfront Drive, Omaha NE 68102 |
+| Neal Bedlan | NPS — Superintendent, Lewis and Clark National Historic Trail | neal_bedlan@nps.gov \| 402-661-1806 |
 | M. Patrice Slaven (Pat) | Steering Committee | mpslaven035@gmail.com |
 | Keith Bystrom | Steering Committee | knbystrom68@gmail.com |
 | Jim Becic | Stakeholder | jbecic@cox.net |
