@@ -24,6 +24,7 @@ $knownRows = @(
     @("7/13/2026", 888.41, 1.00, "PERSONAL", "SW round-trip OMA-BNA (BEU2FS): outbound OMA-DEN-BNA (WN2060/WN570); return BNA-STL-OMA 7/16 (WN770/WN4912) - RR Visa -2674", "Air Fare", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  21.59, 1.00, "PERSONAL", "445 Bar 14, Omaha Airport (OMA) - sausage/egg/cheese sandwich, Coke Zero, tip; Visa -7552", "Bkfst", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  38.38, 1.00, "PERSONAL", "HMSHost Great Divide C, Denver Airport (DEN) - bison burger, medium fries, soda, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/13/2026",  32.58, 1.00, "PERSONAL", "Uber, BNA Airport -> The Nashville Reserve (301 Rosa L Parks Ave) - UberX, 9.32 mi/19 min, driver Yoseph; Visa -0733 (FNBO Evergreen)", "Taxi/Train/Bus", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026",  83.64, 1.00, "PERSONAL", "Earls Nashville Yards, 26 Platform Way South, Nashville TN - crispy tuna, little gem caesar, iced tea, toffee cake, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/13/2026", 694.05, 1.00, "PERSONAL", "The Nashville Reserve, 301 Rosa L Parks Ave Nashville TN - 3 nights (7/13-7/16), Studio Suite; Hotels.com itinerary 73493828457425; Visa -2785", "Hotel", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/14/2026",  20.63, 1.00, "PERSONAL", "Nick The Greek, 943 Church St, Nashville TN - beef/lamb gyro bowl, pita & drink, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
@@ -154,8 +155,8 @@ $notes = @(
     "",
     "OPEN ITEMS — add as receipts come in:",
     "- Hotel (3 nights, 7/13-7/16) — The Nashville Reserve, $694.05 total (Visa -2785) ADDED",
-    "- Ground transport BNA airport → hotel (7/13)",
-    "- Ground transport hotel → BNA airport (7/16)",
+    "- Ground transport BNA airport → hotel (7/13) — Uber, $32.58 (Visa -0733 FNBO Evergreen) ADDED",
+    "- Ground transport hotel → BNA airport (7/16) still open",
     "- Lunch 7/13 — HMSHost Great Divide C, Denver Airport (DEN), $38.38 (Chase VISA -2674) ADDED",
     "- Dinner 7/13 — Earls Nashville Yards, $83.64 (Chase VISA -2674) ADDED",
     "- Lunch 7/14 — Nick The Greek, Nashville, $20.63 (Chase VISA -2674) ADDED",
@@ -163,8 +164,7 @@ $notes = @(
     "- Dinner 7/15 — Sixty Vines, Nashville, $60.52 (Chase VISA -2674) ADDED; no breakfast or lunch 7/15",
     "- Lunch 7/16 — HMSHost Yazoo Beer Cart C, Nashville Airport (BNA), $26.86 (Chase VISA -2674) ADDED",
     "- Shipley Do-Nuts, 7/16, $4.37 cash — EXCLUDED (cash snack, Pete flagged)",
-    "- Dinner 7/16 — Three Kings (HMSHost), STL Airport layover, $30.48 (Chase VISA -2674) ADDED",
-    "- Ground transport hotel -> BNA airport (7/16) still open"
+    "- Dinner 7/16 — Three Kings (HMSHost), STL Airport layover, $30.48 (Chase VISA -2674) ADDED"
 )
 $row = 1
 foreach ($n in $notes) {
