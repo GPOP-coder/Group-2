@@ -108,7 +108,7 @@
 
 ---
 
-## DAY 2 — Wednesday, 7/15/26 (in progress)
+## DAY 2 COMPLETE — Wednesday, 7/15/26
 
 ## DAY 2 SESSION NOTES (Session 1, live from transcript — 7/15)
 
@@ -226,6 +226,158 @@ Pete was explicit and repeated this framing multiple times: **banquet standards 
 
 ---
 
+## DAY 3 COMPLETE — Thursday, 7/16/26
+
+**Session structure:** two sessions again — Session 1 (property-level reporting foundation) then a break, Session 2 (corporate Labor Dashboard, budgeting, automation, admin/naming/KBI mapping review). Nicole drove most of the hands-on navigation both sessions. Kyle Borowiec's corporate user account was created live partway through Session 2.
+
+**Transcription note:** Both sessions are rough, informal, auto-generated transcripts of a live working meeting (heavy cross-talk, personal tangents edited out below except where they mark natural session breaks). Treat plainly-stated technical content as high-confidence; treat anything Pete phrased as "I think"/"I believe" as his own caveated uncertainty, not confirmed fact — flagged explicitly below where it matters (esp. the standard-dollar-rate question).
+
+## DAY 3 SESSION 1 NOTES (live, from transcript — 7/16)
+
+### Master Job / Master Labor Structure — Closing the Loop from Day 1
+- At the property level, each job's **Master Job** field is where a property job connects to a corporate-predefined master job (e.g., Room Attendant, Front Desk Agent). The corporate side of that connection is pre-built centrally — property admins don't create it, they just select it.
+- **Critical gap: the connection is not automatic.** A newly created job does *not* auto-connect to a master job — someone has to set it manually. A missed connection means that job's hours/productivity silently drop out of cross-property comparison reporting.
+- **Deliberate non-use is fine; silent omission is not** — a property may legitimately not use a given master job (Pete's example: not every property needs "Corporate Concierge"), but that has to be a conscious choice, not an accident from a job that was created and never mapped.
+- Corporate master jobs follow the same division/department/job framework as properties, distinguished mainly as **Hourly (H) vs. Salary (S)**; some roles have separate master entries specifically for **Contract labor** — group all local contract job codes for a role into that one master job so no hours "leak out" of the comparison (Pete's example: 10 different room-attendant codes across departments should all map to one master job).
+- **Renaming vs. adding:** renaming an existing master job cascades to every property automatically. Adding a brand-new master job does **not** retroactively populate anywhere. Pete's strong recommendation: use what corporate has already built for now, don't split/rename casually — "the bigger you are, the further down the rabbit hole they went, and then they backed out and started over."
+- Corporate master job/master KBI setup lives at **hamburger → Setup → Corporate** (bottom of the setup list), distinct from property-level Setup → Labor Structure. Only brand-wide users can see it; property admins can create local jobs/KBIs but have no visibility into the corporate rollup.
+
+### Master KBI / Master Forecast Structure — Same Pattern, for Volumes
+- Mirrors Master Job: **Setup → Corporate → Master KBI Code** holds a short, deliberately small list of corporate rollups (Hotel Rooms/Total Occupied Rooms, Total Covers overall, Total Covers by outlet, Spa Treatments, etc.) that every property's local KBIs should map into.
+- **Same governance gap as jobs:** a property can create a new local KBI without linking it to a master code, and has no visibility into whether the corporate rollup is complete.
+- **Real gap identified, unresolved:** neither Pete nor Devon/Nicole could find a **KBI configuration audit report** — something showing every local KBI at a property and what master code (if any) it maps to. Pete recalled something like this may have existed at the property level in the past but couldn't locate it live. **Action item: ask Ralph** whether this report exists; if not, flag as a real gap — urgent given the Indianapolis clone next week and the broader 15-property rollout. Devon does not want to wait for downstream symptoms to discover mapping gaps.
+- **Scope guidance:** don't over-fragment master KBIs (e.g., splitting sports bar from casual dining) until your own chart of accounts forces the issue — these are broad, reusable buckets shared across many larger Unifocus clients and already fit most needs.
+
+## DAY 3 SESSION 1 NOTES, CONTINUED — Property-Level Reports for the Weekly Labor Meeting
+
+Framed explicitly by Pete as "arm them with tools to troubleshoot/pick apart the reports they run for the weekly labor meeting" before bubbling up to corporate reporting in Session 2.
+
+### Weekly Labor Summary — Core Department-Level Meeting Report
+- Always run backward to the **most recently completed full week**.
+- **Read bottom-to-top** — volumes/KBIs at the bottom first, then work up; actual-vs-standard percentage is what matters, projected-vs-schedule is secondary/interesting only.
+- Full detail (25 pages for a mid-size property) is right for a front office manager explaining their own department — **too dense for a DOF**.
+- **Daily/Weekly toggle** turns the same report into an **8-week trend** (same 4 core numbers, rolled to weekly). Good for spotting whether a variance is a one-off or sustained — JW Marriott Houston housekeeping used live as an example of a standard being trusted/followed consistently (single-digit variance for 4 straight weeks).
+- **Auto-scheduling caveat:** a new property with standards generating projected hours but no employee-maintenance restrictions yet will auto-schedule aggressively and look "fully scheduled" — normal during ramp-up, not a sign of anyone doing their job well or poorly. Actual-vs-standard remains the meaningful number.
+
+### Op Codes — Cross-Department/Division Reporting Groups
+- **Op codes exist only at the property level** — no corporate-level equivalent.
+- Purpose: group jobs/departments for reporting when the natural division→department→job hierarchy can't be summed the way the business actually needs (e.g., an exec housekeeper who owns both Housekeeping and Laundry and wants them totaled together).
+- **Weekly Labor Summary is the only report that can select multiple op codes and total them together** — other reports (e.g., Labor Effectiveness) run each op code separately, not combined.
+- **Use cases discussed:** employees who split duties without reliably clocking out between them (laundry + public space); floating servers across outlets/banquets (an existing sample op code for this property groups all servers — individual lines can look wildly off while the combined total is on target). General rule: **if you're manually totaling several reports in Excel to answer a question, that's a sign you need an op code.**
+
+### Labor Effectiveness Report — DOF/Director-Level View
+- Any custom date range, one line per job for the whole property (4–5 pages vs. 25+ for Weekly Labor Summary).
+- **Pete's real-world practice:** distributed property-wide for years with cost/dollar columns stripped out — hours only, not automated (a deliberate exception to "automate everything," see Session 2).
+- **Flex-budget framing for P&L pairing:** revenue up X% doesn't imply labor should be up X% — culinary especially is inflexible, driven by station/menu complexity more than covers volume.
+
+### Salary/Management — What Does and Doesn't Track
+- Salaried staff don't clock in/out, so **no actual hours/costs come in** — but **labor standards still exist and are actively used** for salaried roles (Pete recommends continuing this).
+- This property isolates salaried staff into a **Management division**, consistent with the Day 1 principle that Management gets its own division for visibility/security, not accounting.
+- **Discussed, not resolved — "sharing" a salaried person's hours with an hourly job** (e.g., a Front Desk Manager personally covering 2 overnight shifts/week). Pete described a deprecated "share with" feature that tried to model this — cumbersome, rarely maintained correctly, hopes it's fully retired. **Recommended alternative: just cut those shifts from the schedule** rather than trying to visualize manager coverage in the system. If the manager is later unavailable and the hourly job runs over standard, that variance surfacing is the system working correctly, not a gap. Devon pushed back (wanted "share with"-style visibility for budget-season storytelling) but agreed the standard supports the annual/budget-level plan, not exact day-to-day shift defense.
+
+### Labor Productivity Report — Productivity Goal Tracking
+- **"Show Productivity Goal"** surfaces the job-level Productivity Goal field (from Labor Structure, Day 2) — the only report where it's actually visible/used. Set once as an annual target; don't fuss with monthly changes.
+- **"Required" column — tell non-technical audiences to ignore it.** It's the raw work content of the standard before rounding/minimum-shift adjustments (same mechanic as Day 2's rounding discussion). Differs meaningfully mainly on highly productivity-driven, minutes-per-unit standards (housekeeping, effectively rounding twice).
+- **Live idea, deliberately shelved:** Devon proposed an Actual/Standard/Budget productivity slide for the executive deck (rolled up by division, Required column hidden). Pete liked the direction but cautioned against over-reading short windows — a month or even a quarter being off doesn't invalidate an annual standard, since seasonal factors (length-of-stay swings, etc.) naturally swing productivity. **Decision: hold this back for now** rather than roll out before the underlying data is trusted.
+
+### Employee Schedule Analysis — Drill-Down Troubleshooting Report
+- **Weekly only**, filterable by job/department/**Schedule Group** (not Op Code — a different grouping specific to this report).
+- **Deliberately excludes Work Records/contract-labor employees** — built to answer "how did this job end up with X actual hours vs. Y people scheduled?" for real payroll employees only.
+- Person-by-person: scheduled vs. actual hours, break splits, bolded flags where actual exceeds scheduled.
+- **Live use case:** explained an unexpectedly high actual-hours total for a job by finding an employee who worked it **without being scheduled for it** (floated over from another outlet). Because the report is job-filtered, only hours logged under that job show — the employee's "home" schedule elsewhere is invisible from this view.
+- Secondary idea (self-approval-of-time-punch auditing) raised but set aside — properties aren't consistently doing daily approvals yet, so an audit workflow on top of an incomplete habit is premature sequencing.
+- **Reinforced close of Session 1:** managers should bring Weekly Labor Summary + Weekly Projected Schedule to labor meetings; Labor Effectiveness Report is the DOF/director-level condensed substitute.
+
+### Standing Reminder — Exported Reports Are All Text
+- Every exported report (Excel/CSV) comes through with **every cell as text**, including numeric-looking ones — formulas silently fail unless wrapped in `VALUE()`. Pete flagged this as a chronic gotcha even for himself; treat it as a standing default before any downstream Excel work off an export.
+
+---
+
+## DAY 3 SESSION 2 NOTES (live, from transcript — 7/16)
+
+**Focus:** corporate/above-property Labor Dashboard, budget data-set structure and the banquet-budgeting problem, report automation, user administration, job naming, and KBI mapping review.
+
+### Labor Dashboard (Analytics menu) — The Corporate-Level Reporting Tool
+- Under **Analytics**, not Reports/Reporter — a **separate body of data on a delayed/periodic refresh throughout the day**, not instantaneous like the report engine. "If you change something and it changes in the report but not the dashboard, it's not broken" — just not refreshed yet.
+- **Functionally the same tool properties already use** — corporate users get one extra layer (portfolio → property → division/department/job) plus portfolio-wide views (Property Ranking) a single-property admin doesn't see.
+- **Property Ranking:** select any subset/all properties, pick a corporate KBI/division/department, set a date range — ranks properties by actual-vs-standard variance. Devon confirmed this is close to what HMAlpha's CEO (Tim) already likes seeing — he's specifically drawn to ranking-style views.
+- **⚠️ Unresolved, flagged urgent before showing costs to executives — where do "standard" dollar/cost figures actually come from, and is the rate blended or actual?** Pete's understanding (explicitly caveated, not confirmed): actual dollars come straight from the Paychex/T&A feed per shift; standard dollars use a **blended rate derived from whatever actuals are in view** for that date range, not individual employee rates. Devon pushed on this because the live example showed actual and standard rates diverging materially (union housekeeping: actual $21.55/hr vs. standard $20.86/hr) and neither Pete nor Devon could explain the gap with confidence.
+  - **Devon's position, stated firmly:** unacceptable to show cost figures to HMAlpha's exec team without someone able to explain the methodology — "if we send a report and people ask what it means, we can't say 'figure it out.'" **Action item: raise on today's call**, get routed to whoever owns the interface/calculation logic (likely above Monali's level — she knows what comes in on the interface, not the report engine's internal math).
+  - Pete's fallback in the meantime: keep dashboards focused on hours, not dollars — while acknowledging that once cost columns are visible, people look at them regardless of guidance.
+
+### Vocabulary Reinforced (cross-referenced against Day 2)
+Forecast = volumes only. Projected = hours, standard-driven. Schedule = what was actually built/published. Budget = a wholly separate, manually-loaded data set.
+
+### Budget Data Sets — Confirmed Empty Across the Portfolio
+- Setup path: **hamburger → Setup → Financial → Budget Data Sets.** A data set = volumes + the standard-generated hours run through those volumes, scoped to a **single calendar year** (can't span years).
+- **Financial periods are configured through 2033** — that part's done.
+- **System-defined data sets (Original, End of Year Forecast, Actuals) exist as named placeholders with no data anywhere checked.** One user-defined set ("Standards Test," created by Steve, one property, one year) had real data — everywhere else was empty.
+- **This means "Actual vs. Budget" is currently non-functional across the portfolio** — no budget is loaded anywhere.
+- **Data-sourcing gap, unresolved:** HMAlpha wants Unifocus to supply whatever budget data was originally collected during each property's implementation, rather than re-surveying properties. Pete could not locate what (if anything) was collected — implementation was largely decentralized directly between Unifocus consultants and hotels, before Devon/Nicole/Pete's current corporate engagement existed. **Action item: raise on today's call**, and separately build a standard "budget data request package" so the next property wave gets one clean, corporate-owned ask instead of ad hoc property-by-property requests.
+- **What's actually needed to load a usable budget:** hours per job per month (straightforward) **and** volumes per day (the hard part) — a flat monthly number auto-spreads evenly, a poor fit for anything with real daily variability (housekeeping/occupancy being the clearest case).
+
+### The Banquet Budgeting Problem — Core Mechanical Issue, Worked Through Live
+- **The trap:** every banquet event-type standard (plated/buffet/continental breakfast, etc.) has its own minimum-shift/units-per-shift trigger. Importing one flat monthly banquet total and spreading it evenly would activate **every event type every single day** — massively over-staffing the model, since one cover in any event type is enough to trigger that type's minimum shift.
+- **Walked through live on Banquet Total Breakfast → Banquet Total Breakfast Plated:** on *forecasting*, granular event-type totals are inputs and the parent rollup is calculated from them. On *budgeting*, you still can't just import one flat number — the labor standards attach to the granular KBIs, not the rollup.
+- **Recommended fix — "make it spiky":** manufacture a realistic daily/event-type distribution *outside* Unifocus before importing (e.g., use last year's actual Delphi event-mix ratios to shape how this year's monthly total distributes across days and event types) — rather than a flat spread that produces a field of zeros with no realistic spikes. Same underlying principle as the simpler non-banquet F&B fix (apply the daily occupancy curve to a flat monthly covers budget); banquets just need a second axis (which event type, which day).
+- **Sequencing note:** Pete deliberately hadn't raised this with Devon/Nicole before now — "I would not have this conversation until you can start looking across property stuff and really find the detail." Confirmed doable (other Pete clients have solved it this way) but explicitly **2027 budget-season prep work, not this trip.**
+
+### F&B Day-by-Day Forecasting — Adjacent, Separate Gap
+- HMAlpha runs a company-wide forecast roughly every two weeks with real daily granularity for covers/volumes — but it doesn't currently flow down to property F&B directors or get imported into Unifocus.
+- **Open question, not decided:** whether/how to expose it — Pete's caution is to weigh better information against a possible perverse incentive (a property "gaming" its own forecast). Devon to think through rather than resolve in the moment.
+- **By contrast, rooms revenue forecasting is already done correctly** — HMAlpha imports pickup/drop-off directly from its revenue management tool into ProfitSword, no manual re-entry. Pete explicitly endorsed this as the model to extend elsewhere when feasible.
+
+### Corporate-Level Daily Reporting — Confirmed Gap
+- Devon asked directly whether a corporate-level daily report exists (apparently floated to HMAlpha leadership as an expectation). **Pete confirmed: no corporate-level daily report exists** — only property-level daily reports (e.g., **Daily Operating Report**, Reports & Reporter → filter by tag "Labor Analysis," blending elements of Weekly Labor Summary and Labor Effectiveness, broken out by hour type including training/overtime/contract). Nothing rolls this up above the property.
+- **Unresolved:** whether this was ever actually promised as a deliverable or was an assumption that outran what's built — flagged as a conversation for Tim/Mike (HMAlpha leadership) rather than something to fix today.
+
+### Additional Labor Dashboard Views Toured
+- **At a Glance / Issues & Opportunities:** portfolio version of the property dashboard — configurable variance threshold (5% default), sortable by cost impact or percentage, drills portfolio → property. **Data-quality bug confirmed:** Union Station was grouped under a different region than the rest of the portfolio; Pete offered to fix live but deferred to save session time — **flagged as a follow-up, not urgent.**
+- **Metrics and Reports** (chart view) — same numbers as At a Glance, graph-first. No property-level productivity setting exists (productivity only configures at division/department/job level).
+- **Trends** — day/week charting of actual/standard/schedule/projected, any drill-down level. **No cross-property comparison chart exists** — shows one property/node at a time. **This is the gap Devon flagged as most important:** HMAlpha's CEO is used to a single-glance, all-properties comparison; the closest existing tool (Property Ranking) is table/list-based, not a chart, and still siloed to one division/department/job selection rather than a true whole-property rollup.
+- **Best Available Data** — blends actual → projected → standard (and forecast → actuals) so a week spanning past/future days shows the most complete number available per day rather than blanks.
+- **Manager Portal** — confirmed **being deprecated**; not taught for that reason.
+- **Attendance Dashboard** — not applicable; HMAlpha isn't using Unifocus for time & attendance.
+
+### Raw Data Export / HMAlpha's Own Analytics Ambitions
+- Every report exports to **PDF, Excel, or CSV**. PDF preserves layout (harder to parse programmatically, though "any AI can read a PDF now" per Pete). Excel/CSV strip formatting for cleaner tabular use; **CSV drops job-level detail** on at least the Weekly Labor Summary — Excel was the more complete export in the live test.
+- **Report layout has been stable since at least 2009** (Pete's own tenure as a customer) — meaningful for building repeatable lookup-based external reporting (VLOOKUP/OFFSET) on exports, since columns aren't expected to shift.
+- **No option to disable/lock PDF export** on scheduled reports — Devon raised this as a data-governance concern; told there's currently no such control.
+- **No unique cross-property job-code key exists in the data — job *name* is the only join key today.** This is exactly why the naming-discipline emphasis across all three days matters beyond cosmetics: any external reporting HMAlpha builds depends on job names being unique and stable. Devon wants an actual **job code** (not just a name) as a proper primary key, especially for connecting to HMAlpha's other data sources.
+- **HMAlpha's broader data strategy, surfaced live:** HMAlpha is in early stages of adopting **Microsoft Fabric** as a central data warehouse to pull together ProfitSword and other sources for custom BI/dashboarding, rather than depending on any single source system's native reporting. Devon's stated goal: single source of truth, ability to build custom reports without paying per-request, and less reliance on ProfitSword specifically for reporting (while acknowledging it'll still be needed for some core functions regardless).
+
+### Report Automation (Task Scheduler)
+- Any report can be scheduled two equivalent ways: (1) directly from the report's run screen, or (2) via **Setup → Administration → Task Scheduler Setup**, editing an existing task or creating a new one.
+- **Recipients must be existing Unifocus system users** — no arbitrary external emails; delivery uses whatever email is on that user's profile. Notify on success, failure, or both.
+- **Runs in the timezone of the property/session the task is scheduled under**, not a fixed corporate timezone — worth double-checking when scheduling from an unfamiliar property.
+- **Live test:** scheduled the Labor Effectiveness Report for later the same afternoon (~1:06 PM) as a real-time proof — confirmed the mechanism works within a short window; delivered as PDF (only output format observed live; whether Excel/CSV can also be scheduled wasn't separately confirmed).
+- **Task Scheduler Log** (below Task Scheduler Setup) shows execution history — useful to confirm a schedule is actually firing.
+
+### User Administration — Live Account Creation (Kyle Borowiec)
+- Fastest path to a new corporate user: **clone an existing similar user** (Devon's account was the template) rather than building from scratch.
+- **Naming convention flag:** corporate users list alphabetically with no other default sort/filter — Devon should settle on a naming convention for the small corporate admin team before the list grows.
+- **Client-level access = full portfolio scope** — checking this on a cloned user grants visibility across every property, a meaningful permission decision, not a default checkbox.
+- New users must be **activated**, then **accept an email invite within 48 hours** — a hard window.
+- **Deliberate scope call, not a gap:** deeper security/permissions training (now referred to as **User Administration**, not Security Primer) was consciously de-prioritized for this trip — it was already covered at the property level, and Devon's priority was above-property reporting instead. Pete offered to help further whenever it becomes the priority.
+
+### Job Naming Convention — Reinforced with Concrete Examples
+- Every job needs to be **uniquely named** so external lookups (VLOOKUP/OFFSET-style spreadsheets built off property exports) can reliably target a single, unambiguous cell — Pete's own anecdote: he built exactly this kind of external Excel tracker as a *customer*, well before working for Unifocus, which is why he's "more anal about job names than most people."
+- **Pattern:** short outlet/department prefix + role (e.g., **BQT Server**, **BQT Bartender**, **BQT Captain**) rather than spelling out "Banquet" — keeps names compact for reports and especially the mobile app, where long names word-wrap and can push numbers off-screen.
+- **Only add a disambiguating prefix where a real collision exists** — e.g., "Admin" might independently exist in Engineering, Security, and F&B (a real collision needing a prefix); a role genuinely unique property-wide (Room Attendant) doesn't need one. Pete's guidance: "you'll know it when you see it."
+
+### KBI Mapping Walkthrough — Actual vs. Forecast, Reinforced
+- **Actual KBI Mapping** (separate screen from Forecast KBI Mapping): pulldown-only, no free-text — options are populated directly from whatever the source system (Delphi/CI) actually sends, so **this mapping cannot be pre-filled or guessed without the source data already flowing in.** A given master KBI can only be used **once** per mapping, though one KBI can absorb multiple source event types.
+- **Forecast KBI Mapping** allows typing and generally starts from the KBI; needs **one line per source-system event-type combination** (a KBI can span several mapping lines).
+- **A concrete definitional decision has to be made per property:** what does "Lunch" mean if the source system doesn't distinguish "Lunch Plated" from generic "Lunch"? Whoever owns the mapping needs that conversation with the property directly, not an assumed default.
+- **Confirmed live, useful reference:** the full canonical banquet event/space type list from this property's CI "Source" field includes Winter Reception, Tastings, Sword [ceremony], Speaker Ready Room, Setup/Rehearsal, Registration, and Pre/Post — confirming event types Nicole and Devon had previously added (Pre/Post) are already correctly reflected in the source system.
+- **Live troubleshooting moment — confirms the "always verify, never trust" principle from Day 1:** Nicole discovered mid-session that one property's banquet Delphi/CI data hadn't actually been imported for KBI mapping despite appearing configured. She contacted Ali/Manali (Unifocus data team) live via chat, got confirmation the import ran, and verified the source field populated by session's end — real-time proof of exactly the risk Pete flags: **a mapping can look complete and still be silently missing data**, hence his insistence on a dummy/test file plus a checklist rather than trusting an import at face value.
+- **Devon's two concrete follow-up action items, stated explicitly:**
+  1. Complete the banquet event-type KBI mapping for JW Marriott Houston (and each property in turn) using the checklist method demonstrated — cross-reference against the full CI Source field list to make sure nothing is missed.
+  2. Investigate whether CI has an equivalent to Delphi's rollup field (the field that collapses many granular market-segment types down to the three that matter for labor — Group / Local / In-House). **Unresolved** — Devon to check with CI-side contacts or a colleague (Julie) who may know; if CI has no such field, every granular segment type will need individual mapping to Group/Local/In-House rather than relying on a pre-built rollup the way Delphi provides.
+- **Long-term warning, reiterated from Day 1's banquet philosophy discussion:** new event types get added by sales/catering in the source system **without notifying Unifocus or corporate admins** — properties only discover a mapping gap when a specific event produces zero generated labor, and will describe it as "we didn't get any labor" rather than naming the missing event type. Troubleshooting path: ask for the specific BEO/event number and trace it back through the mapping.
+
+---
+
 ## PETE'S OVERALL TRAINING FRAMEWORK (noted 7/13, in progress)
 
 This is Pete's own organizing structure for WFM admin training — distinct from the handbook's raw TOC order. **Not final** — Pete will add to it as he sees how all the training items fit, or if it needs more pieces.
@@ -249,10 +401,10 @@ This framework is the eventual home for the raw TOC distribution below — once 
 ## MASTER CHECKLIST — knock off as we build the curriculum
 
 ### Emphasis areas (must land)
-- [ ] Above-Property Reporting — confirm EXECUScope Tab is the right module, then build the session
-- [ ] Master KBI and Jobs Mapping — deep dive using KBIs section + Labor Structure section as backbone
-- [ ] Interface Level Mapping — distinct from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA. **Defined 7/13:** tracking each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location) — see companion doc `interface-mapping-tracker.md`, being built live during training
-- [ ] Weekly Labor Meeting (train-the-trainer) — build from scratch, no reference material to lean on
+- [x] Above-Property Reporting — **done (Day 3, Session 2).** Module turned out to be the Labor Dashboard (Analytics menu), not "EXECUScope Tab." Substantially taught; one gap remains — no all-properties side-by-side comparison chart exists.
+- [x] Master KBI and Jobs Mapping — **done, split across Day 1 and Day 3.** Day 1: fundamentals, job-level config, naming convention. Day 3 Session 1: the corporate Master Job/Master KBI connection mechanic property admins actually use day to day.
+- [x] Interface Level Mapping — distinct from KBI/Jobs mapping; what Pete and Nicole worked on in NOLA. **Defined 7/13:** tracking each source-system feed into Unifocus (source, frequency, source quirks, UF mapping location) — see companion doc `interface-mapping-tracker.md`. **Done (Day 1)** — became the biggest unplanned focus of the trip's first day.
+- [ ] Weekly Labor Meeting (train-the-trainer) — **correction (7/16): the material already exists**, not "build from scratch." Pete has a complete guide for running a weekly labor meeting, written for the people who actually run them, already distributed as an attachment to the original training invite. What's still open is walking Devon/Nicole through it live so they can coach properties on it — that session didn't happen this trip.
 
 ### Topics to place — must be on the agenda somewhere
 *(Pete: "If these things are not included, we will have to find a place for them.")*
@@ -263,16 +415,22 @@ This framework is the eventual home for the raw TOC distribution below — once 
 ---
 
 ### Decisions still needed
-- [ ] Confirm EXECUScope Tab = above-property reporting module (or find the right one)
+- [x] Confirm EXECUScope Tab = above-property reporting module (or find the right one) — **resolved (Day 3, Session 2):** "EXECUScope Tab" was the wrong name; the actual module is the **Labor Dashboard** under the **Analytics** menu. Substantially taught. See TOC distribution table row 16 for the one open gap (no all-properties comparison chart).
 - [x] Identify which handbook section/module covers Interface Level Mapping — **resolved:** it's not a handbook section at all, it's source-system integration mapping (Paychex, etc.) — tracked in `interface-mapping-tracker.md`
-- [ ] Decide whether Labor Budgeting is in scope — flag to Devon/Nicole, don't assume
-- [ ] Decide how deep to go on Security Primer (multi-property permissions) vs. property-level User Administration
+- [x] Decide whether Labor Budgeting is in scope — **resolved (Day 3, Session 2):** conceptually in scope and partly taught (data-set structure, the banquet-budgeting problem), but hands-on budget building was explicitly deferred as 2027 budget-season prep, not this trip. Real blocker: sourcing each property's original implementation-time budget data — unresolved, raised on the 7/16 call.
+- [x] Decide how deep to go on Security Primer (the curriculum section covering User Administration, née User Security) vs. property-level coverage — **resolved (Day 3): deliberately de-prioritized, not open.** Already covered at the property level; Devon's stated priority was above-property reporting, so Day 3's time went there instead. Only one live example touched it (cloning a user for Kyle Borowiec). **Note: the Security Primer curriculum itself is dated and probably doesn't reflect current screens/choices** — flagged by Pete as a future rebuild candidate, not urgent. Revisit depth only if/when it becomes a priority.
 - [ ] **Nicole to follow up with JW Marriott Houston:** is the Club Lounge Evening Attendant standard intentionally absent Friday/Saturday, or is that a gap? (raised Day 2, Session 1)
 - [ ] **Nicole to follow up with the property or Elliott Welburn (implementing consultant on this property, now Unifocus Client Success Manager):** is JW Marriott Houston's Banquet Bartender standard correctly mapped to Dinner only, or should Reception be its own driving KBI? Session 2 finding, unverified — investigation was cut short by a system outage before confirming against the property's actual banquet KBI/CI file. (raised Day 2, Session 2)
+- [ ] **Ask Ralph:** does a KBI configuration audit report exist anywhere (property or corporate level) showing every local KBI and its master-code mapping? Neither Pete nor Devon/Nicole could find one live — flagged as urgent given the Indianapolis clone the following week. (raised Day 3, Session 1; **not yet raised with Ralph** — not covered on the 7/16 HMA weekly call, see `../2026-07-16_weekly-hma-call-notes.md`)
+- [ ] **Where do "standard" dollar/cost figures on the Labor Dashboard actually come from (blended rate methodology)?** (raised Day 3, Session 2) — **raised with Ralph on the 7/16 HMA weekly call, still not actually resolved.** Ralph confirmed the standard rate is a blended amalgam across all employees in a job (not a single true rate) but gave a change-management answer rather than a technical one; Devon was explicit she still needs the real mechanism explained before she's comfortable showing cost data to HMAlpha's executive team. See `../2026-07-16_weekly-hma-call-notes.md`.
+- [ ] **Does a corporate-level daily report exist, or was that ever actually promised to HMAlpha leadership?** Pete confirmed none currently exists. (raised Day 3, Session 2; **not raised on the 7/16 call** — still needs to go to Tim/Mike directly per Pete's original framing)
+- [ ] **Get Unifocus to supply each property's original implementation-time budget submissions** rather than HMAlpha re-collecting from properties directly; build a standard budget data-request package for the next property wave. (raised Day 3, Session 2) — **budgeting broadly discussed on the 7/16 call** (Ralph's Standard Sets approach, Devon's this-year-vs-next-year strategic question), but this specific data-sourcing ask was not directly addressed — still open. See `../2026-07-16_weekly-hma-call-notes.md`.
+- [x] **Devon to investigate: does CI have an equivalent to Delphi's Group/Local/In-House rollup field for banquet market segments?** (raised Day 3, Session 2) — **resolved on the 7/16 HMA weekly call.** Manali confirmed CI's "Group Type" field (Group/In House/Local Rooms Only/Tour Series Group, etc.) is the equivalent rollup, and CI's "Function Type" field maps to Delphi's event/booking type. Nicole building a dummy mapping file per property going forward. Full detail: `../2026-07-16_weekly-hma-call-notes.md`.
+- [ ] **Fix (low urgency):** Union Station is grouped under the wrong region on the Labor Dashboard's At a Glance view — Pete offered to fix live but deferred to save session time. (raised Day 3, Session 2) — **independently reconfirmed and reported directly to Ralph on the 7/16 call**, but still not actually fixed as of that call. See `../2026-07-16_weekly-hma-call-notes.md`.
 - [ ] **Confirm whether a Day 2 Session 3 / continuation transcript exists** — Session 2's transcript both degraded and cut off mid-discussion (Banquet Server topic unfinished); if there's more recording, it needs processing too.
 
 ### Logistics
-- [x] Sessions: Tue 7/14, Wed 7/15, Thu 7/16 — planned as three 4-hour sessions, 9:00 AM–1:00 PM each day. **Actual (Day 1, 7/14):** ran as two ~2-hour sessions rather than one continuous 4-hour block — confirm if Day 2/3 follow the same split-session pattern.
+- [x] Sessions: Tue 7/14, Wed 7/15, Thu 7/16 — planned as three 4-hour sessions, 9:00 AM–1:00 PM each day. **Actual:** all three days ran as two sessions with a break in between rather than one continuous 4-hour block — confirmed as the consistent pattern across Day 1, Day 2, and Day 3.
 - [ ] Location: HMAlpha Corporate Offices, Nashville
 
 ---
@@ -302,11 +460,11 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 | 11 | Employee Requests | Day 2 | ✅ Covered — property guide's "Employee Request" (create/approve time off) matches directly; quick check only | 🟡 **Partially done** — open question raised on Day 1 (should some requests bypass Paychex?) but explicitly not resolved |
 | 12 | Schedules | Day 2 | 🟡 Partial — schedule generation/management covered under Planning Menu/Weekly Timeline; detailed shift editing, copying, swapping, printing is new | 🟡 **Partially done** — the go-live/cutover decision and publish workflow were covered in depth on Day 1; hands-on shift editing/copying/swapping mechanics not yet done |
 | 13 | Timeline Scheduling | Day 2 | ❌ Not covered — not named anywhere in property guide | ⬜ Not yet started |
-| 14 | Labor Budgeting | Day 3 | ❌ Not covered — conditional: confirm in scope with Devon/Nicole before building | ⬜ Not yet started — Pete confirmed on Day 1 this will get its own dedicated session |
-| 15 | Security Primer | Day 3 | 🟡 Partial — property guide's "User Administration" covered security credentials, add/clone users, tabs overview; Actions tab breakdown (Global/System Setup, Reports, Labor Forecasting/Reports, Scheduler, Adhoc) is new depth | ⬜ Not yet started |
-| — | *Property Level Reports* | Day 3 | ✅ Covered — property guide's "Reports/Dashboard" (Labor Effectiveness, Weekly Labor Summary, file types, schedule reports, labor dashboard); quick refresher here, immediately before EXECUScope, to set up the property-vs-corporate contrast | ⬜ Not yet started |
-| 16 | EXECUScope Tab | Day 3 | ❌ Not covered — emphasis area #1, no property-level equivalent; confirm this is actually the above-property reporting module first | ⬜ Not yet started |
-| — | *Weekly Labor Meeting (train-the-trainer)* | Day 3 | ❌ Not covered — custom topic, no handbook equivalent at all | ⬜ Not yet started |
+| 14 | Labor Budgeting | Day 3 | ❌ Not covered — conditional: confirm in scope with Devon/Nicole before building | 🟡 **Partially done (7/16)** — no hands-on budget building happened (not this trip's scope), but the budget data-set structure was taught (financial periods → user-defined data sets, volumes + standard hours, one per year), and the portfolio's budget data sets were confirmed **empty everywhere**. The banquet-budgeting mechanical problem ("make it spiky") was worked through conceptually. Real blocker surfaced: HMAlpha needs Unifocus to supply what was originally collected at implementation rather than re-asking properties — unresolved, raised on 7/16 call |
+| 15 | Security Primer | Day 3 | 🟡 Partial — property guide's "User Administration" covered security credentials, add/clone users, tabs overview; Actions tab breakdown (Global/System Setup, Reports, Labor Forecasting/Reports, Scheduler, Adhoc) is new depth | 🟡 **Deliberately de-prioritized (7/16), not a gap** — one live example (cloning Devon's user to create Kyle Borowiec's account) covered activation, the 48-hour invite window, and the client-level (full-portfolio) access checkbox, but the Actions-tab depth and broader multi-property permissions model were consciously left out. **Terminology correction (7/16): "User Administration"** is the property-level topic/screen (formerly called "User Security"); **"Security Primer" is the name of the handbook curriculum section that teaches it in depth** — they're not two competing names for the same thing. Pete's assessment: the Security Primer curriculum content itself is **dated and likely doesn't reference current screens/choices** — a future rebuild candidate, not urgent. De-prioritizing it this trip was a deliberate scope call (already covered at property level, Devon's priority was above-property reporting), not a missed topic |
+| — | *Property Level Reports* | Day 3 | ✅ Covered — property guide's "Reports/Dashboard" (Labor Effectiveness, Weekly Labor Summary, file types, schedule reports, labor dashboard); quick refresher here, immediately before the corporate dashboard, to set up the property-vs-corporate contrast | ✅ **Done (Day 3, Session 1)** — full session on Weekly Labor Summary (incl. daily/weekly toggle), Op Codes, Labor Effectiveness Report, Labor Productivity Report, Employee Schedule Analysis, plus the Master Job/Master KBI corporate-connection concepts that set up the Session 2 jump to the Labor Dashboard |
+| 16 | EXECUScope Tab | Day 3 | ❌ Not covered — emphasis area #1, no property-level equivalent; confirm this is actually the above-property reporting module first | ✅ **Resolved, but the name was wrong (Day 3, Session 2)** — "EXECUScope Tab" does not appear to be the actual module name; the above-property reporting tool actually used and taught was the **Labor Dashboard**, under the **Analytics** menu (Property Ranking, At a Glance/Issues & Opportunities, Metrics and Reports, Trends, Best Available Data). Substantially covered, with one real gap flagged: no chart exists that compares all properties side-by-side in one view — Property Ranking is the closest thing but is table-based and siloed to one division/department/job at a time, not a true all-properties comparison the way HMAlpha's CEO is used to seeing |
+| — | *Weekly Labor Meeting (train-the-trainer)* | Day 3 | ❌ Not covered — custom topic, no handbook equivalent at all | ⬜ **Session not delivered, but the material already exists** — correction (7/16): Pete already has a **complete guide for conducting a weekly labor meeting**, written for the people who will actually run the meetings. It was distributed as an attachment to the original training invite, sent to everyone — so property managers already have it in hand, whether or not they've read it. What didn't happen this trip is the **corporate train-the-trainer walkthrough** — Devon/Nicole working through the guide live with Pete so they can coach/set expectations for properties running their own meetings. The gap is delivery/practice, not authored content. |
 
 **Not placed on any day (property-guide-only topics with no distinct handbook TOC heading found):**
 - Mobile Configuration, Employee User Maps, Actuals — these appeared in the property-level guide but don't map to a standalone section in the full handbook TOC. Likely already fully covered at property level; flag if Devon/Nicole raise questions, otherwise no dedicated time needed.
@@ -334,6 +492,8 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 - Labor Budgeting — only if Devon/Nicole confirm it's in scope; otherwise use the time for open Q&A and review of Days 1–2
 - Weekly Labor Meeting facilitation — built from scratch; practice/roleplay if time allows
 - Wrap by early afternoon — 6:10 PM flight home
+
+**Actual (Day 3, 7/16):** Session 1 delivered the Property Level Reports refresher as planned, plus closed the Master Job/Master KBI loop left over from Day 1 — went deeper into the property-level report set (Weekly Labor Summary, Op Codes, Labor Effectiveness, Labor Productivity, Employee Schedule Analysis) than the "quick refresher" framing suggested. Session 2 delivered Above-Property Reporting in full (the module turned out to be the **Labor Dashboard** under Analytics, not "EXECUScope") and went deep on Labor Budgeting's data-set structure and the banquet-budgeting mechanics — though hands-on budget building was explicitly deferred to 2027 prep, not built live. Report automation (Task Scheduler) and a live user-creation example (Kyle Borowiec) were added, unplanned. **Security Primer (the curriculum section covering User Administration, née User Security) was deliberately de-prioritized, not missed** — already covered at the property level, and Devon's stated priority was above-property reporting instead, so that's where Day 3's time went. Pete separately flagged the Security Primer curriculum content itself as dated and probably not reflecting current screens/choices — a future rebuild, not urgent. **Weekly Labor Meeting facilitation (train-the-trainer) was not reached** — but the underlying guide already exists and was distributed to everyone as an attachment to the original training invite, so the gap is a live walkthrough session with Devon/Nicole, not missing content.
 
 *(Draft — adjust freely; this is a starting shape to react to, not a locked plan.)*
 
@@ -365,6 +525,7 @@ Every top-level section from the 172-page handbook, assigned to one of the three
 - Either way: Devon and Nicole need to know how to SET EXPECTATIONS for a property labor meeting
 - This is a gap — corporate admins can't support properties on something they haven't been trained on themselves
 - Topic should be explicit on the corporate agenda regardless of prior property coverage
+- **Correction (7/16, end of trip):** the *content* gap doesn't actually exist — Pete already has a complete guide for running a weekly labor meeting, written for whoever runs them, and it was distributed as an attachment to the original training invite (sent to every attendee, property-level included). The real remaining gap is a live train-the-trainer session where Devon/Nicole work through it with Pete so they're equipped to coach properties — that didn't happen this trip due to time.
 
 ### Other Thoughts (forthcoming)
 - [ ] Add as recalled
@@ -423,8 +584,8 @@ Broader than the property-level facilitator guide — includes configuration-lay
 | Glossary | — |
 
 ### Connections to Emphasis Areas
-- **Above-Property Reporting (#1):** No property-level equivalent anywhere in either TOC. **EXECUScope Tab** is the strongest candidate for what this actually is in the system — name suggests executive/portfolio-level scope. Confirm this is the right module before building the session.
+- **Above-Property Reporting (#1):** No property-level equivalent anywhere in either TOC. ~~**EXECUScope Tab** is the strongest candidate~~ — **resolved 7/16: "EXECUScope Tab" was not the right name.** The actual above-property reporting module, taught in full on Day 3, is the **Labor Dashboard** under the **Analytics** menu (not a "tab" at all, and not named EXECUScope anywhere Pete or Devon/Nicole could find). Handbook TOC may simply be using outdated/internal terminology here — worth flagging back to Unifocus if it matters for future cohorts' prep materials.
 - **Master KBI and Jobs Mapping (#2):** Full handbook's **KBIs** section (calculated/statistical/% of base/environmental/sets) and **Labor Structure** section (divisions/departments/jobs/assignments) are the deep-dive material — much richer than the property guide's single-line treatment.
-- **Weekly Labor Meeting (#3):** Still absent from this TOC too — confirms it's genuinely custom content Pete has to build, not something pulled from either reference document.
-- **New candidate topic:** Labor Budgeting is a full section with no property-level counterpart — flag to Devon/Nicole as an option, don't assume it's in scope by default.
-- **Security Primer** is a much deeper version of the property guide's "User Administration" — relevant if Devon/Nicole need to manage security/permissions across multiple properties, not just one.
+- **Weekly Labor Meeting (#3):** Still absent from either handbook TOC — correct that it's not pulled from Unifocus reference material, but **Pete has his own complete guide for it already**, distributed as an attachment to the original training invite. Not something to build; something to walk Devon/Nicole through live.
+- **New candidate topic:** Labor Budgeting is a full section with no property-level counterpart — **resolved 7/16, conditionally in scope:** data-set structure and the banquet-budgeting problem taught conceptually; hands-on budget building deferred to 2027 prep.
+- **Security Primer** is a much deeper version of the property guide's "User Administration" — relevant if Devon/Nicole need to manage security/permissions across multiple properties, not just one. **Resolved 7/16: deliberately de-prioritized this trip**, not pursued further, since it was already covered at the property level and Devon prioritized above-property reporting instead. **Note: Security Primer is the curriculum section name that covers the User Administration topic (formerly called User Security) — not a separate/renamed thing.** Pete flagged the curriculum content itself as dated, likely not reflecting current screens/choices — a future rebuild candidate, someday not now.
