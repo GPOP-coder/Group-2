@@ -21,3 +21,5 @@ Total:       $30.48
 
 DeptId # STLTKS01
 Tab/Check/Order # 976
+
+Paid: Chase VISA -2674
