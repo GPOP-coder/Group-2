@@ -30,6 +30,7 @@ $knownRows = @(
     @("7/14/2026",  20.63, 1.00, "PERSONAL", "Nick The Greek, 943 Church St, Nashville TN - beef/lamb gyro bowl, pita & drink, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/14/2026",  22.53, 1.00, "PERSONAL", "Assembly Food Hall (Honey Fire Barbeque), 5055 Broadway Pl, Nashville TN - chicken sandwich, baked beans, fountain drink, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/15/2026",  60.52, 1.00, "PERSONAL", "Sixty Vines, 5055 Broadway Pl Ste 3200, Nashville TN - pan roasted chicken, broccolini, Coke, sticky toffee cake, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/16/2026",  43.81, 1.00, "PERSONAL", "Uber, The Nashville Reserve (990 Signal Crossing) -> BNA Airport - UberX, 9.57 mi/39 min, driver Chansamone; Visa -2674 (Southwest Pete)", "Taxi/Train/Bus", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/16/2026",  26.86, 1.00, "PERSONAL", "HMSHost Yazoo Beer Cart C, Nashville Airport (BNA) - chicken Caesar wrap, Coke Zero, Reese's King Size; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/16/2026",  30.48, 1.00, "PERSONAL", "Three Kings (HMSHost), Lambert-St. Louis International Airport (STL) - grilled chicken sandwich (fries, no lettuce), iced tea, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", "")
 )
@@ -156,7 +157,7 @@ $notes = @(
     "OPEN ITEMS — add as receipts come in:",
     "- Hotel (3 nights, 7/13-7/16) — The Nashville Reserve, $694.05 total (Visa -2785) ADDED",
     "- Ground transport BNA airport → hotel (7/13) — Uber, $32.58 (Visa -0733 FNBO Evergreen) ADDED",
-    "- Ground transport hotel → BNA airport (7/16) still open",
+    "- Ground transport hotel → BNA airport (7/16) — Uber, $43.81 (Visa -2674 Southwest Pete) ADDED",
     "- Lunch 7/13 — HMSHost Great Divide C, Denver Airport (DEN), $38.38 (Chase VISA -2674) ADDED",
     "- Dinner 7/13 — Earls Nashville Yards, $83.64 (Chase VISA -2674) ADDED",
     "- Lunch 7/14 — Nick The Greek, Nashville, $20.63 (Chase VISA -2674) ADDED",
