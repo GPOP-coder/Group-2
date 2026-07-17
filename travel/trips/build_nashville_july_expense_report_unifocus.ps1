@@ -29,7 +29,8 @@ $knownRows = @(
     @("7/14/2026",  20.63, 1.00, "PERSONAL", "Nick The Greek, 943 Church St, Nashville TN - beef/lamb gyro bowl, pita & drink, tip; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/14/2026",  22.53, 1.00, "PERSONAL", "Assembly Food Hall (Honey Fire Barbeque), 5055 Broadway Pl, Nashville TN - chicken sandwich, baked beans, fountain drink, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
     @("7/15/2026",  60.52, 1.00, "PERSONAL", "Sixty Vines, 5055 Broadway Pl Ste 3200, Nashville TN - pan roasted chicken, broccolini, Coke, sticky toffee cake, tip; Chase VISA -2674", "Dinner", "HM Alpha - Corporate Admin Training Nashville", ""),
-    @("7/16/2026",  26.86, 1.00, "PERSONAL", "HMSHost Yazoo Beer Cart C, Nashville Airport (BNA) - chicken Caesar wrap, Coke Zero, Reese's King Size; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", "")
+    @("7/16/2026",  26.86, 1.00, "PERSONAL", "HMSHost Yazoo Beer Cart C, Nashville Airport (BNA) - chicken Caesar wrap, Coke Zero, Reese's King Size; Chase VISA -2674", "Lunch", "HM Alpha - Corporate Admin Training Nashville", ""),
+    @("7/16/2026",  30.48, 1.00, "PERSONAL", "Three Kings (HMSHost), Lambert-St. Louis International Airport (STL) - grilled chicken sandwich (fries, no lettuce), iced tea, tip; card TBD - confirm with Pete", "Dinner", "HM Alpha - Corporate Admin Training Nashville", "")
 )
 $blankRowCount = 16
 
@@ -161,7 +162,9 @@ $notes = @(
     "- Dinner 7/14 — Assembly Food Hall (Honey Fire BBQ), Nashville, $22.53 (Chase VISA -2674) ADDED",
     "- Dinner 7/15 — Sixty Vines, Nashville, $60.52 (Chase VISA -2674) ADDED; no breakfast or lunch 7/15",
     "- Lunch 7/16 — HMSHost Yazoo Beer Cart C, Nashville Airport (BNA), $26.86 (Chase VISA -2674) ADDED",
-    "- Shipley Do-Nuts, 7/16, $4.37 cash — EXCLUDED (cash snack, Pete flagged)"
+    "- Shipley Do-Nuts, 7/16, $4.37 cash — EXCLUDED (cash snack, Pete flagged)",
+    "- Dinner 7/16 — Three Kings (HMSHost), STL Airport layover, $30.48 (card TBD - confirm with Pete) ADDED",
+    "- Ground transport hotel -> BNA airport (7/16) still open"
 )
 $row = 1
 foreach ($n in $notes) {
