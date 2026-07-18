@@ -86,7 +86,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **iPad + Apple Pencil** — travels with Lenovo Yoga for handwritten notes
 - **Brother ADS-2000** — duplex sheet-fed ADF scanner; primary receipt scanner; scans straight to PDF
 - **Epson Perfection V850** — watching for a deal on a used unit (not yet acquired); use cases the ADS-2000 can't cover: flatbed scanning, and photos/negatives/slides; must include SilverFast SE Plus software; open to better solutions as AI image processing improves
-- **Brother 2380** — flatbed MFC/DCP printer; secondary receipt scanner for crumpled/fragile receipts; not powering up as of 7/16/2026 — troubleshoot or replace when home
+- **Brother HL-L2380DW** — mono laser AIO; secondary receipt scanner for crumpled/fragile receipts; had dead power-on issue resolved July 2026 (unplugged power cord 60 sec, back in service). **BOLO replacement: Brother MFC-L2750DW** (adds 50-page ADF, duplex scan, fax, touchscreen, 36 ppm; same toner/drum ecosystem) — not urgent, buy on deal only: new target $200–220 (Black Friday/back-to-school), used $80–150. Backups: Brother DCP-L2640DW, HP LaserJet MFP M235sdw, Canon imageCLASS MF275dw
 - Laptop bag carries all chargers, cords, and cables for both machines independently
 - Additional tools to be inventoried as we go
 
