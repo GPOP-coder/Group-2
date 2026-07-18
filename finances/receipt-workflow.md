@@ -50,6 +50,7 @@ YYYY-MM-DD Vendor Description.ext
 | Receipt Type | Folder |
 |---|---|
 | PWS business expenses | `finances/receipts/` |
+| eBay/Photography business expenses | `finances/receipts/` |
 | Travel trip expenses | `travel/trips/receipts/` |
 
 ---
@@ -85,4 +86,4 @@ No OCR software or paid receipt-management subscription required.
 | Travel reimbursement (Unifocus/client) | PowerShell ER build script → xlsx → submit to Ralph Varble |
 | Personal expenses | Quicken Simplifi + receipt attachment |
 | NTSG / BTTR org expenses | QuickBooks (future) |
-| eBay/Photography (Schedule C) | QuickBooks (future) |
+| eBay/Photography (Schedule C) | QuickBooks (future) + `finances/ebay-photography-business-expenses.md` |
