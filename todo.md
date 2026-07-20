@@ -19,6 +19,7 @@ Last updated: 2026-07-07
 - [x] **Pensacola insurance premium adjustment** — ✅ Primary Residence discount applied by Citizens (effective 6/1/26 after lease submission); reflected in 7/7/26 payment ($434.40)
 - [ ] **Father's Best Buy/Lively account** — Follow up on POA access restoration (email sent 7/12/26). Confirm online access + phone authorization restored, billing address back to Bellevue NE, emergency location still Winter Garden FL. See `finances/father-bestbuy-lively-account-poa.md`
 - [ ] **BTTR Treasurer** — Follow up on candidate suggested by Gary DiSilvestro
+- [x] **Pensacola USAA loss of rent claim — docs for Alicia** — ✅ Submitted 7/20/26: previous lease + new (Hartlaub) lease attached, statement re: 6/1/26 move-in mid-project (no counters/sink/dishwasher) + half-month June rent discount included. homes.mil listing itself not recoverable (inactive) — noted as unavailable, Alicia said likely not required. See `travel/trips/2026-03-10_homes-mil-listing-and-lease-correspondence.md`.
 
 ---
 

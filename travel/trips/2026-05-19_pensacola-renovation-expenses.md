@@ -77,12 +77,33 @@ Work added by Pete outside the USAA claim scope:
 
 ## LOSS OF RENT SUPPLEMENT (USAA — Separate Claim)
 
-Pete must file after project completion. Required documentation:
+**Status: INITIATED 7/20/26.** Pete called USAA and started the Loss of Use / Fair Rental Value addition to the claim.
+
+- **Adjuster:** Vanessa Alvarado, (210) 531-8722 ext. 28089 — left message; she is **out until August 31, 2026**. Voicemail says a colleague will return the call within 48 hours.
+- Left details with the message: house was listed for rent and was rented by the end of the project.
+- **Completion of Services/Repairs: signed off by Pete on 7/20/26** — this is the end date for the loss-of-rent coverage window.
+
+Required documentation:
 - homes.mil listing inquiry — March 10, 2026
 - Email thread with renter (Brandon Hartlaub)
 - Signed lease from John Hallam (Perdido Key Resort Realty)
 
-Coverage: Rent loss from moment of loss through project completion.
+Coverage: Rent loss from moment of loss through project completion (now dated 7/20/26 per Pete's sign-off).
+
+**7/20/26 (later same day) — spoke with Alicia at USAA**, returning Vanessa Alvarado's voicemail. Alicia identified what's needed to move the supplement forward:
+- [x] Upload the **previous lease** and the **new (Hartlaub) lease** — ✅ both attached and submitted 7/20/26
+- [x] Find and send the **homes.mil listing** — could not recover; listing is now inactive, not archived anywhere accessible. Full inquiry/correspondence history (in lieu of the listing itself) filed at `2026-03-10_homes-mil-listing-and-lease-correspondence.md`. Alicia indicated the listing itself is likely not required.
+- [x] Add a **statement that the renters moved in during the project and paid half of June's rent** — ✅ included in submission
+
+**Submission sent to USAA 7/20/26** (Pete, on behalf of CDR William J. Castellano, USN Ret.) — final version:
+
+> Attached find two leases on 5577 North Shore Way, Pensacola, FL 32507. This shows the property was leased before and after the loss. The current tenants moved in on June 1, 2026, without kitchen counters, sink or dishwasher while the project continued. We discounted 1/2 of the rent in June 2026.
+>
+> We are unable to find a copy of the listing from homes.mil since the listing is now inactive. It was listed at the time of the loss. We kept it listed knowing the first tenant was in flight school and could leave early. We just moved the availability date. We will continue to look for a historical record of the listing. Please let me know if you need it.
+
+Key point added in this revision: the listing was **active and continuous at the time of the loss** — it wasn't taken down and re-listed later. It stayed up because the (then-current) tenant was in flight school and could depart early; only the availability date was updated once that happened. This directly supports continuous "held out for rent" status through the loss, which is the crux of the Loss of Rent claim.
+
+Also added to `todo.md` under Urgent/Deadline-Driven.
 
 ---
 

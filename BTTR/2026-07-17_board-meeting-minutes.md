@@ -67,7 +67,9 @@ April 10, 2026 minutes approved (Jim motion, Karen second, carried).
 - **Officers of record confirmed:** Pete Castellano – President, Michelle Foss – Vice President, Mark Brohman – Secretary, Heather Tomasek – Assistant Secretary, David Dover – Treasurer, Karen Bluvas – Assistant Treasurer.
 
 ## Next Meeting
-**Friday, October 23, 2026, 1:30 PM — Tom Hanafan River's Edge Park, Council Bluffs, IA.** Dan Bettmann to confirm meeting room; possible tour of the new Tower.
+**Friday, October 23, 2026, 1:30 PM — Tom Hanafan River's Edge Park, Council Bluffs, IA.** Room confirmed 7/20/26 (Dan Bettmann): **River's Edge Pavilion booked.** Dan is now inquiring about setting up a tour of the adventure tower and amenities for the group. Pete sent Dan a thank-you note for booking the room.
+
+Pete forwarded the room confirmation to **Michelle Foss** (VP, handles meeting reminders/save-the-dates) 7/20/26 2:09 PM, asking if it's too early to send a save-the-date — awaiting her reply.
 
 Jim motioned to adjourn, seconded by Larry, carried.
 
