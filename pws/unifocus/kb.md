@@ -231,6 +231,26 @@ All three must succeed for labor planning to function correctly. A broken formul
 
 ---
 
+## Actuals vs. Budget — Two Different Paths to the Same Granular KBIs
+
+*Standard Unifocus practice, not client-specific. Captured 2026-07-20 from the Rosewood/Baha Mar BNQ Hours fix — see `pws/clients/baha-mar/kb.md` item 17 and `pws/clients/baha-mar/2026-07-20_bnq-hours-call-notes.md` for the concrete case this generalizes from.*
+
+Labor standards are always activated by the **granular Ttl KBIs** (e.g., Ttl Plated, Ttl Buffet, Ttl Continental for meal periods; Ttl Cocktail/Light/Full/Heavy for Reception). But those granular Ttl numbers get populated two completely different ways depending on whether you're looking at day-to-day/week-to-week actuals or at budget:
+
+**Day-to-day / week-to-week (actuals):**
+- Granular **Group and Local** KBIs come in directly from the EMS (Delphi, in Rosewood's case) — already split by Group vs Local *and* by service type (Plated/Buffet/Continental/Cocktail/etc.), because that's the level of detail real bookings carry.
+- Those granular Grp + Loc KBIs get **totaled up** into the matching granular Ttl KBI (Ttl Plated = Grp Plated + Loc Plated, etc.).
+- The granular Ttl KBIs activate the labor standards.
+
+**Budget (forward planning):**
+- Budget input is deliberately **generalized** — properties only forecast at the meal-period level: Breakfast, Lunch, Dinner, Reception (the Ttl-level #5100/#5200/#5300/#5400-style KBIs), with no Group/Local split and no service-type breakdown.
+- The system takes those general meal-period Ttl inputs and uses **historical percentages** (real Plated/Buffet/Continental/Cocktail/Light/Full/Heavy splits from prior actuals) to break each one down into the granular Ttl KBIs.
+- Those derived granular Ttl KBIs then activate the labor standards for budget purposes — same standards, same granular KBI targets as actuals, just populated top-down from a simpler input instead of bottom-up from Grp+Loc EMS detail.
+
+**Why this matters for diagnosing "standard generating no/wrong hours" issues:** check which path is actually feeding the KBI in question. A property (or a consultant) entering budget data at the Group/Local or already-granular level — rather than at the general Ttl meal-period level — breaks the percentage-based budget path, even though the same granular KBI would populate correctly from real EMS data during actuals. The fix is rarely "rebuild the KBI structure" — it's almost always "put the input at the right level for the path you're actually on."
+
+---
+
 ## Banquet Mapping — Booking/Event Type Combinations
 
 Unifocus maps imported banquet data (from EMS/Delphi) to internal planning using Booking/Event Type combinations. The mapping screen only shows combinations the system has encountered in an actual import.

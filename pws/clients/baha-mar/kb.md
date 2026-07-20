@@ -16,6 +16,16 @@ Last updated: 2026-06-10
 
 ---
 
+## Roles & Ownership (clarified 7/20/26)
+
+**Rosewood-specific issues (e.g. BNQ Hours):** Rosewood has transitioned out of implementation — day-to-day ownership now sits with the **Client Success Manager, Ahmed Chadid**, not Pete. Pete is assisting on the BNQ Hours issue specifically **at Ahmed's and Emre Kenan's request**, not as the property's owner.
+
+**Pete's ongoing scope:** Campus-wide BQT KBI creation and mapping across all Baha Mar properties (Rosewood, SLS, GH, CTF) remains **Pete's responsibility until complete** — this is about blending Rosewood into the rest of the campus, distinct from Rosewood's own property-level support. Mapping work is still outstanding (see Priority/Next Steps below).
+
+**7/20/26 BNQ Hours call:** Teams meeting organized by Ahmed Chadid, 10:30–11:00 AM, attendees Ahmed Chadid, Pete Castellano, Emre Kenan (cc Aaron Longley, Megan Knowles). Transcript pending — Pete to share once available.
+
+---
+
 ## Contacts
 
 | Name | Title | Property/Org | Contact |
@@ -29,6 +39,9 @@ Last updated: 2026-06-10
 | Rhondi Hobson | — (EMS contact — role TBD) | SLS Baha Mar | Rhondi.HOBSON@slshotels.com |
 | Jon Finch | — (EMS contact — role TBD) | Grand Hyatt Baha Mar | jon.finch@hyatt.com |
 | Monali Desai | Lead, Data Integration & Interface Implementation | Unifocus | Interface/imports authority; handles one-time BEO imports for mapping setup |
+| Emre Kenan | Director, Finance Business Partner | Rosewood Baha Mar | Emre.Kenan@rosewoodhotels.com \| +1 242 788 7500 (office) \| +1 242 824 5857 (mobile) |
+| Aaron Longley | — (role TBD) | Rosewood Baha Mar | Aaron.Longley@rosewoodhotels.com |
+| Megan Knowles | — (role TBD) | Rosewood Baha Mar | Megan.Knowles@rosewoodhotels.com |
 
 **Needed — not yet obtained:**
 - EMS (Delphi) administrator for SLS Baha Mar — Val reached out to Rhondi Hobson 5/26/26; Pete followed up directly to Rhondi + Jon 6/10/26
@@ -402,6 +415,19 @@ Banquet files for all three properties are imported into all four properties. Ma
 14. **Tastings decision** — roll into Ttl Lunch or remain standalone? Pete decision pending.
 15. **Verify SLS Rosewood 06 Stayovers `=` prefix** — check formula in Unifocus UI. If `=` appears there, remove it; if not, it was a CSV export artifact and no action needed.
 16. **Future tool:** KBI Generation and Validation Artifact.
+17. 🟢 **Rosewood BNQ Hours — Bartender standard generating zero hours** — flagged by Emre Kenan 7/14/26; root cause found and full fix workflow confirmed on the 7/20/26 call. **Full call notes:** `2026-07-20_bnq-hours-call-notes.md`. Emre's homework: pull last year's full Delphi history per meal period to calculate real Plated/Buffet/Continental and Cocktail/Light/Full/Heavy percentages (not guesses), then maintain covers only at #5100/#5200/#5300/#5400 going forward — Group/Local only matters for weekly outlet forecasting, never again after Revenue Centers generate. **Cook I labor standard resolved same call** — Ahmed copying Cook II's standard to Cook I (same job). **Butcher's missing hourly rate (from the original 7/14 email) — not confirmed fixed on this call, still needs a check.** Root cause diagnosed by Ahmed 7/15/26: Bqt Ttl reception KBIs (Reception/Cocktails/Full/Heavy/Lite) are configured as percentages of Ttl Receptions, but Ttl Receptions is an **input KBI with no values loaded** — percentage of zero = zero. **Fix:** stop deriving Ttl lines as percentages; instead allocate percentages directly off Bqt Grp and Bqt Loc reception volumes separately (e.g. Bqt Grp Lite = 95% of Grp Reception, Bqt Loc Lite = 94% of Loc Reception), then make Ttl KBIs a simple sum of Grp + Loc — that sum is what the labor standards actually reference. **Also flagged in the same ticket, still open:** Cook I has no labor standard set at all; Butcher is missing its hourly rate (easy fix). Discussed live on a call with Ahmed Chadid + Emre Kenan, Monday 7/20/26 11:30 AM.
+
+    **Confirmed against the actual `Unifocus forecast 2026.csv` export Emre uploaded (7/20/26) — two distinct issues, not one:**
+    - **Group side (#5401 Bqt Grp 4 Reception + its Cocktail/Full/Heavy/Lite lines #5411/#5431/#5441/#5421):** every value across all 12 periods is literally zero. Confirms Ahmed's diagnosis exactly — no Group reception forecast exists at all right now.
+    - **Local side — a second, separate problem found in the data, not yet raised by Ahmed:** #5402 (Bqt Loc 4 Reception, the Local total) *does* carry real forecast numbers in several periods. But #5432 (Loc Full), #5442 (Loc Heavy), and #5422 (Loc Lite) are not percentage splits of that total — they are **exact line-for-line duplicates of #5402** in every period (Cocktail #5412 stays zero). If the eventual fix sums Full+Heavy+Lite per Ahmed's model, this would **triple-count** Local reception volume. This sub-type duplication needs correcting on the Local side too, separately from the Group-side zero-input problem and the Ttl-level summation fix.
+    - **Ttl (resort combined) level (#5400 Bqt Ttl 4 Reception + Cocktail/Full/Heavy/Lite #5410/#5430/#5440/#5420):** all zero in every period, across the board — confirms the Ttl level isn't currently summing Grp+Loc at all (consistent with Ahmed's proposed fix: Ttl should just be Grp+Loc summed, not calculated independently).
+    - **Net picture for the fix:** (1) get real Group reception forecast data loaded, (2) rebuild Local's Full/Heavy/Lite as genuine splits of Local total (not duplicates), (3) wire Ttl as a straight sum of corrected Grp + corrected Loc. All three need to happen — fixing only the Ttl formula per Ahmed's original email would still be wrong today because the Local sub-type inputs feeding it are broken.
+
+    **Resolution decided on the 7/20/26 call:** Emre will update Rosewood's budget file to **import only into the four Ttl-level KBIs — #5100 (Bkfst), #5200 (Lunch), #5300 (Dinner), #5400 (Reception)**. Unifocus formulas then split each Ttl down into Plated/Buffet/Continental (meal periods) and the reception granularity levels (Cocktail/Full/Heavy/Lite) — and, per the existing documented KBI convention (see "Standard Banquet KBI Numbering Pattern" above), presumably also cascade into Grp/Loc for revenue-center forecasting, since **Group and Local are meant to be added back together for labor standards, not entered as separate inputs**. This confirms the root problem all along: Rosewood's forecast was uploaded into #5402 (Local) instead of #5400 (Ttl) — a wrong-KBI data-entry error, not a fundamentally different design needed. Resolves the open question above — no rebuild of the KBI structure needed, just correcting where the budget file's data lands.
+
+18. 🟡 **Rosewood "Stations" tracking request (breakfast/lunch/dinner stations, e.g. carving/cake-cutting)** — raised by property contact Lisette, discussed on the 7/20/26 call. Would require new KBIs mapped to jobs across all 4 properties (16+ mappings). Parked — not decided or scoped yet. Ahmed's suggested alternative: fold stations into existing "Plated" tier rather than building new granularity, unless a station genuinely needs a distinct culinary/server role. Full detail: `2026-07-20_bnq-hours-call-notes.md`.
+20. 🔴 **Rosewood Rooms Division restructuring — new thread, deadline-driven.** Rosewood moving to an all-butler room model (~1 month out from 7/20/26); Concierge + Guest Relations merging into one team under butlers. Current Unifocus standard is fixed and needs rebuilding around a new ~1.5 hrs/room/butler target. Ahmed offered to help; Pete also offered to help, possibly remotely — **potential new billable PWS thread, separate from campus-wide BQT scope.** Emre to send availability for a working session "next week or the week after" — hard deadline is Rosewood's **first payroll budget submission, end of August 2026.** Full detail: `2026-07-20_bnq-hours-call-notes.md` §7.
+21. **Rosewood Delphi granularity restoration — status unclear, needs confirmation.** Delphi was cut back to minimal event-classification granularity by someone before Pete's return (~mid-2025); Pete started an effort ~1 year ago to restore Plated/Buffet/Continental/Boxed + Heavy/Full/Light/Cocktail granularity to match Unifocus's original config. Megan has been pushing this with Rosewood but it's unclear if it was ever finished. **Constraint to remember:** any Delphi classification rename requires remapping ~4 KBIs per property × 4 properties (16+ changes) since descriptions must match Unifocus exactly — strong preference is getting Rosewood's Delphi text to match Unifocus, not the reverse.
 
 ### Blocked Items
 
@@ -411,6 +437,8 @@ Banquet files for all three properties are imported into all four properties. Ma
 | Tastings decision | Pete decision pending |
 | INHS mapping | Research pending |
 | Boat & Airline mapping | Pete + property decision |
+| Stations tracking (Rosewood) | Property (Lisette) to clarify exact requirement before scoping |
+| Delphi granularity restoration | Confirmation needed on whether prior effort was completed |
 
 ---
 
