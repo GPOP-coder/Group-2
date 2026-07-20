@@ -31,7 +31,7 @@
 | Seat | Director | Voting | Affiliation | Confirmed | Phone | Email |
 |---|---|---|---|---|---|---|
 | Fontenelle Forest | Michelle Foss (BttR Vice President) | Voting | Director, Resource Stewardship | 2/12/2021 | 970-310-9730 | MFoss@fontenelleforest.org |
-| MECA Tri-Park Complex | Katie Bassett | Voting | Vice President | 2/9/2024 | 402-658-2011c / 402-599-6915o | kbassett@omahameca.com |
+| MECA Tri-Park Complex | Katie Bassett | Voting | VP Capital Projects & Development (moved from The RiverFront in a 7/2026 MECA reorg) | 2/9/2024 | 402-658-2011c / 402-599-6915o | kbassett@omahameca.com |
 | BttR Founder | Bob Kerrey | Voting | Past Governor & US Senator; BTTR Founder; original member | Original member | — | bob.kerrey@gmail.com (see Resource Guests — Bob Holmstedt is his representative) |
 
 ## At Large Representatives (9 Board Seats)
@@ -45,7 +45,7 @@
 | At Large (BttR Treasurer) | David Dover | Voting | COO/President, Lifespan Mental Health; past Deputy Chief of Staff, City of Omaha; U.S. Navy Reserve (ret.) | Elected unanimously 7/17/2026 | 402-330-7979 | dover.david@gmail.com |
 | At Large | Clare Duda ⚠️ President title outdated, still active board member — see note above | Voting | Past Douglas County Board Member | Reappointed 2/12/2021 | 402-779-5157 | gayleduda@yahoo.com |
 | At Large | Chris Hamblin | Voting | Council Bluffs Ameristar Casino; Director Facilities/Security | — | 402-672-2980 | Chris.Hamblin@pennentertainment.com |
-| At Large | Heather Tomasek | Voting | Go Play Initiative, Founder; past Council Bluffs Parks, Rec. & Public Property staff | 9/24/2021 | — | heathertomasek@gmail.com |
+| At Large (BttR Assistant Secretary) | Heather Tomasek | Voting | Go Play Initiative, Founder; past Council Bluffs Parks, Rec. & Public Property staff | 9/24/2021 | — | heathertomasek@gmail.com |
 | At Large | Pete Castellano ⚠️ title outdated — see note above | Voting | Past US Senate and Omaha Mayor's staff; **BttR President since Nov 2025** | Original member | 402-669-0643 | pete.castellano@gmail.com |
 
 ## Resource Guests (Non-Board Members)
@@ -58,6 +58,10 @@
 | Douglas County Alternate | Kent Holm | Non-voting | Douglas County Environmental Services, Director | — | — |
 
 *(Mark Weekley, formerly listed here as National Park Service, retired — succeeded by Neal Bedlan as Superintendent. Confirmed by Pete 2026-07-17.)*
+
+*(Katie Bassett's successor at The RiverFront is Jaden Hill, per Katie's 7/17/26 email — Jaden to be introduced at the next board meeting. Katie remains on the board, now representing MECA's Capital Projects & Development role. Add Jaden Hill's contact info once available.)*
+
+**Officers of record, confirmed at the 7/17/26 board meeting:** Pete Castellano – President, Michelle Foss – Vice President, Mark Brohman – Secretary, Heather Tomasek – Assistant Secretary, David Dover – Treasurer, Karen Bluvas – Assistant Treasurer. See [2026-07-17_board-meeting-minutes.md](2026-07-17_board-meeting-minutes.md).
 
 ---
 

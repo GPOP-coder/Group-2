@@ -52,18 +52,20 @@ location: Yoga (Pensacola)
 | Role | Name | Status |
 |---|---|---|
 | President | Pete Castellano | Active |
-| Treasurer | David Dover | **Pending board approval** |
+| Treasurer | David Dover | **Elected unanimously 7/17/26** (was pending board approval at time of this meeting) |
 | Assistant Treasurer | Karen Bluvas | Active (financial coordination role expanded) |
-| VP | Michelle Voss | Active (banking access pending) |
-| Secretary | — | Open |
+| VP | Michelle Foss | Active |
+| Secretary | Mark Brohman | Confirmed 7/17/26 |
+
+**Update 7/17/26:** Board also authorized Pete Castellano and David Dover to make changes on BTTR's investment accounts at First National Bank (Karen's motion, carried) — resolves the "negotiate better investment account access" item below. Full minutes: `BTTR/2026-07-17_board-meeting-minutes.md`.
 
 ---
 
 ## Action Items (To-Do)
 
 - [ ] Add Karen Bluvas to BTTR FNBO online account
-- [ ] Add David Dover to BTTR FNBO online account (once board-approved)
-- [ ] Add Michelle Voss to BTTR FNBO online account
+- [ ] Add David Dover to BTTR FNBO online account — board-approved 7/17/26, ready to proceed
+- [ ] Add Michelle Foss to BTTR FNBO online account
 - [ ] Follow up with Karen on investment account access status
 - [ ] Confirm Karen has delivered documents to accountant
 - [ ] Confirm accountant has sufficient documents to complete taxes

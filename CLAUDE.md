@@ -228,7 +228,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
   - **Heathman, Portland** — Tentative: **Oct 12–15, 2026.** (Supersedes the earlier "config week of Sept 28" estimate — consistent with Ralph's stated intent to give Heathman more time before scheduling them, since they're mid-manager-turnover.)
   - **Greenleigh** — **NEW, 7/14/26.** Third MakeReady property, not previously tracked. Ralph flagged that Q4 dates need discussion soon, since Unifocus's PS team calendar is filling up with international projects. No dates yet — approximate Q4 timing only.
   - *(The Joseph Nashville is a Highgate property — managed by Highgate, not MakeReady. Steve Carrell did that consulting. Pete has no involvement.)*
-- **HMAlpha (spin-off of Dimension)** — 5 pilot properties confirmed (not 15); Pete as trainer
+- **HMAlpha (spin-off of Dimension)** — **Scope revised 7/17/26: confirmed 15 properties total** (DoubleTree Charlotte/Raleigh/San Diego Del Mar/Sunrise, Hilton Indianapolis/Scottsdale, Grand Hyatt Nashville, Hyatt Regency Valencia/Westlake, InterContinental New Orleans, Autograph Union Station Nashville, JW Marriott Houston, Marriott Del Mar/Warner Center, Westin La Paloma) — reverses the earlier "not 15" framing below; New Orleans + Nashville trained, WLP is #3 (Aug 17–21), 12 more still to schedule. Full contact sheet (GM/DOF/HR × 15) received from Nicole Mendez 7/17/26, added to contacts.csv. Pete as trainer.
   - **Jun 22 (week of):** New Orleans / Intercontinental — 3 days (1 admin + 2 manager; 13 managers). **BLOCKED pending HMAlpha approval to contact property.** Ralph says "every week they push it a week" due to BLSBD config issues (budget/standards misalignment). 50+ emails related to BLSBD concerns across 5 pilots. HMAlpha forcing direct calls with properties to resolve concerns before training proceeds.
   - **Jun 29 (week of):** Nashville / Autograph Union Station — 3 days (same structure as New Orleans; 13 managers)
   - **Aug 17 (week of):** Westin LaPalma — TBD days
@@ -245,7 +245,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
 - **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
 - **Aug 31, 2026 (week of)** — The Moran, Houston TX — MakeReady onsite training — ✅ CONFIRMED (rescheduled 7/14/26 from original Aug 10–14 date)
-- **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — ⚠️ NEW from 6/24 resource calendar; confirm with Ralph Varble
+- **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — property contacts now confirmed (7/17/26 Nicole Mendez list: Mark Ziomek GM, Valeria Ruvalcaba HR); still confirm exact week with Ralph Varble
 - **Oct 12–15, 2026** — Heathman, Portland OR — MakeReady onsite training — tentative
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
 - **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
@@ -274,6 +274,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
   - **Tom Hanafan interview — June 30, 2026** — Council Bluffs Mayor. Pete's phone recording stopped at 2:06 (picked up phone accidentally). Legacy contractors recorded audio — transcript coming, same as Daub and Kerrey. Hanafan's role: Council Bluffs side of the bridge story.
   - **Larry Foster** — Director of Parks & Recreation under Mayor Hal Daub; key figure in riverfront/bridge story; potential additional interview subject
 - **Lewis & Clark Monuments** — reviving an original BTTR project, series of monuments
+  - **HGM Associates Phase 1 Agreement** — board authorized Pete to sign 7/17/26 (Lewis and Clark Interpretive Trail Improvements, Phase 1): not-to-exceed $19,100 for Preliminary Design, Final Design Documents, Bidding, and Construction Administration on 8 of the icons (2 excluded), additional services hourly. Pete signing 7/19/26. See `BTTR/2026-07-17_board-meeting-minutes.md`.
 
 **🔴 Urgent: Recruit Treasurer**
 - Karen Bluvas is Assistant Treasurer but does not want the Treasurer role
@@ -444,12 +445,14 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [x] **Bob Kerrey polished transcript** — Filed 6/30/26 at BTTR/book-project/interviews/2026_0430_Bob_Kerrey_TRANSCRIPT.md
 - [ ] **Tom Hanafan transcript** — Legacy contractors recorded 6/30/26 interview; await audio/transcript delivery; same pipeline as Daub
 - [ ] **Reconcile claude.ai open items → CLAUDE.md** — review recent claude.ai "Pete" project chats for to-dos, reminders, and commitments that never made it here; Scribd cancellation reminder is a known example of the gap
+- [ ] **HGM Associates Phase 1 Agreement (Lewis & Clark icons)** — Signed by Pete 7/19/26, not-to-exceed $19,100, board-authorized 7/17/26; delivering to HGM Monday 7/20/26. Track executed copy + payment against BTTR accounting once QuickBooks is set up.
+- [ ] **Next BTTR board meeting** — Friday, October 23, 2026, 1:30 PM, Tom Hanafan River's Edge Park, Council Bluffs, IA (Dan Bettmann confirming room; possible Tower tour)
 - [x] BTTR Treasurer — **David Dover elected unanimously, July 17, 2026.** Suggested by Gary DiSilvestro; board met him for the first time at the July 17 meeting (NPS Regional HQ, 601 Riverfront Drive, Omaha). Board intro email sent 7/15/26; agenda + minutes forwarded to David in advance. Treasurer election was agenda item 5(a)i. See BTTR/board-roster.md and BTTR/2026-07-15_david-dover-board-introduction-draft.md.
 - [ ] **BTTR meeting** — coordinate with Karen Bluvas (Asst. Treasurer) + Cathie Kellogg CPA (BTTR accountant)
 - [x] **NTSG Registered Agent** — account setup complete 2026-06-10; vendor: Registered Agent Solutions, Inc. (RASi) | https://rasi.com | portal: https://rasi.corpliance.com/ | Brian Pride — Brian.Pride@wolterskluwer.com | 512-640-6606
 - [x] NTSG: pay insurance bill — Policy PHPK2741797-000; confirmed paid 6/8/26; policy copy received and stored 6/8/26; copy also sent to Lisa Carmichael. Elizabeth Hovorka (402) 330-7979.
 - [x] NTSG: picnic location deposit paid — 2026-06-10
-- [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography
+- [ ] **QuickBooks setup** — Explore eBay seller discount/promo pricing; set up company files for PWS, NTSG, BTTR, eBay/Photography. **BTTR entity: Pete to set up with David Dover** (new Treasurer) once his FNBO/board access is settled.
 - [ ] **Receipt attachment workflow** — Configure QB + Quicken Simplifi to accept receipt images; test Claude extraction → both systems
 - [ ] Ecosystem assignments for BTTR, NTSG, Photography, eBay, Father's POA (now mapped to QB)
 - [ ] Full tech stack inventory
