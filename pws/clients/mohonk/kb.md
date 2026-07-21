@@ -54,7 +54,7 @@ Last updated: 2026-07-03
 - Albany is physically closer but harder to fly into and likely more expensive
 - Must arrive **Sunday**, depart **Saturday** — Mohonk expects the full week
 
-**Next step:** Unifocus to schedule a follow-up call with Mohonk in ~2 weeks; Pete will be invited
+**Next step:** Pre-visit planning call being scheduled for the week of 7/20/26 (property wants to walk through their agenda before Pete arrives) — targeting Thursday afternoon after 2 PM, pending final confirmation between Pete and Susanna. Pete's read: the property may try to fit more onto this visit than one week can cover — he plans to tell them directly if so.
 **Pete's status:** Blocking first week of August; checking for conflicts with Kim
 
 ---
@@ -66,6 +66,7 @@ Last updated: 2026-07-03
 | UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
 | RMSOPS-14129 | Banquet actuals overwritten after entry | 🔴 Root cause found; fix requested from Monali 7/2/26 |
 | (no ticket needed) | Beverage jobs missing from Generate Schedules task's job selection | 🟢 Fixed 7/3/26 — see below |
+| [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) | Standard hours not generating Thursday–Sunday, recurring weekly | 🔴 Active — Critical priority; escalated to engineering 7/20/26, root cause unconfirmed |
 
 See [Interface Reference](interfaces.md) for full interface-by-interface status (Rooms KBI, F&B Covers, Banquet, Spa, ADP feeds) as of the 7/1/26 Interface Flow call.
 
@@ -183,6 +184,21 @@ Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
 ---
 
+### 🔴 Standard Hours Not Generating — Thursday Through Sunday (Recurring)
+**Ticket:** [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) — Priority: Critical
+**Reported by:** Bron Walis (ticket filer), escalating an internal email from James Danks (7/15/26) — recurring "almost every week for the past few months"
+**Status:** 🔴 Active — investigated 7/20/26 with Susanna Briggs; escalated to engineering (Jeremiah Lay, Mrigen Pradhan) post-call; root cause not yet confirmed
+
+**Issue:** Dining room covers for a given week import correctly and appear in the Weekly Labor Summary for all 7 days, but standard hour generation only produces hours for Monday–Wednesday — Thursday through Sunday generate nothing until someone manually regenerates. Recurs most weeks. Bron is deliberately holding off on manually regenerating this week so Unifocus can diagnose the broken state rather than a freshly-reset one.
+
+**Investigation (7/20/26):** Confirmed the Generate Standard Hours task runs 4x/day and that covers import correctly (spot-checked Main Dining Breakfast 7/12 = 379 covers, matching source). The gap is specifically between import and generation, not missing data. Leading theory is the same intermittent task-scheduler failure pattern seen in the [Founders outlet ticket](#-shifts-not-generating--founders-outlet) below — where the eventual fix was standing up a brand-new task and disabling the stale one, rather than editing in place — but this wasn't confirmed live.
+
+**Related tickets:** UNIFOCUS-246799 (linked, Closed, Critical), UNIFOCUS-248911, UNIFOCUS-246836 — worth checking for a shared root cause.
+
+Full call notes: [2026-07-20_standard-hours-thu-sun-call.md](2026-07-20_standard-hours-thu-sun-call.md)
+
+---
+
 ### ✅ Incomplete / Short Shifts — Main Dining Room Server
 **Reported by:** James Danks, May 25, 2026
 **Job:** `2 - Food and Beverage\Dining Room - Main\Server`
@@ -254,3 +270,4 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 
 - [Interface Reference](interfaces.md) — full Rooms/F&B/Banquet/Spa/ADP interface map and status
 - [Call Notes — Unifocus Interface Flow, 7/1/26](2026-07-01_unifocus-interface-flow-call.md)
+- [Call Notes — Standard Hours Thu–Sun Investigation, 7/20/26](2026-07-20_standard-hours-thu-sun-call.md)
