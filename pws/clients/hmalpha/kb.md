@@ -151,6 +151,8 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [Westin La Paloma — Contacts](westin-la-paloma/contacts.md)
 - [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
+- [InterContinental New Orleans — Go-Live Support Week 1 (7/14/26)](intercontinental-new-orleans/2026-07-14_go-live-support-week1-meeting-notes.md)
+- [InterContinental New Orleans — Go-Live Support Week 2 (7/21/26)](intercontinental-new-orleans/2026-07-21_go-live-support-week2-meeting-notes.md)
 - [Hyatt Westlake — Contacts](hyatt-westlake/contacts.md)
 - [Hilton Indianapolis — Contacts](hilton-indianapolis/contacts.md)
 - [DoubleTree Charlotte — Contacts](doubletree-charlotte/contacts.md)

@@ -16,6 +16,8 @@
 | Matthew | Assistant General Manager (AGM) | — | Very hands-on in setting labor standards; first name only from call |
 | Maya | Director of Rooms | — | Needs to be actively forecasting arrivals + guests in ProfitSword; Pete showed her onsite |
 | Mary Grace | EVP Sales | — | Met with revenue managers 6/29 to assess ProfitSword bandwidth |
+| Chantelle Twillmann | Director of Finance (DOF) | — | Primary attendee on weekly go-live support calls |
+| Jonathan | Director of Food & Beverage | — | First name only from call; joined weekly go-live support calls starting Week 2 (7/21/26) |
 
 ---
 
