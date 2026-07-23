@@ -27,6 +27,14 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | Naked Gun: From the Files of Police Squad! (1988) | — |
 | Monty Python and the Holy Grail (1975) | — |
 | Ferris Bueller's Day Off (1986) | — |
+| Caddyshack (1980) | — |
+| Spaceballs (1987) | — |
+| Blazing Saddles (1974) | — |
+| Monty Python's The Meaning of Life (1983) | — |
+| Monty Python's Life of Brian (1979) | — |
+| The Treasure of the Sierra Madre (1948) | — |
+| The Princess Bride (1987) | — |
+| It's a Wonderful Life (1946) | — |
 
 ---
 
