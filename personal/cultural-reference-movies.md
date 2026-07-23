@@ -13,6 +13,8 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 
 | Movie | Why It Matters |
 |---|---|
+| Gone with the Wind (1939) | "Frankly, my dear, I don't give a damn"; "Tomorrow is another day"; epic of the Civil War and Reconstruction South; Scarlett O'Hara as the survivor archetype; held the all-time box office record for decades; a towering film with a deeply contested legacy around its romanticization of the antebellum South |
+| Casablanca (1942) | "Here's looking at you, kid"; "Of all the gin joints in all the towns in all the world, she walks into mine"; "We'll always have Paris"; "Round up the usual suspects"; Rick Blaine as the reluctant idealist forced off the sidelines; arguably the most quotable film ever made; WWII moral clarity distilled into 102 minutes |
 | The Wizard of Oz (1939) | "There's no place like home"; "Pay no attention to the man behind the curtain"; the yellow brick road; Technicolor as a narrative device; cultural shorthand for transformation, illusion, and the power of home |
 | The Godfather (franchise) | "I'm gonna make him an offer he can't refuse"; the definitive American crime saga; power, loyalty, and family as moral framework; widely considered among the greatest films ever made |
 | Ghostbusters (1984) | "Who you gonna call?"; "Don't cross the streams"; blue-collar entrepreneurship vs. government bureaucracy; defined 1980s blockbuster comedy |
