@@ -35,6 +35,9 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | The Treasure of the Sierra Madre (1948) | — |
 | The Princess Bride (1987) | — |
 | It's a Wonderful Life (1946) | — |
+| Soylent Green (1973) | — |
+| Planet of the Apes (1968) | Original only |
+| Shane (1953) | — |
 
 ---
 
