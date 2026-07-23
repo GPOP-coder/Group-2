@@ -40,6 +40,9 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | Shane (1953) | "Shane, come back!"; quintessential American western moral framework — the reluctant hero who cannot escape his past; a man of violence choosing peace; influenced nearly every western and action film that followed |
 | The Searchers (1956) | Pete: best John Wayne film. Widely considered the greatest American western ever made; obsession, racism, and the dark underside of frontier mythology; "That'll be the day"; direct influence on Scorsese, Spielberg, Lucas, and Ford's own legacy |
 | E.T. the Extra-Terrestrial (1982) | "E.T. phone home"; the bicycle silhouette against the moon; Spielberg at his most purely emotional; childhood wonder, friendship, and loss; the alien as innocent outsider; John Williams score is inseparable from the imagery |
+| 2001: A Space Odyssey (1968) | "Open the pod bay doors, HAL"; "I'm sorry, Dave, I'm afraid I can't do that"; Kubrick's meditation on human evolution, technology, and AI; the bone-to-spacecraft cut; Also Sprach Zarathustra; the most visually and philosophically influential science fiction film ever made |
+| High Noon (1952) | Gary Cooper alone against the clock while the town abandons him; "Do not forsake me, oh my darling"; written as an allegory for the Hollywood blacklist and McCarthyism (Carl Foreman wrote it while blacklisted); defined the ticking-clock structure and the lone principled man standing against cowardice |
+| Easter Parade (1948) | Fred Astaire and Judy Garland; Irving Berlin score; "We're a Couple of Swells"; quintessential Golden Age Hollywood musical; Garland at her peak; defines the MGM musical era |
 
 ---
 
@@ -48,6 +51,8 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 | Show | Why It Matters |
 |---|---|
 | Star Trek (1966–1969) | "Beam me up, Scotty"; "Live long and prosper"; "He's dead, Jim"; the original ensemble — Kirk, Spock, McCoy as id/superego/ego; used science fiction to address race, war, and Cold War politics that couldn't be said directly on 1960s TV; launched a franchise that never stopped |
+| M*A*S*H (1972–1983) | Korean War setting used to comment on the Vietnam War; Hawkeye Pierce as the moral conscience; dark comedy as anti-war vehicle; the 1983 series finale drew 106 million viewers — the most-watched TV episode in history at the time; "Suicide Is Painless" as theme |
+| Cheers (1982–1993) | "NORM!" — the bar cheers his name every time he walks in, the ultimate belonging moment; "Where everybody knows your name"; the bar as community; defined the ensemble sitcom for a decade; spawned Frasier |
 | Get Smart (1965–1970) | Maxwell Smart = Agent 86. Spy parody — only works if you know spy tropes. Pete pondering "Agent 86" as the name for his Chief of Staff agent. |
 | The Brady Bunch (1969–1974) | Cultural shorthand for blended family, suburban idealism, American TV family mythology |
 | Gilligan's Island (1964–1967) | Every character is an archetype; the situation is a lens for human nature |
