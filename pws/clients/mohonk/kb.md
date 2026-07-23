@@ -63,7 +63,7 @@ Last updated: 2026-07-03
 
 | Ticket | Subject | Status |
 |---|---|---|
-| UNIFOCUS-247559 | Founders outlet — shifts not generating | 🔴 Active |
+| UNIFOCUS-247559 | Founders outlet — shifts not generating | ✅ Closed 7/1/26 — Task Scheduler fix (new task, old disabled); precedent for UNIFOCUS-252999 below |
 | RMSOPS-14129 | Banquet actuals overwritten after entry | 🔴 Root cause found; fix requested from Monali 7/2/26 |
 | (no ticket needed) | Beverage jobs missing from Generate Schedules task's job selection | 🟢 Fixed 7/3/26 — see below |
 | [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) | Standard hours not generating Thursday–Sunday, recurring weekly | 🔴 Active — Critical priority; escalated to engineering 7/20/26, root cause unconfirmed |
@@ -118,7 +118,11 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 
 **🚩 Pete's read (7/2/26): Not confident this is actually resolved.** Susanna asked Melody 6/29 whether the new task had been verified to fix it and got no response on that specific question before Melody's 7/1 resolution comment — the resolution reads as asserted, not demonstrated with evidence (no screenshot/data cited). **Action: verify directly in the live system that Founders shifts are now generating before the 72-hour reopen window closes, and reopen the ticket if not confirmed.**
 
+**Ticket officially closed** — the 72-hour reopen window passed without Pete reopening (Pete's own verification 7/2/26, admin login, confirmed Standard Hours generating for all four Founders jobs, satisfied his concern above). Final Jira record: reported by James Danks 5/28/26 → Heather Close initial acknowledgment same day → Melody's Task Scheduler fix (new task, prefix `07a.`, old task disabled) same day → Susanna's 6/29 check-in on verification → Melody's formal resolution comment 7/1/26 → closed.
+
 **Related tickets flagged by Jira automation (possibly same underlying bug pattern):** UNIFOCUS-246836, UNIFOCUS-246800, UNIFOCUS-246799 — not yet reviewed, worth checking for a recurring pattern across properties.
+
+**⚠️ Directly relevant to the new Thu–Sun standard-hours ticket:** [UNIFOCUS-252999](#-standard-hours-not-generating--thursday-through-sunday-recurring) (opened 7/15/26, still active as of 7/22/26) looks like the same underlying Task Scheduler failure mode resurfacing — the "recreate the task, disable the stale one" fix that resolved this ticket is the leading theory there too. Worth citing this ticket's resolution path directly in 252999 if Unifocus engineering hasn't already made the connection.
 
 ---
 
@@ -193,7 +197,13 @@ Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
 **Investigation (7/20/26):** Confirmed the Generate Standard Hours task runs 4x/day and that covers import correctly (spot-checked Main Dining Breakfast 7/12 = 379 covers, matching source). The gap is specifically between import and generation, not missing data. Leading theory is the same intermittent task-scheduler failure pattern seen in the [Founders outlet ticket](#-shifts-not-generating--founders-outlet) below — where the eventual fix was standing up a brand-new task and disabling the stale one, rather than editing in place — but this wasn't confirmed live.
 
-**Related tickets:** UNIFOCUS-246799 (linked, Closed, Critical), UNIFOCUS-248911, UNIFOCUS-246836 — worth checking for a shared root cause.
+**Related tickets:** UNIFOCUS-246799 (linked, Closed, Critical), UNIFOCUS-248911, UNIFOCUS-246836 — worth checking for a shared root cause. Also see [UNIFOCUS-247559](#-shifts-not-generating--founders-outlet) above — same property, same Task Scheduler failure pattern, resolved there by standing up a replacement task and disabling the stale one.
+
+**Update — Heather Close (Unifocus), 7/22/26 6:36 AM GMT:** "The last Project Standard Hours process ran at 2026-07-22 02:00:06.757 and standard hours appear to be generated for any date that has actuals up to 7/21/2026. The last date with data in the import file is 7/16/2026." She could not get the Labor Standards screen to load to verify the generated standards directly ("tried on and off this evening"), and will pick it back up in the morning.
+
+**New wrinkle worth flagging:** Heather's note implies the covers/actuals *import itself* has been stale since 7/16/26 — no new data has come in since then, which is a different (and potentially more serious) problem than the original Thu–Sun generation gap. Worth confirming with Heather whether this is a temporary reporting artifact (e.g., nothing to import because the property hasn't sent a file) or an actual break in the import pipeline — if covers stopped flowing entirely on 7/16, that would explain generation gaps far more directly than an intermittent Task Scheduler bug.
+
+**Pete's hypothesis (7/22/26): this is an interface timing issue, not a Task Scheduler bug.** Fits the F&B Covers flow already documented in [interfaces.md](interfaces.md#fb-covers--high-priority) — Accounting only transposes and uploads covers to Datavision **Monday–Friday**, and the original 7/1/26 finding was explicit: *"If Friday–Sunday cover numbers aren't entered before 8AM Tuesday, no standard hours generate on the Tuesday afternoon/Wednesday labor reports."* Since accounting doesn't run on weekends, Thursday–Sunday covers can't reach Datavision until the following Monday at the earliest — if the standard-hours generation runs don't have one scheduled with enough buffer after that Monday upload completes, Thu–Sun will keep coming up empty almost every week, which matches the reported recurrence exactly. This reframes the fix path: instead of (or in addition to) the Task-Scheduler-recreate approach that worked for the Founders ticket, the real fix may be **retiming the generation runs** to land after the Monday catch-up upload, or shortening the accounting-to-Datavision lag itself.
 
 Full call notes: [2026-07-20_standard-hours-thu-sun-call.md](2026-07-20_standard-hours-thu-sun-call.md)
 

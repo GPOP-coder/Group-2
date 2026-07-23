@@ -13,7 +13,7 @@
 - Devon Peters (HMAlpha)
 - Nicole Mendez (HMAlpha)
 - Taylor Walton (Unifocus — post-go-live support lead, joined partway through, left partway through for another call)
-- Manali (Unifocus — data/interfaces team)
+- Monali (Unifocus — data/interfaces team)
 - Raman/Taman (Unifocus — dev team; name uncertain, phonetically closer to "Taman" in the transcript)
 - Steve Carrell (Unifocus)
 - John (Unifocus — role unclear, briefly acknowledged near the close)
@@ -22,7 +22,7 @@
 ---
 
 ## Summary
-Devon and Nicole opened with a strongly positive debrief of the three-day training. The call then worked through several open items directly with Ralph and the broader Unifocus team: the still-unresolved standard-vs-actual cost/rate methodology question, Ralph's proposed approach to budgeting and a strategic timing question from Devon, a live confirmation of the banquet-budgeting "spiky zeros" problem, Wave 2 property setup status, Nicole's KBI-mapping continuation with Manali, and a scheduling/Paychecks sync bug that Taylor's update confirmed as the top pain point across all live properties.
+Devon and Nicole opened with a strongly positive debrief of the three-day training. The call then worked through several open items directly with Ralph and the broader Unifocus team: the still-unresolved standard-vs-actual cost/rate methodology question, Ralph's proposed approach to budgeting and a strategic timing question from Devon, a live confirmation of the banquet-budgeting "spiky zeros" problem, Wave 2 property setup status, Nicole's KBI-mapping continuation with Monali, and a scheduling/Paychecks sync bug that Taylor's update confirmed as the top pain point across all live properties.
 
 ---
 
@@ -69,13 +69,13 @@ Ralph, unprompted, described the exact same mechanical issue Pete taught in Day 
 
 ---
 
-## KBI Mapping Continuation — Nicole & Manali
+## KBI Mapping Continuation — Nicole & Monali
 Nicole is extending the InterContinental New Orleans Delphi/CI dummy-file mapping exercise (built during Day 1 of training) to the rest of the portfolio, to make sure every property's full set of possible event types is captured up front.
 
-- Confirmed Manali received and approved the CI mapping file Nicole sent for InterContinental; Nicole finishing the remaining event-type mapping the same day.
+- Confirmed Monali received and approved the CI mapping file Nicole sent for InterContinental; Nicole finishing the remaining event-type mapping the same day.
 - **Field-mapping questions resolved live, directly relevant to the open item from Day 3 training** (whether CI has an equivalent to Delphi's Group/Local/In-House rollup field):
-  - CI's **"Function Type"** field ≈ Delphi's event/booking type field — confirmed equivalent by Manali.
-  - CI's **"Group Type"** field (values include Group, In House, Local Rooms Only, Tour Series Group, and others) is the field that maps down to Delphi's three-way **Booking Revenue Type (Banquet/Catering/In-House)** distinction — **this resolves the open Day 3 question**: CI does have an equivalent rollup field, it's just named differently and has more granular values than Delphi's three. Manali confirmed: map whichever Group Type values apply to the corresponding function type/category.
+  - CI's **"Function Type"** field ≈ Delphi's event/booking type field — confirmed equivalent by Monali.
+  - CI's **"Group Type"** field (values include Group, In House, Local Rooms Only, Tour Series Group, and others) is the field that maps down to Delphi's three-way **Booking Revenue Type (Banquet/Catering/In-House)** distinction — **this resolves the open Day 3 question**: CI does have an equivalent rollup field, it's just named differently and has more granular values than Delphi's three. Monali confirmed: map whichever Group Type values apply to the corresponding function type/category.
 - Nicole is only currently working from two source files (a source system referred to in the transcript as something like "Shell 5" — name unclear/likely mistranscribed — and CI); broader access is still pending:
   - **Hilton Delphi access** — license signed, access itself still pending; hoped for by the next day or early the following week.
   - **Envision access** — also actively being worked on Unifocus's side; hoped for by the next day.
@@ -93,7 +93,7 @@ Nicole is extending the InterContinental New Orleans Delphi/CI dummy-file mappin
 - **The universal pain point, called out explicitly by Taylor:** when a shift or an entire day is deleted in Unifocus **after** it was already exported to Paychex, the deletion doesn't propagate — Paychex keeps showing the stale data, producing duplicate schedules. Root cause: the interface was originally built assuming Paychex would cleanly "delete and replace," but Paychex isn't actually behaving that way. A support ticket is open with Paychex, who has provided guidance on next steps; Unifocus's dev team has started the fix.
 
 ### Fix in Progress
-- **Manali** is separately investigating whether a **third daily schedule-send run** (in addition to the current AM/PM sends) is feasible — contingent on a concurrent dedup fix (avoiding duplicate schedule sends to Paychex) that's expected to land **early next week**; that work will determine whether Paychex's task volume can support a third sync.
+- **Monali** is separately investigating whether a **third daily schedule-send run** (in addition to the current AM/PM sends) is feasible — contingent on a concurrent dedup fix (avoiding duplicate schedule sends to Paychex) that's expected to land **early next week**; that work will determine whether Paychex's task volume can support a third sync.
 - **Dev team (Raman/Taman) needs a live test environment** to validate a bulk multi-shift-deletion fix safely, without touching real production payroll data — requested a "dummy" schedule scenario on a property already using the live scheduling interface.
   - **Suggested to scope the test at the manager (salaried) level** specifically, so a mistake wouldn't affect hourly employee pay data.
   - **Considered and rejected:** faking a schedule on a not-yet-live Wave 2 property — even moving dates into the future would eventually collide with that property's real Paychex schedule and require manual cleanup once they go live for real.
@@ -112,9 +112,9 @@ Devon publicly thanked **Taylor** (for patience through the post-go-live Q&A, es
 - [ ] **Devon/Ralph sidebar conversation:** strategic decision on how much to lean on Unifocus for this year's budget cycle vs. waiting for a full year of portfolio data next year.
 - [ ] **Resolve F&B/banquet volume granularity question:** does Unifocus need full event-type detail from HMAlpha, or can budget-side volume input be more aggregated?
 - [ ] **Union Station region-grouping bug** — now reported directly to Ralph (in addition to being flagged during Day 3 training) — needs an actual fix, not just documentation.
-- [ ] **Nicole to build and send a KBI-mapping dummy file to Manali** for the next property (using the CI Function Type / Group Type mapping confirmed on this call), continuing the property-by-property completeness exercise.
+- [ ] **Nicole to build and send a KBI-mapping dummy file to Monali** for the next property (using the CI Function Type / Group Type mapping confirmed on this call), continuing the property-by-property completeness exercise.
 - [ ] **Nicole to determine the right daily send time** for centralized Delphi/CI mapping files, once sending becomes routine — depends on when each source system's report refreshes.
 - [ ] **Devon/Nicole to confirm the right property contacts** for the 3 Wave 2 properties flagged earlier the same day, ahead of kickoff call scheduling.
 - [ ] **Wave 2 kickoff calls** — schedule for next week or the week after; trim the call count slightly versus the prior kickoff round.
 - [ ] **Scheduling/Paychecks sync bug fix:** Unifocus dev team to coordinate with Devon/Nicole and JW Marriott to run a live test of bulk schedule deletion; targeting as early as the next day for test kickoff.
-- [ ] **Manali's dedup fix** (early next week) will determine whether a third daily schedule-send run to Paychecks becomes feasible.
+- [ ] **Monali's dedup fix** (early next week) will determine whether a third daily schedule-send run to Paychecks becomes feasible.

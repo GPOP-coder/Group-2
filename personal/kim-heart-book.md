@@ -34,6 +34,7 @@ Full text in: `journal/2026-06-20_kim-meets-donor-daughter.md`
 |---|---|
 | Full meeting journal entry + CNN transcript | `journal/2026-06-20_kim-meets-donor-daughter.md` |
 | Tamara Holland contact info | CLAUDE.md — Family table |
+| Kim's life timeline (dates/places from old receipts & documents, pre-dates the transplant) | `personal/kim-timeline-log.md` |
 
 ---
 

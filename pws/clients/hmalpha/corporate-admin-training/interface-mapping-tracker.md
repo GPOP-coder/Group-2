@@ -48,10 +48,10 @@
 *(Add more properties as we confirm their EMS during training.)*
 
 ### Centralized Reporting Process (confirmed 7/14)
-- Reports are being **centralized through Nicole** rather than each property submitting individually — Nicole will receive **4 reports per day total** (one per brand: Marriott/CI-TY, IHG/Delphi, Hilton/Delphi, Hyatt/Envision), then Manali maps/imports on the Unifocus side.
+- Reports are being **centralized through Nicole** rather than each property submitting individually — Nicole will receive **4 reports per day total** (one per brand: Marriott/CI-TY, IHG/Delphi, Hilton/Delphi, Hyatt/Envision), then Monali maps/imports on the Unifocus side.
 - **Destination:** files go to **PMSfiles@unifocus.com**
 - **Mapping confirmation status (as of 7/14):**
-  - ✅ Marriott/CI-TY format confirmed good by Manali — built from Triana's InterContinental export, condensed to only the columns Manali needs (removed manager/other columns not required)
+  - ✅ Marriott/CI-TY format confirmed good by Monali — built from Triana's InterContinental export, condensed to only the columns Monali needs (removed manager/other columns not required)
   - ⚠️ Still need confirmation on: the Hyatt/Envision format (sent by "Julie") and the second Delphi format (Hilton's — sent by Triana, not Julie)
   - **Update (7/14):** Pete found a formal written spec package DOES exist — Monali Desai (Data Integration Specialist, mdesai@unifocus.com) sent specs + sample files on 8/8/2022 for exactly four interfaces: (1) Employee Reconciliation, (2) Hours and Dollars, (3) Actual KBIs, (4) Banquet BEOs. That confirms these are Unifocus's canonical named interface categories, matching what's been built organically in this tracker. **Open:** Pete emailed Monali 7/14/26 5:36 PM asking whether these 2022 specs are still current and where to source them going forward (a standing location vs. asking each time) — awaiting her reply. Pete's framing to her: just checking for reference to help Nicole, not changing anything already running for HMAlpha.
 - **Historicals status:** 2+ years of data (starting 2024) sent for Marriott/CI-TY in the confirmed format; not yet imported for InterContinental (blocked on mapping being finalized — see onboarding process below)
@@ -64,7 +64,7 @@
 5. Only after that's validated, backfill/import full historical data (however many years are available)
 6. **Each property's mapping starts blank** — even properties on the same brand/EMS don't inherit another property's mapping. This is by design.
 7. **Watch for miscategorized source data:** one property had been putting every single banquet event into "Continental Breakfast" in their EMS because no one was using the real event-type field — always sanity-check what the source categories actually mean before trusting the import, not just whether the technical pipe works
-8. IT/technical contact for the EMS feed varies by property/brand — there's no single universal contact. Best practice: identify whoever manages the EMS at each property (could be brand IT, a regional event-systems person, sometimes a "sales-y" role) and let them coordinate directly with Manali on the technical/file-format level, rather than Devon/Nicole being the go-between on that layer.
+8. IT/technical contact for the EMS feed varies by property/brand — there's no single universal contact. Best practice: identify whoever manages the EMS at each property (could be brand IT, a regional event-systems person, sometimes a "sales-y" role) and let them coordinate directly with Monali on the technical/file-format level, rather than Devon/Nicole being the go-between on that layer.
 
 ### Banquet KBI Mapping — Hands-On Walkthrough (Day 1, bonus Session 3, 7/14 — worked live with Nicole on InterContinental/Delphi)
 
@@ -82,7 +82,7 @@ Both live under **Setup → Labor → [Input] Actual KBI Mapping** and **Setup �
 - **Actual KBI Mapping:** you start from the Unifocus KBI (e.g. "Banquet Local Breakfast Buffet") and **add lines** to it — multiple Delphi source codes (e.g. both "Catering" and "In House") can be added as separate lines feeding into that *one* KBI, since Local = Catering + In-House combined. A given KBI should only appear once as a mapped target, but that one entry can absorb multiple source lines.
 - **Forecast KBI Mapping:** the direction reverses — you start from the source/mapping code and assign it a KBI. Here, the **mapping code must be unique per row** (can't reuse a mapping code), but the **same KBI can be selected on multiple different rows** (e.g. two separate forecast rows, one tied to the Catering source code and one tied to the In House source code, both pointing at the same "Local Breakfast Buffet" KBI). Since row titles are otherwise identical, give each a distinguishing suffix (e.g. "...Breakfast Buffet - CA" vs. "...Breakfast Buffet - IH").
 - **Revenue Centers don't get their own forecast import** — they're generated automatically from the Rooms Forecast + Banquet Forecast (the independent-variable inputs), confirming the independent/dependent-variable relationship already noted under Forecasting.
-- Manali has to import the dummy/test file **twice** — once against Actual KBI Mapping, once against Forecast KBI Mapping — "completely different programs" even though conceptually linked.
+- Monali has to import the dummy/test file **twice** — once against Actual KBI Mapping, once against Forecast KBI Mapping — "completely different programs" even though conceptually linked.
 - UI mechanics: you must click **Edit** before a mapping screen becomes editable — can't just start typing. New line numbers auto-assign and **cannot be changed after creation** — plan out your full list of intended mappings before starting, since the screen only sorts by line number (not by KBI name), and finding one missing mapping later means scrolling through however many dozens/hundreds already exist.
 
 #### Building the dummy/test file — concrete method
@@ -109,7 +109,7 @@ Both live under **Setup → Labor → [Input] Actual KBI Mapping** and **Setup �
 
 ## Other Interfaces to Eventually Document
 - [ ] Fill in Frequency / exact UF menu path for the TBD rows above as they come up in training
-- [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Manali (Marriott/CI-TY already confirmed)
+- [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Monali (Marriott/CI-TY already confirmed)
 - [ ] **Pending Monali's reply (asked 7/14):** confirm the 2022 spec package (Employee Reconciliation, Hours and Dollars, Actual KBIs, Banquet BEOs) is still current, and find out where to source it going forward instead of asking each time
 - [ ] Ask InterContinental/Matthew what "Breakfast Sales" event type actually means in Delphi
 - [ ] Confirm which department owns "Amenity Delivery" at InterContinental (house persons vs. in-room dining)

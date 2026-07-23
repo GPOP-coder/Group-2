@@ -114,19 +114,19 @@
 ### 4. Granular Banquet Data — Delphi Integration
 - Currently receiving only total lunch / total dinner from Delphi (not granular by event type)
 - Property wants to switch to granular — system is set up for it, just needs the Delphi feed
-- Triana (HM Alpha) working with Duff on report parameters in Delphi; email sent to Manali today for confirmation
+- Triana (HM Alpha) working with Duff on report parameters in Delphi; email sent to Monali today for confirmation
 - Until integration is live: manual daily send from Delphi → HM Alpha team → property
 - HM Alpha team getting Delphi access (Devin already submitted IHG brand-level request)
 - Plan: Make screenshot how-to for DOS team to run and send the report daily
 - Nicole may be able to work with DOS onsite next week to get it set up
-- **Action: Devin/Triana → confirm with Manali; get Delphi access; set up manual send process**
+- **Action: Devin/Triana → confirm with Monali; get Delphi access; set up manual send process**
 
 ### 5. BEO Dummy File Strategy (Pete's recommendation)
 - Can't map event types in Unifocus until you've seen them at least once in an import
-- **Strategy:** Extract all event types from their Delphi file, create a dummy BEO file with every combination, import it once with Manali, map everything, then delete the dummy records
+- **Strategy:** Extract all event types from their Delphi file, create a dummy BEO file with every combination, import it once with Monali, map everything, then delete the dummy records
 - One-time import "lights up" all mapping options permanently
 - Pete shared this with Nicole previously; flagging for Devin to know
-- **Action: Pete + Manali → execute dummy file import after Delphi access is confirmed**
+- **Action: Pete + Monali → execute dummy file import after Delphi access is confirmed**
 
 ### 6. Pre-Training Email to Property
 - Steve has not yet sent the introductory email to the property
