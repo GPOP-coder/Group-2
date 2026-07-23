@@ -47,6 +47,7 @@ At a Unifocus in-person conference, the team spent a month building a list and v
 
 | Show | Why It Matters |
 |---|---|
+| Star Trek (1966–1969) | "Beam me up, Scotty"; "Live long and prosper"; "He's dead, Jim"; the original ensemble — Kirk, Spock, McCoy as id/superego/ego; used science fiction to address race, war, and Cold War politics that couldn't be said directly on 1960s TV; launched a franchise that never stopped |
 | Get Smart (1965–1970) | Maxwell Smart = Agent 86. Spy parody — only works if you know spy tropes. Pete pondering "Agent 86" as the name for his Chief of Staff agent. |
 | The Brady Bunch (1969–1974) | Cultural shorthand for blended family, suburban idealism, American TV family mythology |
 | Gilligan's Island (1964–1967) | Every character is an archetype; the situation is a lens for human nature |
