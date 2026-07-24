@@ -50,16 +50,16 @@ Full text not reproduced here; this is a working summary of governance provision
 - **Assistant officers:** serve under their respective principal officer (Secretary/Treasurer) and ultimately the President.
 - **No compensation** for Board service (Article III §... / confirmed under "Compensation").
 
-## Current Officer Mapping (per board-roster.md, as of 2026-07-08)
+## Current Officer Mapping (updated 2026-07-24, per 2026-07-17 board meeting minutes)
 
 | Executive Committee Seat | Current Holder |
 |---|---|
 | President | Pete Castellano (since Nov 2025) |
 | Vice President | Michelle Foss |
 | Secretary | Mark Brohman |
-| Treasurer | **Vacant** — Karen Bluvas is Assistant Treasurer only; David Dover is a candidate, would fill Gayle Malmquist's former At-Large seat if selected |
-| Additional member #1 | Not yet identified in current records |
-| Additional member #2 | Not yet identified in current records |
+| Treasurer | **David Dover** — elected unanimously 7/17/26 (previously vacant); also holds an At Large board seat (the seat formerly held by Gayle Malmquist), same dual pattern as Gayle held At Large + Treasurer before him |
+| Additional member #1 | Heather Tomasek (Assistant Secretary) |
+| Additional member #2 | Karen Bluvas (Assistant Treasurer) |
 
 ## Records Requirements (Article VI)
 

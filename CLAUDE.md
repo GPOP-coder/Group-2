@@ -242,17 +242,18 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 **Upcoming Travel (calendar coordination needed):**
 - **Jun 14–21, 2026** — Orlando: watch Camille's house + dog, proximity to Dad; Father's Day away from kids/grandkids. Booked: SW C8R96Z (OMA-MCO, WN435). **Return may go MCO→MSY direct (straight to New Orleans) — do not book OMA return until New Orleans status confirmed.**
 - **Jun 22–26, 2026 (tentative)** — New Orleans / Intercontinental — HMAlpha onsite training (3 days: 1 admin + 2 manager for 13 managers). **Status (6/15): HMAlpha not yet approved to contact property. Ralph says approval "every week they push it a week" — expect last-minute confirmation. If confirmed, book MCO→MSY on Jun 21 instead of MCO→OMA. MCO→MSY and MSY→OMA are PWS billable — separate expense report from Orlando personal trip. Cannot contact property until HMAlpha says OK. Pete to brief with Steve (config) and Akram (training email) on Tuesday 6/16.**
-- **Aug 2–7, 2026** — Mohonk Mountain House (onsite standards revision, comp room). Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
+- **Aug 2–8, 2026** — Mohonk Mountain House (onsite standards revision + training, comp room). Full Sunday–Saturday week per Mohonk's request. Booked: AA GFLPYC (OMA-ORD-EWR, departs 7:00 AM).
 - **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
 - **Aug 31, 2026 (week of)** — The Moran, Houston TX — MakeReady onsite training — ✅ CONFIRMED (rescheduled 7/14/26 from original Aug 10–14 date)
 - **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — property contacts now confirmed (7/17/26 Nicole Mendez list: Mark Ziomek GM, Valeria Ruvalcaba HR); still confirm exact week with Ralph Varble
 - **Oct 12–15, 2026** — Heathman, Portland OR — MakeReady onsite training — tentative
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
-- **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble
+- **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble. Outbound flight OMA→HOU (Houston, gateway airport for Galveston) via DFW, Fri 11/27/26, American Airlines. **AA-initiated schedule change received 7/23/26** — no action required unless Pete wants to change it: OMA-DFW now AA 2540 dep 6:00 AM (was 5:00 AM) arr 8:14 AM (was 7:07 AM); DFW-HOU now AA 6413 (was AA 3467), Bombardier CRJ700 (was Embraer 175), dep 9:40 AM arr 11:04 AM (was dep 8:17 AM arr 9:40 AM) — overall arrival in Houston about 84 minutes later than originally booked. Seats 3A/3B unchanged on first leg; second-leg seats changed to 2C/2D (was 2D/2F).
 
 **Unifocus Employment Opportunity**
 - Product Owner role under Priyanka Kalia (VP Product Management) — **role went to Daniel (June 10, 2026)**
 - Pete is at peace with the outcome; sees his path as a **WFM evangelist** (consultant/trainer), not an employee PO
+- **Even though he didn't get the role, it was clear both John Lockyer (CEO) and Priyanka Kalia wanted Pete around.** Priyanka told him directly that the Product Owner job would have **"bogged him down" from his best contributions** — a validation, from the hiring VP herself, that his highest value is architectural/strategic consulting work, not day-to-day product ownership administration. Pete is using this as supporting evidence in the Unifocus contract rewrite for a premium tier on architectural/strategic work — see `pws/foundations/07-unifocus-contract-rewrite-2026.md`.
 - John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return
 - Option remains open if Kim's health ever requires benefits/stability
 
@@ -268,7 +269,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - Claude tracks board membership and stakeholders (org-wide and per-project)
 
 **Active Projects:**
-- **Records Preservation** — gather, store, assimilate 25+ years of records, minutes, communications
+- **Records Preservation** — gather, store, assimilate 25+ years of records, minutes, communications. NPS (Anne Foster) offered archival guidance — three paths outlined (nearby archives, hired archival consultant, grad archives intern); draft email to Anne composed but **not yet sent** as of 7/24/26. See `BTTR/records-preservation-project.md`.
 - **Bob Kerrey Pedestrian Bridge Coffee Table Book** — documenting a signature BTTR accomplishment
   - **Hal Daub interview — June 11, 2026** — 2.5 hours, video recorded. Conducted by Jim and John (Legacy). Larry Foster (Director of Parks & Recreation under Daub) also present. Videographer on site. Pete's role: BTTR President / book producer. Daub was Omaha Mayor during riverfront development, instrumental in its success. Pete personal note: only person to work for both Kerrey (D) and Daub (R); Daub hired Pete after Kerrey left office. Recording pending upload/transcription.
   - **Tom Hanafan interview — June 30, 2026** — Council Bluffs Mayor. Pete's phone recording stopped at 2:06 (picked up phone accidentally). Legacy contractors recorded audio — transcript coming, same as Daub and Kerrey. Hanafan's role: Council Bluffs side of the bridge story.
@@ -435,7 +436,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [x] **Call Ralph Varble** — Heathman/Moran dates answered via email 7/14/26 (not a call): both postponed, see MakeReady section above. Aug 17–21 Indianapolis was already swapped for Westin La Paloma Tucson per the Upcoming Travel list — still separately unconfirmed.
 - [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Heathman (Portland), Moran (Houston). *(The Joseph Nashville is Highgate/Steve Carrell — not Pete's engagement.)*
 - [x] **Mohonk flights** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
-- [ ] **Calendar coordination** — Full consulting schedule: Aug 2–7 (Mohonk), Aug 17–21 (Westin La Paloma Tucson), Aug 31 week (Moran Houston — confirmed), Sep 7 (Marriott Del Mar — confirm), Oct 12–15 (Heathman Portland — tentative), Greenleigh still needs approximate Q4 dates. Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Calendar coordination** — Full consulting schedule: Aug 2–8 (Mohonk), Aug 17–21 (Westin La Paloma Tucson), Aug 31 week (Moran Houston — confirmed), Sep 7 (Marriott Del Mar — confirm), Oct 12–15 (Heathman Portland — tentative), Greenleigh still needs approximate Q4 dates. Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
 - [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
 - [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
 - [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path

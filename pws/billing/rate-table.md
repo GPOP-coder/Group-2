@@ -27,6 +27,7 @@ Individual rows may override the logic. The table is the truth.
 | Baha Mar Remote | $500 | Yes | Standard remote; no casino premium until casino dept work begins |
 | Rosewood Baha Mar Onsite | $600 | Yes | |
 | Rosewood Baha Mar Remote | $600 | Yes | Casino remote premium |
+| Rosewood Butler/Guest Relations Restructuring (Aug 2026) | $1,200/day | Yes | One-off negotiated rate, agreed with Ahmed Chadid 7/24/26 — matches the rate previously charged to Grand Hyatt Baha Mar (direct client) for comparable work. Billed through UF, not direct to Rosewood. See `pws/clients/baha-mar/kb.md` item 20. |
 | Mohonk Onsite | $600 | Yes | |
 | Mohonk Remote | $500 | Yes | |
 | Rosewood Miramar Onsite | $600 | Yes | |

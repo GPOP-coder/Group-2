@@ -45,17 +45,32 @@ Last updated: 2026-07-03
 
 **Arranged by:** Ralph Varble (CCO) and Susanna Briggs with Bron Walis and Lou Petruzzelli
 **Purpose:** F&B standards review + training
-**Tentative dates:** First week of August (second week also an option — Pete to confirm preference)
+**Dates: CONFIRMED — Sunday, August 2 through Saturday, August 8, 2026** (full week, per Mohonk's request)
+**Room confirmation #: 7833637490-1** (Bron Walis, 6/10/26)
 **Billing:** Covered under existing active change order
+
+**Scheduling history:**
+- 5/21/26 — Bron Walis first raised the idea to Ralph: Lou and Bron discussing an onsite consultant visit, scope still being finalized (likely centered on labor standards review), explicitly requested Pete by name ("Pete has been wonderful to work with").
+- 6/1/26 — Bron followed up with Ralph asking for confirmed dates.
+- 6/2/26 — Ralph confirmed to Bron: Pete is open to either week, but planning around the **first week of August** per their call; asked to be kept in the loop on any changes from either side.
+- 6/10/26 — Bron sent the room confirmation (#7833637490-1) and proposed a scoping call for the week of 6/22/26.
+- **Open item:** confirm whether that week-of-6/22 scoping call actually happened — not yet reflected elsewhere in this KB; check with Pete/Susanna if scope is still undefined ahead of the 8/2 arrival.
 **Travel notes (from Ralph, who has been there):**
 - Fly into **Newark** — easier than NYC; 10 miles further but avoids navigating out of the city
 - Rent a car — approximately 2-hour drive to Mohonk
 - First hour out of Newark covers only ~⅓ of the distance due to traffic; much faster once across NJ/NY border
-- Albany is physically closer but harder to fly into and likely more expensive
+- Albany is physically closer but harder to fly into and likely more expensive — **confirmed 7/23/26: moot anyway, Southwest doesn't fly to Newark at all (pulled out in 2019)**, so any Southwest routing would go through Albany with a connection; Pete opted to stick with the already-booked American itinerary instead of switching.
 - Must arrive **Sunday**, depart **Saturday** — Mohonk expects the full week
 
-**Next step:** Pre-visit planning call being scheduled for the week of 7/20/26 (property wants to walk through their agenda before Pete arrives) — targeting Thursday afternoon after 2 PM, pending final confirmation between Pete and Susanna. Pete's read: the property may try to fit more onto this visit than one week can cover — he plans to tell them directly if so.
-**Pete's status:** Blocking first week of August; checking for conflicts with Kim
+**Outbound flight — booked (American Airlines):**
+- Confirmation: **GFLPYC**, Ticket #0012349569454, issued 6/8/26
+- AA 3197: OMA dep 7:00 AM → ORD arr 8:51 AM (Seat 10C)
+- AA 2250: ORD dep 10:10 AM → EWR arr 1:30 PM (Seat 9D)
+- Cost: $458.20 total ($402.79 fare + $55.41 taxes/fees), paid via Trip Credit -5565 ($272.10) + Trip Credit -2009 ($39.70) + Visa -2674 ($146.40)
+- **Return leg not yet booked** — still need a car rental (Budget, Pete's preference) and return flight EWR/Albany area → OMA for 8/8/26
+
+**Next step:** Pre-visit planning call held/scheduled week of 7/20/26 (property wants to walk through their agenda before Pete arrives). Pete's read: the property may try to fit more onto this visit than one week can cover — he plans to tell them directly if so.
+**Pete's status:** Dates confirmed 8/2–8/8; outbound flight booked; return flight and rental car still to arrange.
 
 ---
 
