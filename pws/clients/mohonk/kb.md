@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-07-03
+Last updated: 2026-07-24
 
 ---
 
@@ -45,8 +45,8 @@ Last updated: 2026-07-03
 
 **Arranged by:** Ralph Varble (CCO) and Susanna Briggs with Bron Walis and Lou Petruzzelli
 **Purpose:** F&B standards review + training
-**Dates: CONFIRMED — Sunday, August 2 through Saturday, August 8, 2026** (full week, per Mohonk's request)
-**Room confirmation #: 7833637490-1** (Bron Walis, 6/10/26)
+**Dates: CONFIRMED — Sunday, August 2 through Friday, August 7, 2026.** Originally a full Sun–Sat week per Mohonk's request; **shortened by one day per the 7/24/26 planning call** — Pete needs to leave Friday night, offered to cover wrap-up work Friday morning instead.
+**Room confirmation #: 7833637490-1** (Bron Walis, 6/10/26) — 5 nights, Room 165 (Type LOW1), COMP rate. 3rd party confirmation #29864SG400493.
 **Billing:** Covered under existing active change order
 
 **Scheduling history:**
@@ -60,17 +60,38 @@ Last updated: 2026-07-03
 - Rent a car — approximately 2-hour drive to Mohonk
 - First hour out of Newark covers only ~⅓ of the distance due to traffic; much faster once across NJ/NY border
 - Albany is physically closer but harder to fly into and likely more expensive — **confirmed 7/23/26: moot anyway, Southwest doesn't fly to Newark at all (pulled out in 2019)**, so any Southwest routing would go through Albany with a connection; Pete opted to stick with the already-booked American itinerary instead of switching.
-- Must arrive **Sunday**, depart **Saturday** — Mohonk expects the full week
+- Must arrive **Sunday** — originally depart Saturday for the full week, but **now departing Friday night** per the 7/24/26 planning call (see Dates above)
 
 **Outbound flight — booked (American Airlines):**
 - Confirmation: **GFLPYC**, Ticket #0012349569454, issued 6/8/26
 - AA 3197: OMA dep 7:00 AM → ORD arr 8:51 AM (Seat 10C)
 - AA 2250: ORD dep 10:10 AM → EWR arr 1:30 PM (Seat 9D)
 - Cost: $458.20 total ($402.79 fare + $55.41 taxes/fees), paid via Trip Credit -5565 ($272.10) + Trip Credit -2009 ($39.70) + Visa -2674 ($146.40)
-- **Return leg not yet booked** — still need a car rental (Budget, Pete's preference) and return flight EWR/Albany area → OMA for 8/8/26
+- **Return leg — BOOKED.** Friday 8/7/26, **EWR 5:19 PM → OMA 12:10 AM (+1, Sat 8/8)**, 1 stop at ORD (AA 2444 EWR–ORD, arr 7:20 PM; AA 3334 ORD–OMA, dep 10:35 PM), 3h15m layover at ORD (comfortable buffer — opposite of the 37-min CLT connection that was avoided). Confirmation **JMTNHX**, Ticket #0012362823941, Economy (G), Seats 12F then 10A. Paid $447.20 ($392.56 fare + $54.64 taxes/fees) via Visa ‑2674, issued 7/24/26. First checked bag free.
+- **Rental car — BOOKED.** Budget, Newark Liberty Intl (EWR), confirmation **00587812US1**. Pick-up Sun 8/2 2:00 PM (30-min buffer after 1:30 PM flight arrival), drop-off Fri 8/7 5:00 PM. Toyota Corolla or similar, unlimited miles, automatic. Estimated total $468.21.
+- **Known tight spot, accepted deliberately:** drop-off (5:00 PM) is only 19 min before the 5:19 PM flight departure — not enough buffer under normal planning. Pete's explicit fallback if he can't make it: there's one later flight that evening that would still get him home (the 7:20 PM EWR–CLT–OMA option, arrives 11:38 PM — the same itinerary with the 37-min CLT tight connection that was passed over for the primary booking, now serving as the backup plan rather than the main plan).
 
-**Next step:** Pre-visit planning call held/scheduled week of 7/20/26 (property wants to walk through their agenda before Pete arrives). Pete's read: the property may try to fit more onto this visit than one week can cover — he plans to tell them directly if so.
-**Pete's status:** Dates confirmed 8/2–8/8; outbound flight booked; return flight and rental car still to arrange.
+**Pre-visit agenda planning call — held 7/24/26** (Bron Walis, Lou, Susanna Briggs, Pete): agreed draft schedule below. Pete's earlier concern about the week being overpacked appears resolved — agenda fits within the week as planned, pending final block confirmation from Bron.
+
+**Draft onsite schedule (Aug 2–7):**
+| Day | Activity |
+|---|---|
+| Mon or Tue | Admin training — full day, standards development (modify existing, not new) |
+| Wed AM | Basic training — 3 hrs, Mohonk-specific; video pre-work sent ahead |
+| Wed PM | Labor meeting — past performance + future scheduling |
+| TBD | Advanced training for Kidani — ~2 hrs (already Unifocus-familiar); James may join |
+
+**Prep work before Pete arrives (owned by Lou, meeting with Alex):** recreation standards review (new sports center + retail consolidation, budget alignment) and housekeeping standards verification (turndown service consistency).
+
+**Pete's open action item:** send basic-training guides/videos to participants ahead of the Wednesday session.
+
+**Friday flight timing norm (from Pete's UF employee days, 2009+):** Standard 5-day-week convention is to leave **after noon Friday** — a post-noon departure with one connection typically gets him home by midnight. (Flying out early Monday instead of Sunday to save a travel day is technically possible but was only ever done once — required a 2 AM alarm and 5 AM flight — not worth repeating.) Use this as the baseline when evaluating Friday 8/7 return flight options.
+
+**Friday scheduling (clarified 7/24/26):** Pete sets Friday's on-property agenda himself. Mohonk originally expected a typical Tue–Thu consultant visit (the usual pattern for vendor visits there); Mon–Fri is the actual Unifocus-arranged week, and the Friday morning wrap-up is Pete's bonus offering on top of that, not an obligation — meaning he has real flexibility to end Friday early enough to make a reasonable-window flight home. **Billing:** Pete told Mohonk to expect Ralph to bill a full five days; Pete believes that's what Ralph arranged but isn't 100% certain — worth confirming directly with Ralph. **Note:** what Pete bills Unifocus and what Ralph bills Mohonk against the PO/change order are unrelated books — no direct linkage, see `pws/foundations/07-unifocus-contract-rewrite-2026.md`.
+
+Full notes: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md)
+
+**Pete's status:** Dates confirmed 8/2–8/7 (trip now ends Friday, not Saturday — Pete needs to leave Friday night per the 7/24 call; offered to do wrap-up work Friday morning instead); outbound flight booked; return flight and rental car still to arrange.
 
 ---
 
@@ -81,7 +102,7 @@ Last updated: 2026-07-03
 | UNIFOCUS-247559 | Founders outlet — shifts not generating | ✅ Closed 7/1/26 — Task Scheduler fix (new task, old disabled); precedent for UNIFOCUS-252999 below |
 | RMSOPS-14129 | Banquet actuals overwritten after entry | 🔴 Root cause found; fix requested from Monali 7/2/26 |
 | (no ticket needed) | Beverage jobs missing from Generate Schedules task's job selection | 🟢 Fixed 7/3/26 — see below |
-| [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) | Standard hours not generating Thursday–Sunday, recurring weekly | 🔴 Active — Critical priority; escalated to engineering 7/20/26, root cause unconfirmed |
+| [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) | Standard hours not generating Thursday–Sunday, recurring weekly | 🔴 Active — Critical priority; escalated to engineering 7/20/26, root cause unconfirmed; reconfirmed still open on 7/24/26 planning call, Susanna to follow up |
 
 See [Interface Reference](interfaces.md) for full interface-by-interface status (Rooms KBI, F&B Covers, Banquet, Spa, ADP feeds) as of the 7/1/26 Interface Flow call.
 
@@ -296,3 +317,4 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - [Interface Reference](interfaces.md) — full Rooms/F&B/Banquet/Spa/ADP interface map and status
 - [Call Notes — Unifocus Interface Flow, 7/1/26](2026-07-01_unifocus-interface-flow-call.md)
 - [Call Notes — Standard Hours Thu–Sun Investigation, 7/20/26](2026-07-20_standard-hours-thu-sun-call.md)
+- [Call Notes — August Onsite Visit Agenda Planning, 7/24/26](2026-07-24_visit-agenda-planning-call.md)

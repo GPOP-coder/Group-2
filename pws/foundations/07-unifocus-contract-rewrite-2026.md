@@ -97,8 +97,27 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 ---
 
+## Long-Smoldering Open Item: Travel Billing Policy
+
+**Status:** Open since 2009 (as a UF employee), still unresolved as a PWS contractor. Raised again 7/24/26 in the context of the Mohonk return-flight timing question.
+
+**Current practice:** Travel time is billed at **$0**. "UF Travel" is explicitly a "Tracking Only — Never Invoiced" line in `pws/billing/rate-table.md`, confirmed by 9 tracked-but-excluded hours on the 6/29/26 invoice (`pws/billing/invoices/UF20260629PAC.md`).
+
+**Historical precedent — the "5-day week" convention (from Pete's UF employee days, 2009+):** A standard 5-day onsite week meant flying out **Sunday** and being free to leave **"after noon" Friday** — travel days themselves were never separately billed, they were absorbed into the 5-day frame. There was flexibility to fly out **Monday morning** instead of Sunday if an early Monday meeting could still be made — Pete did this once, making a 10:30 AM San Francisco meeting, but it required a 2 AM alarm, 3 AM airport drive, and the first flight of the day (~5 AM) — brutal enough on a weekend that it was a one-time experiment, not a repeated pattern. The "leave after noon Friday" rule still governs his flight-timing thinking today (see Mohonk return flight planning, `pws/clients/mohonk/kb.md`) — e.g., a post-noon Friday departure with one connection gets him home by midnight.
+
+**Open question, still undecided:** Whether/how to introduce actual travel-day billing (industry-standard convention is typically half-day rate for a travel day) as part of this rewrite, given the current rate is zero and always has been. Distinct from the Mohonk-specific tactical question of whether to retroactively bill travel against the already-open, capped Mohonk PO (leaning no — see conversation 7/24/26, treat this trip under current $0 practice and raise travel billing as a go-forward policy change in the rewrite instead).
+
+**Clarification (7/24/26): what's actually $0 vs. what's already billed.** Pete already bills Unifocus for all calls and pre-travel remote prep work — that's normal Clockify-tracked billable time, no different from any other remote project. What's specifically never billed is the **transit time itself** (the literal hours in the air/car — the "UF Travel" Clockify line). As a salaried employee, that transit time was implicitly absorbed into pay; as a contractor it's tracked but zeroed out. **Also clarified:** what Pete bills Unifocus (via Clockify → PWS invoice) and what Ralph separately bills Mohonk against the Mohonk PO/change order are two unrelated books — Pete's invoice to Unifocus doesn't draw against the Mohonk PO cap directly, and vice versa.
+
+**More historical precedent — multi-week trip structure (from Pete's UF employee days):** The base "10-day" trip pattern was **"two fives"** — fly Sunday to be onsite Monday morning, work the full first week (Mon–Fri), stay onsite over the weekend (the "take the weekend off" expectation — see below), work the full second week (Mon–Fri), and leave after noon that second Friday. After enough of these back-to-back, this evolved in recent years into a shorter **"9+1"** pattern: leave on the second Tuesday instead of staying through Friday, and "work from home" that Wednesday rather than traveling home on what would otherwise be a work day.
+
+**On the embedded weekend during "two fives" trips:** Client sites would sometimes tell traveling staff to "take the weekend off" and enjoy the resort/area — the expectation baked into "two fives" was that you wouldn't fly home until the following Friday, so the interim weekend was spent on property either way. In practice this was rarely real time off — being away from home read as being on-call, and client staff would often seek out the visiting consultant for help regardless of the day. The only way it became genuinely restorative was when a consultant built real local relationships and found their own way to make use of the time — a separate topic Pete flagged for later, not yet developed here.
+
+---
+
 ## Open Questions / Next Steps
 
+- [ ] **Decide travel billing policy** — open since 2009; see "Long-Smoldering Open Item" section above. No decision yet on whether to introduce paid travel days (e.g. half-day convention) in the new PWS agreement.
 - [x] Decide final rate ask — ✅ Proposed 7/24/26: $800/day remote, $1,000/day onsite, +$100 or +$200 casino premium (see "Proposed New Rate" section above). Only the casino premium amount is still undecided.
 - [ ] Decide whether to push the liability/indemnification and termination-for-cause language fixes in the same rewrite, or treat rate as the primary/only ask given limited leverage
 - [ ] Set a specific dollar figure for the architectural/strategic-direction premium tier (above the standard $800/$1,000 remote/onsite rates)
