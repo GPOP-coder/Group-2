@@ -280,12 +280,6 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Lewis & Clark Monuments** — reviving an original BTTR project, series of monuments
   - **HGM Associates Phase 1 Agreement** — board authorized Pete to sign 7/17/26 (Lewis and Clark Interpretive Trail Improvements, Phase 1): not-to-exceed $19,100 for Preliminary Design, Final Design Documents, Bidding, and Construction Administration on 8 of the icons (2 excluded), additional services hourly. Pete signing 7/19/26. See `BTTR/2026-07-17_board-meeting-minutes.md`.
 
-**🔴 Urgent: Recruit Treasurer**
-- Karen Bluvas is Assistant Treasurer but does not want the Treasurer role
-- Open board position — can come from outside the organization
-- Potential candidate suggested by Gary DiSilvestro — follow up
-- **Remind Pete at every planning session**
-
 ---
 
 ### New Hearts, Inc. — dba Nebraska Transplant Support Group (NTSG)
@@ -410,7 +404,6 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 | Every session | Start with date & time |
 | **15th and last day of month, noon CT** | **CRITICAL: Unifocus invoice deadline.** Log Clockify hours, convert to days, build invoice, send to Shilpa Bhando. See unifocus_invoice_deadlines memory. |
 | After every high-value call | Voice Memo brain dump → transcript → paste to Claude for structured notes + Chief of Staff KB |
-| Every planning session | Remind Pete to recruit BTTR Treasurer |
 | 10th/11th monthly | Pay father's bills (ECUA, FPL, Cox, USAA Property Insurance, Citizens Wind & Hail, USAA Visa, storage unit auto 11th) — after June 1 ECUA/FPL/Cox transfer to renters |
 | Monthly | Export contacts CSV: personal Outlook → Unifocus → upload to Claude |
 | Weekly | PWS networking — reach out to former Unifocus contacts for prospecting |

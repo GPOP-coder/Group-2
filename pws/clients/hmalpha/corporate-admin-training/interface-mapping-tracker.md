@@ -107,6 +107,12 @@ Both live under **Setup → Labor → [Input] Actual KBI Mapping** and **Setup �
 
 ---
 
+## Status Check — 7/27/26 (Monday morning)
+
+Nicole Mendez's InterContinental mapping progress per her 7/24/26 update: **majority of the mapping is complete** — only two items remain to clarify: **AM/PM break handling** and the **different reception types**. Once those are confirmed, mapping is 100%.
+
+Pete offered to meet Monday (today) at **9:00 AM CT** to review (reply sent 7/24 2:54 PM, thread: Pete/Steve Carrell/Nicole Mendez/Devon Peters/Monali Desai, cc Khalida Hussain). No confirmation from Nicole came through on that thread. **Follow-up sent 7/27/26 9:11 AM** — new direct email, subject "BQT KBI mappings," asking if any time this morning works. Awaiting reply.
+
 ## Other Interfaces to Eventually Document
 - [ ] Fill in Frequency / exact UF menu path for the TBD rows above as they come up in training
 - [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Monali (Marriott/CI-TY already confirmed)
