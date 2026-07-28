@@ -51,6 +51,15 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 
 **M365 Connector status:** Personal account = consumer tier, Claude connector unsupported. Workaround: monthly manual CSV export from personal → wipe → import to Unifocus + upload CSV to Claude.
 
+**Chief of Staff visibility map (established 7/28/26) — real overbooking/missed-commitment risk:**
+| Account | Claude can see it? | What it holds |
+|---|---|---|
+| pcastellano@unifocus.com | ✅ Yes — M365 connector active | Unifocus email, calendar, Teams, SharePoint |
+| peter.a.castellano@outlook.com (⭐ primary) | ❌ No — consumer tier, connector unsupported | Master contacts, calendar, OneNote, archive — the actual personal source of truth |
+| Gmail (pete.castellano@gmail.com) | ❌ No — no connector yet | BTTR **and NTSG** commitment/history detail, plus other personal threads. "We will work on a connection there soon" (Pete, 7/28/26). |
+
+Until Gmail and the primary personal Outlook are connected, the COS agent only sees the Unifocus slice of Pete's actual commitments — treat any "all clear, no conflicts" read as scoped to Unifocus only, not comprehensive, and say so explicitly rather than implying full coverage.
+
 ---
 
 ## Organizational Identities & Ecosystems
@@ -228,13 +237,13 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
   - **Heathman, Portland** — Tentative: **Oct 12–15, 2026.** (Supersedes the earlier "config week of Sept 28" estimate — consistent with Ralph's stated intent to give Heathman more time before scheduling them, since they're mid-manager-turnover.)
   - **Greenleigh** — **NEW, 7/14/26.** Third MakeReady property, not previously tracked. Ralph flagged that Q4 dates need discussion soon, since Unifocus's PS team calendar is filling up with international projects. No dates yet — approximate Q4 timing only.
   - *(The Joseph Nashville is a Highgate property — managed by Highgate, not MakeReady. Steve Carrell did that consulting. Pete has no involvement.)*
-- **HMAlpha (spin-off of Dimension)** — **Scope revised 7/17/26: confirmed 15 properties total** (DoubleTree Charlotte/Raleigh/San Diego Del Mar/Sunrise, Hilton Indianapolis/Scottsdale, Grand Hyatt Nashville, Hyatt Regency Valencia/Westlake, InterContinental New Orleans, Autograph Union Station Nashville, JW Marriott Houston, Marriott Del Mar/Warner Center, Westin La Paloma) — reverses the earlier "not 15" framing below; New Orleans + Nashville trained, WLP is #3 (Aug 17–21), 12 more still to schedule. Full contact sheet (GM/DOF/HR × 15) received from Nicole Mendez 7/17/26, added to contacts.csv. Pete as trainer.
+- **HMAlpha (spin-off of Dimension)** — **Scope revised 7/17/26: confirmed 15 properties total** (DoubleTree Charlotte/Raleigh/San Diego Del Mar/Sunrise, Hilton Indianapolis/Scottsdale, Grand Hyatt Nashville, Hyatt Regency Valencia/Westlake, InterContinental New Orleans, Autograph Union Station Nashville, JW Marriott Houston, Marriott Del Mar/Warner Center, Westin La Paloma) — reverses the earlier "not 15" framing below; New Orleans + Nashville trained, WLP is #3 (Aug 17–21), 12 more still to schedule. Full contact sheet (GM/DOF/HR × 15) received from Nicole Mendez 7/17/26, added to contacts.csv. Pete as trainer. **Grand Hyatt Nashville confirmed 7/28/26: Sep 28–Oct 2, 2026** (see Upcoming Travel).
   - **Jun 22 (week of):** New Orleans / Intercontinental — 3 days (1 admin + 2 manager; 13 managers). **BLOCKED pending HMAlpha approval to contact property.** Ralph says "every week they push it a week" due to BLSBD config issues (budget/standards misalignment). 50+ emails related to BLSBD concerns across 5 pilots. HMAlpha forcing direct calls with properties to resolve concerns before training proceeds.
   - **Jun 29 (week of):** Nashville / Autograph Union Station — 3 days (same structure as New Orleans; 13 managers)
   - **Aug 17 (week of):** Westin LaPalma — TBD days
   - **Status:** Configuration done March/April; BLSBD crisis with properties; Pete cannot contact until HMAlpha approves (got in trouble doing so early). Ralph has locked further-out dates; if New Orleans slips, it bumps into locked schedule and goes to "back of the line."
 - **Consulting travel pattern:** Monday arrival / Friday departure for onsite training weeks
-- **COS resource:** `2025 IM_Consultants Daily Resource Calendar.xlsm` — Ralph's team resource calendar; Chief of Staff agent should monitor this for scheduling conflicts
+- **COS resource:** `2026 IM_Consultants Daily Resource Calendar.xlsm` (SharePoint: Consulting site → Shared Documents/General/Schedule/; prior years archived under Prior Years Schedules) — Ralph's team resource calendar, one row per consultant including Pete; yellow = tentative. **Direct monitoring not possible:** macro-enabled `.xlsm` is blocked by the M365 connector's file-reading tool (only plain `.xlsx` is allowed), and SharePoint search only returns a fixed generic snippet, not row-level or color content. Confirmed 7/28/26; not worth revisiting unless the file format changes. Chief of Staff agent should instead watch **Ralph's Teams chat and email** for schedule-change language — he proactively messages Pete directly when Pete's row moves (evaluated and rejected: polling `lastModifiedDateTime` — too noisy, many other consultants' rows change it constantly; requesting a parallel export/notification flow from Unifocus IT — not worth pursuing unless there's a wider audience need beyond Pete).
 - **Unifocus team:** Ralph Varble (CCO) rvarble@unifocus.com O:972-512-5083 C:832-226-8945 | John Grech jgrech@unifocus.com | Akram Chahin achahin@unifocus.com | Taylor Walton twalton@unifocus.com | Susanna Briggs sbriggs@unifocus.com | Ahmed Chadid AChadid@unifocus.com
 - **MakeReady contact:** Michelle Lewis (Corp. Dir. Rooms & Guest Experience) mlewis@makereadyexperience.com | 510-827-2000 | 1202 Dragon St. STE 104 Dallas TX 75207
 - **The Joseph Nashville (Highgate/Steve Carrell — not Pete's engagement):** Lynn Snyder (Area MD) lynn.snyder@thejosephnashville.com O:612-248-1990 M:219-252-9994 | Sean Barnes Sean.Barnes@thejosephnashville.com
@@ -246,8 +255,9 @@ Loads at the start of every session. Keep current. Last updated: 2026-06-30
 - **Aug 17–21, 2026** — Westin La Paloma Resort & Spa, Tucson AZ — HMAlpha onsite training (Indianapolis swapped out)
 - **Aug 31, 2026 (week of)** — The Moran, Houston TX — MakeReady onsite training — ✅ CONFIRMED (rescheduled 7/14/26 from original Aug 10–14 date)
 - **Sep 7, 2026 (week of)** — Marriott Del Mar, San Diego CA — HMAlpha onsite training — property contacts now confirmed (7/17/26 Nicole Mendez list: Mark Ziomek GM, Valeria Ruvalcaba HR); still confirm exact week with Ralph Varble
-- **Oct 12–15, 2026** — Heathman, Portland OR — MakeReady onsite training — tentative
+- **Oct 12–15, 2026** — Heathman, Portland OR — MakeReady onsite training — tentative (confirmed still yellow/tentative on Ralph's consulting resource calendar as of 7/28/26)
 - **Sep 20–26, 2026** — Disney Cruise, Port Canaveral FL — **personal** (Kim); blocked with Ralph Varble
+- **Sep 28–Oct 2, 2026** — Grand Hyatt Nashville — HMAlpha onsite training — ✅ CONFIRMED 7/28/26 (previously showed twice on Ralph's consulting resource calendar as tentative — weeks of Sept 28 and Oct 19 — now resolved to this single week). Only 2 days between Disney Cruise return (Sep 26) and this start date (Sep 28) — tight turnaround, no travel buffer.
 - **Nov 27–Dec 6, 2026** — MSC Cruise, Galveston TX — **personal** (Kim); blocked with Ralph Varble. Outbound flight OMA→HOU (Houston, gateway airport for Galveston) via DFW, Fri 11/27/26, American Airlines, **First class**. **AA-initiated schedule change received 7/23/26** — no action required unless Pete wants to change it: OMA-DFW now AA 2540 dep 6:00 AM (was 5:00 AM) arr 8:14 AM (was 7:07 AM); DFW-HOU now AA 6413 (was AA 3467), Bombardier CRJ700 (was Embraer 175), dep 9:40 AM arr 11:04 AM (was dep 8:17 AM arr 9:40 AM) — overall arrival in Houston about 84 minutes later than originally booked. Seats 3A/3B unchanged on first leg; second-leg seats changed to 2C/2D (was 2D/2F). 1h26m connection at DFW.
   - **Cruise itself confirmed:** MSC Yacht Club, Booking #72094357. Sails **Sun 11/29/26 4:00 PM** from Galveston, returns **Sun 12/6/26 6:30 AM** to Galveston (7 nights) — flights bracket this with a couple days' buffer on each end. Itinerary: Day 2–3 at sea, Day 4 Costa Maya MX (8am–6pm), Day 5 Isla de Roatán Honduras (8am–4pm), Day 6 Cozumel MX (8am–4pm), Day 7 at sea, Day 8 arrive Galveston.
   - **Pre-cruise buffer (Nov 27–29, Houston):** activity plan exists, not yet shared — details to come.
@@ -365,6 +375,8 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - Coordinate subordinate agents (one per organization or domain)
 - Prevent anything from falling through the cracks: PWS, BTTR, NTSG, Photography, eBay, Father's POA
 
+**Source-of-truth principle (established 7/28/26):** when a client/employer owns the canonical scheduling document (e.g., Ralph's consulting resource calendar) and the COS agent can't read it directly, don't try to monitor that raw file. Pete maintains his own M365 Outlook calendar as his personal record of truth. The COS agent's job is to **see, evaluate, and summarize Pete's own calendar** (Outlook today; Gmail/Google Calendar eventually) **alongside other visible signals** (Teams/email messages from the people who own the source document) — synthesis across resources Pete controls, not scraping resources he doesn't.
+
 ---
 
 ## Working Conventions & Preferences
@@ -433,7 +445,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [x] **Read "Fw: Unifocus set up- timeline"** — reviewed 6/8/26; MakeReady properties: Heathman (Portland), Moran (Houston). *(The Joseph Nashville is Highgate/Steve Carrell — not Pete's engagement.)*
 - [x] **Mohonk outbound flight** — booked: AA GFLPYC, OMA-ORD-EWR, Aug 2, departs 7:00 AM. Seats 10C + 9D. Ticket # 0012349569454.
 - [ ] **Mohonk return flight** — trip now ends Friday Aug 7 (not Aug 8, per 7/24/26 call with Mohonk — wrap-up moved to Friday morning). Pete reviewing EWR→OMA options himself before booking; avoid short connections (one CLT option had only a 37-min layover). Book Budget rental car separately once dates final.
-- [ ] **Calendar coordination** — Full consulting schedule: Aug 2–8 (Mohonk), Aug 17–21 (Westin La Paloma Tucson), Aug 31 week (Moran Houston — confirmed), Sep 7 (Marriott Del Mar — confirm), Oct 12–15 (Heathman Portland — tentative), Greenleigh still needs approximate Q4 dates. Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
+- [ ] **Calendar coordination** — Full consulting schedule: Aug 2–8 (Mohonk), Aug 17–21 (Westin La Paloma Tucson), Aug 31 week (Moran Houston — confirmed), Sep 7 (Marriott Del Mar — confirm), Sep 28–Oct 2 (Grand Hyatt Nashville — confirmed 7/28/26), Oct 12–15 (Heathman Portland — still yellow/tentative as of 7/28/26), Greenleigh still needs approximate Q4 dates. Personal blocks: Sep 20–26 Disney, Nov 27–Dec 6 MSC.
 - [ ] **Pensacola 2-10 Home Warranty** — plumbing issue opened 6/8/26; follow up on claim progress
 - [x] **Accountant (Mark Starkweather)** — responded 6/8/26: Travel (air/car/gas) deductible ✓; Meals NOT deductible for Schedule E rental reporting; Groceries for renters = Supplies (deductible), but Pete's personal groceries are not; Pete can reimburse himself from father's account for rental-purpose expenses; expense report is sufficient documentation; keep receipts. Meals removed from expense report accordingly. Potential future report: separate reimbursement from father's account for meals Pete paid out of pocket during oversight trip.
 - [x] Priyanka Kalia — Product Owner role filled by Daniel (June 10); Pete at peace, pursuing WFM evangelist path
