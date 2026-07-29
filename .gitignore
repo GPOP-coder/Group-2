@@ -1,0 +1,8 @@
+# Credential safety net — nothing here should exist in this repo, but block it if it ever does
+.env
+.env.*
+*.key
+*api_key*
+*apikey*
+secrets/
+secrets.*

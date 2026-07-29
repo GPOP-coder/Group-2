@@ -2,7 +2,7 @@
 
 # BTTR Records Preservation Project
 
-**Status:** Email sent to Anne Foster (NPS) 7/24/26 — awaiting her response with contacts/pros-cons for the three paths
+**Status:** Anne replied 7/28/26, offering a call Fri 7/31 or Tue 8/4 (she's Mountain Time). Pete scheduling for **Friday, July 31** — he'll be at NRD offices that day with John Dechant digging through archives, and confirmed he can take the call from there. Exact time (9am MT or after 12pm MT) pending Anne's reply to Pete's 7/29/26 reply-all.
 **Owner:** Pete Castellano (BTTR President)
 
 ---
@@ -67,7 +67,9 @@ Note: the sent copy retained the **"Pedestian Bridge" typo** (the Pedestrian Bri
 ## Open Items
 
 - [x] **Send the email to Anne Foster** (anne_foster@nps.gov) — ✅ Sent 7/24/26, 12:03 PM, cc'd full board + NPS + Legacy Preservation
-- [ ] Get Anne's contacts/pros-cons for the three paths (nearby archives, archival consultant, grad intern) once she responds
+- [x] Anne replied 7/28/26 — ✅ offered Fri 7/31 or Tue 8/4, prefers Teams, on Mountain Time
+- [ ] **Confirm exact call time with Anne** — Pete proposed Fri 7/31, 9am MT or after 12pm MT (reply-all sent 7/29/26); awaiting her confirmation
+- [ ] Get Anne's contacts/pros-cons for the three paths (nearby archives, archival consultant, grad intern) on the call
 - [ ] Decide which path (or combination) BTTR wants to pursue
 - [ ] Tie back to book project: authors need a common access point for documents + shared timeline — whatever solution is chosen should serve that need, not just general archival hygiene
 

@@ -5,7 +5,14 @@
 **Status:** Active — analysis phase, not yet drafting
 **Started:** 2026-07-24
 
-**Scheduling (Teams, 7/24/26):** Pete messaged John Lockyer directly at 12:56 PM — "Let's connect soon. This weekend?" John replied 2:32 PM: "Let's shoot for next week Pete - have a good weekend!" **Call is pushed to next week, no specific day set yet.** This is expected to be the venue for the contract rewrite conversation, given Lockyer (CEO) is a direct party to the personal Independent Contractor Agreement.
+**Scheduling — CONFIRMED, accepted:** Call is set for **Thursday, July 30, 2026, 9:00 AM** — John accepted the calendar invite (confirmed 7/29/26, 9am). Full Teams thread: Pete messaged Lockyer 7/24 12:56pm ("Let's connect soon. This weekend?"), Lockyer deferred to "next week" (7/24 2:32pm), Pete followed up 7/29 7:03am ("When is a good time this week?"), Lockyer replied 7:27am: "Hey Pete - I'm with Rockbridge at the moment in Columbus. Let's shoot for Thursday or Friday."
+
+**Context that changes the stakes of this call (7/29/26):** Lockyer is in Columbus with Ken Heymann visiting **Rockbridge** — a long-time Unifocus customer (parent company of the MakeReady properties Pete already trains: Moran, Heathman, Greenleigh) — specifically to revive a relationship where Rockbridge has paused numerous property implementations, and get more projects moving. Pete's read: Unifocus's PS/consulting capacity is already visibly strained on existing commitments (Greenleigh has no Q4 dates yet because "the PS team calendar is filling up with international projects" — Ralph's own words, 7/14/26; HMAlpha's BLSBD crisis across 5 pilots; Moran/Heathman both already bumped once; Ralph personally overloaded). If Lockyer is out selling a Rockbridge revival while the delivery engine is already this stretched, the capacity gap is likely worse than he currently realizes — and Pete already has a foothold in the exact account (MakeReady/Rockbridge) where the gap would show up first.
+
+**Pete's stated agenda for Thursday (7/29/26), in order:**
+1. **Strengthen the personal relationship** — not a pitch meeting, a genuine catch-up (consistent with the existing warmth in their 2026 Teams thread — Kim's recovery, his father's health, Lockyer's own history caring for his ailing parents in the UK).
+2. **Make himself available, coincidental to a capacity gap that's worse than Lockyer thinks** — surface availability/proof-of-capability organically through conversation, not as a direct capacity pitch. Let the Rockbridge/Greenleigh evidence speak for itself rather than lecturing the CEO on his own company's bandwidth problem.
+3. **Re-sign a new contract under PWS with higher prices and more detail, including travel** — this is the actual rate-rewrite ask (see below), now with travel billing explicitly back on the table as a term to resolve, not just a rate bump.
 
 ---
 
@@ -115,13 +122,26 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 ---
 
+## Draft Agreement Ready to Send (7/29/26)
+
+Full draft letter agreement: `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md`, built for the Thursday 7/30/26 9am call. Structured on the HGM letter-agreement model (fee terms in the letter body, General Provisions folded in rather than a separate exhibit given the shorter scope). Four figures need Pete's confirm before sending — recommended defaults chosen from precedent already in this file, not yet approved:
+1. Casino premium: recommended **+$200** (exact match to Grand Hyatt onsite precedent)
+2. Architectural/strategic tier: recommended **$1,500/day flat** (matches ceiling of historical UF billing of Pete as an employee)
+3. Travel day rate: recommended **$400/day** (half of new remote rate — resolves the 2009-open travel billing question)
+4. Effective date: recommended **August 1, 2026**
+
+Draft also fixes the two structural issues flagged earlier in this file: indemnification is now mutual and capped (greater of trailing-12-month fees or $50,000, mirroring the Referral Agreement's existing mutual-cap pattern) instead of one-sided/uncapped, and the termination clause requires notice + cure instead of "sole and absolute discretion, no cure period." §2.02's "full-time basis" language is replaced with an explicit independent-contractor/non-exclusive clause that folds in the existing non-compete carve-outs by name.
+
+---
+
 ## Open Questions / Next Steps
 
-- [ ] **Decide travel billing policy** — open since 2009; see "Long-Smoldering Open Item" section above. No decision yet on whether to introduce paid travel days (e.g. half-day convention) in the new PWS agreement.
-- [x] Decide final rate ask — ✅ Proposed 7/24/26: $800/day remote, $1,000/day onsite, +$100 or +$200 casino premium (see "Proposed New Rate" section above). Only the casino premium amount is still undecided.
-- [ ] Decide whether to push the liability/indemnification and termination-for-cause language fixes in the same rewrite, or treat rate as the primary/only ask given limited leverage
-- [ ] Set a specific dollar figure for the architectural/strategic-direction premium tier (above the standard $800/$1,000 remote/onsite rates)
-- [ ] Confirm entity: new agreement should name Platinum Workforce Strategies, LLC as the contracting party, not Pete personally
+- [ ] **Pete to confirm the 4 flagged figures** in `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md` before sending: casino premium (+$200 recommended), architectural tier ($1,500/day recommended), travel rate ($400/day recommended), effective date (8/1/26 recommended)
+- [x] Decide travel billing policy — ✅ Draft proposes **$400/day** (half of remote rate), resolving the question open since 2009. Not yet Pete-confirmed.
+- [x] Decide final rate ask — ✅ Proposed 7/24/26: $800/day remote, $1,000/day onsite. Casino premium now recommended at +$200 in the draft (not yet confirmed).
+- [x] Liability/indemnification and termination-for-cause fixes — ✅ Included in the draft: mutual capped indemnification, notice-and-cure termination replacing the one-sided "sole and absolute discretion" clause.
+- [x] Architectural/strategic-direction premium tier — ✅ Draft proposes $1,500/day flat (not yet confirmed).
+- [x] Entity — ✅ Draft names Platinum Workforce Strategies, LLC as the contracting party throughout.
 - [ ] When the new draft comes back from Unifocus, explicitly check for stale boilerplate (old logos, "UniFocus" capitalization, HM Alpha or other client residue) before signing
 - [ ] Separately: decide whether/how to pursue the Baha Mar Casino referral opportunity now, and how to ensure Pete actually receives both the referral commission and the implementation work this time (unlike the original Grand Hyatt Baha Mar referral, which closed after he'd left the company)
 
@@ -129,6 +149,7 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 ## Related Files
 
+- `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md` — **the ready-to-send draft agreement**, built 7/29/26
 - `pws/foundations/06-contract-agreement-reference.md` — HGM letter-agreement structural model for the rewrite
 - `pws/foundations/05-pws-strategic-direction.md` — "Powered by Unifocus" positioning, referral contract context
 - `pws/billing/rate-table.md` — current rate table including the new $1,200/day Rosewood precedent

@@ -267,7 +267,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - Product Owner role under Priyanka Kalia (VP Product Management) — **role went to Daniel (June 10, 2026)**
 - Pete is at peace with the outcome; sees his path as a **WFM evangelist** (consultant/trainer), not an employee PO
 - **Even though he didn't get the role, it was clear both John Lockyer (CEO) and Priyanka Kalia wanted Pete around.** Priyanka told him directly that the Product Owner job would have **"bogged him down" from his best contributions** — a validation, from the hiring VP herself, that his highest value is architectural/strategic consulting work, not day-to-day product ownership administration. Pete is using this as supporting evidence in the Unifocus contract rewrite for a premium tier on architectural/strategic work — see `pws/foundations/07-unifocus-contract-rewrite-2026.md`.
-- John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return
+- John Lockyer is Unifocus CEO — mutual respect; approved Pete's contractor return. **Personal history (noted 7/29/26):** was Pete's boss when Pete was CSM; left Unifocus to return to the UK (London area) to care for his ailing parents, later came back. Shared bond with Pete outside of Unifocus/off the grid — both have navigated caregiving for aging/ailing parents (Pete is POA for William). Their 2026 Teams 1:1 reflects this — genuinely personal, not just professional (e.g., Pete's 6/30/26 unprompted update on Kim's recovery and his father's health, John's warm replies).
 - Option remains open if Kim's health ever requires benefits/stability
 
 ---
