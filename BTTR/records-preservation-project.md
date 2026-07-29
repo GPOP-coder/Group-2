@@ -3,6 +3,13 @@
 # BTTR Records Preservation Project
 
 **Status:** Anne replied 7/28/26, offering a call Fri 7/31 or Tue 8/4 (she's Mountain Time). Pete scheduling for **Friday, July 31** — he'll be at NRD offices that day with John Dechant digging through archives, and confirmed he can take the call from there. Exact time (9am MT or after 12pm MT) pending Anne's reply to Pete's 7/29/26 reply-all.
+
+**Site logistics confirmed 7/29/26** (thread with Randy Lee, NRC Building Manager, and John Winkler, GM): Access + Lower-Level Conference Room reserved for the **entire day, Friday July 31**. Randy will be out of office that day but has briefed staff. **Nicole Gust** will meet Pete's team at the front desk, show them to the archives in the basement, and provide a cart for transporting boxes. Pete's plan: arrive as early as 9:00 AM, stay into the afternoon depending on what's found; goal for the day is to survey what's in storage and identify what's available to pull for the book authors. Pete asked Randy about WiFi availability for the early Teams call (with Anne Foster / other offsite partners) — not yet confirmed in Randy's reply.
+
+**Friday July 31 schedule (as it's shaping up):**
+- 9:00 AM MT (10:00 AM CT) — Anne Foster / NPS Teams call, from the NRD site
+- Archives dig with John Dechant, rest of the morning into early afternoon
+- Pete plans to **cut off archives work in time** to get on the Union Station Nashville F&B call (pitched for after 3:00 PM CT, pending Brad Stewart's confirmation — see `pws/clients/hmalpha/union-station-nashville/labor-standards.md`), either from the NRD site or another quiet spot found en route — NRD is 30–40 min from home. Backup connectivity: iPhone hotspot, needs 5G.
 **Owner:** Pete Castellano (BTTR President)
 
 ---
@@ -68,7 +75,9 @@ Note: the sent copy retained the **"Pedestian Bridge" typo** (the Pedestrian Bri
 
 - [x] **Send the email to Anne Foster** (anne_foster@nps.gov) — ✅ Sent 7/24/26, 12:03 PM, cc'd full board + NPS + Legacy Preservation
 - [x] Anne replied 7/28/26 — ✅ offered Fri 7/31 or Tue 8/4, prefers Teams, on Mountain Time
-- [ ] **Confirm exact call time with Anne** — Pete proposed Fri 7/31, 9am MT or after 12pm MT (reply-all sent 7/29/26); awaiting her confirmation
+- [x] **Confirm exact call time with Anne** — ✅ **9:00 AM MT, Friday 7/31** (10:00 AM CT)
+- [x] **Confirm site access/space for Fri 7/31** — ✅ Randy Lee confirmed 7/29/26: Lower-Level Conf Room reserved all day; Nicole Gust to assist with archive access + cart
+- [ ] Confirm WiFi availability at NRD offices for the early Teams call (asked Randy 7/29/26, not yet answered)
 - [ ] Get Anne's contacts/pros-cons for the three paths (nearby archives, archival consultant, grad intern) on the call
 - [ ] Decide which path (or combination) BTTR wants to pursue
 - [ ] Tie back to book project: authors need a common access point for documents + shared timeline — whatever solution is chosen should serve that need, not just general archival hygiene

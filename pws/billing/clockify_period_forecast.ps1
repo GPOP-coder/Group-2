@@ -7,6 +7,9 @@ Requires the CLOCKIFY_API_KEY environment variable (Clockify > Profile Settings 
 This is a forecast/status check only — the authoritative source for actual invoicing is still the
 Clockify summary PDF report, same as the /invoice command already uses.
 
+NOTE: the Reports API returns each project's `duration` as plain seconds (integer), not an ISO 8601
+duration string -- confirmed against live output 2026-07-29. Divide by 3600 for hours.
+
 Defaults to the current Unifocus billing period (1st-15th or 16th-end of month, matching the
 twice-monthly invoice deadline). Pass -Start / -End for a custom range.
 

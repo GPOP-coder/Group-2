@@ -11,6 +11,10 @@
 - Brad Stewart (Director of Food and Beverage): Brad.Stewart@theunionstationnashvilleyards.com
 - Trey Jensen (Assistant Director of Outlets): Trey.Jensen@theunionstationnashvilleyards.com
 
+**Scheduling status (7/29/26):** Outreach sent to Brad + Trey (cc: Esther White, Kristi Brockelsby, Kristen Bacon, Nicole Mendez, Devon Peters, Ralph Varble, Taylor Walton, John Grech). Brad replied he has time Friday (7/31); Pete proposed **after 3:00 PM CT** and offered to send a calendar invite — **awaiting Brad's confirmation of that time**, invite not yet sent.
+
+**Same-day logistics (7/29/26):** Friday 7/31 also has an all-day BTTR archives dig at Papio-Missouri River NRD plus a 9:00 AM MT Anne Foster/NPS call (see `BTTR/records-preservation-project.md`). Pete plans to cut off the archives work in time to get on this call after 3 PM CT — either from the NRD site or another quiet spot found en route (NRD is 30–40 min from home). Backup connectivity: iPhone hotspot, needs 5G.
+
 ---
 
 ## Alligator Bar

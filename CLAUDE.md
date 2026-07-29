@@ -77,7 +77,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 ## Tech Stack
 
 - **Microsoft 365** — primary productivity suite
-- **Clockify** — billable time tracking; always start before Unifocus work
+- **Clockify** — billable time tracking; always start before Unifocus work. **Free plan** — API capped at 30 requests/hour per workspace (vs. 50 req/sec on paid tiers); relevant if any automated/scheduled agent starts polling it (e.g. a daily flash report) rather than one-off manual checks.
 - **Quicken Simplifi** — personal finance (~10 years data from Mint)
 - **Microsoft OneNote** — primary notes
 - **Microsoft To-Do** — tasks and lists (groceries separate list)
