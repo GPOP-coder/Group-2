@@ -12,6 +12,7 @@ Last updated: 2026-07-07
 - [x] **Mohonk UNIFOCUS-247559** — Verify Founders outlet shifts are actually generating in the live system — ✅ Confirmed 7/2/26 via admin login; Standard Hours generating correctly for all four Founders jobs
 - [ ] **Krispy Kreme settlement** — Search all inboxes for breach notice (Nov–Dec 2024). File claim at settlement website. **Deadline: June 26, 2026**
 - [ ] **NTSG Registered Agent** — Contact vendor, execute agreement, pay
+- [ ] **NTSG Treasurer's Report** — captured 7/30/26, details TBD
 - [ ] **Pensacola** — Sign and pay Jeremy's change order immediately when received (May 29) — crew is staged and waiting
 - [ ] **Pensacola** — Monitor cabinet install progress toward June 1 renter move-in
 - [x] **Pensacola** — Confirm Pete's travel dates and book return travel home — ✅ Southwest AU84MN booked, June 1 PNS→OMA 5:20 PM
