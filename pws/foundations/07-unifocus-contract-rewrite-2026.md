@@ -122,13 +122,58 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 ---
 
-## Draft Agreement Ready to Send (7/29/26)
+## Call Debrief — 7/30/26, 1:30pm (John Lockyer)
 
-Full draft letter agreement: `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md`, built for the Thursday 7/30/26 9am call. Structured on the HGM letter-agreement model (fee terms in the letter body, General Provisions folded in rather than a separate exhibit given the shorter scope). Four figures need Pete's confirm before sending — recommended defaults chosen from precedent already in this file, not yet approved:
-1. Casino premium: recommended **+$200** (exact match to Grand Hyatt onsite precedent)
-2. Architectural/strategic tier: recommended **$1,500/day flat** (matches ceiling of historical UF billing of Pete as an employee)
-3. Travel day rate: recommended **$400/day** (half of new remote rate — resolves the 2009-open travel billing question)
-4. Effective date: recommended **August 1, 2026**
+**Bottom line: no contract sent, no rate locked. Sending the draft now is ON HOLD** — John explicitly wants to wait until a specific role/scope crystallizes before pinning down a rate, on the logic that "what you're doing will have a big impact on the rate too." Don't send the letter/draft agreement until that scope conversation happens — see next steps below.
+
+**What actually happened, in order:**
+- Call stayed almost entirely on catch-up/relationship (agenda item 1) — personal, warm, consistent with their existing bond. Kim's role at Nebraska Med (CEO/CFO/CMO office, university-owned hospital) came up; John reacted warmly and gave a "watch out, shifty people" joke. Pete shared his own voter-registration story (switched Democrat → Independent, driven by immigration/citizenship-revocation fears) — personal color, not business-relevant.
+- Pete explicitly said he doesn't want the Product Owner-type role, reiterated Priyanka's read that it would "bog him down," and reframed himself as an **evangelist** — big-picture workforce management philosophy, not feature-level product work. John pushed back slightly (disagreed that software is secondary to philosophy) but didn't argue hard.
+- **Pete raised the contract himself**, unprompted, and gave John the actual numbers verbally (not the draft document — draft was not sent or shown):
+  - Current rate: "500 a day, 600 on site... not enough."
+  - **$1,500/day is specifically the strategic/evangelist-tier anchor, not a blanket opening ask.** Pete raised it in the context of the higher-level, "real high margin," evangelist-style consulting John himself was describing (the third bucket below) — verbally tied to historical UF client billing ("that's what you were charging for me... that's my starting point"). John's reaction: joking pushback — "So you want us to take everything we make and give it to you," "we should put you in sales" — not a rejection, but not an acceptance either.
+  - **Pete's stated floor/break-even for regular/standard work:** ~$800/day (5 years without a raise, adjusted for self-paid taxes, no PTO/benefits, realistic utilization — "that's about where I left off").
+  - Casino premium was mentioned only in passing ("there's a premium in there for casinos... some casinos we should sell right now [Baha Mar]") — no specific number discussed live.
+  - **This actually confirms the draft's tiered structure rather than conflicting with it** ($800 remote/$1,000 onsite "standard" + $1,500/day "architectural/strategic" tier). **Pete's framing (7/30/26, after this call):** the $1,500/day tier should be understood as Unifocus engaging PWS *as a customer* for short-term, specialized strategic/evangelist help — priced deliberately above what an equivalent FTE would cost Unifocus, not as an FTE-salary conversion. That's consistent with how Carpedia-style consulting markups work (client-billed rate well above internal salary cost) and with Pete's own point on the call that Unifocus historically billed clients $1,400–1,500/day for his time as a W-2 employee — an external/customer rate, not an internal one.
+- **John's response: defer scope-then-rate, not rate-then-scope.** He wants to define what Pete will actually be doing first (see three buckets below), then set the rate to match — "let's talk through it when there's things available... what you're doing will have a big impact on the rate too." He floated the possibility of FTE longer-term if Pete's ever open to it (Pete confirmed current flexibility, tied to Kim's employer benefits).
+- **Timeline John gave: 1–2 months** before the new structure is clearer, and he committed to keeping Pete in mind, same as he did for the Product Owner opening.
+
+**Confidential — John said "please don't repeat this," treat as need-to-know only, not just an AI-training exclusion:** Unifocus is **not investing further into TAPS long-term** — a new unified, AI-driven single platform (replacing both TAPS and OPS) is being announced publicly **September 15, 2026**. John's actual words: "we're going to stop selling it [TAPS], right? ... supporting three platforms... the team size we have is just not viable." Practical implication for Pete: be mindful of how much time/effort goes into TAPS-side implementation work going forward, and don't discuss the sunset plan with clients or other Unifocus contacts before John does so publicly.
+
+**Three buckets of future work John described** (this is the shape the eventual role/rate conversation will map onto):
+1. **New-platform rollout for select-service/small properties** (Hampton Inn/Courtyard-tier) — needs to be fast, remote-configurable, adopted with CSM support; CSMs carry most of this, but they'll need more CSMs.
+2. **Full-service hotel consulting** — still requires onsite cultural/operational change work, the kind Pete already does.
+3. **"Pure consulting" (not implementation) + evangelist role** — people who understand hospitality more than the platform (former GMs/DOFs), operating at a level below John's own high-level industry commentary and above Ralph's technical level — John explicitly compared this to what he and Kris Ballew already do jointly in customer meetings, and said there "could be something there" for Pete.
+
+**Concrete near-term opening John flagged himself:** the **Loews event labor module** — TAPS event-labor functionality being sold separately/standalone, committed for Loews. John said unprompted, "we should probably plug you into that discussion." Pete has deep banquet/event-labor background. **Action: follow up on this — it's the one concrete, near-term thread from the call, independent of the broader 1–2 month rate/role timeline.**
+
+**Follow-up drafted 7/30/26 (same day, while fresh):** `pws/unifocus/2026-07-30_loews-event-labor-followup-draft.md` — short Teams message. **Held for now — revisit after the Mohonk trip returns (8/7/26)** rather than sending immediately; also on todo.md.
+
+**Rockbridge context confirmed:** John was in Ohio (not Dallas) with Rockbridge trying to unstick a property implementation that took 9 months — an outlier, but illustrates the capacity strain already flagged in this file. Names from that world: Spiro, Nate, Mike Ditterline (DiamondRock alumni, now on the MakeReady Hotels side).
+
+**Other business color:**
+- Board meeting held in Dallas last week (in-person) — John called it the best board meeting he's had, strong exec-team confidence, though financials don't yet show improvement since nothing's shipped.
+- AWS migration risk flagged: the Hilton→AWS migration was as bad as the old Loews 9→10 upgrade Pete lived through as a UF employee. Loews is now facing a procurement-driven RFP cycle on TAPS — UF hoping to retain them.
+- Pete's stated availability to John: "booked into October... some holes between now and mid-October, but not a lot" — consistent with the confirmed travel calendar in CLAUDE.md.
+
+**Immediate next steps:**
+- [ ] **Do not send the draft agreement yet** — wait for John's scope/role conversation (his stated 1–2 month timeline) rather than pushing a rate ask now.
+- [ ] **Follow up on Loews event labor module** — concrete opportunity John raised himself; worth a light-touch nudge rather than waiting the full 1–2 months.
+- [x] Reconciled 7/30/26: the draft's tiered structure was correct all along — $800/$1,000 is standard/base work, $1,500/day flat is specifically the strategic/evangelist tier, framed as Unifocus-as-customer pricing for short-term specialized help, deliberately priced above FTE-equivalent cost. No change needed to the draft's numbers, just to how the tier is described/justified when the scope conversation happens.
+- [ ] Keep the Sept 15, 2026 new-platform announcement on the radar — treat pre-announcement details as confidential per John's request.
+- [ ] Watch for John's next contact — he said he'd loop back once he knows more on "a real possibility short term."
+
+---
+
+## Draft Agreement Ready to Send (7/29/26, restructured 7/30/26) — ⏸️ ON HOLD, see call debrief above
+
+**Call time note:** the John Lockyer call moved from 9:00 AM to **1:30 PM** on 7/30/26.
+
+Full draft: `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md`. **Restructured 7/30/26 at Pete's request** to mirror the original May 27, 2025 Independent Contractor Agreement's own format — numbered Articles/Sections (Article 1–8, e.g. §2.02, §6.01 preserved at the same reference points as the original) plus an Exhibit A fee schedule — rather than the HGM letter-agreement model used in the first pass. All previously-agreed changes are folded into the corresponding original section numbers: §2.02 now carries the non-exclusive/independent-contractor language (replacing "full-time basis") with the non-compete carve-outs folded in by name; §6.01 indemnification is now mutual and capped; termination (Article 7) now requires notice + cure instead of "sole and absolute discretion, no cure period." **Pete locked in all four figures 7/30/26** (accepted the recommended defaults as-is, ahead of the 1:30pm call):
+1. Casino premium: **+$200** (exact match to Grand Hyatt onsite precedent)
+2. Architectural/strategic tier: **$1,500/day flat** (matches ceiling of historical UF billing of Pete as an employee)
+3. Travel day rate: **$400/day** (half of new remote rate — resolves the 2009-open travel billing question)
+4. Effective date: **August 1, 2026**
 
 Draft also fixes the two structural issues flagged earlier in this file: indemnification is now mutual and capped (greater of trailing-12-month fees or $50,000, mirroring the Referral Agreement's existing mutual-cap pattern) instead of one-sided/uncapped, and the termination clause requires notice + cure instead of "sole and absolute discretion, no cure period." §2.02's "full-time basis" language is replaced with an explicit independent-contractor/non-exclusive clause that folds in the existing non-compete carve-outs by name.
 
@@ -136,11 +181,11 @@ Draft also fixes the two structural issues flagged earlier in this file: indemni
 
 ## Open Questions / Next Steps
 
-- [ ] **Pete to confirm the 4 flagged figures** in `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md` before sending: casino premium (+$200 recommended), architectural tier ($1,500/day recommended), travel rate ($400/day recommended), effective date (8/1/26 recommended)
-- [x] Decide travel billing policy — ✅ Draft proposes **$400/day** (half of remote rate), resolving the question open since 2009. Not yet Pete-confirmed.
-- [x] Decide final rate ask — ✅ Proposed 7/24/26: $800/day remote, $1,000/day onsite. Casino premium now recommended at +$200 in the draft (not yet confirmed).
+- [x] **Pete confirmed the 4 flagged figures** 7/30/26 in `pws/unifocus/2026-07-30_pws-unifocus-agreement-draft.md`: casino premium +$200, architectural tier $1,500/day, travel rate $400/day, effective date 8/1/26
+- [x] Decide travel billing policy — ✅ **$400/day** (half of remote rate), resolving the question open since 2009. Confirmed 7/30/26.
+- [x] Decide final rate ask — ✅ $800/day remote, $1,000/day onsite. Casino premium confirmed at +$200.
 - [x] Liability/indemnification and termination-for-cause fixes — ✅ Included in the draft: mutual capped indemnification, notice-and-cure termination replacing the one-sided "sole and absolute discretion" clause.
-- [x] Architectural/strategic-direction premium tier — ✅ Draft proposes $1,500/day flat (not yet confirmed).
+- [x] Architectural/strategic-direction premium tier — ✅ Confirmed $1,500/day flat.
 - [x] Entity — ✅ Draft names Platinum Workforce Strategies, LLC as the contracting party throughout.
 - [ ] When the new draft comes back from Unifocus, explicitly check for stale boilerplate (old logos, "UniFocus" capitalization, HM Alpha or other client residue) before signing
 - [ ] Separately: decide whether/how to pursue the Baha Mar Casino referral opportunity now, and how to ensure Pete actually receives both the referral commission and the implementation work this time (unlike the original Grand Hyatt Baha Mar referral, which closed after he'd left the company)
