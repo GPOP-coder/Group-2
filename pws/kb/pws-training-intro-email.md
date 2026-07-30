@@ -73,9 +73,11 @@ We offer two sessions, based on your role:
 ## MATERIALS & PRE-WORK
 
 **Watch these videos before your session** (20 minutes total):
-- Scheduling Part 1: Overview & Navigation — [LINK or "Video file attached"]
-- Scheduling Part 2: Building Schedules — [LINK or "Video file attached"]
-- Scheduling Part 3: Reports & Analysis — [LINK or "Video file attached"]
+- Scheduling Part 1: Overview & Navigation — https://youtu.be/atFNXJKcjSk
+- Scheduling Part 2: Building Schedules — https://youtu.be/ug1Cozqy0Jw
+- Scheduling Part 3: Reports & Analysis — https://youtu.be/NCK6jjVjJZ4
+
+*(Links confirmed 7/29/26 from the HM Alpha training materials email — same standard set referenced for Mohonk's Basic Training pre-work.)*
 
 **Review these guides** (you'll keep them as reference):
 - Unifocus Manager Training Guide (your session agenda + key concepts)

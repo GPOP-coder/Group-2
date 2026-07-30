@@ -7,9 +7,32 @@
 **Notes source:** Bron Walis's Note Taker (AI-generated transcript/summary) — full transcript available, not yet pulled into this file
 **Purpose:** This is the pre-visit planning call flagged as pending in the [7/20/26 call notes](2026-07-20_standard-hours-thu-sun-call.md#separate-topic-pre-visit-planning-call-for-august-onsite) — property walked through their agenda ahead of Pete's Aug 2–7 onsite visit.
 
-**Participants (named in notes):** Bron Walis, Lou (Petruzzelli), Susanna Briggs, Pete Castellano. "Alex" and "Kidani" also referenced (roles not specified in this summary — confirm against Mohonk staff list; Kidani appears to be existing Unifocus-experienced staff, Alex appears to own recreation/housekeeping standards).
+**Participants (named in notes):** Bron Walis, Lou (Petruzzelli), Susanna Briggs, Pete Castellano. "Alex" and "Kidani"/"Kedane" also referenced (roles not specified in this summary — confirm against Mohonk staff list; this person appears to be existing Unifocus-experienced staff, Alex appears to own recreation/housekeeping standards).
 
-**Note:** Pete was also looking for Susanna's independent version/notes of this same call — worth comparing once available in case of gaps or differing emphasis. **Status 7/24/26 (later same day): still not received** — Susanna was busy after the meeting correcting handouts and updating logos/language, so her summary is delayed, not forgotten.
+**⚠️ Name discrepancy:** These call notes (Bron's Note Taker AI transcript) spell it **"Kidani"**; Susanna's own written follow-up (email, 7/24/26 6:10 PM) spells it **"Kedane."** Confirm correct spelling with Bron/Lou before it goes into any participant-facing communication.
+
+**Note:** Pete was also looking for Susanna's independent version/notes of this same call — **received 7/24/26, 6:10 PM** (email to Bron, Pete, Lou; cc Ralph). Summary below incorporates it; see also the fuller email thread (subject "RE: pre-call") for the scheduling history leading up to the call.
+
+---
+
+## Susanna's Written Follow-Up (7/24/26, 6:10 PM) — What It Adds
+
+- **Visit framing:** Sunday evening through Friday morning = **four full working days (Mon–Thu)** plus a Friday wrap-up — not a fifth full working day.
+- **Admin Training reframed:** focused specifically on Mohonk's *current configuration* — standards setup and system optimization tailored to their environment — **not** a generic/basics session.
+- **Labor meeting:** framed as incorporating "labor meeting best practices" into training, aligning reporting, scheduling, and decision-making processes — slightly more structured than just "review past performance."
+- **Standards & Configuration focus areas — expanded list:**
+  - Recreation (new sports center, retail, consolidated operations) — already known
+  - Housekeeping standards validation (turndown) — already known
+  - **Spa setup and KBI integration — NEW, not previously scoped into the onsite visit.** Directly relevant to the existing [Spa Interface Not Processing issue](kb.md#-spa-interface-not-processing) (🔴 open, escalated to engineering, no resolution timeline) — worth deciding whether this visit can actually move that ticket forward or is just a standards conversation independent of the interface bug.
+  - Food & Beverage refinements and prioritization — already known (James's prioritization work)
+  - **Expectation set:** some items (time & motion studies, deeper standards validation) may need follow-up *beyond* this visit — not everything gets resolved onsite.
+- **System & Data topics — one new item:** reviewing **new hire data flow timing** — not previously mentioned anywhere in the Mohonk KB.
+- **Scheduling status:** Bron/Susanna to "continue to coordinate next week to finalize scheduling and participant availability" — confirms the day-by-day schedule and who's attending are still **not locked**, consistent with what was already flagged.
+- **Materials:** Susanna attached some training materials/guides to her email (not yet pulled into this repo); Pete still owns sending the pre-work videos.
+
+### Side notes from Susanna's email (new action items)
+1. **Dashboard demo:** Susanna will schedule a demo of the upcoming dashboard enhancement "next week" (week of 7/27) — asked for availability. Open: whose availability — Pete's, Mohonk's, or both — wasn't specified.
+2. **UNIFOCUS-252999 update (standard hours Thu–Sun gap):** Susanna spoke with Monali — **root cause confirmed: the "revenueimport" stored procedure runs at 8:00 AM CT, triggered by the KBI files Mohonk sends, which arrive ~7:00 AM.** Import timing can't be pushed back (it's driven by when Mohonk's files arrive) — **the only fix is moving the standard-hours generation time later.** This confirms Pete's 7/22/26 hypothesis (interface/timing issue, not a Task Scheduler bug) — see [kb.md ticket section](kb.md#-standard-hours-not-generating--thursday-through-sunday-recurring). Susanna offered a call to review if needed.
 
 ---
 

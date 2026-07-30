@@ -16,6 +16,13 @@ Last updated: 2026-07-24
 | Susanna Briggs | Unifocus internal contact | sbriggs@unifocus.com \| O: 972.512.5113 |
 | Ralph Varble | Unifocus Chief Customer Officer | O: 972-512-5083 \| C: 832-226-8945 \| rvarble@unifocus.com |
 | Monali Desai | Unifocus — Lead, Data Integration | mdesai@unifocus.com |
+| Kidane Mikael | Dining Room Manager | — (name confirmed 7/29/26; prior notes had "Kidani"/"Kedane") |
+| Alex Nee | Recreation | — |
+| Dylan B. | Recreation | — (last name TBD) |
+| Molly W. | Security | — (last name TBD) |
+| Samuel Harris | Beverage | — |
+| Olivia / Barbara | Spa | — (last names TBD; Basic Training attendance unconfirmed as of 7/29/26) |
+| Chef Jim / Chef Steve | Kitchen | — (last names TBD) |
 
 ---
 
@@ -73,19 +80,43 @@ Last updated: 2026-07-24
 
 **Pre-visit agenda planning call — held 7/24/26** (Bron Walis, Lou, Susanna Briggs, Pete): agreed draft schedule below. Pete's earlier concern about the week being overpacked appears resolved — agenda fits within the week as planned, pending final block confirmation from Bron.
 
-**Draft onsite schedule (Aug 2–7):**
-| Day | Activity |
-|---|---|
-| Mon or Tue | Admin training — full day, standards development (modify existing, not new) |
-| Wed AM | Basic training — 3 hrs, Mohonk-specific; video pre-work sent ahead |
-| Wed PM | Labor meeting — past performance + future scheduling |
-| TBD | Advanced training for Kidani — ~2 hrs (already Unifocus-familiar); James may join |
+**Draft onsite schedule (Aug 2–7) — with confirmed rosters per Susanna's raw planning notes (7/29/26):**
+
+| Day | Activity | Attendees |
+|---|---|---|
+| Mon or Tue | **Admin Training** — full day: standards training + how to run a labor meeting; also folds in Labor Standard Training (adjusting to match staffing guides) | Lou, Bron, Casey D. + "Other?" (not yet named) |
+| Wed AM | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | Alex Nee & Dylan B. (Recreation), Housekeeping Admin Staff, Molly W. (Security), Spa — Olivia/Barbara **not yet confirmed**, Chef Jim/Chef Steve (Kitchen) |
+| Wed PM (tentative) | **Labor Meeting** sit-in — time TBD, maybe Wednesday or folded into Admin Training | Housekeeping, F&B |
+| TBD | **Advanced Training** — 1:1 with Pete, open Q&A format (~2 hrs) | Kidane Mikael (Dining Room Manager) |
+
+**Scheduling conflicts/notes flagged in Susanna's raw planning notes:**
+- Office 16 — confirmed by Tom/Eric
+- **Patrice Huart out the week of Aug 3rd** — falls inside the visit window; worth checking whether this affects Dining/F&B coverage
+- Jon out Aug 20–27 (after this visit) — Bron/team will reach out to Roosa in his place; role/relevance unclear, noted as-is
+- **Doug's team declined to meet with Unifocus** — schedules are fixed, no need seen for a session
+
+**Standards review, expanded (Susanna's raw notes):**
+- Recreation: Sports Center retail component + consolidating standards (new); confirm accuracy of "Kids" (program name unclear, needs confirmation)
+- Security: match staffing guides — new topic, ties to Molly W.
+- Time & Motion (Pete to spend ~1 hr): Room cleaning standard (may differ in summer), and **Turndown Service** — root cause of the inconsistent turndown standards flagged earlier in this KB: **turndown wasn't actually happening during the original Time & Motion study**, so the standard was never built on real data.
 
 **Prep work before Pete arrives (owned by Lou, meeting with Alex):** recreation standards review (new sports center + retail consolidation, budget alignment) and housekeeping standards verification (turndown service consistency).
+
+**Added scope, per Susanna's 7/24/26 written follow-up (not yet reflected in the draft schedule table above):**
+- **Spa setup and KBI integration** — ties to the open [Spa Interface Not Processing](#-spa-interface-not-processing) ticket; unclear yet whether this visit can move that ticket forward or is a separate standards conversation
+- **New hire data flow timing** — new topic, not previously scoped
+- F&B refinements/prioritization — already known, now explicitly listed as an onsite focus area
+- **Expectation set:** time & motion studies / deeper standards validation may need follow-up beyond this visit — not everything gets resolved onsite
+- **Dashboard demo:** Susanna scheduling for week of 7/27, requested availability (unclear whose)
+- Scheduling/participant availability still being finalized "next week" per Susanna — schedule is not locked
+
+Full detail: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md#susannas-written-follow-up-72426-610-pm--what-it-adds)
 
 **Pete's open action item:** send basic-training guides/videos to participants ahead of the Wednesday session.
 
 **Friday flight timing norm (from Pete's UF employee days, 2009+):** Standard 5-day-week convention is to leave **after noon Friday** — a post-noon departure with one connection typically gets him home by midnight. (Flying out early Monday instead of Sunday to save a travel day is technically possible but was only ever done once — required a 2 AM alarm and 5 AM flight — not worth repeating.) Use this as the baseline when evaluating Friday 8/7 return flight options.
+
+**Friday morning hard cutoff (7/29/26):** Any Friday wrap-up meetings must **end by 11:00 AM**. Math: 5:19 PM flight departure − 5 hrs lead time (2-hr drive to Newark + rental return + TSA/boarding buffer) = **12:19 PM latest departure from Mohonk**; 11:00 AM meeting end leaves 1h19m for lunch/packing/checkout before hitting the road. This is separate from the already-flagged tight spot at the Newark end (only 19 min between the 5:00 PM rental drop-off and 5:19 PM departure).
 
 **Friday scheduling (clarified 7/24/26):** Pete sets Friday's on-property agenda himself. Mohonk originally expected a typical Tue–Thu consultant visit (the usual pattern for vendor visits there); Mon–Fri is the actual Unifocus-arranged week, and the Friday morning wrap-up is Pete's bonus offering on top of that, not an obligation — meaning he has real flexibility to end Friday early enough to make a reasonable-window flight home. **Billing:** Pete told Mohonk to expect Ralph to bill a full five days; Pete believes that's what Ralph arranged but isn't 100% certain — worth confirming directly with Ralph. **Note:** what Pete bills Unifocus and what Ralph bills Mohonk against the PO/change order are unrelated books — no direct linkage, see `pws/foundations/07-unifocus-contract-rewrite-2026.md`.
 
@@ -241,7 +272,25 @@ Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
 **Pete's hypothesis (7/22/26): this is an interface timing issue, not a Task Scheduler bug.** Fits the F&B Covers flow already documented in [interfaces.md](interfaces.md#fb-covers--high-priority) — Accounting only transposes and uploads covers to Datavision **Monday–Friday**, and the original 7/1/26 finding was explicit: *"If Friday–Sunday cover numbers aren't entered before 8AM Tuesday, no standard hours generate on the Tuesday afternoon/Wednesday labor reports."* Since accounting doesn't run on weekends, Thursday–Sunday covers can't reach Datavision until the following Monday at the earliest — if the standard-hours generation runs don't have one scheduled with enough buffer after that Monday upload completes, Thu–Sun will keep coming up empty almost every week, which matches the reported recurrence exactly. This reframes the fix path: instead of (or in addition to) the Task-Scheduler-recreate approach that worked for the Founders ticket, the real fix may be **retiming the generation runs** to land after the Monday catch-up upload, or shortening the accounting-to-Datavision lag itself.
 
-Full call notes: [2026-07-20_standard-hours-thu-sun-call.md](2026-07-20_standard-hours-thu-sun-call.md)
+**✅ Root cause confirmed (Susanna Briggs, 7/24/26 email, per conversation with Monali Desai):** The **"revenueimport" stored procedure runs at 8:00 AM CT**, triggered by the KBI files Mohonk sends, which arrive ~7:00 AM. The import time can't be pushed back — it's driven by when Mohonk's files arrive, not a configurable schedule. **The only fix is moving the standard-hours generation time to later**, after the import completes. This confirms Pete's 7/22/26 interface-timing hypothesis over the Task-Scheduler-recreate theory. Susanna offered a call to review the retiming if needed — not yet scheduled.
+
+Full call notes: [2026-07-20_standard-hours-thu-sun-call.md](2026-07-20_standard-hours-thu-sun-call.md) | [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md) (Susanna's follow-up with the root cause)
+
+---
+
+### 🆕 New Issues Raised — Ahead of Aug 2026 Visit (F&B / Kitchen / Beverage)
+**Source:** Susanna's raw planning notes for the 7/24/26 agenda call, shared with Pete 7/29/26. Not yet ticketed — candidates for the onsite visit or new Jira tickets.
+
+**Kitchen:**
+- **New hire import lag:** New hires can't be scheduled in Unifocus until their **second week** — the import that brings new employees into the system is delayed relative to their actual start date. This is the "new hire data flow timing" topic Susanna flagged in her 7/24 follow-up email — now with the actual operational detail.
+- **Reports inaccurate:** Scheduled vs. worked hours are off by a meaningful margin because staff get pulled in from outside departments (cross-department borrowing isn't reflected correctly in reporting).
+
+**Beverage** (reported by Samuel Harris):
+- **System not generating all scheduling needs** for: Carriage Lounge PM bartender; Banquet/wedding bartenders.
+- **Same position generating under multiple job codes** — Granary bartender appears under both "Main Service Bar" and "Granary."
+- **Training shifts not reflected on reports** when "Shift Category: Training" is selected — the filter appears not to account for those shifts.
+
+None of these have diagnostic work started yet — worth triaging before/during the visit to decide which are quick fixes vs. need a formal ticket.
 
 ---
 
