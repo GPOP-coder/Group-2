@@ -71,6 +71,8 @@ Pete's read: almost all of Unifocus's consulting contract language is boilerplat
 
 **Rate-justification evidence accumulating from actual work (per `project_unifocus_contract_review` memory):** the depth of diagnostic work on things like the Rosewood BNQ Hours issue — tracing symptoms through multiple architectural layers and generalizing it into reusable methodology — is exactly the kind of work that justifies a rate closer to what Unifocus has always billed clients for Pete, not just PWS's own client-facing rate.
 
+**New strategic evidence, 2026-07-31:** the support-to-consulting handoff pattern (support closes a ticket once a connection technically exists, permanently shifting mapping-accuracy ownership to consulting, observed live via UNIFOCUS-235850/Rosewood Miramar) directly undermines John's stated plan (7/30/26 call) for lean, low-implementation-team select-service rollouts — someone still has to own file/data correctness after go-live, and there's currently no mechanism for that besides consulting hours. Full writeup: `pws/foundations/05-pws-strategic-direction.md`, "The Support-to-Consulting Handoff." Worth having in back pocket for the eventual role/rate conversation — first-party evidence the lean-implementation plan has an unsolved cost.
+
 ---
 
 ## Proposed New Rate — Volume Basis (Pete's ask, 7/24/26)

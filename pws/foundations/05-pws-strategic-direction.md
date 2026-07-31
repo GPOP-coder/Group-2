@@ -1,7 +1,7 @@
 # Document 5: PWS Strategic Direction
 **PWS — Hospitality & Consulting Foundations**
 *Source: Unifocus monthly consultant meeting + peer conversation, May 19, 2026*
-*Last updated: May 22, 2026*
+*Last updated: July 31, 2026*
 
 ---
 
@@ -41,6 +41,16 @@ This is what Unifocus consultants used to do. It is the gap PWS fills.
 - **MHBR:** $101K/year in identified savings. 6.7x ROI on Pete's fee. Genevieve called because housekeeping productivity slipped — not because the software broke.
 - **Mohonk:** Two previous Unifocus consultants failed. Pete solved it through observation, patience, and relationship. Ralph called it "working a miracle."
 - **Baha Mar:** Inherited an incomplete implementation mess. Forensic analysis and judgment, not button-clicking.
+
+### The Support-to-Consulting Handoff — and Why It Won't Scale Down (added 2026-07-31)
+
+**How support actually operates, observed via UNIFOCUS-235850 (Rosewood Miramar BQT, 7/28/26):** Unifocus's support department's real boundary of ownership is "is the connection/file working" — not "is the data mapped correctly." Once a file is technically flowing (or once it once flowed), support treats the ticket as resolved and permanently hands mapping accuracy and all downstream errors to consulting/implementation. There is no clean handback — consulting inherits the file's correctness forever, with no defined end state where support re-owns it. Rosewood Miramar's BQT file was still zeroing out after a year; support's answer was "it's mapped to the old interface" plus a sample file, then marked the ticket resolved — Pete's actual diagnostic questions (is the automation broken, is a file coming, what's needed to revive it) went unanswered.
+
+**Why this matters strategically:** John Lockyer told Pete directly (7/30/26 call) that Unifocus's plan for winning the select-service market (Hampton/Courtyard-tier properties) is a simpler, more intuitive platform that needs **little or no implementation team** — CSMs get properties over the hump, not consultants. But the support-to-consulting handoff above shows where the *real* ongoing cost of "getting the data right" actually lives: it doesn't disappear once the software is simpler, it just has nowhere to land if there's no implementation team left to absorb it. Someone still has to own file/interface accuracy after go-live — that work either:
+1. Gets pushed onto **Integration** itself (the connection/automation layer has to become self-validating and much smarter than it is today — not just "is data flowing" but "is it flowing *correctly*"), or
+2. Keeps quietly costing Unifocus consulting hours anyway, undermining the "lean, no-implementation-team" pitch for select-service.
+
+**Pete's read:** this is a real tension in Unifocus's stated strategy, not a solved problem — and it's exactly the kind of gap PWS's consulting/architectural work fills today (see rate-justification evidence in `pws/foundations/07-unifocus-contract-rewrite-2026.md`). Worth having in back pocket for the eventual role/rate conversation with John, since it's first-party evidence (not just Pete's opinion) that "shrink implementation, lean on software" has an unsolved cost hiding in exactly this handoff.
 
 ---
 
