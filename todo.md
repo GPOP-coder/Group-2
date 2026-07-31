@@ -49,6 +49,9 @@ Last updated: 2026-07-07
 
 ## 🟡 Admin / Personal
 
+- [ ] **Photo storage: confirm iCloud Photos status on iPhone** — determines if the Google Photos archive already has a second independent copy. See `personal/photography-storage-strategy.md`.
+- [ ] **Photo storage: upgrade Google One to 2TB** ($9.99/mo) — Google account hit 94% of 200GB (7/30/26); Schedule-C deductible per existing practice.
+
 - [ ] **Stripe/Link — Remove card** — Accidentally saved FNBO card ending 0733 to Link (Stripe wallet) during Scribd signup. Go to link.com, sign in with pete@platinumworkforcestrategies.com, remove card.
 - [ ] **Scribd — CANCEL before June 27** — Signed up May 29 (pete@platinumworkforcestrategies.com, FNBO Evergreen Visa, card ending 0733). Charge hits June 28. Download USALI 12th edition while active.
 - [ ] **Apple iPhone settlement** — Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice

@@ -32,6 +32,8 @@ This reads the "`<year> PTO`" tab(s) of `C:\Users\peter\OneDrive\Documents\UF Ex
 
 Output JSON: `capacityHours` (the utilization denominator), `daysInRange`, and `yearsSkipped` (years in the range with no matching `"<year> PTO"` tab — flag this to Pete if non-empty, don't silently treat missing years as zero capacity).
 
+`dailyBreakdown` entries include a `note` field (Column R — e.g. "BTTR Volunteer Hours") explaining *why* a day has 0 capacity. A 0-capacity day with a populated `note` is not a data error — don't flag it as a discrepancy just because `status` (Column E) is blank.
+
 If Excel COM fails (e.g. Excel not installed/available), stop and relay the error — don't estimate capacity another way without asking Pete first.
 
 ---

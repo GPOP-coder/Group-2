@@ -1,6 +1,6 @@
 # PWS — Billing & Invoicing
 
-Last updated: 2026-06-29
+Last updated: 2026-07-31
 
 ---
 
@@ -67,6 +67,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 | UF20260514PAC | May 1–14, 2026 | $1,928.50 | Sent to Ralph; CC Shilpa |
 | UF20260629PAC | June 15–29, 2026 | $4,269.50 | To Shilpa; CC peter.a + heartprincess71 |
 | UF20260714PAC | June 30–July 14, 2026 | $4,396.50 | Sent 2026-07-15 to Shilpa; CC peter.a + heartprincess71 |
+| UF20260730PAC | July 15–30, 2026 | $2,497.50 | Sent 2026-07-31 to Shilpa; CC peter.a + heartprincess71 |
 
 ### May 1–14, 2026 Detail
 | Qty | Type | Description | Client | Total |

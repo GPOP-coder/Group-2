@@ -12,9 +12,15 @@ blank on weekends). Sums Column D across the requested date range. If the range 
 boundary, sums across each year's "<year> PTO" tab; years without a matching tab are skipped with
 a warning.
 
+Columns G:T are one column per reduced-capacity reason (PTO, Holiday, Sick, Volunteer, etc.), with
+the reason name in Row 6 of each column. A given day's reason is whichever G:T column is populated
+on that row. Column E ("status") is often blank even on legitimate non-capacity days -- the G:T
+columns are the real source of that explanation, not column E.
+
 Output includes both the summed `capacityHours` (period-level denominator, used for utilization)
-and a `dailyBreakdown` array of {date, capacity, status} (used for day-by-day reconciliation against
-Clockify entries when projecting the rest of a period).
+and a `dailyBreakdown` array of {date, capacity, status, note} (used for day-by-day reconciliation
+against Clockify entries when projecting the rest of a period, and to explain 0-capacity days
+without treating them as data errors).
 
 .EXAMPLE
 .\capacity_from_workdays.ps1 -Start 2026-07-15 -End 2026-07-30
@@ -58,6 +64,13 @@ try {
             continue
         }
 
+        # Columns G(7):T(20) are one column per reduced-capacity reason; Row 6 holds each reason's name.
+        $reasonHeaders = @{}
+        for ($c = 7; $c -le 20; $c++) {
+            $h = $sheet.Cells.Item(6, $c).Text
+            if ($h) { $reasonHeaders[$c] = $h }
+        }
+
         $rowCount = $sheet.UsedRange.Rows.Count
         for ($r = 9; $r -le $rowCount; $r++) {
             $dateText = $sheet.Cells.Item($r, 1).Text
@@ -71,10 +84,21 @@ try {
                 if ($capText -and [double]::TryParse($capText, [ref]$cap)) {
                     $totalCapacity += $cap
                 }
+
+                $reasons = @()
+                foreach ($c in $reasonHeaders.Keys) {
+                    $cellText = $sheet.Cells.Item($r, $c).Text
+                    if ($cellText) {
+                        $reasons += "$($reasonHeaders[$c]): $cellText"
+                    }
+                }
+                $noteText = $reasons -join "; "
+
                 $dailyBreakdown += [ordered]@{
                     date     = $rowDate.ToString("yyyy-MM-dd")
                     capacity = $cap
                     status   = $statusText
+                    note     = $noteText
                 }
                 $daysFound++
             }

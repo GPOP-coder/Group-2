@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-07-24
+Last updated: 2026-07-30
 
 ---
 
@@ -80,14 +80,23 @@ Last updated: 2026-07-24
 
 **Pre-visit agenda planning call — held 7/24/26** (Bron Walis, Lou, Susanna Briggs, Pete): agreed draft schedule below. Pete's earlier concern about the week being overpacked appears resolved — agenda fits within the week as planned, pending final block confirmation from Bron.
 
-**Draft onsite schedule (Aug 2–7) — with confirmed rosters per Susanna's raw planning notes (7/29/26):**
+**Schedule update from Bron, 7/30/26 8:16 AM email ("RE: Unifocus Next Week")** — supersedes the day assignments below where noted:
+- **Basic Training moved to Thursday morning** (was Wed AM in the 7/24 draft) — Bron calls it "the largest meeting," **~7 people (housekeeping and kitchen)**. Rest of the week's meetings are 2–4 people.
+- **3 remaining labor standard meetings** scheduled for **Tue/Wed morning** — Bron expected to have these locked by COB 7/30/26.
+- **Alex Nee (Recreation) not yet slotted** — Bron still working out where to fit him; previously assumed to be part of the basic-training group, now looks like a separate slot.
+- **Laptop question — RESOLVED.** Pete replied 7/30/26 6:16 PM: hands-on/follow-along is best practice, recommended if feasible, final call left to Bron. Also floated **open-office time for individual help** given small class sizes — a new potential agenda addition, not previously planned; watch for Bron's response on whether he wants to schedule it.
+- **Video links — RESOLVED.** Pete already sent them, 7/30/26 7:00 AM, in a "Unifocus Next Week" email to Susanna Briggs, Bron Walis, Lou Petruzzelli (cc Ralph Varble) — **ahead of Bron's 8:16 AM email**, so Bron already had them when he asked his laptop question. Sent as a Training Materials & Videos table with individually distinct "Watch" links per video, plus 4 PDFs (attached): Unifocus Training Guide — Managers, P&S Handbook, P&S Smart Cards, Unifocus P&S Timeline. Bron will still forward/fold these into his own meeting invites to the actual Thursday attendees.
+
+**Draft onsite schedule (Aug 2–7) — day/attendee detail below reflects the 7/24 planning call; cross-check against the 7/30 update above before finalizing:**
 
 | Day | Activity | Attendees |
 |---|---|---|
 | Mon or Tue | **Admin Training** — full day: standards training + how to run a labor meeting; also folds in Labor Standard Training (adjusting to match staffing guides) | Lou, Bron, Casey D. + "Other?" (not yet named) |
-| Wed AM | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | Alex Nee & Dylan B. (Recreation), Housekeeping Admin Staff, Molly W. (Security), Spa — Olivia/Barbara **not yet confirmed**, Chef Jim/Chef Steve (Kitchen) |
+| **Thu AM** (moved from Wed AM 7/30/26) | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | ~7 people per Bron: Housekeeping Admin Staff, Chef Jim/Chef Steve (Kitchen). Molly W. (Security), Spa (Olivia/Barbara), Dylan B. (Recreation) status unconfirmed for this session; **Alex Nee separately not yet slotted** |
 | Wed PM (tentative) | **Labor Meeting** sit-in — time TBD, maybe Wednesday or folded into Admin Training | Housekeeping, F&B |
 | TBD | **Advanced Training** — 1:1 with Pete, open Q&A format (~2 hrs) | Kidane Mikael (Dining Room Manager) |
+
+**Laptop question — resolved 7/30/26 6:16 PM (see reply above).**
 
 **Scheduling conflicts/notes flagged in Susanna's raw planning notes:**
 - Office 16 — confirmed by Tom/Eric
@@ -112,7 +121,7 @@ Last updated: 2026-07-24
 
 Full detail: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md#susannas-written-follow-up-72426-610-pm--what-it-adds)
 
-**Pete's open action item:** send basic-training guides/videos to participants ahead of the Wednesday session.
+**Pete's open action item — DONE.** Video links + full training materials packet sent 7/30/26 7:00 AM (see "Schedule update" above for detail).
 
 **Friday flight timing norm (from Pete's UF employee days, 2009+):** Standard 5-day-week convention is to leave **after noon Friday** — a post-noon departure with one connection typically gets him home by midnight. (Flying out early Monday instead of Sunday to save a travel day is technically possible but was only ever done once — required a 2 AM alarm and 5 AM flight — not worth repeating.) Use this as the baseline when evaluating Friday 8/7 return flight options.
 
