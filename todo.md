@@ -4,6 +4,12 @@ Last updated: 2026-07-07
 
 ---
 
+## Today — 2026-08-01
+
+- [ ] **Respond to Rosewood Baha Mar banquet mapping ticket** (UNIFOCUS-246757 / BQT KBI)
+
+---
+
 ## 🔴 Urgent / Deadline-Driven
 
 - [x] **URGENT: Nashville hotel booking** — ✅ Booked 7/12/26: The Nashville Reserve, 301 Rosa L Parks Ave, $694.05 (3 nights + tax), Visa -2785. See `travel/trips/2026-07-13_2026-07-16_nashville-hmalpha-training.md`.
