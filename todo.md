@@ -51,7 +51,18 @@ Last updated: 2026-07-07
 
 - [ ] **Photo storage: confirm iCloud Photos status on iPhone** — determines if the Google Photos archive already has a second independent copy. See `personal/photography-storage-strategy.md`.
 - [ ] **Photo storage: upgrade Google One to 2TB** ($9.99/mo) — Google account hit 94% of 200GB (7/30/26); Schedule-C deductible per existing practice.
-
+- [ ] **Pensacola house valuation** — Obtain for accountant; needed for October tax return (cost basis vs. county assessed value)
+- [ ] **PenAir account → Money Market** — Move Dad's PenAir account to money market; needed for father's finances/October tax return
+- [ ] **American Century Non-Qualified — beneficiaries** — Verify or update beneficiaries on non-qualified account
+- [ ] **Dodge & Cox — beneficiaries** — Verify or update beneficiaries
+- [ ] **Victory Capital — beneficiaries** — Verify or update beneficiaries
+- [ ] **Northwestern Mutual — account connections** — Confirm accounts are connected / accessible
+- [ ] **Quicken Simplifi — confirm all accounts connected** — Audit that every account is linked and syncing
+- [ ] **Full financials on June 30 statements** — Review and reconcile June 30 statements across all accounts
+- [ ] **Emergency folder — Dad** — Assemble emergency document folder for William Castellano
+- [ ] **Emergency folder — us** — Assemble emergency document folder for Pete & Kim
+- [ ] **Cruise Medical Folder** — Prepare medical documentation folder for November MSC cruise
+- [ ] **Cruise suitcase** — Bring up from basement; prep for November MSC cruise (departs 11/29/26)
 - [ ] **Stripe/Link — Remove card** — Accidentally saved FNBO card ending 0733 to Link (Stripe wallet) during Scribd signup. Go to link.com, sign in with pete@platinumworkforcestrategies.com, remove card.
 - [ ] **Scribd — CANCEL before June 27** — Signed up May 29 (pete@platinumworkforcestrategies.com, FNBO Evergreen Visa, card ending 0733). Charge hits June 28. Download USALI 12th edition while active.
 - [ ] **Apple iPhone settlement** — Did you buy iPhone 15 Pro/Max or iPhone 16 (June 10, 2024–Mar 29, 2025)? Claims not open yet — watch for notice
