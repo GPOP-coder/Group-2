@@ -429,7 +429,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 ## Open Items / Known Gaps
 
 - [x] **Microsoft 365 MCP server** — confirmed working on Surface Studio 2026-06-11; reads Teams chats (Unifocus tenant: pcastellano@unifocus.com), Outlook email, calendar, SharePoint/OneDrive, Teams meeting transcripts
-- [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working
+- [ ] Unifocus IT security: M365 connector approved — monitor and give feedback on how it's working. **Finding (2026-07-31):** Graph API access to Teams meeting transcripts is disabled tenant-wide (`GraphAccessToTranscriptsDisabled`) — Claude cannot read any Unifocus-tenant Teams meeting transcript this way, regardless of the specific meeting. Workaround in use: Pete records calls himself and pastes/uploads the transcript directly.
 - [ ] Rosewood Miramar: Is Local booking type intentionally absent at GH and SLS?
 - [ ] Baha Mar: Are Breakfast Box and Dinner Box used at GH and SLS?
 - [ ] Baha Mar: What does SLS "Boat & Airline" event type map to?

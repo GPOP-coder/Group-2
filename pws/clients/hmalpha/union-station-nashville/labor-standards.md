@@ -5,15 +5,119 @@
 **Property:** Union Station Nashville Yards (Autograph Collection, Marriott)
 **Configurer:** Taylor Walton (Unifocus)
 **Source sessions:** Onsite F&B Director meeting June 25, 2026; remote follow-up June 2026
-**Status:** In progress — configured remotely after onsite session
+**Status:** Full standards review completed 7/31/26 (remote call, Brad Stewart) — see open items below for what's left
 
-**⚠️ Open: Contact Brad Stewart + Trey Jensen** — Stationairy configuration incomplete; need to reconnect to finalize Busperson, Host/Hostess, Server, and Supervisor edits, and confirm break rule threshold (≥6 hrs clock).
+**✅ RESOLVED 7/31/26** — Stationairy configuration (Busperson, Host/Hostess, Server, Supervisor, Bartender) fully reviewed and closed out on the 7/31/26 call below. Break-rule threshold confirmed and kept at 5.5 hrs (HR policy, more conservative than the 6-hr TN legal minimum).
 - Brad Stewart (Director of Food and Beverage): Brad.Stewart@theunionstationnashvilleyards.com
 - Trey Jensen (Assistant Director of Outlets): Trey.Jensen@theunionstationnashvilleyards.com
 
-**Scheduling status (7/29/26):** Outreach sent to Brad + Trey (cc: Esther White, Kristi Brockelsby, Kristen Bacon, Nicole Mendez, Devon Peters, Ralph Varble, Taylor Walton, John Grech). Brad replied he has time Friday (7/31); Pete proposed **after 3:00 PM CT** and offered to send a calendar invite — **awaiting Brad's confirmation of that time**, invite not yet sent.
+**🔴 Open items after the 7/31/26 call (see full call notes below for context):**
+- **Lunch Buffet culinary mapping — high priority.** Currently generates zero culinary labor despite being one of the most common event types sold. Blocked on Nicole finishing KBI mapping + validating + importing historical data (in that order) before Pete can build the standard.
+- **Lunch Buffet Server Standard — ownership assigned to Taylor Walton (Pete, 7/31/26).** Pete will talk to Taylor about configuring this — it's Taylor's fix to make, not Pete's or Nicole's. (Distinct from the culinary/kitchen gap above; the banquet-server ratios already documented in this file show 1-per-30 for lunch buffet, so confirm with Taylor what specifically still needs fixing before assuming it's unbuilt.)
+- **Employee Maintenance freeze bug** — Trey hit a hard freeze scheduling outside set parameters; needs escalation to Kristi/system admin as a ticket, and Trey still needs to finish Employee Maintenance for the full roster once resolved.
+- **"Sub Only" flags + availability tab** — Brad's open homework to finish across the full roster (stops erroneous banquet auto-scheduling).
+- **House Person / "buyout" labor** — no KBI exists to represent buyout events at all; deliberately deferred until real banquet history accumulates. Two candidate approaches on file (productivity-ratio vs. judgment-based), not yet decided.
+- **Wedding-reception BEO structure** — Union Station may book weddings as two separate BEO lines (dinner + cocktail reception), meaning the "Reception – Wedding" KBI may rarely populate; worth Nicole/Taylor revisiting.
+- **Tennessee break-rule friction point will recur at Grand Hyatt** (same portfolio) — Nicole flagged to expect the same 6-hr-legal vs. 5.5-hr-HR-policy question there.
+- **⚠️ Deeper break-logic concern raised by Pete (7/31/26), explicitly parked for later exploration, not resolved:** the 5.5-hr configured threshold produces a 6.0-hour *scheduled* shift with the 30-min break baked in (5.5 worked + 0.5 break = 6.0 elapsed) — but Pete flagged that **how the software actually decides to insert that break may not correctly distinguish two different real-world rules**: (1) "if you are on property for 6 hours total, you get a break" (a threshold you reach/meet) vs. (2) "the break only kicks in if you work OVER 6 hours" (an exceedance rule — exactly 6.0 hours would NOT require one). Pete's read: "something strikes me as odd... it matters." This is a genuine ambiguity in how Unifocus's break-deduction logic is modeled, not just a policy-number question — needs real exploration before trusting the software's automatic behavior at the boundary case. Do not resolve this quietly; revisit as its own topic.
+  - **Supporting detail found in a second transcript source (Read.ai, first-hour capture, confirms the live .vtt with no conflicts):** Nicole read the actual system parameter language live on the call: *"The way that the parameter reads, it says employee must work 360 minutes, which is six hours, before a meal. So it's not very clear, but it sounds like it's six hours and then you get 30 minutes."* This is the root of the ambiguity in Pete's own words — the parameter's wording itself doesn't cleanly say "at" vs. "over" 6 hours, which is exactly the boundary-case question Pete flagged as needing real exploration.
 
-**Same-day logistics (7/29/26):** Friday 7/31 also has an all-day BTTR archives dig at Papio-Missouri River NRD plus a 9:00 AM MT Anne Foster/NPS call (see `BTTR/records-preservation-project.md`). Pete plans to cut off the archives work in time to get on this call after 3 PM CT — either from the NRD site or another quiet spot found en route (NRD is 30–40 min from home). Backup connectivity: iPhone hotspot, needs 5G.
+**Call held 7/31/26, 3:00–5:16 PM CT (Brad Stewart + Pete; Nicole Mendez and Trey Jensen joined partway).** Full .vtt transcript obtained 7/31/26 (supersedes the earlier partial-copy/paste version of these notes). ~2h13m working session — a full line-by-line labor-standards review, not just a wrap-up call. Summary below, organized by topic.
+
+### Scheduling & payroll pain points (opening discussion)
+- **Job-coding confusion at the clock:** staff have a hard time clocking into the correct job code — the terminal only shows numeric codes, no job names, so staff (and payroll, when reconciling) rely on a cheat sheet. Property posted a cheat sheet at the clocks **the week of 7/27/26**, on their own initiative, before Pete suggested it.
+- **Correction cadence:** miscoded punches get fixed before payroll closes (2-week cycle), but not daily — Brad's small team means the person who handles this isn't there every day. Pete's advice: fix same-day/next-day rather than let it ride to the end of the pay period, but acknowledged "easier said than done" for a small team.
+- **Auto-scheduler underused for banquets specifically:** too many people can work banquets, and the scheduler can't tell who's actually assigned to a specific banquet vs. an outlet, so it over-populates banquet shifts and starves outlet shifts. Brad's current workaround: **manually clears the auto-scheduler output and rebuilds using his own budget-dollar spreadsheet** (mirrors what Unifocus does internally, but Brad built it independently before this engagement). Pete's fix going forward: mark banquet-eligible-but-not-primary staff as **"Sub Only"** on the Jobs tab so the auto-scheduler stops placing them in banquets by default, freeing up outlet coverage. Demonstrated live on two staff: Patty Adaviar (multi-job: server/bartender/food-runner/banquet — the "utility knife") and Jackson Bradshaw (bartender, confirmed correctly excluded from banquet auto-scheduling already).
+- **Employee Maintenance status:** Trey attempted it for everyone early on but hit repeated technical freezing when scheduling someone outside their normal parameters (not a graceful warning-then-clear as designed — a hard freeze). **This is a real bug, not user error** — flagged to escalate to Kristi/property system admin as a ticket, and to check whether other properties are seeing the same freeze.
+- **Principle reiterated for future Employee Maintenance work:** every employee should have *something* entered every day (even fully-open availability) so the auto-scheduler has something to reason about; anyone whose secondary job is banquets needs Sub Only marked on all non-primary jobs to stop erroneous banquet auto-scheduling.
+
+### Stationairy — Supervisor
+Confirmed correct, no changes: 10 shifts/week total (aggregate, not daily quota), morning coverage weighted to Fri/Sat/Sun, otherwise one supervisor per night.
+
+### Stationairy — Server
+Confirmed correct, no changes:
+- **AM:** one server no matter what at 6:00 AM (opener). Using combined Stationairy AM covers (breakfast + lunch): 25 covers triggers a 2nd (6-hr) server, 50 triggers a 3rd — capped at 3, never more.
+- **PM:** all servers start at 4:15 PM (no split shift), 6-hr shifts, one per 25 dinner covers, capped at 3.
+
+### Stationairy — Host/Hostess
+**Live change made:** PM standard changed from a 25-cover volume breakpoint to **1, no matter what** — Brad confirmed a host is always needed at dinner regardless of volume, and there's never a 2nd PM host (a slow night lets the manager cover, since answering in-room-dining calls is already the same person's job).
+- **AM logic clarified (no change needed):** AM host is no-matter-what Fri/Sat/Sun because the downstairs bar is open those mornings and the host can't be in two places — weekdays, the downstairs bar is closed so no float coverage is needed, and a manager/supervisor can watch the host stand if truly slow. Weekday AM host only adds in if AM covers ≥ 20.
+
+### Stationairy — Busser/Runner (coded as "Bus Person" — no dedicated runner code exists in payroll)
+Uses "TTL Outlet AM Covers" (Stationairy + IRD breakfast/lunch + Bar Car, all outlets, whole day) as its driver, distinct from the Stationairy-only KBIs used elsewhere. Confirmed structure, no changes:
+- One runner every day no matter what at 6:00 AM
+- Noon: another runner no matter what (this one is coded "busser" specifically — same bus-person job code, but functionally a different role)
+- 10:00 AM shift, Saturday/Sunday only, triggered only above ~150 combined AM covers ("a really busy morning") — a true busser (not runner) role
+- 4:30 PM runner no matter what; runs longer on Fri/Sat (later close)
+- **Net effect:** this pass simplified/reduced a few shifts slightly — described as a modest net reduction in hours, not a big swing.
+
+### Stationairy — Bartender
+This job took the longest because there's **no beverage-revenue KBI mapped for Stationairy** (other bars at the property have one; this one doesn't). Rather than build that mapping today (flagged as real but deferred work — "this would be some more work to do... probably not while we're talking"), Pete simplified the standard using logic Brad could defend without a revenue trigger:
+- **Monday–Thursday AM:** no bartender at all — confirmed this basically never happens; if it ever did, it's a one-off explainable variance, not worth building a standard for.
+- **Fixed a broken shift-length/break-rule interaction:** the Mon–Thu AM shift was configured 8:00–3:00 (a 7-hr clock shift landing right at the ambiguous break threshold). Corrected to **8:00 AM–2:30 PM** (6 hrs clock, 5.5 hrs worked after the break) — resolves the ambiguity cleanly.
+- **⚠️ Tennessee break-rule finding, important and recurring:** by actual Tennessee law, the mandatory 30-min unpaid break triggers only if a shift exceeds 6 consecutive hours (i.e., "at 6," not "over 6"). **Union Station's own HR policy is more conservative — 5.5 hours** — intentionally set that way, per Brad, "to keep idiots like us from over-scheduling ourselves into trouble." **Decision: keep the existing 5.5-hr HR threshold as configured, do not loosen it to match the bare legal minimum.** Pete flagged this is the same friction point he and Taylor Walton went round and round on previously, and that it will come up again **when this same question hits the Grand Hyatt property** (same portfolio) — Nicole was told directly to expect it.
+- **Friday/Saturday:** longer 7-hr shift (8:00 AM–3:30 PM with break baked in), one no matter what, plus a 2nd bartender if beverage volume crosses a **hypothetical $400 threshold** (no real KBI exists to test this against yet — noted as directional, not a real configured trigger).
+- **Sunday:** shorter shift (9:00 AM–3:30 PM) since the bar can't serve alcohol before 10:00 AM Sunday — no busy-tier 2nd bartender scenario on Sunday; Brad confirmed that never happens.
+- **PM (dinner):** bartender count is fixed at **one, never two**, regardless of volume — since there's no volume tier here either, **no beverage-revenue KBI is actually needed for Stationairy at all**. This closes out the earlier open question.
+- **"Stationairy is done."** (Pete's words, closing this section — this fully resolves the prior "Stationairy configuration incomplete" open item at the top of this file.)
+
+### Bar Car — Bartender & Bus Person
+Reviewed quickly, both **already correct from a prior session, no changes needed** — matches the existing documented config below in this file (weekday 11 AM open, Fri/Sat noon open with $500 busy-tier add, Sunday's overlapping-shift busy logic). Bus/barback: one at 5 PM Sun–Thu if busy, same shift structure but runs later Fri/Sat. "Perfect," per Pete.
+
+### Kitchen — Line Cook / Prep
+- Property doesn't use the "Prep Cook" job code — everything runs under Line Cook.
+- Job "assignments" (cafe, cold, egg, grill, etc.) are scheduling labels only — confirmed each carries **zero additional standalone labor** on its own; only the banquet assignment adds incremental labor (handled separately, see below).
+- **AM:** one cook no matter what at 5:00 AM (opener), scaling up to as many as 5 additional cooks by ~6:00 AM based on roughly 1-per-20/25 covers — hard capped around 6 total cooks (physical kitchen space limit, "they'd be in the way").
+- **Cafe (employee dining room):** one no matter what at 7:00 AM.
+- **PM/dinner:** confirmed working as configured (a deliberately non-"clean" breakpoint sequence that functions correctly, left as-is rather than cosmetically simplified) — roughly one additional cook per 25 outlet covers.
+- **Confirmed: none of the outlet-driven kitchen cook standards currently account for banquets at all** — that's entirely separate (below).
+
+### Banquet Culinary Labor (drop-based, per-cover minutes — not shift-based)
+Structurally different from outlet standards: adds a small amount of time (~1.2 minutes) per banquet cover, proportionally ("the more you do, the less it takes per cover" — deliberately imprecise/"squishy," expected to show real variance on big single events like a Saturday wedding).
+- **Hot side — currently mapped:** Breakfast Buffet, Lunch Plated, all Dinners.
+- **Hot side — NOT mapped, and why:**
+  - *Breakfast Plated* — property has genuinely never sold one in Brad's ~1.5 years there. Non-issue, deliberately left out.
+  - **🔴 Lunch Buffet — real, high-priority gap.** Brad: "I probably do more lunch buffets than anything else," yet it currently generates **zero culinary labor**. This is the item Brad flagged at the end of the call as important ("glad we found the lunch buffet — that one's going to be huge"). **Cannot be fixed today** — needs Nicole to finish KBI mapping + validate + import history first (see process note below), then Pete can build the actual standard against real volume.
+- **Cold side — currently mapped:** Breakfast Continental, Box Lunches, proportional amount for all Dinners.
+- **Cold side — NOT mapped:** hors d'oeuvres/cocktail-reception prep and coffee-break catering. Brad confirmed both genuinely happen (heavy receptions get real cooking — "Briggs" catering was the example), but per-event volume is small, and **breaks/receptions almost always piggyback on an already-covered meal period** (~98% of the time per Pete's estimate, Brad agreed) — judged low priority, not worth building now.
+- **Process discipline flagged to Nicole (important, general principle):** always **map → validate → import history**, strictly in that order. Importing historical data before every mapping exists means missing categories "fall through the cracks" silently — nobody notices data is missing until weeks later when events keep happening with zero labor credit. Nicole had already submitted historical data for upload; reminded to finish mapping everything first before that import lands.
+- **⚠️ Wedding-reception BEO structure — flagged as a real gap, not resolved today:** Union Station typically books a wedding reception as **two separate BEO lines** (a plated-dinner line + a separate cocktail-reception line), meaning the "Reception – Wedding" KBI category may rarely if ever actually get populated with real volume in CI. Worth Nicole/Taylor revisiting how CI books these before assuming the wedding-specific category is meaningful.
+- **✅ Live fix applied — Reception culinary mapping bug:** the culinary "Reception" standard was pulling only from the narrow **"Reception – Wedding"** KBI, silently excluding Light and Heavy reception volume entirely. **Corrected live to pull from "Banquet Total Reception"** (which properly sums light + heavy + wedding) — so all reception types now generate stewarding/culinary labor, not just weddings.
+
+### Stewarding
+Confirmed correct, no changes: 7:30 AM start (8-hr shift), one no matter what, second added once total AM meal covers exceed 50 — this total includes banquet breakfast + banquet lunch + all outlet AM coverage (Pete's caution: banquet-breakfast cover counts can run artificially high on paper; worth being aware of, not necessarily a problem).
+
+### Banquet Front-of-House — Captain
+Two live fixes applied:
+1. **AM driver changed** from "Banquet Total Breakfast" to **"Banquet Total AM Covers"** (breakfast + lunch combined) — old config gave zero credit for a standalone lunch group, and would have (in theory) double-counted a combined breakfast+lunch group as needing 2 captains. Now correctly triggers once per AM event regardless of whether it's breakfast, lunch, or both.
+2. **New KBI built live for PM:** "**Banquet Total PM**" = Dinner + Reception (previously only dinner triggered a captain, so a stand-alone reception got nothing). Standard: 1 captain no matter what per dinner-or-reception event (not additive if both), +1 more if PM covers exceed 75.
+
+### Banquet Servers
+Ratios confirmed correct as configured (Brad caught and corrected Pete's initial number mix-up live):
+- Breakfast: 1-per-25 plated, 1-per-35 buffet
+- Lunch: 1-per-25 plated, 1-per-30 buffet
+- Dinner: 1-per-20 plated, 1-per-25 buffet
+- Reception: 1-per-50
+- **Box lunches added into the lunch-server bucket** (not broken out separately, since it's the same staff) — built a supplementary shift keyed at roughly one-per-100/one-per-75 box-lunch volume.
+- **Standalone break service deliberately NOT built as its own standard** — Brad confirmed ~90–99% of breaks always ride along with a meal period; true standalone-break days are rare enough to treat as explainable variance rather than build for. Revisit only if the property ever needs a formal separate break crew (not currently the case — no union).
+- **General principle restated for banquets overall:** these standards are not meant to drive live shift generation (Unifocus never sees the actual BEO) — they exist purely for **after-the-fact, month-over-month labor-vs-actual comparison**, never a week-to-week check, since banquet prep/setup routinely spans into the following week and single-week variance is normal and expected.
+
+### House Person — hardest job, deliberately left unresolved
+Function: mostly furniture-flipping for weddings (clear space for ceremony → move to cocktail area → flip room for dinner) and ad-hoc "buyouts" (any space in the hotel can be sold and may need furniture cleared with little notice — e.g., a breakfast buffet requiring the restaurant furniture moved mid-morning while regular guests are still coming and going).
+- **Core structural problem: there is no "buyout" KBI at all** — Unifocus has no concept that represents this, so buyout-driven furniture labor is currently invisible to the system no matter which approach is chosen.
+- Currently, house-person labor is only tied to **Wedding Reception** specifically (not Light/Heavy reception) — reflects that weddings are the main real driver, but doesn't solve the deeper buyout-visibility gap.
+- **Two possible approaches discussed, deliberately not decided today** (explicitly told Brad not to change anything yet — there isn't enough historical data to test against):
+  1. **Pure productivity method:** total budgeted house-person hours ÷ total banquet covers (breakfast+lunch+dinner+reception) for the year → a rough per-cover minute target (~6 minutes / 0.1 hrs per unit floated as a typical ballpark). Strictly an after-the-fact reporting comparison, never used for scheduling.
+  2. **Judgment/observation method:** one house person is always on property; extra coverage for big events comes from human judgment (e.g., pre-staging a room the weekend before), not a formula — how "very well-run, big background operations" typically handle it.
+- **Explicitly deferred to a later date** once real banquet history exists to test against. Pete's closing framing: the goal isn't a perfect model today — it's that Brad's team understands *why* the standard reads the way it does, so any labor-meeting variance is explainable ("we didn't build for that scenario, that's why we're over") rather than hand-waved as "we were slammed."
+
+### Wrap-up
+- Nicole had to drop early — asked Pete to email her directly with any mapping questions/action items (banquet mapping, reception-definition follow-up) rather than waiting for notes.
+- **Pete's final assessment:** property standards are in reasonable shape overall; existing (generic, unrealistic 40-hrs-flat) placeholder standards were specifically for **Management**, which the property has deliberately chosen not to build real standards for at all — confirmed intentional, not an oversight.
+- **Confirmed action items:** Trey to complete Employee Maintenance (pending the freeze-bug fix/escalation); Brad to finish "Sub Only" flags plus the availability tab on the Scheduling tab for the full roster.
+- Session ran ~2h13m remote; Pete estimated it would've taken "another two hours" to fully finish in person, but both had to go. Offered to come back onsite in Nashville ("any excuse to get back down to Broadway") if more hands-on help is needed.
+
+**Scheduling (resolved):** Call successfully held Friday 7/31/26, 3:00 PM CT as proposed, same day as the BTTR archives dig at Papio-Missouri River NRD and the 9:00 AM Anne Foster/NPS call (see `BTTR/records-preservation-project.md`) — the day's back-to-back logistics worked out fine.
 
 ---
 

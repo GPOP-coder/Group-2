@@ -2,7 +2,7 @@
 *Pete & Kim Castellano — All Airlines, All Travel*
 *Purpose: Track original form of payment behind every credit so card balances are reduced accurately. Credits are not free money.*
 
-Last updated: 2026-07-10
+Last updated: 2026-08-01
 
 ---
 
@@ -81,6 +81,24 @@ One row per event. Every earn, transfer, application, or expiration gets a row.
 
 ---
 
+## Reimbursement Received 8/1/26 — $3,937.62 (3 Unifocus expense reports) — ✅ DISTRIBUTED 8/2/26
+
+**Reports covered:** Nashville 6/22–6/26/26 ($841.05, C2LURD/CBRFPV flights), New Orleans 7/6–7/9/26 ($1,087.55), Nashville 7/13–7/16/26 ($2,009.02, BEU2FS flight).
+
+**Pete's final distribution (8/2/26) — decided pragmatically rather than tracing exact Credit IDs first:**
+
+| Payment | Composition | Amount |
+|---|---|---|
+| Paid to Visa -2674 | $2,051.16 (own charges across all 3 reports) + $21.59 (-7552 folded in) | **$2,072.75** |
+| Paid to Visa -0733 (FNBO Evergreen) | $130.82 (own charges) + $751.02 (SW flight-credit cash portion, assigned directly rather than traced) | **$881.84** |
+| Paid to Visa -2785 | $983.03 (own charges, from this reimbursement) + **$500.00 (VanillaGift card -1594, separate source — see below)** | **$1,483.03** |
+
+Reimbursement-sourced total: $2,072.75 + $881.84 + $983.03 = **$3,937.62** ✓ matches exactly. The extra $500 to -2785 came from a second, separate source (the VanillaGift card), not from this reimbursement.
+
+**✅ Closes out the VanillaGift/Camille chain (Open Items #107 below).** The original plan was to use the -1594 gift card to directly fund a future Nashville flight, then use that trip's reimbursement to pay off whichever cards sourced SW-2026-005/006. That never happened as planned (the Nashville flights ended up on -2785/-2674 directly, and the underlying SW-2026-005/006 source cards were never identified). **Final resolution, simpler than the original plan: the $500 VanillaGift card balance was applied directly to pay down Visa -2785** on 8/2/26, alongside this reimbursement's own $983.03 payment to the same card. Net effect is the same as originally intended (Camille's gift ultimately reduces a card balance) — just resolved directly instead of through the multi-step credit-chain plan. **The SW-2026-005/006 source-card mystery remains genuinely unresolved but is no longer blocking anything** — nothing further depends on identifying those source cards.
+
+---
+
 ## OPEN ITEMS
 
 - [x] **SW-2026-001 source event confirmed** — Earned 2/12/26 from AEF9KY cancellation (PSP→FLL, ticket #5262128587658). Transferable Flight Credit™.
@@ -93,7 +111,7 @@ One row per event. Every earn, transfer, application, or expiration gets a row.
 - [ ] **Reimbursement math** — Once SW-2026-001 and DL-2026-001 source cards are confirmed, finalize per-card transfer amounts from Dad's NFCU trust account. H543QZ total reimbursable is $416.20, distributed across -0733 (prior charge + exchange diff) and whichever card sourced the eCredit.
 - [ ] **SW-2026-002 / SW-2026-003** — Find Kim's original booking date for BHK5DP to determine expiration (12 months from booking, not from cancel/transfer). Identify which card Kim used.
 - [ ] **SW-2026-004** — Find Kim's original booking date for BAISG6. $0.30 residual — low priority.
-- [ ] **C8R96Z — entire ticket paid with credits ($478.40 — no card charge).** Three sources: SW-2026-003 ($30.00, confirmed), SW-2026-005 ($95.00, unknown), SW-2026-006 ($353.40, unknown). Check SW account → My Account → Travel Funds to identify the two unknown sources and trace to original card purchases.
+- [ ] **C8R96Z — entire ticket paid with credits ($478.40 — no card charge).** Three sources: SW-2026-003 ($30.00, confirmed), SW-2026-005 ($95.00, unknown), SW-2026-006 ($353.40, unknown). **Deprioritized 8/2/26** — the VanillaGift chain that motivated tracing these no longer needs it (see resolved item above); only revisit if these credit IDs surface again elsewhere.
 - [x] **AA-2026-001 (0014476535565, $272.10)** — Source confirmed: -2674. Chain: OMA-SBA roundtrip cancelled 10/9/25 on -2674 → NFITMK exchange chain → credit 0014476535565.
 - [x] **AA-2026-002 (0014476552009, $39.70)** — Source confirmed: -2674. FPPAGE OMA-SBA cancelled 10/9/25 on -2674 → credit 0014473459973 → JCJDPX MIA-OMA leftover.
 - [x] **DL-PRE-001 fully traced** — ESS corporate trip OMA→PHL (G0MCBF, YPJLVB), 5/19/25. Both outbound legs cancelled; Pete took Lyft to MCI for alternate route; MSP→PHL also cancelled. $700 VOL issued to Pete's personal SkyMiles. Source: AX -1011 (ESS corporate Amex). Physical voucher confirmed 6/11/26.
@@ -104,11 +122,7 @@ One row per event. Every earn, transfer, application, or expiration gets a row.
 - [ ] **DL-2026-002 (0060219672547, $113.40, exp 5/19/26)** — Expired 5/19/26. Call Delta to request reinstatement before booking next Delta flight — they often restore expired credits on request. Do when ready to book.
 - [ ] **Card -3563** — Appears in Pete's AA tracking (OMA-MCO 9/12/25, $493.18). Not in current card inventory. Identify.
 - [ ] **SW-2026-002 status** — $159.31 from Kim (BHK5DP) may not have been used for C8R96Z. Verify current balance in SW account to confirm it's still $159.31 active.
-- [ ] **VanillaGift Visa Debit -1594 — reimbursement chain (confirmed 7/10/26):** This is **not** a source card for C8R96Z — the C8R96Z confirmation email (6/7/26) confirms all $478.40 was paid via 3 flight credits (SW-2026-003 $30.00 + SW-2026-005 $95.00 + SW-2026-006 $353.40), zero card charge. Instead: sister **Camille** gave Pete this $500 gift card as **over-reimbursement** for that Orlando/dog-sitting trip — for all practical purposes, she covered the flight. Plan going forward:
-  1. Pete will use the -1594 gift card ($500) to pay for his **upcoming Nashville flight** (booking TBD — add a Credit/Activity row once booked).
-  2. When that Nashville trip is reimbursed (business trip), Pete wants to apply the reimbursement toward **paying off the original card(s) that funded SW-2026-005 ($95.00) and SW-2026-006 ($353.40)** — both still "source unknown," traceable via SW account → Travel Funds.
-  3. Net effect: closes the loop — Camille's gift effectively pays for the personal Orlando trip, freeing the Nashville business reimbursement to retire the underlying card balances those Orlando credits originally drew down.
-  - **Next step:** identify the source cards for SW-2026-005 and SW-2026-006 (see existing open item above), then once Nashville reimbursement lands, note the payoff amounts/dates here. **Pete's hunch (7/10/26): these might be from Kim's card** — check her statements too, not just Pete's, when tracing via SW Travel Funds.
+- [x] **VanillaGift Visa Debit -1594 — reimbursement chain — ✅ RESOLVED 8/2/26 (simpler than planned).** Original plan (confirmed 7/10/26): sister **Camille** gave Pete this $500 gift card as over-reimbursement for the Orlando/dog-sitting trip; Pete intended to use it to fund a future Nashville flight, then route that trip's business reimbursement toward paying off whichever cards sourced SW-2026-005 ($95.00)/SW-2026-006 ($353.40). **That multi-step chain never happened** — the Nashville flights ended up charged directly to -2785/-2674 instead. **Actual resolution:** the $500 VanillaGift balance was simply applied straight to Visa -2785 on 8/2/26 (alongside the Nashville/New Orleans expense-report reimbursement's own $983.03 to that same card — see "Reimbursement Received 8/1/26" above). Net effect is the same as intended (Camille's gift reduces a real card balance), just via a direct path instead of the originally planned credit-chain. **SW-2026-005/006 source cards remain unidentified but nothing further depends on finding them** — no longer worth chasing unless they surface again elsewhere.
 
 ---
 
