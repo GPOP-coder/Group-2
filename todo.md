@@ -6,7 +6,7 @@ Last updated: 2026-07-07
 
 ## Today — 2026-08-01
 
-- [ ] **Respond to Rosewood Baha Mar banquet mapping ticket** (UNIFOCUS-246757 / BQT KBI)
+- [x] **Rosewood Baha Mar banquet mapping ticket** (UNIFOCUS-246757 / BQT KBI) — ✅ Resolved, confirmed by Pete 8/2/26 via direct check in Unifocus: granular KBI data (Group/Local, Plated/Buffet/Boxed) populating correctly. No reply/reopen needed. See `pws/clients/baha-mar/kb.md` Tickets table.
 
 ---
 
