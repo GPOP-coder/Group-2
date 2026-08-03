@@ -23,6 +23,7 @@ Last updated: 2026-07-30
 | Samuel Harris | Beverage | — |
 | Olivia / Barbara | Spa | — (last names TBD; Basic Training attendance unconfirmed as of 7/29/26) |
 | Chef Jim / Chef Steve | Kitchen | — (last names TBD) |
+| Jason Gust | F&B — role TBD | — (new contact, added 8/3/26; attending Thursday F&B meeting) |
 
 ---
 
@@ -91,10 +92,11 @@ Last updated: 2026-07-30
 
 | Day | Activity | Attendees |
 |---|---|---|
-| Mon or Tue | **Admin Training** — full day: standards training + how to run a labor meeting; also folds in Labor Standard Training (adjusting to match staffing guides) | Lou, Bron, Casey D. + "Other?" (not yet named) |
+| **Mon (confirmed)** | **Admin Training** — held 8/3/26, two 3-hour blocks same day: AM 8:58–~12:xx, PM 1:00–4:00 (see `pws/foundations/08-admin-training-curriculum.md`). Standards training + labor meeting culture; folds in Labor Standard Training. Full AM summary: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md) — PM not yet captured | Bron Walis, Casey Dow, + likely Lou Petruzzelli (speaker mapping not fully confirmed) — James Danks not present, Pete saw him separately later that day |
 | **Thu AM** (moved from Wed AM 7/30/26) | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | ~7 people per Bron: Housekeeping Admin Staff, Chef Jim/Chef Steve (Kitchen). Molly W. (Security), Spa (Olivia/Barbara), Dylan B. (Recreation) status unconfirmed for this session; **Alex Nee separately not yet slotted** |
 | Wed PM (tentative) | **Labor Meeting** sit-in — time TBD, maybe Wednesday or folded into Admin Training | Housekeeping, F&B |
-| TBD | **Advanced Training** — 1:1 with Pete, open Q&A format (~2 hrs) | Kidane Mikael (Dining Room Manager) |
+| **Thu PM (confirmed 8/3/26)** | **F&B meeting** — supersedes/absorbs the earlier "Advanced Training for Kidane" TBD slot below; broader group than originally planned | James Danks, Kidane Mikael, Jason Gust (new contact — role TBD), Casey Dow, Bron Walis |
+| TBD | **Advanced Training** — 1:1 with Pete, open Q&A format (~2 hrs) — **likely folded into the Thu PM F&B meeting above; confirm if still a separate slot** | Kidane Mikael (Dining Room Manager) |
 
 **Laptop question — resolved 7/30/26 6:16 PM (see reply above).**
 
@@ -131,7 +133,7 @@ Full detail: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-
 
 Full notes: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md)
 
-**Pete's status:** Dates confirmed 8/2–8/7 (trip now ends Friday, not Saturday — Pete needs to leave Friday night per the 7/24 call; offered to do wrap-up work Friday morning instead); outbound flight booked; return flight and rental car still to arrange.
+**Pete's status:** Dates confirmed 8/2–8/7 (trip now ends Friday, not Saturday — Pete needs to leave Friday night per the 7/24 call; offered to do wrap-up work Friday morning instead); outbound and return flights booked, rental car booked (Budget). **Admin Training Session 1 delivered 8/3/26** — see [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md); first live field-test of `pws/foundations/08-admin-training-curriculum.md`.
 
 ---
 
@@ -217,6 +219,10 @@ Forecast counts are being entered, so the trigger condition is met — the syste
 
 **Context:** Banquet KBI import was automated via Delphi.fdc until the Infor SCS switch; SCS → Datavision automation is expected within ~a month of 6/23/26, which would allow re-automating banquet data properly instead of James's current couple-times-a-week manual entry.
 
+**Status update from Admin Training AM session (8/3/26):** SCS → Datavision interface confirmed largely built, targeting granular import (~44 data points: plated/buffet/continental/box by meal period) this year. Session flagged the key discipline needed to avoid repeating this ticket's root cause on the new interface: never map an import to a Calculated KBI, and get Group vs. Local guest categorization right from the start (not currently separated).
+
+**⚠️ Live finding, refines root cause:** Reviewing the actual screens live, Pete found the **actuals-side** import confirmed fully shut off (zeros, as expected per Monali's fix) — but the **forecast-side** banquet KBI import still appears to be live/importing. This would explain why James's manually-entered banquet forecast numbers keep disappearing: the automated import overwrites them on its next run, *unless* Generate Projected Hours has already consumed that week's data (after which it's safe going forward regardless of what the screen later shows). **Not yet confirmed with Monali which screens were actually disabled during the original fix** — worth checking whether the forecast side was ever addressed. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
+
 Full detail: [interfaces.md — Banquet section](interfaces.md#banquet--high-priority-)
 
 ---
@@ -249,6 +255,15 @@ Full detail: [interfaces.md — Banquet section](interfaces.md#banquet--high-pri
 
 **Pattern worth noting:** This is the second Mohonk incident traced to Task Scheduler configuration rather than the standard itself — see the now-resolved [Founders Outlet ticket](#-shifts-not-generating--founders-outlet) above (stale/duplicate Generate Projected Hours task) and the general writeup in [Unifocus KB — Schedule Generation Sequence](../../unifocus/kb.md#schedule-generation-sequence--standards--shifts--auto-scheduler). Worth periodically auditing task job-selection lists at Mohonk for other silent gaps, since this failure mode produces no error — it just quietly does nothing for the omitted jobs.
 
+**🆕 Beverage restructuring now explicitly requested (Admin Training AM session, 8/3/26):** Bron Walis asked live to pull **Beverage back out as its own standalone department**, undoing an earlier pass that nested it under individual outlets. Confirmed Beverage is a standalone department in ADP (the deciding test Pete proposed) — Pete agreed to make the change "while I'm here" this week. This is now a scoped, owned action item, not just a best-practice suggestion.
+
+**🆕 Two more concrete instances of the duplicate-job-code problem found live, same session:**
+- **Carriage Lounge Bartender** — correctly has a standard under its new home (`Beverage Service > Carriage Lounge`), but a redundant leftover assignment+standard also still exists under the old structure (`Dining Room Main > Bartender Main > Carriage Lounge`) — an incomplete artifact from Pete's prior Assignment-overuse remediation (see Implementation History). No TK/reconcile codes attached to the stale copy, so it's not corrupting reports, but needs tidying.
+- **Banquet Bartender's TK code** is attached to a leftover "Banquet Bar" job under Dining Room Main that should have been retired, instead of the correct "Banquet Bartender" job under Food & Beverage > Banquet. Fix identified but **deliberately deferred until James weighs in** on his preferred structure.
+- Also confirmed: **Main Buffet Attendant's two TK codes are intentional** (tied to on-call coverage James set up), not an error.
+
+Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript)
+
 **Next:** Draft email reply to Casey Dow — explain the root cause in outcome/action terms (per [Client Communication Standard](../../unifocus/kb.md#client-communication-standard-pws)), confirm no ticket needed since resolved directly, and ask Mohonk to confirm the three jobs fill correctly on the next schedule generation run.
 
 ---
@@ -259,6 +274,10 @@ Full detail: [interfaces.md — Banquet section](interfaces.md#banquet--high-pri
 **Issue:** Book4time → Datavision → Unifocus spa volume data is arriving at Unifocus but not processing correctly, resulting in zero values for spa reception forecasting.
 
 **Action:** Monali Desai escalated to Unifocus engineering team (7/1/26 call). Low priority relative to Rooms/F&B/Banquet, but open.
+
+**Possible unblock path raised in Admin Training AM session (8/3/26):** convert Spa into a **revenue center** to automate forecast generation off guests/occupancy rather than waiting solely on the engineering escalation. Worth raising with Monali as a structural fix direction, not just a workaround.
+
+**Live diagnostic (unresolved):** Checked the actual mapping screens — "Spa Total Treatments" is a Calculated KBI that appears to **already have some mapping applied that isn't visible in the mapping UI**, producing zeros with no discoverable cause in the time available. Not resolved live; flagged for a deeper look later in the week. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
 
 Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
@@ -282,6 +301,8 @@ Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 **Pete's hypothesis (7/22/26): this is an interface timing issue, not a Task Scheduler bug.** Fits the F&B Covers flow already documented in [interfaces.md](interfaces.md#fb-covers--high-priority) — Accounting only transposes and uploads covers to Datavision **Monday–Friday**, and the original 7/1/26 finding was explicit: *"If Friday–Sunday cover numbers aren't entered before 8AM Tuesday, no standard hours generate on the Tuesday afternoon/Wednesday labor reports."* Since accounting doesn't run on weekends, Thursday–Sunday covers can't reach Datavision until the following Monday at the earliest — if the standard-hours generation runs don't have one scheduled with enough buffer after that Monday upload completes, Thu–Sun will keep coming up empty almost every week, which matches the reported recurrence exactly. This reframes the fix path: instead of (or in addition to) the Task-Scheduler-recreate approach that worked for the Founders ticket, the real fix may be **retiming the generation runs** to land after the Monday catch-up upload, or shortening the accounting-to-Datavision lag itself.
 
 **✅ Root cause confirmed (Susanna Briggs, 7/24/26 email, per conversation with Monali Desai):** The **"revenueimport" stored procedure runs at 8:00 AM CT**, triggered by the KBI files Mohonk sends, which arrive ~7:00 AM. The import time can't be pushed back — it's driven by when Mohonk's files arrive, not a configurable schedule. **The only fix is moving the standard-hours generation time to later**, after the import completes. This confirms Pete's 7/22/26 interface-timing hypothesis over the Task-Scheduler-recreate theory. Susanna offered a call to review the retiming if needed — not yet scheduled.
+
+**Operational detail confirmed, Admin Training AM session (8/3/26):** Bron confirmed the practical failure pattern matches this root cause exactly — covers entered Monday → upload Tuesday AM → generation should follow automatically. If not entered by Monday, it slips to Wednesday, and the automated Generate Standard Hours task (runs 4x/day) **does not appear to pick up the late-arriving data on its own** — Bron/Casey have to manually regenerate every time this happens, which both describe as "Manali's problem" to permanently fix. This is a live example of exactly the labor-meeting-stalling symptom already documented above. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
 
 Full call notes: [2026-07-20_standard-hours-thu-sun-call.md](2026-07-20_standard-hours-thu-sun-call.md) | [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md) (Susanna's follow-up with the root cause)
 
@@ -376,3 +397,4 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - [Call Notes — Unifocus Interface Flow, 7/1/26](2026-07-01_unifocus-interface-flow-call.md)
 - [Call Notes — Standard Hours Thu–Sun Investigation, 7/20/26](2026-07-20_standard-hours-thu-sun-call.md)
 - [Call Notes — August Onsite Visit Agenda Planning, 7/24/26](2026-07-24_visit-agenda-planning-call.md)
+- [Admin Training Session 1 Summary, 8/3/26](2026-08-03_admin-training-session1-summary.md) — first field test of `pws/foundations/08-admin-training-curriculum.md`
