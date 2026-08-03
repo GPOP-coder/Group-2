@@ -6,14 +6,25 @@
 
 **Framework:** Organized against the Unifocus P&S Administrator Handbook's Table of Contents (see `reference_unifocus_handbook.md` in memory for the full 172-page TOC) — same structural approach Pete used for the corporate admin training. Sections below are the ⭐ high-priority handbook sections, each carrying Pete's own condensed teaching content (mental models, gotchas, real examples) rather than a page-by-page re-teach — attendees with the handbook PDF already have the reference; Pete's value is the "go deeper live" layer on top of it.
 
-**Time constraint:** Must fit **two 3-hour sessions** (6 hours total), not a full day — tighter than the corporate admin training's 3-day format this content was originally drawn from. Draft split, adjust live as the room dictates:
+**Standard format:** This curriculum's default target is **two 4-hour sessions** (8 hours total) — that's the reusable template pacing for future deliveries. Draft split:
 
 | Session | Content |
 |---|---|
-| **1 (3 hrs)** | §0 Opening framing (10 min) → §1 Core vocabulary & mental models (~45 min, this is the leverage — skipping it makes everything after harder to teach) → §3 Modifying Existing Standards audit method (~45 min) → start §4 Mohonk application, lead with UNIFOCUS-252999 as the worked audit-method example (~90 min, likely runs into Session 2) |
-| **2 (3 hrs)** | Finish §4 Mohonk items not reached (F&B/James, Recreation/Housekeeping/Spa if confirmed in scope) → §2 TOC modules pulled in only as specific standards under review require them (Labor Standards and Labor Structure most likely; Employee Maintenance and Work Rules only if something blocks) → buffer for whatever surfaces live |
+| **1 (4 hrs)** | §0 Opening framing (10 min) → §1 Core vocabulary & mental models (~60 min) → §3 Modifying Existing Standards audit method (~60 min) → §4-equivalent client application, worked audit-method example(s) live (~2 hrs) |
+| **2 (4 hrs)** | Remaining client-specific standards work → §2 TOC modules pulled in as specific standards under review require them (Labor Standards and Labor Structure most likely) → buffer for whatever surfaces live |
 
 **Cut first if running long:** Employee Maintenance detail, Work Rules detail beyond the state-floor caveat — neither is core to a *modify-existing-standards* session unless a specific standard is blocked by one of them.
+
+---
+
+### ⚠️ Mohonk 8/3/26 only — compressed to two 3-hour sessions
+
+Mohonk's actual onsite window is tighter than the standard template above (6 hours, not 8). This is a one-off compression for this delivery, not a change to the standard format:
+
+| Session | Content |
+|---|---|
+| **1 (3 hrs)** | §0 (10 min) → §1 (~45 min, still the leverage — don't cut this even under time pressure) → §3 (~45 min) → start §4 Mohonk application, lead with UNIFOCUS-252999 as the worked example (~80 min, likely runs into Session 2) |
+| **2 (3 hrs)** | Finish §4 Mohonk items not reached (F&B/James, Recreation/Housekeeping/Spa if confirmed in scope) → §2 TOC modules only as specific standards require them → buffer |
 
 ---
 
