@@ -49,6 +49,17 @@ Last updated: 2026-07-30
 - **Holding all F&B standard changes** pending Mohonk's operational decisions
 - On-call main dining room server position: Lou Petruzzelli green-lit — configure with James Danks
 
+## Future To-Do — For Status Report (flagged 8/3/26)
+
+Items to carry into the next Mohonk status report/deliverable — not yet actioned, tracked here so nothing falls out before that report gets written.
+
+- [ ] **Move standard from Assignment to Job:** `2 - Food and Beverage\Dining Room - Main\Bartender - Main Service Bar\Main Dining Room` — the labor standard currently lives on the "Main Dining Room" assignment under Bartender Main Service Bar; should be consolidated up to the job level for consistency (Pete identified this live during the Admin Training AM session — see [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript)).
+- [ ] **New timeline** — build a proper, editable version of the weekly labor data-flow timeline. Current version is an old picture/image only; Pete does not have the original source file. Needs more detail/pieces added per discussion in the AM session.
+- [ ] **Labor Dashboard does not work at all** — reported 8/3/26; severity confirmed (not a partial/cosmetic issue, fully non-functional), specific symptom/screen not yet captured. **Ties to an existing open thread:** Susanna Briggs' recent email — *"I will schedule a demo of the upcoming dashboard enhancement for next week, please send me your availability"* — matches the "New Unifocus dashboard" demo action item already tracked below under Onsite Visit (Susanna's 7/24/26 planning-call follow-up: dashboard in beta, ~3 months out, demo offered). Worth clarifying with Susanna whether the current dashboard being fully broken is a known/related issue driving the enhancement timeline, or a separate bug needing its own ticket — don't assume the upcoming demo alone resolves the current outage. Send availability for the demo per Susanna's ask.
+- [ ] **Supply mobile training docs** — send Mohonk-specific mobile app training documentation; ties to the F&B mobile app rollout that had adoption issues (per AM session discussion).
+- [ ] **Remove assignment:** `1 - Rooms\Front Desk\Switchboard Operator\Assignment1` — flagged as broken/unused during the AM session; candidate for deletion once confirmed no history/links are attached.
+- [ ] **Resolve [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999)** — Standard Hours not generating Thursday–Sunday, recurring weekly. Root cause already confirmed (revenueimport stored procedure runs 8:00 AM CT, before the standard-hours generation window on late data — see full history under Active Issues below); currently still requires manual regeneration every time it recurs, per the AM session's live confirmation. Fix needs to actually land (retiming the generation run), not just stay diagnosed.
+
 ## Onsite Visit — August 2026
 
 **Arranged by:** Ralph Varble (CCO) and Susanna Briggs with Bron Walis and Lou Petruzzelli
