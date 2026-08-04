@@ -23,6 +23,7 @@
 
 | Nickname | Issuer | Type | Last 4 | Purpose | Status |
 |---|---|---|---|---|---|
+| AAdvantage Credit Card | American Airlines / Citi | VISA or Mastercard | 3563 | AA miles earning; used for AA flights and travel (e.g. OMA→MCO 9/12/25, $493.18) | Active |
 | Nebraska Medicine FSA | Nebraska Medicine | VISA Debit Benefit | 5711 | FSA healthcare expenses (2 identical cards issued) | Active |
 
 ---
