@@ -4,6 +4,7 @@
 
 **Date/Time:** Tuesday, August 4, 2026, 1:00–4:00 PM scheduled, Office 16. **Compressed to ~2 hours** — originally a 4-hour class already shrunk to 3, cut further to 2 because Ken Boyd (Chief of Security) and Molly Wyant (Asst. Chief of Security) had a hard stop for staff interviews at 3:00 PM. Ken and Molly left after the Security portion; David Farber (Call Center) continued 1:1 with Pete afterward.
 **Source:** Raw transcript (not yet run through Plaud summary format like the 8/3 admin training file).
+**Curriculum:** Tailored delivery of [09-basic-manager-training-curriculum.md](../../foundations/09-basic-manager-training-curriculum.md) — Pete's reusable Manager (Basic) Training framework, same tier as HM Alpha's "manager days." See that file's Delivery Log for module-by-module coverage vs. the standard outline.
 **Attendees:**
 - **Pete Castellano** (instructor/consultant)
 - **Ken Boyd** — Chief of Security (new contact)
