@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-07-30
+Last updated: 2026-08-04
 
 ---
 
@@ -19,7 +19,10 @@ Last updated: 2026-07-30
 | Kidane Mikael | Dining Room Manager | — (name confirmed 7/29/26; prior notes had "Kidani"/"Kedane") |
 | Alex Nee | Recreation | — |
 | Dylan B. | Recreation | — (last name TBD) |
-| Molly W. | Security | — (last name TBD) |
+| Ken Boyd | Chief of Security | — (added 8/4/26) |
+| Molly Wyant | Assistant Chief of Security | — (last name confirmed 8/4/26; was "Molly W.") |
+| David Farber | Call Center Assistant Manager | — (added 8/4/26) |
+| Mark | Call Center Reservations Manager — owns Unifocus-side scheduling setup | — (last name TBD; added 8/4/26) |
 | Samuel Harris | Beverage | — |
 | Olivia / Barbara | Spa | — (last names TBD; Basic Training attendance unconfirmed as of 7/29/26) |
 | Chef Jim / Chef Steve | Kitchen | — (last names TBD) |
@@ -58,6 +61,9 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 - [ ] **Labor Dashboard does not work at all** — **confirmed directly by Pete during the PM session (8/3/26): he tried to demo it live for the group and could not get it to display.** Unconfirmed hypothesis (his own, not verified): something in Labor Structure may need to be configured first. **Ties to an existing open thread:** Susanna Briggs' recent email — *"I will schedule a demo of the upcoming dashboard enhancement for next week, please send me your availability"* — matches the "New Unifocus dashboard" demo action item already tracked below under Onsite Visit (Susanna's 7/24/26 planning-call follow-up: dashboard in beta, ~3 months out, demo offered). Worth clarifying with Susanna whether the current dashboard being fully broken is a known/related issue driving the enhancement timeline, or a separate bug needing its own ticket — don't assume the upcoming demo alone resolves the current outage. Send availability for the demo per Susanna's ask.
 - [ ] **Supply mobile training docs** — send Mohonk-specific mobile app training documentation. **Context confirmed in PM session:** Unifocus provides essentially no mobile-app training material — Mohonk had to build its own onboarding docs from scratch, and even Unifocus's own implementation consultants reportedly "seemed like they had never seen the app." Related, lower-priority gaps also raised: app-usage reporting only shows registration counts (not actual logins/usage — called "useless"), and the invite/registration flow is clunky. Mobile adoption is currently ~50%+, concentrated in F&B and Housekeeping; ADP's own app is used more than Unifocus's for pay stubs/PTO/benefits. Mohonk also uses **Beekeeper** (separate app) for F&B schedule PDFs and team chat — a complementary tool, not a Unifocus replacement.
 - [ ] **Remove assignment:** `1 - Rooms\Front Desk\Switchboard Operator\Assignment1` — flagged as broken/unused during the AM session; candidate for deletion once confirmed no history/links are attached.
+- [ ] **Add secondary Security job code for Carol Carroll** — a Properties employee who covers occasional Security relief shifts; she's invisible to the Security schedule filter because ADP doesn't feed secondary jobs to Unifocus automatically. Braun or Casey to add manually. Found live during the 8/4/26 Security/Call Center training — see [2026-08-04_basic-training-security-callcenter.md](2026-08-04_basic-training-security-callcenter.md#live-diagnostic-findings).
+- [ ] **Combine Security + Gatehouse into one reportable "op code"** — Casey/Braun requested a way to view both departments together instead of running two separate department reports; requested live 8/4/26.
+- [ ] **Security ~96 hrs/week short of standard** — active hiring gap (forward-looking Weekly Projected Schedule report, 8/4/26 training). Flag as explainable variance at the labor meeting, same treatment as conference-services BEO overage.
 - [ ] **Resolve [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999)** — Standard Hours not generating Thursday–Sunday, recurring weekly. Root cause already confirmed (revenueimport stored procedure runs 8:00 AM CT, before the standard-hours generation window on late data — see full history under Active Issues below); currently still requires manual regeneration every time it recurs, per the AM session's live confirmation. Fix needs to actually land (retiming the generation run), not just stay diagnosed.
 
 ## Onsite Visit — August 2026
@@ -104,7 +110,8 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 | Day | Activity | Attendees |
 |---|---|---|
 | **Mon (confirmed)** | **Admin Training** — held 8/3/26, two 3-hour blocks same day: AM 8:58–~12:xx, PM 1:00–4:00 (see `pws/foundations/08-admin-training-curriculum.md`). Standards training + labor meeting culture; folds in Labor Standard Training. Full AM summary: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md) — PM not yet captured | Bron Walis, Casey Dow, + likely Lou Petruzzelli (speaker mapping not fully confirmed) — James Danks not present, Pete saw him separately later that day |
-| **Thu AM** (moved from Wed AM 7/30/26) | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | ~7 people per Bron: Housekeeping Admin Staff, Chef Jim/Chef Steve (Kitchen). Molly W. (Security), Spa (Olivia/Barbara), Dylan B. (Recreation) status unconfirmed for this session; **Alex Nee separately not yet slotted** |
+| **Tue PM (held 8/4/26)** | **Basic Training — Security & Call Center** — scheduled 1:00–4:00 PM, **compressed to ~2 hrs**: Ken/Molly had a hard stop at 3:00 PM for staff interviews. Deep Employee Maintenance walkthrough + reporting; full detail: [2026-08-04_basic-training-security-callcenter.md](2026-08-04_basic-training-security-callcenter.md) | Ken Boyd (Chief of Security), Molly Wyant (Asst. Chief of Security) — left after their portion; David Farber (Call Center) continued 1:1 with Pete |
+| **Thu AM** (moved from Wed AM 7/30/26) | **Basic Training** — ~3 hrs, refresher + best practices; Pete to send pre-work video ("day in the life of," quick reference, Online Help subjects) — **3 videos, sent as links (YouTube), not attachments** — Scheduling Part 1/2/3, same standard set as `pws/kb/pws-training-intro-email.md` | ~7 people per Bron: Housekeeping Admin Staff, Chef Jim/Chef Steve (Kitchen). Spa (Olivia/Barbara), Dylan B. (Recreation) status unconfirmed for this session; **Alex Nee separately not yet slotted**. **Molly Wyant (Security) attended a separate session Tue 8/4 instead — see row above.** |
 | Wed PM (tentative) | **Labor Meeting** sit-in — time TBD, maybe Wednesday or folded into Admin Training | Housekeeping, F&B |
 | **Thu PM (confirmed 8/3/26)** | **F&B meeting** — supersedes/absorbs the earlier "Advanced Training for Kidane" TBD slot below; broader group than originally planned | James Danks, Kidane Mikael, Jason Gust (new contact — role TBD), Casey Dow, Bron Walis |
 | TBD | **Advanced Training** — 1:1 with Pete, open Q&A format (~2 hrs) — **likely folded into the Thu PM F&B meeting above; confirm if still a separate slot** | Kidane Mikael (Dining Room Manager) |
@@ -144,7 +151,7 @@ Full detail: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-
 
 Full notes: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-planning-call.md)
 
-**Pete's status:** Dates confirmed 8/2–8/7 (trip now ends Friday, not Saturday — Pete needs to leave Friday night per the 7/24 call; offered to do wrap-up work Friday morning instead); outbound and return flights booked, rental car booked (Budget). **Admin Training Session 1 delivered 8/3/26** — see [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md); first live field-test of `pws/foundations/08-admin-training-curriculum.md`.
+**Pete's status:** Dates confirmed 8/2–8/7 (trip now ends Friday, not Saturday — Pete needs to leave Friday night per the 7/24 call; offered to do wrap-up work Friday morning instead); outbound and return flights booked, rental car booked (Budget). **Admin Training Session 1 delivered 8/3/26** — see [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md); first live field-test of `pws/foundations/08-admin-training-curriculum.md`. **Basic Training — Security & Call Center delivered 8/4/26** (compressed to ~2 hrs, interview hard stop) — see [2026-08-04_basic-training-security-callcenter.md](2026-08-04_basic-training-security-callcenter.md).
 
 ---
 
@@ -409,3 +416,4 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - [Call Notes — Standard Hours Thu–Sun Investigation, 7/20/26](2026-07-20_standard-hours-thu-sun-call.md)
 - [Call Notes — August Onsite Visit Agenda Planning, 7/24/26](2026-07-24_visit-agenda-planning-call.md)
 - [Admin Training Session 1 Summary, 8/3/26](2026-08-03_admin-training-session1-summary.md) — first field test of `pws/foundations/08-admin-training-curriculum.md`
+- [Basic Training — Security & Call Center, 8/4/26](2026-08-04_basic-training-security-callcenter.md) — compressed 2-hr session; Employee Maintenance deep dive, secondary-job gap found
