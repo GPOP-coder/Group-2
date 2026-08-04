@@ -1,6 +1,6 @@
 <!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
-# Mohonk Basic Training — Security & Call Center (Manager Training), 8/4/26
+# Mohonk Basic Training, 8/4/26 (Security & Call Center attendees)
 
 **Date/Time:** Tuesday, August 4, 2026, 1:00–4:00 PM scheduled, Office 16. **Compressed to ~2 hours** — originally a 4-hour class already shrunk to 3, cut further to 2 because Ken Boyd (Chief of Security) and Molly Wyant (Asst. Chief of Security) had a hard stop for staff interviews at 3:00 PM. Ken and Molly left after the Security portion; David Farber (Call Center) continued 1:1 with Pete afterward.
 **Source:** Raw transcript (not yet run through Plaud summary format like the 8/3 admin training file).
@@ -11,7 +11,7 @@
 - **David Farber** — Call Center Assistant Manager (new contact)
 - **Mark** (not present) — Call Center Reservations Manager, referenced repeatedly as the person who owns the Unifocus-side setup/scheduling for the Call Center; David handles the Excel/distribution side. Last name TBD.
 
-**Not part of the previously-planned Thu AM "Basic Training" group** (Housekeeping/Kitchen, ~7 people per Bron's 7/30 email) — this was a separate session covering Security and Call Center together, apparently scheduled independently. Molly had been tentatively expected in the Thu group; she attended here instead. Call Center (David/Mark) was not previously listed anywhere in the onsite schedule draft — new to the KB.
+**This is the same standard Basic Training curriculum as the Thu AM session** (Housekeeping/Kitchen, ~7 people per Bron's 7/30 email) — not a department-specific track built for Security/Call Center. It ran as a separate session, independently scheduled, simply because that's who was available Tuesday. Molly had been tentatively expected in the Thu group; she attended here instead. Call Center (David/Mark) was not previously listed anywhere in the onsite schedule draft — new to the KB.
 
 ---
 
