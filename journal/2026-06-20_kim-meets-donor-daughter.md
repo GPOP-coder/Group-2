@@ -67,6 +67,16 @@ Kim Castellano met **Thomaree Holland**, 15-year-old daughter of her heart donor
 
 ---
 
+## Nebraska Medicine Article
+
+**Source:** Nebraska Medicine / FirstUp
+https://onfirstup.com/nebraskamedicine/nebraskamedicine/articles/two-strangers-connected-by-one-heart?bypass_deeplink=true
+*"Two Strangers Connected by One Heart"*
+
+This is the Nebraska Medicine publication of Kim's story — likely based on the write-up Kim submitted to Taylor Wilson on June 26, 2026.
+
+---
+
 ## CNN 5 Things Coverage — June 27, 2026
 
 **Source:** CNN 5 Things podcast, "5 Good Things: Ever Wonder What a Plant Sounds Like?"
