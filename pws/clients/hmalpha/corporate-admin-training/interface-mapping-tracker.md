@@ -135,7 +135,7 @@ Applying the general onboarding method above to **CI** (Marriott's EMS, used by 
 
 ### Action items from this call
 - **Pete — send the 8/17 Westin La Paloma training kickoff invite.** Pete's own stated interval is ~2 weeks out; 2 weeks before 8/17 was 8/3, so as of this call (8/5) it is **already overdue** — send ASAP. (Nicole is in Charlotte with Akram doing training that same week, not attending WLP.)
-- **Nicole — reach out to Christy (Union Station) and likely each property individually** for CI code/event-type definitions, since combinations differ by property. No last name/email captured on the call — not enough to add to contacts.csv yet.
+- **Nicole — reach out to Christy (likely Kristi Brockelsby, Union Station DOF — Read AI transcript spelling "Christy" is probably a phonetic mis-transcription; Pete confirmed 8/5/26) and likely each property individually** for CI code/event-type definitions, since combinations differ by property. See `union-station-nashville/contacts.md` for Kristi's email.
 - **Nicole — pull the full, unfiltered CI configuration** for column T (group/booking type) and column D (function/event type) — the actual pulldown option list, not a historical-usage export.
 - **Nicole — pull 2026 CI data and compare to 2025** to check whether booking types differ year to year (same mid-year-value-change risk already flagged for Delphi above).
 - **Nicole — draft the CI dummy file** (every group type × every function type, matching working-import field structure) and share with Pete for review before any import is attempted.
