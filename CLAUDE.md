@@ -1,6 +1,6 @@
 # Peter Castellano — Claude Code Context
 
-Loads at the start of every session. Keep current. Last updated: 2026-06-30
+Loads at the start of every session. Keep current. Last updated: 2026-08-05
 
 > **Claude Code directive:** Before answering any question about Claude Code features, capabilities, or documentation, search the web for the most recent documentation. Do not rely on what you already know — it's probably outdated. These tools ship new features weekly.
 
@@ -486,3 +486,4 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Pensacola: USAA loss of rent supplement — INITIATED 7/20/26.** Pete called USAA, started Loss of Use/Fair Rental Value addition; adjuster Vanessa Alvarado (210-531-8722 x28089) is out until 8/31/26, left message, colleague to call back within 48 hrs. Pete signed off on Completion of Services/Repairs 7/20/26 (end date for coverage window). Docs on hand: homes.mil March 10, 2026 listing inquiry, email thread with renter, signed lease from John Hallam. See `travel/trips/2026-05-19_pensacola-renovation-expenses.md`.
 - [x] **Pensacola: Return second (unopened) kitchen faucet** — returned to Lowe's Pensacola June 1 on way to airport
 - [ ] **Book Nashville hotel for corporate admin training (7/13–7/16)** — Union Station and Grand Hyatt both sold out; Devon Peters asked Pete to find his own hotel, ~$200/night or less, for Mon–Wed nights (7/13–7/15). Flight already booked: departs Thu 7/16 at 6:10 PM.
+- [ ] **🔴 OVERDUE: Send Westin La Paloma (8/17–21) training kickoff invite** — per Pete's own ~2-week-out rule, should have gone out by 8/3; flagged on 8/5/26 CI mapping call with Nicole Mendez. Send ASAP. See `pws/clients/hmalpha/corporate-admin-training/interface-mapping-tracker.md` (8/5/26 session).

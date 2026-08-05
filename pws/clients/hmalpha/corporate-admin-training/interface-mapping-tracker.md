@@ -113,6 +113,37 @@ Nicole Mendez's InterContinental mapping progress per her 7/24/26 update: **majo
 
 Pete offered to meet Monday (today) at **9:00 AM CT** to review (reply sent 7/24 2:54 PM, thread: Pete/Steve Carrell/Nicole Mendez/Devon Peters/Monali Desai, cc Khalida Hussain). No confirmation from Nicole came through on that thread. **Follow-up sent 7/27/26 9:11 AM** — new direct email, subject "BQT KBI mappings," asking if any time this morning works. Awaiting reply.
 
+## Status Check — 8/5/26 (CI Mapping Session, Union Station — Pete/Nicole call, 5:00–5:57 PM)
+
+Applying the general onboarding method above to **CI** (Marriott's EMS, used by Union Station and other Marriott-family properties including Westin La Paloma) for the first time in depth. Key differences from the Delphi/InterContinental walkthrough surfaced live:
+
+**CI's group/booking-type field (column T) is not a clean 3-value field.** Unlike Delphi's Banquet/Catering/In House, CI's column T pulldown had 10+ values in the pulled export: Group, Local, In-House Meeting, Citywide Overflow, Multi-Year, Rooms Only, Tour Series Group, Wholesale, and more (varies by property). Every one of these still needs mapping to Group or Local — **do not assume an oddly-named type (e.g. "Rooms Only") has no banquet events tied to it.** Filtering the 2025 Union Station historical export for "Rooms Only" turned up real BEOs with real cover counts (breakfasts, breaks, receptions, hospitality rooms) — confirmed live on the call. Same for "Citywide Overflow" (a citywide conference overflow room block that still generates its own receptions/breaks at this hotel, separate from the actual conference).
+
+**CI usage is not uniform property-to-property despite being one company-wide system.** Nicole's CI access covers JW Houston, San Diego, Marriott Del Mar, Union Station, Westin La Paloma, and Warner Center — each has a different combination of "extra" group types beyond the core Group/Local/In-House set. Cannot assume one property's CI configuration transfers to another; each needs its own pulldown pull. (This parallels the Delphi tracker's existing rule 6 above: "each property's mapping starts blank.")
+
+**Pulling a full year of historical data is not the same as getting the full configured pulldown list.** Nicole's initial export only showed what had actually been used in 2025 — attempting to pull "all column T choices" directly from CI's UI returned a filtered/incomplete result (the UI screen behaved like a filter, not a true pulldown-options list). **Need the actual full CI configuration for both column T (group/booking type) and column D (function/event type) — every configured choice, not just what shows in a usage export** — which requires going through a property CI expert or Marriott corporate documentation, not just pulling more historical data.
+
+**Wedding-named BEO categories map to existing KBIs, don't get their own:** Wedding Dinner → Plated Dinner; Wedding Reception → Heavy Reception. (Properties apparently stopped creating new BEOs under the literal "wedding" event type at some point, but historical BEOs still carry it — still needs mapping so historical import doesn't drop those events.)
+
+**Exclude "Meal on Own"** from mapping — it signals the group is off-property or eating on their own, no hotel labor/covers involved. Confirmed safe to skip (same category as Setup/Teardown/Hold exclusions already documented above for Delphi).
+
+**Standing rule reaffirmed:** do not map any KBI to a calculated/total line (e.g. a "Total Breakfast" KBI) — only ever to Group or Local; Unifocus derives Total by summing them. Mapping to a calculated KBI breaks it.
+
+**Dummy file method reaffirmed, one addition:** must match the exact fields/columns of a currently-working import file (not just Nicole's simplified group/local/in-house first draft), include cover counts in Expected and Actual, and use unique sequential ID numbers per row (e.g. 101–125 for one type, 201–220 for the next) so post-import you can verify every row actually landed.
+
+**Standing rule reaffirmed:** no historical CI BEO files go to Monali until CI mapping is fully validated — same rule already governing the Delphi/InterContinental historicals above.
+
+### Action items from this call
+- **Pete — send the 8/17 Westin La Paloma training kickoff invite.** Pete's own stated interval is ~2 weeks out; 2 weeks before 8/17 was 8/3, so as of this call (8/5) it is **already overdue** — send ASAP. (Nicole is in Charlotte with Akram doing training that same week, not attending WLP.)
+- **Nicole — reach out to Christy (Union Station) and likely each property individually** for CI code/event-type definitions, since combinations differ by property. No last name/email captured on the call — not enough to add to contacts.csv yet.
+- **Nicole — pull the full, unfiltered CI configuration** for column T (group/booking type) and column D (function/event type) — the actual pulldown option list, not a historical-usage export.
+- **Nicole — pull 2026 CI data and compare to 2025** to check whether booking types differ year to year (same mid-year-value-change risk already flagged for Delphi above).
+- **Nicole — draft the CI dummy file** (every group type × every function type, matching working-import field structure) and share with Pete for review before any import is attempted.
+- **Nicole — do not send historical CI BEOs to Monali** until mapping is complete and verified.
+- **Pete — review the dummy file with Nicole on a follow-up call** before any historical import is attempted.
+
+---
+
 ## Other Interfaces to Eventually Document
 - [ ] Fill in Frequency / exact UF menu path for the TBD rows above as they come up in training
 - [ ] Confirm Envision (Hyatt) and Hilton-Delphi formats are approved by Monali (Marriott/CI-TY already confirmed)
