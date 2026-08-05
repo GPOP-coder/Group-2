@@ -2,7 +2,7 @@
 
 # BTTR Records Preservation Project
 
-**Status:** Anne replied 7/28/26, offering a call Fri 7/31 or Tue 8/4 (she's Mountain Time). Pete scheduling for **Friday, July 31** — he'll be at NRD offices that day with John Dechant digging through archives, and confirmed he can take the call from there. Exact time (9am MT or after 12pm MT) pending Anne's reply to Pete's 7/29/26 reply-all.
+**Status:** Fri 7/31 NPS Teams call with Anne Foster happened. Pete lost access to the Teams chat afterward and asked Anne (8/4/26, 3:00 PM) to re-send the links discussed. Anne replied same day (5:02 PM) with a resource list (below) — appears to be the digitization/archival links from the chat, not a full chat transcript.
 
 **Site logistics confirmed 7/29/26** (thread with Randy Lee, NRC Building Manager, and John Winkler, GM): Access + Lower-Level Conference Room reserved for the **entire day, Friday July 31**. Randy will be out of office that day but has briefed staff. **Nicole Gust** will meet Pete's team at the front desk, show them to the archives in the basement, and provide a cart for transporting boxes. Pete's plan: arrive as early as 9:00 AM, stay into the afternoon depending on what's found; goal for the day is to survey what's in storage and identify what's available to pull for the book authors. Pete asked Randy about WiFi availability for the early Teams call (with Anne Foster / other offsite partners) — not yet confirmed in Randy's reply.
 
@@ -71,14 +71,28 @@ Note: the sent copy retained the **"Pedestian Bridge" typo** (the Pedestrian Bri
 
 ---
 
+## Resources from Anne Foster (email, 8/4/26 5:02 PM)
+
+Sent in response to Pete's request to recover links from the Fri 7/31 Teams chat (chat access was lost after the call):
+
+- **Nebraska Library Commission — Digitization Resources:** https://nlc.nebraska.gov/libman/digitization.aspx
+  - Bulletin 2015-04 Appendix B — file/folder naming conventions across operating systems
+  - Digitization of Federal Records — federal agencies' move toward electronic government
+- **Society of American Archivists — Directory of Archival Consultants:** https://www2.archivists.org/consultants
+- **"Backlog" (About • Backlog • Archivists & Historians)** — team of professional archivists, genealogists, historians, and digital asset managers (link not included in Anne's email, name only)
+
+These map to two of Anne's three original paths — archival consultant directory (path 2) and general digitization/naming-convention guidance (relevant to any path chosen).
+
+---
+
 ## Open Items
 
 - [x] **Send the email to Anne Foster** (anne_foster@nps.gov) — ✅ Sent 7/24/26, 12:03 PM, cc'd full board + NPS + Legacy Preservation
 - [x] Anne replied 7/28/26 — ✅ offered Fri 7/31 or Tue 8/4, prefers Teams, on Mountain Time
 - [x] **Confirm exact call time with Anne** — ✅ **9:00 AM MT, Friday 7/31** (10:00 AM CT)
 - [x] **Confirm site access/space for Fri 7/31** — ✅ Randy Lee confirmed 7/29/26: Lower-Level Conf Room reserved all day; Nicole Gust to assist with archive access + cart
-- [ ] Confirm WiFi availability at NRD offices for the early Teams call (asked Randy 7/29/26, not yet answered)
-- [ ] Get Anne's contacts/pros-cons for the three paths (nearby archives, archival consultant, grad intern) on the call
+- [x] Fri 7/31 Teams call with Anne happened
+- [x] Get resources from Anne — ✅ 8/4/26: SAA archival consultant directory + NE Library Commission digitization guidance (see Resources section above); pros/cons discussion on the call itself not yet captured in this file — check if a recording/notes exist
 - [ ] Decide which path (or combination) BTTR wants to pursue
 - [ ] Tie back to book project: authors need a common access point for documents + shared timeline — whatever solution is chosen should serve that need, not just general archival hygiene
 

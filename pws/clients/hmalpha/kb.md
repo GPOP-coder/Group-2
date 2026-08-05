@@ -137,6 +137,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - **Pre-training standards review:** Formalized June 24, 2026 — configurer must brief trainer before each property.
 - **Wave 2/3 cloning:** Devon/Nicole to identify Phase 1 donor properties for cloning. Grand Hyatt Nashville builds from scratch (not cloned).
 - **Hilton Indianapolis:** In the full portfolio but swapped out of Pete's schedule — assigned to another Unifocus consultant.
+- **Banquet KBI mapping — meeting scheduled 8/5/26, 5:00 PM ET** with Nicole Mendez. Not yet on Pete's Outlook calendar as of 8/4/26 — add manually or confirm invite. Property/scope not yet specified.
 
 ---
 
