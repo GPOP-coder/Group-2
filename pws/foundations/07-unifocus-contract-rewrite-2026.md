@@ -73,6 +73,8 @@ Pete's read: almost all of Unifocus's consulting contract language is boilerplat
 
 **New strategic evidence, 2026-07-31:** the support-to-consulting handoff pattern (support closes a ticket once a connection technically exists, permanently shifting mapping-accuracy ownership to consulting, observed live via UNIFOCUS-235850/Rosewood Miramar) directly undermines John's stated plan (7/30/26 call) for lean, low-implementation-team select-service rollouts — someone still has to own file/data correctness after go-live, and there's currently no mechanism for that besides consulting hours. Full writeup: `pws/foundations/05-pws-strategic-direction.md`, "The Support-to-Consulting Handoff." Worth having in back pocket for the eventual role/rate conversation — first-party evidence the lean-implementation plan has an unsolved cost.
 
+**Client-side executive endorsement, 2026-08-05 (Mohonk):** Tom Smiley — Mohonk's CEO and a 5th-generation owner, trained Industrial Engineer, and a longstanding personal advocate for the labor-standards methodology — sat in on a Pete-led weekly labor meeting for the first time and gave a direct, unprompted endorsement of the approach ("that's more about who you are as a leadership or management team... the software is going to help us operate, but we still need to lead and manage properly"). This is client-side executive validation, not just operational staff satisfaction — a different, higher-weight category of evidence than the day-to-day diagnostic work cited above. Full detail: `pws/clients/mohonk/2026-08-05_labor-meeting-rooms-ceo-session.md`.
+
 ---
 
 ## Proposed New Rate — Volume Basis (Pete's ask, 7/24/26)
