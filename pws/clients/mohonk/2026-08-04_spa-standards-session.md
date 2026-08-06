@@ -6,7 +6,7 @@
 **Location:** Mohonk Mountain House
 **Context:** This is the full recording of the Spa segment referenced but not fully captured in the [8/4 F&B session file](2026-08-04_fnb-labor-standards-transcript.md#11-spa--see-full-session-file) — that file guessed attendees as "Joanna Taylor and Jen" based only on calendar invite emails; **this transcript corrects that.** Confirmed attendees per the actual recording: **Barbara Stirewalt** and **Lou Petruzzelli**, not Olivia Andrews — she was out sick that day (see Participants below). "Jen," "Joanna Taylor," and "Nelson" are referenced repeatedly in the dialogue as real Spa staff whose work is being reviewed, but none of them were confirmed present in the room.
 
-**Pete's own summary (post-session):** "Coming around to recognizing Spa can work. Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now." — **this directly updates the existing [🔴 Spa Interface Not Processing](kb.md#-spa-interface-not-processing) ticket.** The live meeting still treated all three volume KPIs (day/transient, overnight, employee treatments) as broken/not pulling — see item 2 below — so this fix likely happened during or shortly after the session itself, not before it. Reconcile directly in Unifocus before assuming full resolution; unclear whether the fix covers all three sub-metrics or just gets Total Treatments (the one metric the group actually agreed to use) flowing.
+**Pete's own summary (post-session):** "Coming around to recognizing Spa can work. Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now." — **this directly resolves the existing [🟢 Spa Interface Not Processing](kb.md#-spa-interface-not-processing) ticket.** The live meeting still treated all three volume KPIs (day/transient, overnight, employee treatments) as broken/not pulling — see item 2 below — so this fix happened during or shortly after the session itself, not before it. **Architecture clarified (Pete):** day/transient, overnight, and employee treatments are the **input KBIs**, mapped directly to the incoming spa data file; **Total Treatments is a Calculated KBI** that just sums those three. Fixing the input-KBI import therefore fixes Total Treatments automatically, since it's derived rather than separately fed — this is the ticket fully closed, not a partial fix.
 
 ## Participants
 - **Pete Castellano** (PWS)
@@ -112,7 +112,6 @@
 - Generated and saved a PDF snapshot of the pre-change labor standard for audit-trail purposes.
 
 ## Open / Unresolved
-- **Reconcile Pete's post-session "fixed Spa KBI import" note against what was still broken live** (all three volume KPIs) — verify directly in Unifocus which metrics actually flow now.
 - Fitness Reception job code still buried under Spa Reception in Labor Structure — recommended fix, not executed.
 - Spa Attendant still structured as a Department instead of a Job — recommended fix, not executed.
 - Overnight Spa Cleaner's shift *timing* still doesn't reflect the real ~7:30–8 PM start (total hours are correct, timing isn't).

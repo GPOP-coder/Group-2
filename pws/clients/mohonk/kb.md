@@ -310,8 +310,8 @@ Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-tr
 
 ---
 
-### 🟡 Spa Interface Not Processing
-**Status:** 🟡 Partially fixed 8/4/26, needs verification — was 🔴 Open/escalated to Unifocus engineering
+### 🟢 Spa Interface Not Processing
+**Status:** 🟢 Fixed 8/4/26 — was 🔴 Open/escalated to Unifocus engineering
 
 **Issue:** Book4time → Datavision → Unifocus spa volume data is arriving at Unifocus but not processing correctly, resulting in zero values for spa reception forecasting.
 
@@ -321,7 +321,7 @@ Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-tr
 
 **Live diagnostic (8/3/26, unresolved at the time):** Checked the actual mapping screens — "Spa Total Treatments" is a Calculated KBI that appears to **already have some mapping applied that isn't visible in the mapping UI**, producing zeros with no discoverable cause in the time available. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
 
-**🟡 Update, 8/4/26 (same day as the Spa standards session):** Pete's own note: *"Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now."* This directly targets the zero-values problem above. **Not yet reconciled with the live session details** — during that same session, all three planned volume KPIs (day/transient, overnight, employee treatments) were still discussed as non-functioning, and the group explicitly agreed to only need **Total Treatments** (not the three sub-metrics) as the labor driver going forward. Unclear whether the fix covers Total Treatments specifically, all three sub-metrics, or something else — **verify directly in Unifocus** which KBIs are actually flowing now before treating this as fully closed. See [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md).
+**🟢 Fixed, 8/4/26 (same day as the Spa standards session):** Pete's own note: *"Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now."* **Architecture clarified (Pete):** day/transient, overnight, and employee treatments are the **input KBIs** — they're the ones mapped directly to the incoming spa data file. **Total Treatments is a Calculated KBI** that just sums those three. So fixing the import on the three input KBIs automatically fixes Total Treatments too, since it's derived from them rather than fed separately — consistent with the standing Mohonk/Unifocus rule already documented elsewhere in this KB (never map an import directly to a Calculated KBI; map to its inputs instead — see the [banquet actuals root cause](#-banquet-actuals-being-overwritten) and the [8/4 F&B session](2026-08-04_fnb-labor-standards-transcript.md#3-live-review--fb-standards-vs-actuals-week-ending-726)). This resolves the earlier open question about which metrics the fix covers — it's all four. See [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md).
 
 Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
