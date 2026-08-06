@@ -165,11 +165,27 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 - Pete's stated availability to John: "booked into October... some holes between now and mid-October, but not a lot" — consistent with the confirmed travel calendar in CLAUDE.md.
 
 **Immediate next steps:**
-- [ ] **Do not send the draft agreement yet** — wait for John's scope/role conversation (his stated 1–2 month timeline) rather than pushing a rate ask now.
+- [ ] **Do not send the draft agreement yet** — wait for John's scope/role conversation (his stated 1–2 month timeline / "a few weeks" per his most recent framing) rather than pushing a rate ask now.
+- [ ] **Add Mohonk Mountain House and HM Alpha to the non-compete carve-out list** in the next draft revision — see "Update — 2026-08-06" above. Do this now, ahead of John resurfacing, not after.
 - [ ] **Follow up on Loews event labor module** — concrete opportunity John raised himself; worth a light-touch nudge rather than waiting the full 1–2 months.
 - [x] Reconciled 7/30/26: the draft's tiered structure was correct all along — $800/$1,000 is standard/base work, $1,500/day flat is specifically the strategic/evangelist tier, framed as Unifocus-as-customer pricing for short-term specialized help, deliberately priced above FTE-equivalent cost. No change needed to the draft's numbers, just to how the tier is described/justified when the scope conversation happens.
 - [ ] Keep the Sept 15, 2026 new-platform announcement on the radar — treat pre-announcement details as confidential per John's request.
 - [ ] Watch for John's next contact — he said he'd loop back once he knows more on "a real possibility short term."
+- [ ] **Quietly watch for confirmation on whether Ralph Varble is leaving Unifocus** — unconfirmed, Pete's own read on Lockyer's tone; do not raise proactively with anyone until confirmed.
+
+---
+
+## Update — 2026-08-06: Two New Direct-Client Carve-Outs Needed, Plus a Watch Item on Ralph
+
+**New carve-outs to add to the non-compete list before this draft goes back to John:**
+1. **Mohonk Mountain House** — Bron Walis (IT Director) asked Pete directly (8/5/26) whether Mohonk should route future engagements through Pete personally rather than exclusively through Unifocus, and separately confirmed this is fine on Unifocus's side (they treat consulting as retention, not their own revenue — focused on ARR from the core subscription). CEO Tom Smiley and Lou Petruzzelli (budget authority) are both independently supportive of Pete's continued involvement — Pete's read: "the seed is planted in Bron's mind and has fertile ground to grow under Lou's support and Tom's enthusiasm." Full detail: `pws/clients/mohonk/2026-08-05_tom-lou-debrief.md`.
+2. **HM Alpha** — Devon Peters and Nicole Mendez (HMAlpha corporate) have separately been asking similar questions about working with Pete directly. Not yet written up in the HMAlpha KB with this specific framing — worth a short session note when there's time, but the ask itself is confirmed and should go on this same carve-out list.
+
+**Neither of these is a hypothetical future opening — both are live, client-initiated asks sitting in front of Pete right now.** The existing carve-out list (Rosewood, Baha Mar, Margaritaville Hollywood Beach, Davidson) should grow to include both before the next draft goes to John.
+
+**Timeline reiteration from Lockyer:** consistent with the 7/30/26 call's stated 1–2 month timeline, John has asked for **a few weeks** to work out a role/scope plan he says he has in mind but hasn't solidified yet. Contract needs to be ready to move quickly once he comes back with it — the carve-out additions above should happen now, not after he resurfaces, so there's no lag between his signal and Pete's response.
+
+**⚠️ Watch item, unconfirmed — handle carefully:** Lockyer never mentioned that **Ralph Varble may be leaving Unifocus**, but Pete's read on his tone during recent contact is that "many things are changing." Pete is not certain whether Lockyer is aware Pete has separately heard this. **This is Pete's inference, not a confirmed fact** — treat as sensitive, need-to-know intel, not something to act on or reference with Unifocus contacts (including Ralph himself) until it's independently confirmed. If true, it materially changes the contract negotiation: Ralph has been Pete's primary champion/relationship anchor at Unifocus (CCO, assigns Pete to MakeReady/HMAlpha work, owns the resource calendar) — his departure would remove a key internal advocate right as the role/scope conversation is forming, and could also open space for Pete to take on some of what Ralph currently owns. Worth quietly watching for confirmation before the scope conversation happens, not raising proactively.
 
 ---
 
