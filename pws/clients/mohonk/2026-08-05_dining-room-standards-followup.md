@@ -43,8 +43,8 @@
 
 ## 5. Founders Brunch — New Job Code + New Standard
 - **Background:** Founders Brunch used to run as an Assignment; assignments were cleaned up/retired during Pete's earlier remediation work (see [kb.md — Implementation History](kb.md#implementation-history)), which is why no standard currently exists for it.
-- **Founders Buffet Attendant:** job code already exists (found live, nested under Main Dining Room's Buffet Attendant structure) — decided to leave it there rather than relocate it, since there's no separate Founders-specific attendant job code. Added a labor standard directly: shift **9:00 AM–3:30 PM** (6.5 hrs incl. break), Non-Flow/Beginning distribution, base case **3 attendants**.
-- **Founders Buffet Supervisor:** **did not exist as a job code at all** — created live in Labor Structure under Dining Room Founders. Tentative ADP job code guessed to start with a "4" prefix under department 12 (Founders) — **exact code needs confirmation from Casey/ADP**; no actuals will post to it until it's properly wired up (realistically not before October, per the discussion). Standard: same 9:00 AM–3:30 PM shift, always **1 person**.
+- **Founders Buffet Attendant:** job code already exists (found live, nested under Main Dining Room's Buffet Attendant structure) — decided to leave it there rather than relocate it, since there's no separate Founders-specific attendant job code. Added a labor standard directly: shift **9:00 AM–3:30 PM** (6.5 hrs incl. break), Non-Flow/Beginning distribution, base case **3 attendants**. **ADP code confirmed: 12800091, Active** (Pete's screenshot of Mohonk's ADP Validation Tables — Employment Profile > Job Title).
+- **Founders Buffet Supervisor:** **did not exist as a job code at all** — created live in Labor Structure under Dining Room Founders. Standard: same 9:00 AM–3:30 PM shift, always **1 person**. **✅ Confirmed: ADP already had it — code 12800091 (Attendant) / 12800092 (Supervisor), both Active.** The "no actuals until October" caution below was based on the assumption ADP needed to be set up from scratch; that assumption was wrong — both codes were already live in ADP, so actuals should start flowing on the next normal interface cycle, not October.
 - **Cover-count source confirmed consistent:** both the forecast (James enters manually on Tuesdays, same as Main Dining/Granary) and the actuals draw from the same Founders KBI — verified live via the Weekly Labor Summary. Currently only dinner runs (3 days/week); when Founders Brunch is active (fall weekends + the Thanksgiving–Sunday holiday stretch), James enters real counts; **0 on weeks it's closed**, which is the seasonal on/off control mechanism (same pattern as Kids Buffet above).
 
 ## 6. Lakeview Breakfast — Flat Standard → Volume-Driven Range
@@ -80,7 +80,6 @@
 
 ## Open / Unresolved
 - **Confirm final saved buffet-attendant breakpoints directly in Unifocus** — the live discussion had some numeric ambiguity in the recording.
-- **Founders Buffet Supervisor ADP job code** — needs Casey/ADP to confirm the actual code (guessed to start with "4" under department 12); no actuals will flow until this is properly wired.
 - **Server/short-shift break-threshold policy** — the 5.5-hour boundary issue flagged in item 4 needs a broader look across the property, not just Main Dining and Kids Buffet.
 - **Lakeview Breakfast standard change must also be reflected in the manual budget submission** (Lou's flag) — a real added-labor-cost item, not just a Unifocus config change.
 - **Room Service Attendant** — deferred to a future banquet-focused session.
