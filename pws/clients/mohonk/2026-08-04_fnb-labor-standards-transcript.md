@@ -16,7 +16,7 @@
 - **Patrice Huart** (Director of Food and Beverage — raises seasonality/table-mix/station logic) — Speaker 5
 
 **Spa segment (10:30 AM–12:00 PM):**
-- **Joanna Taylor** (spa manager) and **Jen** (spa reception supervisor), joined by Barbara — likely the source of the Speaker 6/7 labels in the raw transcript. Calendar invite lists `bstirewalt@mohonk.com` and `oandrews@mohonk.com` alongside Bron Wallis, Lou, and Pete as attendees for this segment.
+- **Corrected via the full Plaud transcript, received later** — see [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md). Actual confirmed attendees: **Barbara Stirewalt**, Lou, Bron, Pete. **Olivia Andrews (Spa Director) was invited but out sick that day** — the "Joanna Taylor / Jen" guess below was wrong; those are real Spa staff referenced in the discussion (along with Nelson, attendance supervisor) but none were confirmed present.
 
 ---
 
@@ -80,11 +80,9 @@
 - For dinner, discussed moving from flat 1-per-15/25 to a **volume-based sliding ratio** (~1:12 when slow, ~1:15 when busy) with breakpoints, to approximate seasonality (deuces-heavy winter vs. large-party-heavy summer) without building full seasonal date logic. Pete set up a working example live; breakpoints are placeholders, not final.
 - **Pete made a backup copy of the standards before changing anything** (explicit ask from Lou/James to preserve the "before" state for comparison).
 
-## 11. Spa (tangential — Joanna Taylor & Jen joined briefly)
-- Spa is **not scheduled through Unifocus** — uses **Book for Time**, driven by hard-booked appointments (not soft-booked/forecasted like rooms or dining).
-- Staff are mostly full-time and paid for on-site time between appointments, not just booked time.
-- Spa data feed into Unifocus is currently not coming in properly — flagged as an open item, not resolved in this session.
-- **Note:** this transcript only captures the front end of the Spa segment (10:30 AM–12:00 PM). Bron Wallis has the full Spa meeting recording — **forthcoming 8/6/26**. File separately under this same folder once received.
+## 11. Spa — See Full Session File
+- **This transcript only captured the very front end of the Spa segment.** The full 1hr24min recording has since been received and filed separately: [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md) — covers Book4Time/scheduling philosophy, the Total Treatments KPI decision, job-code structure issues, and a full Spa Reception standard rework (503→~463 hr baseline discussed, 37.5 hrs of duplicate second-floor shifts removed live).
+- Quick summary confirmed by the full file: Spa is **not scheduled through Unifocus** for providers — uses **Book4Time**, driven by guest-bookable availability slots, not soft-booked/forecasted like rooms or dining. Spa's KBI/data feed into Unifocus was broken as of this session; **Pete's post-session note says he fixed the Spa KBI import the same day** — see the full file for the open question of exactly what that fix covers.
 
 ---
 

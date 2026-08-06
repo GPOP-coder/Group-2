@@ -27,7 +27,11 @@ Last updated: 2026-08-05
 | David Farber | Call Center Assistant Manager | — (added 8/4/26) |
 | Mark | Call Center Reservations Manager — owns Unifocus-side scheduling setup | — (last name TBD; added 8/4/26) |
 | Samuel Harris | Beverage | — |
-| Olivia / Barbara | Spa | — (last names TBD; Basic Training attendance unconfirmed as of 7/29/26) |
+| Olivia Andrews | Spa Director | oandrews@mohonk.com (full name + email confirmed 8/4/26, was "Olivia") — pregnant, team already planning around her upcoming leave |
+| Barbara Stirewalt | Spa (role TBD — deeply familiar with Spa Reception numbers/staffing guide) | bstirewalt@mohonk.com (full name + email confirmed 8/4/26, was "Barbara") |
+| Jen | Spa — referenced repeatedly in the 8/4/26 spa session, not confirmed present | — (last name TBD) |
+| Joanna (Taylor?) | Spa — referenced in the 8/4/26 spa session, not confirmed present. "Taylor" was an earlier unconfirmed guess (from before the full transcript existed); not independently verified | — (surname TBD) |
+| Nelson | Spa Attendant attendance supervisor — owns attendant scheduling | — (last name TBD; not present 8/4/26) |
 | Chef Jim / Chef Steve | Kitchen | — (last names TBD) |
 | Jason Gust | F&B — role TBD | — (new contact, added 8/3/26; attending Thursday F&B meeting) |
 
@@ -79,6 +83,11 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 - [ ] **Eliminate the generic "Driver" job code** (Guest Services) — confirmed redundant with the correctly-coded Shuttle Driver position; not yet removed, needs confirmation nothing depends on it.
 - [ ] **Finalize Tennis shop transition to year-round** — new 365-day facility likely needs the Tennis/Bicycle Attendant's standard converted from seasonal to year-round; not decided live, Alex needs to think it through further.
 - [ ] **Codify Security manager (Ken/Molly) day-off pattern** — needed for accurate daytime coverage math going forward; reconstructed ad hoc during the 8/5/26 session rather than being documented anywhere.
+- [ ] **Schedule a Spa work session with Olivia Andrews** (Spa Director) to build out the actual Total-Treatments variability model for Spa Reception — flagged 8/4/26, not scheduled to a date; Lou to coordinate after returning from being out. See [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md#15-follow-up-plan).
+- [ ] **Finalize the Spa Reception standard reduction** (~503 → ~463 hrs discussed 8/4/26, plus Lou's tentative ~380-hr summer target) — needs Olivia's sign-off, not locked in.
+- [ ] **Fix Overnight Spa Cleaner shift timing** — standard shows an ~11 AM start, real start is ~7:30–8 PM; total weekly hours (37.5) are correct, only the timing is wrong.
+- [ ] **Un-bury Fitness Reception from under Spa Reception** in Labor Structure, and convert Spa Attendant from a Department to a proper Job — recommended 8/4/26, not executed.
+- [ ] **Resolve what the Spa "second floor" job actually covers** — Wed/Fri coverage kept on a guess (8/4/26), not confirmed; even Pete/Lou/Bron couldn't fully explain it live.
 - [ ] **Schedule combined "schedule-printing" training session** — for Call Center, Front Desk, and Housekeeping, who all maintain duplicate Excel/macro schedules alongside Unifocus; planned for after the current onsite week, likely in the Parlor/Auditorium, no date set yet. See [2026-08-05_rooms-division-standards-review.md](2026-08-05_rooms-division-standards-review.md#1-duplicate-scheduling-systems-unifocus--legacy-excelmacros).
 
 ## Onsite Visit — August 2026
@@ -301,8 +310,8 @@ Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-tr
 
 ---
 
-### 🔴 Spa Interface Not Processing
-**Status:** 🔴 Open — escalated to Unifocus engineering, no resolution timeline
+### 🟡 Spa Interface Not Processing
+**Status:** 🟡 Partially fixed 8/4/26, needs verification — was 🔴 Open/escalated to Unifocus engineering
 
 **Issue:** Book4time → Datavision → Unifocus spa volume data is arriving at Unifocus but not processing correctly, resulting in zero values for spa reception forecasting.
 
@@ -310,7 +319,9 @@ Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-tr
 
 **Possible unblock path raised in Admin Training AM session (8/3/26):** convert Spa into a **revenue center** to automate forecast generation off guests/occupancy rather than waiting solely on the engineering escalation. Worth raising with Monali as a structural fix direction, not just a workaround.
 
-**Live diagnostic (unresolved):** Checked the actual mapping screens — "Spa Total Treatments" is a Calculated KBI that appears to **already have some mapping applied that isn't visible in the mapping UI**, producing zeros with no discoverable cause in the time available. Not resolved live; flagged for a deeper look later in the week. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
+**Live diagnostic (8/3/26, unresolved at the time):** Checked the actual mapping screens — "Spa Total Treatments" is a Calculated KBI that appears to **already have some mapping applied that isn't visible in the mapping UI**, producing zeros with no discoverable cause in the time available. Full detail: [2026-08-03_admin-training-session1-summary.md](2026-08-03_admin-training-session1-summary.md#live-diagnostic-findings-from-the-full-am-transcript).
+
+**🟡 Update, 8/4/26 (same day as the Spa standards session):** Pete's own note: *"Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now."* This directly targets the zero-values problem above. **Not yet reconciled with the live session details** — during that same session, all three planned volume KPIs (day/transient, overnight, employee treatments) were still discussed as non-functioning, and the group explicitly agreed to only need **Total Treatments** (not the three sub-metrics) as the labor driver going forward. Unclear whether the fix covers Total Treatments specifically, all three sub-metrics, or something else — **verify directly in Unifocus** which KBIs are actually flowing now before treating this as fully closed. See [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md).
 
 Full detail: [interfaces.md — Spa section](interfaces.md#spa--low-priority-)
 
@@ -435,3 +446,4 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - [F&B Labor Standards, Budget Alignment, Staffing Strategy, 8/4/26](2026-08-04_fnb-labor-standards-transcript.md) — Dining/Bev + Spa segments; server/runner standard redesign started
 - [Main Dining Room Standards Follow-Up, 8/5/26](2026-08-05_dining-room-standards-followup.md) — Kids Buffet standard built, Founders Buffet Supervisor job code created, Lakeview Breakfast range revised; cross-checked complete against Plaud recording
 - [Rooms Division Standards Review, 8/5/26](2026-08-05_rooms-division-standards-review.md) — Housekeeping (PAA, Grove Lodge, room attendant "cups" model, DND/turndown), Front Office/Gatehouse (Gatehouse weekend hours cut ~20 hrs/week), Security (Senior Officer overage fixed, 3 PM shifts removed), and a full pass through all Recreation seasonal roles
+- [Spa Standards, Scheduling Strategy, and KPI Alignment, 8/4/26](2026-08-04_spa-standards-session.md) — Total Treatments adopted as the labor driver, Spa Reception standard reworked (503→~463 hrs discussed), 37.5 hrs of duplicate shifts removed; corrects the earlier attendee guess in the 8/4 F&B file
