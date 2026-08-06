@@ -1,6 +1,6 @@
 # Mohonk Mountain House (MMH) — Knowledge Base
 
-Last updated: 2026-08-04
+Last updated: 2026-08-05
 
 ---
 
@@ -65,6 +65,10 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 - [ ] **Combine Security + Gatehouse into one reportable "op code"** — Casey/Braun requested a way to view both departments together instead of running two separate department reports; requested live 8/4/26.
 - [ ] **Security ~96 hrs/week short of standard** — active hiring gap (forward-looking Weekly Projected Schedule report, 8/4/26 training). Flag as explainable variance at the labor meeting, same treatment as conference-services BEO overage.
 - [ ] **Resolve [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999)** — Standard Hours not generating Thursday–Sunday, recurring weekly. Root cause already confirmed (revenueimport stored procedure runs 8:00 AM CT, before the standard-hours generation window on late data — see full history under Active Issues below); currently still requires manual regeneration every time it recurs, per the AM session's live confirmation. Fix needs to actually land (retiming the generation run), not just stay diagnosed.
+- [ ] **Confirm Founders Buffet Supervisor ADP job code** — new job code created live in Unifocus 8/5/26 (Labor Structure, under Dining Room Founders) ahead of ADP having it; Casey/ADP needs to confirm the actual code (guessed to start with "4" under department 12). No actuals will post until this is wired up. See [2026-08-05_dining-room-standards-followup.md](2026-08-05_dining-room-standards-followup.md#5-founders-brunch--new-job-code--new-standard).
+- [ ] **Reflect Lakeview Breakfast standard change in the manual budget submission** — Lou's explicit flag 8/5/26: raising the standard from a flat 2-person model to a volume-driven range adds real labor hours; the Unifocus standard change does not automatically update the separate budget submission. See [2026-08-05_dining-room-standards-followup.md](2026-08-05_dining-room-standards-followup.md#6-lakeview-breakfast--flat-standard--volume-driven-range).
+- [ ] **Broader review of the 5.5-hour break-threshold logic** — surfaced 8/5/26 while checking the Kids Buffet and dinner-server shifts against New York's break rule; flagged as needing a look across other short shifts property-wide, not just the two checked live.
+- [ ] **Complete the 8/5/26 dining room standards follow-up transcript** — the session ran past what was captured; resume filing [2026-08-05_dining-room-standards-followup.md](2026-08-05_dining-room-standards-followup.md) if the rest of the recording/transcript becomes available (cuts off mid-discussion on Banquet Server Assistant strategy).
 
 ## Onsite Visit — August 2026
 
@@ -417,3 +421,5 @@ Note: All values are inherited (no overrides set). Rounding Threshold Below One 
 - [Call Notes — August Onsite Visit Agenda Planning, 7/24/26](2026-07-24_visit-agenda-planning-call.md)
 - [Admin Training Session 1 Summary, 8/3/26](2026-08-03_admin-training-session1-summary.md) — first field test of `pws/foundations/08-admin-training-curriculum.md`
 - [Basic Training — Security & Call Center, 8/4/26](2026-08-04_basic-training-security-callcenter.md) — compressed 2-hr session; Employee Maintenance deep dive, secondary-job gap found
+- [F&B Labor Standards, Budget Alignment, Staffing Strategy, 8/4/26](2026-08-04_fnb-labor-standards-transcript.md) — Dining/Bev + Spa segments; server/runner standard redesign started
+- [Main Dining Room Standards Follow-Up, 8/5/26](2026-08-05_dining-room-standards-followup.md) — Kids Buffet standard built, Founders Buffet Supervisor job code created, Lakeview Breakfast range revised; transcript incomplete
