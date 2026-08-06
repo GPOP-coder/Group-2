@@ -9,7 +9,7 @@
 
 ## Participants
 - **Pete Castellano** (PWS)
-- **Alex Sherwood** — runs standards across Front Office, Guest Services, Recreation, Housekeeping, Laundry, Safety/Security, and Gatehouse. **⚠️ Possible identity overlap:** kb.md's contacts table has an "Alex Nee (Recreation)" entry from earlier scheduling logistics notes that was never tied to a real conversation — given the breadth of this session, it's plausible "Alex Nee" was a mis-transcription of "Alex Sherwood" rather than a second person. Flagged in kb.md contacts for confirmation, not resolved here.
+- **Alex Sherwood** — runs standards across Front Office, Guest Services, Recreation, Housekeeping, Laundry, Safety/Security, and Gatehouse. **Confirmed 8/5/26:** this is the same person as the earlier "Alex Nee" contact-table entries — Pete has only ever worked with one Alex at Mohonk; this session was the first time the correct surname came through. kb.md contacts updated accordingly.
 - **Lou Petruzzelli** (budget authority)
 - **Bron Walis** (IT Director)
 - **Casey Dow** (Software Specialist)
@@ -112,7 +112,6 @@
 - **Grove Lodge / Room Attendant labor overlap** — not broken out as a separate KPI by design, but worth periodically validating this isn't causing any double-counting as the property's cottage inventory potentially grows.
 - **Tennis shop year-round transition** — not finalized; needs more thought per Alex.
 - **Group Recreation staffing** — genuinely no standard/KPI exists; accepted as a gap, not actively being solved.
-- **Alex Sherwood / Alex Nee identity** — see Participants note above; needs confirmation whether these are the same person.
 
 ## Next Meetings / Follow-Ups
 - **Thursday AM (8/6) Basic Training** — raise the short-shift ("cups") handling practice directly with **Nancy** as a scheduler-training topic.
