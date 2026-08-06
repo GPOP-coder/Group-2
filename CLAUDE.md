@@ -221,6 +221,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - Open PO ~10 weeks; ~2 weeks remaining once F&B standards arrive
 - On-call main dining room server: Lou Petruzzelli green-lit, configure with James Danks
 - **Onsite visit planned: first week of August** — standards review + training; covered under existing change order; confirm week with Ralph Varble (CCO)
+- **8/5/26 — CEO Tom Smiley sat in on two labor meetings and gave a direct personal endorsement.** Lou separately floated routing future Mohonk engagements through Pete directly rather than exclusively via Unifocus — Unifocus confirmed fine with this. Real opportunity to add Mohonk to Pete's direct-client carve-out list at the next contract renewal. See `pws/clients/mohonk/2026-08-05_tom-lou-debrief.md`.
 
 **Baha Mar Campus** (Nassau) — 🟡 Significant billable work remaining
 - BQT mapping incomplete
