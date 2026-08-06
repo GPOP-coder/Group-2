@@ -87,7 +87,7 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 - [ ] **Finalize the Spa Reception standard reduction** (~503 → ~463 hrs discussed 8/4/26, plus Lou's tentative ~380-hr summer target) — needs Olivia's sign-off, not locked in.
 - [ ] **Fix Overnight Spa Cleaner shift timing** — standard shows an ~11 AM start, real start is ~7:30–8 PM; total weekly hours (37.5) are correct, only the timing is wrong.
 - [ ] **Un-bury Fitness Reception from under Spa Reception** in Labor Structure, and convert Spa Attendant from a Department to a proper Job — recommended 8/4/26, not executed.
-- [ ] **Resolve what the Spa "second floor" job actually covers** — Wed/Fri coverage kept on a guess (8/4/26), not confirmed; even Pete/Lou/Bron couldn't fully explain it live.
+- [x] **Resolve what the Spa "second floor" job actually covers** — ✅ Resolved via Pete's direct observation: it's a retail location that also serves as the controlled access point for the pool (downstairs), fitness center (2nd floor), and Spa (3rd floor). See [2026-08-04_spa-standards-session.md](2026-08-04_spa-standards-session.md#11-second-floor-vs-fitness-reception--duplicate-found-and-fixed).
 - [ ] **Schedule combined "schedule-printing" training session** — for Call Center, Front Desk, and Housekeeping, who all maintain duplicate Excel/macro schedules alongside Unifocus; planned for after the current onsite week, likely in the Parlor/Auditorium, no date set yet. See [2026-08-05_rooms-division-standards-review.md](2026-08-05_rooms-division-standards-review.md#1-duplicate-scheduling-systems-unifocus--legacy-excelmacros).
 
 ## Onsite Visit — August 2026

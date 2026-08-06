@@ -69,11 +69,11 @@
 - Four separate positions collectively need to cover **14 total weekly "lead" shifts**: Lead Spa Receptionist, Spa Reception Supervisor, Spa Recruiting & Training Supervisor, Spa Retail Supervisor.
 - **Live tally came to 19 shifts, not 14** — reviewed and accepted as legitimate: the **Retail Supervisor doesn't always perform "lead" duties**, so the extra capacity beyond the strict 14-shift minimum was judged reasonable. **No change made** — "nineteen, and it's fine the way it is."
 
-## 11. Second Floor vs. Fitness Reception — Duplicate Found and Partially Fixed
+## 11. Second Floor vs. Fitness Reception — Duplicate Found and Fixed
 - **Confirmed duplicate:** Fitness Reception (nested under Spa Reception — see item 6) already runs an opener at 6:30/9:30, and a separate **"second floor"** job/assignment was independently also scheduling an opener at 6:30, five days a week.
 - **Fix applied live: removed 5 duplicate second-floor opener shifts** (Sun/Mon/Tue/Thu/Sat, 6:30 AM each) — a **37.5-hour reduction** to the standard.
 - **Wednesday and Friday second-floor coverage deliberately left in place** — best guess offered live was that these cover a specific person's day off and/or Wednesday inventory/shipment processing plus Friday's known walk-in retail traffic, but this was **not confirmed**, just judged reasonable enough not to block the fix.
-- **The second floor's actual purpose was genuinely unresolved by the end of this section** — Pete, Lou, and Bron/Barbara could not fully explain it live; likely a holdover from a different staffing model 2+ years ago, possibly predating people currently in the room. Flagged explicitly as needing further study, not guessed at further.
+- **✅ Second floor's purpose resolved (Pete, direct observation):** the second floor is a **retail location that also functions as the controlled access point** for three areas — the pool (downstairs), the fitness center (second floor itself), and the Spa (third floor, reached by passing through here). It isn't a duplicate of Fitness Reception's function so much as an access-control/retail checkpoint that Fitness Reception was also independently covering — explaining why removing the redundant *opener* shifts was safe (Fitness Reception's own opener already covers that need) while genuine second-floor-specific coverage (access control + retail, including the Wed/Fri variability) still has a real, distinct reason to exist.
 
 ## 12. Total-Treatments Variability Goal (Aspirational — Not Yet Built)
 - **Goal for Spa Reception specifically:** flex from **1 up to 4 shifts** based on actual/forecasted Total Treatments — the main variability lever for the department, since almost everything else (attendants, overnight cleaner, most of reception) is fixed/no-matter-what.
@@ -115,7 +115,6 @@
 - Fitness Reception job code still buried under Spa Reception in Labor Structure — recommended fix, not executed.
 - Spa Attendant still structured as a Department instead of a Job — recommended fix, not executed.
 - Overnight Spa Cleaner's shift *timing* still doesn't reflect the real ~7:30–8 PM start (total hours are correct, timing isn't).
-- Second floor's actual purpose remains unresolved — Wed/Fri coverage kept on a guess, not confirmed.
 - Total-Treatments thresholds for flexing Spa Reception 1→4 shifts — not defined, deferred to the Olivia work session.
 - Spa Reception weekly desk-hours figures (185.5 / ~91 / 98) don't cleanly reconcile — verify in Unifocus.
 - Interim standard reduction (~503 → ~463 hrs) — not finalized, needs Olivia's sign-off.
