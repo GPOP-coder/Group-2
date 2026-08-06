@@ -133,6 +133,8 @@ Applying the general onboarding method above to **CI** (Marriott's EMS, used by 
 
 **Standing rule reaffirmed:** no historical CI BEO files go to Monali until CI mapping is fully validated — same rule already governing the Delphi/InterContinental historicals above.
 
+**Urgency check (added from Pete's Voice Memo, clearer than the Read AI recap on this point):** nobody at Unifocus is actively helping Nicole with the CI mapping right now, and **properties are already complaining** about missing labor/data — not just a hypothetical future risk. Read AI's cleaned transcript blurred this exchange into ambiguity; the raw audio has Nicole answering "no" to internal help and "yes" to property complaints as two distinct answers.
+
 ### Action items from this call
 - **Pete — send the 8/17 Westin La Paloma training kickoff invite.** Pete's own stated interval is ~2 weeks out; 2 weeks before 8/17 was 8/3, so as of this call (8/5) it is **already overdue** — send ASAP. (Nicole is in Charlotte with Akram doing training that same week, not attending WLP.)
 - **Nicole — reach out to Christy (likely Kristi Brockelsby, Union Station DOF — Read AI transcript spelling "Christy" is probably a phonetic mis-transcription; Pete confirmed 8/5/26) and likely each property individually** for CI code/event-type definitions, since combinations differ by property. See `union-station-nashville/contacts.md` for Kristi's email.
