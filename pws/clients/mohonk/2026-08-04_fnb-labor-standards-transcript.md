@@ -103,7 +103,7 @@
 - Chef's table standard — confirmed to exist separately, not reviewed in this session (chef unavailable, out until Thursday).
 
 ## Next Meetings (scheduled live in the session)
-- **Wednesday 8/5, 9:00 AM** — ✅ Held. Dining room standard follow-up (Pete, James, Lou, Bron, Patrice, Casey) — see [2026-08-05_dining-room-standards-followup.md](2026-08-05_dining-room-standards-followup.md). New: Kids Buffet standard, Founders Buffet Supervisor job code + standard, Lakeview Breakfast volume-driven range, buffet-attendant range revision. **Transcript incomplete — cut off mid-session; resume filing if the rest becomes available.**
+- **Wednesday 8/5, 9:00 AM** — ✅ Held. Dining room standard follow-up (Pete, James, Lou, Bron, Patrice, Casey) — see [2026-08-05_dining-room-standards-followup.md](2026-08-05_dining-room-standards-followup.md). New: Kids Buffet standard, Founders Buffet Supervisor job code + standard, Lakeview Breakfast volume-driven range, buffet-attendant range revision.
 - **Thursday 8/6, 1:00 PM** — Kitchen labor standards meeting (chef back from being out).
 - **Thursday 8/6, ~2:30 PM** — Brief session with Kadani (being trained to run next week's schedule while James is away) — mostly a check-in on where he's at.
 

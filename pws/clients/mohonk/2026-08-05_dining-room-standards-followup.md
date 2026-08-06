@@ -6,7 +6,7 @@
 **Location:** Mohonk Mountain House
 **Context:** Part of Pete's onsite visit week (Aug 2–7, 2026). This is the "Wednesday 8/5, 9:00 AM — Dining room standard follow-up" session scheduled live at the end of the [8/4/26 F&B session](2026-08-04_fnb-labor-standards-transcript.md#next-meetings-scheduled-live-in-the-session), continuing the server/runner rebalancing exercise from that call.
 
-**⚠️ Transcript incomplete.** The source transcript pasted into this session was cut off mid-sentence (~50,000-character limit) partway through the Banquet Server Assistant discussion, item 8 below. Everything captured here is confirmed from what was received; if Pete has the rest of the recording/transcript, paste it in a follow-up to complete this file.
+**✅ Transcript complete.** Cross-checked against the full Plaud recording ("08-05 F&B Labor Standards Round 2: Buffet Staffing Standards, Labor Forecasting & KPI Data Integrity," 46m7s, Hotel Ops folder) — the meeting genuinely ended where the earlier Voice Memo paste cut off; nothing was missing. Several details below were corrected against Plaud's speaker-labeled transcript, which was cleaner than the Apple Voice Memo transcript on a few specific numbers (noted inline).
 
 ## Participants
 - **Pete Castellano** (PWS)
@@ -32,8 +32,9 @@
 ## 3. Kids Buffet — New Standard Created
 - **No standard previously existed** for this — it's been running since mid-June uncaptured.
 - Job: PM Buffet Attendant, seasonal — currently running daily but is meant to toggle on/off based on a kids-count threshold (**~30–40+ kids**).
-- Shift: **4:00–10:00 PM** (staff clock out ~9:30 PM after an unpaid 30-min break) — see the break-threshold discussion in item 4, since this shift sits right at the same 5.5-hour boundary.
-- Standard built: **2 attendants** base (Non-Flow, Beginning distribution); scales to more at higher thresholds (~40–45 kids → additional attendant). One-off spikes (e.g., a 150-kid night needing 3) were noted as outliers, not built into the standard.
+- **Shift (corrected via Plaud): 6:00 PM–9:30 PM, 3.5 hours, no break required** — deliberately kept under the 5.5-hour break threshold from item 4, not a 6-hour shift with a break as the raw Voice Memo audio suggested at first pass.
+- Standard built (Non-Flow, Beginning distribution): **base case 1 attendant**, scaling to **2 at a ~40–45 kid threshold**. One-off spikes (a night that hit **350 kids**, needing 3 — corrected from "150" in the Voice Memo transcript, which mis-heard the number) were noted as real but rare outliers, not built into the formal standard.
+- **Unresolved (per Plaud's AI Suggestions):** the exact child-count number that triggers the 1→2 attendant jump was never formally pinned down in the discussion — "40 or 45" was used loosely, not confirmed as the final saved breakpoint. Verify directly in Unifocus.
 - **Linked to the Kids Count KBI** live during the session, replacing the prior state where kids covers were tracked but not driving any labor standard.
 
 ## 4. Server Dinner Shift Length / Break Threshold — Investigated, Deferred
@@ -61,12 +62,19 @@
 - Current staffing pattern: baseline ~3–4/day (split AM/PM coverage) plus a 5th added Friday–Sunday; the department supervisor role also covers phones/other duties, not purely supervisory.
 - A lean department with no meaningful volume-linked KBI/cover driver currently tied to its flat portion of the standard — **not resolved or changed live**, explicitly deferred to be revisited "when we get to banquet."
 
-## 8. Banquet Server Assistant Strategy (philosophy discussion, not a standard change) — TRANSCRIPT ENDS MID-DISCUSSION
-- James's multi-year strategy: use lower-cost banquet/dining server assistants (~$18–20/hr) to absorb setup, breakdown, and running work on large banquets, reducing how many full servers (~$27–30/hr) are needed — same cost-shift logic already tracked in the [8/4 session, item 6](2026-08-04_fnb-labor-standards-transcript.md#6-server-vs-support-role-cost-strategy).
+## 8. Banquet Server Assistant Strategy (philosophy discussion, not a standard change)
+- James's multi-year strategy: use lower-cost banquet/dining server assistants (~$18–20/hr) to absorb setup, breakdown, and running work on large banquets, reducing how many full servers (~$27–30/hr) are needed — same cost-shift logic already tracked in the [8/4 session, item 6](2026-08-04_fnb-labor-standards-transcript.md#6-server-vs-support-role-cost-strategy). Confirmed already covered: a banquet server assistant standard already exists in Unifocus.
 - Distinguishes Mohonk's banquet labor model from a simple "house person" model: for offsite banquet locations, dining room staff personally handle the full logistics chain — gather supplies, load the truck, transport, unload, serve the event, clean up, pack out, return. Long shifts result (a wedding shift can run 12 hours).
-- Separate, already-built labor standards exist for **outdoor cookout/off-site lunch** (~7 hrs, accounts for the full offsite logistics chain) vs. **in-house venue events** like the East Dining Room (~4 hrs) — confirmed previously built out with Brooke, not new.
-- Pete raised (as a future audit idea, not this session's task): walk through whether every banquet's full lifecycle — setup → cook → serve → cleanup — is actually captured and mapped to the correct labor standard end-to-end, rather than assuming it is.
-- **Transcript cuts off here** mid-sentence, discussing whether every banquet import correctly reflects that full lifecycle. Resume/complete this file if more of the recording becomes available.
+- Separate, already-built labor standards exist for **outdoor cookout/off-site lunch** (~7 hrs, accounts for the full offsite logistics chain) vs. **in-house venue events** like the East Dining Room (~4 hrs) — confirmed previously built out with Brooke during the earlier Delphi-era work, not new.
+- Pete raised (as a future audit idea, not this session's task): walk through whether every banquet's full lifecycle — setup → cook → serve → cleanup — is actually captured and mapped to the correct labor standard end-to-end, rather than assuming it is. Explicitly deferred ("for another day").
+- **Session closed here** — James's closing assessment: "all the banquets pretty much line up now that I enter the actuals." Meeting ended on good terms; both sides confirmed satisfaction with the day's progress (Lakeview + buffet standards). No further business — this was the natural end of the ~46-minute session, not a cutoff.
+
+## New Items Surfaced Only in Plaud's AI Analysis (not in the live discussion narrative above)
+Plaud's "Unresolved Issues" pass flagged a few things that came up only tangentially in the room and are easy to lose track of:
+- **Bar/Beverage payroll report and staffing guide are "all wonky"** following the beverage department split confirmed complete this session (Pete: "we just have to fix the payroll report and staffing guide for him because it's all wonky, but we will"). No specific fix plan, owner, or timeline was set. Ties to the existing "Beverage Jobs — Not Auto-Scheduling" beverage-restructuring item in [kb.md](kb.md#active-issues) — same restructuring effort, this is the reporting-side cleanup still owed.
+- **ADP/Unifocus secondary-job interface risk:** discussed as a forward-looking concern — even if ADP's future upgrade allows secondary jobs, the ADP→Unifocus interface may still only transmit an employee's primary/home job. Worth confirming with Unifocus/ADP before Mohonk plans around secondary-job functionality once the ADP upgrade lands.
+- **Lakeview cover-count methodology still undecided** — separate from the placeholder breakpoint *values* already flagged below, the team never actually decided whether to keep using roll-up-basket counts or switch to hotel house/overnight-guest count as the driver. Both were discussed favorably; no final call made.
+- **BEO-routed groups to Lakeview may silently under-staff it:** Mohonk's banquet KBIs are mapped by generic event type (e.g., "Private Breakfast," "Continental Breakfast"), not by specific outlet. If a BEO sends an unexpectedly large group to Lakeview specifically, there's no confirmed mechanism ensuring that shows up as Lakeview-specific labor demand rather than just a generic banquet breakfast line — a real understaffing risk for large surprise groups. Explicitly deferred ("we'll burn that bridge later").
 
 ---
 
@@ -80,11 +88,15 @@
 
 ## Open / Unresolved
 - **Confirm final saved buffet-attendant breakpoints directly in Unifocus** — the live discussion had some numeric ambiguity in the recording.
+- **Confirm the exact Kids Buffet 1→2 attendant trigger threshold** — discussed loosely as "40 or 45 kids," never formally locked in.
 - **Server/short-shift break-threshold policy** — the 5.5-hour boundary issue flagged in item 4 needs a broader look across the property, not just Main Dining and Kids Buffet.
 - **Lakeview Breakfast standard change must also be reflected in the manual budget submission** (Lou's flag) — a real added-labor-cost item, not just a Unifocus config change.
+- **Lakeview cover-count methodology undecided** — roll-up-basket counts vs. hotel house/overnight-guest count; no final call made.
+- **BEO-routed groups to Lakeview may silently under-staff it** — banquet KBIs map by generic event type, not by outlet; deferred without a resolution path.
+- **Bar/beverage payroll report and staffing guide "all wonky"** post-restructuring — no fix plan, owner, or timeline.
+- **ADP/Unifocus secondary-job interface risk** — confirm whether a future ADP upgrade allowing secondary jobs would actually pass through to Unifocus, or whether the interface still only sends the primary job.
 - **Room Service Attendant** — deferred to a future banquet-focused session.
 - **Banquet lifecycle audit** (setup → cook → serve → cleanup mapping) — Pete's future-audit idea, not started.
-- **Rest of this session's transcript** — not yet captured past the point above.
 
 ---
 
