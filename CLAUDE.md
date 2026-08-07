@@ -82,6 +82,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - **Microsoft OneNote** — primary notes
 - **Microsoft To-Do** — tasks and lists (groceries separate list)
 - **iPhone iOS** — Voice Memos auto-transcribes (key capture tool for journaling/meetings)
+- **Plaud** — AI voice recorder; Pete considering a purchase (flagged 8/6/26, prompted by seeing Bron Walis use one to record the 8/6/26 Mohonk Basic Training class). Would directly address the "lost breakthrough problem" — live sessions currently rely on Pete's own after-the-fact Voice Memo brain dump, which can miss detail. Not yet researched/priced — no model/decision locked in.
 - **Outlook desktop** — multiple accounts; master contacts in primary account
 - **Microsoft Edge** — dedicated workspace for father's financial accounts
 - **Hume Body Pod** — daily body composition, syncs to Apple Health (free tier)
