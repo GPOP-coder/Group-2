@@ -19,10 +19,11 @@
 | Name | Role | Email |
 |---|---|---|
 | Fabrizio Poli | General Manager | fabrizio.poli@westinlapaloma.com |
-| Mark McSteen | Director of Finance (DOF) | mark.mcsteen@westinlapaloma.com |
+| ~~Mark McSteen~~ | ~~Director of Finance (DOF)~~ — **retired 7/31/26** | mark.mcsteen@westinlapaloma.com (inactive) |
+| **Peggy Taylor** | **Associate/Assistant Director of Finance — new finance contact** | Peggy.Taylor@westinlapaloma.com \| (D) 520.618.4006 |
 | Jannett Sanora | Human Resources | jannett.sanora@westinlapaloma.com |
 
-*Source: Nicole Mendez email 6/30/26 ("WLP & GHY Contact Information")*
+*Source: Nicole Mendez email 6/30/26 ("WLP & GHY Contact Information"); DOF change discovered 8/7/26 via Mark's retirement auto-reply — see [contacts.md](contacts.md) for detail.*
 
 ---
 
@@ -68,3 +69,4 @@
 - [ ] Book flight and hotel for training week
 - [ ] Obtain property profile
 - [ ] Review interface mapping tracker for WLP-specific issues
+- [ ] **Loop in Peggy Taylor directly** — send her the training kickoff materials (invite, PDFs, video links) since she wasn't on the original 8/9/26 distribution; confirm she's replacing Mark McSteen as the Admin-session finance attendee.

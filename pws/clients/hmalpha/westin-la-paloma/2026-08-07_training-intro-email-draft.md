@@ -2,7 +2,9 @@
 
 # Westin La Paloma — Training Introduction Email (Draft)
 
-**Status:** Draft, not sent. **Overdue** per Pete's own ~2-week-out rule (should have gone out 8/3/26; flagged 8/5/26 on the CI mapping call with Nicole Mendez — see `pws/clients/hmalpha/corporate-admin-training/interface-mapping-tracker.md`, "Action items from this call"). Built from the standard [PWS Training Introduction Email template](../../../kb/pws-training-intro-email.md) so it's ready to send from the road tomorrow with minimal editing.
+**Status: Superseded — see [2026-08-09_training-kickoff-invite.md](2026-08-09_training-kickoff-invite.md) for what actually went out 8/9/26.** Kept here for historical reference only. **Note:** this draft's To list included Mark McSteen (DOF), who turned out to have retired 7/31/26 — the actual sent email went to his inactive inbox. New contact is Peggy Taylor; see [contacts.md](contacts.md).
+
+**Status (original):** Draft, not sent. **Overdue** per Pete's own ~2-week-out rule (should have gone out 8/3/26; flagged 8/5/26 on the CI mapping call with Nicole Mendez — see `pws/clients/hmalpha/corporate-admin-training/interface-mapping-tracker.md`, "Action items from this call"). Built from the standard [PWS Training Introduction Email template](../../../kb/pws-training-intro-email.md) so it's ready to send from the road tomorrow with minimal editing.
 
 **To:** Fabrizio Poli (GM), Mark McSteen (DOF), Jannett Sanora (HR)
 **CC:** Devon Peters, Nicole Mendez (HM Alpha corporate) — *note: Nicole is in Charlotte with Akram that same week doing other training, not attending WLP herself, but should stay in the loop*

@@ -101,7 +101,8 @@
 ## Open Items / Pre-Training Checklist
 
 - [ ] Confirm attendee sign-ups received (A/B/C/D manager options)
-- [ ] Confirm admin attendees: Fabrizio Poli (GM), Mark McSteen (DOF), Jannett Sanora (HR)
+- [ ] **⚠️ Mark McSteen (DOF) retired 7/31/26** — this invite went to his now-inactive inbox (confirmed via auto-reply received 8/7/26). **Forward/resend to Peggy Taylor** (Associate/Assistant Director of Finance, Peggy.Taylor@westinlapaloma.com, 520.618.4006), the new finance contact, before assuming Admin-session attendance is confirmed.
+- [ ] Confirm admin attendees: Fabrizio Poli (GM), **Peggy Taylor (DOF, replacing Mark McSteen)**, Jannett Sanora (HR)
 - [ ] Confirm all attendees have active Unifocus credentials
 - [ ] Confirm meeting room + HDMI setup at property
 - [ ] Confirm Teams links sent / calendar invites accepted
