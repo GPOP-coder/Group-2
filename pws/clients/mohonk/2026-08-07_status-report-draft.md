@@ -11,7 +11,7 @@
 | **Name of the hotel(s)** | Mohonk Mountain House |
 | **Name of Unifocus consultant(s)** | Pete Castellano |
 | **Visit Dates** | 08/02/26 – 08/07/26 |
-| **Distribution List** | *TBD — suggest Ralph Varble, Susanna Briggs / Bron Walis, Lou Petruzzelli, Patrice Huart* |
+| **Distribution List** | *TBD — suggest Ralph Varble, Susanna Briggs / Bron Walis, Lou Petruzzelli, Patrice Huart, Tom Smiley, Eric Gullickson* |
 
 ## Project Status
 
@@ -21,12 +21,12 @@ This was a highly productive onsite week. Beyond the standards and configuration
 
 ## Interfaces
 - **Spa KBI import** — fixed and independently validated. Treatment KBIs (day/transient, overnight, employee) now populate correctly; Total Treatments, a calculated KBI, resolves automatically as a result. Property staff (Spa Manager Joanna Taylor) confirmed the actual numbers looked correct for the week of 7/27–8/2, closing the loop end to end.
-- **Founders Buffet Attendant/Supervisor ADP job codes** — confirmed active; resolves an earlier concern about missing ADP setup.
+- **Founders Buffet Attendant/Supervisor ADP job codes** — confirmed active; added jobs to Unifocus. Resolves an earlier concern about missing ADP setup.
 - **Banquet actuals overwritten after entry** — root cause identified; fix requested, awaiting updated Banquet file.
 - **F&B covers-to-Datavision timing — fix implemented, validation pending.** Root cause confirmed: the accounting upload lands after the standard-hours generation window, causing a recurring Thursday–Sunday generation gap. Bron implemented a fix live this week: an additional interface transfer every Tuesday at 1:00 AM, giving Unifocus a 7-hour buffer to ingest weekend covers before the morning generation runs. First full validation cycle is next week.
 - **This same generation-timing root cause was independently reconfirmed a third time this week**, this time in Beverage/Carriage Lounge forecasting — strong evidence it's one systemic timing issue affecting multiple departments, not several unrelated ones.
-- **Front Desk** — one overnight employee's actual hours aren't flowing into Unifocus reporting despite clocking in correctly and being paid correctly in ADP. A specific new diagnostic lead (an ADP Pay Code discrepancy) was identified this week. Stacy Zappone (Front Office/Guest Services) is checking ADP directly and is expected to provide details of our findings. Now a formally tracked action item for the team, not just an individual finding.
-- **Culinary Extern/Intern hours** are landing entirely under one primary "Culinary Intern" ADP title rather than the specific kitchen job actually worked. Two resolution paths identified: time-clock job selection, or enabling ADP's "punch to schedule" feature (requires an automated daily Unifocus→ADP schedule export, estimated cost ~$4,000 — not yet approved). Worth weighing against ADP's eTime platform being retired within 1–2 years before committing spend here.
+- **Front Desk** — one overnight employee's actual hours aren't flowing into Unifocus reporting despite clocking in correctly and being paid correctly in ADP. A specific new diagnostic lead (an ADP Pay Code discrepancy) was identified this week. Stacy Zappone (Front Office/Guest Services) is checking ADP directly and is expected to provide details of our findings to Casey.
+- **Culinary Extern/Intern hours** are landing entirely under one primary "Culinary Intern" ADP title rather than the specific kitchen job actually worked. Two resolution paths identified: time-clock job selection, or enabling ADP's "punch to schedule" feature, which requires an automated daily Unifocus→ADP schedule export.
 - **Reporting accuracy fix, Kitchen/Culinary:** a mis-scoped operating code was pulling Utility and Garden View Cafe staff into the kitchen's variance reporting. Corrected this week — the Labor Effectiveness Report for the most recent complete week improved from -12% to roughly -2% under standard purely from the reporting fix, no staffing change required.
 
 ## Implementation
@@ -51,14 +51,14 @@ This was a highly productive onsite week. Beyond the standards and configuration
 - **Beverage — Banquet Bartender KBI mapping** — fixed live. The standard had never generated a shift since original setup because it was driven by group-booked banquet business only; now captures local/day banquet business as well, correcting a real historical under-crediting of bartender hours.
 
 ## Labor Structure
-- Beverage job codes fully separated by outlet and moved into their own department, with a clean data migration (see Implementation above).
+- Beverage job codes fully separated by outlet and moved into their own Beverage department, with a clean data migration (see Implementation above).
 - **ADP Labor Structure review** flagged with Lou for the next working session.
 - A minor job-code naming inconsistency (the Main Dining Room "Server" job lacks the outlet prefix other jobs carry) was identified for future cleanup.
 
 ## Planning & Schedule Timeline
 - **This week's most consequential finding:** the recurring gap between when covers/KBI data is entered and when standard-hours generation actually runs was independently confirmed in three separate departments this week (F&B covers, Beverage/Carriage Lounge, and the standing Thursday–Sunday gap) — strong evidence of one systemic timing issue rather than isolated department problems.
-- CEO-level prioritization secured: Tom Smiley personally asked to see the current weekly timeline and we confirmed no editable source exists — the rebuild already underway (see Implementation) now carries direct executive backing.
-- **New weekly cadence proposed:** revenue forecast generated by Monday 12:00 PM, edits complete by Tuesday noon, schedules built through Thursday noon, labor meeting moves from Wednesday to Thursday 2:00–3:00 PM, schedules posted Thursday evening — a full day earlier than today's practice. Compressing the timeline does leave less margin for error if data feeds run late; no specific mitigation locked in yet.
+- Weekly Timeline was updated into an editable Excel document. The timeline was realigned to a new cadence which allows more time for schedule editing and completes the schedule a day earlier for employees.
+- **New weekly cadence proposed:** Revenue Center forecasts generated by Monday 12:00 PM, edits complete by Tuesday noon, schedules built through Thursday noon, labor meeting moves from Wednesday to Thursday 2:00–3:00 PM, schedules posted Thursday evening — a full day earlier than today's practice. Compressing the timeline does leave less margin for error if data feeds run late; no specific mitigation locked in yet.
 
 ## Database Status
 - Stable. This week's configuration work was primarily cleanup and restructuring (Beverage) rather than new build.
@@ -69,7 +69,7 @@ This was a highly productive onsite week. Beyond the standards and configuration
 - Stronger appetite at the ownership and department-head level for a dedicated future push toward full native-Unifocus/mobile adoption property-wide.
 
 ## Standards Test
-- Not formally re-run against the 2026 budget this visit. Recommended as a future-visit action to compare labor standards to 2026 budget and prepare to use the standards in 2027 budget cycle as an extra set of eyes on the labor budget.
+- Not formally re-run against the 2026 budget this visit. Discussed a method of comparing the budget to an eight-week Weekly Labor Summary or monthly Labor Effectiveness Report. Recommended as a future-visit action to compare labor standards to 2026 budget and prepare to use the standards in 2027 budget cycle as an extra set of eyes on the labor budget.
 
 ---
 
@@ -83,20 +83,20 @@ This was a highly productive onsite week. Beyond the standards and configuration
 - Resolve the Granary/Founders rain-contingency covers-vs-labor coding mismatch.
 - Build labor standards for banquet culinary workload — none currently exist today, and banquet production has been fully absorbed into the main kitchen with no clear attribution, contributing real unattributed overtime. Plan agreed: standards by meal type (plated vs. buffet), format, and volume breakpoints, applied across culinary, stewarding, and service.
 - Resolve Culinary Extern/Intern ADP job-coding — decide between time-clock job selection and the ADP "punch to schedule" investment (see Interfaces above).
-- Investigate partial-shift generation on run-rate-based standards, flagged by Main Dining Room department leadership.
+- Investigate partial-shift generation on run-rate-based standards, flagged by Main Dining Room department leadership. Showed manager this is working as designed.
 
 **Interfaces**
-- Confirm the Tuesday 1AM interface-transfer fix actually closes the Thursday–Sunday generation gap over a full live cycle — implemented 8/6/26, not yet validated.
+- Confirm the Tuesday 1:00 AM interface-transfer fix actually closes the Thursday–Sunday generation gap over a full live cycle — implemented 8/6/26, not yet validated.
 - Evaluate extending covers automation to the full week (not just Tuesday) to close the timing gap at its source.
 - Resolve the Front Desk overnight-hours reporting gap once the ADP Pay Code discrepancy is confirmed.
 - Continue monitoring the banquet-actuals-overwritten issue through to a completed fix.
 
 **Other**
-- Complete the Weekly Labor Timeline rebuild with Lou.
+- Complete the Weekly Labor Timeline rebuild following Friday's wrapup meeting.
 - Scope a dedicated future visit focused on driving full adoption of Unifocus as the single source of schedule generation, editing and distribution.
 - Bron to confirm by Monday, August 10 whether the banquet automation interface is ready to support the new weekly cadence.
-- A single-system mandate was proposed — all schedules generated and printed from Unifocus, retiring parallel Excel/paper processes property-wide — along with targeted 1–2 hour adoption training for the lowest-adoption departments (Recreation, Spa, Properties, Housekeeping).
-- Consider a combined Data Analyst/Labor Management role (potentially half-time) to own ongoing operations, training, and analytics.
+- A single-system mandate was proposed — all schedules generated and printed from Unifocus, retiring parallel Excel/paper processes property-wide — along with targeted 1–2 hour adoption training for the lowest-adoption departments (Suspects: Recreation, Spa, Properties, Housekeeping).
+- Consider a combined Data Analyst/Labor Management role (potentially half-time) to own ongoing WFM operations, training, and analytics.
 
 ---
 
