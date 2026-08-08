@@ -41,15 +41,24 @@
 - Days 2–3: Manager training sessions
 - Days 4–5: TBD based on property needs
 
-**Kickoff invite:** Sent 8/9/26 (in Pete's sent items)
+**Kickoff invite:** Sent 8/9/26 — see [`2026-08-09_training-kickoff-invite.md`](2026-08-09_training-kickoff-invite.md)
+
+**Schedule:**
+- Mon 8/17: Admin Training (9am–12pm + 2pm–5pm CT) — GM, DOF, HR; admins also attend one manager session
+- Tue 8/18: Manager Training options A (9am) + B (2pm) MST
+- Wed 8/19: Manager Training options C (9am) + D (2pm) MST
+- Thu 8/20: Office Hours options E (9am) + F (2pm) MST
+- Sessions delivered live over Microsoft Teams; managers bring own laptops
 
 **Pre-training checklist:**
-- [ ] Confirm config complete with Steve Carrell
-- [ ] Confirm hotel booking for Pete (Aug 17–21)
-- [ ] Confirm flight OMA → TUS (Tucson)
+- [ ] Confirm attendee sign-ups received
+- [ ] Confirm config complete with Steve Carrell before 8/17
+- [ ] Book Pete's hotel — Tucson, Aug 17–21
+- [ ] Book Pete's flight OMA → TUS
 - [ ] Review CI/TY interface mapping (Nicole Mendez tracker)
 - [ ] Review any open BLSBD or labor-standards flags specific to La Paloma
 - [ ] Get property profile / org chart from Fabrizio/Jannett
+- [ ] Confirm all attendees have active Unifocus credentials
 
 ---
 
