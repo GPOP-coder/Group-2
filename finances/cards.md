@@ -46,6 +46,7 @@
 
 - **FNBO Evergreen (0733):** Accidentally saved to Stripe/Link during Scribd signup May 29 — need to remove from link.com
 - **FNBO Evergreen (0733):** Used interchangeably for both eBay and PWS expenses. Pete wants a dedicated PWS credit card — watching for a good deal/offer before signing up.
+- **Southwest Rapid Rewards Plus (2674):** Appears as "SW Pete" or "Southwest Pete" in Uber payment method labels
 - **FNBO Debit (eBay, 9115):** Rarely used; Pete unsure why still carrying
 - **Nebraska Medicine FSA (5711):** Kim has 2 identical cards
 - **FNBO Checking (eBay):** Receives eBay revenue; paired with both eBay cards (FNBO Evergreen 0733 and Debit 9115)
