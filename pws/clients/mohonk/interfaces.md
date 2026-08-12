@@ -15,7 +15,7 @@ Living document. Add detail as interfaces are confirmed, tested, or changed.
 | Interface | Priority | Direction | Timing | Status (as of 7/1/26) |
 |---|---|---|---|---|
 | Rooms KBI | High | HMS → Datavision → Unifocus | Datavision CSV daily 8AM; Unifocus processes Mondays | ✅ Fixed — moved to 10:00 AM ET |
-| F&B Covers | High | F&B → Accounting → Datavision → Unifocus | File delivery 8AM; standard hours regenerated 6AM/9AM/2PM/10PM | 🔴 Reopened — [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) (Critical), Thu–Sun standard hours recurring no-generate despite the 9AM fix; see [kb.md](kb.md#-standard-hours-not-generating--thursday-through-sunday-recurring) |
+| F&B Covers | High | F&B → Accounting → Datavision → Unifocus | File delivery 8AM; standard hours regenerated 6AM/9AM/2PM/10PM | 🟡 Closed by Unifocus 8/10/26 (import-timing adjustment, unconfirmed) — [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) (Critical), validate before trusting; see [kb.md](kb.md#-standard-hours-not-generating--thursday-through-sunday-recurring) |
 | Banquet | High | Manual entry into Unifocus | Weekly, varies; 6–12 events/week | 🔴 Open — [RMSOPS-14129](https://ufjira.atlassian.net/browse/RMSOPS-14129); root cause found, deletion requested from Monali |
 | Spa | Low | Book4time → Datavision → Unifocus | Daily 8AM file; processing TBD | 🔴 Open — escalated to UF engineering |
 | ADP Punch Data | High | ADP → Unifocus | Daily ~7:00 AM CT | ✅ Stable, confirmed |
@@ -148,6 +148,7 @@ Not a data interface — a standards/configuration issue surfaced during the sam
 | 2026-07-01 | Bron Walis email (pre-call) | Second banquet overwrite example (6/28 actuals) |
 | 2026-07-02 | RMSOPS-14129 Jira ticket + Pete's comment | Confirmed fix path: Monali exports mapping/data backup then deletes the BQT mapping (not a Pete deliverable); Pete will restore mapping once Mohonk resumes sending a BQT file |
 | 2026-07-20 | Call with Susanna Briggs + UNIFOCUS-252999 (Critical) | F&B Covers 9AM fix not holding — standard hours still not generating Thu–Sun most weeks; covers/actuals confirmed importing correctly, gap is in generation step; escalated to engineering post-call; root cause unconfirmed |
+| 2026-08-10 | Heather Close (Unifocus support) closed UNIFOCUS-252999 | Integration team "adjustment to import timing" — separate from Bron's 8/6/26 Tuesday 1AM fix; unconfirmed; 72hr reopen window expires ~2:51 PM CDT 8/13/26 |
 
 ---
 
