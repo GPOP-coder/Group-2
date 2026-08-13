@@ -13,9 +13,8 @@
 |---|---|---|
 | VISA WF Debit 8289 | $13.10 | Tools, electronics, books |
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
-| Card ending -0733 | $207.77 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) |
+| Card ending -0733 | $347.93 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) + Plaud Note Pro (eBay, open box) |
 | Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
-| Credit Card (card TBD) | $140.16 | Plaud Note Pro AI voice recorder — eBay, open box |
 | **TOTAL PWS EXPENSES** | **$380.13** | |
 
 ---
@@ -52,7 +51,7 @@
 
 | Date | Vendor | Location | Items | Amount | Card | Category |
 |---|---|---|---|---|---|---|
-| 8/13 | pennygold (eBay) | Online | Plaud Note Pro AI Voice Recorder Note Taker, PN0300, 64GB, Black — Open Box (item $124.99, shipping $6.00, tax $9.17), order #27-14998-40150 | $140.16 | Credit Card (specific card TBD — confirm with Pete) | Equipment |
+| 8/13 | pennygold (eBay) | Online | Plaud Note Pro AI Voice Recorder Note Taker, PN0300, 64GB, Black — Open Box (item $124.99, shipping $6.00, tax $9.17), order #27-14998-40150 | $140.16 | -0733 | Equipment |
 | **CAPTURE EQUIPMENT SUBTOTAL** | | | | **$140.16** | | |
 
 ### Insurance
@@ -71,7 +70,7 @@
 - Computer accessories, tools, and supplies are deductible business expenses under Schedule C (PWS)
 - Business Fire policy (97-EG-4466-1, 13606 S 20th St) is a recurring PWS insurance expense — watch for future payment receipts to add here
 - Receipts captured photographically; physical copies stored for audit trail
-- **Plaud Note Pro (8/13/26):** business justification is live-session capture for consulting/training work (see CLAUDE.md Tech Stack) — directly addresses the "lost breakthrough problem" for onsite client sessions; confirm which card was actually charged (order confirmation just says "Credit Card," no last 4) before tax filing
+- **Plaud Note Pro (8/13/26):** business justification is live-session capture for consulting/training work (see CLAUDE.md Tech Stack) — directly addresses the "lost breakthrough problem" for onsite client sessions; charged to FNBO Evergreen -0733 (Pete confirmed 8/13/26)
 
 ---
 
