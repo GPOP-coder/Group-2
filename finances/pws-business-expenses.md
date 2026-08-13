@@ -84,5 +84,5 @@
 5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
 6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03 Goodwill GoodBytes PWS.pdf`
 7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — clean scan now on file at `finances/receipts/2026-07-12 Target Bellevue PWS split.pdf` (supersedes the earlier phone-photo `.jpeg` of the same receipt; figures verified identical, no change to logged amounts)
-8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — order confirmation PDF provided by Pete, not yet filed to `finances/receipts/`
+8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — `finances/receipts/2026-08-13 Plaud Note Pro eBay Order PWS.pdf`
 
