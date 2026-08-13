@@ -22,8 +22,9 @@
 | ~~Mark McSteen~~ | ~~Director of Finance (DOF)~~ — **retired 7/31/26** | mark.mcsteen@westinlapaloma.com (inactive) |
 | **Peggy Taylor** | **Associate/Assistant Director of Finance — new finance contact** | Peggy.Taylor@westinlapaloma.com \| (D) 520.618.4006 |
 | Jannett Sanora | Human Resources | jannett.sanora@westinlapaloma.com |
+| Charles James | Property contact — coordinating manager laptops, admin session attendee | charles.james@westinlapaloma.com |
 
-*Source: Nicole Mendez email 6/30/26 ("WLP & GHY Contact Information"); DOF change discovered 8/7/26 via Mark's retirement auto-reply — see [contacts.md](contacts.md) for detail.*
+*Source: Nicole Mendez email 6/30/26 ("WLP & GHY Contact Information"); DOF change discovered 8/7/26 via Mark's retirement auto-reply — see [contacts.md](contacts.md) for detail. Charles James added 8/12/26 from impromptu planning call — see [2026-08-12_impromptu-planning-call.md](2026-08-12_impromptu-planning-call.md).*
 
 ---
 
@@ -42,7 +43,7 @@
 - Days 2–3: Manager training sessions
 - Days 4–5: TBD based on property needs
 
-**Kickoff invite:** Sent 8/9/26 — see [`2026-08-09_training-kickoff-invite.md`](2026-08-09_training-kickoff-invite.md)
+**Kickoff invite:** Sent 8/9/26 — see [`2026-08-09_training-kickoff-invite.md`](2026-08-09_training-kickoff-invite.md). **Still not actually sent to the property as of 8/12/26** — waiting on Peggy to finalize session times (see 8/12 call below).
 
 **Schedule:**
 - Mon 8/17: Admin Training (9am–12pm + 2pm–5pm CT) — GM, DOF, HR; admins also attend one manager session
@@ -50,23 +51,40 @@
 - Wed 8/19: Manager Training options C (9am) + D (2pm) MST
 - Thu 8/20: Office Hours options E (9am) + F (2pm) MST
 - Sessions delivered live over Microsoft Teams; managers bring own laptops
+- **4-day, admin-first format confirmed live on the 8/12/26 planning call** — see below
+
+**Hotel dates corrected 8/12/26:** Pete needs **Sunday 8/16 arrival through Friday 8/21 departure** (5 nights), not Mon–Fri — driven by flight timing constraints flying east. Comp room requested; Peggy to send confirmation, which blocks Pete's own flight booking.
+
+**⚠️ 8/12/26 planning call — key findings, full detail in [2026-08-12_impromptu-planning-call.md](2026-08-12_impromptu-planning-call.md):**
+- **User Administration gap found live on the call:** WLP employees exist under Employee Maintenance but are NOT set up under User Administration — only admins (Peggy) have real login access. First time Devon/Nicole have seen this across the HMAlpha rollout; possibly a portfolio-wide gap if the original Akram Chahin master list was incomplete. Devon looping in Akram; Pete committed to ensuring functional credentials by start of training week regardless.
+- Jannett Sanora's Admin Training attendance is at risk — HR is short-staffed (newest hire ~1 week in).
+- Some scheduling managers lack laptops for hands-on training — Charles James coordinating loaners.
+- Sign-up/attendance spreadsheet Peggy has is still filtered for Union Station, not WLP — Pete owes her a corrected copy.
+- Devon and Nicole will NOT be onsite for WLP training (unlike prior properties) — Pete asked that at least one property admin sit in on each manager session to help cover that gap.
+- Property occupancy favorable for training week: ~50%, no major groups.
 
 **Pre-training checklist:**
-- [ ] Confirm attendee sign-ups received
+- [ ] Confirm attendee sign-ups received — blocked on Peggy finalizing times (target 8/13)
 - [ ] Confirm config complete with Steve Carrell before 8/17
-- [ ] Book Pete's hotel — Tucson, Aug 17–21
-- [ ] Book Pete's flight OMA → TUS
+- [ ] Book Pete's hotel — Tucson, Sun 8/16–Fri 8/21 — waiting on Peggy's reservation confirmation
+- [ ] Book Pete's flight OMA → TUS — waiting on hotel confirmation first
 - [ ] Review CI/TY interface mapping (Nicole Mendez tracker)
 - [ ] Review any open BLSBD or labor-standards flags specific to La Paloma
 - [ ] Get property profile / org chart from Fabrizio/Jannett
-- [ ] Confirm all attendees have active Unifocus credentials
+- [ ] **Confirm all attendees have active Unifocus credentials — known gap as of 8/12/26, see above, not just a checklist formality this time**
+- [ ] Send Peggy the corrected sign-up/attendance spreadsheet (WLP unhidden, Union Station hidden)
 
 ---
 
 ## Open Items
 
 - [ ] Confirm config status with Steve Carrell before Aug 17
-- [ ] Book flight and hotel for training week
+- [ ] Book flight and hotel for training week — hotel now Sun 8/16–Fri 8/21, waiting on Peggy's confirmation before flight can be booked
 - [ ] Obtain property profile
 - [ ] Review interface mapping tracker for WLP-specific issues
-- [ ] **Loop in Peggy Taylor directly** — send her the training kickoff materials (invite, PDFs, video links) since she wasn't on the original 8/9/26 distribution; confirm she's replacing Mark McSteen as the Admin-session finance attendee.
+- [x] **Loop in Peggy Taylor directly** — done; Peggy fully looped in as of the 8/12/26 planning call, actively driving logistics.
+- [ ] Resolve the Unifocus User Administration gap (see 8/12/26 call) — Devon/Akram Chahin, cross-referencing Peggy's current manager list
+- [ ] Follow up on manager laptop procurement (Charles James)
+- [ ] Send Peggy the corrected sign-up/attendance spreadsheet
+- [ ] Confirm training room booked (classroom style, folding tables, HDMI, same room all 4 days)
+- [ ] Check back on Jannett Sanora's Admin Training attendance given HR staffing gap

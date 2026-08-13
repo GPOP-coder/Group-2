@@ -138,6 +138,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - **Wave 2/3 cloning:** Devon/Nicole to identify Phase 1 donor properties for cloning. Grand Hyatt Nashville builds from scratch (not cloned).
 - **Hilton Indianapolis:** In the full portfolio but swapped out of Pete's schedule — assigned to another Unifocus consultant.
 - **Banquet KBI mapping — meeting scheduled 8/5/26, 5:00 PM ET** with Nicole Mendez. Not yet on Pete's Outlook calendar as of 8/4/26 — add manually or confirm invite. Property/scope not yet specified.
+- **⚠️ Possible portfolio-wide User Administration gap — found 8/12/26 at Westin La Paloma.** Employees existed under Employee Maintenance but had no User Administration accounts (login credentials) — only property admins had real access. Devon Peters and Nicole Mendez both said this is the first time they've seen it; the working assumption across all 15 properties has been that Akram Chahin's original master manager list already covered credential setup everywhere. If that list was stale/incomplete, other not-yet-trained properties could have the same silent gap. Devon is looping in Akram to check. **Worth adding "confirm User Administration accounts exist (not just Employee Maintenance records) for all scheduling managers" as a standing pre-training checklist item across every remaining property**, not just a WLP fix. Full detail: [Westin La Paloma — 8/12/26 planning call](westin-la-paloma/2026-08-12_impromptu-planning-call.md).
 
 ---
 
