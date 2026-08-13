@@ -15,7 +15,8 @@
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
 | Card ending -0733 | $207.77 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) |
 | Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
-| **TOTAL PWS EXPENSES** | **$239.97** | |
+| Credit Card (card TBD) | $140.16 | Plaud Note Pro AI voice recorder — eBay, open box |
+| **TOTAL PWS EXPENSES** | **$380.13** | |
 
 ---
 
@@ -47,6 +48,13 @@
 | 5/23 | The Redemption Store | Pensacola, FL | Book $2 | $2.00 | 8289 | Books |
 | **BOOKS SUBTOTAL** | | | | **$2.00** | | |
 
+### Capture Equipment
+
+| Date | Vendor | Location | Items | Amount | Card | Category |
+|---|---|---|---|---|---|---|
+| 8/13 | pennygold (eBay) | Online | Plaud Note Pro AI Voice Recorder Note Taker, PN0300, 64GB, Black — Open Box (item $124.99, shipping $6.00, tax $9.17), order #27-14998-40150 | $140.16 | Credit Card (specific card TBD — confirm with Pete) | Equipment |
+| **CAPTURE EQUIPMENT SUBTOTAL** | | | | **$140.16** | | |
+
 ### Insurance
 
 | Date | Vendor | Policy | Amount | Card | Category |
@@ -63,6 +71,7 @@
 - Computer accessories, tools, and supplies are deductible business expenses under Schedule C (PWS)
 - Business Fire policy (97-EG-4466-1, 13606 S 20th St) is a recurring PWS insurance expense — watch for future payment receipts to add here
 - Receipts captured photographically; physical copies stored for audit trail
+- **Plaud Note Pro (8/13/26):** business justification is live-session capture for consulting/training work (see CLAUDE.md Tech Stack) — directly addresses the "lost breakthrough problem" for onsite client sessions; confirm which card was actually charged (order confirmation just says "Credit Card," no last 4) before tax filing
 
 ---
 
@@ -76,4 +85,5 @@
 5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
 6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03 Goodwill GoodBytes PWS.pdf`
 7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — clean scan now on file at `finances/receipts/2026-07-12 Target Bellevue PWS split.pdf` (supersedes the earlier phone-photo `.jpeg` of the same receipt; figures verified identical, no change to logged amounts)
+8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — order confirmation PDF provided by Pete, not yet filed to `finances/receipts/`
 
