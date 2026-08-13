@@ -56,7 +56,7 @@
 **Hotel dates corrected 8/12/26:** Pete needs **Sunday 8/16 arrival through Friday 8/21 departure** (5 nights), not Mon–Fri — driven by flight timing constraints flying east. Comp room requested; Peggy to send confirmation, which blocks Pete's own flight booking.
 
 **⚠️ 8/12/26 planning call — key findings, full detail in [2026-08-12_impromptu-planning-call.md](2026-08-12_impromptu-planning-call.md):**
-- **User Administration gap found live on the call:** WLP employees exist under Employee Maintenance but are NOT set up under User Administration — only admins (Peggy) have real login access. First time Devon/Nicole have seen this across the HMAlpha rollout; possibly a portfolio-wide gap if the original Akram Chahin master list was incomplete. Devon looping in Akram; Pete committed to ensuring functional credentials by start of training week regardless.
+- **User Administration gap found live on the call — ✅ Resolved 8/13/26.** WLP employees existed under Employee Maintenance but were NOT set up under User Administration — only admins (Peggy) had real login access. **Adding users is the consultant's job, not Pete's** — Steve Carrell (config consultant) is handling it; confirmed on a call with Steve 8/13/26. Pete's role was surfacing the gap, not fixing it.
 - Jannett Sanora's Admin Training attendance is at risk — HR is short-staffed (newest hire ~1 week in).
 - Some scheduling managers lack laptops for hands-on training — Charles James coordinating loaners.
 - Sign-up/attendance spreadsheet Peggy has is still filtered for Union Station, not WLP — Pete owes her a corrected copy.
@@ -71,7 +71,7 @@
 - [ ] Review CI/TY interface mapping (Nicole Mendez tracker)
 - [ ] Review any open BLSBD or labor-standards flags specific to La Paloma
 - [ ] Get property profile / org chart from Fabrizio/Jannett
-- [ ] **Confirm all attendees have active Unifocus credentials — known gap as of 8/12/26, see above, not just a checklist formality this time**
+- [ ] Confirm Steve Carrell has completed User Administration setup for all attendees before 8/17 — his task, not Pete's (see above)
 - [ ] Send Peggy the corrected sign-up/attendance spreadsheet (WLP unhidden, Union Station hidden)
 
 ---
@@ -83,7 +83,7 @@
 - [ ] Obtain property profile
 - [ ] Review interface mapping tracker for WLP-specific issues
 - [x] **Loop in Peggy Taylor directly** — done; Peggy fully looped in as of the 8/12/26 planning call, actively driving logistics.
-- [ ] Resolve the Unifocus User Administration gap (see 8/12/26 call) — Devon/Akram Chahin, cross-referencing Peggy's current manager list
+- [x] User Administration gap (see 8/12/26 call) — resolved 8/13/26; Steve Carrell (consultant) owns adding users, confirmed on call with Pete
 - [ ] Follow up on manager laptop procurement (Charles James)
 - [ ] Send Peggy the corrected sign-up/attendance spreadsheet
 - [ ] Confirm training room booked (classroom style, folding tables, HDMI, same room all 4 days)

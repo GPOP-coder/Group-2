@@ -59,9 +59,11 @@ Needs a classroom-style room, ideally the **same room for all 4 core training da
 
 Devon/property confirmed roughly **50% occupancy all week, no major groups** — good conditions for pulling managers away for training. Weekends are busier (pool draw) but that's outside the Mon–Thu training window. Property is heading into its high season as weather cools, so this window is described as a good one before things get busier.
 
-## 9. ⚠️ Unifocus User Administration Gap — Possibly Systemic, Needs Escalation
+## 9. ⚠️ Unifocus User Administration Gap — Possibly Systemic, Needs Escalation — ✅ Resolved 8/13/26
 
 **This is the most consequential finding from the call.**
+
+**Resolution (8/13/26):** Adding users is the consultant's job, not Pete's — Steve Carrell (Unifocus config consultant) is handling User Administration setup for WLP, confirmed on a call between Pete and Steve. Pete's role in this was surfacing the gap live on the 8/12 call, not fixing it himself.
 
 - Standard HMAlpha rollout practice: Unifocus sends credential/registration emails directly to each property's scheduling managers (48-hour link expiry); property admins just remind people to check email, they don't drive the underlying account-creation process. This was believed to already be handled for every property via a master manager list Devon sent to **Akram Chahin** at the very start of the HMAlpha engagement.
 - **Pete found, live on the call, that WLP's employees exist in Unifocus under Labor/Employee Maintenance but are NOT set up under User Administration** — meaning accounts exist as employee records but have no login/access credentials configured. Only the admins (Peggy confirmed she personally has access) appear to have actual user accounts.
@@ -87,8 +89,8 @@ Unlike some earlier HMAlpha training weeks, **neither Devon nor Nicole will atte
 - [ ] Peggy: follow up with Charles James on manager-laptop procurement
 - [ ] Pete: send Peggy the corrected sign-up/attendance spreadsheet (WLP visible, Union Station hidden)
 - [ ] Peggy: send room reservation confirmation (Sun 8/16–Fri 8/21, comp) — **blocks Pete's flight booking**
-- [ ] Devon/Nicole: loop in Akram Chahin on the User Administration gap; cross-reference Peggy's current manager list
-- [ ] Pete: ensure WLP user credentials are functional by start of training week, one way or another
+- [x] Devon/Nicole: loop in Akram Chahin on the User Administration gap — resolved 8/13/26; Steve Carrell (consultant) owns adding users, confirmed on call with Pete
+- [x] Pete: ensure WLP user credentials are functional by start of training week — resolved by confirming Steve Carrell owns this, not by Pete doing it himself
 - [ ] Confirm room availability/booking for the training week (Devon/Peggy)
 - [ ] Watch for Jannett Sanora's Admin Training attendance given HR is short-staffed
 - [ ] Flag the User Administration gap as a possible portfolio-wide (15-property) risk with Ralph/Akram/Steve Carrell — not WLP-specific
