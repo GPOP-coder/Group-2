@@ -60,7 +60,23 @@ The math must stand alone. Qty × Unit Price = Line Total, exactly, with no roun
 
 ---
 
-## Step 5 — Group by billing client
+## Step 5 — Calculate utilization
+
+Ask Pete for this period's **open capacity hours** (he may just state it directly, e.g. "80 hours" — or, if he wants it pulled automatically instead, run `pws/billing/capacity_from_workdays.ps1 -Start <periodStart> -End <periodEnd>` and use its `capacityHours` output).
+
+Two percentages, both against that same capacity denominator — same formulas as `/billing-forecast` Step 5:
+- **Tracked Utilization %** = (sum of decimal hours across *every* project in the Clockify report, billable + tracking-only alike) ÷ capacity hours × 100
+- **Billable Utilization %** = (sum of decimal hours across only projects marked `Invoice? = Yes` in the rate table) ÷ capacity hours × 100
+
+**Do not cap either percentage at 100%** — a figure over 100% is a real signal (more than a full day's worth logged), not an error to clamp away.
+
+Present both when showing the invoice results, e.g.:
+`Tracked Utilization: 74.47 / 80.0 hrs = 93.1%`
+`Billable Utilization: 66.25 / 80.0 hrs = 82.8%`
+
+---
+
+## Step 6 — Group by billing client
 
 **Unifocus invoice:** Baha Mar (all), Rosewood Baha Mar, Mohonk, Rosewood Miramar, HM Alpha (all), UF Internal Remote Billable, Jumeirah
 
@@ -72,7 +88,7 @@ Generate a separate invoice block per client if billable hours exist.
 
 ---
 
-## Step 6 — Descriptions
+## Step 7 — Descriptions
 
 For each invoice line, present:
 - The Clockify descriptions logged under that project this period
@@ -88,7 +104,7 @@ Pete confirms or rewrites each description before the final block is generated.
 
 ---
 
-## Step 7 — New project protocol
+## Step 8 — New project protocol
 
 If any project in the report is not in `pws/billing/rate-table.md`:
 1. Flag it: "Unrecognized project: [name]"
@@ -98,7 +114,7 @@ If any project in the report is not in `pws/billing/rate-table.md`:
 
 ---
 
-## Step 8 — Generate Excel paste block
+## Step 9 — Generate Excel paste block
 
 Output a **single tab-separated block** Pete can paste directly into his invoice Excel template.
 
@@ -134,8 +150,8 @@ Label the block clearly so Pete knows to select from the first data row through 
 
 ---
 
-## Step 9 — Record keeping
+## Step 10 — Record keeping
 
 After Pete confirms the invoice:
-1. Offer to save a standalone file at `pws/billing/invoices/[invoice-number].md`
+1. Offer to save a standalone file at `pws/billing/invoices/[invoice-number].md`, including a **Utilization** section (Tracked % and Billable %, with the hours and capacity denominator) from Step 5
 2. Offer to append the summary row to the invoice history table in `pws/billing/kb.md`

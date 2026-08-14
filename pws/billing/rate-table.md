@@ -27,7 +27,7 @@ Individual rows may override the logic. The table is the truth.
 | Baha Mar Remote | $500 | Yes | Standard remote; no casino premium until casino dept work begins |
 | Rosewood Baha Mar Onsite | $600 | Yes | Standard onsite — no casino at Rosewood |
 | Rosewood Baha Mar Remote | $500 | Yes | Corrected 2026-07-31 (was mistakenly $600/casino premium). Standard remote — no casino at Rosewood. The Baha Mar campus does have a casino, but Unifocus hasn't sold it software yet; once sold it will be its own property in the Baha Mar database (see Baha Mar Casino Onsite/Remote rows above), not part of Rosewood. |
-| Rosewood Butler/Guest Relations Restructuring (Aug 2026) | $1,200/day | Yes | One-off negotiated rate, agreed with Ahmed Chadid 7/24/26 — matches the rate previously charged to Grand Hyatt Baha Mar (direct client) for comparable work. Billed through UF, not direct to Rosewood. See `pws/clients/baha-mar/kb.md` item 20. |
+| Rosewood Butler/Guest Relations Restructuring (Aug 2026) | $1,200/day | Yes | One-off negotiated rate, agreed with Ahmed Chadid 7/24/26 — matches the rate previously charged to Grand Hyatt Baha Mar (direct client) for comparable work. Billed through UF, not direct to Rosewood. See `pws/clients/baha-mar/kb.md` item 20. **Scope clarified 2026-08-14 (Pete):** this rate is a benchmark ceiling meant to protect against being undercut if he ever contracts directly with a Baha Mar property — it does NOT replace the standard Rosewood Baha Mar Remote rate for day-to-day remote KBI/butler-standard config work (e.g. Butler Labor Standards hours logged under "Rosewood Baha Mar Remote"). All Rosewood Baha Mar work billed through Unifocus uses standard remote/onsite rates below; the $1,200/day rate applies only if/when a dedicated onsite "day of assistance" engagement is scoped and billed separately. |
 | Mohonk Onsite | $600 | Yes | |
 | Mohonk Remote | $500 | Yes | |
 | Rosewood Miramar Onsite | $600 | Yes | |
@@ -38,6 +38,8 @@ Individual rows may override the logic. The table is the truth.
 | HM Alpha NOLA Intercontinental Remote | $500 | Yes | Pending Clockify project split |
 | HM Alpha Corporate Onsite | $600 | Yes | Added 2026-07-15, confirmed by Pete |
 | HM Alpha Corporate Remote | $500 | Yes | |
+| HM Alpha Westin La Paloma Resort & Spa Onsite | $600 | Yes | Added 2026-08-14 — standard Unifocus onsite rate, ahead of expected onsite week |
+| HM Alpha Westin La Paloma Resort & Spa Remote | $500 | Yes | Added 2026-08-14, confirmed by Pete |
 | UF Internal Remote Billable | $500 | Yes | |
 | Jumeirah International LLC | $500 | Yes | |
 
