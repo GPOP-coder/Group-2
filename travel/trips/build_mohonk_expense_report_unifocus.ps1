@@ -27,7 +27,7 @@ $knownRows = @(
     @("8/2/2026", 272.10, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - Flight Credit [AA-2026-001]", "Air Fare", "Mohonk Mountain House", ""),
     @("8/2/2026", 39.70, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - Flight Credit [AA-2026-002]", "Air Fare", "Mohonk Mountain House", ""),
     @("8/2/2026", 146.40, 1.00, "PERSONAL", "AA OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - cash balance after flight credits, Visa -2674", "Air Fare", "Mohonk Mountain House", ""),
-    @("8/2/2026", 468.21, 1.00, "PERSONAL", "Budget rental car, VW Atlas Cross Sport AWD, EWR pickup 8/2 2:45PM - return 8/7 5:00PM, agreement U266355924 (est. - confirm final charge/card at drop-off receipt)", "Car Rental", "Mohonk Mountain House", ""),
+    @("8/2/2026", 468.21, 1.00, "PERSONAL", "Budget rental car, VW Atlas Cross Sport AWD, agreement 266355924, EWR pickup 8/2 2:45PM - actual return 8/7 3:37PM, 218 mi driven (odometer 3890-4108), Visa -2674, Net Charges confirmed USD 468.21, Total Due 0.00 - final receipt matches estimate exactly, no variance", "Car Rental", "Mohonk Mountain House", ""),
     @("8/7/2026", 12.63, 1.00, "PERSONAL", "Taco Bell #040713, 238 Main St, New Paltz NY (senior discount applied), Visa -2674", "Lunch", "Mohonk Mountain House", ""),
     @("8/7/2026", 29.28, 1.00, "PERSONAL", "QuickChek #146, Whippany NJ - gas, rental car, 7.396 gal @ $3.959/gal, Visa -2674", "Gas/Tolls", "Mohonk Mountain House", ""),
     @("8/7/2026", 447.20, 1.00, "PERSONAL", "AA EWR-ORD-OMA (AA JMTNHX), ticket 0012362823941 - cancelled 8/7 for weather, rebooked by AA to 8/9 at no additional charge, Visa -2674", "Air Fare", "Mohonk Mountain House", ""),
@@ -40,7 +40,8 @@ $knownRows = @(
     @("8/2/2026", 3.74, 1.00, "PERSONAL", "E-ZPass NY toll near New Paltz, NY (outbound, EWR to Mohonk) - Temporary Travel Account ending xxxxxx8500, paid 8/8/26, confirmed by phone with E-ZPass NY as the only toll registered on the rental (no return-leg toll), Visa -2674", "Gas/Tolls", "Mohonk Mountain House", ""),
     @("8/9/2026", 103.26, 1.00, "PERSONAL", "Hotel Seville Nomad - mandatory fees due at property (Destination Fee $45/night x2 + NYC taxes), Hyatt folio 2529375976, Visa -2674", "Hotel", "Mohonk Mountain House", ""),
     @("8/9/2026", 113.65, 1.00, "PERSONAL", "Uber, Hotel Seville Nomad to EWR Terminal A (weather-delay return), UberX, driver Muhammad, 19.45 mi/31 min, Visa -2674", "Taxi/Train/Bus", "Mohonk Mountain House", ""),
-    @("8/9/2026", 16.00, 1.00, "PERSONAL", "McDonald's #26777 (ORD Terminal 3) - breakfast, layover on return home, Visa -2674", "Bkfst", "Mohonk Mountain House", "")
+    @("8/9/2026", 16.00, 1.00, "PERSONAL", "McDonald's #26777 (ORD Terminal 3) - breakfast, layover on return home, Visa -2674", "Bkfst", "Mohonk Mountain House", ""),
+    @("8/2/2026", 34.50, 1.00, "PERSONAL", "Omaha Eppley Airfield (OMA) short-term parking, entry 8/2 05:41 - exit 8/3 07:46, receipt 13366 - paid by Brian Brazeal (Capital One Visa -9323) who borrowed Pete's car from OMA for the week; Pete to reimburse Brian, claimed on ER", "Parking", "Mohonk Mountain House", "")
 )
 $blankRowCount = 10
 
@@ -200,6 +201,7 @@ $cats = @(
     @("Lunch",              24.88, 2),
     @("Bkfst",              23.60, 2),
     @("Gas/Tolls",          33.02, 2),
+    @("Parking",            34.50, 1),
     @("Other",               4.96, 1)
 )
 $catStart = $row
@@ -242,11 +244,11 @@ $ptStart = $row
 
 # Payment type, description, amount (traced from mohonk-receipt-log.md card column)
 $paymentTypes = @(
-    @("-2674",     "Visa SW Rapid Rewards+ (flight cash balance, return flight, Taco Bell, gas, hotel + fees, both Ubers, Scarpetta, Chick Chick, E-ZPass, ORD breakfast)", 1595.58),
+    @("-2674",     "Visa SW Rapid Rewards+ (flight cash balance, return flight, Taco Bell, gas, hotel + fees, both Ubers, Scarpetta, Chick Chick, E-ZPass, ORD breakfast, Budget rental car)", 2063.79),
     @("SW Credit", "Southwest Flight Credit (outbound)",                                                                                                                      311.80),
     @("-8289",     "Visa (McDonald's Boonton NJ + McDonald's NYC breakfast)",                                                                                                   19.85),
     @("-7552",     "Visa WF Active Cash (Tallow - Shaver Hall dinner, full billable value; net card charge was $4.77 after credit)",                                            33.62),
-    @("TBD",       "Budget rental car - confirm card used at drop-off",                                                                                                       468.21)
+    @("-9323",     "Capital One Visa (Brian Brazeal) - OMA short-term parking, Pete to reimburse Brian",                                                                        34.50)
 )
 foreach ($pt in $paymentTypes) {
     $bg = if (($row % 2) -eq 0) { $lightGray } else { $white }
