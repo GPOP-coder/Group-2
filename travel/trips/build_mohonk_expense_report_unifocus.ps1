@@ -23,25 +23,30 @@ $darkRed   = [long]0xC00000
 # Date, Amount, ExchRate, Paid by, Details, Category, Billable/UF, Charge Code
 # =====================================================================
 $knownRows = @(
-    @("8/2/2026", 12.25, 1.00, "PERSONAL", "McDonald's mobile order, 568 Myrtle Ave, Boonton NJ - Bacon Quarter Pounder w/Cheese Large Meal (fries, unsweetened iced tea), Visa -8289", "Lunch", "Mohonk Mountain House", ""),
-    @("8/2/2026", 272.10, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - Flight Credit [AA-2026-001]", "Air Fare", "Mohonk Mountain House", ""),
-    @("8/2/2026", 39.70, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - Flight Credit [AA-2026-002]", "Air Fare", "Mohonk Mountain House", ""),
-    @("8/2/2026", 146.40, 1.00, "PERSONAL", "AA OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - cash balance after flight credits, Visa -2674", "Air Fare", "Mohonk Mountain House", ""),
-    @("8/2/2026", 468.21, 1.00, "PERSONAL", "Budget rental car, VW Atlas Cross Sport AWD, agreement 266355924, EWR pickup 8/2 2:45PM - actual return 8/7 3:37PM, 218 mi driven (odometer 3890-4108), Visa -2674, Net Charges confirmed USD 468.21, Total Due 0.00 - final receipt matches estimate exactly, no variance", "Car Rental", "Mohonk Mountain House", ""),
-    @("8/7/2026", 12.63, 1.00, "PERSONAL", "Taco Bell #040713, 238 Main St, New Paltz NY (senior discount applied), Visa -2674", "Lunch", "Mohonk Mountain House", ""),
-    @("8/7/2026", 29.28, 1.00, "PERSONAL", "QuickChek #146, Whippany NJ - gas, rental car, 7.396 gal @ $3.959/gal, Visa -2674", "Gas/Tolls", "Mohonk Mountain House", ""),
-    @("8/7/2026", 447.20, 1.00, "PERSONAL", "AA EWR-ORD-OMA (AA JMTNHX), ticket 0012362823941 - cancelled 8/7 for weather, rebooked by AA to 8/9 at no additional charge, Visa -2674", "Air Fare", "Mohonk Mountain House", ""),
-    @("8/7/2026", 512.00, 1.00, "PERSONAL", "Hotel Seville Nomad (weather-delay hotel, EWR cancellation), 2 nights, Hyatt folio 2529375976, Hotels.com itinerary 73517117133488, Visa -2674", "Hotel", "Mohonk Mountain House", ""),
-    @("8/7/2026", 129.14, 1.00, "PERSONAL", "Uber, EWR Terminal A to Hotel Seville Nomad (weather-delay), UberXL, driver Oleg, 17.82 mi/54 min, Visa -2674", "Taxi/Train/Bus", "Mohonk Mountain House", ""),
-    @("8/7/2026", 77.32, 1.00, "PERSONAL", "Scarpetta/LDV Hospitality (88 Madison Ave, NYC) - dinner during weather delay, Restaurant Week prix fixe, Visa -2674", "Dinner", "Mohonk Mountain House", ""),
-    @("8/8/2026", 7.60, 1.00, "PERSONAL", "McDonald's mobile order (401 Park Ave S, NYC) - breakfast during weather delay, Egg McMuffin + large unsweetened iced tea, Visa -8289", "Bkfst", "Mohonk Mountain House", ""),
-    @("8/8/2026", 33.62, 1.00, "PERSONAL", "Tallow - Shaver Hall (424 5th Ave, NYC) - dinner take-out during weather delay, full billable meal value ($28.85 food + $4.77 tip); -$28.85 credit applied, net card charge $4.77, Visa -7552 (WF Active Cash)", "Dinner", "Mohonk Mountain House", ""),
-    @("8/8/2026", 4.96, 1.00, "PERSONAL", "Chick Chick at Shaver Hall (424 5th Ave, NYC) - drink after Tallow dinner, Visa -2674", "Other", "Mohonk Mountain House", ""),
-    @("8/2/2026", 3.74, 1.00, "PERSONAL", "E-ZPass NY toll near New Paltz, NY (outbound, EWR to Mohonk) - Temporary Travel Account ending xxxxxx8500, paid 8/8/26, confirmed by phone with E-ZPass NY as the only toll registered on the rental (no return-leg toll), Visa -2674", "Gas/Tolls", "Mohonk Mountain House", ""),
-    @("8/9/2026", 103.26, 1.00, "PERSONAL", "Hotel Seville Nomad - mandatory fees due at property (Destination Fee $45/night x2 + NYC taxes), Hyatt folio 2529375976, Visa -2674", "Hotel", "Mohonk Mountain House", ""),
-    @("8/9/2026", 113.65, 1.00, "PERSONAL", "Uber, Hotel Seville Nomad to EWR Terminal A (weather-delay return), UberX, driver Muhammad, 19.45 mi/31 min, Visa -2674", "Taxi/Train/Bus", "Mohonk Mountain House", ""),
-    @("8/9/2026", 16.00, 1.00, "PERSONAL", "McDonald's #26777 (ORD Terminal 3) - breakfast, layover on return home, Visa -2674", "Bkfst", "Mohonk Mountain House", ""),
-    @("8/2/2026", 34.50, 1.00, "PERSONAL", "Omaha Eppley Airfield (OMA) short-term parking, entry 8/2 05:41 - exit 8/3 07:46, receipt 13366 - paid by Brian Brazeal (Capital One Visa -9323) who borrowed Pete's car from OMA for the week; Pete to reimburse Brian, claimed on ER", "Parking", "Mohonk Mountain House", "")
+    # --- 8/2/2026: departure day (round-trip flight dated on first/outbound leg per Pete's rule) ---
+    @("8/2/2026", 272.10, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 (outbound leg of round trip)", "Air Fare", "Mohonk Mountain House", "", "AA Flight Credit [AA-2026-001] (source: Visa -2674, per flight-credits.md)"),
+    @("8/2/2026", 39.70, 1.00, "PERSONAL", "SW OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 (outbound leg of round trip)", "Air Fare", "Mohonk Mountain House", "", "AA Flight Credit [AA-2026-002] (source: Visa -2674, per flight-credits.md)"),
+    @("8/2/2026", 146.40, 1.00, "PERSONAL", "AA OMA-ORD-EWR (AA GFLPYC), ticket 0012349569454 - cash balance after flight credits (outbound leg of round trip)", "Air Fare", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/2/2026", 447.20, 1.00, "PERSONAL", "AA EWR-ORD-OMA (AA JMTNHX), ticket 0012362823941 - return leg, dated with outbound per round-trip convention; cancelled 8/7 for weather, rebooked by AA to 8/9 at no additional charge", "Air Fare", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/2/2026", 468.21, 1.00, "PERSONAL", "Budget rental car, VW Atlas Cross Sport AWD, agreement 266355924, EWR pickup 8/2 2:45PM - actual return 8/7 3:37PM, 218 mi driven (odometer 3890-4108), Net Charges confirmed USD 468.21, Total Due 0.00 - final receipt matches estimate exactly, no variance", "Car Rental", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/2/2026", 12.25, 1.00, "PERSONAL", "McDonald's mobile order, 568 Myrtle Ave, Boonton NJ (3:30 PM) - Bacon Quarter Pounder w/Cheese Large Meal (fries, unsweetened iced tea)", "Lunch", "Mohonk Mountain House", "", "Visa -8289"),
+    @("8/2/2026", 3.74, 1.00, "PERSONAL", "E-ZPass NY toll near New Paltz, NY (outbound, EWR to Mohonk, later in the drive) - Temporary Travel Account ending xxxxxx8500, paid 8/8/26, confirmed by phone with E-ZPass NY as the only toll registered on the rental (no return-leg toll)", "Gas/Tolls", "Mohonk Mountain House", "", "Visa -2674"),
+    # --- 8/3/2026: parking charge posts (Brian exited lot with Pete's car) ---
+    @("8/3/2026", 34.50, 1.00, "PERSONAL", "Omaha Eppley Airfield (OMA) short-term parking, entry 8/2 05:41 - exit 8/3 07:46, receipt 13366 - paid by Brian Brazeal who borrowed Pete's car from OMA for the week; Pete to reimburse Brian, claimed on ER", "Parking", "Mohonk Mountain House", "", "Capital One Visa -9323 (Brian Brazeal)"),
+    # --- 8/7/2026: drive down + weather cancellation ---
+    @("8/7/2026", 12.63, 1.00, "PERSONAL", "Taco Bell #040713, 238 Main St, New Paltz NY (senior discount applied) - lunch, on way down from Mohonk", "Lunch", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/7/2026", 29.28, 1.00, "PERSONAL", "QuickChek #146, Whippany NJ - gas, rental car, before drop-off, 7.396 gal @ $3.959/gal", "Gas/Tolls", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/7/2026", 512.00, 1.00, "PERSONAL", "Hotel Seville Nomad (weather-delay hotel, booked after EWR cancellation), 2 nights, Hyatt folio 2529375976, Hotels.com itinerary 73517117133488", "Hotel", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/7/2026", 129.14, 1.00, "PERSONAL", "Uber, EWR Terminal A (8:09 PM) to Hotel Seville Nomad (9:03 PM), UberXL, driver Oleg, 17.82 mi/54 min", "Taxi/Train/Bus", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/7/2026", 77.32, 1.00, "PERSONAL", "Scarpetta/LDV Hospitality (88 Madison Ave, NYC) - dinner after arriving hotel, Restaurant Week prix fixe", "Dinner", "Mohonk Mountain House", "", "Visa -2674"),
+    # --- 8/8/2026: full weather-delay day in NYC ---
+    @("8/8/2026", 7.60, 1.00, "PERSONAL", "McDonald's mobile order (401 Park Ave S, NYC) - breakfast, Egg McMuffin + large unsweetened iced tea", "Bkfst", "Mohonk Mountain House", "", "Visa -8289"),
+    @("8/8/2026", 33.62, 1.00, "PERSONAL", "Tallow - Shaver Hall (424 5th Ave, NYC) - dinner take-out, full billable meal value ($28.85 food + $4.77 tip); -$28.85 credit applied, net card charge $4.77", "Dinner", "Mohonk Mountain House", "", "Visa -7552 (WF Active Cash)"),
+    @("8/8/2026", 4.96, 1.00, "PERSONAL", "Chick Chick at Shaver Hall (424 5th Ave, NYC) - drink after Tallow dinner", "Other", "Mohonk Mountain House", "", "Visa -2674"),
+    # --- 8/9/2026: actual return day ---
+    @("8/9/2026", 113.65, 1.00, "PERSONAL", "Uber, Hotel Seville Nomad (3:01 AM) to EWR Terminal A (3:33 AM), UberX, driver Muhammad, 19.45 mi/31 min", "Taxi/Train/Bus", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/9/2026", 103.26, 1.00, "PERSONAL", "Hotel Seville Nomad - mandatory fees, folio checkout ~4:17 AM (after physical departure via Uber) (Destination Fee $45/night x2 + NYC taxes), Hyatt folio 2529375976", "Hotel", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/9/2026", 16.00, 1.00, "PERSONAL", "McDonald's #26777 (ORD Terminal 3, 6:56 AM) - breakfast, layover on return home", "Bkfst", "Mohonk Mountain House", "", "Visa -2674")
 )
 $blankRowCount = 10
 
@@ -57,12 +62,14 @@ $s1.Columns.Item(3).ColumnWidth = 10   # Amount
 $s1.Columns.Item(4).ColumnWidth = 9    # Exchange Rate
 $s1.Columns.Item(5).ColumnWidth = 11   # Amt in USD
 $s1.Columns.Item(6).ColumnWidth = 10   # Paid by
-$s1.Columns.Item(7).ColumnWidth = 48   # Details
+$s1.Columns.Item(7).ColumnWidth = 44   # Details
 $s1.Columns.Item(8).ColumnWidth = 12   # Category
 $s1.Columns.Item(9).ColumnWidth = 22   # Billable/UF
 $s1.Columns.Item(10).ColumnWidth = 10  # Charge Code
+$s1.Columns.Item(11).ColumnWidth = 3   # (spacer - blank, matches official form gap)
+$s1.Columns.Item(12).ColumnWidth = 20  # Charge Source
 
-$r = $s1.Range("A1:J1"); $r.Merge()
+$r = $s1.Range("A1:L1"); $r.Merge()
 $c = $s1.Cells.Item(1,1)
 $c.Value2 = "UNIFOCUS EXPENSE REPORT  |  Mohonk Mountain House"
 $c.Font.Bold = $true; $c.Font.Size = 13; $c.Font.Color = $white
@@ -76,13 +83,14 @@ $s1.Cells.Item(2,5).Value2 = "8/9/2026"; $s1.Cells.Item(2,5).Interior.Color = $y
 $s1.Cells.Item(2,7).Value2 = "NAME:"; $s1.Cells.Item(2,7).Font.Bold = $true
 $s1.Cells.Item(2,8).Value2 = "Pete Castellano"; $s1.Cells.Item(2,8).Interior.Color = $lightBlue
 
-$headers = @("Date","Day","Amount","Exchange Rate","Amt in USD","Paid by","Details","Category","Billable/UF","Charge Code")
-for ($i = 0; $i -lt 10; $i++) {
+$headers = @("Date","Day","Amount","Exchange Rate","Amt in USD","Paid by","Details","Category","Billable/UF","Charge Code","","Charge Source")
+for ($i = 0; $i -lt 12; $i++) {
     $c = $s1.Cells.Item(4, $i+1)
     $c.Value2 = $headers[$i]; $c.Font.Bold = $true
     $c.Font.Color = $white; $c.Interior.Color = $midBlue; $c.HorizontalAlignment = -4108
     $c.WrapText = $true
 }
+$s1.Cells.Item(4,11).Interior.Color = $white
 $s1.Rows.Item(4).RowHeight = 28
 
 $row = 5
@@ -100,6 +108,8 @@ foreach ($kr in $knownRows) {
     $c8 = $s1.Cells.Item($row,8); $c8.Value2 = $kr[5]; $c8.HorizontalAlignment = -4108; $c8.Interior.Color = $bg
     $c9 = $s1.Cells.Item($row,9); $c9.Value2 = $kr[6]; $c9.Interior.Color = $bg
     $c10 = $s1.Cells.Item($row,10); $c10.NumberFormat = "@"; $c10.Value2 = $kr[7]; $c10.HorizontalAlignment = -4108; $c10.Interior.Color = $bg
+    $c11 = $s1.Cells.Item($row,11); $c11.Interior.Color = $white
+    $c12 = $s1.Cells.Item($row,12); $c12.Value2 = $kr[8]; $c12.Interior.Color = $bg
     $row++
 }
 
@@ -109,7 +119,8 @@ for ($i = 0; $i -lt $blankRowCount; $i++) {
     $c4 = $s1.Cells.Item($row,4); $c4.Value2 = 1.00; $c4.NumberFormat = "0.00"; $c4.HorizontalAlignment = -4108; $c4.Interior.Color = $bg
     $c5 = $s1.Cells.Item($row,5); $c5.Formula = "=C$row*D$row"; $c5.NumberFormat = '$#,##0.00'; $c5.HorizontalAlignment = -4152; $c5.Interior.Color = $bg
     $c2 = $s1.Cells.Item($row,2); $c2.Formula = "=IF(A$row=`"`",`"`",TEXT(A$row,`"ddd`"))"; $c2.Interior.Color = $bg; $c2.HorizontalAlignment = -4108
-    foreach ($col in @(1,3,6,7,8,9,10)) { $s1.Cells.Item($row,$col).Interior.Color = $bg }
+    foreach ($col in @(1,3,6,7,8,9,10,12)) { $s1.Cells.Item($row,$col).Interior.Color = $bg }
+    $s1.Cells.Item($row,11).Interior.Color = $white
     $s1.Cells.Item($row,1).NumberFormat = "m/d/yyyy"
     $s1.Cells.Item($row,3).NumberFormat = '$#,##0.00'
     $s1.Cells.Item($row,10).NumberFormat = "@"
@@ -132,9 +143,9 @@ $tc = $s1.Cells.Item($totalRow,5)
 $tc.Formula = "=SUM(E5:E" + ($totalRow-1) + ")"
 $tc.NumberFormat = '$#,##0.00'; $tc.Font.Bold = $true
 $tc.Interior.Color = $darkBlue; $tc.Font.Color = $white; $tc.HorizontalAlignment = -4152
-foreach ($col in @(1,2,3,6,7,8,9,10)) { $s1.Cells.Item($totalRow,$col).Interior.Color = $darkBlue }
+foreach ($col in @(1,2,3,6,7,8,9,10,11,12)) { $s1.Cells.Item($totalRow,$col).Interior.Color = $darkBlue }
 
-$rng = $s1.Range($s1.Cells.Item(4,1), $s1.Cells.Item($totalRow,10))
+$rng = $s1.Range($s1.Cells.Item(4,1), $s1.Cells.Item($totalRow,12))
 $rng.Borders.Item(7).LineStyle = 1; $rng.Borders.Item(8).LineStyle = 1
 $rng.Borders.Item(9).LineStyle = 1; $rng.Borders.Item(10).LineStyle = 1
 $rng.Borders.Item(11).LineStyle = 1; $rng.Borders.Item(12).LineStyle = 1
@@ -167,7 +178,9 @@ $infoItems = @(
     @("Dates", "Aug 2 - Aug 9, 2026 (7 nights - trip extended 2 nights due to AA weather cancellation at EWR on 8/7)"),
     @("Property", "Mohonk Mountain House"),
     @("Compiled", "August 13, 2026"),
-    @("Note", "Hotel at Mohonk itself comped by property (Room 165, confirmation 7833637490-1) - not included in reimbursement total. Return flight cancelled 8/7 for weather; AA rebooked to 8/9 at no additional fare. All weather-delay expenses (hotel, Uber, meals 8/7-8/9) are billable on this ER per trip receipt log.")
+    @("Note", "Hotel at Mohonk itself comped by property (Room 165, confirmation 7833637490-1) - not included in reimbursement total. Return flight cancelled 8/7 for weather; AA rebooked to 8/9 at no additional fare. All weather-delay expenses (hotel, Uber, meals 8/7-8/9) are billable on this ER per trip receipt log."),
+    @("Weather Delay Justification", "Original return AA JMTNHX (EWR-ORD-OMA) cancelled by American Airlines 8/7/26 due to weather - no flight operations resumed until 8/9. AA rebooked at no additional fare: EWR dep 5:29 AM (AA2917) - ORD arr 7:15 AM - ORD dep 8:03 AM (AA6389, SkyWest/American Eagle) - OMA arr 9:49 AM. AA rebooking confirmation to be attached as supporting documentation."),
+    @("Notification", "Both Unifocus and Mohonk Mountain House were notified of the weather delay by Pete. Both acknowledged and are not concerned about the resulting added expense.")
 )
 $row = 2
 foreach ($i in $infoItems) {
