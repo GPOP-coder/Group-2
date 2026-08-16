@@ -11,7 +11,7 @@
 
 **Scope note, per Pete:** Plaud's AI summary originally included a brief "Spa Staffing and Systems" section, since this 1h34m15s recording runs right up to the edge of the Dining/Bev meeting's scheduled end and briefly overlaps the start of the separate Spa meeting that followed immediately after. Removed here to keep this file strictly Dining/Bev — Spa has its own dedicated, much more thorough file (`2026-08-04_spa-standards-session.md`) and nothing in the removed section added anything not already there.
 
-**One discrepancy worth flagging, not resolved:** Pete's notes state the trainer-hours-in-server-standard question was **resolved live** ("agreed this is correct as-is since trainers are actually working, not to be backed out"). The AI summary instead frames it as an unresolved **"debate on backing out ~40 training hours from actuals."** Pete's contemporaneous notes are the more reliable source per standing practice (live participant vs. AI summarization), but flagging the mismatch in case it's worth a direct re-check once the verbatim transcript arrives.
+**Discrepancy resolved (8/16/26, per Pete): notes prevail.** Trainer hours stay counted in the server standard, not backed out — trainers are doing real, productive work. **Refinement added: knowing and quantifying training hours separately (without changing the standard) may still be useful as an explainable-variance input** at the labor meeting — the same "quantify the story" pattern already captured from the 8/3 PM session's bleach-training example (2 hrs/person × 100 people = 200 documented hours, rather than a vague "we had training" excuse). Worth tracking training hours as a narrative input going forward, distinct from any standard change.
 
 ---
 
