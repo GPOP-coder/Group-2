@@ -24,6 +24,7 @@
 
 ## 2. Spa Performance & the Total-Treatments KBI Decision
 - **Spa generates ~$6M/year, vs. the resort-spa industry average of ~$2.2M** (per a recent spa industry report Pete referenced) — explicitly called out as a top-performing revenue center worth eventually getting more granular data on.
+- **Up to ~40% of a given day's Spa business can be day guests who aren't staying overnight** (confirmed via the verbatim transcript, `2026-08-04_spa-scheduling-strategy-plaud.md`) — direct supporting reason Total Treatments (not an overnight-guest-only metric) is the right workload driver.
 - **Three planned volume KBIs — day/transient guest treatments, overnight guest treatments, employee treatments — were not functioning in Unifocus as of this meeting.** (See the header note above re: Pete's post-session fix.)
 - **Decision: use Total Treatments (the sum of all three) as the interim/primary labor driver.** Rationale: unlike meal periods (breakfast/lunch/dinner), which genuinely take different labor, a treatment's labor doesn't meaningfully differ by *who* is receiving it (day guest vs. overnight guest vs. employee) — only by treatment type/duration, which is a separate, deferred refinement (see below).
 - **Deliberately not chasing more granularity right now:** treatment-type/duration-level detail would require deeper DataVision integration; the group's stated limitation is "what's available to pull from DataVision," not appetite for building dozens of new KBIs. Revisit once DataVision availability is clarified.
@@ -61,7 +62,7 @@
 
 ## 9. Spa Reception (3rd Floor) — Core Standard
 - **4 shifts confirmed genuinely mandatory every day, not to be touched:** opener (6:30), a 7:30 shift, an 11:30 shift, and a 2:30–7:30 closer. This is a hardening of the meeting's earlier looser "opener/closer plus flexible mid" framing — by the end of the discussion, Barbara was explicit that **all four** are mandatory, not just the opener/closer pair.
-- **⚠️ Desk-hours figure needs verification:** Pete cited "185.5 hours" for weekly desk-open time off a report, which doesn't cleanly reconcile with the separately-quoted "7 AM–7 PM, 12 hours/day" operating window (~91 hrs/week of guest-facing time) or the "98 hours/week when busy" staffing-guide figure Barbara quoted from her own external staffing guide. These may refer to different scopes (total labor hours vs. desk-open hours vs. a busy-week target) — **verify all three numbers directly in Unifocus/the staffing guide rather than treating any one as authoritative.**
+- **✅ Desk-hours figure resolved (confirmed via the verbatim transcript, `2026-08-04_spa-scheduling-strategy-plaud.md`):** "185.5 hours" is the **weekly labor-standard total for the Spa Reception job** — readable directly off the Weekly Labor Summary — not a separate "desk-open-hours" calculation. It's a distinct scope from the ~91-hr desk-open guest-facing window (7 AM–7 PM + staff arriving/leaving 30 min early/late) and from Barbara's own ~98-hr "busy week" target from her external staffing guide. All three numbers are legitimate, just answering different questions — no reconciliation actually needed.
 - **Extra Wednesday shift found in the existing standard — determined outdated.** Likely a leftover from 2+ years ago when the spa ran two separate reception desks (the second one on a "Rover" level covering pool access, since eliminated) — no longer real. **Fix applied live:** converted that stray Wednesday row into a **3-person day on Friday/Saturday/Sunday** instead — the actual busy days — using guest count/occupancy as a rough proxy for now, since Total Treatments doesn't cleanly map to what drives this particular role (closer to a hotel-foot-traffic function than a treatment-volume function).
 - **Baseline confirmed:** ~2 people on regular weekdays, ~3 on weekends. Friday and Monday called out as naturally higher due to day-visitor retail traffic (spa/fitness doubles as a retail store), independent of overnight-guest volume.
 
@@ -116,7 +117,6 @@
 - Spa Attendant still structured as a Department instead of a Job — recommended fix, not executed.
 - Overnight Spa Cleaner's shift *timing* still doesn't reflect the real ~7:30–8 PM start (total hours are correct, timing isn't).
 - Total-Treatments thresholds for flexing Spa Reception 1→4 shifts — not defined, deferred to the Olivia work session.
-- Spa Reception weekly desk-hours figures (185.5 / ~91 / 98) don't cleanly reconcile — verify in Unifocus.
 - Interim standard reduction (~503 → ~463 hrs) — not finalized, needs Olivia's sign-off.
 - Seasonality (cold-weather increase, e.g. ~500 hrs in October) — acknowledged as likely necessary, not designed.
 - Provider (treatment professional) labor standard — recommended for budget-comparison purposes, not built.
