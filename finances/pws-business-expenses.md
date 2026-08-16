@@ -76,13 +76,15 @@
 
 ## Receipt Image References
 
+**Storage note (2026-08-15):** Receipt images/PDFs no longer live in this repo — the real archive is `OneDrive\Documents\Personal Finance\Receipts\<year>\`, continuous and decoupled from any specific report build. See `finances/receipt-workflow.md`. Items 6–8 below were migrated out of the repo's `finances/receipts/` (now deprecated) on 2026-08-15; items 1–5 were never digitized into the repo and still need archiving.
+
 **Pending assembly into PWS tax support document:**
-1. The Redemption Store (5/28, Computer Accessories) — physical receipt
-2. The Redemption Store (5/23, Hand Tool + Book) — physical receipt
-3. Teen Challenge SuperThrift (5/21, Electronics bundle) — physical receipt
-4. Dollar General #9271 (5/19, Utility Knife + Packing Tape) — physical receipt
-5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox
-6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `finances/receipts/2026-07-03 Goodwill GoodBytes PWS.pdf`
-7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — clean scan now on file at `finances/receipts/2026-07-12 Target Bellevue PWS split.pdf` (supersedes the earlier phone-photo `.jpeg` of the same receipt; figures verified identical, no change to logged amounts)
-8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — `finances/receipts/2026-08-13 Plaud Note Pro eBay Order PWS.pdf`
+1. The Redemption Store (5/28, Computer Accessories) — physical receipt, not yet archived
+2. The Redemption Store (5/23, Hand Tool + Book) — physical receipt, not yet archived
+3. Teen Challenge SuperThrift (5/21, Electronics bundle) — physical receipt, not yet archived
+4. Dollar General #9271 (5/19, Utility Knife + Packing Tape) — physical receipt, not yet archived
+5. State Farm payment receipt email (6/26, Business Fire policy) — filed in inbox, not yet archived
+6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `Personal Finance\Receipts\2026\2026-07-03 Goodwill PWS.pdf`
+7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — both the clean scan (`2026-07-12 Target PWS.pdf`) and the original phone photo (`2026-07-12 Target PWS.jpeg`) are archived side by side in `Personal Finance\Receipts\2026\` — photo+scan pair, both kept per the "photo, scan, or both acceptable" rule; figures verified identical, no change to logged amounts
+8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — two complementary documents archived in `Personal Finance\Receipts\2026\`: `2026-08-13 Plaud Note Pro eBay Order Confirmation.pdf` (order/payment summary) and `2026-08-13 Plaud Note Pro eBay.pdf` (order details page, confirms card charged: -0733) — not duplicates, kept both
 

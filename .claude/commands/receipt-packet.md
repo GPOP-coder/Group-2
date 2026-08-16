@@ -33,11 +33,11 @@ Before assembling, the ER's own line items must already be in pure date order (n
 
 ## Step 2 — Gather source materials
 
-For every ER line item, Pete supplies either:
-- A **photo/scan of the physical receipt**, or
-- The **original digital document** (forwarded email, downloaded PDF/receipt, screenshot)
+Source receipts are **not supplied per-trip** — they're continuously archived in `OneDrive\Documents\Personal Finance\Receipts\<year>\` as they arrive (see `finances/receipt-workflow.md`), independent of any specific trip's ER timeline.
 
-**Flag any ER line item with no source document yet — don't proceed with gaps.** Ask Pete rather than building around a hole.
+For each ER line item: search that year folder (and `Inbox\` for anything not yet filed) for the matching date + vendor, using **fuzzy matching** — filenames may not exactly match ER wording (e.g., "McDonalds" vs. "McDonald's"). Both photo and digital-PDF receipts live in the same archive.
+
+**Flag any ER line item with no matching source found — don't proceed with gaps.** Ask Pete rather than building around a hole or guessing at a fuzzy match that might be wrong.
 
 ---
 
@@ -47,6 +47,8 @@ For every ER line item, Pete supplies either:
 - **Digital/full-page document** (email, downloaded PDF, screenshot, hotel folio, rideshare receipt, flight confirmation) → inserted as its own full page(s), completely unmodified, no stationary. If the source naturally spans multiple pages (e.g., an Uber receipt plus its trip-detail/map page), keep all of them together in original order.
 
 **One page per expense/transaction, not per image.** If a single transaction produced multiple physical slips — e.g., an itemized order receipt plus a separate card-terminal/merchant-copy slip — **both slips share one stationary page together**, exactly as in the reference packet (HMSHost Denver, Nick The Greek, Sixty Vines, Yazoo Beer Cart all do this). Don't split same-transaction slips across pages.
+
+**Don't confuse that with a photo+scan pair of the same single receipt.** It's normal for one receipt to exist as both a phone photo (captured in the moment) and a later desk scan — that's one document captured twice, not two different documents. When both exist, use only one on the page — including both would be redundant, not additive like the multi-slip case above. **Pick whichever is more legible, not automatically the scan** (a photo can sometimes read better than a scan of a faded/crumpled receipt, and vice versa). This is inherently subjective — **if it's not clearly obvious which one reads better, ask Pete rather than guessing.**
 
 ---
 
@@ -72,7 +74,9 @@ Build the combined PDF in the **exact same sequence as the finalized ER's line i
 
 **One receipt packet per trip** (matching one ER per trip — not per invoice period; ERs and PWS invoices are separate processes connected only by overlapping date range, per Pete 8/15/26).
 
-Save alongside the trip's ER file, naming convention: `[trip-dates]-receipt-packet.pdf`, same folder as the ER (e.g. `travel/trips/`).
+Save alongside the finished ER — **not the repo** (the repo only ever holds the ER working draft, see `finances/receipt-workflow.md` Storage Locations). Naming convention: `[trip-dates]-receipt-packet.pdf`.
+
+**⚠️ Don't assume the destination folder.** `OneDrive\Documents\Platinum Workforce Strategies\Unifocus Contractor\[trip]\` is where **Unifocus-billable** trips get filed — but not every trip is a Unifocus trip. A non-Unifocus PWS/direct-client trip may file elsewhere under `Platinum Workforce Strategies`, a personal trip has nothing to do with that tree at all, and a trip tied to Dad's POA/house likely lives in yet another folder entirely. **If the correct destination isn't obvious from the trip's context, ask Pete rather than guessing or defaulting to Unifocus Contractor.**
 
 ---
 
