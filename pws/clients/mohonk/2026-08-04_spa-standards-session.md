@@ -1,12 +1,12 @@
 <!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
-# Mohonk — Spa Standards, Scheduling Strategy, and KPI Alignment
+# Mohonk — Spa Standards, Scheduling Strategy, and KBI Alignment
 
 **Date:** August 4, 2026, ~10:39 AM (1hr24min recording)
 **Location:** Mohonk Mountain House
 **Context:** This is the full recording of the Spa segment referenced but not fully captured in the [8/4 F&B session file](2026-08-04_fnb-labor-standards-transcript.md#11-spa--see-full-session-file) — that file guessed attendees as "Joanna Taylor and Jen" based only on calendar invite emails; **this transcript corrects that.** Confirmed attendees per the actual recording: **Barbara Stirewalt** and **Lou Petruzzelli**, not Olivia Andrews — she was out sick that day (see Participants below). "Jen," "Joanna Taylor," and "Nelson" are referenced repeatedly in the dialogue as real Spa staff whose work is being reviewed, but none of them were confirmed present in the room.
 
-**Pete's own summary (post-session):** "Coming around to recognizing Spa can work. Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now." — **this directly resolves the existing [🟢 Spa Interface Not Processing](kb.md#-spa-interface-not-processing) ticket.** The live meeting still treated all three volume KPIs (day/transient, overnight, employee treatments) as broken/not pulling — see item 2 below — so this fix happened during or shortly after the session itself, not before it. **Architecture clarified (Pete):** day/transient, overnight, and employee treatments are the **input KBIs**, mapped directly to the incoming spa data file; **Total Treatments is a Calculated KBI** that just sums those three. Fixing the input-KBI import therefore fixes Total Treatments automatically, since it's derived rather than separately fed — this is the ticket fully closed, not a partial fix.
+**Pete's own summary (post-session):** "Coming around to recognizing Spa can work. Fixed Spa KBI import today. We didn't have Spa Treatment KBIs until now." — **this directly resolves the existing [🟢 Spa Interface Not Processing](kb.md#-spa-interface-not-processing) ticket.** The live meeting still treated all three volume KBIs (day/transient, overnight, employee treatments) as broken/not pulling — see item 2 below — so this fix happened during or shortly after the session itself, not before it. **Architecture clarified (Pete):** day/transient, overnight, and employee treatments are the **input KBIs**, mapped directly to the incoming spa data file; **Total Treatments is a Calculated KBI** that just sums those three. Fixing the input-KBI import therefore fixes Total Treatments automatically, since it's derived rather than separately fed — this is the ticket fully closed, not a partial fix.
 
 ## Participants
 - **Pete Castellano** (PWS)
@@ -22,11 +22,11 @@
 - **Provider (treatment professional) schedules stay in Book4Time, not Unifocus.** Book4Time runs a **year-out open book** — providers' availability slots must be actively opened for guests to book against, the opposite model from a typical banquet request (you're not requesting "10 servers," you're putting specific professionals on the calendar to catch whatever comes in).
 - Unifocus will **not replace or disrupt** this — when Unifocus generates projected hours/schedules, it's built not to interfere with what's already been entered in Book4Time. Same logic already applies to banquets booked far in advance (e.g., a wedding 3 months out) — Unifocus can schedule around known advance demand without duplicating the source system.
 
-## 2. Spa Performance & the Total-Treatments KPI Decision
+## 2. Spa Performance & the Total-Treatments KBI Decision
 - **Spa generates ~$6M/year, vs. the resort-spa industry average of ~$2.2M** (per a recent spa industry report Pete referenced) — explicitly called out as a top-performing revenue center worth eventually getting more granular data on.
-- **Three planned volume KPIs — day/transient guest treatments, overnight guest treatments, employee treatments — were not functioning in Unifocus as of this meeting.** (See the header note above re: Pete's post-session fix.)
+- **Three planned volume KBIs — day/transient guest treatments, overnight guest treatments, employee treatments — were not functioning in Unifocus as of this meeting.** (See the header note above re: Pete's post-session fix.)
 - **Decision: use Total Treatments (the sum of all three) as the interim/primary labor driver.** Rationale: unlike meal periods (breakfast/lunch/dinner), which genuinely take different labor, a treatment's labor doesn't meaningfully differ by *who* is receiving it (day guest vs. overnight guest vs. employee) — only by treatment type/duration, which is a separate, deferred refinement (see below).
-- **Deliberately not chasing more granularity right now:** treatment-type/duration-level detail would require deeper DataVision integration; the group's stated limitation is "what's available to pull from DataVision," not appetite for building dozens of new KPIs. Revisit once DataVision availability is clarified.
+- **Deliberately not chasing more granularity right now:** treatment-type/duration-level detail would require deeper DataVision integration; the group's stated limitation is "what's available to pull from DataVision," not appetite for building dozens of new KBIs. Revisit once DataVision availability is clarified.
 
 ## 3. Capacity & Services
 - Services: massage, facials, body treatments, nail services; **hair is being phased out.**
