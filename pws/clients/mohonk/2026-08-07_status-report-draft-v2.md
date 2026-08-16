@@ -11,7 +11,7 @@
 | **Name of the hotel(s)** | Mohonk Mountain House |
 | **Name of Unifocus consultant(s)** | Pete Castellano |
 | **Visit Dates** | 08/02/26 – 08/07/26 |
-| **Distribution List** | *TBD — suggest Ralph Varble, Susanna Briggs / Bron Walis, Lou Petruzzelli, Patrice Huart, Tom Smiley, Eric Gullickson.* **Note:** the Word draft's distribution list (Mohonk: Tom Smiley, Eric Gullickson, Lou Petruzzelli, Bron Walis, Casey Dow; Unifocus: Ralph Varble, Shilpa Bhando, Alain Derderian, Susanna Briggs) drops Patrice Huart — confirm whether that's intentional before finalizing. |
+| **Distribution List** | *TBD — under active review 8/16/26.* Word draft's list (Mohonk: Tom Smiley, Eric Gullickson, Lou Petruzzelli, Bron Walis, Casey Dow; Unifocus: Ralph Varble, Shilpa Bhando, Alain Derderian, Susanna Briggs) drops two department heads who were both active week-of participants: **Patrice Huart (Director of F&B)** and **Alex Sherwood (Director of Rooms)** — recommend adding both; the Word draft's omission looks like an oversight, not a deliberate exclusion. **Casey Dow — resolved, stays on the list.** He's system-admin, not policy, and was an **optional attendee** at the Friday 8/7/26 recap meeting (where the half-time WFM role idea was floated) — doesn't speak much in these sessions so his presence/silence wouldn't show up in a transcript either way. Kept on distribution anyway: Pete confirms Casey already knows Bron and Lou want his help with Unifocus administration and additional analysis work, so staying informed is relevant to him regardless of this specific meeting's attendance. |
 
 ## Project Status
 
