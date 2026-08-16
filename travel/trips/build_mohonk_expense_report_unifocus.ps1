@@ -44,8 +44,8 @@ $knownRows = @(
     @("8/8/2026", 33.62, 1.00, "PERSONAL", "Tallow - Shaver Hall (424 5th Ave, NYC) - dinner take-out, full billable meal value ($28.85 food + $4.77 tip); -$28.85 credit applied, net card charge $4.77", "Dinner", "Mohonk Mountain House", "", "Visa -7552 (WF Active Cash)"),
     @("8/8/2026", 4.96, 1.00, "PERSONAL", "Chick Chick at Shaver Hall (424 5th Ave, NYC) - drink after Tallow dinner", "Other", "Mohonk Mountain House", "", "Visa -2674"),
     # --- 8/9/2026: actual return day ---
-    @("8/9/2026", 113.65, 1.00, "PERSONAL", "Uber, Hotel Seville Nomad (3:01 AM) to EWR Terminal A (3:33 AM), UberX, driver Muhammad, 19.45 mi/31 min", "Taxi/Train/Bus", "Mohonk Mountain House", "", "Visa -2674"),
-    @("8/9/2026", 103.26, 1.00, "PERSONAL", "Hotel Seville Nomad - mandatory fees, folio checkout ~4:17 AM (after physical departure via Uber) (Destination Fee $45/night x2 + NYC taxes), Hyatt folio 2529375976", "Hotel", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/9/2026", 130.69, 1.00, "PERSONAL", "Uber, Hotel Seville Nomad (3:01 AM) to EWR Terminal A (3:33 AM), UberX, driver Muhammad, 19.45 mi/31 min - fare+fees $113.65 + tip $17.04 (charged as 2 separate transactions 1 minute apart, combined here on one line)", "Taxi/Train/Bus", "Mohonk Mountain House", "", "Visa -2674"),
+    @("8/9/2026", 103.26, 1.00, "PERSONAL", "Hotel Seville Nomad - mandatory fees, confirmed via property folio (Destination Fee $45/night x2 + NYC Sales Tax 8.875% + NYC Occupancy Tax 5.875%), Hyatt folio/confirmation 2529375976", "Hotel", "Mohonk Mountain House", "", "Visa -2674"),
     @("8/9/2026", 16.00, 1.00, "PERSONAL", "McDonald's #26777 (ORD Terminal 3, 6:56 AM) - breakfast, layover on return home", "Bkfst", "Mohonk Mountain House", "", "Visa -2674")
 )
 $blankRowCount = 10
@@ -209,7 +209,7 @@ $cats = @(
     @("Air Fare",         905.40, 4),
     @("Car Rental",       468.21, 1),
     @("Hotel",            615.26, 2),
-    @("Taxi/Train/Bus",   242.79, 2),
+    @("Taxi/Train/Bus",   259.83, 2),
     @("Dinner",           110.94, 2),
     @("Lunch",              24.88, 2),
     @("Bkfst",              23.60, 2),
@@ -257,7 +257,7 @@ $ptStart = $row
 
 # Payment type, description, amount (traced from mohonk-receipt-log.md card column)
 $paymentTypes = @(
-    @("-2674",     "Visa SW Rapid Rewards+ (flight cash balance, return flight, Taco Bell, gas, hotel + fees, both Ubers, Scarpetta, Chick Chick, E-ZPass, ORD breakfast, Budget rental car)", 2063.79),
+    @("-2674",     "Visa SW Rapid Rewards+ (flight cash balance, return flight, Taco Bell, gas, hotel + fees, both Ubers + separate return tip, Scarpetta, Chick Chick, E-ZPass, ORD breakfast, Budget rental car)", 2080.83),
     @("SW Credit", "Southwest Flight Credit (outbound)",                                                                                                                      311.80),
     @("-8289",     "Visa (McDonald's Boonton NJ + McDonald's NYC breakfast)",                                                                                                   19.85),
     @("-7552",     "Visa WF Active Cash (Tallow - Shaver Hall dinner, full billable value; net card charge was $4.77 after credit)",                                            33.62),

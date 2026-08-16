@@ -86,6 +86,18 @@ This is the **single universal process for all clients** — the Unifocus ER for
 
 ---
 
-## Technical approach (for build time)
+## Technical approach (proven 8/16/26, Mohonk trip — first successful build)
 
-Adobe Acrobat DC is installed and provides a COM automation interface, scriptable via PowerShell (same pattern as the Excel COM automation already used for ER builds). At build time: convert each physical-receipt image to a page, overlay/position it on a copy of the stationary background per Step 4's placement rules, and assemble all pages (stationary-backed physical receipts + untouched full-page digital documents) into one output PDF in the Step 5 order. Exact COM/JS mechanics to be worked out when actually building the first packet — not pre-written here since this file is instructions, not implementation.
+**Acrobat COM automation does NOT work — don't retry it.** Confirmed 8/16/26: this machine's 64-bit Adobe Acrobat (v26.001.21789) fails `E_NOINTERFACE` on `AcroExch.App`/`AcroExch.PDDoc` from both 64-bit and 32-bit PowerShell, in both STA and default threading. Adobe has restricted/deprecated the classic COM automation interface in current 64-bit builds. This is a dead end, not a scripting bug — don't spend time debugging it again.
+
+**What actually works: Python + pypdf + Pillow.** Installed via `winget install Python.Python.3.12` then `pip install pypdf pillow` (free, open-source, fully local — no data leaves the machine). Also installed `pymupdf` for rendering PDF pages to PNG so the output can actually be visually verified via the Read tool (poppler/pdftoppm isn't available on this machine either, so pymupdf is the substitute for checking work).
+
+**Working pipeline** (see `travel/trips/build_mohonk_receipt_packet.py` as the reference implementation):
+1. For each physical receipt: `Pillow` opens the JPEG and saves it as a single-page PDF at 72dpi (makes PDF points == image pixels, simplifying transform math).
+2. `pypdf` loads that single-page image-PDF and a fresh copy of the stationary template page.
+3. Compute a `pypdf.Transformation` (scale → rotate → translate) that fits the image within a **safe zone** — NOT the full page. The letterhead has a header logo in the top ~15% and a footer band in the bottom ~13%; centering/scaling against the full page (as first attempted) causes tall portrait receipts to cover the letterhead entirely. Scale to fit within `page_width × 0.88` and `safe_zone_height × 0.92`, then center within the safe zone's own vertical midpoint (not the full page's).
+4. `page.merge_transformed_page(image_page, transform)` stamps the receipt onto the stationary copy.
+5. Digital/full-page PDFs get their pages added directly via `PdfWriter.add_page()`, no transformation.
+6. Everything assembled into one `PdfWriter` in ER chronological order, written to the output path.
+
+**Always visually verify before declaring done** — render a handful of composited pages to PNG via pymupdf and Read them back. The margin bug above was invisible in the build log (no errors, wrong output) and only caught by actually looking at the result.
