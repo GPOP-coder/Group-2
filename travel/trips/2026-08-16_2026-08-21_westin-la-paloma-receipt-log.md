@@ -26,5 +26,5 @@
 ## Open Items
 - [ ] Hotel confirmation and rate details
 - [ ] Remaining meals — log as they come in
-- [ ] Return flight details (seats 19A/09D confirmed)
+- [x] Return flight — SW A9QZXC, TUS-DEN-OMA, Fri 8/21, departs TUS 11:40 AM (WN2406) → DEN 2:30 PM → departs DEN 3:15 PM (WN4717) → OMA 5:40 PM. Seats 19A/09D. $453.20, Visa ••••2674.
 - [ ] Expense report — build after trip
