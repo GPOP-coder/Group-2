@@ -10,16 +10,16 @@
 
 | Date | Vendor | Location | Meal | Items | Subtotal | Tax | Other | Tip | Total | Card | Receipt |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 8/16/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover) | Lunch | — | $27.24 | — | — | $3.78 | $31.02 | Visa ••••2674 | Receipt in hand; chip card, 2:20 PM |
+| 8/16/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover) | Lunch | — | $27.24 | — | — | $3.78 | $31.02 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Marczyks DIA Westin La Paloma.jpeg` |
 
 ---
 
 ## Flights
 
-| Date | Route | Confirmation | Amount | Card |
-|---|---|---|---|---|
-| 8/16/2026 | OMA-DEN-TUS (SW BQR3JN) | BQR3JN | $528.20 | Visa ••••2674 |
-| 8/21/2026 | TUS-DEN-OMA (SW A9QZXC) | A9QZXC | $453.20 | Visa ••••2674 |
+| Date | Route | Confirmation | Amount | Card | Receipt |
+|---|---|---|---|---|---|
+| 8/16/2026 | OMA-DEN-TUS (SW BQR3JN) | BQR3JN | $528.20 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Southwest Trip Confirmation BQR3JN Westin La Paloma.pdf` |
+| 8/21/2026 | TUS-DEN-OMA (SW A9QZXC) | A9QZXC | $453.20 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-21 Southwest Trip Confirmation A9QZXC Westin La Paloma.pdf` |
 
 ---
 
