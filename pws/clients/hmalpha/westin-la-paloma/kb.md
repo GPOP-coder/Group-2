@@ -71,7 +71,7 @@
 - [ ] Review CI/TY interface mapping (Nicole Mendez tracker)
 - [ ] Review any open BLSBD or labor-standards flags specific to La Paloma
 - [ ] Get property profile / org chart from Fabrizio/Jannett
-- [ ] Confirm Steve Carrell has completed User Administration setup for all attendees before 8/17 — his task, not Pete's (see above)
+- [x] Confirm Steve Carrell has completed User Administration setup for all attendees before 8/17 — confirmed complete 8/17/26 (Pete en route to TUS)
 - [ ] Send Peggy the corrected sign-up/attendance spreadsheet (WLP unhidden, Union Station hidden)
 
 ---
