@@ -200,6 +200,23 @@ Items to carry into the next Mohonk status report/deliverable — not yet action
 - [ ] **Clarify scheduling ownership within Housekeeping — currently up to four people (Sydney/Cindy, Nancy, Stephen, Anton) independently touch the same schedule**, creating real coordination friction. Sydney/Cindy raised this directly and with visible frustration live 8/6/26: "we don't need four of us messing with the same schedule, that's how it creates problems." No resolution reached in the session; worth a follow-up conversation on dividing ownership more clearly. **Added context: Sydney/Cindy mentioned live she's planning to retire in roughly 10 months** — worth factoring into any ownership/succession conversation rather than treating this as a purely lateral reassignment.
 - [ ] **Josh (Kitchen Manager) signaled he intends to revisit his own kitchen labor standards** — candid live admission 8/6/26: some were likely built ~2 years ago without solid real-world grounding ("we was just kind of spitting out numbers... reality is different"), distinct from the specific Saucier/staffing-guide mismatch already found live. No specific follow-up scheduled yet.
 
+## Bron/Lou Follow-Up List (received 8/14/26, attachment)
+
+Bron and Lou independently produced their own prioritized follow-up spreadsheet (Unifocus System / Training / Spa sections, Low/Med/High priority, completion tracking). Cross-checked against everything above 8/16/26 — the large majority matches items already tracked here in more detail, strong independent validation of this file's completeness. **Two items are already marked Complete on their list and don't need tracking as open items:** Automate Transfer Hour Issue Report, Automate Unable to Reconcile Report (both Low priority — done on Bron's side, not previously visible in this KB).
+
+**Genuinely new items from their list, not previously tracked here:**
+- [ ] **🔴 High priority (Bron/Lou's own rating): make a list of all departments and whether each is actually inputting schedules into Unifocus or not** — a consolidated department-by-department adoption audit. Related detail is scattered across many session files in this KB (Housekeeping's 3 parallel schedules, Kitchen's Excel-then-reenter workflow, Recreation's zero adoption, Call Center's Excel workflow, F&B's near-full adoption) but has never been assembled into the single audit list Bron/Lou are asking for.
+- [ ] **More scheduled email reminders to reinforce weekly deadlines** — Low priority per Bron/Lou, not previously tracked as its own idea.
+- [ ] **Schedule Export Class and Employee Maintenance Class, specifically for Recreation, Housekeeping, Property, Front Office, and Spa** — Med priority per Bron/Lou. Employee Maintenance has been taught piecemeal so far (Basic Training AM covered Housekeeping/Kitchen/Recreation; Kitchen Stewarding PM went deeper with Kitchen specifically) — Property, Front Office, and a dedicated Spa session haven't had this yet.
+
+**Reinforces existing items with confirmed leadership priority:**
+- **"Unifocus Admin" rated 🔴 High priority directly by Bron/Lou** — reads as confirmation of the already-tracked combined Data Analyst/Labor Management role idea (first floated 8/5/26 with Bron, raised again 8/7/26 recap meeting) — this is no longer just an idea Pete floated, it's something Mohonk's own team has independently flagged as high-priority.
+- **"Tighten up Thurs-Sun cover interface" rated Med priority** — directly matches the standing UNIFOCUS-252999 ticket already extensively tracked, confirms it's a real property priority, not just a lingering ticket.
+
+**Possibly already resolved, worth confirming with Bron so his list can be updated too:**
+- **"Get treatment volume KBI working in system"** — Pete's own post-session note (8/4/26 Spa session) says he fixed the Spa KBI import that same day; Bron's list (dated up to 8/14/26) still shows this open. Worth a direct confirmation either way.
+- **"Reorganize jobs to fit current environment - 2nd floor duplicates"** — matches the second-floor/Fitness Reception duplicate shifts already found and removed live in the 8/4/26 Spa session (37.5 hrs). Possibly already done and just not reflected on Bron's list yet.
+
 ## Onsite Visit — August 2026
 
 **Arranged by:** Ralph Varble (CCO) and Susanna Briggs with Bron Walis and Lou Petruzzelli
