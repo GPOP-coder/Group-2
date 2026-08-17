@@ -1,0 +1,43 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Fabrizio Poli
+N:Poli;Fabrizio;;;
+TITLE:General Manager
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:fabrizio.poli@westinlapaloma.com
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP GM. HMAlpha Unifocus training contact. Pete trainer Aug 17–21 2026.
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Peggy Taylor
+N:Taylor;Peggy;;;
+TITLE:Associate Director of Finance
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:Peggy.Taylor@westinlapaloma.com
+TEL;TYPE=WORK,DIRECT:520-618-4006
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP finance contact (replaced Mark McSteen, retired 7/31/26). Title varies between Associate and Assistant DOF. Primary admin training attendee. Looped in 8/12/26.
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Jannett Sanora
+N:Sanora;Jannett;;;
+TITLE:Human Resources
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:jannett.sanora@westinlapaloma.com
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP HR. Admin training attendance at risk — HR short-staffed as of 8/12/26 (newest hire ~1 week in).
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Charles James
+N:James;Charles;;;
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:charles.james@westinlapaloma.com
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP property contact. Admin session attendee. Coordinating loaner laptops for managers without their own. Added 8/12/26.
+END:VCARD
