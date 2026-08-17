@@ -17,8 +17,8 @@
 
 | Date | Route | Confirmation | Amount | Card | Receipt |
 |---|---|---|---|---|---|
-| 8/30/2026 | OMA-HOU Hobby (SW BUKKAA) | BUKKAA | $254.40 | Visa ••••2674 | Booked 8/16/26; PDF not yet archived — awaiting drop into Receipts Inbox |
-| 9/4/2026 | HOU Hobby-OMA (SW BUGYTC) | BUGYTC | $365.40 | Visa ••••2674 | Booked 8/16/26; PDF not yet archived — awaiting drop into Receipts Inbox |
+| 8/30/2026 | OMA-HOU Hobby (SW BUKKAA) | BUKKAA | $254.40 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-30 Southwest Trip Confirmation BUKKAA Moran Houston.pdf` |
+| 9/4/2026 | HOU Hobby-OMA (SW BUGYTC) | BUGYTC | $365.40 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-09-04 Southwest Trip Confirmation BUGYTC Moran Houston.pdf` |
 
 ---
 
