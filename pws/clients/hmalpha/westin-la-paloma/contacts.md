@@ -19,6 +19,8 @@
 | **Peggy Taylor** | **Associate/Assistant Director of Finance — new primary finance contact** (title given both ways in her own auto-reply signature block, 8/7/26) | Peggy.Taylor@westinlapaloma.com \| (D) 520.618.4006 |
 | Jannett Sanora | Human Resources | jannett.sanora@westinlapaloma.com |
 | Charles James | Property contact — coordinating manager laptops, admin session attendee | charles.james@westinlapaloma.com |
+| Dawn Glass | Reservations — made Pete's comp room reservation (confirmation #1488816, 8/14/26) | dawn.glass@westinlapaloma.com |
+| Rick Newman | CC'd on comp room reservation email (8/14/26) — role TBD | rick.newman@westinlapaloma.com |
 
 **HM Alpha corporate on this property's planning:** Devon Peters, Nicole Mendez, Matthew Schupbach (VP Finance) — see [HM Alpha Client KB](../kb.md#key-hm-alpha-contacts) for full corporate contact list.
 

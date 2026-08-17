@@ -66,7 +66,7 @@
 **Pre-training checklist:**
 - [ ] Confirm attendee sign-ups received — blocked on Peggy finalizing times (target 8/13)
 - [ ] Confirm config complete with Steve Carrell before 8/17
-- [ ] Book Pete's hotel — Tucson, Sun 8/16–Fri 8/21 — waiting on Peggy's reservation confirmation
+- [x] Hotel confirmed — Westin La Paloma, confirmation #1488816, COMP (room, tax, resort charge, parking, F&B no alcohol), Sun 8/16–Fri 8/21. Dawn Glass made the reservation; Rick Newman cc'd.
 - [ ] Book Pete's flight OMA → TUS — waiting on hotel confirmation first
 - [ ] Review CI/TY interface mapping (Nicole Mendez tracker)
 - [ ] Review any open BLSBD or labor-standards flags specific to La Paloma
@@ -79,7 +79,7 @@
 ## Open Items
 
 - [ ] Confirm config status with Steve Carrell before Aug 17
-- [ ] Book flight and hotel for training week — hotel now Sun 8/16–Fri 8/21, waiting on Peggy's confirmation before flight can be booked
+- [x] Flight and hotel booked — SW BQR3JN outbound 8/16, SW A9QZXC return 8/21; hotel confirmed #1488816 COMP
 - [ ] Obtain property profile
 - [ ] Review interface mapping tracker for WLP-specific issues
 - [x] **Loop in Peggy Taylor directly** — done; Peggy fully looped in as of the 8/12/26 planning call, actively driving logistics.

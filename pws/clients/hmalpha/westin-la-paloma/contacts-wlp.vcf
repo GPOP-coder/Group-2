@@ -41,3 +41,23 @@ EMAIL;TYPE=WORK:charles.james@westinlapaloma.com
 ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
 NOTE:WLP property contact. Admin session attendee. Coordinating loaner laptops for managers without their own. Added 8/12/26.
 END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Dawn Glass
+N:Glass;Dawn;;;
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:dawn.glass@westinlapaloma.com
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP Reservations. Made Pete's comp room reservation (confirmation #1488816) per Peggy Taylor's request, 8/14/26.
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Rick Newman
+N:Newman;Rick;;;
+ORG:Westin La Paloma Resort & Spa
+EMAIL;TYPE=WORK:rick.newman@westinlapaloma.com
+ADR;TYPE=WORK:;;3800 E Sunrise Dr;Tucson;AZ;85718;USA
+NOTE:WLP — role TBD. CC'd on comp room reservation email from Dawn Glass, 8/14/26.
+END:VCARD
