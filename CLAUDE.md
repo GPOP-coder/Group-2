@@ -89,7 +89,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - **Apple Health** — data aggregator, future dashboard project
 - **Surface Studio** — primary office machine; paired with ASUS lightweight second monitor; Bellevue home office
 - **Lenovo Yoga** — portable/travel machine; current machine (at father's house, Pensacola)
-- **Git for Windows 2.54.0** — installed on Lenovo Yoga May 27, 2026
+- **Git for Windows 2.55.0.windows.3** — installed on Lenovo Yoga May 27, 2026; updated via winget July 23, 2026
 - **Claude Code CLI 2.1.152** — installed on Lenovo Yoga May 27, 2026
 - **Visual Studio Code** — installing on Lenovo Yoga May 27, 2026; Claude Code runs inside VS Code as primary interface
 - **Windows Terminal** — modern terminal replacement for PowerShell default
@@ -118,7 +118,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - Can do real repo work on the go; not just capture
 
 **Lenovo Yoga** (portable/travel machine)
-- Git for Windows 2.54.0 — installed May 27, 2026
+- Git for Windows 2.55.0.windows.3 — installed May 27, 2026; updated via winget July 23, 2026
 - Claude Code CLI 2.1.152 — installed May 27, 2026 via `winget install Anthropic.ClaudeCode`
 - Visual Studio Code — installed May 27, 2026; Claude Code extension (asterisk icon) active
 - Windows Terminal — primary terminal interface
