@@ -1,6 +1,6 @@
 <!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
-# Westin La Paloma — Manager Training, Wednesday ("Manager 2")
+# Westin La Paloma — Manager Training, Wednesday AM ("Manager 2")
 
 **Date:** August 19, 2026
 **Session:** HMAlpha Manager Training — broad, multi-department session. Confirmed attendees/departments referenced live: Kitchen/Culinary (stewarding, banquet cooks, pastry, dish room), Engineering, F&B outlets (Sabino's pool restaurant — servers, bussers, food runners), Beverage (bartender Teddy Pettit), Spa (scheduling discussed but deferred to a dedicated Spa session with Charles). Peggy present and active (scheduling Pete's time, confirming access levels). Distinct from [Tuesday PM](2026-08-18_manager-training-tuesday-pm.md), which covered Housekeeping/Front Desk/Stewarding leaders — this session's source recording was labeled "Westin Manager 2 Wednesday" (Tuesday's was "Manager 1").
