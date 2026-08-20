@@ -6,6 +6,7 @@
 **Location:** San Diego, CA
 **Brand:** DoubleTree (Hilton)
 **EMS:** Delphi
+**Trainer:** Pete Castellano (confirmed 8/20/26)
 **Source:** Property org roster, provided 8/20/26
 
 ---

@@ -6,6 +6,7 @@
 **Location:** San Diego, CA
 **Brand:** Marriott
 **EMS:** CI/TY
+**Trainer:** Pete Castellano
 **Training week:** Sep 7, 2026 (⚠️ per HM Alpha kb.md — confirm exact week with Ralph Varble)
 **Source:** Property org roster, provided 8/20/26
 

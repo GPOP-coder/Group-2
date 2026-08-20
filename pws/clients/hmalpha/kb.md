@@ -72,6 +72,8 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | Intercon NO (InterContinental New Orleans) | W8 — 7/6 | Steve Carrell | John Grech |
 | WLP (Westin La Paloma) | W14 — 8/17 | Steve Carrell | John Grech |
 | Marriott Del Mar | W17 — 9/7 ⚠️ confirm | TBD | Taylor Walton |
+| DoubleTree San Diego Del Mar | TBD — Pete confirmed as trainer 8/20/26 | TBD | TBD |
+| DoubleTree Sunrise | Oct 12–14, 2026 | Steve Carrell (config, week of Sep 28) | TBD |
 | All others | — | Various | Ralph/Taylor/John |
 
 ---
@@ -155,6 +157,9 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
 - [InterContinental New Orleans — Go-Live Support Week 1 (7/14/26)](intercontinental-new-orleans/2026-07-14_go-live-support-week1-meeting-notes.md)
 - [InterContinental New Orleans — Go-Live Support Week 2 (7/21/26)](intercontinental-new-orleans/2026-07-21_go-live-support-week2-meeting-notes.md)
+- [Marriott Del Mar — Contacts](marriott-del-mar/contacts.md)
+- [DoubleTree San Diego Del Mar — Contacts](doubletree-san-diego-del-mar/contacts.md)
+- [DoubleTree Sunrise — Contacts](doubletree-sunrise/contacts.md)
 - [Hyatt Westlake — Contacts](hyatt-westlake/contacts.md)
 - [Hilton Indianapolis — Contacts](hilton-indianapolis/contacts.md)
 - [DoubleTree Charlotte — Contacts](doubletree-charlotte/contacts.md)
