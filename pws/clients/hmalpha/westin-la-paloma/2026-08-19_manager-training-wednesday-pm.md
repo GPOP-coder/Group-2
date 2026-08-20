@@ -42,7 +42,7 @@
 
 - Full breakpoint structure demonstrated live for Front Desk Agent:
   - **7am shift:** generated whenever there is 1+ hotel departure that day, no matter what (base coverage).
-  - **Phone-support shift:** added when occupancy exceeds **96 rooms**, independent of departures — driven by call volume, not check-outs.
+  - **Phone-support shift:** added when occupancy exceeds **96 rooms**, independent of departures — driven by occupancy, not check-outs.
   - **10am shift:** added when arrivals exceed **50**.
   - **Additional 10am-window shift:** added at **170+ arrivals**.
   - **3pm shift:** generated whenever arrivals exceed 50 (separate breakpoint from the 10am logic — anticipates the evening check-in wave).
