@@ -13,11 +13,21 @@
 
 | Name | Role | Email | Notes |
 |---|---|---|---|
-| Matthew | Assistant General Manager (AGM) | — | Very hands-on in setting labor standards; first name only from call |
-| Maya | Director of Rooms | — | Needs to be actively forecasting arrivals + guests in ProfitSword; Pete showed her onsite |
-| Mary Grace | EVP Sales | — | Met with revenue managers 6/29 to assess ProfitSword bandwidth |
-| Chantelle Twillmann | Director of Finance (DOF) | — | Primary attendee on weekly go-live support calls |
-| Jonathan | Director of Food & Beverage | — | First name only from call; joined weekly go-live support calls starting Week 2 (7/21/26) |
+| Matthew Rogers | Assistant General Manager (AGM) | Matthew.rogers@icneworleans.com | Very hands-on in setting labor standards; full name/email confirmed via 8/20/26 property org roster |
+| ~~Maya~~ | ~~Director of Rooms~~ | — | ⚠️ **Open question (8/20/26):** the 8/20/26 property org roster lists James Edwards (not Maya) as Rooms Director — unconfirmed whether the role changed hands since the 6/29 call or "Maya" was a misattribution. Don't resolve without confirming. |
+| James Edwards | Rooms Director | james.edwards@icneworleans.com | Per 8/20/26 property org roster — see Maya note above |
+| Cindy Aguillon | Assistant Room Director | cindy.aguillon@icneworleans.com | Added from 8/20/26 property org roster |
+| Mary Grace | EVP Sales | — | Met with revenue managers 6/29 to assess ProfitSword bandwidth — likely corporate-level, distinct from Gina Chimeno below |
+| Chantelle Twillmann | Director of Finance (DOF) | chantelle.twillmann@icneworleans.com | Primary attendee on weekly go-live support calls |
+| Rob White | Assistant Controller | rob.white@icneworleans.com | Added from 8/20/26 property org roster |
+| Jonathan Emerson | Director of Food & Beverage | Jonathan.emerson@icneworleans.com | Joined weekly go-live support calls starting Week 2 (7/21/26); full name/email confirmed via 8/20/26 property org roster |
+| Brian Parks | Assistant F&B Director | brian.parks@icneworleans.com | Added from 8/20/26 property org roster |
+| Arthur Batiste | Executive Chef | arthur.batiste@icneworleans.com | Added from 8/20/26 property org roster |
+| Mai Pham | Sous Chef | mai.pham@icneworleans.com | Added from 8/20/26 property org roster |
+| Don Poole | Maintenance Director | don.poole@icneworleans.com | Added from 8/20/26 property org roster |
+| Gina Chimeno | Sales and Marketing Director | gina.chimeno@icneworleans.com | Added from 8/20/26 property org roster |
+| Trace Rhodes | Front Office Manager | trace.rhodes@icneworleans.com | Added from 8/20/26 property org roster |
+| Alvina McBride | HR Director | alvina.mcbride@icneworleans.com | Added from 8/20/26 property org roster |
 
 ---
 
