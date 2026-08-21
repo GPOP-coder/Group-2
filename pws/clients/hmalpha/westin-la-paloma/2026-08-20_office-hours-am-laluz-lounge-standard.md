@@ -1,6 +1,6 @@
 <!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
-# Westin La Paloma — Office Hours (Thursday AM), Part 9: La Lu's Lounge — Beverage-Revenue-Driven Labor Standard
+# Westin La Paloma — Office Hours (Thursday AM), Part 9: La Luz Lounge — Beverage-Revenue-Driven Labor Standard
 
 **Date:** August 20, 2026, AM
 **Attending:** F&B director-level contact (see [Part 7](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)); Pete Castellano.
@@ -10,13 +10,13 @@
 
 ## 1. Standard Driver Confirmed — Beverage Revenue, Not Covers
 
-- La Lu's Lounge (bar) **servers/cocktail servers are staffed off of beverage revenue, not covers** — explicitly reasoned through live: *"they don't make food, they make drinks... we don't have covers for drinks. We do have beverage revenue."*
+- La Luz Lounge (bar) **servers/cocktail servers are staffed off of beverage revenue, not covers** — explicitly reasoned through live: *"they don't make food, they make drinks... we don't have covers for drinks. We do have beverage revenue."*
 - **Working assumption behind the model:** average drink price is treated as roughly consistent day to day (a mix of $5 and $10 items blending out), so a **dollar-revenue threshold is a reasonable proxy for drink volume/staffing need**, even without a true per-drink count.
 - **Bartenders were confirmed to run on a different logic than servers** — the bartender is a fixed presence regardless of volume (see below), while the server/cocktail-server role scales with revenue thresholds.
 
 ## 2. Server/Cocktail Server Thresholds (Beverage Revenue, Combined With Swing Suite Revenue)
 
-- **Under $2,000/day combined beverage revenue (La Lu's + Swing Suite): no server at all** — the bartender alone handles service.
+- **Under $2,000/day combined beverage revenue (La Luz + Swing Suite): no server at all** — the bartender alone handles service.
 - **$2,000–$3,000: one 6-hour server shift.**
 - **At $3,000: that same shift extends to a full 8-hour shift.**
 - **At $3,750: a second shift is added** (a 5pm start on weekdays).

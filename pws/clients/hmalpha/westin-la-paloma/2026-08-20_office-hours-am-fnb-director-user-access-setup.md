@@ -65,7 +65,7 @@
 
 ---
 
-**Note:** This same working session with the F&B director continues directly into reporting tools, forecasting/KBI mapping, the La Lu's Lounge standard walkthrough, and a live contract-labor build — see Parts 8–11 below.
+**Note:** This same working session with the F&B director continues directly into reporting tools, forecasting/KBI mapping, the La Luz Lounge standard walkthrough, and a live contract-labor build — see Parts 8–11 below.
 
 ---
 

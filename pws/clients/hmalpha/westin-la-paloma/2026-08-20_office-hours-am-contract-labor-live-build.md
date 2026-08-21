@@ -53,7 +53,7 @@
 - [Office Hours AM, Part 5 — Reconcile Employees / Job Code Mismatches (policy reaffirmed)](2026-08-20_office-hours-am-reconcile-employees-job-code-mismatches.md)
 - [Office Hours AM, Part 7 — F&B Director User Access Setup](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)
 - [Office Hours AM, Part 8 — Reporting Tools Walkthrough](2026-08-20_office-hours-am-reporting-tools-walkthrough.md)
-- [Office Hours AM, Part 9 — La Lu's Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
+- [Office Hours AM, Part 9 — La Luz Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
 - [Office Hours AM, Part 10 — Revenue Center Forecasting & KBI Mapping](2026-08-20_office-hours-am-revenue-center-forecasting.md)
 - [Manager Training, Tuesday PM, 8/18/26](2026-08-18_manager-training-tuesday-pm.md)
 - [HM Alpha Client KB](../kb.md)

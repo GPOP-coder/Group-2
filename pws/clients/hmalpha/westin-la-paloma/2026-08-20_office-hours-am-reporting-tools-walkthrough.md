@@ -49,7 +49,7 @@
 
 - [Westin La Paloma — Property KB](kb.md)
 - [Office Hours AM, Part 7 — F&B Director User Access Setup](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)
-- [Office Hours AM, Part 9 — La Lu's Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
+- [Office Hours AM, Part 9 — La Luz Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
 - [Office Hours AM, Part 10 — Revenue Center Forecasting & KBI Mapping](2026-08-20_office-hours-am-revenue-center-forecasting.md)
 - [Office Hours AM, Part 11 — Contract Labor Live Build](2026-08-20_office-hours-am-contract-labor-live-build.md)
 - [Office Hours AM, Part 4 — Budget vs. Standards Sign-Off](2026-08-20_office-hours-am-budget-vs-standards-signoff.md)

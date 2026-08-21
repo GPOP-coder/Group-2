@@ -30,14 +30,14 @@
 
 ## 4. Group vs. Local — Why Banquets Feed the Outlet Forecast
 
-- **The reason banquet data has to be entered even though the goal is forecasting outlets, not banquets themselves:** the system needs banquet data to calculate **"group" vs. "local"** covers — i.e., to know how many of the hotel's occupied-room guests are already accounted for by a group breakfast/banquet, versus how many are genuinely available to walk into La Vista, La Lu's, etc.
+- **The reason banquet data has to be entered even though the goal is forecasting outlets, not banquets themselves:** the system needs banquet data to calculate **"group" vs. "local"** covers — i.e., to know how many of the hotel's occupied-room guests are already accounted for by a group breakfast/banquet, versus how many are genuinely available to walk into La Vista, La Luz, etc.
 - **Mechanic explained concretely:** available restaurant guests = **yesterday's occupied-room guest count, minus this morning's group breakfast attendance**. A hotel showing 500 in-house guests but running a 400-person group breakfast buffet should **not** expect a proportionally busy restaurant morning — most of that demand is already captured by the group event.
 - **Future-state note (not yet active):** once enough history accumulates, the system can begin calculating **capture ratios** (e.g., "20% of in-house guests who don't have a banquet meal will hit La Vista") — recalculated weekly, by day, by meal period. **Not usable yet — WLP doesn't have enough history**, and the property is currently on flat statistical averages, not ratio-based capture logic.
 
 ## 5. Statistical Forecasting Method & "Needs Attention" Errors, Explained
 
 - **The underlying forecast method is a weighted average across roughly the last 13 weeks of history** (referred to in-system as "average trend adjusted exponential smoothing" — Pete's plain-language gloss: *"it's just a $500 way of saying average"*).
-- **"Needs attention" flags are normal, expected behavior when there isn't yet enough clean history for a given day/outlet combination** — not a sign of a broken interface. Live example: **La Lu's dinner covers and La Vista all-day transactions both threw "needs attention" on the day reviewed**, with no other explanation than insufficient/inconsistent history — Pete's direct framing: **"this is normal... this will happen less as time goes on."**
+- **"Needs attention" flags are normal, expected behavior when there isn't yet enough clean history for a given day/outlet combination** — not a sign of a broken interface. Live example: **La Luz dinner covers and La Vista all-day transactions both threw "needs attention" on the day reviewed**, with no other explanation than insufficient/inconsistent history — Pete's direct framing: **"this is normal... this will happen less as time goes on."**
 - **Practical guidance for handling a "needs attention" flag today:** if you know the real number, enter it. If you don't, and the underlying standard is fixed/non-variable (e.g., "always staff for at least 1"), entering a **1 is safer than leaving it at the system's fallback of 0** — a 0 will suppress shift generation entirely for that outlet/day, which is a worse outcome than a slightly-off manual guess.
 - **Confirmed operational rule: if a needs-attention field is left untouched, it defaults to 0, and a 0 generates zero shifts for that outlet that day** — this is the concrete risk of ignoring the 11am–3pm review window rather than just a cosmetic warning.
 
@@ -63,7 +63,7 @@
 - [Westin La Paloma — Property KB](kb.md)
 - [Office Hours AM, Part 7 — F&B Director User Access Setup](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)
 - [Office Hours AM, Part 8 — Reporting Tools Walkthrough](2026-08-20_office-hours-am-reporting-tools-walkthrough.md)
-- [Office Hours AM, Part 9 — La Lu's Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
+- [Office Hours AM, Part 9 — La Luz Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
 - [Office Hours AM, Part 11 — Contract Labor Live Build](2026-08-20_office-hours-am-contract-labor-live-build.md)
 - [HM Alpha Client KB](../kb.md)
 
