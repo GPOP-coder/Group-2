@@ -12,6 +12,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 8/16/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover) | Lunch | — | $27.24 | — | — | $3.78 | $31.02 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Marczyks DIA Westin La Paloma.jpeg` |
 | 8/16/2026 | Uber (driver: Clark) | TUS Airport → Westin La Paloma (16.63 mi, 36 min) | — | UberX | $29.89 | — | Airport Surcharge $4.00 + Booking Fee $5.05 = $9.05 | $7.79 | $46.73 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Uber TUS Airport to Westin La Paloma.pdf` |
+| 8/21/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover, return) | Lunch | Mediterranean ChickenWrap, Genoa/Prosciutto Snack Pack, Marion MilkChoco SeaSalt, Essentia Water | $30.48 | $2.44 | — | $4.57 | $37.49 | Visa ••••2674 | Receipt in hand |
 
 ---
 
