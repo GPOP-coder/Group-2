@@ -479,7 +479,7 @@ Peter is building a **Chief of Staff agent** as a capstone project:
 - [ ] **Watch Honor Flight Mission 36 video** — on thumb drive; narrative draft saved at `journal/2026-06-12_honor-flight-mission-36.md`; re-extraction from claude.ai needed (some conversations blended in current draft)
 - [ ] **Upload Kim's LinkedIn/professional profile** to claude.ai "Pete" project — requested May 19
 - [ ] **Mac McIntire / Strategic Logics derivative** — review and refine for PWS use; flagged May 26 (confirm if still relevant)
-- [ ] **Mohonk: Projected Hours issue** — Founders/Granary shifts not generating; James taking notes/screenshots, Bron/Casey to submit support ticket — confirm ticket was submitted
+- [x] **Mohonk: Projected Hours issue** — Founders shifts not generating (UNIFOCUS-247559, reported by James Danks May 28); resolved via Task Scheduler fix (Melody Tate recreated the Generate Projected Hours task, disabled the original) — confirmed in `pws/clients/mohonk/kb.md`
 - [ ] **UNIFOCUS-246757** — Rosewood Baha Mar Banquet Forecast not populating; escalated to Data Integration; follow up on resolution; also review related tickets 246339, 241784, 238540 for pattern
 - [ ] **Baha Mar: Tastings mapping decision** — Menu Tasting KBIs: roll into Ttl Lunch/Dinner or stay separate? Deliberate call needed; flagged as "don't let this be an accidental omission"
 - [ ] **MHBR: F&B standards migration** — Excel staffing guides need to be migrated into Unifocus and validated with outlets; open from original engagement
