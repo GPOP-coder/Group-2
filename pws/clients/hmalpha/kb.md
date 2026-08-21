@@ -148,6 +148,8 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 
 - [Wave 2 Kickoff Summary](wave2-kickoff-summary.md) — unified summary across the five Wave 2 kickoff sessions
 - [HM Alpha Weekly Call Notes — June 25, 2026](../../2026-06-25_hmalpha-weekly-call-notes.md)
+- [HM Alpha Weekly Call Notes — July 16, 2026](2026-07-16_weekly-hma-call-notes.md)
+- [HM Alpha Weekly Call Notes — August 20, 2026](2026-08-20_weekly-hma-call-notes.md)
 - [HM Alpha Training Contacts](../../../memory/contacts_hmalpha_training_2026.md)
 - [Marriott Brand KB](../../../brands/marriott/kb.md)
 - [Union Station Nashville Yards — Contacts](union-station-nashville/contacts.md)

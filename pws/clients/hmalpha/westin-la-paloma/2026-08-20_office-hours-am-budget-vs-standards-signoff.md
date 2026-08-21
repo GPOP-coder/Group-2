@@ -41,6 +41,7 @@
 - **Not resolved by end of session.** Peggy did not have Steve's BLSBD comparison document herself; Pete located and reviewed a downloaded copy live but did not make any changes to it.
 - **Open, unresolved tension restated plainly:** it's fine for a property to exceed its budget in a given job/department **as long as it's documented and explained** (Rooms Controller/extra Supervisor at Front Desk; extra Laundry Supervisor days; unbudgeted JW Marriott laundry volume) — the sign-off's real purpose is making sure Fabrizio has seen and accepted those specific variances, not a blanket "standards = budget" attestation.
 - **DOF continuity gap noted implicitly:** this entire budget was built under the prior DOF (Mark, retired 7/31/26) with only "very little" direct involvement from him in the original budget meetings — Peggy is now trying to reconstruct the reasoning behind variances she wasn't present for.
+- **Same afternoon, on the 2:00 PM HMAlpha weekly call, Pete separately confirmed this is really Fabrizio's (not Peggy's) hesitation** — Ralph had spoken with Fabrizio directly ~30 min before that call. Fabrizio's actual concern: prior experience with 5 different labor-management systems taught him that consultant-built-from-zero standards were reliably good, but he's cautious about signing before seeing real week-over-week performance, and worried sign-off might mean standards can't be revisited later. Ralph/Devon's clarification: signing off does not freeze the standards — minor tuning remains Unifocus's responsibility through post-go-live follow-up; only a full standards rebuild would need a separate scoped engagement. Full detail: [2026-08-20_weekly-hma-call-notes.md](../2026-08-20_weekly-hma-call-notes.md#westin-la-paloma--petes-live-update).
 
 ---
 
@@ -64,6 +65,7 @@
 - [Office Hours AM, Part 7 — F&B Director User Access Setup](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)
 - [Office Hours AM, Part 8 — Reporting Tools Walkthrough](2026-08-20_office-hours-am-reporting-tools-walkthrough.md)
 - [Admin Training, Day 1 (Monday), 8/17/26](2026-08-17_admin-training-day1-monday.md)
+- [HMAlpha Weekly Call Notes, 8/20/26](../2026-08-20_weekly-hma-call-notes.md) — same-day call where Fabrizio's sign-off hesitation was discussed directly with Ralph/Devon
 - [HM Alpha Client KB](../kb.md)
 
 ---

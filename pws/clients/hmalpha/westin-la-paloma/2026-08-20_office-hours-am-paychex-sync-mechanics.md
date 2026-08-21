@@ -63,7 +63,7 @@
 - [Office Hours AM, Part 6 — Quick Hits & Interruptions](2026-08-20_office-hours-am-quick-hits-and-interruptions.md)
 - [Office Hours AM, Part 7 — F&B Director User Access Setup](2026-08-20_office-hours-am-fnb-director-user-access-setup.md)
 - [Office Hours AM, Part 8 — Reporting Tools Walkthrough](2026-08-20_office-hours-am-reporting-tools-walkthrough.md)
-- [Office Hours AM, Part 9 — La Lu's Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-lalous-lounge-standard.md)
+- [Office Hours AM, Part 9 — La Lu's Lounge Beverage-Driven Labor Standard](2026-08-20_office-hours-am-laluz-lounge-standard.md)
 - [Office Hours AM, Part 10 — Revenue Center Forecasting & KBI Mapping](2026-08-20_office-hours-am-revenue-center-forecasting.md)
 - [Office Hours AM, Part 11 — Contract Labor Live Build](2026-08-20_office-hours-am-contract-labor-live-build.md)
 - [Admin Training, Day 1 (Monday), 8/17/26](2026-08-17_admin-training-day1-monday.md)
