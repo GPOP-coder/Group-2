@@ -17,7 +17,7 @@
 | Fabrizio Poli | General Manager | fabrizio.poli@westinlapaloma.com |
 | ~~Mark McSteen~~ | ~~Director of Finance (DOF)~~ — **retired 7/31/26** | mark.mcsteen@westinlapaloma.com (inactive) |
 | **Peggy Taylor** | **Associate/Assistant Director of Finance — new primary finance contact** (title given both ways in her own auto-reply signature block, 8/7/26) | Peggy.Taylor@westinlapaloma.com \| (D) 520.618.4006 |
-| "Nelly" (name unconfirmed) | **Incoming permanent Director of Finance — start date confirmed as September 3, 2026**, transferring from another HMAlpha/Westin property. Mentioned live in 8/17/26 admin training; not yet on property, no email on file. | TBD |
+| "Nelly" (name unconfirmed) | Incoming permanent Director of Finance, transferring from another HMAlpha/Westin property. Mentioned live in 8/17/26 admin training as starting **September 3, 2026**; not yet on property, no email on file. **⚠️ Conflicting date (8/20/26):** Peggy Taylor separately said the new DOF doesn't start until end of September — not yet resolved which is correct. ⚠️ Internal only, do not use in client-facing docs until confirmed. | TBD |
 | Jannett Sanora | Human Resources | jannett.sanora@westinlapaloma.com |
 | Charles James | Property contact — coordinating manager laptops, admin session attendee | charles.james@westinlapaloma.com |
 | Dawn Glass | Reservations — made Pete's comp room reservation (confirmation #1488816, 8/14/26) | dawn.glass@westinlapaloma.com |
