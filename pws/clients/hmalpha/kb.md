@@ -6,6 +6,8 @@
 
 **HM Alpha** is a multi-brand hotel management company focused on luxury and upper-upscale properties. Their portfolio spans Marriott, Hilton, Hyatt, and IHG flags. The EMS at each property is determined by the brand flag, not HM Alpha corporate.
 
+**Ownership/formation (per a WLP property manager, 8/20/26 — see [that session note](westin-la-paloma/2026-08-20_office-hours-pm-hmalpha-ownership-and-culture.md)):** HM Alpha is owned by **Southwest Value Partners (SWVP)** and was formed in **January 2025**, assembling **13 former Dimension-managed hotels + 2 former HEI-managed hotels = 15 total** under a newly-created management company. SWVP's holdings reportedly extend well beyond these 15 hotels (other real estate/development), though not confirmed in detail. **JW Marriott Tucson is owned by the same group but is *not* an HM Alpha-managed property** — it operates under a separate 30-year Marriott management agreement, so HM Alpha/SWVP has no active management role there. At Westin La Paloma specifically, the on-site golf/racquet club is likewise a separate entity under a different management company (heard as "Trune," unconfirmed), not HM Alpha.
+
 | Brand Family | Brands in Portfolio | EMS |
 |---|---|---|
 | Marriott | Autograph Collection, JW Marriott, Westin, Marriott | CI/TY |
