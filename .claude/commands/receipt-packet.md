@@ -35,7 +35,7 @@ Before assembling, the ER's own line items must already be in pure date order (n
 
 Source receipts are **not supplied per-trip** — they're continuously archived in `OneDrive\Documents\Personal Finance\Receipts\<year>\` as they arrive (see `finances/receipt-workflow.md`), independent of any specific trip's ER timeline.
 
-For each ER line item: search that year folder (and `Inbox\` for anything not yet filed) for the matching date + vendor, using **fuzzy matching** — filenames may not exactly match ER wording (e.g., "McDonalds" vs. "McDonald's"). Both photo and digital-PDF receipts live in the same archive.
+For each ER line item: search that year folder (and `Inbox Receipts\` for anything not yet filed) for the matching date + vendor, using **fuzzy matching** — filenames may not exactly match ER wording (e.g., "McDonalds" vs. "McDonald's"). Both photo and digital-PDF receipts live in the same archive.
 
 **Flag any ER line item with no matching source found — don't proceed with gaps.** Ask Pete rather than building around a hole or guessing at a fuzzy match that might be wrong.
 

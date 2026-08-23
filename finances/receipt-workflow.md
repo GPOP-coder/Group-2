@@ -50,7 +50,7 @@ YYYY-MM-DD Vendor Description.ext
 
 | Artifact | Location | Notes |
 |---|---|---|
-| **Raw receipt archive** (all types — personal, PWS, travel; photos and digital PDFs alike) | `OneDrive\Documents\Personal Finance\Receipts\<year>\` | Single universal archive, all purposes, searchable by filename. Lands in `Inbox\` first, then renamed and moved here. This is the real single source of truth for source receipts — decoupled from any specific trip/ER build. |
+| **Raw receipt archive** (all types — personal, PWS, travel; photos and digital PDFs alike) | `OneDrive\Documents\Personal Finance\Receipts\<year>\` | Single universal archive, all purposes, searchable by filename. Lands in `Inbox Receipts\` first, then renamed and moved here. This is the real single source of truth for source receipts — decoupled from any specific trip/ER build. |
 | **Finished trip deliverables** (ER `.xlsx` + assembled receipt packet PDF) | Varies by trip type — see note below | The actual filed copy — Pete cuts and pastes the repo's draft ER into Unifocus's own approved blank spreadsheet, and this is where that lives. |
 | **ER working draft** (`.xlsx`, built by the PowerShell scripts) | `travel/trips/` in this repo | Git-versioned draft only — not the final filed copy. One-directional: repo draft → Pete pastes into the real Unifocus form → filed in Unifocus Contractor folder above. |
 | ~~`finances/receipts/`, `travel/trips/receipts/` (repo)~~ | Deprecated | Not the real workflow in practice — superseded by the OneDrive year-folder archive above. |
@@ -79,7 +79,7 @@ No OCR software or paid receipt-management subscription required.
 1. **At desk (standard):** Feed receipt through ADS-2000 → PDF → lands in OneDrive
 2. **At desk (damaged receipt):** Place on Brother 2380 flatbed → PDF
 3. **On the road:** Photo with iPhone camera (auto-syncs to OneDrive Camera Roll) or scan with Genius Scan/Adobe Scan
-4. **Log/archive:** Rename per `YYYY-MM-DD Vendor Description.ext` (append trip/purpose context to the description where obvious, e.g. "Mohonk," "PWS," "split") and move from `Inbox\` into `Personal Finance\Receipts\<year>\`. This step is **not tied to when a specific trip's ER gets built** — it happens as receipts arrive, checked each session (see [[feedback-receipt-folder-check]]).
+4. **Log/archive:** Rename per `YYYY-MM-DD Vendor Description.ext` (append trip/purpose context to the description where obvious, e.g. "Mohonk," "PWS," "split") and move from `Inbox Receipts\` into `Personal Finance\Receipts\<year>\`. This step is **not tied to when a specific trip's ER gets built** — it happens as receipts arrive, checked each session (see [[feedback-receipt-folder-check]]).
 
 **Trip/ER usage (separate, on-demand):**
 5. **Financial data entry:** As Pete relays receipt details (amount, vendor, category), Claude logs them into the trip's markdown receipt log and the ER build script — doesn't require the image to be archived yet.
