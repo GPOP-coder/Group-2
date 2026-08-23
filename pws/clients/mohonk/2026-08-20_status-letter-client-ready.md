@@ -17,7 +17,7 @@
 |---|---|
 | **Name of hotel(s)** | Mohonk Mountain House |
 | **Name of Unifocus consultant(s)** | Pete Castellano |
-| **Interfaces** | Spa KBI import fixed and validated. Employee Reconcile/Hours Transfer notification emails added for Lou, Bron and Casey. Founders Buffet Attendant/Supervisor ADP job codes confirmed and added. Banquet actuals interface paused pending Mohonk's new DataVision BEO file. F&B covers-to-DataVision timing gap — root cause confirmed, two independent fixes now in place pending full-cycle validation. Culinary Extern/Intern hours — root cause confirmed as an ADP-side limitation; resolution options under review. |
+| **Interfaces** | Spa KBI import fixed and validated. Employee Reconcile/Hours Transfer notification emails added for Lou, Bron and Casey. Founders Buffet Attendant/Supervisor ADP job codes confirmed and added. Banquet actuals interface paused pending Mohonk's new DataVision BEO file. F&B covers-to-DataVision timing gap — root cause confirmed, two independent fixes now in place pending full-cycle validation. |
 | **Implementation** | Beverage fully restructured into its own department with outlet-specific job codes, no data loss. Weekly Labor Timeline rebuilt into an editable format, with a new proposed cadence to post schedules a full day earlier. Labor standards reviewed and revised across Rooms, Housekeeping, F&B, Spa, Security, and Beverage. |
 | **Training** | Admin Training delivered 8/3. Basic Training delivered 8/4 and 8/6 (Housekeeping, Kitchen, Recreation — Recreation's first-ever Unifocus orientation). Advanced Class delivered for F&B/Main Dining. Multiple 1:1 working sessions held (Kitchen/Stewarding, Beverage, Front Desk). Positive staff feedback throughout the week. |
 | **Visit Dates** | 08/02/26 – 08/07/26 |
@@ -45,13 +45,9 @@ Banquet actuals — interface paused until Mohonk's new DataVision BEO file is r
 
 F&B covers-to-DataVision — timing a root cause was confirmed.  Accounting's file upload lands after Generate Standard Hours.  There are two independent fixes now in place, an added weekly interface transfer, plus a Unifocus-side import-timing adjustment, pending validation over a full live cycle. 
 
-**Employee Reconciliation**
+Employee Reconcile — Front Desk: one overnight employee's hours aren't flowing into labor reporting.  We identified a specific ADP Pay Code diagnostic lead.
 
-Casey submitted a support ticket to add Bron, Casey, and Lou to the Employee Reconcile and Hours Transfer notification emails, and we reviewed how to interpret these messages going forward.
-
-Front Desk — one overnight employee's hours aren't flowing into labor reporting.  We identified a specific ADP Pay Code diagnostic lead. 
-
-Culinary Extern/Intern hours — confirmed as an ADP-side limitation, not a Unifocus configuration issue; two resolution paths under evaluation (time-clock job selection at punch, vs. ADP's "punch to schedule" feature, which would require a daily Unifocus-to-ADP schedule export). A related configuration error was also found: the Culinary Extern/Intern job code currently carries a labor standard when it should carry none, since it's meant as a passthrough placeholder.
+Casey submitted a support ticket to add Bron, Lou and himself to the Employee Reconcile and Hours Transfer notification emails, and we reviewed how to interpret these messages going forward.
 
 **Labor Standards**
 
@@ -64,6 +60,8 @@ Banquet culinary labor standard confirmed not to exist — a revised, moderate a
 Dishwasher standard recommended for a rebuild on more specific volume drivers (Founders/banquet covers) rather than broad Room Guests. 
 
 A Saucier/Associate shift-count discrepancy was identified (two shifts generated vs. one needed per the property's staffing guide).
+
+Culinary Extern/Intern — the job code currently carries a labor standard when it should carry none, since it's meant as a passthrough placeholder; real labor is captured under each person's actual secondary job assignment instead. Two resolution paths are under evaluation for how hours land against the right job going forward: time-clock job selection at punch, vs. ADP's "punch to schedule" feature (which would require a daily Unifocus-to-ADP schedule export).
 
 **Labor Structure**
 
