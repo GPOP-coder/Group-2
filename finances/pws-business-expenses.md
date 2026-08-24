@@ -71,6 +71,7 @@
 - Business Fire policy (97-EG-4466-1, 13606 S 20th St) is a recurring PWS insurance expense — watch for future payment receipts to add here
 - Receipts captured photographically; physical copies stored for audit trail
 - **Plaud Note Pro (8/13/26):** business justification is live-session capture for consulting/training work (see CLAUDE.md Tech Stack) — directly addresses the "lost breakthrough problem" for onsite client sessions; charged to FNBO Evergreen -0733 (Pete confirmed 8/13/26)
+- **🔴 Plaud subscription — upcoming recurring PWS expense, watch for the receipt:** Pete signed up for the Annual Unlimited Plan free trial. **Trial converts to paid on September 1, 2026** — card ending -0733 (same FNBO Evergreen card as the device) will be charged **$215.99** (discounted from the $239.99 base annual rate) unless cancelled first. Log the actual charge here once it posts/a receipt arrives via the Statement Inbox or Receipts Inbox.
 
 ---
 
