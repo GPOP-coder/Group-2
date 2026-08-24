@@ -12,8 +12,10 @@ Companion to `finances/receipt-workflow.md`, but for downloaded account statemen
 
 | Person | Landing folder | Archive root |
 |---|---|---|
-| Pete | `OneDrive\Documents\Personal Finance\Statement Inbox\` | `OneDrive\Documents\Personal Finance\` |
-| William (Dad, POA) | `OneDrive\Castellano Family Executor\Statement Inbox\` | `OneDrive\Castellano Family Executor\` |
+| Pete | `Personal Finance\Statement Inbox\` | `OneDrive\Documents\Personal Finance\` |
+| William / Janet (POA) | `Castellano Family Executor\WJC Statement Inbox\` | `OneDrive\Castellano Family Executor\` |
+
+**The WJC Statement Inbox can hold statements for either William Castellano (WJC) or Janet Castellano (JLC)** — both people's accounts live under the same Castellano Family Executor archive root (see existing `NFCU WJC` vs. folders referencing JLC), so don't assume every statement dropped there is William's. Check the statement itself for whose name is on it before routing.
 
 Both archive roots already contain institution-first folders (one per bank/card/loan/vehicle/topic) predating this workflow, and **both folders hold plenty of non-statement material already** — claims paperwork, POA/trust documents, applications, closing docs, insurance policies. Statements just need to coexist alongside that, not replace it or get separated out into their own filing system.
 
@@ -21,7 +23,7 @@ Both archive roots already contain institution-first folders (one per bank/card/
 
 ## Processing the inbox
 
-1. **Check both Statement Inbox folders each session** (same habit as the receipts check) for anything not yet filed.
+1. **Check both Statement Inbox folders each session** (Pete's `Statement Inbox` and `WJC Statement Inbox`, same habit as the receipts check) for anything not yet filed.
 2. **Identify the institution and statement period** from the file itself (open it if the filename isn't self-explanatory).
 3. **Check `finances/statement-routing.md`** for an existing routing decision for that institution.
    - **Known institution:** file it straight into the recorded folder, using the recorded naming convention. No need to ask again.

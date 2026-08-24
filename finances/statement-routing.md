@@ -4,13 +4,15 @@
 
 Reference for `finances/statement-workflow.md` — where each institution's statements go and what naming convention to use. Updated live as real statements get processed through the Statement Inbox. Institutions not yet listed here haven't been asked about yet — ask Pete the first time one shows up, then add it.
 
+**Organizing principle, decided 2026-08-24: route by legal/tax entity, not by account or product type.** A bank issuing one combined statement across multiple accounts (e.g., NFCU checking + savings on one PDF) stays as a single file — don't split it apart. A separate statement for a different product under the same membership (e.g., a Certificate of Deposit statement arriving on its own) is filed as its own dated file in the *same* entity's `Statements` folder, not split into a further per-product subfolder. The only thing that forces a genuinely separate folder is a **different legal entity** — the William J. Castellano Revocable Living Trust has its own tax identity and must never be mixed with William's personal accounts or anyone else's, regardless of which bank both are at.
+
 ---
 
 ## Pete's — `Personal Finance\Statement Inbox\`
 
 | Institution | Destination folder | Naming convention | Notes |
 |---|---|---|---|
-| NFCU | `Personal Finance\NFCU\Statements\` | `YYYY-MM-DD_STMSSCM.pdf` (bank's own export name, kept as-is) | Already has 2021–present statements filed this way; folder unambiguous, no need to ask. |
+| NFCU (all Pete's personal accounts, incl. any CDs) | `Personal Finance\NFCU\Statements\` | `YYYY-MM-DD_STMSSCM.pdf` (bank's own export name, kept as-is) | Already has 2021–present statements filed this way; folder unambiguous, no need to ask. Combined-account statements stay as one file; a separate CD statement for the same month is just another dated file in this same folder — no per-account subfolder. |
 | Newrez (mortgage) | `Personal Finance\Newrez\Statements\` | TBD — check existing files before first new one | Folder exists; naming convention not yet confirmed. |
 | USSFCU | `Personal Finance\USSFCU\Statements\` | TBD | Folder exists but currently empty — confirm convention when first statement arrives. |
 
@@ -18,12 +20,14 @@ Reference for `finances/statement-workflow.md` — where each institution's stat
 
 ---
 
-## William's (Dad, POA) — `Castellano Family Executor\Statement Inbox\`
+## William's / Janet's (POA) — `Castellano Family Executor\WJC Statement Inbox\`
+
+**Can hold statements for either William Castellano (WJC) or Janet Castellano (JLC)** — check the name on each statement before routing, don't assume it's William's.
 
 | Institution | Destination folder | Naming convention | Notes |
 |---|---|---|---|
-| NFCU Trust | `Castellano Family Executor\NFCU\NFCU Trust\Statements\` | TBD — check existing files | Folder exists, unambiguous destination. |
-| NFCU WJC | `Castellano Family Executor\NFCU\NFCU WJC\Statements\` | TBD — check existing files | Folder exists, unambiguous destination. |
+| NFCU Trust (**William J. Castellano Revocable Living Trust — separate legal entity, never mix with WJC personal**) | `Castellano Family Executor\NFCU\NFCU Trust\Statements\` | TBD — check existing files | Folder exists, unambiguous destination. Any CD statement under the Trust's membership also goes here, as its own file — not William's personal folder. |
+| NFCU WJC (William personally) | `Castellano Family Executor\NFCU\NFCU WJC\Statements\` | TBD — check existing files | Folder exists, unambiguous destination. Any CD statement under William's personal membership also goes here, as its own file. |
 | USAA Visa 0149 | `Castellano Family Executor\USAA\Visa 0149\Statements\` | TBD — check existing files | Folder exists, unambiguous destination. |
 
 **Not yet routed:** American Century / American Century Brokerage Dad, AFBA, Advent, Fisher, eTrade, Victory Capital USAA Mutual, USAA Home Auto Insurance (policy, not a bank statement — confirm this belongs here at all), DFAS, PenAir.
