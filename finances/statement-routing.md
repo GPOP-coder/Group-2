@@ -2,13 +2,13 @@
 
 # Statement Routing Table
 
-Reference for `finances/statement-workflow.md` — where each institution's statements go and what naming convention to use. Updated live as real statements get processed through the Statement Inbox. Institutions not yet listed here haven't been asked about yet — ask Pete the first time one shows up, then add it.
+Reference for `finances/statement-workflow.md` — where each institution's statements go and what naming convention to use. Everything routes through the single `Personal Finance\Statement Inbox\` (see workflow doc — consolidated 2026-08-24, the destination is often in a different OneDrive tree than the inbox itself). Updated live as real statements get processed. Institutions not yet listed here haven't been asked about yet — ask Pete the first time one shows up, then add it. Sections below are grouped by destination archive root, not by inbox.
 
 **Organizing principle, decided 2026-08-24: route by legal/tax entity, not by account or product type.** A bank issuing one combined statement across multiple accounts (e.g., NFCU checking + savings on one PDF) stays as a single file — don't split it apart. A separate statement for a different product under the same membership (e.g., a Certificate of Deposit statement arriving on its own) is filed as its own dated file in the *same* entity's `Statements` folder, not split into a further per-product subfolder. The only thing that forces a genuinely separate folder is a **different legal entity** — the William J. Castellano Revocable Living Trust has its own tax identity and must never be mixed with William's personal accounts or anyone else's, regardless of which bank both are at.
 
 ---
 
-## Pete's — `Personal Finance\Statement Inbox\`
+## Pete's — destination root `Personal Finance\`
 
 | Institution | Destination folder | Naming convention | Notes |
 |---|---|---|---|
@@ -25,9 +25,9 @@ Reference for `finances/statement-workflow.md` — where each institution's stat
 
 ---
 
-## William's / Janet's (POA) — `Castellano Family Executor\WJC Statement Inbox\`
+## William's / Janet's (POA) — destination root `Castellano Family Executor\`
 
-**Can hold statements for either William Castellano (WJC) or Janet Castellano (JLC)** — check the name on each statement before routing, don't assume it's William's.
+**Statements for either William Castellano (WJC) or Janet Castellano (JLC) both land in the main inbox and route here** — check the name on each statement, don't assume it's William's.
 
 | Institution | Destination folder | Naming convention | Notes |
 |---|---|---|---|
