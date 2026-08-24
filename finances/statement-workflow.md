@@ -36,7 +36,8 @@ Every destination archive root already contains institution-first folders (one p
 
 1. **Check the Statement Inbox each session** (same habit as the receipts check) for anything not yet filed.
 2. **Identify the institution, entity/person, and statement period** from the file itself (open it if the filename isn't self-explanatory) — don't assume based on what else is in the batch.
-   - **A scan and a download of the same statement (same institution/entity/period) are one document, not two** — same principle as the photo+scan rule in the `receipt-packet` skill. Unlike receipts, don't treat this as a toss-up: **the downloaded PDF is the authoritative digital original and is preferred by default** — a scan is just a re-imaging of a printout of that same data, with no upside except when it's genuinely the only copy available (old/closed accounts with no online access) or it carries something the digital version doesn't (handwritten notes, annotations). Archive the download, discard the scan — unless the scan has extra handwritten content worth preserving, in which case flag it to Pete rather than silently discarding.
+   - **Revised 2026-08-24, after the first real batch: keep every scan, even ones that look like a duplicate of a download — do not discard scans as a default policy.** Real-world evidence overturned the original "download wins" assumption: the WJC USAA Visa scans in the first batch consistently carried handwritten payment-confirmation notes ("paid $X, [source], [date]") — the scan was doing real bookkeeping work, not just redundant backup. **Only delete a file when it's a byte-for-byte identical duplicate** (verify with a hash, don't guess from filenames or file size) — Pete would rather have a messy archive with duplicates than lose an annotated copy. When multiple non-identical copies of the same statement exist, file all of them with a `(2)`, `(3)`... suffix rather than picking one. **Deduplication is a deliberate future step, not something to solve inline** — Pete is more interested in completeness (having every statement) than tidiness right now; he may later ask, account by account, to review copies for cleanup.
+   - **The filename date is the statement date (e.g., the closing date on a credit card statement), not the date it was scanned or downloaded.** These can differ — a batch of scans in this workflow had a 2-day gap between the real statement closing date and the date embedded in the original scan filename (the scanning date). Verify the actual date from the document content when there's any doubt, don't trust the source filename blindly.
 3. **Check `finances/statement-routing.md`** for an existing routing decision for that institution/entity.
    - **Known and confirmed:** file it straight into the recorded folder, using the recorded naming convention. No need to ask again.
    - **Entity without a confirmed destination (Kim, BTTR, NTSG, or anything new):** hold it, flag it to Pete, don't create a folder or guess at a destination.
@@ -48,11 +49,19 @@ Every destination archive root already contains institution-first folders (one p
 
 ## Naming convention for new statements
 
-Default for anything newly filed under this workflow: `YYYY-MM-DD Institution Statement.pdf` (or a more specific description if the institution has sub-accounts, e.g., `YYYY-MM-DD NFCU Trust Statement.pdf`). Existing files in a folder keep whatever convention they were already using unless Pete asks for a cleanup pass.
+**Pete's own documents:** `YYYY-MM-DD Institution Statement.pdf` (or a more specific description if the institution has sub-accounts, e.g., `YYYY-MM-DD NFCU Trust Statement.pdf`).
+
+**William's (WJC) or Janet's (JLC) documents, decided 2026-08-24:** `YYYY-MM-DD WJC Institution Description.pdf` or `YYYY-MM-DD JLC Institution Description.pdf` — initials right after the date so whose document it is is visible at a glance, before the institution. "Description" is usually "Statement" or "Payment" but isn't fixed — treat each new document type as a learning opportunity and ask Pete what the description should be until a clear pattern is established, then use it consistently. Example: `2026-03-13 WJC NFCU Statement.pdf`, `2020-06-01 JLC USAA Payment.pdf`.
+
+Existing files already in a folder keep whatever convention they were already using unless Pete asks for a cleanup pass — this convention only applies to what gets newly filed through this workflow.
 
 ---
 
+## Gap analysis (future step, not this workflow)
+
+Pete's actual end goal for the WJC/JLC accounts is a **complete** statement history per account so he can identify and go download whatever's missing. Filing accurately (correct dates, correct account) during inbox processing is what makes that possible later — but the gap analysis itself is a separate, deliberate, account-by-account step Pete will request explicitly (e.g., "check NFCU WJC for gaps since 2025") — don't run it proactively as part of routine inbox processing.
+
 ## Open items
 
-- [ ] No statements have been processed through this workflow yet — `finances/statement-routing.md` is seeded only with folders that were already unambiguous (single `Statements` subfolder, no naming inconsistency to resolve). Everything else gets decided live as real statements come in.
+- [x] **First real batch processed 2026-08-24** — 40 files (WJC USAA Visa 0149 statements 2022–2025, two Auto/Home insurance policy documents, a Homeowners insurance bill, Janet's 2021 E*TRADE statement, and an estate-related USAA rewards-correction letter). See `finances/statement-routing.md` for the resulting destinations and what was learned.
 - [ ] Kim, BTTR, and NTSG statement destinations need a deliberate design conversation with Pete — not started yet.
