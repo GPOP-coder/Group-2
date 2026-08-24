@@ -26,7 +26,7 @@ The **destination is not necessarily anywhere near the inbox** — a statement d
 
 Pete wants these designed deliberately, not reflexively the first time a statement shows up.
 
-**Out of scope, leave alone (confirmed 2026-08-24):** several older, decades-old catch-all folders predate this system and are not part of it — `OneDrive\Scanner Inbox OneDrive\`, `OneDrive\Need to file\`, `Documents\Scans to file\`, `Documents\Scanned Documents\`, `Documents\Personal Finance old\`. Don't fold these in or try to process them as part of this workflow unless Pete explicitly asks for that as a separate project.
+**Out of scope, leave alone (confirmed 2026-08-24):** several older, decades-old catch-all folders predate this system and are not part of it — `OneDrive\Scanner Inbox OneDrive\`, `OneDrive\Need to file\`, `Documents\Scans to file\`, `Documents\Scanned Documents\`, `Documents\Personal Finance old\`, `Castellano Family Executor\Castellano Family Folder backup\` (a point-in-time backup snapshot, not a live filing location). Don't fold these in or try to process them as part of this workflow unless Pete explicitly asks for that as a separate project.
 
 Every destination archive root already contains institution-first folders (one per bank/card/loan/vehicle/topic) predating this workflow, and **those folders hold plenty of non-statement material already** — claims paperwork, POA/trust documents, applications, closing docs, insurance policies. Statements just need to coexist alongside that, not replace it or get separated out into their own filing system.
 
