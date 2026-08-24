@@ -36,6 +36,7 @@ Every destination archive root already contains institution-first folders (one p
 
 1. **Check the Statement Inbox each session** (same habit as the receipts check) for anything not yet filed.
 2. **Identify the institution, entity/person, and statement period** from the file itself (open it if the filename isn't self-explanatory) — don't assume based on what else is in the batch.
+   - **A scan and a download of the same statement (same institution/entity/period) are one document, not two** — same principle as the photo+scan rule in the `receipt-packet` skill. Unlike receipts, don't treat this as a toss-up: **the downloaded PDF is the authoritative digital original and is preferred by default** — a scan is just a re-imaging of a printout of that same data, with no upside except when it's genuinely the only copy available (old/closed accounts with no online access) or it carries something the digital version doesn't (handwritten notes, annotations). Archive the download, discard the scan — unless the scan has extra handwritten content worth preserving, in which case flag it to Pete rather than silently discarding.
 3. **Check `finances/statement-routing.md`** for an existing routing decision for that institution/entity.
    - **Known and confirmed:** file it straight into the recorded folder, using the recorded naming convention. No need to ask again.
    - **Entity without a confirmed destination (Kim, BTTR, NTSG, or anything new):** hold it, flag it to Pete, don't create a folder or guess at a destination.
