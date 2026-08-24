@@ -10,14 +10,20 @@ Companion to `finances/receipt-workflow.md`, but for downloaded account statemen
 
 ## The two landing folders
 
-| Person | Landing folder | Archive root |
+| Scope | Landing folder | Archive root |
 |---|---|---|
-| Pete | `Personal Finance\Statement Inbox\` | `OneDrive\Documents\Personal Finance\` |
+| Pete's personal + Kim + BTTR + NTSG (New Hearts, Inc.) + other affiliations Pete directly manages | `Personal Finance\Statement Inbox\` | `OneDrive\Documents\` (multiple trees — see below) |
 | William / Janet (POA) | `Castellano Family Executor\WJC Statement Inbox\` | `OneDrive\Castellano Family Executor\` |
+
+**Pete's Statement Inbox, decided 2026-08-24, is the single universal front door for everything in Pete's own world** — not just his personal accounts. Identify who/what each statement is actually for before routing; don't assume everything dropped here is Pete's personal finances.
 
 **The WJC Statement Inbox can hold statements for either William Castellano (WJC) or Janet Castellano (JLC)** — both people's accounts live under the same Castellano Family Executor archive root (see existing `NFCU WJC` vs. folders referencing JLC), so don't assume every statement dropped there is William's. Check the statement itself for whose name is on it before routing.
 
+**BTTR and NTSG don't have a settled statements destination yet** — `Documents\BTTR\` and `Documents\New Hearts Inc\` both exist but hold org-governance/tax/QuickBooks-backup material, not a clear "statements go here" folder. Pete explicitly wants to design this with more consideration later, not have a folder created reflexively the first time a statement shows up — **hold any BTTR/NTSG statement in the Inbox and flag it to Pete rather than filing it or creating a new folder on your own.** Same caution applies to Kim's documents — there's a `Documents\Kim\` folder, but it's not confirmed as the statements destination; ask rather than assume.
+
 Both archive roots already contain institution-first folders (one per bank/card/loan/vehicle/topic) predating this workflow, and **both folders hold plenty of non-statement material already** — claims paperwork, POA/trust documents, applications, closing docs, insurance policies. Statements just need to coexist alongside that, not replace it or get separated out into their own filing system.
+
+**Out of scope, leave alone (confirmed 2026-08-24):** several older, decades-old catch-all folders predate this system and are not part of it — `OneDrive\Scanner Inbox OneDrive\`, `OneDrive\Need to file\`, `Documents\Scans to file\`, `Documents\Scanned Documents\`, `Documents\Personal Finance old\`. Don't fold these in or try to process them as part of this workflow unless Pete explicitly asks for that as a separate project.
 
 ---
 

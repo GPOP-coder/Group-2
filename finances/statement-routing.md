@@ -18,6 +18,11 @@ Reference for `finances/statement-workflow.md` — where each institution's stat
 
 **Not yet routed — ask when first statement for these arrives:** Bank of America (`BOA YYYY_MMDD.pdf` legacy naming — offer to standardize?), FNBO Checking / FNBO PWS Checking / FNBO VISA (`YYYY_MMDD FNB.pdf` legacy naming, three separate folders — confirm which account is which), Discover (stale, last file 2013 — confirm account still active), Ameritrade, Target Card, CitiCard, Venmo, PayPal, Wells Fargo (multiple sub-accounts: WF Active Cash Visa, WF PMA 5060, Wells Fargo Student Loan).
 
+**🔴 Hold, don't file — no destination confirmed yet (as of 2026-08-24):**
+- **Kim** — `Documents\Kim\` exists but isn't confirmed as the statements destination. Ask before filing anything of hers.
+- **BTTR** — `Documents\BTTR\` exists (bylaws, meeting logs, grant applications, a `Taxes BTTR 2025` folder) but has no clear statements location. Pete wants to design this deliberately, not have a folder created reflexively — flag any BTTR statement to him rather than filing it or creating a new folder.
+- **NTSG (New Hearts, Inc.)** — same situation: `Documents\New Hearts Inc\` holds Treasurer's Reports and QuickBooks backups, no clear statements location. Same hold-and-flag rule as BTTR.
+
 ---
 
 ## William's / Janet's (POA) — `Castellano Family Executor\WJC Statement Inbox\`
