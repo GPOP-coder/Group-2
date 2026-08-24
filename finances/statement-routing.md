@@ -15,13 +15,21 @@
 | Institution | Destination folder | Naming convention | Notes |
 |---|---|---|---|
 | NFCU (all Pete's personal accounts, incl. any CDs) | `Personal Finance\NFCU\Statements\` | `YYYY-MM-DD_STMSSCM.pdf` (bank's own export name, kept as-is) | Already has 2021–present statements filed this way; folder unambiguous, no need to ask. Combined-account statements stay as one file; a separate CD statement for the same month is just another dated file in this same folder — no per-account subfolder. |
-| Newrez (mortgage) | `Personal Finance\Newrez\Statements\` | TBD — check existing files before first new one | Folder exists; naming convention not yet confirmed. |
-| USSFCU | `Personal Finance\USSFCU\Statements\` | TBD | Folder exists but currently empty — confirm convention when first statement arrives. |
+| Newrez (mortgage) | `Personal Finance\Newrez\Statements\` | `YYYY-MM-DD Newrez Statement.pdf` | First statement filed 2026-08-24 (2022-11-17). |
+| USSFCU | `Personal Finance\USSFCU\Statements\` | `YYYY-MM-DD USSFCU Statement.pdf` | First statements filed 2026-08-24 (2022-12-31, 2023-06-30). |
+| MUD (Metropolitan Utilities District — gas/water, home) | `Personal Finance\MUD\` (new folder, 2026-08-24) | `YYYY-MM-DD MUD Statement.pdf` | New category: utility bills. 5 statements filed 2026-08-24 (2022-01 through 2023-07). |
+| OPPD (Omaha Public Power District — electric, home) | `Personal Finance\OPPD\` (new folder, 2026-08-24) | `YYYY-MM-DD OPPD Statement.pdf` | New category: utility bills. 4 statements filed 2026-08-24 (2022-11 through 2023-02). |
+| Think Aksarben LLC (medical billing, psychotherapy) | `Personal Finance\Think Aksarben\` (new folder, 2026-08-24) | `YYYY-MM-DD Think Aksarben Medical Bill.pdf` | New category: medical bills — sensitive (mental health billing). 2 bills filed 2026-08-24. |
+| Commerce Bank Health Services Financing (Kim's medical payment plan) | `Personal Finance\Commerce Bank\` (new folder, 2026-08-24) | `YYYY-MM-DD KC Commerce Bank Health Services Statement.pdf` | **Kim's accounts live under the same `Personal Finance\` root as Pete's** (confirmed 2026-08-24, resolves the earlier "hold" status) — same institution-first pattern, with a "KC" initial prefix (matching the WJC/JLC convention) so whose document it is stays clear at a glance. |
 
-**Not yet routed — ask when first statement for these arrives:** Bank of America (`BOA YYYY_MMDD.pdf` legacy naming — offer to standardize?), FNBO Checking / FNBO PWS Checking / FNBO VISA (`YYYY_MMDD FNB.pdf` legacy naming, three separate folders — confirm which account is which), Discover (stale, last file 2013 — confirm account still active), Ameritrade, Target Card, CitiCard, Venmo, PayPal, Wells Fargo (multiple sub-accounts: WF Active Cash Visa, WF PMA 5060, Wells Fargo Student Loan).
+**🔴 Hold in Inbox, need Pete's input before filing (as of 2026-08-24):**
+- **Bank of America, 2010-2011 batch (card ending 2562)** — confirmed this card replaced an older one (ending 8533) as of Nov 2010, same account. **Unconfirmed whether that same account continued into the account referenced in the existing `Bank of America\` folder's 2015 fraud letter (card ending 1828)**, or whether that's a distinct, later account — Pete's rule is "if distinctly different accounts, new folder," and this can't be resolved from the documents alone. Asked Pete 2026-08-24, awaiting answer.
+- **Discover, 2011 batch** — existing `Discover\` folder only has a 2013 personal check paying "Discover Card" (no account number on a check) — no way to confirm same-vs-different account from documents alone. Asked Pete 2026-08-24, awaiting answer.
+- Also sitting in the Inbox from this same batch, not yet looked at: two Discover files that aren't statements (`2011_0522 Discover Email Address.pdf`, `2011_0522 Discover Login.pdf` — account-setup related) and one with an uncertain date (`2011_10xx Discover.pdf`).
+
+**Not yet routed — ask when first statement for these arrives:** FNBO Checking / FNBO PWS Checking / FNBO VISA (`YYYY_MMDD FNB.pdf` legacy naming, three separate folders — confirm which account is which), Ameritrade, Target Card, CitiCard, Venmo, PayPal, Wells Fargo (multiple sub-accounts: WF Active Cash Visa, WF PMA 5060, Wells Fargo Student Loan).
 
 **🔴 Hold, don't file — no destination confirmed yet (as of 2026-08-24):**
-- **Kim** — `Documents\Kim\` exists but isn't confirmed as the statements destination. Ask before filing anything of hers.
 - **BTTR** — `Documents\BTTR\` exists (bylaws, meeting logs, grant applications, a `Taxes BTTR 2025` folder) but has no clear statements location. Pete wants to design this deliberately, not have a folder created reflexively — flag any BTTR statement to him rather than filing it or creating a new folder.
 - **NTSG (New Hearts, Inc.)** — same situation: `Documents\New Hearts Inc\` holds Treasurer's Reports and QuickBooks backups, no clear statements location. Same hold-and-flag rule as BTTR.
 
