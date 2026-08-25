@@ -33,9 +33,11 @@ property: 5577 North Shore Way, Pensacola FL
 | Item | Status |
 |---|---|
 | **Requirement** | Florida regulatory requirement (NEW in 2026) — Flood insurance must be in effect to renew Citizens Wind & Hail |
-| **Deadline** | **10/09/2026** |
-| **Options** | USAA Flood Insurance OR Neptune Flood Insurance (FEMA) |
-| **Action Required** | ✅ **TO-DO: Obtain flood insurance before 10/9/2026** |
+| **Deadline** | **10/09/2026** (45 days out as of 8/25/26) |
+| **Options** | FEMA (30-day waiting period, $250K ACV dwelling-only, $2,000 deductible, quote never came back) OR Neptune (10-day waiting period, $2,080.79–$2,189.73/yr, $250K ACV dwelling-only) |
+| **USAA Flood Contact** | Gabriel, (800) 531-8722 ext. 41586 |
+| **Action Required** | ✅ **TO-DO: Obtain flood insurance before 10/9/2026** — real internal deadline is earlier once waiting period is factored in (~9/9 for FEMA, ~9/29 for Neptune) |
+| **Contact Log** | Voicemail left for Gabriel 6/19/26 — no callback logged. Follow-up voicemail left 8/25/26 — awaiting callback. |
 
 ---
 
