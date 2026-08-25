@@ -20,7 +20,7 @@ Recurring bills per CLAUDE.md: ECUA, FPL, Cox, USAA Rental Property Insurance, C
 
 ## Notes
 
-- This entry (8/24/26) is off the usual 10th/11th cadence — logged as reported.
+- The 8/24/26 entry was a **catch-up payment** for bills missed on the normal cycle — not a cadence shift. The 10th/11th monthly cycle continues as the standard going forward (next regular due date: September 10th/11th, 2026).
 - Amounts and confirmation numbers to be filled in when Pete has them (receipt/statement, or Statement Inbox processing).
 - ECUA, FPL, and Cox transferred to renters (Hartlaubs) as of June 1, 2026 move-in — no longer Pete's monthly pay responsibility for Pensacola utilities.
 
