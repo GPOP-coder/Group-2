@@ -9,7 +9,7 @@
 
 ---
 
-**Subject:** *(not yet drafted — suggest something like "Unifocus Training — The Moran | Week of August 31, 2026")*
+**Subject:** Introduction for Unifocus Training for The Moran Hotel
 
 Hi Monica,
 
