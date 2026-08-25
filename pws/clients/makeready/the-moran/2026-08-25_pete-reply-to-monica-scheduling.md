@@ -29,6 +29,8 @@ Pete
 
 **Next:** Update the finalized training outline (`2026-08-25_training-outline-email-final.md`) once Monica responds and the actual Thu/Office-Hours shape is settled.
 
+**Note on "month-end" wording:** Initially flagged as circular since calendar month-end (8/31) is training week's start day. Pete corrected 8/25/26: in hotel Finance, "month-end" closing tasks run the **first week of the following month** — gathering financial reports for the management company and owners — not the literal last calendar day. So "closing next week" (Monica, 8/24) and "done by month-end" (Pete's question) both correctly refer to that first-week-of-September closing cycle. No wording issue.
+
 ---
 
 *© Peter A. Castellano. All rights reserved.*
