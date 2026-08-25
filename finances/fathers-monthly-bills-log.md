@@ -18,6 +18,10 @@ Recurring bills per CLAUDE.md: ECUA, FPL, Cox, USAA Rental Property Insurance, C
 
 ---
 
+## Future Direction
+
+Pete's stated intent (8/24/26): likely track Dad's accounts through **Quicken Simplifi** rather than (or alongside) this manual log, once set up. Simplifi currently covers Pete + Kim's household only (~10 years, migrated from Mint) — extending it to William's accounts is a probable but not-yet-decided direction. This manual log remains the record until that's built out.
+
 ## Notes
 
 - The 8/24/26 entry was a **catch-up payment** for bills missed on the normal cycle — not a cadence shift. The 10th/11th monthly cycle continues as the standard going forward (next regular due date: September 10th/11th, 2026).
