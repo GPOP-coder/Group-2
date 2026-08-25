@@ -27,6 +27,7 @@
 
 ## Open Items
 - [x] Hotel confirmed — Westin La Paloma, confirmation #1488816, COMP (room, tax, resort charge, parking, F&B no alcohol), Sun 8/16–Fri 8/21
-- [ ] Remaining meals — log as they come in
+- [ ] Remaining meals — log as they come in (still need: 8/21 Marczyk's DIA return lunch, $37.49, receipt in hand — Pete downloading receipt PDFs in one batch)
 - [x] Return flight — SW A9QZXC, TUS-DEN-OMA, Fri 8/21, departs TUS 11:40 AM (WN2406) → DEN 2:30 PM → departs DEN 3:15 PM (WN4717) → OMA 5:40 PM. Seats 19A/09D. $453.20, Visa ••••2674.
+- [x] OMA-side ground transport — none; Kim picked Pete up at OMA on return, no Uber/taxi expense
 - [ ] Expense report — build after trip
