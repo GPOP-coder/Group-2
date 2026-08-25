@@ -65,7 +65,8 @@ Last updated: 2026-07-07
 - [ ] **Northwestern Mutual — account connections** — Confirm accounts are connected / accessible
 - [ ] **Quicken Simplifi — confirm all accounts connected** — Audit that every account is linked and syncing
 - [ ] **Full financials on June 30 statements** — Review and reconcile June 30 statements across all accounts
-- [ ] **Emergency folder — Dad** — Assemble emergency document folder for William Castellano
+- [ ] **Emergency folder — Dad** — Assemble emergency document folder for William Castellano; hopefully long from now, but needed in the event of illness or passing
+- [ ] **Comprehensive accounting for Dad's accounts** — Full picture like Quicken Simplifi gives for Pete/Kim, not just a bill-payment log. Feeds the emergency folder above. See `finances/fathers-monthly-bills-log.md` (current manual record) and the Quicken Simplifi memory (tentative direction, not yet built).
 - [ ] **Emergency folder — us** — Assemble emergency document folder for Pete & Kim
 - [ ] **Cruise Medical Folder** — Prepare medical documentation folder for November MSC cruise
 - [ ] **Cruise suitcase** — Bring up from basement; prep for November MSC cruise (departs 11/29/26)
