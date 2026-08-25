@@ -39,6 +39,7 @@ property: 5577 North Shore Way, Pensacola FL
 | **Action Required** | ✅ **TO-DO: Obtain flood insurance before 10/9/2026** — real internal deadline is earlier once waiting period is factored in (~9/9 for FEMA, ~9/29 for Neptune) |
 | **Contact Log** | Voicemail left for Gabriel 6/19/26 — no callback logged. Follow-up voicemail left 8/25/26 — awaiting callback. Pete checked email 8/25/26: no message from FEMA Flood or USAA on this specific ask — but a **Neptune quote email was found**, sent 7/20/26 and previously untracked (see below). |
 | **Neptune Quote — FOUND 8/25/26** | Email from Neptune Flood (support@neptuneflood.com), Mon 7/20/26 11:22 AM. Quote #**FL6166A4E9L9VK**, created by agent "USAA Insurance Agency" for William. **"View Your Quote" link is broken/non-functional.** Next step: either reply to support@neptuneflood.com referencing the quote number for a working link/manual review, or contact the USAA agent (Gabriel) directly for the quote details — don't let the broken link stall this, the quote itself exists and just needs to be retrieved another way. |
+| **Plan (8/25/26)** | Pete is waiting to hear back from Gabriel. **If no callback, call/leave a message again every day this week (through Fri 8/28/26).** |
 
 ---
 

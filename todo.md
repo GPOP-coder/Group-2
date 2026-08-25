@@ -13,7 +13,7 @@ Last updated: 2026-07-07
 ## 🔴 Urgent / Deadline-Driven
 
 - [x] **URGENT: Nashville hotel booking** — ✅ Booked 7/12/26: The Nashville Reserve, 301 Rosa L Parks Ave, $694.05 (3 nights + tax), Visa -2785. See `travel/trips/2026-07-13_2026-07-16_nashville-hmalpha-training.md`.
-- [ ] **🚨 CRITICAL: Pensacola flood insurance** — Florida now requires flood insurance in effect by **10/09/2026** to renew Citizens Wind & Hail policy. Research USAA Flood vs. Neptune (FEMA) options, obtain quotes, activate by 10/9/26. **Deadline: 10/09/2026** (92 days)
+- [ ] **🚨 CRITICAL: Pensacola flood insurance** — Florida now requires flood insurance in effect by **10/09/2026** to renew Citizens Wind & Hail policy (45 days out as of 8/25/26). A **Neptune quote (#FL6166A4E9L9VK, 7/20/26) already exists** but its link is broken — need to retrieve via Gabriel (USAA flood agent) or support@neptuneflood.com. **8/25/26: waiting to hear from Gabriel — if no callback, call again daily through Fri 8/28/26.** See `finances/pensacola-property-insurance-log.md`.
 - [x] **Pensacola Citizens payment** — ✅ Paid 7/7/26 ($434.40); coverage 10/09/2025–10/09/2026
 - [x] **Mohonk UNIFOCUS-247559** — Verify Founders outlet shifts are actually generating in the live system — ✅ Confirmed 7/2/26 via admin login; Standard Hours generating correctly for all four Founders jobs
 - [ ] **Krispy Kreme settlement** — Search all inboxes for breach notice (Nov–Dec 2024). File claim at settlement website. **Deadline: June 26, 2026**
