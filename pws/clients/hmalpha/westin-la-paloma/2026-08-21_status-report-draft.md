@@ -55,7 +55,7 @@ Stable. Employee User Maps completed for the property's ~25–30 users, required
 Not yet a focus this visit — training centered on core scheduling and reporting workflows.
 
 **Standards Test**
-Not formally re-run against the 2026 budget this visit; the Front Desk Agent gap above was found through a budget-vs-standards comparison during office hours and is the most material finding of that kind this week. Recommend a fuller standards-to-budget pass at a future visit.
+A budget-vs-standards pass was completed as part of the required implementation steps, involving Charles James and Fabrizio Poli alongside the previous Director of Finance. The Front Desk Agent gap above was found through a follow-up budget-vs-standards comparison during office hours and is the most material finding of that kind this week. A full re-test against the 2026 budget isn't planned going forward; John Grech may spot-check select jobs against budget during the upcoming follow-up calls, time permitting.
 
 ---
 
