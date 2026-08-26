@@ -115,8 +115,9 @@
 - [ ] Confirm training room booked (classroom style, folding tables, HDMI, same room all 4 days)
 - [ ] Check back on Jannett Sanora's Admin Training attendance given HR staffing gap
 - [ ] Confirm new DOF's actual name (start date now confirmed: Sept 3, 2026) — update contacts.md
-- [ ] Revisit CI banquet import granularity (plated/buffet/continental/boxed) — no owner assigned yet
-- [ ] Arrivals/departures ProfitSword import still not populating reliably as of 8/17/26
+- [x] CI banquet import granularity (plated/buffet/continental/boxed) — **corrected 8/25/26 during status report review: appears to be mapped properly, forecast and actuals both populating.** Original 8/17 finding was wrong/stale; removed from the status report.
+- [x] Arrivals/departures ProfitSword import (forecast side) — **confirmed live 8/21/26 via the Rooms Forecast edit audit log**: staff (Rick Newman) manually entering Hotel Rooms/Arrivals/Guests values for upcoming planning weeks into what should auto-populate from ProfitSword. Real finding, needs investigation on the ProfitSword feed side — kept in the status report.
+- [ ] **Departures KBI (actuals side) — found carrying a stray direct ProfitSword mapping** (should always be system-calculated, never mapped). Pete unmapped it 8/25/26. **Reminder: check tomorrow (8/26/26) that Departures is calculating correctly on its own.**
 - [ ] **🔴 CI unmapped booking-type gap (found 8/19/26)** — determine real exposure by pulling a full year of CI BEO history and checking for "Multi Year," "Rooms Only," or other unrecognized booking-type values; map any genuinely-used ones. See Wed PM session file §1.
 - [ ] Thursday 8/20 office hours — Peggy/Charles to book Pete's open day with departments needing standards follow-up; no fixed session times set as of 8/19/26 evening
 - [ ] Employee Reconcile errors + recently-discovered Hours import errors — likely mapping issues; work with Peggy and/or Jannett, not yet diagnosed
