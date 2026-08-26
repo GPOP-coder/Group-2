@@ -52,7 +52,7 @@ Standard weekly timeline confirmed; Rooms labor meeting set for Tuesdays 2pm, F&
 Stable. Employee User Maps completed for the property's ~25–30 users, required for Schedule Editor and mobile access.
 
 **Unifocus Mobile App**
-Not yet a focus this visit — training centered on core scheduling and reporting workflows.
+Not in use. We encourage using the mobile application once schedules are reliably in Unifocus and ready to publish every Wednesday.
 
 **Standards Test**
 - A budget-vs-standards pass was completed as a required part of the implementation, involving Charles James and Fabrizio Poli alongside the previous Director of Finance. This was not a formal sign-off, but the required BLSBD process.
