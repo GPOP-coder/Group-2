@@ -1,8 +1,14 @@
 # Pete Castellano — To Do
 
-Last updated: 2026-07-07
+Last updated: 2026-08-26
 
 ---
+
+## Today — 2026-08-26
+
+- [ ] **Westin La Paloma expense report** — build once the last receipt (8/21 Marczyk's DIA return lunch, $37.49) is archived. See `travel/trips/2026-08-16_2026-08-21_westin-la-paloma-receipt-log.md`.
+- [ ] **Follow up on unpaid Unifocus invoice** — UF20260813PAC ($4,638.50, sent 8/14/26 to Shilpa) not yet paid. Next invoice due ~8/31/26 (last-day-of-month deadline) — check payment status before/while sending the next one. See `pws/billing/kb.md` Invoice History.
+- [ ] **Distribute the paid Mohonk expense report** — ER (`travel/trips/2026-08-02_2026-08-09_mohonk-expense-report.xlsx`) is fully built, all 19 line items documented, and now paid. Confirm what "distribute" means here (file to Unifocus Contractor folder? build the receipt packet? send to someone specific?) before acting.
 
 ## Today — 2026-08-01
 
