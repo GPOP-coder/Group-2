@@ -2,14 +2,14 @@
 
 # Westin La Paloma — Planning & Scheduling Status Report (Draft)
 
-**Modeled on the standard Unifocus P&S Status Report format** (see [InterContinental New Orleans](../intercontinental-new-orleans/2026-07-09_status-report.md) for the sent reference, and [Mohonk client-ready](../../mohonk/2026-08-20_status-letter-client-ready.md) for the most recent formatting pass). **Status: synced 8/26/26 to match the Word doc** (`Unifocus Status Letter - HM Alpha WLP 2026-08-21 C.pdf`, second pass) — mirrors the current draft, but **not ready to send** until the Work Records contradiction flagged below is resolved.
+**Modeled on the standard Unifocus P&S Status Report format** (see [InterContinental New Orleans](../intercontinental-new-orleans/2026-07-09_status-report.md) for the sent reference, and [Mohonk client-ready](../../mohonk/2026-08-20_status-letter-client-ready.md) for the most recent formatting pass). **Status: synced 8/26/26 to match the Word doc** (`Unifocus Status Letter - HM Alpha WLP 2026-08-21 C.pdf`, third pass) — the Work Records contradiction from the prior pass is resolved (redundant Configuration bullet removed). Ready to send pending Pete's final read and Customer Sign Off.
 
 **Editorial notes (do not paste into the form):**
 - **DOF start date is not a blocker.** Per Pete: the incoming DOF starts mid-budget season with a steep learning curve, so Unifocus won't be an immediate priority for her — Peggy, Charles, and Jannett cover go-live and follow-up in the meantime. Distribution list uses **Peggy Taylor** as the finance contact accordingly. Added a closing line inviting the property to loop in the new DOF and Hotel Manager once they're ready, rather than chasing a firm date.
 - **Distribution list is a proposal, not confirmed.** Modeled on the InterCon NOLA / Union Station pattern (property leadership + HM Alpha corporate + Unifocus internal). Add/drop per your read of who should see this.
 - **Left out as internal-only, not client-facing status:** Peggy Taylor's discomfort at being treated as the primary property contact while no permanent DOF is seated; the Hotel Manager's departure/promotion to GM at Hilton Scottsdale and any resulting staffing-coverage detail; HMAlpha/SWVP ownership-structure background. None of it changes the P&S project status and all of it is either personnel-sensitive or not this report's business.
 - **Status/Trend indicators confirmed by Pete** — 🟢 On Target / ⬆ Improved stands.
-- **⚠️ Open contradiction, version C (8/26/26):** the Interfaces detail paragraph now says "All contract staff is now using WorkRecords to clock-in" (resolved, present tense), but Planning Going Forward → Configuration still lists getting Country Club contract staff onto Work Records as an open action item. Confirm which is accurate — has this actually been verified fixed, or is it "mandate issued, not yet confirmed compliant"? — before sending.
+- **✅ Resolved (8/26/26):** the Work Records contradiction between "All contract staff is now using WorkRecords to clock-in" and an open Configuration action item is fixed — Pete removed the now-redundant Configuration bullet.
 
 ---
 
@@ -72,7 +72,6 @@ Not in use.
 **Configuration**
 - Build the Country Club public space labor standards into the Public Area job, separate from the Work Records feed issue below.
 - Resolve the Work Records mapping for House Attendant, Public Area, and Banquet Server contract-labor hours.
-- Public Area specifically needs the contract staff covering the country club to use Work Records, perhaps in a separate job code, replacing the current manual journal-entry workaround.
 - Rebuild the Housekeeping Runner standard against actual daily staffing (4–6 vs. current flat 1/day). Find other offsets to meet budget.
 - Remove the stale "Supervisor" job code from the Employee Reconcile feed.
 - Add a property-wide Hours Distribution overtime rule.
