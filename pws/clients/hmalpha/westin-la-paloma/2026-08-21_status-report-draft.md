@@ -55,7 +55,8 @@ Stable. Employee User Maps completed for the property's ~25–30 users, required
 Not yet a focus this visit — training centered on core scheduling and reporting workflows.
 
 **Standards Test**
-A budget-vs-standards pass was completed as part of the required implementation steps, involving Charles James and Fabrizio Poli alongside the previous Director of Finance. The Front Desk Agent gap above was found through a follow-up budget-vs-standards comparison during office hours and is the most material finding of that kind this week. A full re-test against the 2026 budget isn't planned going forward; John Grech may spot-check select jobs against budget during the upcoming follow-up calls, time permitting.
+- A budget-vs-standards pass was completed as a required part of the implementation, involving Charles James and Fabrizio Poli alongside the previous Director of Finance. This was not a formal sign-off, but the required BLSBD process.
+- The Front Desk Agent gap above was found through a follow-up budget-vs-standards comparison during office hours. A full re-test against the 2026 budget isn't planned. We may be able to spot-check select jobs against budget during the upcoming follow-up calls, time permitting.
 
 ---
 
