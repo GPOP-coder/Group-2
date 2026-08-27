@@ -7,6 +7,7 @@ Last updated: 2026-08-27
 ## Today — 2026-08-27
 
 - [ ] **🔴 URGENT: The Moran schedule still not locked down** — arrival Sunday 8/30, only 3 days out. No reply from Monica Brock since 8/25. Urgent follow-up drafted, not sent yet: `pws/clients/makeready/the-moran/2026-08-27_urgent-follow-up-to-monica.md`. Blocking: training schedule, staff invite email, meeting space, guest room reservation.
+- [ ] **Clockify today's time** — Westin La Paloma call + extended talk with John Grech, HM Alpha, Moran training intro work, San Diego (Marriott Del Mar prep).
 
 ## Today — 2026-08-26
 
