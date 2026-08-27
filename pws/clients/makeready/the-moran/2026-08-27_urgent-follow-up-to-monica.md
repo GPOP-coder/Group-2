@@ -2,7 +2,7 @@
 
 # The Moran — Urgent Follow-Up to Monica Brock
 
-**Status:** Drafted 8/27/26, **not sent yet.**
+**Status:** ✅ **Sent 8/27/26, 5:43 PM CT** (confirmed via Sent Items — subject "RE: Unifocus Training - Makeready - The Moran Hotel"). Went to the full thread: **Monica Brock, Robbie Nasser, Michelle Lewis, Ralph Varble, and Steve Carrell** — not Monica alone, since it replied on the original thread. Awaiting reply. (Note: an earlier mailbox check that day returned a different — apparently stale — timestamp of 3:22 PM with only Monica shown as recipient; the Sent Items copy above is the authoritative record.)
 
 **Why urgent:** No reply from Monica since Pete's scheduling-conflict response on 8/25/26 (`2026-08-25_pete-reply-to-monica-scheduling.md`, which offered to move Admin training to Thursday and repurpose Monday for a short alignment call). Training week starts with Pete's arrival **Sunday 8/30/26** — only 3 days out from this draft. Nothing has been locked down yet: no confirmed schedule, no property-side training invite sent to staff, no confirmed meeting space, no confirmed guest room.
 
