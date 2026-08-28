@@ -59,16 +59,23 @@ location: Yoga (Pensacola)
 
 **Update 7/17/26:** Board also authorized Pete Castellano and David Dover to make changes on BTTR's investment accounts at First National Bank (Karen's motion, carried) — resolves the "negotiate better investment account access" item below. Full minutes: `BTTR/2026-07-17_board-meeting-minutes.md`.
 
+**Update 8/28/26 — real progress, several open items closed out:**
+- **David Dover signed up at FNBO this afternoon** to join the BTTR accounts. One signature still needed from Karen Bluvas — Pete connected David directly with Karen, and David will handle getting that signature himself.
+- **Online banking setup submitted earlier this week** — application is in, still awaiting institution approval (someone at FNBO has to sign off on it).
+- **2025 tax documents delivered to Cathie Kellogg CPA** — while at FNBO earlier this week, Pete pulled all of BTTR's 2025 checking and money market statements, went through Gayle Malmquist's archived documents *(voice-memo said "Gale stuff" — inferred as Gayle Malmquist's archive per this file's earlier note about her documents; confirm if that's not right)* plus material from Karen, and located the investment account's single annual statement. All of it has now been hand-delivered to Cathie Kellogg. **This resolves the "confirm documents delivered to accountant" and "confirm accountant has sufficient documents" action items below** — accountant now has what's needed to complete the 2025 return.
+- Pete's own framing: "Back to the river is kind of tucked away for a while" — the active banking/tax-document push is essentially done for now.
+
 ---
 
 ## Action Items (To-Do)
 
 - [ ] Add Karen Bluvas to BTTR FNBO online account
-- [ ] Add David Dover to BTTR FNBO online account — board-approved 7/17/26, ready to proceed
+- [x] Add David Dover to BTTR FNBO online account — ✅ David signed up in person 8/28/26; one signature still needed from Karen, David handling directly with her
 - [ ] Add Michelle Foss to BTTR FNBO online account
 - [ ] Follow up with Karen on investment account access status
-- [ ] Confirm Karen has delivered documents to accountant
-- [ ] Confirm accountant has sufficient documents to complete taxes
+- [x] Confirm Karen has delivered documents to accountant — ✅ Pete delivered directly instead (2025 checking/money market statements + investment account annual statement) to Cathie Kellogg, 8/28/26
+- [x] Confirm accountant has sufficient documents to complete taxes — ✅ Full 2025 document set now with Cathie Kellogg as of 8/28/26
+- [ ] Online banking application — submitted earlier the week of 8/28/26, awaiting FNBO approval
 
 ---
 
