@@ -4,6 +4,8 @@
 
 **Context:** Pete is talking with Ralph Varble on 8/28/26 (Ralph's last Friday before his 8/31/26 departure from Unifocus) to capture institutional knowledge before he leaves — starting with the Rockbridge/MakeReady relationship. This file is research pulled ahead of that conversation (via mailbox/SharePoint search + public sources), not yet discussed with Ralph.
 
+**Direct tie to The Moran:** feeds the open "Rockbridge-ownership accountability hook" question in `pws/clients/makeready/the-moran/2026-08-25_call-notes-steve-carrell.md` — the working idea that a real reporting requirement flowing down from Rockbridge ownership could be a stronger motivator for property/MakeReady buy-in than corporate pressure alone.
+
 ---
 
 ## Tom Healy — Who He Is

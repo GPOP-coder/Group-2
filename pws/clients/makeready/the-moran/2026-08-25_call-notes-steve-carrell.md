@@ -32,8 +32,12 @@ Announced 8/25/26 — same day as this call. Ralph's last day is the same day Pe
 
 **Working idea, not yet confirmed with Pete — worth testing against what he actually knows about the relationship:** MakeReady manages The Moran on behalf of **Rockbridge** (the ownership group, per the existing MakeReady portfolio context — Moran, Heathman, Greenleigh). Ownership groups typically care *more* than a management company does about standardized, comparable labor reporting across their portfolio, for their own asset-management and investor-reporting purposes — that's often a stronger, harder-to-dismiss motivator than "corporate wants you to." If there's a real reporting requirement or expectation flowing down from Rockbridge specifically, that could be the concrete hook — worth Pete confirming whether that's actually true here, since this is inference from the known ownership structure, not something confirmed on the call.
 
+## Rockbridge/Tom Healy background (8/28/26)
+
+Pete pulled background on Rockbridge and Tom Healy (President/COO, Rockbridge Hospitality & Bridgepoint Hospitality) ahead of a knowledge-capture conversation with Ralph on his last Friday before departing — see `pws/clients/makeready/2026-08-28_rockbridge-tom-healy-background.md`. Directly relevant to the accountability-hook question below: Rockbridge is a large, old, high-trust Unifocus relationship (handshake-level, tracing to Ralph and former exec Ken Heymann) spanning far more brands than just MakeReady. Doesn't yet confirm whether Rockbridge specifically drives a labor-reporting requirement down to MakeReady properties — that's still the open question — but confirms Rockbridge itself is a real, serious relationship worth testing the hook against.
+
 ## Open items from this call
-- [ ] Confirm whether the Rockbridge-ownership accountability hook above is real/usable, or find a different one
+- [ ] Confirm whether the Rockbridge-ownership accountability hook above is real/usable, or find a different one — see Rockbridge/Tom Healy background above for relevant context gathered so far
 - [ ] Decide whether/how to escalate the MakeReady risk signal (complicated now that Ralph, the likely internal champion for this, is leaving)
 - [ ] Property contacts (GM, DOF, HR or equivalent) — not yet in the repo for this property, needed to actually send the invite
 - [ ] Confirm training structure/timing for the week (Admin/Manager session split, exact days — following the HMAlpha 4-day pattern, or something simpler given config already happened as a separate week here)
