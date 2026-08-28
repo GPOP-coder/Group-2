@@ -4,7 +4,7 @@
 
 **Date:** August 27, 2026, 2:30–3:15 PM CT
 **Context:** Regular recurring Unifocus/HMAlpha coordination call. **This is Ralph Varble's last HMAlpha Project Update call** — his resignation from Unifocus is effective 8/31/26, and this call was used to formally hand the property/portfolio relationship off to Alain Derderian.
-**Source:** Two sources merged — (1) Teams auto-transcript (Alain started it; large gap, roughly minute 4 through minute 47, missing) and (2) Pete's own Plaud recording, which captured audio from ~48:36–51:39 (Pete was on a separate call for part of this meeting, so Plaud has its own gaps too, but its diarized "Speaker" labels overlap and cross-confirm the Teams transcript's closing content, plus add real new material Teams didn't capture). Plaud's speaker labels resolved: **Speaker 1 = Devon Peters, Speaker 2 = Ralph Varble, Speaker 6 = Alain Derderian** (confirmed by Pete 8/27/26 — Plaud's transcription of "Alain" as "Rolan" in Speaker 2's dialogue was an ASR mishearing, not a different person). Substantive property-by-property status from the still-missing bulk of the call is not captured in either source.
+**Source:** Teams auto-transcript, pasted by Pete in two passes (the second pass replaced an initial cross-check against Pete's own Plaud recording, which had the same content but garbled some names — "Ralph" heard as "Bob," "Alain" heard as "Rolan" — since Pete's phone rang during the meeting, muted on Teams but still audible to Plaud's local mic, degrading its accuracy for that stretch; Teams' own transcript doesn't have that problem). **Still missing: roughly 1:39 to 44:54** — the actual property-by-property status content that would normally fill this call's "Scheduling Updates" section (per the 8/20 call's format) is not yet captured in what Pete has pasted.
 
 ---
 
@@ -31,21 +31,23 @@
 - **Administrative handoff confirmed:** Ralph will take down the current recurring meeting invite (his own) **around Monday** to avoid confusion; Alain will send a new recurring invite so HMAlpha only has one to track going forward.
 - Ralph, on staying reachable post-departure: "I'm distance wise, I'm not moving that far away, maybe 12 miles away... so he can reach me if he needs me for something." *(Ambiguous — could mean a personal/office relocation rather than fully exiting Unifocus's orbit; worth clarifying if it comes up again, not assumed here.)*
 
-### Alain's own remarks (Plaud, ~48:36–50:23) — real org-chart clarification
+### Alain's own remarks (Teams, ~45:24–47:23) — real org-chart clarification
 
-- **"Most of the all the consultants actually report into me."** Alain is apparently the manager the entire Unifocus consultant team (Ralph, Akram, John Grech, Taylor Walton, Steve Carrell, etc.) reports up through — a broader role than just "new HMAlpha contact." Consistent with his title, Director of Operations, Workforce Performance.
-- Says he's "been on these calls in the background here and there" for visibility, but **"now I'll be more directly involved"** now that Ralph is leaving.
-- **Was on PTO for the past two weeks**, returning to the office **Monday 8/31/26** — the same day Ralph's last day is. Has **a call scheduled with Ralph on Monday** "to tie any loose knots and bows."
-- To Devon: **"keep me cc'd on everything and bring the communication to me"** — an explicit ask to route communication through him going forward.
-- Stated leadership style: "the consultant team is the bulk of knowledge, they're the subject matter experts, they'll lead as they always have — I'll be here to support from a leadership perspective." Thanked Ralph directly: "I couldn't do without you... you're setting this up... I can piggyback off of this and ensure it's on autopilot."
+Devon first confirmed Alain's name pronunciation live ("Is it Alain?... Alain, nice to meet you"), then Alain spoke at length:
+
+- **"Most of the, all the consultants actually report into me."** Alain is apparently the manager the entire Unifocus consultant team (Ralph, Akram, John Grech, Taylor Walton, Steve Carrell, etc.) reports up through — a broader role than just "new HMAlpha contact." Consistent with his title, Director of Operations, Workforce Performance.
+- Says he's "been on these calls in the background here and there" for visibility ("as Ralph said"), but **"now I'll be more directly involved"** now that Ralph is leaving. "I can piggyback off of this and ensure it's on autopilot at this point. So I'll be here to steer the ship."
+- **Was on PTO for the past two weeks**, returning to the office **Monday 8/31/26** — the same day Ralph's last day is. Has **a call scheduled with Ralph [Monday]** "to tie any loose knots and bows." Plans to spend next week "updating, getting myself up to date on everything HM Alpha."
+- To Devon: **"keep me CC'd on everything and bring the communication to me"** — an explicit ask to route communication through him going forward.
+- Stated leadership style: "the team, the consultant team is the bulk of knowledge. They're the subject matter experts. They'll be the one leading, as they always have been, and I'll be here to support from a leadership perspective." Thanked Ralph directly: "I couldn't do it without you... I can't pretend to have the years of experience and knowledge you have."
 - **Relevant to the PWS-opportunity thesis** ([[project_unifocus_contract_review]]): Alain's hands-off, "autopilot," support-only framing is consistent with Pete's read that Unifocus leadership isn't planning to closely manage the post-Ralph transition — reinforces rather than undercuts the "HMAlpha will end up wanting more direct attention" theory. Also useful practically: Alain is now both the HMAlpha point of contact **and** the person the whole consultant team reports to — a real, known, high-leverage relationship for Pete to have going forward.
 
 ---
 
-## Status Snippets (from the captured opening, before the transcript gap)
+## Status Snippets
 
 - **Westin La Paloma:** "done and starting its post-go-live follow-ups."
-- **"The big Hyatt" — next up "next week."** ⚠️ **This doesn't line up with the already-confirmed Grand Hyatt Nashville date of Sep 28–Oct 2, 2026.** "Next week" from this call (8/27) would be ~Sep 1–5. Could mean a kickoff/admin step distinct from Pete's onsite training week (same ambiguity flagged on the 8/20 call re: "a week from Monday") — **don't treat as a schedule change without confirming with Ralph or Alain directly.**
+- **"The big Hyatt" — next up "next week."** Likely resolved by a separate clue from the closing (~44:58): Ralph told the group to "drink a toast of Dolly Parton next week when **Taylor and Steve** are there," and Devon's reply referenced Nashville billboards — strongly suggesting **Taylor Walton and Steve Carrell are doing Grand Hyatt Nashville config/kickoff work the week of ~Sep 1–5**, separate from Pete's already-confirmed **training week of Sep 28–Oct 2**. This matches the standard pattern elsewhere (Steve configures first, trainer visits weeks later — e.g., DoubleTree Sunrise). Not 100% confirmed, but the two "next week"/Nashville references across this call and the 8/20 call now point the same direction — treat Sep 28–Oct 2 as still correct for Pete's own visit.
 - Ralph's framing: once Grand Hyatt is done, "the rest of this is going to be pretty straightforward... we've done a lot of the hardest parts already."
 - Unifocus's own internal budget season is now in full swing (parallel small-talk context, not HMAlpha-specific) — relevant backdrop for why availability may get tighter Sept–Oct portfolio-wide, on both the property side and Unifocus's own internal side.
 
@@ -53,8 +55,8 @@
 
 ## Open Items
 
-- [ ] **Missing ~43 minutes of this call's actual content** — ask Pete whether a fuller transcript/recording exists, since the substantive property updates (whatever would normally fill the "Scheduling Updates" / property-by-property sections, per the 8/20 call's format) aren't captured here.
-- [ ] **Confirm what "the big Hyatt... next week" refers to** against the tracked Sep 28–Oct 2, 2026 Grand Hyatt Nashville date — likely an earlier step, not a schedule change, but unconfirmed.
+- [ ] **Still missing ~1:39–44:54 of this call's actual content** — the substantive property-by-property updates aren't captured in either source Pete has pulled so far. Worth pulling from Teams if Pete wants the full picture.
+- [x] **"The big Hyatt... next week"** — likely resolved: Taylor Walton + Steve Carrell doing Grand Hyatt Nashville config week of ~Sep 1–5, distinct from Pete's Sep 28–Oct 2 training week. Not 100% confirmed but consistent across two calls now.
 - [x] **Alain Derderian confirmed as primary HMAlpha contact going forward** — and, per his own remarks, also the manager the whole consultant team reports to. Contact info captured above.
 - [ ] **What did Ralph ask Pete not to raise at the start of the call?** Not captured — worth knowing for context, not necessarily worth pursuing.
 
