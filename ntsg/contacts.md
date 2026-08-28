@@ -24,6 +24,7 @@ Last updated: 2026-06-10
 ### Notes
 
 - Kim Castellano is the listed Treasurer; Pete Castellano is de facto Treasurer (handles all financial responsibilities)
+- **8/27/26:** Pete gave Missy McCool (President) the checkbook and credit card for the NTSG accounts.
 - **Registered Agent:** Registered Agent Solutions, Inc. (RASi) — account setup complete 2026-06-10
   - Main site: https://rasi.com
   - Compliance portal: https://rasi.corpliance.com/
