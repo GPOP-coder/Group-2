@@ -26,14 +26,14 @@ Pete
 - [x] **Meeting space confirmed** — "was able to move some things around to accommodate."
 - [x] **Guest room reservation confirmed** — Confirmation #597847795, MORAN, Castellano P, Arrival Sun 8/30/26, Departure Fri 9/4/26 (5 nights). Room not yet assigned ("Assign Room" placeholder).
 - [x] **Manager sign-up sheet shared** (Unifocus Meetings Sign-Up Workbook.xlsx) — 3 of ~5 expected managers signed up so far: Denise Cesena (P&C) Tue 9/1 2pm, Celeste Tidwell (Sales) Tue 9/1 3pm, Ryan Kerkemeyer Thu 9/3 12pm.
-- [ ] **Admin training (2× 3-hour blocks) still not scheduled.** Monday 8/31 shows fully blocked on the sheet — Pete asked Monica directly whether that's intentionally being held for her own training before month-end starts, or genuinely unavailable. Alternative floated: Wednesday (all day open) or split Wednesday/Thursday. **Ambiguity flagged 8/28/26:** Thursday afternoon's actual availability is unclear from the screenshot — Pete's draft assumes it's open, worth confirming against the live spreadsheet before relying on it.
+- [ ] **Admin training (2× 3-hour blocks) still not scheduled.** Monday 8/31 shows fully blocked on the sheet — Pete asked Monica directly whether that's intentionally being held for her own training before month-end starts, or genuinely unavailable. Alternative floated: Wednesday (all day open) or split Wednesday/Thursday. Thursday afternoon **confirmed open** by Pete against the live spreadsheet 8/28/26 (screenshot ambiguity resolved).
 - [ ] **Training outline email to property staff** — still hasn't gone out to the ~5 users per Pete's question to Monica ("Did you send out the training introduction... I want to make sure they see the videos"). Not yet confirmed either way.
 - [ ] **Backup/second admin person** — Pete asked Monica to designate one; not yet answered.
-- [ ] Pete's reply (drafted 8/28/26, not yet confirmed sent) covers all of the above — see full text below.
+- [x] **Pete's reply sent 8/28/26, 6:54 PM CT** (confirmed via Sent Items) to the full thread — Monica, Robbie, Michelle, Ralph, Steve. Covers all of the above — see full text below. Awaiting Monica's response.
 
 ---
 
-## Pete's reply (drafted 8/28/26)
+## Pete's reply (sent 8/28/26, 6:54 PM CT — grammar fix applied before sending)
 
 Hi Monica,
 
@@ -43,7 +43,7 @@ Did you send out the training introduction to all the Unifocus users? I want to 
 
 We need to reserve time for your system administration training. It requires two three-hour blocks. I see Monday is blocked on the schedule. Did you intend to save Monday for your training before month-end begins? Alternatively later in the week, it looks like the signup sheet has all day Wednesday plus Thursday afternoon open. We can do both sessions on Wednesday, or split the sessions between the two days. What works best for you?
 
-We also encourage you designate a back up person and take advantage of this training opportunity. Is there anyone else you want to train to help you with the system?
+We also encourage you to designate a backup person and take advantage of this training opportunity. Is there anyone else you want to train to help you with the system?
 
 Thanks for the reservation. I look forward to seeing the property and working with your staff. I hope we can connect, even for a few minutes on Monday.
 

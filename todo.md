@@ -6,7 +6,7 @@ Last updated: 2026-08-27
 
 ## Today — 2026-08-27
 
-- [ ] **The Moran — Monica replied 8/28/26.** Meeting space + guest room confirmed (#597847795, Sun 8/30–Fri 9/4). 3 of ~5 managers signed up so far. **Still open: Admin training (2×3hr) not scheduled** — Monday looks blocked (possibly for Monica's own use), Wed/Thu floated as alternatives. Pete's reply drafted, not yet confirmed sent. See `pws/clients/makeready/the-moran/2026-08-27_urgent-follow-up-to-monica.md`.
+- [ ] **The Moran — awaiting Monica's response to Pete's 8/28/26 6:54 PM reply.** Meeting space + guest room confirmed (#597847795, Sun 8/30–Fri 9/4). 3 of ~5 managers signed up so far. **Still open: Admin training (2×3hr) not scheduled** — Monday looks blocked (possibly for Monica's own use), Wed (all day) / Thu afternoon confirmed open as alternatives. See `pws/clients/makeready/the-moran/2026-08-27_urgent-follow-up-to-monica.md`.
 - [ ] **Clockify today's time** — Westin La Paloma call + extended talk with John Grech, HM Alpha, Moran training intro work, San Diego (Marriott Del Mar prep).
 
 ## Today — 2026-08-26
