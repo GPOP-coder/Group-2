@@ -799,7 +799,21 @@ Not every entry needs every field — most personal receipts (gas, groceries) wi
 **Business Context:** Personal
 **Source Filename:** 2026-02-17 Tommy Bahama.pdf
 **Source:** Receipt
-**Notes:** 70% off outlet sale ($89.60 savings)
+**Notes:** 70% off outlet sale ($89.60 savings). Personal Palm Springs trip bolted onto the end of the Rosewood Miramar Beach (Montecito) Unifocus onsite (Feb 16–20, 2026) — see `pws/clients/rosewood-miramar/kb.md`.
+
+---
+
+## 2026-02-24
+
+**Time:** 11:27 AM
+**Place:** Cactus to Clouds #1446 (Paradies Lagardere), Table 5-1
+**Amount:** $29.01 ($24.01 + $5.00 tip)
+**Payment Method:** Visa Debit -8289
+**Reference/Confirmation #:** Chk 10008, Auth Code 013791
+**Business Context:** Personal
+**Source Filename:** 2026-02-24 Cactus to Clouds.pdf
+**Source:** Receipt
+**Notes:** Chips & salsa + 2 Diet Pepsi, split "Divided by 2" on the receipt (one of two diners paid). Confirmed (Pete, 8/28/26): personal Palm Springs trip bolted onto the end of the Rosewood Miramar Beach (Montecito) Unifocus onsite, Feb 16–20, 2026 — likely Palm Springs Airport on departure (Paradies Lagardere is an airport concessionaire). Scanned to Inbox Receipts 8/23/26, six months after the transaction.
 
 ---
 
@@ -1935,5 +1949,19 @@ Not every entry needs every field — most personal receipts (gas, groceries) wi
 **Business Context:** Personal
 **Source Filename:** 2026-07-22 McDonald's Omaha.pdf
 **Source:** Receipt
+
+---
+
+## 2026-08-21
+
+**Time:** 2:56 PM
+**Place:** Marczyk's Fine Foods @ DIA, Denver International Airport (DEN layover, return leg)
+**Amount:** $37.49 ($32.92 + $4.57 tip)
+**Payment Method:** Visa -2674 Southwest Rapid Rewards Plus
+**Reference/Confirmation #:** Invoice 480400338, Approval Code 09382D
+**Business Context:** PWS
+**Source Filename:** 2026-08-21 Marczyks DIA Westin La Paloma.jpeg
+**Source:** Receipt
+**Notes:** HMAlpha/Westin La Paloma onsite training trip, TUS-DEN-OMA return leg. Already logged in travel/trips/2026-08-16_2026-08-21_westin-la-paloma-receipt-log.md and the expense report xlsx — this is the receipt that was "in hand" but not yet archived; now confirmed filed.
 
 ---

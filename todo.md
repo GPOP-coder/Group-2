@@ -11,7 +11,7 @@ Last updated: 2026-08-27
 
 ## Today — 2026-08-26
 
-- [ ] **Westin La Paloma expense report** — build once the last receipt (8/21 Marczyk's DIA return lunch, $37.49) is archived. See `travel/trips/2026-08-16_2026-08-21_westin-la-paloma-receipt-log.md`.
+- [ ] **Westin La Paloma expense report — built 8/28/26**, `travel/trips/2026-08-16_2026-08-21_westin-la-paloma-expense-report.xlsx`, total $1,096.64 (2 flights + 2 Marczyk's DIA lunches + 1 Uber, all Visa ••••2674, billed to HM Alpha - Onsite Training Westin La Paloma; hotel excluded, comped). All receipts now archived (8/21 Marczyk's confirmed 8/28/26). **Ready to submit to Ralph Varble** — pending Pete's review/go-ahead. See `travel/trips/2026-08-16_2026-08-21_westin-la-paloma-receipt-log.md`.
 - [ ] **Follow up on unpaid Unifocus invoice** — UF20260813PAC ($4,638.50, sent 8/14/26 to Shilpa) not yet paid. Next invoice due ~8/31/26 (last-day-of-month deadline) — check payment status before/while sending the next one. See `pws/billing/kb.md` Invoice History.
 - [ ] **Mohonk ER fund distribution — breakdown built 8/26/26, needs your review.** Full by-card breakdown in `travel/trips/2026-08-02_2026-08-07_mohonk-receipt-log.md` ("Fund Distribution" section): $2,392.63 to Visa ••••2674, $19.85 to ••••8289, $4.77 to ••••7552, $34.50 to Brian Brazeal. **One open question: $28.85 (Tallow comp-value gap between billed and actually-charged) has no card to return to — your call what to do with it.**
 
