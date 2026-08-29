@@ -19,14 +19,15 @@ $yellow    = [long]0xFFFF99
 # =====================================================================
 # Known data (trip 8/16-8/21/26; hotel comped by property, not on this ER;
 # no OMA-side ground transport - Kim picked up on return)
-# Date, Amount, ExchRate, Paid by, Details, Category, Billable/UF, Charge Code
+# Date, Amount, ExchRate, Paid by, Details, Category, Billable/UF, Charge Code, Charge Source
 # =====================================================================
 $knownRows = @(
-    @("8/16/2026", 528.20, 1.00, "PERSONAL", "SW OMA-DEN-TUS (BQR3JN): OMA dep 1:15pm (WN1511) - DEN 1:50pm - DEN dep 5:25pm (WN4214) - TUS 6:25pm, seats 22A/26F; Visa -2674", "Air Fare", "HM Alpha - Onsite Training Westin La Paloma", ""),
-    @("8/16/2026",  31.02, 1.00, "PERSONAL", "Marczyk's Fine Foods, Denver Airport (DEN layover, outbound) - lunch; Visa -2674", "Lunch", "HM Alpha - Onsite Training Westin La Paloma", ""),
-    @("8/16/2026",  46.73, 1.00, "PERSONAL", "Uber (driver Clark), TUS Airport -> Westin La Paloma, 16.63 mi/36 min - UberX $29.89 + Airport Surcharge $4.00 + Booking Fee $5.05 + tip $7.79; Visa -2674", "Taxi/Train/Bus", "HM Alpha - Onsite Training Westin La Paloma", ""),
-    @("8/21/2026",  37.49, 1.00, "PERSONAL", "Marczyk's Fine Foods, Denver Airport (DEN layover, return) - lunch: Mediterranean Chicken Wrap, Genoa/Prosciutto Snack Pack, Marion Milk Choco Sea Salt, Essentia Water; Visa -2674", "Lunch", "HM Alpha - Onsite Training Westin La Paloma", ""),
-    @("8/21/2026", 453.20, 1.00, "PERSONAL", "SW TUS-DEN-OMA (A9QZXC): TUS dep 11:40am (WN2406) - DEN 2:30pm - DEN dep 3:15pm (WN4717) - OMA 5:40pm, seats 19A/09D; Visa -2674", "Air Fare", "HM Alpha - Onsite Training Westin La Paloma", "")
+    @("8/16/2026", 528.20, 1.00, "PERSONAL", "SW OMA-DEN-TUS (BQR3JN): OMA dep 1:15pm (WN1511) - DEN 1:50pm - DEN dep 5:25pm (WN4214) - TUS 6:25pm, seats 22A/26F; Visa -2674", "Air Fare", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674"),
+    @("8/16/2026",  31.02, 1.00, "PERSONAL", "Marczyk's Fine Foods, Denver Airport (DEN layover, outbound) - lunch; Visa -2674", "Lunch", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674"),
+    @("8/16/2026",  46.73, 1.00, "PERSONAL", "Uber (driver Clark), TUS Airport -> Westin La Paloma, 16.63 mi/36 min - UberX $29.89 + Airport Surcharge $4.00 + Booking Fee $5.05 + tip $7.79; Visa -2674", "Taxi/Train/Bus", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674"),
+    @("8/21/2026",  60.24, 1.00, "PERSONAL", "Uber (driver Scott), Westin La Paloma -> TUS Airport, 16.08 mi/40 min - UberX $36.15 + Airport Surcharge $4.00 + Booking Fee $4.79 + Wait Time $0.30 + tip $15.00; Visa -2674", "Taxi/Train/Bus", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674"),
+    @("8/21/2026",  37.49, 1.00, "PERSONAL", "Marczyk's Fine Foods, Denver Airport (DEN layover, return) - lunch: Mediterranean Chicken Wrap, Genoa/Prosciutto Snack Pack, Marion Milk Choco Sea Salt, Essentia Water; Visa -2674", "Lunch", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674"),
+    @("8/21/2026", 453.20, 1.00, "PERSONAL", "SW TUS-DEN-OMA (A9QZXC): TUS dep 11:40am (WN2406) - DEN 2:30pm - DEN dep 3:15pm (WN4717) - OMA 5:40pm, seats 19A/09D; Visa -2674", "Air Fare", "HM Alpha - Onsite Training Westin La Paloma", "", "Visa -2674")
 )
 $blankRowCount = 10
 
@@ -46,8 +47,10 @@ $s1.Columns.Item(7).ColumnWidth = 48   # Details
 $s1.Columns.Item(8).ColumnWidth = 12   # Category
 $s1.Columns.Item(9).ColumnWidth = 30   # Billable/UF
 $s1.Columns.Item(10).ColumnWidth = 10  # Charge Code
+$s1.Columns.Item(11).ColumnWidth = 3   # (spacer - blank, matches official form gap)
+$s1.Columns.Item(12).ColumnWidth = 20  # Charge Source
 
-$r = $s1.Range("A1:J1"); $r.Merge()
+$r = $s1.Range("A1:L1"); $r.Merge()
 $c = $s1.Cells.Item(1,1)
 $c.Value2 = "UNIFOCUS EXPENSE REPORT  |  Westin La Paloma - HMAlpha Onsite Training"
 $c.Font.Bold = $true; $c.Font.Size = 13; $c.Font.Color = $white
@@ -61,13 +64,14 @@ $s1.Cells.Item(2,5).Value2 = "8/21/2026"; $s1.Cells.Item(2,5).Interior.Color = $
 $s1.Cells.Item(2,7).Value2 = "NAME:"; $s1.Cells.Item(2,7).Font.Bold = $true
 $s1.Cells.Item(2,8).Value2 = "Pete Castellano"; $s1.Cells.Item(2,8).Interior.Color = $lightBlue
 
-$headers = @("Date","Day","Amount","Exchange Rate","Amt in USD","Paid by","Details","Category","Billable/UF","Charge Code")
-for ($i = 0; $i -lt 10; $i++) {
+$headers = @("Date","Day","Amount","Exchange Rate","Amt in USD","Paid by","Details","Category","Billable/UF","Charge Code","","Charge Source")
+for ($i = 0; $i -lt 12; $i++) {
     $c = $s1.Cells.Item(4, $i+1)
     $c.Value2 = $headers[$i]; $c.Font.Bold = $true
     $c.Font.Color = $white; $c.Interior.Color = $midBlue; $c.HorizontalAlignment = -4108
     $c.WrapText = $true
 }
+$s1.Cells.Item(4,11).Interior.Color = $white
 $s1.Rows.Item(4).RowHeight = 28
 
 $row = 5
@@ -83,6 +87,8 @@ foreach ($kr in $knownRows) {
     $c8 = $s1.Cells.Item($row,8); $c8.Value2 = $kr[5]; $c8.HorizontalAlignment = -4108; $c8.Interior.Color = $bg
     $c9 = $s1.Cells.Item($row,9); $c9.Value2 = $kr[6]; $c9.Interior.Color = $bg
     $c10 = $s1.Cells.Item($row,10); $c10.NumberFormat = "@"; $c10.Value2 = $kr[7]; $c10.HorizontalAlignment = -4108; $c10.Interior.Color = $bg
+    $c11 = $s1.Cells.Item($row,11); $c11.Interior.Color = $white
+    $c12 = $s1.Cells.Item($row,12); $c12.Value2 = $kr[8]; $c12.Interior.Color = $bg
     $row++
 }
 
@@ -92,7 +98,8 @@ for ($i = 0; $i -lt $blankRowCount; $i++) {
     $c4 = $s1.Cells.Item($row,4); $c4.Value2 = 1.00; $c4.NumberFormat = "0.00"; $c4.HorizontalAlignment = -4108; $c4.Interior.Color = $bg
     $c5 = $s1.Cells.Item($row,5); $c5.Formula = "=C$row*D$row"; $c5.NumberFormat = '$#,##0.00'; $c5.HorizontalAlignment = -4152; $c5.Interior.Color = $bg
     $c2 = $s1.Cells.Item($row,2); $c2.Formula = "=IF(A$row=`"`",`"`",TEXT(A$row,`"ddd`"))"; $c2.Interior.Color = $bg; $c2.HorizontalAlignment = -4108
-    foreach ($col in @(1,3,6,7,8,9,10)) { $s1.Cells.Item($row,$col).Interior.Color = $bg }
+    foreach ($col in @(1,3,6,7,8,9,10,12)) { $s1.Cells.Item($row,$col).Interior.Color = $bg }
+    $s1.Cells.Item($row,11).Interior.Color = $white
     $s1.Cells.Item($row,1).NumberFormat = "m/d/yyyy"
     $s1.Cells.Item($row,3).NumberFormat = '$#,##0.00'
     $s1.Cells.Item($row,10).NumberFormat = "@"
@@ -115,9 +122,9 @@ $tc = $s1.Cells.Item($totalRow,5)
 $tc.Formula = "=SUM(E5:E" + ($totalRow-1) + ")"
 $tc.NumberFormat = '$#,##0.00'; $tc.Font.Bold = $true
 $tc.Interior.Color = $darkBlue; $tc.Font.Color = $white; $tc.HorizontalAlignment = -4152
-foreach ($col in @(1,2,3,6,7,8,9,10)) { $s1.Cells.Item($totalRow,$col).Interior.Color = $darkBlue }
+foreach ($col in @(1,2,3,6,7,8,9,10,11,12)) { $s1.Cells.Item($totalRow,$col).Interior.Color = $darkBlue }
 
-$rng = $s1.Range($s1.Cells.Item(4,1), $s1.Cells.Item($totalRow,10))
+$rng = $s1.Range($s1.Cells.Item(4,1), $s1.Cells.Item($totalRow,12))
 $rng.Borders.Item(7).LineStyle = 1; $rng.Borders.Item(8).LineStyle = 1
 $rng.Borders.Item(9).LineStyle = 1; $rng.Borders.Item(10).LineStyle = 1
 $rng.Borders.Item(11).LineStyle = 1; $rng.Borders.Item(12).LineStyle = 1

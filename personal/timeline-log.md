@@ -1954,6 +1954,20 @@ Not every entry needs every field — most personal receipts (gas, groceries) wi
 
 ## 2026-08-21
 
+**Time:** 9:36–10:16 AM
+**Place:** Uber, Westin La Paloma Resort & Spa (3800 E Sunrise Dr, Tucson AZ) → Tucson International Airport area (7250 S Tucson Blvd, Tucson AZ), 16.08 mi/40 min
+**Amount:** $60.24 ($45.24 fare/fees + $15.00 tip)
+**Payment Method:** Visa -2674 Southwest Rapid Rewards Plus
+**Reference/Confirmation #:** Driver Scott, 4.98 rating
+**Business Context:** PWS
+**Source Filename:** 2026-08-21 Uber Westin La Paloma to TUS Airport.pdf
+**Source:** Receipt
+**Notes:** HMAlpha/Westin La Paloma onsite training trip, return-leg ground transport to TUS. This was the receipt flagged as missing when the expense report was first built 8/28/26 — now archived and added to the ER (total revised to $1,156.88). A second Uber PDF dropped in the same Inbox Receipts batch was an exact duplicate of the already-archived 8/16 outbound-leg receipt (driver Clark, $46.73) and was deleted rather than re-archived.
+
+---
+
+## 2026-08-21
+
 **Time:** 2:56 PM
 **Place:** Marczyk's Fine Foods @ DIA, Denver International Airport (DEN layover, return leg)
 **Amount:** $37.49 ($32.92 + $4.57 tip)
