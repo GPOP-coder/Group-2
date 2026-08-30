@@ -49,8 +49,12 @@ Last updated: 2026-08-27
 - [ ] **MHBR** — Housekeeping savings analysis for Genevieve Kelley (DOF) — overdue
 - [ ] **MHBR** — Confirm ProfitSword export call (week of May 18)
 - [ ] **MHBR** — Schedule 1 week onsite training (property offered to set dates)
-- [ ] **Mohonk** — Configure on-call main dining room server position with James Danks (Lou Petruzzelli green-lit)
-- [ ] **Mohonk** — Confirm short shift fix worked after next scheduling cycle
+- [ ] **Mohonk** — On-call main dining room server: no new position after all — over-schedule and label the shifts instead (supersedes the earlier "configure with James" plan)
+- [ ] **Mohonk** — Verify short-shift fix (Sun–Thu Daily Hours 9.0→10.0) directly in the system — not waiting on James to confirm
+- [ ] **Mohonk — reply to James Danks (3 unanswered emails since 8/7, nothing sent back on any of them):**
+  1. **Granary Labor Standards** (8/5, followed up 8/7) — eliminate Granary FOH Supervisor (system still assigning it alongside Granary Manager); shifts should be count-based not fixed-weekly (Lunch 8:30–4pm, Dinner 4–9:30pm); eliminate 6:30am starts (breakfast eliminated); keep the 11am–7pm split shift on dinner days; still seeing stray 8:30–11:30am Granary Manager shifts as of 8/7
+  2. **"Adjustments"** (8/7) — fix DR Employment Coordinator to a flat 40-hr set schedule, Thu/Fri off
+  3. **"RE: Labor Summary - 8/2"** (8/14) — double-check Buffet Attendant standards; James suspects brunch staffing is still running all week instead of just Sat/Sun (max should be 60 hrs/weekday = 48 buffet + 12 kids) — ties directly to the buffet-attendant fix already tracked in `pws/clients/mohonk/kb.md` as applied 8/6 but never confirmed deployed; James's report suggests it may not have taken
 - [ ] **Mohonk onsite** — Confirm week preference (first vs. second week of August) to Ralph Varble / Susanna Briggs
 - [ ] **Mohonk onsite** — Confirm with Kim: no cruise conflicts in August (cruises are Sept + Nov); block first week as placeholder
 - [x] **Mohonk onsite** — Watch for Unifocus/Mohonk follow-up call invite (~2 weeks out) — ✅ Unifocus Interface Flow call held 7/1/26
