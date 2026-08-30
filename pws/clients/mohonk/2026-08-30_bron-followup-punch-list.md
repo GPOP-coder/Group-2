@@ -26,10 +26,10 @@ Status report already sent. This pulls together everything still open across `to
 - 🔴 **Room Attendant standard doesn't reflect the real ~4-hour cleaning access window** (Anton's math: heavy day needs ~23 attendants at the real window vs. what's staffed). Pete acknowledged live ("the time is wrong") but deferred — needs its own dedicated follow-up session, not a quick tweak.
 - 🔴 **No banquet culinary labor standard exists** — driving ~450 OT hours in high-volume periods, directly tied to sous chefs (recently moved hourly) running 10–15 OT hrs/week each — together over half the kitchen's total OT. Moderate "kicker" fix proposed (not full standard set), no owner/timeline assigned.
 - 🔴 **Housekeeping evaluated on daily numbers despite the property's own weekly-eval policy** — leadership contradicting stated guidance; worth surfacing directly rather than re-explaining policy to Housekeeping again.
-- **Main Dining Room renovation** — ~6-week closure, timing not confirmed (loosely winter/Jan-Feb). Needs a real date from James/Lou before a dedicated standards rebuild project can be scoped.
+- **Main Dining Room renovation** — ~6-week closure, timing not confirmed (loosely winter/Jan-Feb). **Correction 8/30/26 (Pete): the renovation date is NOT holding up current MDR configuration work** — the two are independent; don't block current standards work on getting a date from James/Lou.
 - **Recreation onboarding** — standards already exist for essentially every Recreation job, just never handed off to Alex Mead. Pure communication gap, not configuration work — needs a session, not a project.
 - **$4,000 ADP "punch to schedule" investment** — not yet approved. Cross-check against ADP eTime retirement (~12 months, driven by ADP not Mohonk) before committing spend that might need rework.
-- **Beverage restructuring — possible reversal** — James may want to move Beverage back toward its original by-outlet grouping. Pete wants the ADP config/job-code report from HR first, as an objective reference, before that conversation. Not yet raised with James directly.
+- ~~Beverage restructuring — possible reversal~~ — **Resolved, per Pete 8/30/26: Beverage was moved into its own standalone department, already documented in the status letter that went out.** Not an open question for James.
 
 ## 4. Smaller open items (parked, low urgency)
 
@@ -39,9 +39,17 @@ Status report already sent. This pulls together everything still open across `to
 - Saucier/Associate standard likely generates one shift too many (Jim confirmed only one shift needed vs. two generated).
 - Dishwasher standard needs rebuilding on Founders + banquet covers instead of generic room-guest proxy.
 - Culinary Extern/Intern ADP job-coding — two options debated (self-select at clock vs. punch-to-schedule), neither decided; ties to the $4,000 investment above.
-- On-call Main Dining Room server position — Lou green-lit, still needs configuring with James Danks (from `todo.md`).
-- Confirm the short-shift fix (Sun–Thu Daily Hours 9.0→10.0) actually eliminated short shifts after the next scheduling cycle (from `todo.md`).
+- ~~On-call Main Dining Room server position~~ — **Superseded, per Pete 8/30/26: not creating a new position after all — better solution found: over-schedule and add a label to the shifts instead.** The "Lou green-lit, configure with James" framing in `todo.md` is stale; update `todo.md` to reflect the actual approach.
+- Short-shift fix (Sun–Thu Daily Hours 9.0→10.0) — background: James reported May 25 that Sun–Thu MDR servers were getting cut off early (7:45pm instead of 10:15pm) because the shift was mislabeled 4.5 hrs vs. the real 5 hrs, tripping the 2.5-hr short-shift floor. Fixed May 26 (Daily Hours 9.0→10.0); James was to confirm the following week whether it worked, but that confirmation never got logged and it's sat untouched on `todo.md` since — 3+ months with no further complaints on record. **Pete's read 8/30/26: doesn't sound like an actual outstanding issue** — pending his call on whether to just mark it resolved or still verify with James.
+
+## 5. Main Dining Room / James Danks — corrected priorities (8/30/26 live corrections from Pete)
+
+- **Breakfast server formula** — the earlier "James objected 8/4, never addressed" framing was off. **Per Pete: in a live meeting, agreed to a sliding ratio (lower ratio at low volume, higher as it gets busier) and removing the flat base-2 addition regardless of shift.** Separately, **Pete personally noticed a ceiling placed on the staffing tab that he hasn't raised with anyone yet — ideally this should go away.** Confirmed configuration work still needed here; exact meeting date TBD (not 8/5 as previously assumed — needs pinning down).
+- **Granary/Founders rain-contingency coding** — status unknown to Pete as of 8/30/26. **Action: Pete needs to find out what was actually implemented** (the standing plan was recoding rain-relocated servers as Granary + a manual ADP pay-rate correction, but that was never confirmed done).
+- **Banquet Bartender TK code fix** — status unknown to Pete as of 8/30/26. **Action: Pete needs to check whether this got fixed** (root cause was a leftover TK code attached to a retired "Banquet Bar" job instead of the correct "Banquet Bartender" job; fix was deliberately held pending James's input on preferred structure).
+
+*More corrections pending — Pete reviewing further.*
 
 ---
 
-*Sources: `todo.md` (🟡 PWS/Billable — Mohonk items), `pws/clients/mohonk/kb.md` (full file, through the 8/16/26 update).*
+*Sources: `todo.md` (🟡 PWS/Billable — Mohonk items), `pws/clients/mohonk/kb.md` (full file, through the 8/16/26 update), live corrections from Pete 8/30/26.*
