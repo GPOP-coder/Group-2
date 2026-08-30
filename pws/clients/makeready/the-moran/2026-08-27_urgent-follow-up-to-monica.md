@@ -26,10 +26,12 @@ Pete
 - [x] **Meeting space confirmed** — "was able to move some things around to accommodate."
 - [x] **Guest room reservation confirmed** — Confirmation #597847795, MORAN, Castellano P, Arrival Sun 8/30/26, Departure Fri 9/4/26 (5 nights). Room not yet assigned ("Assign Room" placeholder).
 - [x] **Manager sign-up sheet shared** (Unifocus Meetings Sign-Up Workbook.xlsx) — 3 of ~5 expected managers signed up so far: Denise Cesena (P&C) Tue 9/1 2pm, Celeste Tidwell (Sales) Tue 9/1 3pm, Ryan Kerkemeyer Thu 9/3 12pm.
-- [ ] **Admin training (2× 3-hour blocks) still not scheduled.** Monday 8/31 shows fully blocked on the sheet — Pete asked Monica directly whether that's intentionally being held for her own training before month-end starts, or genuinely unavailable. Alternative floated: Wednesday (all day open) or split Wednesday/Thursday. Thursday afternoon **confirmed open** by Pete against the live spreadsheet 8/28/26 (screenshot ambiguity resolved).
-- [ ] **Training outline email to property staff** — still hasn't gone out to the ~5 users per Pete's question to Monica ("Did you send out the training introduction... I want to make sure they see the videos"). Not yet confirmed either way.
+- [x] **Monday 8/31, 2-5 PM confirmed with Monica** — team stayed unsigned-up that day so Monica and Pete could meet; serves as one of the two 3-hour admin-training blocks. Monica replied 8/29/26 9:14 AM; Pete confirmed 8/29/26 7:51 PM. See `2026-08-29_monica-reply-monday-siena-confirmed.md`.
+- [ ] **Second admin-training block still unscheduled** — Wednesday (all day open) or Thursday afternoon per the 8/28 signup sheet; not addressed in the 8/29 exchange.
+- [x] **Meeting room confirmed: Siena**, for the full training week.
+- [x] **Training outline email to property staff** — Monica confirmed 8/29/26 it was shared with the team.
 - [ ] **Backup/second admin person** — Pete asked Monica to designate one; not yet answered.
-- [x] **Pete's reply sent 8/28/26, 6:54 PM CT** (confirmed via Sent Items) to the full thread — Monica, Robbie, Michelle, Ralph, Steve. Covers all of the above — see full text below. Awaiting Monica's response.
+- [x] **Pete's reply sent 8/28/26, 6:54 PM CT** (confirmed via Sent Items) to the full thread — Monica, Robbie, Michelle, Ralph, Steve. Covers all of the above — see full text below.
 
 ---
 
