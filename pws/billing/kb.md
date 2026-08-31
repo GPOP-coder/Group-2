@@ -69,6 +69,7 @@ Direct PWS clients use `pete@platinumworkforcestrategies.com`.
 | UF20260714PAC | June 30–July 14, 2026 | $4,396.50 | Sent 2026-07-15 to Shilpa; CC peter.a + heartprincess71 |
 | UF20260730PAC | July 15–30, 2026 | $2,497.50 | Sent 2026-07-31 to Shilpa; CC peter.a + heartprincess71 |
 | UF20260813PAC | July 31–Aug 13, 2026 | $4,638.50 | Sent 2026-08-14 to Shilpa; confirmed against sent PDF, matches exactly |
+| UF20260830PAC | Aug 14–30, 2026 | $4,802.50 | Sent 2026-08-31 to Shilpa; CC peter.a + heartprincess71; first invoice including Makeready Moran ($500/day, newly added to rate table) |
 
 ### May 1–14, 2026 Detail
 | Qty | Type | Description | Client | Total |

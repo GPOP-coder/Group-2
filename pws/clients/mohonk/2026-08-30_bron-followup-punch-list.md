@@ -48,6 +48,7 @@ Full detail: `2026-08-30_bron-post-visit-followup-list.md`. Not yet fixed — lo
 
 ## 4. Smaller open items (parked, low urgency)
 
+- **UNIFOCUS-253354 (User Login Failure)** — added to list 8/31/26, no detail yet, for later.
 - Housekeeping scheduling ownership — 4 people (Sydney/Cindy, Nancy, Stephen, Anton) independently touch the same schedule; Sydney/Cindy raised this with visible frustration and is planning to retire in ~10 months — worth folding succession into the fix.
 - Josh (Kitchen Manager) needs broader Employee Maintenance access (sub-only toggle + display-name field) — confirmed twice, still not fixed. Follow up with Bron/Casey on whether display-name access can be granted independently.
 - "Paula's" missing overnight Front Desk hours — now formally on Bron/Lou's own 8/7 action items. Stacy Zappone to check her ADP Pay Code ("Night Shift" vs. "Regular").

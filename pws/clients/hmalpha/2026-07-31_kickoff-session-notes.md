@@ -6,7 +6,7 @@
 **Attendees (per calendar):** Ralph Varble (Unifocus, presenter), Devon Peters (HM Alpha), Nicole Mendez (HM Alpha), Steve Carrell (Unifocus), John Grech (Unifocus), Taylor Walton (Unifocus), Akram Chahin (Unifocus), Pete Castellano
 **Status:** Partial transcript only — see note below. **Pete cannot download this recording himself; needs Ralph to pull the full .vtt/.docx** (same fix that worked for the Union Station Nashville F&B call same day).
 
-**Which wave/series this belongs to — unconfirmed.** `wave2-kickoff-summary.md` tracks 5 Wave 2 sessions, all dated 6/29–7/1/26 — a full month before this one, so this is **not** one of those 5. Ralph's closing line ("this was our last kickoff meeting... consultants will start reaching out to you guys pretty soon") suggests this concluded a separate, later kickoff series — possibly for more of the 12 still-unscheduled HM Alpha properties referenced in CLAUDE.md. Needs clarifying with Ralph/Nicole/Devon which properties/wave this actually covered.
+**Which wave/series this belongs to — resolved 8/31/26.** Per Pete: this was one of several **Wave 3 kickoff sessions** Ralph ran, repeating the same standard presentation for different property groups (Devon/Nicole forwarded the invite to their properties rather than a single fixed attendee list). `2026-07-29_kickoff-session-notes.md` is a *different instance* of this exact same repeated session, two days earlier, with a full transcript and no gaps — its closing section (treadmill analogy, Nicole's remarks) matches this file's closing almost verbatim, confirming both are the same script. **That file's software-walkthrough section very likely reconstructs what's missing from this file's 47-minute gap** (forecasting on covers, environments, standards, the scheduling screen mechanics, the Labor Dashboard demo) — check there first before asking Ralph for the actual .vtt/.docx of this specific 7/31 recording.
 
 ---
 
@@ -42,9 +42,8 @@ Ralph confirmed this was the last kickoff meeting in this series — properties 
 ---
 
 ## Action items
-- [ ] Ask Ralph Varble to pull the full .vtt or .docx transcript for this session (Pete can't download it himself)
-- [ ] Confirm with Ralph/Nicole/Devon which wave/properties this 7/31/26 kickoff actually covered
-- [ ] Once the full transcript is available, fold the missing ~47-minute demo content into this file or the appropriate wave summary
+- [x] Confirm which wave/properties this 7/31/26 kickoff covered — resolved 8/31/26 (Wave 3, one of several repeated sessions, see note above).
+- [ ] Ask Ralph Varble to pull the full .vtt or .docx transcript for this specific 7/31 recording, if the exact wording/attendee list matters — otherwise `2026-07-29_kickoff-session-notes.md` likely already covers the same content from the parallel session.
 
 ---
 
