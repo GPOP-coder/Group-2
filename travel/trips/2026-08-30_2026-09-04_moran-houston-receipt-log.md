@@ -10,6 +10,7 @@
 
 | Date | Vendor | Location | Meal | Items | Subtotal | Tax | Other | Tip | Total | Card | Receipt |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 8/30/2026 | Seasons 52 | Houston, TX (842 W Sam Houston Pkwy N, Suite 100) | Dinner | 1 Coke Zero ($4.00), 1 Restaurant Week Dinner - Medium ($39.00) | $43.00 | $3.55 | — | $9.31 | $55.86 | Visa ••••2674 | Check #39582-4542, Table 214, served by Jessi H. Archived: `travel/trips/receipts/2026-08-30 Seasons 52 Houston Dinner.jpg` |
 
 ---
 
