@@ -2,7 +2,7 @@
 
 # Credit Cards & Debit Cards
 
-**Last updated:** 2026-08-30
+**Last updated:** 2026-08-31
 
 **Security:** Repo stores nickname, issuer, type, last 4 digits, cardholder, purpose, and status only. Full card numbers, CVVs, and passwords stored in LastPass only.
 
@@ -27,6 +27,7 @@
 |---|---|---|---|---|---|
 | AAdvantage Credit Card | American Airlines / Citi | VISA or Mastercard | 3563 | AA miles earning; used for AA flights and travel (e.g. OMA→MCO 9/12/25, $493.18) | Active |
 | Nebraska Medicine FSA | Nebraska Medicine | VISA Debit Benefit | 5711 | FSA healthcare expenses (2 identical cards issued) | Active |
+| Visa 2110 | Unconfirmed | Visa | 2110 | Household/Amazon purchases shipped to Kim (e.g. 8/29/26 Amazon order); same last-4 also appears on a 2021 T.J.Maxx receipt — issuer not yet identified | Active |
 
 ---
 

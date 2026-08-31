@@ -15,7 +15,8 @@
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
 | Card ending -0733 | $347.93 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) + Plaud Note Pro (eBay, open box) |
 | Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
-| **TOTAL PWS EXPENSES** | **$380.13** | |
+| Visa -2110 | $69.50 | Canon Battery Pack LP-E17 (Amazon 8/29, split from a mixed personal/business order) |
+| **TOTAL PWS EXPENSES** | **$449.63** | |
 
 ---
 
@@ -52,7 +53,8 @@
 | Date | Vendor | Location | Items | Amount | Card | Category |
 |---|---|---|---|---|---|---|
 | 8/13 | pennygold (eBay) | Online | Plaud Note Pro AI Voice Recorder Note Taker, PN0300, 64GB, Black — Open Box (item $124.99, shipping $6.00, tax $9.17), order #27-14998-40150 | $140.16 | -0733 | Equipment |
-| **CAPTURE EQUIPMENT SUBTOTAL** | | | | **$140.16** | | |
+| 8/29 | Amazon.com | Online | Canon Battery Pack LP-E17, order #114-5346793-7257035, split from a mixed order with a personal item (Colorescience sunscreen, $69.00, FSA/HSA eligible — not included here); $64.95 + 7% tax | $69.50 | Visa -2110 | Equipment |
+| **CAPTURE EQUIPMENT SUBTOTAL** | | | | **$209.66** | | |
 
 ### Insurance
 
@@ -88,4 +90,5 @@
 6. GoodBytes/Goodwill Industries (7/3/26, cables/mice/power strip/USB hub) — `Personal Finance\Receipts\2026\2026-07-03 Goodwill PWS.pdf`
 7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — both the clean scan (`2026-07-12 Target PWS.pdf`) and the original phone photo (`2026-07-12 Target PWS.jpeg`) are archived side by side in `Personal Finance\Receipts\2026\` — photo+scan pair, both kept per the "photo, scan, or both acceptable" rule; figures verified identical, no change to logged amounts
 8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — two complementary documents archived in `Personal Finance\Receipts\2026\`: `2026-08-13 Plaud Note Pro eBay Order Confirmation.pdf` (order/payment summary) and `2026-08-13 Plaud Note Pro eBay.pdf` (order details page, confirms card charged: -0733) — not duplicates, kept both
+9. Canon Battery Pack LP-E17, Amazon order #114-5346793-7257035 (8/29/26) — `Personal Finance\Receipts\2026\2026-08-29 Amazon Canon Battery and Colorescience Sunscreen.txt` (pasted text, mixed order — only the battery portion, $69.50, is logged above; the Colorescience sunscreen is personal)
 
