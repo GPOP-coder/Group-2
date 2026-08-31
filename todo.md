@@ -1,8 +1,18 @@
 # Pete Castellano — To Do
 
-Last updated: 2026-08-27
+Last updated: 2026-08-31
 
 ---
+
+## Today — 2026-08-31
+
+- [x] **Westin La Paloma — review John Grech's 8/27 call transcript.** Done 8/31/26 — full notes at `pws/clients/hmalpha/westin-la-paloma/2026-08-27_john-grech-weekly-call-notes.md`. Real finding: Banquet Captain standard driven by a manually-entered KBI (Needed/Used) that doesn't come from CI at all — zero hours generate unless someone enters it daily on both forecast and actuals sides. Several open items below.
+- [ ] **Westin La Paloma — do the BQT (banquet) KBI Mapping.** John handed this off directly 8/28/26 ("have at it"), using a banquet-function-types file he attached (allegedly covers all properties). Ties to the unmapped-booking-type risk flagged 8/19/26 and to the Banquet Captain KBI-driver question below. See `pws/clients/hmalpha/westin-la-paloma/2026-08-27_john-grech-followup-call-and-bqt-handoff.md`.
+- [ ] **Westin La Paloma — Banquet Captain standard KBI driver decision.** Currently driven by manually-entered "Captains Needed/Used" (generates zero hours if nobody enters it). John floated switching to an auto-populated CI value like Total Banquet Covers — Pete's call, ties into the BQT mapping work above.
+- [x] **Westin La Paloma — Banquet Server / Room Service Server missing hours — resolved.** Per John's 8/28/26 scorecard email (Week 1: 100%): missing job codes for Laundry Supervisor, Spa Retail, Casa 71 Barback, Banquet Supervisor, Banquet Server & Room Service Server all identified and corrected, hours re-imported, confirmed via LER. Reframes the "Banquet Supervisor coverage" question from the call — it wasn't a staffing gap, it was the same missing-job-code issue.
+- [ ] **Westin La Paloma — small follow-ups still open:** confirm Banquet Bartender double-space job-code fix actually cleared (not explicitly named in John's scorecard list, unconfirmed); re-check employee "...562" home-job error and employee 26300465's secondary job once Employee Maintenance access is restored (ticket UNIFOCUS-261118, opened by both Peggy and John); Monali ticket still needed for PCA-2005-2560's import error (not mentioned in scorecard).
+- [x] **Westin La Paloma — Spa auto-schedule fix — confirmed resolved** via John's 8/28/26 scorecard (matches the live Task Scheduler fix from the call).
+- [ ] **Westin La Paloma — new: Housekeeping Manager can't access Laundry Schedule** — ticket UNIFOCUS-261117 (John), separate from the general Employee Maintenance outage.
 
 ## Today — 2026-08-27
 

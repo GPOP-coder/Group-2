@@ -1,6 +1,8 @@
+<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+
 # Credit Cards & Debit Cards
 
-**Last updated:** 2026-05-29
+**Last updated:** 2026-08-30
 
 **Security:** Repo stores nickname, issuer, type, last 4 digits, cardholder, purpose, and status only. Full card numbers, CVVs, and passwords stored in LastPass only.
 
@@ -38,7 +40,14 @@
 
 ## Closed / Old Cards
 
-*(To be added as inventoried)*
+**Purpose of this section:** capture every card ever used, not just active ones — helps cross-reference old statements and receipts when they turn up (e.g. in stray backup folders like `Personal Finance UF`).
+
+**Note:** a printed expiration date belongs to the physical card, not necessarily the account — banks often reissue the same last-4 with a new expiration/CVV. A card artifact expiring doesn't mean the underlying account/number went inactive. "Status" below reflects the account when known; otherwise it's left unconfirmed rather than assumed closed.
+
+| Nickname | Issuer | Type | Last 4 | Cardholder | Card Expiration (as found) | Purpose | Status |
+|---|---|---|---|---|---|---|---|
+| FNBO Checking Visa Debit | FNBO | Debit VISA | 3326 | Pete | 01/2016 (physical card only — account status not confirmed) | Checking debit card | Unconfirmed |
+| FNBO Checking Visa Debit | FNBO | Debit VISA | 7655 | Kim | 01/2016 (physical card only — account status not confirmed) | Checking debit card | Unconfirmed |
 
 ---
 
