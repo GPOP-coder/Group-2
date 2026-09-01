@@ -7,20 +7,20 @@ Status report already sent. This pulls together everything still open across `to
 ## 1. Needs Bron's confirmation on the call (status is genuinely unknown)
 
 - **UNIFOCUS-252999 (Thu–Sun standard hours not generating)** — Unifocus support closed it 8/10 citing an import-timing fix, but that's separate/unconfirmed against Bron's own 8/6 fix (new Tuesday 1AM interface transfer). Reopen window already passed (8/13) without incident, which is a good sign, but **ask Bron directly: has the Thu–Sun gap actually stopped recurring over a live cycle?**
-- **RMSOPS-14129 (banquet actuals overwritten)** — root cause found 7/1, fix requested from Monali (export + delete the BQT mapping), still awaiting her action. **Ask Bron if he's heard anything from Monali's side.**
+- **RMSOPS-14129 (banquet actuals overwritten)** — **Update from the 8/31/26 call:** Bron confirmed the auto-overwrite mechanism has been deliberately disabled ("we completely broke it so that we could do it manually") as a workaround — banquet forecast is being updated manually for now, James is fine with that. Permanent fix (banquet interface automation) targeted for end of week (9/4-9/5). Not fully closed, but genuinely progressing — see `2026-08-31_bron-casey-punch-list-review-call.md`.
 - **Forecast-side banquet KBI import** — live finding 8/3: the actuals-side import is confirmed off, but the forecast-side import may still be live, which would explain James's forecast numbers still disappearing. **Not yet confirmed with Monali which screens were actually disabled — needs a direct check.**
 - **ESCALATION-6690** — flagged 8/6, never reviewed (Jira access-walled). Likely the same engineering escalation as 252999 (Jeremiah Lay / Mrigen Pradhan) but unconfirmed.
-- **Beverage auto-scheduling fix (Carriage Lounge Bartender, Founders Service Bartender, Central Services Service Bartender)** — fixed 7/3 by adding missing jobs to the Generate Schedules task scope, pending confirmation the fix actually filled the shifts. **Still owe Casey Dow a reply email explaining root cause — draft this before/after the call.**
-- **Spa treatment-count accuracy** — Joanna flagged counts may be inflated if staff getting treatments get miscoded as guest volume. Not quantified — worth asking if it's material.
-- **Granary/Founders rain-contingency coding** — moved here 8/30/26 (Pete: this is Mohonk's side, not Pete's to check). Standing plan was recoding rain-relocated servers as Granary + a manual ADP pay-rate correction — **ask Bron directly whether that was actually implemented.**
+- **Beverage auto-scheduling fix (Carriage Lounge Bartender, Founders Service Bartender, Central Services Service Bartender)** — fixed 7/3 by adding missing jobs to the Generate Schedules task scope. **Update from 8/31/26 call:** discussed with Casey — root cause was actually the beverage department hierarchy (a job with two job codes pointing to the wrong one, tied to Carriage Lounge/Service Bar assignment), believed fixed while Pete was onsite. **Casey to check with "Sam" (Beverage) this week to confirm shifts are actually filling** — still technically open pending that confirmation.
+- ~~**Spa treatment-count accuracy**~~ — **✅ Resolved, confirmed for real on the 8/31/26 call.** Mark Fry independently validated the treatment-count KBI against Book for Time and it matched. Not an open question anymore.
+- **Granary/Founders rain-contingency coding** — **Downgraded 8/31/26: this isn't actually Bron/Casey's to answer either.** On the call, Pete couldn't fully recall the exact ask, and Casey flagged it's likely a question only James Danks can answer. Pete needs to dig back through his own notes on this before it can go anywhere — see `2026-08-31_bron-casey-punch-list-review-call.md`.
 
 ## 2. Bron/Lou's own high-priority asks
 
 **Full authoritative list received 8/30/26 — see `2026-08-30_bron-post-visit-followup-list.md`** (supersedes the summary that used to live here; that file has Bron's actual Low/Med/High rating for every item, not Pete's inference).
 
 Highlights:
-- 🔴 **"Make list of all departments and if they are inputting schedule or not"** — rated **High** by Bron directly. The raw material exists scattered across this KB (Housekeeping's 3 parallel schedules, Kitchen's Excel-then-reenter workflow, Recreation's zero adoption, Call Center's Excel workflow, F&B's near-full adoption) but has never been assembled into the single list they want. **Worth building and bringing to the call.**
-- 🔴 **"Unifocus Admin"** — rated **High** by Bron directly. Matches the already-floated combined Data Analyst/Labor Management role (half-time, 10-15-20 hrs/week). Canned job description exists (Bron has it, offered to share with Lou). **Push this forward on the call.**
+- 🔴 **"Make list of all departments and if they are inputting schedule or not"** — rated **High** by Bron directly. The raw material exists scattered across this KB (Housekeeping's 3 parallel schedules, Kitchen's Excel-then-reenter workflow, Recreation's zero adoption, Call Center's Excel workflow, F&B's near-full adoption) but has never been assembled into the single list they want. **Still not started as of 8/31/26** — Bron floated tying it to the new Admin hire, but Pete pushed back that it doesn't need to wait; a top-down mandate could start now.
+- 🔴 **"Unifocus Admin"** — rated **High** by Bron directly. Matches the already-floated combined Data Analyst/Labor Management role (half-time, 10-15-20 hrs/week). **Update 8/31/26: the position is now posted.** Bron/Lou agree it'll likely combine Data Analyst + Admin duties.
 - Med: **Schedule Export + Employee Maintenance training classes** still owed to Recreation, Housekeeping, Property, Front Office, Spa (only Housekeeping/Kitchen/Recreation got Employee Maintenance training so far, during Basic Training).
 - Low: More scheduled email reminders for weekly deadlines.
 - **Confirm with Bron so his list updates:** "Reorganize jobs — 2nd floor duplicates" (already done 8/4, Spa session) may just be stale on his tracker. **"Get treatment volume KBI working" — Bron's own list note says the file IS being generated and sent to Unifocus; Pete's Spa diagnostic 8/30/26 (below) found the deeper structural issue is that Spa isn't set up as a Revenue Center at all, so there's no forecast driving Projected Hours regardless.**
@@ -35,6 +35,10 @@ Pete checked directly in Task Scheduler and Employee Maintenance:
 - **Spa is not set up as a Revenue Center** — no forecast exists to drive Projected Hours regardless of the standard issue above. Likely the real reason "Create a Spa Department" and "Match standard hours" both sit on Bron's list.
 
 Full detail: `2026-08-30_bron-post-visit-followup-list.md`. Not yet fixed — logged to `mohonk-accomplishments.md` as diagnosed/pending.
+
+## 2b. Onsite visit — tentative hold placed 8/31/26
+
+**Week of November 2, 2026** — Pete is holding this week for Mohonk but it is **not confirmed** ("we'll move it around as we need to"). Contingent on the new Unifocus Admin hire being filled by then. Plan if it happens: a full day (maybe two) System Admin session with the new hire, plus a separate day for Spa (which hasn't started scheduling in Unifocus at all yet — sequencing depends on the ADP interface/punch-enforcement work landing first). Full detail: `2026-08-31_bron-casey-punch-list-review-call.md`.
 
 ## 3. Structural/property-wide findings worth raising (no owner or timeline yet)
 
