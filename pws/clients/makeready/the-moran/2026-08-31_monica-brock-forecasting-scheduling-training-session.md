@@ -41,6 +41,7 @@
 - **"Needs attention" ≠ broken.** A **0** means "closed" and zeroes out shifts for that KBI — always enter at least a **1** for anything that's open, even without a firm number, while data history builds.
 - **Beverage should be forecast as dollar revenue, not covers** — covers don't reflect drink volume (one cover could mean ten drinks or zero), and revenue dollars is the number that actually drives the bartender labor standard.
 - **Christian** (Director overseeing beverage) identified as the right long-term owner of beverage forecasting; Pete offered a dedicated follow-up session for him.
+- **Corroborated 8/31/26:** Monica's live comment that "beverage revenue [is] not coming in right yet" has a real paper trail — Allegory's beverage revenue (Beer/Wine/Liquor) is missing entirely from ProfitSword's raw export, a ProfitSword/Actabl-side issue, not a Unifocus mapping problem. FYI only, no action needed from Pete. Full thread: [2026-08-31_steve-fwd-beverage-revenue-allegory-profitsword.md](2026-08-31_steve-fwd-beverage-revenue-allegory-profitsword.md).
 
 ## 5. Generate Schedules Failure — Root of UNIFOCUS-261575
 
