@@ -13,10 +13,10 @@
 |---|---|---|
 | VISA WF Debit 8289 | $13.10 | Tools, electronics, books |
 | VISA WF Active Cash 7552 | $5.91 | Office supplies |
-| Card ending -0733 | $347.93 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) + Plaud Note Pro (eBay, open box) |
+| Card ending -0733 | $563.92 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) + Plaud Note Pro (eBay, open box) + Plaud Annual Unlimited subscription |
 | Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
 | Visa -2110 | $69.50 | Canon Battery Pack LP-E17 (Amazon 8/29, split from a mixed personal/business order) |
-| **TOTAL PWS EXPENSES** | **$449.63** | |
+| **TOTAL PWS EXPENSES** | **$665.62** | |
 
 ---
 
@@ -56,6 +56,13 @@
 | 8/29 | Amazon.com | Online | Canon Battery Pack LP-E17, order #114-5346793-7257035, split from a mixed order with a personal item (Colorescience sunscreen, $69.00, FSA/HSA eligible — not included here); $64.95 + 7% tax | $69.50 | Visa -2110 | Equipment |
 | **CAPTURE EQUIPMENT SUBTOTAL** | | | | **$209.66** | | |
 
+### Subscriptions
+
+| Date | Vendor | Description | Amount | Card | Category |
+|---|---|---|---|---|---|
+| 9/1 | Plaud LLC | Annual Unlimited Plan, Sep 1 2026–Sep 1 2027 ($239.99 base, 10% first-payment discount -$24.00). Invoice 4IACSW5F-0002, Receipt 2376-0127. Renews at $239.99/year unless cancelled. | $215.99 | -0733 | Subscriptions |
+| **SUBSCRIPTIONS SUBTOTAL** | | | **$215.99** | | |
+
 ### Insurance
 
 | Date | Vendor | Policy | Amount | Card | Category |
@@ -73,7 +80,7 @@
 - Business Fire policy (97-EG-4466-1, 13606 S 20th St) is a recurring PWS insurance expense — watch for future payment receipts to add here
 - Receipts captured photographically; physical copies stored for audit trail
 - **Plaud Note Pro (8/13/26):** business justification is live-session capture for consulting/training work (see CLAUDE.md Tech Stack) — directly addresses the "lost breakthrough problem" for onsite client sessions; charged to FNBO Evergreen -0733 (Pete confirmed 8/13/26)
-- **🔴 Plaud subscription — upcoming recurring PWS expense, watch for the receipt:** Pete signed up for the Annual Unlimited Plan free trial. **Trial converts to paid on September 1, 2026** — card ending -0733 (same FNBO Evergreen card as the device) will be charged **$215.99** (discounted from the $239.99 base annual rate) unless cancelled first. Log the actual charge here once it posts/a receipt arrives via the Statement Inbox or Receipts Inbox.
+- **Plaud subscription (9/1/26):** free trial (8/25–9/1/26) converted to the Annual Unlimited Plan as planned — charged $215.99 to card -0733 (same FNBO Evergreen card as the device), first-payment discount applied. Business justification: same as the device itself — live-session capture for consulting/training work. Recurs annually at $239.99 each September 1 unless cancelled.
 
 ---
 
@@ -91,4 +98,5 @@
 7. Target, Bellevue NE (7/12/26, electronics + Sharpie; mixed receipt — proportional split applied) — both the clean scan (`2026-07-12 Target PWS.pdf`) and the original phone photo (`2026-07-12 Target PWS.jpeg`) are archived side by side in `Personal Finance\Receipts\2026\` — photo+scan pair, both kept per the "photo, scan, or both acceptable" rule; figures verified identical, no change to logged amounts
 8. Plaud Note Pro, eBay order #27-14998-40150 (8/13/26) — two complementary documents archived in `Personal Finance\Receipts\2026\`: `2026-08-13 Plaud Note Pro eBay Order Confirmation.pdf` (order/payment summary) and `2026-08-13 Plaud Note Pro eBay.pdf` (order details page, confirms card charged: -0733) — not duplicates, kept both
 9. Canon Battery Pack LP-E17, Amazon order #114-5346793-7257035 (8/29/26) — `Personal Finance\Receipts\2026\2026-08-29 Amazon Canon Battery and Colorescience Sunscreen.txt` (pasted text, mixed order — only the battery portion, $69.50, is logged above; the Colorescience sunscreen is personal)
+10. Plaud Annual Unlimited subscription, Invoice 4IACSW5F-0002 / Receipt 2376-0127 (9/1/26) — two complementary documents archived in `Personal Finance\Receipts\2026\`: `2026-09-01 Plaud Annual Subscription Invoice.pdf` and `2026-09-01 Plaud Annual Subscription Receipt.pdf` (confirms card charged: -0733, payment date, and discount applied)
 
