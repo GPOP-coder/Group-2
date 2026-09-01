@@ -1,6 +1,28 @@
 # Unifocus — Knowledge Base
 
-Last updated: 2026-07-03
+Last updated: 2026-08-31
+
+---
+
+## Support Ticket Conventions — On-Site/Urgent Tickets
+
+**Per Alain Derderian's group-wide guidance, relayed to Pete 8/31/26 (7:51 PM):** Unifocus's escalation automations key off subject-line format, so on-site/urgent tickets need a consistent subject line across the whole consultant group to trigger escalation reliably.
+
+**Required subject line format:**
+```
+Consultant On-Site - Hotel Name - Subject Description
+```
+
+**Avoid:** the word "CLIENT" and special characters like `!`, `*`, `"` — these can throw off the escalation automation rather than helping.
+
+**Examples (from Alain's email):**
+- `Consultant On-Site - Yosemite Resorts - Receiving Ajax Error when attempting to add Labor Standards`
+- `Consultant On-Site - Eau Palm Beach Resort - All Clients Labor Report Error`
+- `Consultant On-Site - JA Resorts - Labor Dashboard keeps disappearing - JA Database - Ocean View`
+
+Alain adds himself as a Watcher to any ticket meeting escalation criteria under this format, to help push it along.
+
+**Note:** The Moran's UNIFOCUS-261575 (filed 8/31/26, subject "Schedules Not Generating - Consultant on property") predates this guidance and doesn't follow the format — not worth re-filing, but every urgent/on-site ticket going forward should use this subject convention.
 
 ---
 
