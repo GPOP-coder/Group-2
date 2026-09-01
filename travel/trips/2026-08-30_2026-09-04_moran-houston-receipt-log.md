@@ -13,6 +13,7 @@
 | 8/30/2026 | Uber (driver: Jose) | HOU Airport (Hobby) → The Moran Hotel (24.97 mi, 39 min) | — | UberX | $34.81 | — | Airport Surcharge $2.75 + Booking Fee $7.76 + TX Regulatory Recovery Fee $0.62 = $11.13 | $13.00 | $58.94 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-30 Uber HOU Airport to Moran Houston.pdf` |
 | 8/30/2026 | Seasons 52 | Houston, TX (842 W Sam Houston Pkwy N, Suite 100) | Dinner | 1 Coke Zero ($4.00), 1 Restaurant Week Dinner - Medium ($39.00) | $43.00 | $3.55 | — | $9.31 | $55.86 | Visa ••••2674 | Check #39582-4542, Table 214, served by Jessi H. Archived: `travel/trips/receipts/2026-08-30 Seasons 52 Houston Dinner.jpg` |
 | 8/31/2026 | bellagreen | Houston, TX (800B Town and Country Blvd, City Centre) | Lunch | 1 Blackened Shrimp Salad, 1 Fountain Drink | $20.68 | $1.71 | — | $2.23 | $24.62 | Visa ••••2674 | Order Id AABA5NVGAGAV, Order #42 Dine-In, 1:28 PM. Archived: `travel/trips/receipts/2026-08-31 bellagreen Houston Lunch.jpg` |
+| 9/1/2026 | The Board Room | Houston, TX (800 Sorella Court — inside The Moran Hotel) | Lunch | 1 Ancient Grain Bowl | $20.00 | $1.48 | City Centre Employee discount (10%) -$2.00 | $4.00 | $23.48 | Visa ••••2674 | Table B9, Check #1, Server Eduardo X, 12:52 PM. Archived: `travel/trips/receipts/2026-09-01 The Board Room Houston Lunch.jpg` |
 
 ---
 
