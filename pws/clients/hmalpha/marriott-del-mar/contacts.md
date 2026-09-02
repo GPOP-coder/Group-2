@@ -7,7 +7,7 @@
 **Brand:** Marriott
 **EMS:** CI/TY
 **Trainer:** Pete Castellano
-**Training week:** Sep 7, 2026 (⚠️ per HM Alpha kb.md — confirm exact week with Ralph Varble)
+**Training week:** Sep 7, 2026 — ✅ confirmed directly with Taylor Walton, 9/2/26
 **Source:** Property org roster, provided 8/20/26
 
 ---
@@ -40,4 +40,5 @@
 - Property contacts previously confirmed 7/17/26 via Nicole Mendez's contact list (Mark Ziomek GM, Valeria Ruvalcaba HR) — this roster fills in the rest of the property leadership team.
 - **Email domain split:** "(EC)"-tagged leadership roles use @hmalpha.com; most operational managers use @marriott.com. Verify the correct domain before sending to any of these contacts for the first time.
 - **⚠️ Valeria Ruvalcaba's email is unconfirmed** — the roster row shows Angel Alvarez's Aalvarez@hmalpha.com address under Valeria's name/role, likely because Angel's address hasn't been updated in the source system yet since she's being replaced. Confirm Valeria's actual email before use.
-- Training week of Sep 7, 2026 per HM Alpha kb.md — flagged there as needing confirmation with Ralph Varble.
+- Training week of Sep 7, 2026 — confirmed 9/2/26 on a prep call with Taylor Walton (configurer).
+- **Key user note (9/2/26):** Sandra Academia (DOF) will be the one actually running the system day-to-day — Mark (GM) is engaged in meetings but "very hands off" operationally, and Valeria (HR) is newer and not yet system-savvy. Prioritize Sandra for the deepest hands-on training time. Full call notes: `2026-09-02_taylor-walton-prep-call.md`.

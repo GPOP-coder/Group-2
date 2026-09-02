@@ -6,7 +6,7 @@
 **Location:** San Diego, CA
 **Brand:** DoubleTree (Hilton)
 **EMS:** Delphi
-**Trainer:** Pete Castellano (confirmed 8/20/26)
+**Trainer:** ~~Pete Castellano~~ — **reassigned to John Grech** (learned informally from Taylor Walton 9/2/26, not officially communicated to Pete; matches the recurring pattern of Ralph's consulting resource calendar changing without direct notice). Config week of Oct 5, 2026; training Oct 19, 2026.
 **Source:** Property org roster, provided 8/20/26
 
 ---

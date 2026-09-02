@@ -58,7 +58,7 @@ Full CI/TY technical detail: see [Marriott Brand KB](../../../brands/marriott/kb
 | Union Station Nashville Yards | Autograph Collection (Marriott) | CI/TY | Trainer | Pete Castellano | Taylor Walton | John Grech | Training complete June 2026; remote F&B standards open |
 | InterContinental New Orleans | InterContinental (IHG) | Delphi (confirm) | Trainer | Pete Castellano | Steve Carrell | John Grech | Training week of Jul 6, 2026 |
 | Westin La Paloma, Tucson AZ | Westin (Marriott) | CI/TY | Trainer | Pete Castellano | Steve Carrell | John Grech | Training week of Aug 17, 2026 |
-| Marriott Del Mar, San Diego CA | Marriott | CI/TY | Trainer | Pete Castellano | TBD | Taylor Walton | Training week of Sep 7, 2026 — ⚠️ confirm with Ralph |
+| Marriott Del Mar, San Diego CA | Marriott | CI/TY | Trainer | Pete Castellano | TBD | Taylor Walton | Training week of Sep 7, 2026 — ✅ confirmed 9/2/26 |
 | JW Marriott Houston | JW Marriott | CI/TY | None | Akram Chahin | Steve Carrell | John Grech | Training week of Jul 13, 2026 |
 | DoubleTree Raleigh | DoubleTree (Hilton) | Delphi | None | John Grech | TBD | John Grech | Training week of Jun 29, 2026 |
 
@@ -73,8 +73,8 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | Autograph US (Union Station Nashville) | W6 — 6/22 ✅ | Taylor Walton | John Grech |
 | Intercon NO (InterContinental New Orleans) | W8 — 7/6 | Steve Carrell | John Grech |
 | WLP (Westin La Paloma) | W14 — 8/17 | Steve Carrell | John Grech |
-| Marriott Del Mar | W17 — 9/7 ⚠️ confirm | TBD | Taylor Walton |
-| DoubleTree San Diego Del Mar | TBD — Pete confirmed as trainer 8/20/26 | TBD | TBD |
+| Marriott Del Mar | W17 — 9/7 ✅ confirmed 9/2/26 | TBD | Taylor Walton |
+| DoubleTree San Diego Del Mar | Reassigned to John Grech — config Oct 5, training Oct 19, 2026 (Pete no longer trainer; learned informally 9/2/26) | John Grech | TBD |
 | DoubleTree Sunrise | Oct 12–14, 2026 | Steve Carrell (config, week of Sep 28) | TBD |
 | All others | — | Various | Ralph/Taylor/John |
 
