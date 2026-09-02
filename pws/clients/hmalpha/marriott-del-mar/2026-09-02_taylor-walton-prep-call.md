@@ -12,7 +12,7 @@
 
 **Sep 7, 2026 (week of) is confirmed.** This was previously flagged in `kb.md` as needing confirmation with Ralph Varble — resolved directly with Taylor on this call. Pete flying out Monday, arriving to start Tuesday.
 
-**Travel note:** Outbound flight is set for Monday. **No return flight booked yet** — Pete is offering the property a full Friday onsite, with departure Saturday, but is still contemplating and shopping flights rather than locking it in. (Personal factors behind the open return date are logged separately — see `journal/2026-09-02_san-diego-personal-notes.md`, not filed here since it's not HMA-relevant.)
+**Travel note:** Outbound flight is set for Monday. **Return flight booked (9/2/26):** Southwest #3440, Fri 9/11, SAN→OMA nonstop, departs 6:45 PM / arrives 11:50 PM, $446.40 total. A late-day departure works well — it leaves the full Friday open for meetings through early afternoon before heading to the airport, rather than the Saturday-departure option originally being weighed. (Personal factors behind the earlier open-return question are logged separately — see `journal/2026-09-02_san-diego-personal-notes.md`, not filed here since it's not HMA-relevant.)
 
 ---
 
