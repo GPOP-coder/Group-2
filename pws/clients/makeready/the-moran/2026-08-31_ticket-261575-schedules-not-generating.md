@@ -2,9 +2,9 @@
 
 # The Moran — UNIFOCUS-261575: Schedules Not Generating
 
-**Status:** 🔴 **Open, urgent** — filed 8/31/26, 6:40 PM CT. Training begins Tuesday 9/1/26, 9:00 AM Central. Auto-confirmation received from Unifocus Client Service at 6:42 PM CT confirming the ticket number.
+**Status:** 🔴🔴 **Still open, now actively impacting training** — filed 8/31/26, 6:40 PM CT, unresolved as of 9/1/26 evening. **Real consequence already happened, not just a risk:** both of today's (Tue 9/1) training sessions had to teach managers how to edit a draft schedule with no actual draft schedule to work from. Two more classes tomorrow (Wed 9/2), two more Thursday (9/3) — **first real draft schedule needs to generate for go-live Friday (9/4).**
 
-**Why urgent:** Pete is onsite at The Moran; training starts in the morning and Generate Schedules is non-functional.
+**Why urgent:** Pete is onsite at The Moran; Generate Schedules has now failed through a full day of training, not just before it started.
 
 ---
 
@@ -28,12 +28,18 @@
   - Re-ran both Generate Projected Hours and Generate Schedules again with Clear Schedules explicitly unchecked — **same zero-shift result.**
   - **Logical point:** even if Clear Schedules *had* been triggered, worst case it deletes an existing schedule and replaces it with a new one — it does not produce a completely blank schedule. The symptom doesn't match what Clear Schedules actually does.
   - Redirects the diagnosis: if support is seeing a Clear Schedules flag as true, **that flag is being set from somewhere else** in the system — a real clue pointing away from user error and toward a system-side cause, not a restatement of the same theory.
+- **Internal note, 9/1/26 evening (Pete):** ticket still unresolved through the entire training day. Both Tuesday sessions had to teach managers to edit a draft schedule that didn't exist — described by Pete as "embarrassing." Two more classes Wednesday, two more Thursday, **first real draft schedule needed for go-live Friday 9/4.** Asked directly: can we get an update on this ticket? **This note itself functions as the escalation** — internal notes on the ticket auto-notify Steve Carrell, Alain Derderian, and everyone on the support team who's touched it, so no separate follow-up message was needed to reach them.
+- **Internal ticket update from Nguon Zhong, same evening — Nguon replicated the error.** Posted raw system task logs for the two generation runs against week 9/6-9/12, plus a screenshot of the resulting schedule grid for that week: every day shows exactly "1 Open Shift," and example employee Velez, Dolores M (FDX000072) sits at 0/40 hrs the entire week — the same zero-fill symptom Pete saw, now independently reproduced by Unifocus support on the actual go-live target week. **This is the important part: it confirms the bug is real and system-side, not a training/setup mistake at the property** — direct validation of Pete's 11:35 PM pushback the night before.
+  - **Task 1 — Generate Projected Hours** (host `taps-processing-79f997c48b-rpmpb`, Planner Mode: PROJECTED, "gen from master"): Standard Set ID 1040, Calculate KBIs: true, Clear Schedules: false.
+  - **Task 2 — Generate Schedules** (host `taps-processing-79f997c48b-hsww5`, Run From: Schedule Editor): Standard Set ID 0, Clear Schedules: false, Rotate Days Off: false.
+  - **Correction (Pete, 9/1/26):** Generate Schedules isn't dependent on a Standard Set at all by design — it assigns employees to shifts that Generate Projected Hours already created, it doesn't recalculate against a standard itself. So Standard Set ID 0 on Task 2 is expected/normal, not a clue. The real root cause is still open — Nguon's replication confirms the bug exists but doesn't yet explain it.
 
 ## Open items
 
-- [ ] Await Client Service's next response to Pete's 11:35 PM rebuttal — needed before or during Tuesday 9 AM training
-- [ ] If unresolved by morning, consider direct follow-up call to Steve Carrell or Alain Derderian given onsite urgency
+- [ ] Await response — Nguon has now replicated the bug (real progress), but root cause is still unidentified; the internal note has already reached Steve, Alain, and the full support thread; escalation window is closing fast against the Friday go-live deadline.
+- [ ] If no movement after this note, a direct call (not another written escalation) may be the next step given onsite urgency is now compounding daily.
 - [ ] Determine root cause once resolved (Work Class 12 origin still unexplained even though bulk edit didn't fix the issue; Clear Schedules flag origin now also unexplained per Pete's pushback)
+- [ ] **⚠️ Real coverage gap, flagged 9/1/26 evening:** Pete's return flight (SW BUGYTC, HOU-OMA) departs 8:15 AM Friday 9/4 — the same day the first real go-live schedule needs to generate. **This needs to be fixed and validated *before* Friday morning**, not just "by Friday" — Pete will already be in the air when it counts if it slips to Friday itself. Worth building in a buffer day (confirm it's working Thursday, not Friday) rather than treating Friday as the deadline.
 
 ---
 
