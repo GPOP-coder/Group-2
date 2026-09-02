@@ -2,7 +2,7 @@
 
 # The Moran — UNIFOCUS-261575: Schedules Not Generating
 
-**Status:** 🔴🔴 **Still open, now actively impacting training** — filed 8/31/26, 6:40 PM CT, unresolved as of 9/1/26 evening. **Real consequence already happened, not just a risk:** both of today's (Tue 9/1) training sessions had to teach managers how to edit a draft schedule with no actual draft schedule to work from. Two more classes tomorrow (Wed 9/2), two more Thursday (9/3) — **first real draft schedule needs to generate for go-live Friday (9/4).**
+**Status:** 🔴🔴 **Still open, now escalated to VP level** — filed 8/31/26, 6:40 PM CT, unresolved as of 9/2/26. **Real consequence already happened, not just a risk:** Tuesday's (9/1) training sessions had to teach managers how to edit a draft schedule with no actual draft schedule to work from. Pete on property through Thursday (9/3) only, departs early Friday (9/4) — **the automated Generate Projected Hours + Generate Schedules run fires Friday at noon Central, after Pete has already left.** 9/2/26: Pete posted a new internal ticket note and emailed the ticket directly to Shilpa Bhando (VP of Operations) to escalate above the existing support thread.
 
 **Why urgent:** Pete is onsite at The Moran; Generate Schedules has now failed through a full day of training, not just before it started.
 
@@ -44,7 +44,11 @@
 - [ ] Await response — Nguon has now replicated the bug (real progress), but root cause is still unidentified; the internal note has already reached Steve, Alain, and the full support thread; escalation window is closing fast against the Friday go-live deadline.
 - [ ] If no movement after this note, a direct call (not another written escalation) may be the next step given onsite urgency is now compounding daily.
 - [ ] Determine root cause once resolved (Work Class 12 origin still unexplained even though bulk edit didn't fix the issue; Clear Schedules flag origin now also unexplained per Pete's pushback)
-- [ ] **⚠️ Real coverage gap, flagged 9/1/26 evening:** Pete's return flight (SW BUGYTC, HOU-OMA) departs 8:15 AM Friday 9/4 — the same day the first real go-live schedule needs to generate. **This needs to be fixed and validated *before* Friday morning**, not just "by Friday" — Pete will already be in the air when it counts if it slips to Friday itself. Worth building in a buffer day (confirm it's working Thursday, not Friday) rather than treating Friday as the deadline.
+- [ ] **⚠️ Real coverage gap, flagged 9/1/26 evening, sharpened 9/2/26:** Pete's return flight (SW BUGYTC, HOU-OMA) departs 8:15 AM Friday 9/4, arriving OMA 10:25 AM — the same day the first real go-live schedule needs to generate. **Correction/clarification (9/2/26): Friday noon Central is when the *automated* Generate Projected Hours + Generate Schedules task runs** — not a manual test Pete can time or trigger himself. That makes the gap worse, not just earlier: the fix has to land before that automated run fires, because nobody onsite will be able to react live if it fails again — Pete will already be back in Omaha. Confirming the fix works Thursday (while Pete is still onsite, per Thursday's schedule below) is the only way to actually validate it before go-live, since Friday's automated run is not something Pete controls or can delay.
+
+## Internal Note Added 9/2/26 — Escalated to Shilpa Bhando
+
+Pete posted an internal ticket note and separately emailed the ticket directly to **Shilpa Bhando** (VP of Operations — Ralph's former role, and Pete's invoice recipient; see `pws/clients/hmalpha/kb.md` contact table) — a step above the Steve Carrell / Alain Derderian support thread this ticket had been running through. Note content: Pete is on property one more day (Thursday 9/3 — scheduling managers in session all morning, system administrator in the afternoon), then departs early Friday morning. Asked directly for a status update given the automated Friday-noon-Central generation run is the actual go-live test, and Pete won't be onsite for it.
 
 ---
 
