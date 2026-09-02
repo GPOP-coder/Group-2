@@ -198,6 +198,12 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - **Unifocus is itself a PWS client**, with its own sub-clients — each with projects
 - Projects can span multiple clients; some clients have Unifocus-umbrella projects AND independent projects
 
+#### Training Methodology & Signature Style
+
+- **Long-range goal:** Pete teaches essentially the same core Unifocus WFM training curriculum repeatedly, property after property (taught monthly for ~5 years). The repetition captured via Plaud transcripts is intentional — the eventual goal is a **best-of curriculum reference**, split by audience (system admins vs. managers), covering both **macro** structure (how the curriculum should flow) and **micro** per-topic descriptions (the clearest explanation any session has produced). This is a future/eventual deliverable, not something to build unprompted.
+- **Key nuance:** the variation across sessions is deliberate, not noise — the whole point of training onsite is tailoring each session to its actual participants while still hitting every topic uniformly ("everyone is special, just like everybody else"). A best-of synthesis must separate the **uniform core curriculum** from the **audience-specific tailoring**, not collapse to one "best" phrasing per topic.
+- **Signature hallmarks to track and preserve** (a living, expandable list) — these are Pete's own consistent brand across engagements, not generic trainer content: the **weekly timeline** as the organizing teaching device; the specific **sequencing** of forecast → generate revenue center forecast → generate projected hours → generate schedules → labor meeting → publish; the **"pitcher and cups"** analogy for how a labor standard fills a shift; **customer-first framing** ("the guests tell us what they want, our plan tells us what to do about it"); the **"it makes shifts and then fills them"** orientation (vs. people-first scheduling); the deliberately simple weekly labor meeting framing (**"How did we do last week, what can we learn from it, and are we ready for next week?"**); and a consistent point of view on **straight-line productivity** — where it's legitimate vs. where it breaks down against Unifocus's workload-based standards. When processing new training transcripts, note where these hallmarks appear and flag any new recurring phrase/analogy that looks like it belongs on this list.
+
 #### Active Clients
 
 **Election Systems and Software (ESS)** (Omaha, NE) — 🟡 Occasional
