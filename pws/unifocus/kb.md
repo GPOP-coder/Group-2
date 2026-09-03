@@ -1,6 +1,6 @@
 # Unifocus — Knowledge Base
 
-Last updated: 2026-08-31
+Last updated: 2026-09-02
 
 ---
 
@@ -37,6 +37,12 @@ Unifocus is a workforce management platform. PWS's consulting methodology is gro
 ---
 
 ## Core Concepts
+
+### Implementation as a Capstone System — Why ADP/HR Miscoding Always Surfaces
+
+**Pete's observation, 9/2/26 (Moran implementation, generalized from a pattern seen across clients):** Unifocus is a **capstone system** — it sits on top of and depends on the accuracy of every upstream system feeding it (ADP job/department codes, Work Records, PMS, POS). Because the auto-scheduler and labor standards require exact, correct job coding to function, implementing Unifocus reliably **shines a light on long-standing silent data-quality problems** that existed for years without consequence — nobody noticed or cared because nothing downstream depended on the data being right.
+
+**Why this matters:** these findings are not Unifocus bugs and not implementation mistakes — they're pre-existing property-side data debt that the implementation process is what finally makes visible and consequential. Recurring examples across engagements: employees coded to a job they no longer actually work (valet parkers who moved to Bell years ago, still coded as valet — see The Moran, 9/2/26), missing secondary job codes causing real payroll issues nobody had caught (Jesse Sandberg working Night Auditor with no differential pay code, Moran), stray/mismatched TK and Reconcile codes from manual Paychex edits drifting out of exact-match format (WLP, 8/27/26), unexplained bulk attributes with no clear origin (Mohonk's "Work Class 12" mystery). **How to apply:** frame these findings to clients as expected and normal ("this is common, it's not unusual" — Pete's own words), not as a Unifocus problem or a property failure. It's a natural, valuable byproduct of implementation, not a sign something's going wrong.
 
 ### Labor Standards — Purpose
 Labor standards **model the number of hours required to run an operation** — not the number of hours to schedule. Schedulers must understand this distinction. The schedule is a product of the standard, but the manager controls it once drafted.
