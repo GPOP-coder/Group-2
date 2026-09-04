@@ -54,6 +54,8 @@ This call directly updates `2026-08-30_bron-followup-punch-list.md` — see reco
 - [ ] Pete to check with Susanna on her own cadence with Bron before scheduling the next check-in (targeting ~9/4-9/5, pending Pete's San Diego conflict).
 - [ ] Confirm/clarify: Pete mentioned "two straight weeks in San Diego" — cross-check against the confirmed Marriott Del Mar week (per CLAUDE.md, week of Sep 7) for a possible scheduling detail not yet captured elsewhere.
 - [ ] **Tentative hold: week of November 2, 2026** for a Mohonk onsite System Admin + Spa session — not confirmed, revisit once the Unifocus Admin hire is filled.
+- [ ] **Deferred to November visit (9/4/26):** clean up the dormant "On-Call Server" job code (`2 - Food and Beverage / Dining Room - Main / Server / On-Call Server`) — can be moved but not deleted; not urgent, just needs to happen in person eventually. See `mohonk-accomplishments.md`.
+- [ ] **Deferred to November visit (9/4/26):** apply the same "+2 at 180 → +1 at volume=1" base fix to Breakfast and Lunch that's already done for the Dinner Server standard (UNIFOCUS-261909 fix, 9/3-9/4/26) — keeping today's change scoped to dinner only so it can be tested in isolation first.
 
 ---
 

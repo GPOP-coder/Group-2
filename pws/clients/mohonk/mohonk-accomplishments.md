@@ -12,7 +12,7 @@ Running record of confirmed fixes, resolved issues, and completed work at Mohonk
 
 - **8/30/26 — Beverage department structure, resolved.** Beverage confirmed as its own standalone department — already documented in the status letter sent to the property. Not an open question.
 
-- **8/30/26 — On-call Main Dining Room server position, superseded with a better fix.** Original plan (Lou green-lit a new on-call MDR position) replaced with a simpler solution: over-scheduling plus a shift label, no new position needed.
+- **8/30/26 — On-call Main Dining Room server position, superseded with a better fix.** Original plan (Lou green-lit a new on-call MDR position) replaced with a simpler solution: over-scheduling plus a shift label, no new position needed. **Correction 9/4/26:** the job code itself still exists — James convinced HR to create an "On-Call Server" job code before Pete could stop it (he wanted one per F&B job, not just Server). It shows in Unifocus (`2 - Food and Beverage / Dining Room - Main / Server / On-Call Server`) with zero standards configured — created, but dormant. The shift-label/overscheduling approach is the actual operational fix; the unused job code is a leftover from James's parallel push, not evidence the simpler fix didn't take.
 
 - **8/4/26 — Spa "2nd floor duplicates" job reorganization, done.** Completed same-day during the Spa standards session.
 
