@@ -32,7 +32,7 @@ Working live through Employee Maintenance for Kimani's ~9-person team surfaced s
 ## Context notes
 
 - **Storm confirmed as an active disruption:** Pete referenced people already being affected/absent "because of the storm" mid-session — consistent with the tropical storm context already logged for 9/1-9/2.
-- Kimani is new to the labor-meeting responsibility itself (was a Supervisor before, director/manager handled labor meetings previously) — this session doubled as her first real exposure to "actual vs. standard" as the organizing framework, not just a system refresher.
+- Kimani is new to the labor-meeting responsibility itself (was a Supervisor before, director/manager handled labor meetings previously) — this session doubled as his first real exposure to "actual vs. standard" as the organizing framework, not just a system refresher.
 - Session included substantial rapport-building (shared Chicago hotel history — Mag Mile, the Intercontinental, the Gwen's "Upstairs" bar, downtown Hilton) — consistent with the "think of your consultant as a fellow hotelier" framing from Ralph's kickoff presentation.
 
 ---
