@@ -1,0 +1,43 @@
+<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+
+# Westin La Paloma Resort & Spa — Receipt Log
+**Trip:** August 16–21, 2026 | HMAlpha onsite admin/manager training | Client: HMAlpha / Westin La Paloma Resort & Spa, Tucson AZ
+**Flights:** Outbound SW BQR3JN, OMA-DEN-TUS, Sun 8/16 — departs OMA 1:15 PM (WN1511) → DEN 1:50 PM → departs DEN 5:25 PM (WN4214) → TUS 6:25 PM. Seats 22A/26F. $528.20 (Visa ••••2674). Return SW A9QZXC, TUS-DEN-OMA, Fri 8/21 — departs TUS 11:40 AM (WN2406) → DEN 2:30 PM → departs DEN 3:15 PM (WN4717) → OMA 5:40 PM. Seats 19A/09D. $453.20 (Visa ••••2674).
+**Hotel:** Westin La Paloma Resort & Spa, 3800 E Sunrise Dr, Tucson AZ 85718 — confirmation #1488816. COMP rate: room, tax, resort charge, parking, and F&B (no alcohol). Arranged by Peggy Taylor; reservation made by Dawn Glass (dawn.glass@westinlapaloma.com). Check-in Sun 8/16, check-out Fri 8/21 (5 nights).
+**Expense report:** Built 8/28/26, rebuilt same day with the return Uber and a Charge Source column — `2026-08-16_2026-08-21_westin-la-paloma-expense-report.xlsx`, total $1,156.88. All receipts archived. **Submitted to Ralph Varble 8/29/26, 7:45 PM CT** — email subject "HMAWPL_PS_Expense Report_2026_0821", cc'd peter.a.castellano@outlook.com and heartprincess71@yahoo.com. **✅ Approved and submitted by Ralph 8/30/26, 10:18 PM** — "I sent this one in and approved it." This was Ralph's last ER approval before departing Unifocus 8/31/26 — see routing change note below. Closed.
+**Receipt packet:** Built 8/28/26 — `Platinum Workforce Strategies\HM Alpha\Westin La Paloma\2026-08-16_2026-08-21-westin-la-paloma-receipt-packet.pdf`, 14 pages, in ER chronological order (flight → lunch → Uber per travel day, approved sequence: outbound leg then return leg with Uber → lunch → flight).
+
+---
+
+| Date | Vendor | Location | Meal | Items | Subtotal | Tax | Other | Tip | Total | Card | Receipt |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 8/16/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover) | Lunch | — | $27.24 | — | — | $3.78 | $31.02 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Marczyks DIA Westin La Paloma.jpeg` |
+| 8/16/2026 | Uber (driver: Clark) | TUS Airport → Westin La Paloma (16.63 mi, 36 min) | — | UberX | $29.89 | — | Airport Surcharge $4.00 + Booking Fee $5.05 = $9.05 | $7.79 | $46.73 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Uber TUS Airport to Westin La Paloma.pdf` |
+| 8/21/2026 | Uber (driver: Scott) | Westin La Paloma → TUS Airport (16.08 mi, 40 min) | — | UberX | $36.15 | — | Airport Surcharge $4.00 + Booking Fee $4.79 + Wait Time $0.30 = $9.09 | $15.00 | $60.24 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-21 Uber Westin La Paloma to TUS Airport.pdf` |
+| 8/21/2026 | Marczyk's Fine Foods @ DIA | Denver International Airport (DEN layover, return) | Lunch | Mediterranean ChickenWrap, Genoa/Prosciutto Snack Pack, Marion MilkChoco SeaSalt, Essentia Water | $30.48 | $2.44 | — | $4.57 | $37.49 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-21 Marczyks DIA Westin La Paloma.jpeg` |
+
+---
+
+## Flights
+
+| Date | Route | Confirmation | Amount | Card | Receipt |
+|---|---|---|---|---|---|
+| 8/16/2026 | OMA-DEN-TUS (SW BQR3JN) | BQR3JN | $528.20 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-16 Southwest Trip Confirmation BQR3JN Westin La Paloma.pdf` |
+| 8/21/2026 | TUS-DEN-OMA (SW A9QZXC) | A9QZXC | $453.20 | Visa ••••2674 | Archived: `Personal Finance/Receipts/2026/2026-08-21 Southwest Trip Confirmation A9QZXC Westin La Paloma.pdf` |
+
+---
+
+## Open Items
+- [x] Hotel confirmed — Westin La Paloma, confirmation #1488816, COMP (room, tax, resort charge, parking, F&B no alcohol), Sun 8/16–Fri 8/21
+- [x] Remaining meals — all logged; 8/21 Marczyk's DIA return lunch ($37.49) receipt archived 8/28/26 to `Personal Finance/Receipts/2026/2026-08-21 Marczyks DIA Westin La Paloma.jpeg`
+- [x] Return flight — SW A9QZXC, TUS-DEN-OMA, Fri 8/21, departs TUS 11:40 AM (WN2406) → DEN 2:30 PM → departs DEN 3:15 PM (WN4717) → OMA 5:40 PM. Seats 19A/09D. $453.20, Visa ••••2674.
+- [x] OMA-side ground transport — none; Kim picked Pete up at OMA on return, no Uber/taxi expense
+- [x] Return Uber — Westin La Paloma → TUS Airport, 8/21 9:36–10:16 AM, driver Scott, $60.24, Visa ••••2674, receipt archived
+- [x] Expense report — rebuilt 8/28/26 with return Uber + Charge Source column, total $1,156.88
+- [x] Receipt packet — built 8/28/26, 14 pages, filed to `Platinum Workforce Strategies\HM Alpha\Westin La Paloma\`
+- [x] Submit expense report + receipt packet to Ralph Varble — sent 8/29/26, 7:45 PM CT, subject "HMAWPL_PS_Expense Report_2026_0821"
+- [x] Approved by Ralph — 8/30/26, 10:18 PM, "I sent this one in and approved it." Trip fully closed.
+
+## Routing change for future ERs (Ralph's last day is 8/31/26)
+
+Per Ralph's 8/30/26 email: **"Since Monday is my last day, any future ones for HMAlpha or MakeReady (like the Moran) should go to Alain with a copy to Shilpa. One of them will approve it and send it on."** Pete confirmed same day this is the **default for all Unifocus-billable ERs going forward, every client**, not just HMAlpha/MakeReady. The upcoming Moran ER (training week starts 8/31/26) goes to **Alain Derderian, cc Shilpa Bhando** — not Ralph. See [[reference-unifocus-expense-report-template]] and [[project-unifocus-contract-review]].
