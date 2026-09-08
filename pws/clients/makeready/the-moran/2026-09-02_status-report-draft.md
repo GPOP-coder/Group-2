@@ -6,7 +6,17 @@
 
 ---
 
-## ⚠️ WORKING DRAFT — INCOMPLETE — NOT CLIENT-READY ⚠️
+## ⚠️ WORKING DRAFT — UPDATED 9/5/26 WITH FRIDAY'S OUTCOME — SEE CLIENT-READY VERSION ⚠️
+
+**Friday 9/4/26 automated run outcome (the blocking condition below is now resolved):** The Task Scheduler fix held — Generate Projected Hours and Generate Schedules fired at ~11:45 AM/noon CT as corrected. Result against the current planning week (9/13-9/19): **real but small improvement, not a fix.** Per Pete's own numbers, 408 shifts generated, only 29 populated (~7%); the fuller department-level pull (Weekly Projected Schedule report, captured before any manual editing) shows property-wide hours at Scheduled 339.5 vs. Projected 3,523.2 (-90% variance). Only two pockets populated meaningfully: **Bell Person (-29% variance, real fill)** and **salaried Property Ops/Engineering (0% variance — fully matched)**. Everything else — Housekeeping, Culinary, Banquets, Allegory, salaried F&B/Rooms/A&G/Sales — sits at -75% to -100%.
+
+**Support's latest theory disputed, 9/4/26:** Jeremiah (Unifocus Client Service) proposed that shifts won't populate without variable-employee availability filled out, based on testing the wrong (data-thin) week, 8/30-9/5. Pete disputed directly: the Bell counter-example (71% fill, all on blank-availability employees) disproves availability as a blocking condition. Pete separately reframed why Jeremiah's test week looked bad — it's the gap week between config and training with incomplete forecast data (no Revenue Center forecasts, no banquets), not evidence of the real defect. **Refined diagnosis as of 9/5/26:** Generate Projected Hours is clearly working (projected hours populate almost everywhere, including 613 hrs for Housekeeping alone) — the failure is isolated entirely to Generate Schedules not assigning employees to already-created shifts, and it is not availability-driven. What Bell and salaried Engineering share that the ~90%-empty departments don't remains an open question, now handed back to Unifocus support as a sharper, evidence-backed ask. Full detail: `2026-08-31_ticket-261575-schedules-not-generating.md`.
+
+**Status call updated 9/5/26:** still 🔴 At Risk — the core defect is unresolved a full week after discovery, but the diagnosis has narrowed substantially and Pete is no longer chasing a wrong theory from support. See the client-ready version for the external framing.
+
+---
+
+## ⚠️ ORIGINAL WORKING DRAFT — INCOMPLETE AS OF 9/3/26 ⚠️
 
 **Updated late evening, Thursday, September 3, 2026** — with full same-day transcript review now complete for both Thursday sessions. Still not finished; awaiting Friday's automated run outcome.
 
