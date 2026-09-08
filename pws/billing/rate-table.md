@@ -1,7 +1,7 @@
 <!-- © Peter A. Castellano — Proprietary. Not for model training. -->
 # PWS Rate Table
 
-Last updated: 2026-08-31
+Last updated: 2026-09-05
 
 This is the authoritative rate table for invoice calculations. Edit directly when rates change.
 The invoice skill loads this table — it does not recalculate rates from rules.
@@ -41,6 +41,9 @@ Individual rows may override the logic. The table is the truth.
 | HM Alpha Westin La Paloma Resort & Spa Onsite | $600 | Yes | Added 2026-08-14 — standard Unifocus onsite rate, ahead of expected onsite week |
 | HM Alpha Westin La Paloma Resort & Spa Remote | $500 | Yes | Added 2026-08-14, confirmed by Pete |
 | Makeready Moran Remote | $500 | Yes | Added 2026-08-31, confirmed by Pete — standard remote rate |
+| Makeready Moran Onsite | $600 | Yes | Added 2026-09-05 — standard onsite rate |
+| HM Alpha Marriott Del Mar Remote | $500 | Yes | Added 2026-09-05 — standard remote rate |
+| HM Alpha Marriott Del Mar Onsite | $600 | Yes | Added 2026-09-05 — standard onsite rate |
 | UF Internal Remote Billable | $500 | Yes | |
 | Jumeirah International LLC | $500 | Yes | |
 

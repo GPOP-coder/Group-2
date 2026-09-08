@@ -14,7 +14,7 @@
 
 | Nickname | Issuer | Type | Last 4 | Purpose | Status |
 |---|---|---|---|---|---|
-| Wells Fargo Platinum Debit | Wells Fargo | Debit VISA | 8289 | Main joint checking | Active |
+| Wells Fargo Platinum Debit | Wells Fargo | Debit VISA | 8289 | Debit card for Main Checking -5060 (joint); tied to McDonald's mobile app among other things | Active |
 | Wells Fargo Active Cash | Wells Fargo | Signature VISA | 7552 | Recurring expenses (2% cash back; usage now mixed) | Active |
 | Southwest Rapid Rewards Plus | Southwest Airlines | Signature VISA | 2674 | Southwest flights and travel | Active |
 | FNBO Evergreen | FNBO | Signature VISA | 0733 | eBay (expenses, COGS); also used interchangeably for PWS expenses (no dedicated PWS credit card yet) | Active |
@@ -61,5 +61,6 @@
 - **Nebraska Medicine FSA (5711):** Kim has 2 identical cards
 - **FNBO Checking (eBay):** Receives eBay revenue; paired with both eBay cards (FNBO Evergreen 0733 and Debit 9115)
 - **FNBO Checking (PWS):** Receives PWS revenue; paired with PWS Debit 6072
-- **Wells Fargo Debit (8289):** Joint account with Kim (main checking)
+- **Wells Fargo Debit (8289):** Joint account with Kim, Main Checking -5060
+- **Wells Fargo Checking -7291:** A second, separate WF checking account (distinct from Main Checking -5060) — used to receive the 9/4/26 Mohonk + Westin La Paloma UF ER reimbursement and as the source of the 8/30/26 $100 ATM cash withdrawal for the Moran trip. See `finances/2026-09-04_mohonk-westin-la-paloma-er-reimbursement.md`.
 - **Kim's Wells Fargo Debit:** Separate number; to be captured separately

@@ -10,7 +10,7 @@
 
 | Device | Role | Use Case |
 |---|---|---|
-| **Brother ADS-2000** | Primary scanner | Standard receipts — duplex ADF, scan straight to PDF |
+| **Brother ADS-2000** | Primary scanner | Standard receipts — duplex ADF, scan straight to PDF. **Scan mode: True Gray, not Color** — Color mode can throw a TWAIN "not enough memory" error (fixed 9/7/26 by switching to True Gray); grayscale is also plenty for Claude's extraction since no OCR/color info is needed. |
 | **Brother 2380** | Secondary/backup | Crumpled, fragile, or oddly-shaped receipts that won't feed through ADF |
 | **iPhone + camera** | Mobile capture | Receipts collected away from the desk; use Genius Scan or Adobe Scan to export as PDF, or plain camera photo |
 
