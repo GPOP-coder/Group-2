@@ -28,6 +28,7 @@
 - Pete departs Houston early Friday 9/4 (lands Omaha 10:25 AM CT, before the ~11:45 AM–noon run fires) — this report will need a closing update reflecting how that goes, even though Pete expects to be reachable remotely rather than onsite.
 - New findings from Thursday's transcripts not yet triaged for ownership: Allegory bartender standard showing zero generated hours despite present beverage revenue; Export Schedules automation not running on its own schedule; a system-wide edit-lock that blocked Pete from correcting a standard or an employee's job coding; a new ADP secondary-banquet-server coding gap; and Brandy Becker's (MakeReady corporate payroll) list of ADP double-coded employees, which may allow batch correction of several of the week's individually-found ADP issues.
 - Speaker/attendee identification gaps in the 9/1 and 9/3 transcripts — Pete resolving directly by listening to the recordings where it matters; no action needed here.
+- **Gap check 9/6/26 — two items from earlier sessions never made it into this report, now added below:** (1) a 9/5 guest-count anomaly (555 guests logged against 185 rooms, cause never identified) from the 8/31 Monica session; (2) a bartender-specific coverage report requested during the 9/1 PM(b) session, never built or scoped. Both still genuinely open — carried into Planning Going Forward.
 
 **Do not paste any of this block into the final report.**
 
@@ -78,11 +79,17 @@ Room Attendant is built on a minutes-per-unit model (30 min/departure, 18 min/st
 **Labor Structure**
 Only non-exempt employees are currently being scheduled in Unifocus; salaried staff (e.g., the Culinary sous chef) are not scheduled under the current setup. The Sub Only flag (which prevents the auto-scheduler from filling a secondary job for an employee) was pre-populated correctly for existing secondary-job employees at go-live, but is not automatic going forward — it's a manager responsibility for any newly cross-trained or transferred employee, and at least one Front Desk case required manual correction this week. Two distinct bartender job codes (Allegory and TBR/Boardroom) currently display under the same generic "Bartender" title, creating ambiguity about shift eligibility — flagged for ADP-side cleanup, not yet done. New hires start with no Schedule Group assigned by default and will not appear in schedule-group-filtered views until a manager sets one manually. **New 9/3/26:** a live attempt to remove an incorrect secondary Steward job assignment from a Culinary employee also failed with the same unexplained edit-permission block noted above under Labor Standards — worth tracking as a possible symptom cluster.
 
+**Weekly Labor Meeting**
+Attendance expectations were never fully clarified across all departments — John Christian is expected to typically represent his area, but Engineering's regular attendance and backup coverage for other departments were only discussed informally (9/1) and not resolved.
+
 **Planning & Schedule Timeline**
 The property's automated weekly cycle was found materially broken at the start of the week — the "Open New Planning Period" task was running on the wrong day, throwing off everything downstream. Corrected live 8/31; the active planning week is confirmed as 9/13–19 as of 9/3/26. A revised cycle was then designed with Finance to resolve a same-day collision between forecast/revenue-center work and a standing Thursday leadership meeting: Thursday — planning period opens automatically, rooms and banquet forecast entered by 4:00 PM, Generate Revenue Center Forecast runs at 4:00 PM; Thursday 4:00 PM through Friday ~11:45 AM — F&B revenue-center edit window; Friday ~11:45 AM–12:00 PM CT — Generate Projected Hours and Generate Schedules run automatically; Friday afternoon through Wednesday — managers build and edit schedules; Wednesday afternoon — weekly labor meeting; end of day Wednesday — schedules published. **Resolved 9/3/26: this cycle is now actually locked into Task Scheduler** — Pete found the automation still pointed at the original 8/31 setup (Thursday 3:30 PM) during Monica's Thursday PM session and corrected it live to Generate Projected Hours Friday 11:45 AM, Generate Schedules shortly after, Clear Schedules unchecked, all divisions/branches selected. Export Schedules automation was separately found not running as expected — needs its own ticket (see Interfaces above).
 
 **Database Status**
-Still settling. This week's training surfaced several real ADP data-quality issues affecting the employee database — department-code and job-code mismatches for a handful of Front Desk, Bell, and F&B staff, most being referred to HR/ADP for correction rather than overridden in Unifocus. An unexplained Work Class anomaly (every employee showing Work Class 12) was bulk-corrected to Full Time as a test; this did not resolve the separate Generate Schedules failure, so its origin remains unexplained but is now considered unlikely to be the root cause of that issue.
+Still settling. This week's training surfaced several real ADP data-quality issues affecting the employee database — department-code and job-code mismatches for a handful of Front Desk, Bell, and F&B staff, most being referred to HR/ADP for correction rather than overridden in Unifocus. An unexplained Work Class anomaly (every employee showing Work Class 12) was bulk-corrected to Full Time as a test; this did not resolve the separate Generate Schedules failure, so its origin remains unexplained but is now considered unlikely to be the root cause of that issue. **Separately (found 8/31, still unresolved):** a data anomaly for 9/5 showed 555 guests forecast against only 185 occupied rooms — cause never identified, not revisited in any later session.
+
+**Reporting Requests**
+A bartender-specific coverage report was requested during the 9/1 PM(b) manager session — not built, and its required content/format was never scoped before Pete's departure. Needs a follow-up conversation with the requester to define what it should show.
 
 **Unifocus Mobile App**
 Exists in the app store but has not yet been activated for The Moran. Activation is a MakeReady corporate-level decision, potentially property-by-property, with no confirmed timeline. Pete's own recommendation is to hold off until managers are comfortable building schedules manually first.
@@ -111,6 +118,8 @@ No formal budget-vs-standards pass has been completed for this property as of th
 - Decide the six-hour-shift unpaid-lunch policy question with HR/legal.
 - Decide whether to configure the department-meeting 2-hour minimum as an actual shift-length rule (currently policy-only).
 - Extend the rooms forecast window — property's revenue analyst currently sends 10 days; Unifocus needs roughly 16.
+- Investigate the 9/5 guest-count anomaly (555 guests forecast against 185 occupied rooms) — cause never identified as of Pete's departure.
+- Scope and build the bartender-specific coverage report requested 9/1 — needs a follow-up conversation with the requester to define content/format before it can be built.
 
 **Interfaces**
 - **Resolve UNIFOCUS-261575 (Generate Schedules producing zero shifts property-wide) — the critical path item for this engagement.** Escalated to Shilpa Bhando (VP of Operations) 9/2/26; support's latest response was disputed by Pete 9/3/26. Must be fixed and validated before Friday's automated ~11:45 AM–noon-Central generation run (now correctly locked into Task Scheduler); Pete will not be onsite to react if it fails again, though he expects to be reachable remotely from Omaha.
@@ -120,6 +129,7 @@ No formal budget-vs-standards pass has been completed for this property as of th
 - Confirm whether MakeReady corporate wants Export Schedules access restricted to a single user going forward (Pete's live 9/3/26 recommendation, and a partial fix already applied to one permission group) — a Michelle Lewis-level decision.
 
 **Other**
+- Clarify weekly labor meeting attendance expectations across all departments (Engineering's regular attendance and backup coverage were never resolved).
 - Confirm the go-live date/time once UNIFOCUS-261575 is resolved and Friday's automated run outcome is known.
 - Update and finalize this report after Friday's automated run outcome is known — do not send in its current form.
 
