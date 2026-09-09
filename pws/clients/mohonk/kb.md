@@ -79,6 +79,10 @@ Last updated: 2026-08-06
 - **Holding all F&B standard changes** pending Mohonk's operational decisions
 - On-call main dining room server position: Lou Petruzzelli green-lit — configure with James Danks
 
+## Reminders
+
+- **✅ Meeting with Bron confirmed: Monday 9/14/26, 1:00 PM CT** — covers his concerns with James (see [UNIFOCUS-261909](2026-09-03_ticket-261909-standard-hours-main-dining.md)) plus the reconcile and hours-transfer emails. Bron sending over some issues asynchronously during the week of 9/8. Susanna Briggs (or her assistant) invited and accepted; invite sent for the afternoon of the 14th.
+
 ## Status Report
 
 **Draft prepared 8/7/26:** [2026-08-07_status-report-draft.md](2026-08-07_status-report-draft.md) — covers the full 8/2–8/7 onsite visit using the standard Unifocus P&S status report categories. Not yet sent. **Plan (set 8/6/26 late night):** review the draft with Lou on Friday morning first, to earn his buy-in before it goes to ownership with his knowledge/approval attached — not sending straight to the distribution list unilaterally. Timeline rebuild also targeted for Friday morning, same session.
@@ -316,6 +320,7 @@ Full notes: [2026-07-24_visit-agenda-planning-call.md](2026-07-24_visit-agenda-p
 | (no ticket needed) | Beverage jobs missing from Generate Schedules task's job selection | 🟢 Fixed 7/3/26 — see below |
 | [UNIFOCUS-252999](https://ufjira.atlassian.net/browse/UNIFOCUS-252999) | Standard hours not generating Thursday–Sunday, recurring weekly | 🟡 Closed by Unifocus 8/10/26 (support says integration team adjusted import timing), but Bron's own 8/6/26 fix is separate/unconfirmed — validate over a live cycle before treating as resolved; 72hr reopen window expires ~2:51 PM CDT 8/13/26 — Critical priority, root cause confirmed 7/24/26 |
 | [ESCALATION-6690](https://ufjira.atlassian.net/browse/ESCALATION-6690) | Subject/status unknown — flagged by Pete 8/6/26, not yet reviewed in Jira. Likely the formal engineering escalation opened 7/20/26 for UNIFOCUS-252999 (engineers Jeremiah Lay / Mrigen Pradhan) — **unconfirmed, needs a direct look in Jira** | ⏳ Unreviewed |
+| [UNIFOCUS-261909](https://ufjira.atlassian.net/browse/UNIFOCUS-261909) | Standard Hours Issue, Main Dining Room (Mon 8/24 & Wed 8/26 low) | ✅ Closed 9/8/26 — root cause fixed/verified 9/4/26 (Dining Room Server dinner standard's 500-Infinity band was unpopulated Mon–Thu); Pete emailed the ticket closed 9/8/26 4:45 PM CT. James's residual Monday concern is being handled directly with Bron (Monday 9/14/26 meeting), not through the ticket. See [2026-09-03_ticket-261909-standard-hours-main-dining.md](2026-09-03_ticket-261909-standard-hours-main-dining.md) |
 
 See [Interface Reference](interfaces.md) for full interface-by-interface status (Rooms KBI, F&B Covers, Banquet, Spa, ADP feeds) as of the 7/1/26 Interface Flow call.
 

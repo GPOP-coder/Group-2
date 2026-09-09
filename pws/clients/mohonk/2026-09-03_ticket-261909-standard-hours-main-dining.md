@@ -2,7 +2,7 @@
 
 # Mohonk — UNIFOCUS-261909: Standard Hours Issue, Main Dining Room
 
-**Status:** ✅ Resolved 9/4/26 — Pete fixed and confirmed. Client-side config gap, not a Unifocus bug. Ticket not yet formally closed in the Unifocus portal.
+**Status:** ✅ Closed 9/8/26, 4:45 PM CT — Pete emailed into the ticket thread (to James Danks/Support, cc Bron) confirming the structural configuration issue is resolved and asking for the ticket to be closed. The Unifocus-side (support-actionable) issue is done; James's remaining Monday-specific concern (see Correspondence, 9/4 8:46 AM) is **deliberately not being re-litigated through the ticket** — Pete is handling it directly with Bron instead, in the Monday 9/14/26 1:00 PM CT meeting (see Reminders in [kb.md](kb.md)).
 
 ---
 
@@ -53,6 +53,9 @@ Covers by meal period, same week (Main Dining Room) — Bron's second attached r
 - **9:15 AM CT, 9/3/26** — Auto-ack from Unifocus Client Service: ticket **UNIFOCUS-261909** opened, first comment from **Pedro Gutierrez** (standard received/queued acknowledgment, no diagnosis yet).
 - **8:52 AM CT, 9/3/26** — James Danks replied on the ticket thread (to Bron, support@unifocus.com, cc Susanna/Pete/Casey): *"It is from the server hours it seems."* Independent confirmation of the Dining Room Server standard as the source, matching the diagnosis above.
 - **9/4/26** — Pete replied on the ticket thread: confirmed James was right, traced it to the labor standard started in the first F&B meeting with James (deferred at the 8/5 follow-up in favor of Buffet Attendant), identified the missing top-volume line in the Sun-Thu dinner standard, noted the smoothing applied to Sun-Thu and extended to Fri/Sat, attached the corrected single-week WLS (Mon -1%, Wed -3%, full week variance -3% to 2%), and flagged breakfast/lunch as a possible next step for the November visit.
+- **8:46 AM CT, 9/4/26** — James Danks replied on the ticket thread (to support@unifocus.com, cc Bron/Pete): *"Standard hours still look low for Monday compared to other days of week. Guest counts are comparable to other days so not sure how this makes sense."* Posted after Pete's fix/WLS attachment above — reads as James not yet satisfied, though the corrected report already shows Monday at only -1% variance (essentially at standard). **Pete's own read (9/8/26 Teams w/ Susanna): "I did and I'm deliberately ignoring it. I'd rather hear from Bron."** — declining to re-litigate this specific point through the support ticket; will address it directly with Bron instead.
+- **9/8/26, Teams w/ Susanna Briggs:** Susanna flagged that support is pinging her because the ticket (assigned to Mel) needs to close before Mel goes on medical leave, and asked Pete to comment internally so Mel knows next steps. Pete agreed, noting he was mid-training (Marriott Del Mar) and could respond by ~2 PM CT at the earliest. Separately, Pete confirmed he'd spoken with Bron and set up a meeting for **Monday 9/14/26, 1:00 PM CT** — invited Susanna (or her assistant) to join; she accepted, asking to avoid the 15th (in-office 12–2 that day, moot since the meeting is the 14th). Invite sent for the afternoon of the 14th.
+- **4:45 PM CT, 9/8/26** — Pete emailed into the ticket thread (To: James Danks, Unifocus Support; Cc: Bron Walis), subject "RE: UNIFOCUS-261909 Standard Hours Issue": *"The support-related Labor Standard structural configuration issues have been resolved. I will work with the property to examine and adjust the standards in an upcoming call and/or visit. This ticket can be closed."* — closes the ticket formally while routing James's still-open Monday concern to the direct working relationship with Bron rather than continuing it in the support channel.
 
 ## Resolution (9/4/26)
 
@@ -82,5 +85,7 @@ Ticket week corrected cleanly (15%→0%). The other 7 weeks show a mixed, roughl
 ## Open items
 
 - [x] Reply sent on ticket UNIFOCUS-261909, 9/4/26 — see Correspondence above.
+- [x] **Post reply on the ticket to close it out** — done 9/8/26, 4:45 PM CT (see Correspondence). Requested by Susanna Briggs so Mel (assigned, going on medical leave) can close her tickets.
+- [ ] **Monday 9/14/26, 1:00 PM CT — meeting with Bron.** Covers James's remaining Monday-standard-hours concern plus Bron's own reconcile/hours-transfer email topic. Susanna Briggs or her assistant invited; invite sent for the afternoon of the 14th.
 - [ ] Log ~4 hours to Clockify for this ticket.
 - [ ] Breakfast/Lunch base-jump fix (same "+2 at 180 → +1 at volume=1" pattern) deferred to November visit — see `2026-08-31_bron-casey-punch-list-review-call.md`.
