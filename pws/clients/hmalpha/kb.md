@@ -161,6 +161,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
 - [InterContinental New Orleans — Go-Live Support Week 1 (7/14/26)](intercontinental-new-orleans/2026-07-14_go-live-support-week1-meeting-notes.md)
 - [InterContinental New Orleans — Go-Live Support Week 2 (7/21/26)](intercontinental-new-orleans/2026-07-21_go-live-support-week2-meeting-notes.md)
+- [Marriott Del Mar — Property KB](marriott-del-mar/kb.md)
 - [Marriott Del Mar — Contacts](marriott-del-mar/contacts.md)
 - [DoubleTree San Diego Del Mar — Contacts](doubletree-san-diego-del-mar/contacts.md)
 - [DoubleTree Sunrise — Contacts](doubletree-sunrise/contacts.md)
