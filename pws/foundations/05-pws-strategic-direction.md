@@ -1,7 +1,7 @@
 # Document 5: PWS Strategic Direction
 **PWS — Hospitality & Consulting Foundations**
 *Source: Unifocus monthly consultant meeting + peer conversation, May 19, 2026*
-*Last updated: July 31, 2026*
+*Last updated: September 9, 2026*
 
 ---
 
@@ -79,6 +79,23 @@ Most implementations tell managers what to do. PWS tells them why.
 When people understand the why, they step forward together. They trust the standard. They defend it upward. They use the system proactively.
 
 *Reference: Mac McIntire — Stepping Forward Together. See `pws/mac-mcintire/mac-mcintire.md` for full context.*
+
+### The Synthesis Neither Side Could See (added 2026-09-09)
+
+Pete gave a copy of **Stepping Forward Together** (a portion of Mac's management practice rolled into a frame story) to his superiors at Unifocus. They dismissed it — didn't see the value. Separately, **Mac McIntire never understood the value of Unifocus-style consulting** — the analysis, industrial engineering, labor standards methodology, software, and interface work that is the technical backbone of what PWS delivers. Pete's observation: **Mac and Ken Heymann (Unifocus COO and co-owner at the time) independently said almost the exact same dismissive thing, verbatim, about the other person's domain.** Neither side could see past their own discipline.
+
+Pete's framing for what PWS actually is, sitting in the gap between them:
+
+> **Science, Art, and Religion of business management.**
+> - **Science** — the Unifocus side: analysis, industrial engineering, labor standards, software, interfaces. Measurable, defensible, data-driven.
+> - **Art** — Pete's own craft: observation, judgment, relationship-building, knowing when and how to apply the science to a specific property and team.
+> - **Religion** — Mac's side: the philosophy, the cultural alignment, the *why* that makes people commit (see "The Why Matters" above).
+
+Neither Ken nor Mac could see all three at once — each saw his own piece as the whole point and the other's as irrelevant overhead. **PWS's actual differentiator is holding all three together.** This is not just a marketing angle; it's the reason Pete is positioned to do work neither Unifocus-as-software-company nor Mac-as-standalone-consultant could do alone.
+
+**Partial external validation:** Ralph Varble adopted Mac's **Ladder of Commitment** as a change-management framework inside Unifocus and with clients. Ralph's specific insight — recognizing that PWS/Unifocus engagements are really about instilling a *new management practice* through change management, not just implementing software — is closer to Pete's synthesis than anyone else at Unifocus has gotten. It's still only the Religion/change-management piece being borrowed, not the full three-part synthesis, but it's the clearest sign anyone senior has actually seen part of what Pete sees.
+
+**Honest market check, per Pete (2026-09-09):** he does not currently encounter clients or prospects actively asking for this synthesis, or offering to pay for it as such. The three-part framing is Pete's own strategic clarity about *why* his work is differentiated — it is not yet a proven, demanded product. Worth revisiting as client conversations develop; don't treat it as validated demand until there's direct evidence of it (a client asking for the "why," not just the "how").
 
 ---
 

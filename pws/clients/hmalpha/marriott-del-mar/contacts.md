@@ -30,6 +30,7 @@
 | Juan Barrios | Sous Chef | juan.barrios@marriott.com |
 | Michael Riley | Banquet Manager | michael.riley@marriott.com |
 | Ramon Silva | Director of Housekeeping | ramon.silva2@marriott.com |
+| Carlos Dela Cruz | Director of Rooms (housekeeping, front desk, security) | not yet obtained — new to roster, surfaced 9/9/26 manager training |
 | Jason Chang | Front Office Manager | jason.chang3@marriott.com |
 | John Davis | Loss Prevention Supervisor | john.davis@marriott.com |
 | Al Catino | Accounting — Payroll | al.catino@marriott.com |
@@ -43,4 +44,6 @@
 - **Email domain split:** "(EC)"-tagged leadership roles generally use @hmalpha.com; most operational managers use @marriott.com. Not a hard rule — Sandra Academia's confirmed address is @marriott.com despite being (EC)-tagged, so verify before sending to any of these contacts for the first time rather than assuming by role tag.
 - **Mark, Valeria, and Sandra's emails confirmed directly (9/2/26)** — supersedes the property org roster (provided 8/20/26) for these three. Valeria's and Sandra's roster-listed addresses were both wrong (Valeria's showed Angel Alvarez's stale address; Sandra's roster address used the wrong domain).
 - Training week of Sep 7, 2026 — confirmed 9/2/26 on a prep call with Taylor Walton (configurer).
+- **Carlos Dela Cruz (Director of Rooms)** attended the 9/9/26 manager training — not on the 8/20/26 property org roster; oversees housekeeping, front desk, and security, distinct from Ramon Silva (Director of Housekeeping) and Jason Chang (Front Office Manager), who likely report up to him. Email not yet obtained.
 - **Key user note (9/2/26):** Sandra Academia (DOF) will be the one actually running the system day-to-day — Mark (GM) is engaged in meetings but "very hands off" operationally, and Valeria (HR) is newer and not yet system-savvy. Prioritize Sandra for the deepest hands-on training time. Full call notes: `2026-09-02_taylor-walton-prep-call.md`.
+- **Stephanie Simmons' Unifocus labor-structure classification (per 9/9/26 session):** Division 5 (Management) → Department (Sales & Marketing) → Job (Director of Sales & Marketing) — matches the "Christmas tree" Division/Department/Job hierarchy referenced in the 9/8/26 PM admin session. Now has her own Unifocus login (self-managed password) plus view/edit access to Input KBI Forecast — see `2026-09-09_stephanie-simmons-ci-integration-meeting.md`.

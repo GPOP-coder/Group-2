@@ -1,6 +1,6 @@
 # Mac McIntire — Context & Library Overview
 
-Last updated: 2026-05-27
+Last updated: 2026-09-09
 
 ---
 
@@ -113,25 +113,42 @@ Mac's signature workshop framework. Walks an executive leadership team through n
 
 Another anchor framework — referenced by Mac as central to his work. Not yet processed. Should be prioritized after Strategic Logics.
 
+### The #1 Reason for Failure to Perform (Role Clarification)
+
+Short standalone piece (4:41) on lack of role clarification as the root cause of team and manager/employee conflict, and the ambiguity → conflict → failure cascade it produces when left unaddressed.
+
+**Source video:** `#1 Reason - short.mp4` — an early test file Pete used to trial transcript-extraction methods from YouTube videos, before Plaud existed. Found sitting in the OneDrive Transcriptions inbox 9/9/26; not itself part of the numbered Manager's Toolkit library, but same source body of work.
+**Transcribed:** 9/9/26, via `faster-whisper` (base model, CPU, int8) — see Transcription Method below.
+**Derivative:** `derivatives/role-clarification.md`
+
 ---
 
 ## Deployment Goal
 
-Pete's long-term goal: digest Mac's entire body of work and repurpose it as Pete's own — integrated with PWS methodology, delivered in Pete's voice, applied to Pete's client base (luxury hospitality, casino operations).
+Pete's long-term goal: digest Mac's entire body of work — all articles, all Manager's Toolkit transcripts — into a single queryable KB he can draw on to produce new material, not just archive. Repurpose it as Pete's own, integrated with PWS methodology, delivered in Pete's voice, applied to Pete's client base (luxury hospitality, casino operations).
 
 **The integration:**
-- Mac provided the philosophy (the why, organizational alignment, cultural change)
-- Pete provides the systems (labor management, Unifocus, workforce analytics, measurable outcomes)
+- Mac provided the philosophy (the why, organizational alignment, cultural change) — "Religion"
+- Pete provides the systems (labor management, Unifocus, workforce analytics, measurable outcomes) — "Science," plus Pete's own observation/judgment craft — "Art"
 - Together: the complete framework — why the organization needs to align, and how to run it once it does
+
+**Why this matters, not just what it is (2026-09-09):** Mac never understood the value of Unifocus-style consulting (analysis, industrial engineering, labor standards, software, interfaces). Unifocus leadership (Ken Heymann, COO/co-owner at the time) dismissed Mac's philosophical/cultural work when Pete shared *Stepping Forward Together* — almost the same dismissal, verbatim, in the other direction. Pete's read: **PWS exists in the gap neither side could see** — the Science, Art, and Religion of business management, held together. This KB is the raw material for that synthesis, not an archival project for its own sake. Full framing: `pws/foundations/05-pws-strategic-direction.md` § "The Synthesis Neither Side Could See."
 
 **Recommended Claude Project:** Dedicated "Mac McIntire Library" project in Claude.ai for uploading derivatives as they're built and key source articles as they're processed.
 
 ---
 
+## Transcription Method — Confirmed 9/9/26
+
+Tested on `#1 Reason - short.mp4` (4:41, 213MB): **`faster-whisper`** (Python package, `base` model, CPU, int8 compute type) transcribed the full video cleanly in a few minutes with no manual audio extraction step — no separate ffmpeg install needed (bundled via PyAV), no paid API, no GPU required. Detected language confidence 1.00, no garbled segments. This replaces the earlier "Whisper Desktop or equivalent" placeholder as the confirmed method for the remaining Manager's Toolkit videos. For longer videos (the library includes a few 40+ minute deep dives), consider the `small` or `medium` model for better accuracy at a modest speed cost — not yet tested.
+
+**How Strategic Logics was originally done (for contrast):** the five Strategic Logics videos were processed pre-Plaud via a fully manual chain — play the video, record the audio off the speakers on an iPhone Voice Memo, run that through a transcription tool Claude Chat recommended at the time, then paste the resulting transcript into a Claude Chat conversation to start building the derivative. Workable, but slow (one generation-loss step — mic picking up speaker audio — plus multiple manual handoffs), which is a real part of why Strategic Logics "took a long time" per Pete. The `faster-whisper` pipeline above reads the video file directly with no audio-quality loss and no manual re-recording step, and should meaningfully cut the time-per-video for the remaining 176.
+
 ## Processing Priority
 
 1. ✅ Strategic Logics — derivative complete (`derivatives/strategic-logics.md`)
-2. Ladder of Commitment — next anchor framework to process
-3. Articles — 348 files; start with those most relevant to Quality/Service, HR, Organizational logics
-4. Consulting Tools — large and mixed format; lower priority until article themes are mapped
-5. Manager's Toolkit — 176 remaining videos; transcription via Whisper Desktop (Windows) or equivalent
+2. ✅ The #1 Reason for Failure to Perform (Role Clarification) — derivative complete (`derivatives/role-clarification.md`), also served as the transcription-method proof of concept
+3. Ladder of Commitment — next anchor framework to process
+4. Articles — 348 files; start with those most relevant to Quality/Service, HR, Organizational logics
+5. Consulting Tools — large and mixed format; lower priority until article themes are mapped
+6. Manager's Toolkit — 176 remaining videos; transcription via `faster-whisper` (confirmed method above)

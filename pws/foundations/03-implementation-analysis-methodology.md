@@ -145,6 +145,22 @@ Every F&B outlet gets:
 
 Build the whole board. Turn off what you don't need. Turn it back on when they change their mind.
 
+### The CI/EMS Integration Playbook (added 2026-09-09, from a Marriott Del Mar working session with Stephanie Simmons, Director of Sales & Marketing)
+
+This generalizes beyond CI specifically to any event-management-system (EMS) feed into Unifocus — the mechanics below recur across properties and EMS platforms.
+
+**The mapping-count multiplication problem.** Every booking type (Group, Local, In-House, Rooms Only, etc.) has to be crossed with every event/meal type (breakfast, lunch, dinner, break, reception, meeting) — and that whole grid gets doubled for forecast vs. actual, and doubled again if group and local get separate labor standards before being combined at the total level. Three booking types × twenty event types = 60 combinations, ×2 for forecast/actual = 120 mappings — and it grows every time a new booking type surfaces. This is why the mapping workload looks disproportionate to how "simple" a property's banquet space seems.
+
+**"I can't map something I haven't seen, but I still have to map it."** Standard practice: pull a full year of the property's real BEO history and map every booking-type/event-type combination that ever appeared — even a one-off used once eighteen months ago — because leaving it unmapped means real labor silently never gets counted, and the property won't notice until a chef complains months later that a big event got zero labor credit. The dummy/fake-BEO method (build one BEO file containing every combination, import it, then delete it — "lights all this stuff up") is the fast way to surface every option at once instead of waiting to encounter each one in production.
+
+**The EMS field gotcha.** In CI specifically, there are two different fields that look like they'd both answer "what kind of booking is this": a **Business Type** field (only 3–4 broad options — Local, Group, In-House, Contract) and a **Group Type** field (far more granular, ~10 options, including whatever obscure or property-specific codes the sales team has actually used). Pulling from the coarser field silently collapses real distinctions the property is actually tracking. If unexpected codes turn up in booking history that don't match what's being mapped, check whether the wrong field is being read before assuming the data is dirty.
+
+**Single-pull architecture — the recurring point of confusion for property staff.** Unifocus pulls the EMS file **once per week** (typically the same overnight run as the rooms forecast) and does not re-check it before schedules generate. Property staff naturally assume "if I update CI, Unifocus will see it" — it won't, until the next weekly pull. Between pulls, any change that needs to affect the current week's labor must be **entered manually** in Unifocus's own KBI-forecast screen, not just updated in the EMS. This should be stated explicitly and early to whoever owns BEO entry, since it's consistently the point people get wrong.
+
+**Segregation of duties on Actual KBI entry.** Forecast KBI entry (what's expected) can reasonably sit with sales/banquets. **Actual KBI entry (what really happened) is a controls question** — the department being measured by labor-vs-standard shouldn't also be the one keying in the actuals that standard gets judged against. Recommend routing actual-KBI entry to finance or another department once the property is past initial setup, not defaulting it to whoever's most convenient.
+
+**The missing-bartender-standard pattern — a general diagnostic, not a one-off gap.** A recurring finding across properties: reception/bar labor quietly has no home in the standard because (a) there's often no dedicated "bartender" job code at all, and (b) staff record a dinner-with-added-bar as "dinner," not "reception" — so the event type that would trigger bartender labor is never selected. When banquet labor "always seems off," check specifically whether bar/reception coverage is falling through this gap before assuming the standard itself is wrong. Pete's stated preference for handling it: bias toward auto-triggering labor even if occasionally over-crediting (e.g., a reception tier assigned a bartender it technically didn't need) rather than requiring manual entry that reliably gets forgotten once the person who set it up moves on — manual KBI entry fields are a last resort, not a real solution.
+
 ---
 
 ## 6. Post-Implementation Recovery
