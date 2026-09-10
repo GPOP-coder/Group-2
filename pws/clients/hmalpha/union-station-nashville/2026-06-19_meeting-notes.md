@@ -83,4 +83,4 @@ Fix is upstream (ProfitSword/revenue team). Training opportunity: walk through f
 
 ---
 
-*Full technical debrief and KB notes: 2026-06-19_taylor-walton-call-union-station-nashville.md*
+*Full technical debrief and KB notes: [2026-06-19_taylor-walton-call.md](2026-06-19_taylor-walton-call.md)*

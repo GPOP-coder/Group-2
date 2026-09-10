@@ -2,6 +2,8 @@
 # © Peter A. Castellano
 ---
 
+**Correction, 9/9/26 (Pete):** this file was misfiled/mistitled as "The Joseph Nashville" — it's actually about Union Station Nashville Yards, an HM Alpha property Pete is directly engaged on. The Joseph Nashville is an unrelated Highgate property Pete has no involvement with (Steve Carrell's engagement). Two internal body references that had the same mix-up ("What The Joseph is doing wrong," "For Pete/Taylor at The Joseph") are corrected to Union Station below. Moved from `hmalpha/2026-06-16_the_joseph_nashville_property_notes.md` to this file.
+
 # Union Station Nashville Yards — Property Implementation Notes
 
 **Date:** June 16, 2026 (late evening)  
@@ -87,7 +89,7 @@ Restaurant and Bar Car are adjacent and may have overlapping service (might not 
 - No match = no error; hours automatically flow to job code in bulk
 - **Result:** Clean, safe, reports work perfectly
 
-### What The Joseph is Doing Wrong
+### What Union Station is Doing Wrong
 
 **Problem:** Adding individual contract employees to Unifocus by name/ID
 
@@ -147,7 +149,7 @@ This is a **property-level governance decision**, not a Unifocus configuration i
 - Building accurate standards exposes the problem
 - Client gets defensive ("Unifocus is broken!") instead of fixing their budget
 
-**For Pete/Taylor at The Joseph:** If standards don't match their budget, that's a business planning issue, not a Unifocus problem. This is a property-level conversation.
+**For Pete/Taylor at Union Station:** If standards don't match their budget, that's a business planning issue, not a Unifocus problem. This is a property-level conversation.
 
 ---
 
