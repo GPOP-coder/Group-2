@@ -20,7 +20,7 @@
 | Mark Ziomek | General Manager (EC) | mziomek@hmalpha.com — ✅ confirmed |
 | ~~Angel Alvarez~~ | ~~Human Resources (EC)~~ — being replaced by Valeria Ruvalcaba | Aalvarez@hmalpha.com |
 | Valeria Ruvalcaba | Human Resources (EC) — replacing Angel Alvarez | vruvalcaba@hmalpha.com — ✅ confirmed (corrected from roster's stale Aalvarez@hmalpha.com) |
-| Sandra Academia | Director of Finance (EC) | Sandra.Academia@marriott.com — ✅ confirmed (corrected from roster's Sacademia@hmalpha.com) |
+| Sandra Academia | Director of Finance (EC) | Sandra.Academia@marriott.com — ✅ confirmed (corrected from roster's Sacademia@hmalpha.com). **Correction 9/10/26:** a live, working email thread with Pete this week is running through SAcademia@hmalpha.com (Complex DOF signature block, covers both Marriott Del Mar and DoubleTree San Diego Del Mar) — that address is clearly live and monitored, not the wrong/stale one the 9/2 note assumed. Both addresses may be legitimately in use; don't assume hmalpha.com bounces. |
 | Jesse Frost | Director F&B (EC) | jesse.frost@marriott.com |
 | Jose Lopez | Director of Engineering (EC) | jlopez@hmalpha.com |
 | Stephanie Simmons | Director of Sales and Marketing | ssimmons@hmalpha.com |
