@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Manager Training, Day 2: Employee Maintenance, Auto-Scheduler Controls, and Weekly Reports (AM Session B)
 
@@ -33,7 +33,7 @@
 
 - Path: from the Scheduler, hover an employee → **Edit Employee** (preferred over navigating Administration > Employee Maintenance directly, which requires a manual search).
 - **General tab**: name, seniority, email, phone — all ADP-sourced and locked; even if a manager could edit it, ADP would overwrite it back. Only the **display name** is manager-editable.
-- **Status tab**: also fully ADP-controlled (e.g., start date). Live example: an employee's Unifocus start date showed as the date MakeReady took over management, not her actual hire date — cosmetic only, not worth fixing unless HR wants to correct it in ADP; doesn't affect anything seniority-based since nothing in the system currently uses seniority.
+- **Status tab**: also fully ADP-controlled (e.g., start date). Live example: an employee's Unifocus start date showed as the date Makeready took over management, not her actual hire date — cosmetic only, not worth fixing unless HR wants to correct it in ADP; doesn't affect anything seniority-based since nothing in the system currently uses seniority.
 
 ## 4. Employee Maintenance — Jobs Tab and the "Sub Only" Flag
 
@@ -112,7 +112,7 @@ This tab controls the **auto-scheduler's** behavior toward a given employee — 
 - **Labor Productivity Report**: same per-job actual-vs-standard view, plus a volume-based productivity metric (e.g., hours per occupied room).
   - **Live example — Housekeeping productivity discrepancy surfaced.** The report showed a productivity read of **6.17**; when Pete asked what the target should be, Valeria (Speaker 3) answered **"1.45"** ("Before it was one four five") from a prior era. Pete worked the math live: at the standard currently loaded, the department would need roughly **1,215 occupied rooms for the week** to reach that historical target — prompting Pete to question whether the standard is actually calibrated to the right goal.
   - **"Show Productivity Goal" toggle**: adds a static, manager-entered goal column for comparison — currently loaded value is **0.88**, sourced from a **prior ownership/prior management company's budget** that Monica does not fully trust (consistent with her note in the 8/31 session that inherited budget numbers haven't been re-derived under current ownership). This creates a real open question: if 0.88 is too low relative to the property's actual goal (possibly closer to Valeria's recalled 1.45), then "15% over standard" on Room Attendant may not mean the department is actually overstaffed — the standard itself could be miscalibrated.
-  - Pete asked whether Housekeeping had a productivity-based standard prior to MakeReady; Valeria didn't have a definitive answer but named **"Chris"** (not otherwise identified in the transcript) as someone from the **HEI-era management** who would know more.
+  - Pete asked whether Housekeeping had a productivity-based standard prior to Makeready; Valeria didn't have a definitive answer but named **"Chris"** (not otherwise identified in the transcript) as someone from the **HEI-era management** who would know more.
   - Pete's overall guidance for both reports: useful monthly-cadence sanity checks, not weekly labor-meeting material — a single week of data is too noisy to act on.
 
 ## 13. Dashboard (Not Yet Configured)

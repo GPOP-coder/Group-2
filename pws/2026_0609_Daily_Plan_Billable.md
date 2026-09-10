@@ -1,4 +1,4 @@
----
+﻿---
 name: Daily Plan — June 10, 2026
 date: 2026-06-10
 billable_goal: 6 hours
@@ -181,7 +181,7 @@ Structure:
 
 ## What Comes Next (After Deliverable Sent)
 
-1. **MakeReady & HMAlpha scheduling check** — where did they land?
+1. **Makeready & HMAlpha scheduling check** — where did they land?
 2. **New Orleans 6/22 decision** — needed after Orlando, or not?
 3. **If time:** Rosewood labor standards (overdue, lower priority but billable)
 

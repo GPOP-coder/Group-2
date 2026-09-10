@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Allegory Beverage Revenue Missing from ProfitSword Export
 
@@ -12,7 +12,7 @@
 - **8/27/26** — Steve Carrell, wrapping up Moran's ProfitSword mapping, asked Monica Brock whether Allegory's beverage revenue reports in ProfitSword as "Total Restaurant #1" Wine/Beer/Liquor, noting Allegory's *covers* come over separately as "Total Bar #1 Dinner."
 - **8/27/26** — Monica sent yesterday's data plus the raw ProfitSword file.
 - **8/28/26** — Ramandeep Singh Sudan (Unifocus Sr. Technical Consultant) reviewed the raw file: **Allegory's beverage revenue (Beer, Wine, Liquor) is entirely missing** — not present for Lunch, Dinner, or Day Total. Asked Monica to loop in her ProfitSword rep to find out why it's being excluded at the source.
-- **8/29/26** — Monica escalated directly to ProfitSword support (ps-support@actabl.com) and MakeReady Finance Help, cc Steve, Monali Desai, Robbie Nasser, and Ramandeep.
+- **8/29/26** — Monica escalated directly to ProfitSword support (ps-support@actabl.com) and Makeready Finance Help, cc Steve, Monali Desai, Robbie Nasser, and Ramandeep.
 - **8/31/26** — Steve forwarded the full thread to Pete as an FYI.
 
 ## Root Cause (as currently understood)

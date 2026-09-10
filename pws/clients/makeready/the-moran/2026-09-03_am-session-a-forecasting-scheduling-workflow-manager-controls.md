@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Manager Training, Day 4 AM Session Part 1: Weekly Cycle, Navigation & Scheduler Mechanics (UNIFOCUS-261575 Still Blocking)
 
@@ -8,7 +8,7 @@
 **Participants:**
 - Pete Castellano (PWS, trainer)
 - **Christian Cardenas** — F&B/Beverage Director — diarized as **Speaker 1** (self-identified indirectly: Pete addresses him by name mid-session — *"For you too, Christian"* — and his content matches exactly: HEI background 13 years, prior LG/Looking Glass system, beverage/outlet forecasting ownership already established 8/31 and 9/1. High confidence.)
-- **Ryan Kerkemeyer** — Assistant Front Office Manager — diarized as **Speaker 6** (self-identified: *"My name's Ryan, I'm the assistant front office manager for the front desk"*; discusses reporting to Kimani Demens as his front office manager, four years with HEI, promoted when MakeReady took over)
+- **Ryan Kerkemeyer** — Assistant Front Office Manager — diarized as **Speaker 6** (self-identified: *"My name's Ryan, I'm the assistant front office manager for the front desk"*; discusses reporting to Kimani Demens as his front office manager, four years with HEI, promoted when Makeready took over)
 - **Danilo (Culinary)** — sous chef, self-identified as **Speaker 7** (*"My name is Danilo, I'm from Brazil, two years here... first time on Unifocus"*) — confirmed attending as requested on 9/1 (Abdellah Sedra had asked Pete if Danilo could sit in on a future session)
 - **Speaker 3** — unresolved; brief technical interjections about ADP job coding, one clear reference to a support-ticket status check mid-session
 - **Speaker 8** — unresolved; very brief interjections only

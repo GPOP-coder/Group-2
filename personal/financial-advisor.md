@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # Financial Advisor — David J. Snyder
 
@@ -45,7 +45,7 @@ David sent a Fact Gathering request via Northwestern Mutual's online portal on J
 *(To be built out before meeting)*
 
 ### Income Sources
-- [ ] PWS consulting income (irregular; Unifocus, MakeReady, HM Alpha engagements)
+- [ ] PWS consulting income (irregular; Unifocus, Makeready, HM Alpha engagements)
 - [ ] eBay / Photography (Schedule C, longstanding)
 - [ ] Kim: Nebraska Medicine salary (Executive Assistant)
 - [ ] Pensacola rental property — new as of June 2026; 24-month lease; document monthly rent amount

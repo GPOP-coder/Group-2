@@ -1,7 +1,7 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran, Houston — Receipt Log
-**Trip:** August 30–September 4, 2026 (training week of Aug 31) | MakeReady onsite training | Client: MakeReady (Rockbridge) / The Moran, Houston TX
+**Trip:** August 30–September 4, 2026 (training week of Aug 31) | Makeready onsite training | Client: Makeready (Rockbridge) / The Moran, Houston TX
 **Flights:** Outbound SW BUKKAA, OMA-HOU (Hobby), Sun 8/30 — departs OMA 11:15 AM (WN4323), arrives HOU 1:30 PM. Seat 07A (Preferred). $254.40 (Visa ••••2674). Return SW BUGYTC, HOU (Hobby)-OMA, Fri 9/4 — departs HOU 8:15 AM (WN3570), arrives OMA 10:25 AM. Seat 07A (Preferred). $365.40 (Visa ••••2674).
 **Hotel:** Comped by the property (confirmed by Pete 9/5/26) — not on the ER.
 **Expense report:** ✅ Complete — `2026-08-30_2026-09-04_moran-houston-expense-report.xlsx`, 7 rows, $846.30 total. Confirmed by Pete 9/7/26: only 3 meals and 2 Ubers were ever personally charged; hotel comped, no rental car (Uber-based throughout), $100 cash withdrawal was for tips/non-reimbursables and intentionally excluded.

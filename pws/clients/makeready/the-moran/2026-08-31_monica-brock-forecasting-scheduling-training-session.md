@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Weekly Forecasting/Scheduling Cycle Walkthrough with Monica Brock (and Discovery of UNIFOCUS-261575)
 
@@ -66,7 +66,7 @@
   - **Fri ~12:30 PM** — Generate Projected Hours + Generate Schedules
   - Managers then get Friday evening through Wednesday to build/publish schedules — unchanged endpoint: schedules done and published by end of day **Wednesday**, ahead of the Wednesday labor meeting.
 - Rationale: gives forecasting and F&B roles real breathing room without meaningfully shrinking managers' scheduling window; once F&B forecasting is routine, Pete expects that step to collapse to "a five-minute job" and the gap to shrink naturally.
-- **Open, unresolved:** whether other MakeReady properties run the same weekly cycle — worth aligning if so, not yet checked.
+- **Open, unresolved:** whether other Makeready properties run the same weekly cycle — worth aligning if so, not yet checked.
 
 ## 8. Labor Actuals / Work Records Validation
 
@@ -100,7 +100,7 @@
 - **Blocking:** root cause of Generate Schedules producing zero shifts property-wide — awaiting Unifocus support response to UNIFOCUS-261575, needed before/during Tuesday 9/1 9 AM training.
 - Banquet/Delphi daily-file automation — needs Leslie to schedule the recurring Delphi report to Celeste, forwarded to PMSfiles@unifocus.com; Manali (Unifocus data) still has to build the mapping once the file is reliable.
 - 9/5 anomaly — 555 guests for 185 rooms — cause not identified.
-- Whether other MakeReady properties share this weekly cycle.
+- Whether other Makeready properties share this weekly cycle.
 - Revised Thu/Fri forecast cycle (§7) — not yet locked into Task Scheduler.
 - Bell vs. Valet ADP department-code mismatch — fix has to happen in ADP; ~13–14 day hours-history lag once corrected.
 - Monica to be added to the daily hours-transfer email distribution.

@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # Marriott International — Brand Knowledge Base
 
@@ -57,18 +57,18 @@ Marriott's proprietary global sales and event management platform. Used internal
 - Each property maintains its own identity, name, and character — not cookie-cutter
 - Fully on Bonvoy loyalty network and Marriott distribution
 - Uses CI/TY for event management (same as all Marriott brands)
-- **PWS clients with Autograph properties:** Union Station Nashville Yards (HM Alpha), The Joseph Nashville (MakeReady)
+- **PWS clients with Autograph properties:** Union Station Nashville Yards (HM Alpha), The Joseph Nashville (Makeready)
 
 ---
 
 ## PWS Client Properties on Marriott Flags
 
-*Note: HM Alpha and MakeReady are multi-brand operators — only their Marriott-flagged properties appear here.*
+*Note: HM Alpha and Makeready are multi-brand operators — only their Marriott-flagged properties appear here.*
 
 | Property | Brand | Client | Status |
 |---|---|---|---|
 | Union Station Nashville Yards | Autograph Collection | HM Alpha | Training complete June 2026; remote F&B standards open |
-| The Joseph Nashville | Autograph Collection | MakeReady | Config week Jul 6; training week Jul 20 |
+| The Joseph Nashville | Autograph Collection | Makeready | Config week Jul 6; training week Jul 20 |
 | JW Marriott Houston Downtown | JW Marriott | HM Alpha | Training scheduled Aug 2026 (Akram) |
 
 ---
@@ -76,4 +76,4 @@ Marriott's proprietary global sales and event management platform. Used internal
 ## Related Files
 
 - [HM Alpha Client KB](../../clients/hmalpha/kb.md)
-- [MakeReady Client KB](../../clients/makeready/kb.md) *(to be created)*
+- [Makeready Client KB](../../clients/makeready/kb.md) *(to be created)*

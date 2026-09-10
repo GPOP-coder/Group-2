@@ -1,11 +1,11 @@
-# The Moran, Houston — Training Day Log — 2026-09-01
+﻿# The Moran, Houston — Training Day Log — 2026-09-01
 
 **Time:** 8:52 AM
 **Device:** Lenovo Yoga
 **Location:** Siena Room, The Moran Hotel
 **Classes start:** 9:00 AM
 
-MakeReady onsite training week (confirmed, training week of Aug 31, 2026 — see CLAUDE.md Upcoming Travel / New Training Projects). This is a location/logistics capture for the day's session.
+Makeready onsite training week (confirmed, training week of Aug 31, 2026 — see CLAUDE.md Upcoming Travel / New Training Projects). This is a location/logistics capture for the day's session.
 
 ## Tuesday 9/1 Manager Meeting Schedule (confirmed via full table, 9/1/26)
 

@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # Unifocus Contract Rewrite — Working Notes (2026)
 
@@ -7,7 +7,7 @@
 
 **Scheduling — CONFIRMED, accepted:** Call is set for **Thursday, July 30, 2026, 9:00 AM** — John accepted the calendar invite (confirmed 7/29/26, 9am). Full Teams thread: Pete messaged Lockyer 7/24 12:56pm ("Let's connect soon. This weekend?"), Lockyer deferred to "next week" (7/24 2:32pm), Pete followed up 7/29 7:03am ("When is a good time this week?"), Lockyer replied 7:27am: "Hey Pete - I'm with Rockbridge at the moment in Columbus. Let's shoot for Thursday or Friday."
 
-**Context that changes the stakes of this call (7/29/26):** Lockyer is in Columbus with Ken Heymann visiting **Rockbridge** — a long-time Unifocus customer (parent company of the MakeReady properties Pete already trains: Moran, Heathman, Greenleigh) — specifically to revive a relationship where Rockbridge has paused numerous property implementations, and get more projects moving. Pete's read: Unifocus's PS/consulting capacity is already visibly strained on existing commitments (Greenleigh has no Q4 dates yet because "the PS team calendar is filling up with international projects" — Ralph's own words, 7/14/26; HMAlpha's BLSBD crisis across 5 pilots; Moran/Heathman both already bumped once; Ralph personally overloaded). If Lockyer is out selling a Rockbridge revival while the delivery engine is already this stretched, the capacity gap is likely worse than he currently realizes — and Pete already has a foothold in the exact account (MakeReady/Rockbridge) where the gap would show up first.
+**Context that changes the stakes of this call (7/29/26):** Lockyer is in Columbus with Ken Heymann visiting **Rockbridge** — a long-time Unifocus customer (parent company of the Makeready properties Pete already trains: Moran, Heathman, Greenleigh) — specifically to revive a relationship where Rockbridge has paused numerous property implementations, and get more projects moving. Pete's read: Unifocus's PS/consulting capacity is already visibly strained on existing commitments (Greenleigh has no Q4 dates yet because "the PS team calendar is filling up with international projects" — Ralph's own words, 7/14/26; HMAlpha's BLSBD crisis across 5 pilots; Moran/Heathman both already bumped once; Ralph personally overloaded). If Lockyer is out selling a Rockbridge revival while the delivery engine is already this stretched, the capacity gap is likely worse than he currently realizes — and Pete already has a foothold in the exact account (Makeready/Rockbridge) where the gap would show up first.
 
 **Pete's stated agenda for Thursday (7/29/26), in order:**
 1. **Strengthen the personal relationship** — not a pitch meeting, a genuine catch-up (consistent with the existing warmth in their 2026 Teams thread — Kim's recovery, his father's health, Lockyer's own history caring for his ailing parents in the UK).
@@ -85,7 +85,7 @@ Pete's read: almost all of Unifocus's consulting contract language is boilerplat
 
 ## Proposed New Rate — Volume Basis (Pete's ask, 7/24/26)
 
-Pete's framing: this is a **volume rate for Unifocus specifically** — priced below his one-off direct-client rate ($1,200/day Grand Hyatt) in exchange for the steady, recurring volume Unifocus generates across multiple simultaneous engagements (Baha Mar, Mohonk, HM Alpha, MakeReady, etc.), but still a substantial increase over the current contractor rate.
+Pete's framing: this is a **volume rate for Unifocus specifically** — priced below his one-off direct-client rate ($1,200/day Grand Hyatt) in exchange for the steady, recurring volume Unifocus generates across multiple simultaneous engagements (Baha Mar, Mohonk, HM Alpha, Makeready, etc.), but still a substantial increase over the current contractor rate.
 
 | | Current (2024-05-15 contract) | Proposed |
 |---|---|---|
@@ -159,7 +159,7 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 **Follow-up drafted 7/30/26 (same day, while fresh):** `pws/unifocus/2026-07-30_loews-event-labor-followup-draft.md` — short Teams message. **Held for now — revisit after the Mohonk trip returns (8/7/26)** rather than sending immediately; also on todo.md.
 
-**Rockbridge context confirmed:** John was in Ohio (not Dallas) with Rockbridge trying to unstick a property implementation that took 9 months — an outlier, but illustrates the capacity strain already flagged in this file. Names from that world: Spiro, Nate, Mike Ditterline (DiamondRock alumni, now on the MakeReady Hotels side).
+**Rockbridge context confirmed:** John was in Ohio (not Dallas) with Rockbridge trying to unstick a property implementation that took 9 months — an outlier, but illustrates the capacity strain already flagged in this file. Names from that world: Spiro, Nate, Mike Ditterline (DiamondRock alumni, now on the Makeready Hotels side).
 
 **Other business color:**
 - Board meeting held in Dallas last week (in-person) — John called it the best board meeting he's had, strong exec-team confidence, though financials don't yet show improvement since nothing's shipped.
@@ -187,7 +187,7 @@ Beyond the day-rate/onsite-remote/casino structure above, Pete is considering a 
 
 **Timeline reiteration from Lockyer:** consistent with the 7/30/26 call's stated 1–2 month timeline, John has asked for **a few weeks** to work out a role/scope plan he says he has in mind but hasn't solidified yet. Contract needs to be ready to move quickly once he comes back with it — the carve-out additions above should happen now, not after he resurfaces, so there's no lag between his signal and Pete's response.
 
-**⚠️ Watch item, unconfirmed — handle carefully:** Lockyer never mentioned that **Ralph Varble may be leaving Unifocus**, but Pete's read on his tone during recent contact is that "many things are changing." Pete is not certain whether Lockyer is aware Pete has separately heard this. **This is Pete's inference, not a confirmed fact** — treat as sensitive, need-to-know intel, not something to act on or reference with Unifocus contacts (including Ralph himself) until it's independently confirmed. If true, it materially changes the contract negotiation: Ralph has been Pete's primary champion/relationship anchor at Unifocus (CCO, assigns Pete to MakeReady/HMAlpha work, owns the resource calendar) — his departure would remove a key internal advocate right as the role/scope conversation is forming, and could also open space for Pete to take on some of what Ralph currently owns. Worth quietly watching for confirmation before the scope conversation happens, not raising proactively.
+**⚠️ Watch item, unconfirmed — handle carefully:** Lockyer never mentioned that **Ralph Varble may be leaving Unifocus**, but Pete's read on his tone during recent contact is that "many things are changing." Pete is not certain whether Lockyer is aware Pete has separately heard this. **This is Pete's inference, not a confirmed fact** — treat as sensitive, need-to-know intel, not something to act on or reference with Unifocus contacts (including Ralph himself) until it's independently confirmed. If true, it materially changes the contract negotiation: Ralph has been Pete's primary champion/relationship anchor at Unifocus (CCO, assigns Pete to Makeready/HMAlpha work, owns the resource calendar) — his departure would remove a key internal advocate right as the role/scope conversation is forming, and could also open space for Pete to take on some of what Ralph currently owns. Worth quietly watching for confirmation before the scope conversation happens, not raising proactively.
 
 ---
 

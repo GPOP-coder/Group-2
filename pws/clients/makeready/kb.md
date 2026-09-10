@@ -1,10 +1,10 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
-# MakeReady — Client Knowledge Base
+# Makeready — Client Knowledge Base
 
 ## Overview
 
-**MakeReady** (part of Rockbridge Capital) is a hotel management company operating a portfolio of independent boutique properties. Pete Castellano is engaged as a Unifocus trainer for their implementation.
+**Makeready** (part of Rockbridge Capital) is a hotel management company operating a portfolio of independent boutique properties. Pete Castellano is engaged as a Unifocus trainer for their implementation.
 
 - **Corporate Contact:** Michelle Lewis (Corp. Dir. Rooms & Guest Experience) | mlewis@makereadyexperience.com | 510-827-2000 | 1202 Dragon St. STE 104, Dallas TX 75207
 - **Configuration Owner:** Steve Carrell (Unifocus)
@@ -46,9 +46,9 @@
 
 ## Notes
 
-- MakeReady properties are independent boutique hotels — do not assume a branded EMS (CI/TY, Envision, Delphi) without confirming
+- Makeready properties are independent boutique hotels — do not assume a branded EMS (CI/TY, Envision, Delphi) without confirming
 - Steve Carrell completing config before Pete arrives; pre-training standards review required (Ralph directive, June 24, 2026)
-- **The Joseph Nashville (Luxury Collection/Marriott) is NOT a MakeReady property** — it is managed by Highgate; Steve Carrell did that consulting engagement; Pete has no involvement
+- **The Joseph Nashville (Luxury Collection/Marriott) is NOT a Makeready property** — it is managed by Highgate; Steve Carrell did that consulting engagement; Pete has no involvement
 
 ---
 

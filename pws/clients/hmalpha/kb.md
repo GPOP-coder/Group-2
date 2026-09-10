@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # HM Alpha — Client Knowledge Base
 
@@ -96,7 +96,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 
 | Name | Title | Email | Notes |
 |---|---|---|---|
-| Ralph Varble | Chief Customer Officer (CCO) | rvarble@unifocus.com | O:972-512-5083 C:832-226-8945. "Consultants" portion of CCO role going away; now detached from direct consultant oversight. PM-ing HM Alpha, MakeReady, and a few others as customer continuity — did not want this in his promotion; it's consuming. |
+| Ralph Varble | Chief Customer Officer (CCO) | rvarble@unifocus.com | O:972-512-5083 C:832-226-8945. "Consultants" portion of CCO role going away; now detached from direct consultant oversight. PM-ing HM Alpha, Makeready, and a few others as customer continuity — did not want this in his promotion; it's consuming. |
 | Alain Derderian | Director of Operations, WFP / Professional Services | aderderian@unifocus.com | Migrating to report to Shilpa (VP of Operations — Ralph's former role). No longer under Ralph. |
 | Shilpa Bhando | VP of Operations | Shilpab@unifocus.com | Ralph's former title/role. Alain will report to her. Also Pete's invoice recipient. |
 | Stephen (Steve) Carrell | Sr. Workforce Performance Consultant — Configurer | scarrell@unifocus.com | |

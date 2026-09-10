@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Admin Working Session with Monica Brock: Task Scheduler Fix, Security/Mobile Setup, and UNIFOCUS-261575 Live Review
 
@@ -32,7 +32,7 @@
 
 ## 3. ADP Double-Coding Data — New Input from Corporate Payroll
 
-- A participant (see Participants note above on the Speaker 4 ambiguity) reported that **Brandy Becker, a payroll specialist at MakeReady corporate**, had proactively sent a list of every employee who is double-coded in ADP and not populating correctly in Unifocus. This is a new, previously untracked data point: a corporate-level audit already exists and can likely be used to batch-correct several of the ADP data-quality issues found piecemeal throughout the week (Bell/Valet, Night Auditor, dual-outlet bartender, secondary banquet server), rather than the property discovering each one individually through live testing.
+- A participant (see Participants note above on the Speaker 4 ambiguity) reported that **Brandy Becker, a payroll specialist at Makeready corporate**, had proactively sent a list of every employee who is double-coded in ADP and not populating correctly in Unifocus. This is a new, previously untracked data point: a corporate-level audit already exists and can likely be used to batch-correct several of the ADP data-quality issues found piecemeal throughout the week (Bell/Valet, Night Auditor, dual-outlet bartender, secondary banquet server), rather than the property discovering each one individually through live testing.
 - No action taken on the list within this session; flagged as a resource for whoever picks up the ADP corrections after Pete departs.
 
 ## 4. Security Groups, User Administration, Data Permissions
@@ -47,12 +47,12 @@
 ## 5. Mobile App Setup — Employee User Maps
 
 - Walked the **Employee User Maps** screen (Setup > Employee) — the one-time step required to link a manager's "manager" login to their own "employee" record so mobile notifications, shift swaps, and approvals route correctly. Demonstrated live using Ryan as the example.
-- Confirmed the mobile app is fully built and available for The Moran but **not yet activated for use** — a MakeReady corporate decision Pete deferred to Michelle Lewis, consistent with the existing "Unifocus Mobile App" status note in the working status report.
+- Confirmed the mobile app is fully built and available for The Moran but **not yet activated for use** — a Makeready corporate decision Pete deferred to Michelle Lewis, consistent with the existing "Unifocus Mobile App" status note in the working status report.
 - Time-off requests are deliberately disabled in the mobile app for this property (pushed to ADP instead); shift-swap and give-away features are enabled but gated by manager approval.
 
 ## 6. Labor Structure — TK Codes, Reconcile Codes, Master Job Mapping
 
-- Walked Setup > Labor Structure in detail: division/department/job hierarchy as "folders," the (non-functional) job-abbreviation column, master job mapping (rolls property-specific job variants up to a MakeReady-corporate total), and the plus-or-minus-5% default variance thresholds used by exception-based reports.
+- Walked Setup > Labor Structure in detail: division/department/job hierarchy as "folders," the (non-functional) job-abbreviation column, master job mapping (rolls property-specific job variants up to a Makeready-corporate total), and the plus-or-minus-5% default variance thresholds used by exception-based reports.
 - Explained **TK codes** (hours-import mapping) and **reconcile codes** (employee-import mapping) as the two ADP interface mechanisms behind the week's recurring data-quality issues; walked through reading a "secondary job code must be valid" reconcile error and matching it to a missing job mapping in Unifocus.
 - Confirmed the daily reconcile/hours-transfer notification emails still needed Monica added to their distribution — same open item carried from 8/31; Pete showed Monica exactly how to self-request this via a support ticket (subject line convention: property name + "Reconcile and hours transfer messages or alerts," CC Steve Carrell).
 - Confirmed the **Labor Dashboard is not yet functional** for any job at The Moran — traced live to a required per-job "show on dashboard" setting Steve had not turned on, which Pete now attributes to the dashboard itself being actively rebuilt by Unifocus ("it's supposed to be kind of cool") rather than an oversight.
@@ -79,7 +79,7 @@
 - **Blocking:** UNIFOCUS-261575 — root cause still unidentified as of end of day Thursday. Support's latest response (wrong date range, employee availability) was directly disputed by Pete. The Task Scheduler fix in §1 ensures the automated run will actually fire at the intended time with correct settings Friday — it does not fix the underlying zero-shift defect. See [2026-08-31_ticket-261575-schedules-not-generating.md](2026-08-31_ticket-261575-schedules-not-generating.md), updated same day with this session's findings.
 - **New:** Allegory bartender labor standard showing zero generated hours despite present beverage revenue — a possible standard/KBI-mapping issue distinct from both 261575 and the already-tracked ProfitSword beverage-revenue gap.
 - **New:** Export Schedules automation is not running on its own schedule as expected — needs its own ticket; not yet filed.
-- Brandy Becker's (MakeReady corporate payroll) ADP double-coding list — received but not yet acted on; a potential batch-fix resource for the week's several individual ADP findings.
+- Brandy Becker's (Makeready corporate payroll) ADP double-coding list — received but not yet acted on; a potential batch-fix resource for the week's several individual ADP findings.
 - Daily reconcile/hours-transfer email distribution still needs Monica added — ticket instructions given, not yet sent as of this session.
 - ~~Speaker identity ambiguity (Christian vs. a possible second F&B-knowledgeable participant, both under Speaker 4)~~ — resolved 9/3/26: Christian returned ~4:00 PM for his Revenue Center Forecast entry and coaching.
 - Admin curriculum still incomplete: Key Business Indicators (formal topic), Labor/Global Environments, and Work Rules were not reached in this session, same three items outstanding since 8/31 — no further scheduled time remains before Pete's Friday departure.

@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # HM Alpha Weekly Project Call — June 25, 2026
 
@@ -144,7 +144,7 @@ Pete met with Union Station F&B Director, Assistant Director, GM, DOF, Devon Pet
 - Devon acknowledged; agreed to try to synthesize
 
 ### Upcoming: Ralph in Nashville
-- Ralph (+ Steve) coming to Nashville **week of approximately July 6** for The Joseph Hotel (MakeReady project)
+- Ralph (+ Steve) coming to Nashville **week of approximately July 6** for The Joseph Hotel (Makeready project)
 - Will schedule time with Devon and Nicole
 - Plans to swing by Union Station to check in on the property
 

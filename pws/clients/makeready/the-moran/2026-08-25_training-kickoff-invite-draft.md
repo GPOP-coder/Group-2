@@ -1,13 +1,13 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran, Houston — Training Kickoff Invite (Draft)
 
 **Status: Draft, not sent — overdue.** Training starts Monday, August 31, config already completed separately by Steve Carrell the week of August 17. Built from the [PWS Training Introduction Email template](../../kb/pws-training-intro-email.md), following the same structure used for HMAlpha properties (see `pws/clients/hmalpha/westin-la-paloma/2026-08-09_training-kickoff-invite.md` for the closest recent example).
 
 **🔴 Not yet resolved before sending — need from Pete:**
-- [ ] **Property contacts** — GM, DOF/Finance, HR (or MakeReady's equivalent titles) at The Moran. Nothing on file yet for this property.
-- [ ] **MakeReady corporate contact(s) to CC** — likely Michelle Lewis (Corp. Dir. Rooms & Guest Experience, mlewis@makereadyexperience.com) per the existing MakeReady relationship, but confirm who else at MakeReady/Rockbridge should be looped in
-- [ ] **Exact session day/time structure for the week of 8/31** — drafted below assuming the same Admin Monday / Manager Tue-Wed options / Office Hours Thursday pattern used at HMAlpha properties, but MakeReady is a different client and config already happened as a separate week here, so this structure may not fit — confirm or adjust
+- [ ] **Property contacts** — GM, DOF/Finance, HR (or Makeready's equivalent titles) at The Moran. Nothing on file yet for this property.
+- [ ] **Makeready corporate contact(s) to CC** — likely Michelle Lewis (Corp. Dir. Rooms & Guest Experience, mlewis@makereadyexperience.com) per the existing Makeready relationship, but confirm who else at Makeready/Rockbridge should be looped in
+- [ ] **Exact session day/time structure for the week of 8/31** — drafted below assuming the same Admin Monday / Manager Tue-Wed options / Office Hours Thursday pattern used at HMAlpha properties, but Makeready is a different client and config already happened as a separate week here, so this structure may not fit — confirm or adjust
 - [ ] **In-person or remote** — room/AV details if in-person at the property
 - [ ] Attach the standard PDFs (Manager Guide, Smart Cards, Labor Standards Guide) before sending
 

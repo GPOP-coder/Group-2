@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Remote Call with Monica Brock: Friday's Auto-Schedule Review, Constraint Gaps Found, Contract-Labor Setup
 
@@ -36,11 +36,11 @@ This is the most consequential moment of the call for ticket 261575. Reviewing a
 
 ## 4. Contract-Labor Placeholder Employees — Walkthrough on a Reference Property
 
-Monica confirmed The Moran uses contract labor (likely Housekeeping-heavy) and asked whether to have the team start scheduling now or wait. Pete walked her through building placeholder/"temp" employees using a live example from a different (unnamed, non-MakeReady) property he'd recently configured the same way:
+Monica confirmed The Moran uses contract labor (likely Housekeeping-heavy) and asked whether to have the team start scheduling now or wait. Pete walked her through building placeholder/"temp" employees using a live example from a different (unnamed, non-Makeready) property he'd recently configured the same way:
 
 - **One job per placeholder employee** — Pete's explicit best-practice recommendation, not one employee carrying multiple jobs. Multi-job contract placeholders become stale/confusing once that specific combination of shifts is no longer needed.
 - **Naming convention options:** alphabetize-by-last-name systems mean many properties prefix these employees to sort to the bottom (e.g., last name starting with "Z," or literally "Contract") with the job name in the first-name field (e.g., "Line Cook").
-- **Employee ID:** just needs to be unique and not a real MakeReady ID — can be sequential/meaningless, or encode department/job/serial number.
+- **Employee ID:** just needs to be unique and not a real Makeready ID — can be sequential/meaningless, or encode department/job/serial number.
 - **Setup fields:** hire/effective date can be backdated to the start of the year; Work Class should be set to a contract-employee classification; status active as of the hire date entered.
 - **Auto-populate vs. manual:** properties vary on whether contract placeholder shifts auto-populate onto the schedule or must be manually assigned every time — Pete's inclination for The Moran is to require manual assignment (forces managers to think about it each time) but noted Housekeeping specifically might be better served by auto-populate given volume — not decided.
 - **Sizing:** Monica needs to determine the max number of contract employees needed **per job, on the single busiest day** (not a running total) — Pete's suggested approach: let the team "clamor" for what they need via email rather than over-building; ballpark estimate discussed was ~12-15 for Housekeeping. Monica was sending that email to the team as the call wrapped.

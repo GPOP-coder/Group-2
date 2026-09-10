@@ -1,5 +1,5 @@
-# Build The Moran, Houston Trip Expense Report - Unifocus ER Template format
-# MakeReady Onsite Training - August 30-September 4, 2026
+﻿# Build The Moran, Houston Trip Expense Report - Unifocus ER Template format
+# Makeready Onsite Training - August 30-September 4, 2026
 # Columns match Unifocus's own "Unifocus Expense Report" cheat sheet exactly,
 # so rows can be cut-and-pasted directly into their blank official form.
 $outputPath = "C:\Users\peter\Documents\Group-2\travel\trips\2026-08-30_2026-09-04_moran-houston-expense-report.xlsx"
@@ -22,13 +22,13 @@ $yellow    = [long]0xFFFF99
 # Date, Amount, ExchRate, Paid by, Details, Category, Billable/UF, Charge Code, Charge Source
 # =====================================================================
 $knownRows = @(
-    @("8/30/2026", 254.40, 1.00, "PERSONAL", "SW OMA-HOU Hobby (BUKKAA): OMA dep 11:15am (WN4323) - HOU arr 1:30pm, seat 07A; Visa -2674", "Air Fare", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("8/30/2026",  58.94, 1.00, "PERSONAL", "Uber (driver Jose), HOU Airport (Hobby) -> The Moran Hotel, 24.97 mi/39 min - UberX `$34.81 + Airport Surcharge `$2.75 + Booking Fee `$7.76 + TX Regulatory Recovery Fee `$0.62 + tip `$13.00; Visa -2674", "Taxi/Train/Bus", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("8/30/2026",  55.86, 1.00, "PERSONAL", "Seasons 52, Houston TX (842 W Sam Houston Pkwy N) - dinner: Coke Zero, Restaurant Week Dinner-Medium; Check 39582-4542, Table 214; Visa -2674", "Dinner", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("8/31/2026",  24.62, 1.00, "PERSONAL", "bellagreen, Houston TX (800B Town and Country Blvd) - lunch: Blackened Shrimp Salad, fountain drink; Order 42 Dine-In; Visa -2674", "Lunch", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("9/1/2026",   23.48, 1.00, "PERSONAL", "The Board Room, Houston TX (inside The Moran Hotel, 800 Sorella Court) - lunch: Ancient Grain Bowl, City Centre employee discount applied; Table B9; Visa -2674", "Lunch", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("9/4/2026",   63.60, 1.00, "PERSONAL", "Uber (driver Justin), The Moran Hotel -> HOU Airport (Hobby), 24.00 mi/33 min - UberX `$35.66 + Airport Surcharge `$2.75 + Booking Fee `$8.92 + TX Regulatory Recovery Fee `$0.64 + Wait Time `$0.63 + tip `$15.00; Visa -2674", "Taxi/Train/Bus", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674"),
-    @("9/4/2026",  365.40, 1.00, "PERSONAL", "SW HOU Hobby-OMA (BUGYTC): HOU dep 8:15am (WN3570) - OMA arr 10:25am, seat 07A; Visa -2674", "Air Fare", "MakeReady - Onsite Training The Moran Houston", "", "Visa -2674")
+    @("8/30/2026", 254.40, 1.00, "PERSONAL", "SW OMA-HOU Hobby (BUKKAA): OMA dep 11:15am (WN4323) - HOU arr 1:30pm, seat 07A; Visa -2674", "Air Fare", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("8/30/2026",  58.94, 1.00, "PERSONAL", "Uber (driver Jose), HOU Airport (Hobby) -> The Moran Hotel, 24.97 mi/39 min - UberX `$34.81 + Airport Surcharge `$2.75 + Booking Fee `$7.76 + TX Regulatory Recovery Fee `$0.62 + tip `$13.00; Visa -2674", "Taxi/Train/Bus", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("8/30/2026",  55.86, 1.00, "PERSONAL", "Seasons 52, Houston TX (842 W Sam Houston Pkwy N) - dinner: Coke Zero, Restaurant Week Dinner-Medium; Check 39582-4542, Table 214; Visa -2674", "Dinner", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("8/31/2026",  24.62, 1.00, "PERSONAL", "bellagreen, Houston TX (800B Town and Country Blvd) - lunch: Blackened Shrimp Salad, fountain drink; Order 42 Dine-In; Visa -2674", "Lunch", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("9/1/2026",   23.48, 1.00, "PERSONAL", "The Board Room, Houston TX (inside The Moran Hotel, 800 Sorella Court) - lunch: Ancient Grain Bowl, City Centre employee discount applied; Table B9; Visa -2674", "Lunch", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("9/4/2026",   63.60, 1.00, "PERSONAL", "Uber (driver Justin), The Moran Hotel -> HOU Airport (Hobby), 24.00 mi/33 min - UberX `$35.66 + Airport Surcharge `$2.75 + Booking Fee `$8.92 + TX Regulatory Recovery Fee `$0.64 + Wait Time `$0.63 + tip `$15.00; Visa -2674", "Taxi/Train/Bus", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674"),
+    @("9/4/2026",  365.40, 1.00, "PERSONAL", "SW HOU Hobby-OMA (BUGYTC): HOU dep 8:15am (WN3570) - OMA arr 10:25am, seat 07A; Visa -2674", "Air Fare", "Makeready - Onsite Training The Moran Houston", "", "Visa -2674")
 )
 $blankRowCount = 15
 
@@ -53,7 +53,7 @@ $s1.Columns.Item(12).ColumnWidth = 20  # Charge Source
 
 $r = $s1.Range("A1:L1"); $r.Merge()
 $c = $s1.Cells.Item(1,1)
-$c.Value2 = "UNIFOCUS EXPENSE REPORT  |  The Moran, Houston - MakeReady Onsite Training"
+$c.Value2 = "UNIFOCUS EXPENSE REPORT  |  The Moran, Houston - Makeready Onsite Training"
 $c.Font.Bold = $true; $c.Font.Size = 13; $c.Font.Color = $white
 $c.Interior.Color = $darkBlue; $c.HorizontalAlignment = -4108
 $s1.Rows.Item(1).RowHeight = 22
@@ -146,7 +146,7 @@ $notes = @(
     "Paid by: UF (Unifocus paid directly), PERSONAL (you paid), OTHER (company card).",
     "Category: Air Fare, Taxi/Train/Bus, Car Rental, Gas/Tolls, Parking, Hotel, Bkfst, Lunch, Dinner, Phone/Data, Computer, Other, Postage, Misc.",
     "  -> Meals are split by meal period (Bkfst/Lunch/Dinner), not one generic Meals line.",
-    "Billable/UF: enter the client name (MakeReady - Onsite Training The Moran Houston), or UF if not client-billable.",
+    "Billable/UF: enter the client name (Makeready - Onsite Training The Moran Houston), or UF if not client-billable.",
     "Charge Code: leave BLANK when a client is billed. Only use code 62 if Unifocus itself is billed.",
     "Exchange Rate: always 1.00 for domestic travel.",
     "",

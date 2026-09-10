@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # The Moran — Manager Training, Day 2 AM Session: Weekly Timeline, Navigation & Scheduling Workflow (Storm Day, UNIFOCUS-261575 Still Blocking)
 
@@ -41,7 +41,7 @@ Pete noted the weekly timeline itself was reworked with Monica Brock the previou
 - Current planning week confirmed live as **September 6–12**.
 - Pete surveyed prior scheduling deadlines by department to calibrate the new cycle:
   - **F&B (John Christian):** schedule for the week starting Sunday is typically finalized by the Friday before, informally, with running discussion before that ("no surprises").
-  - **Housekeeping (Valeria, pre-MakeReady/under HEI):** LLG review happened Wednesday, covering week-before/week-ahead; any changes had to be made same day; schedules posted Wednesday or Thursday. Now, she waits on the Thursday forecast, which compresses her schedule-build time — flagged as a real problem tied to the short (10-day) forecast window (recurring issue, also noted 8/31 — needs 14–16 days to be useful).
+  - **Housekeeping (Valeria, pre-Makeready/under HEI):** LLG review happened Wednesday, covering week-before/week-ahead; any changes had to be made same day; schedules posted Wednesday or Thursday. Now, she waits on the Thursday forecast, which compresses her schedule-build time — flagged as a real problem tied to the short (10-day) forecast window (recurring issue, also noted 8/31 — needs 14–16 days to be useful).
   - **Engineering:** fixed headcount/fixed shift count nominally, but not fixed labor in practice — overtime and coverage gaps happen constantly due to breakdowns, storms, and callouts ("we have fifty shifts a week... how come you didn't have fifty shifts last week?").
 
 ## 4. Revised Weekly Forecast-to-Schedule Cycle (Taught as the Live Plan)
@@ -114,7 +114,7 @@ Pete taught the cycle worked out with Monica the night before as the property's 
 ## Side Notes (context/teaching illustrations, not actionable)
 
 - Pete used several rapport-building/teaching anecdotes to reinforce that labor problems are often supply (par-level) problems, not effort problems: hotel staff hiding surplus linens in furniture cushions to get around chronic shortages, room attendants "bartering" pillowcases and hand towels with each other, a prior casino property's restaurant staff pre-rolling and hiding silverware under booth cushions because the buffet next door was starving them of spoons. Moral, stated directly: fixing supply pars is often cheaper than the labor spent working around shortages.
-- John Christian gave brief hotel history/context (pre-MakeReady renovation moved the bar location, converted what was previously open lobby space) — color only, not actionable.
+- John Christian gave brief hotel history/context (pre-Makeready renovation moved the bar location, converted what was previously open lobby space) — color only, not actionable.
 - Valeria confirmed she'd already spoken with Robbie (Area Managing Director) and secured additional Housekeeping budget for next year, driven by the linen-par/overtime problem discussed live.
 - Speaker 5's mid-session aside about a same-day F&B staffing shortfall (~30 covers short, an outdoor table setup cancelled and consolidated indoors) was real-time operational chatter, not part of the structured curriculum.
 

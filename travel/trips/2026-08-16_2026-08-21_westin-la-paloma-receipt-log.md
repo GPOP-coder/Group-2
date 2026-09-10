@@ -1,4 +1,4 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # Westin La Paloma Resort & Spa — Receipt Log
 **Trip:** August 16–21, 2026 | HMAlpha onsite admin/manager training | Client: HMAlpha / Westin La Paloma Resort & Spa, Tucson AZ
@@ -40,4 +40,4 @@
 
 ## Routing change for future ERs (Ralph's last day is 8/31/26)
 
-Per Ralph's 8/30/26 email: **"Since Monday is my last day, any future ones for HMAlpha or MakeReady (like the Moran) should go to Alain with a copy to Shilpa. One of them will approve it and send it on."** Pete confirmed same day this is the **default for all Unifocus-billable ERs going forward, every client**, not just HMAlpha/MakeReady. The upcoming Moran ER (training week starts 8/31/26) goes to **Alain Derderian, cc Shilpa Bhando** — not Ralph. See [[reference-unifocus-expense-report-template]] and [[project-unifocus-contract-review]].
+Per Ralph's 8/30/26 email: **"Since Monday is my last day, any future ones for HMAlpha or Makeready (like the Moran) should go to Alain with a copy to Shilpa. One of them will approve it and send it on."** Pete confirmed same day this is the **default for all Unifocus-billable ERs going forward, every client**, not just HMAlpha/Makeready. The upcoming Moran ER (training week starts 8/31/26) goes to **Alain Derderian, cc Shilpa Bhando** — not Ralph. See [[reference-unifocus-expense-report-template]] and [[project-unifocus-contract-review]].

@@ -1,8 +1,8 @@
-<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+﻿<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
 
 # Westin La Paloma — John Grech Post-Config Follow-Up Call + BQT Handoff
 
-**Context:** John Grech owns post-config follow-up for WLP (per the established MakeReady/HMAlpha division of labor: Steve Carrell owns config, John Grech owns post-config, Taylor Walton owns post-go-live follow-up — though this rotation is WLP's weekly call specifically, see rotation note below). First WLP weekly call held **Friday 8/27/26, 90 minutes** (recording: "Westin La Paloma Unifocus Weekly Call _1-20260827_120159"). **Pete missed most of it** — has not yet reviewed the transcript as of 8/31/26.
+**Context:** John Grech owns post-config follow-up for WLP (per the established Makeready/HMAlpha division of labor: Steve Carrell owns config, John Grech owns post-config, Taylor Walton owns post-go-live follow-up — though this rotation is WLP's weekly call specifically, see rotation note below). First WLP weekly call held **Friday 8/27/26, 90 minutes** (recording: "Westin La Paloma Unifocus Weekly Call _1-20260827_120159"). **Pete missed most of it** — has not yet reviewed the transcript as of 8/31/26.
 
 **Call rotation (per John, 8/28/26):** John does this week's call, Taylor Walton handles week 3, John does week 4.
 
