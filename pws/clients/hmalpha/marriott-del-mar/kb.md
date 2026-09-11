@@ -58,6 +58,7 @@
 
 ## Open Items
 
+- [ ] **UNIFOCUS-262725 (opened 9/10/26)** — Jose Lopez (SANDM-JLopez, experienced Unifocus user from Loews) cannot launch Reporter/Reports: a partial dialog flashes briefly then the window goes blank, no other option but to close the tab. User Administration appears in order; no other users have reported the issue. Filed with Unifocus Client Service, shared with Pete, John Grech, Valeria Ruvalcaba, Taylor Walton, Devon Peters, Nicole Mendez. Awaiting Unifocus support triage.
 - [ ] Confirm Sandra Academia's Friday 9/11 meeting time (she's proposing Friday AM; Pete available until 3:00 PM) — this is the key day-to-day user's only real chance to connect with Pete before he departs.
 - [ ] Confirm final spelling/name of the third-party contract-labor company ("Quick...") — needed for correct property reference
 - [ ] Confirm which placeholder-employee naming convention (Taylor's `C01/C02` vs. John Grech's alternate) will be used going forward

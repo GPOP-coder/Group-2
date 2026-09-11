@@ -75,6 +75,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | WLP (Westin La Paloma) | W14 — 8/17 | Steve Carrell | John Grech |
 | Marriott Del Mar | W17 — 9/7 ✅ confirmed 9/2/26 | TBD | Taylor Walton |
 | DoubleTree San Diego Del Mar | Reassigned to John Grech — config Oct 5, training Oct 19, 2026 (Pete no longer trainer; learned informally 9/2/26) | John Grech | TBD |
+| Grand Hyatt Nashville | Sep 28–Oct 2, 2026 ✅ confirmed | Steve Carrell / Taylor Walton (Labor Standards Testing & Sign-off, week of 9/7/26 per 9/10/26 project plan Gantt — corrects earlier "~Sep 1–5" estimate from the 8/27 call) | Taylor Walton (weekly labor meeting support continuing weeks of 10/5–10/26 per same Gantt) |
 | DoubleTree Sunrise | Oct 12–14, 2026 | Steve Carrell (config, week of Sep 28) | TBD |
 | All others | — | Various | Ralph/Taylor/John |
 
@@ -104,7 +105,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | John Grech | Sr. Workforce Performance Consultant | jgrech@unifocus.com | Functions as post-config/CSM on HM Alpha specifically |
 | Taylor Walton | Workforce Performance Consultant | twalton@unifocus.com | Functions as post-config/CSM on HM Alpha specifically |
 | Elliott Welburn | Customer Success Manager (CSM) | ewelburn@unifocus.com | |
-| Susanna Briggs | Client Success Manager | sbriggs@unifocus.com | On HM Alpha status letter CC |
+| Susanna Briggs | Client Success Manager | sbriggs@unifocus.com | **HMAlpha's primary post-go-live liaison going forward** (per 9/10/26 call recap) — biweekly check-ins transitioning to monthly + quarterly business reviews; tier 3 of the new support escalation path (property admin → Devon/Nicole corporate → Susanna/Unifocus Support) |
 | Monali Desai | Data Integration Lead | mdesai@unifocus.com | HM Alpha interfaces; BEO imports; Envision Group/Local config |
 
 **Status Letter Protocol:**
@@ -142,6 +143,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - **Wave 2/3 cloning:** Devon/Nicole to identify Phase 1 donor properties for cloning. Grand Hyatt Nashville builds from scratch (not cloned).
 - **Hilton Indianapolis:** In the full portfolio but swapped out of Pete's schedule — assigned to another Unifocus consultant.
 - **Banquet KBI mapping — meeting scheduled 8/5/26, 5:00 PM ET** with Nicole Mendez. Not yet on Pete's Outlook calendar as of 8/4/26 — add manually or confirm invite. Property/scope not yet specified.
+- **Sign-up/attendance ownership (clarified 9/10/26):** Pete leaves collecting and tracking session sign-ups to each property's admins (GM/DOF/HR) — not something Pete personally tracks or chases. The standing `Unifocus Training Attendance - HM Alpha.xlsx` workbook (one tab per property, only the target tab unhidden when sent, in use since Taylor Walton's original Union Station Nashville Yards intro) is a reference roster, not a sign-up form — it has no sign-up field.
 - **Portfolio-wide User Administration gap — found 8/12/26 at Westin La Paloma, ✅ resolved 8/13/26.** Employees existed under Employee Maintenance but had no User Administration accounts (login credentials) — only property admins had real access. Devon Peters and Nicole Mendez both said this is the first time they've seen it. **Adding users is the consultant's job, not Pete's** — Steve Carrell (config consultant) owns User Administration setup, confirmed on a call with Pete 8/13/26; same pattern likely applies portfolio-wide as each property's consultant configures it. Full detail: [Westin La Paloma — 8/12/26 planning call](westin-la-paloma/2026-08-12_impromptu-planning-call.md).
 
 ---
@@ -152,10 +154,14 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [HM Alpha Weekly Call Notes — June 25, 2026](../../2026-06-25_hmalpha-weekly-call-notes.md)
 - [HM Alpha Weekly Call Notes — July 16, 2026](2026-07-16_weekly-hma-call-notes.md)
 - [HM Alpha Weekly Call Notes — August 20, 2026](2026-08-20_weekly-hma-call-notes.md)
+- [HM Alpha Weekly Call Notes — August 27, 2026](2026-08-27_weekly-hma-call-notes.md)
+- [HM Alpha Weekly Call Notes — September 10, 2026](2026-09-10_weekly-hma-call-notes.md)
 - [HM Alpha Training Contacts](../../../memory/contacts_hmalpha_training_2026.md)
 - [Marriott Brand KB](../../../brands/marriott/kb.md)
 - [Union Station Nashville Yards — Contacts](union-station-nashville/contacts.md)
 - [Grand Hyatt Nashville — Contacts](grand-hyatt-nashville/contacts.md)
+- [Grand Hyatt Nashville — Logistics Email, 9/10/26](grand-hyatt-nashville/2026-09-10_logistics-arrangements-email.md)
+- [Grand Hyatt Nashville — Training Outline Email, 9/10/26](grand-hyatt-nashville/2026-09-10_training-outline-email.md)
 - [Westin La Paloma — Contacts](westin-la-paloma/contacts.md)
 - [InterContinental New Orleans — Contacts](intercontinental-new-orleans/contacts.md)
 - [InterContinental New Orleans — Standards Review 6/29/26](intercontinental-new-orleans/2026-06-29_standards-review-transcript.md)
