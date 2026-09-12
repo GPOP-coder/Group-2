@@ -9,8 +9,8 @@
 **EMS:** CI/TY
 **HMAlpha wave:** W17 — training week of Sep 7, 2026 (✅ confirmed 9/2/26)
 **Pete's role:** Trainer
-**Config:** TBD (per HM Alpha portfolio tracker, unconfirmed)
-**Post-config:** Taylor Walton (Unifocus)
+**Config:** Taylor Walton (confirmed 9/12/26)
+**Post-config / follow-up calls:** John Grech (confirmed 9/12/26, per Pete's best read)
 
 ---
 
@@ -68,7 +68,7 @@
 - [x] **Morning sync locked, 9/11/26 10:37 AM:** Val is on a call until 11:30 AM, then will find Pete in the meeting room. Pete confirmed. Sandra cc'd/included on the thread (subject: "Place Holders and System Administration") but hasn't replied directly yet — plan is Val (placeholders) first, from ~11:30 AM, in the meeting room; Sandra's own catch-up still to be sequenced around that.
 - [x] **Val's placeholder/troubleshooting session held, 9/11/26.** Full detail: [Valeria Ruvalcaba — Placeholder Employees, Troubleshooting, and Training](2026-09-11_valeria-placeholder-training-and-troubleshooting.md). Resolved two live issues (scheduler-filter root cause for both Ramon's missing-laundry-team and missing-PM-people complaints), built one Room Attendant placeholder as a model for the rest, and covered Op Codes + Schedule Groups.
 - [x] **Sandra's session held, 9/11/26, ~2:30–2:37 PM PT start.** Rushed, scope kept expanding beyond "just what she needs for now." Full detail: [Sandra Academia — Ad-Hoc Training](2026-09-11_sandra-academia-adhoc-training.md). Two unexplained schedule anomalies found (unresolved), Housekeeping numbers (6% over last week, 25% underscheduled next week) independently reconfirmed matching Thursday's session, and confirmation Sandra forecasts for both Marriott Del Mar and DoubleTree San Diego Del Mar. **Follow-up locked: Tuesday 9/15/26, 10 AM–12 PM PT, Teams** — before that week's labor meeting.
-- [ ] **Who owns Marriott Del Mar's post-implementation follow-up cadence (Taylor Walton vs. John Grech)?** — unclear even to Pete as of the 9/11/26 Sandra session; same root gap as the config-consultant-of-record item below.
+- [x] **Post-implementation follow-up owner confirmed 9/12/26: John Grech** (Pete's best read, not stated as fully certain).
 - [ ] Confirm final spelling/name of the third-party contract-labor company ("Quick...") — needed for correct property reference
 - [x] **Placeholder-employee naming convention resolved, 9/11/26:** neither of the two previously-named options — Del Mar built its own: Employee ID from the job code with a two-digit incrementing suffix (e.g., `L2655-01`), display name as job title (first name) + agency (last name), e.g. "Room Attendant 01 Allied." Full detail in the 9/11/26 session file above.
 - [ ] **Per-department placeholder headcount still open** — only Room Attendant was modeled; Val still needs to survey each department for actual peak-day need rather than defaulting to the agreed 12 across the board (likely far fewer for Laundry).
@@ -85,7 +85,7 @@
 - [ ] Confirm who owns day-to-day F&B revenue-center forecast editing (candidates named informally 9/8/26 were unclear in the raw transcript — cross-check against contacts.md)
 - [ ] Cashier vs. host job code — confirm whether the "cashier" code is still real or should move to "Do Not Use" (flagged 9/8/26, property to check)
 - [ ] Confirm whether Taylor built any Job Assignments (sub-skill tagging) during original config
-- [ ] Confirm config consultant of record for this property (portfolio tracker shows TBD as of 9/2/26 prep call)
+- [x] **Config consultant confirmed 9/12/26: Taylor Walton.**
 - [ ] **Security Officer standard — missing AM shift coverage Sat/Sun**, found live 9/10/26 with John Davis; likely needs 2 additional shifts added.
 - [ ] **Housekeeping/Arteta -21% department-level variance**, flagged live 9/10/26 by Mark Ziomek during the Weekly Labor Summary walkthrough — individual job variances were modest, department total was not; not yet investigated.
 - [ ] Arrivals/departures ProfitSword gap — property/HMA-owned; not tracked here as a Pete action item, but worth checking status at future touchpoints since it directly affects housekeeping forecast accuracy
@@ -109,6 +109,7 @@
 - [Manager Training — Thursday, 9/10/26](2026-09-10_manager-training-thursday.md)
 - [Valeria Ruvalcaba — Placeholder Employees, Troubleshooting, and Training, 9/11/26](2026-09-11_valeria-placeholder-training-and-troubleshooting.md)
 - [Sandra Academia — Ad-Hoc Training, 9/11/26](2026-09-11_sandra-academia-adhoc-training.md)
+- [Status Report — Working Draft, 9/11/26](2026-09-11_status-report-draft.md)
 - [Banquet/CI Mapping Teams Thread, 9/9/26](2026-09-09_taylor-walton-banquet-mapping-teams.md)
 - [Stephanie Simmons CI Integration Meeting, 9/9/26](2026-09-09_stephanie-simmons-ci-integration-meeting.md)
 - [HM Alpha Client KB](../kb.md)
