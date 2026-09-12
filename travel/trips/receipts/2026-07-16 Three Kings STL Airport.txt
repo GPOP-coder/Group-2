@@ -1,0 +1,25 @@
+From: no reply HMSHost <Receipt@hmshost.com>
+Sent: 9:13 PM, July 16, 2026
+
+Lambert–St. Louis International Airport
+Three Kings
+
+Item                        Price
+SAND GRLD CHIX              18.69
+ -Modifiers:
+     FRIES
+     NO LETTUCE
+FIRST RND SFTBEV              4.89
+ -Modifiers:
+     ICD TEA
+
+Subtotal:    $23.58
+Tax:          $1.82
+Tip:          $5.08
+Round Up For Charity: $0.00
+Total:       $30.48
+
+DeptId # STLTKS01
+Tab/Check/Order # 976
+
+Paid: Chase VISA -2674
