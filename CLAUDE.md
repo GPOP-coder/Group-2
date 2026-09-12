@@ -224,6 +224,7 @@ Until Gmail and the primary personal Outlook are connected, the COS agent only s
 - Benchmark: .644 HPOR (2019 post-impl) vs .682 (2024 problem) = $101,000/year gap
 - ProfitSword export issue — call scheduled week of May 18 (Genevieve Kelley, Jackelyn Schafer, John Grech)
 - 1 week onsite training still owed; property recently offered to set dates
+- **9/11/26: Pete texted Genevieve to prompt a reconnection** — this is already a carved-out direct-client property (Happy Hour Lessee LLC d/b/a MHBR), so re-engaging here doesn't carry the same contract-timing risk as WLP/Fabrizio. Outcome not yet known.
 
 **Mohonk Mountain House (MMH)** — 🟡 Active
 - Pushing back on unnecessary job code for call-in shifts

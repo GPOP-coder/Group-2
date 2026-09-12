@@ -163,6 +163,38 @@ This generalizes beyond CI specifically to any event-management-system (EMS) fee
 
 ---
 
+## 5a. Placeholder Capacity vs. Autoschedule Ceiling — Deliberate Surge-Day Friction
+*Added 2026-09-11, from a working conversation with Mark Ziomek (GM, Marriott Del Mar)*
+
+### The Problem
+A labor standard that autoschedules every position it's configured for will happily dump an entire turnover spike onto a single day. Example: a "240 out, 240 in" day generates a room-attendant demand far above normal — if the standard autoschedules everyone it's capable of, the system concentrates all of that labor on the spike day itself, when the customary and preferred practice is to spread the extra cleaning load across the surrounding days.
+
+### The Technique
+Build more placeholder positions into the labor structure than are meant to autoschedule day-to-day, and cap how many of them actually autoschedule. Concretely, at Del Mar: **12 room attendant placeholders built, but only 6 configured to autoschedule.** On a normal day, 6 is right-sized and the standard runs untouched. On a big-turn day, demand can exceed the 6-cap — but instead of the system silently auto-filling all 12, someone has to **consciously choose** to activate the extra placeholders. That choice is exactly where the department applies judgment: activate the rest for same-day coverage, or deliberately spread the extra turns across the next few days instead, as is customary.
+
+### Why This Matters
+This is a general control lever, not a Del Mar-specific fix: **build real capacity into the standard, but set the autoschedule ceiling below that capacity** whenever a department needs a human decision point on surge days rather than blind automation. It keeps the standard capable of handling the peak without forcing every peak to be absorbed same-day by default. Worth considering anywhere a department's true peak capability shouldn't equal its default daily autoschedule count — housekeeping/room attendants is the case in hand, but the same logic applies to any job where surge coverage is a judgment call, not an automatic one.
+
+**Live execution, 9/11/26:** the Del Mar plan described above was actually built the same week — see [Valeria Ruvalcaba — Placeholder Employees session](../clients/hmalpha/marriott-del-mar/2026-09-11_valeria-placeholder-training-and-troubleshooting.md) for the concrete naming/ID conventions and build steps used (job-code-based Employee ID, job-title/agency display name, half sub-only).
+
+## 5b. Contract-Labor Placeholder Employees — Exclude from Schedule Export
+*Added 2026-09-11, from a follow-up note to Monica Brock (DOF, The Moran) after the placeholder build walkthrough*
+
+### The Problem
+Contract-labor placeholder employees (built to simulate scheduling for contract/agency staff who don't exist as real ADP employees) can break the ADP schedule export. Pete has seen two different failure modes: ADP silently ignoring just the placeholder's own schedule (harmless), and ADP rejecting the *entire* export because it can't resolve an unknown employee (not harmless — it can block real employees' schedules from reaching ADP too).
+
+### The Fix
+On the Scheduling tab in Employee Maintenance, **uncheck "Include in Schedule Export"** for every placeholder employee. This stops their schedule from ever being sent to ADP in the first place, rather than hoping ADP handles the unknown employee gracefully on its end.
+
+### Why This Matters
+This is a standard step for building any contract-labor placeholder, not a Moran-specific fix — apply it wherever placeholder employees get built for contract/agency labor simulation, as a checklist item alongside the placeholder build itself.
+
+**Independently confirmed at a second property, 9/11/26:** Pete gave the same instruction, unprompted, while building Del Mar's placeholder employees with Valeria Ruvalcaba — "we don't want this to go to paychecks, it will crash [the import]." Two properties, two different receiving systems (ADP at Moran, Paychex at Del Mar), same failure mode and same fix. See [Valeria Ruvalcaba — Placeholder Employees session](../clients/hmalpha/marriott-del-mar/2026-09-11_valeria-placeholder-training-and-troubleshooting.md).
+
+**Open curiosity, noted 9/12/26:** Pete wants to examine **John Grech's placeholder method** at some point — a different consultant's approach to the same contract-labor-placeholder problem, not yet compared against Pete's own convention (job-code ID + job-title/agency display name, half sub-only, export unchecked). Worth a deliberate look whenever the opportunity comes up, to see whether it's worth folding into this methodology doc as an alternative or a refinement.
+
+---
+
 ## 6. Post-Implementation Recovery
 
 ### The Pattern

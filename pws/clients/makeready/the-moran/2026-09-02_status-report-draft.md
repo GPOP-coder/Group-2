@@ -8,6 +8,23 @@
 
 ## ⚠️ WORKING DRAFT — UPDATED 9/8/26 WITH FRIDAY (9/4) CALL FINDINGS — SEE CLIENT-READY VERSION ⚠️
 
+**Ownership note, 9/11/26 (internal-only, not in the client letter):** Pete deliberately cut the closing commitment to "continue monitoring the next full weekly cycle" from the client-ready letter before sending. Future status letters and ongoing tracking for The Moran are really **Steve Carrell's job** (configuration consultant of record), not Pete's — but Steve is currently onsite in **Amsterdam** on another engagement and unlikely to stay engaged with this property. Pete didn't want to commit either himself or Steve to follow-through neither may actually deliver. Pete's own read: bad for Unifocus (a real service gap opening up), good for Pete (positions him as a resource the property can turn to directly, whether routed through Unifocus or as a direct PWS engagement) — same pattern as [[project_unifocus-post-ralph-relationships]] and the WLP/Fabrizio direct-client interest.
+
+**✅ 9/11/26 run checked — real, substantial improvement, confirmed apples-to-apples (same All Jobs/hourly scope as the 9/4 comparison):**
+
+| | 9/4 run (planning week 9/13–9/19) | 9/11 run (period incl. Sun 9/20/26) |
+|---|---|---|
+| Scheduled shifts | 29 | **117** |
+| Projected shifts | 408 | 303 |
+| Shift fill rate | ~7% | **~39%** |
+| Scheduled hours | 339.5 | **791.00** |
+| Projected hours | 3,523.2 | 2,084.00 |
+| Hours variance | -90% | **-62%** |
+
+A "Z Contract Steward" placeholder employee was also seen catching a real shift (7:00–11:30 PM) — first live evidence the contract-labor placeholder concept is actually working in production, not just built and idle.
+
+**Open analytical question, not yet resolved — worth Pete's read before this goes in the letter:** the three items fixed today (outlet-cook AM/PM covers threshold, minimum-hours-between-shifts/days-off, Steward Sub-Only) were all previously diagnosed as *distinct from* the core Generate Schedules defect — smaller, unrelated configuration gaps, not the root cause. But fill rate jumping from ~7% to ~39% in the same week those got fixed is a real coincidence worth questioning rather than assuming. Two live possibilities, not mutually exclusive: (1) some of what got fixed today actually did contribute more to the fill problem than the earlier diagnosis credited it for, or (2) something unrelated also changed this week — e.g., did more department managers complete their Employee Maintenance Assignments (the property-side gap already identified as blocking Room Attendant/Houseperson specifically)? Worth checking before attributing the jump confidently to any one cause in the client letter. Either way, 261575 itself is still technically open with Unifocus support (no reply since 9/9) — this improvement doesn't appear to be something support did on their end.
+
 **Friday 9/4/26 afternoon follow-up call with Monica Brock (~2:45–3:15 PM CT, Pete remote from Omaha) — folded in 9/8/26:** Full detail: [2026-09-04_pm-remote-call-monica-brock-schedule-review.md](2026-09-04_pm-remote-call-monica-brock-schedule-review.md). Four things came out of this call that change the report:
 1. **Positive interface confirmation:** the earlier-corrected Bell/Valet miscoding is now showing correctly, validating the ~1-2 day ADP propagation timing already documented below.
 2. **New, distinct configuration gap:** minimum-hours-between-shifts (10-hr default) and Minimum Days Off were never configured in Labor Structure — not the root cause of the low fill rate, but it explains why the handful of employees who did get scheduled received messy, back-to-back/double shifts. Flagged to Steve Carrell; Pete will configure it himself if Steve doesn't act first.
@@ -136,7 +153,7 @@ No formal budget-vs-standards pass has been completed for this property as of th
 - Investigate the unexplained edit-permission block itself — it also prevented removing an incorrect secondary job assignment from an employee in this same session.
 - Investigate the Allegory bartender standard showing zero generated hours despite present beverage revenue.
 - File a ticket for the Export Schedules automation, which is not running on its own schedule as expected.
-- Investigate the Housekeeping productivity-goal discrepancy (0.88 loaded vs. a recalled 1.45 historical target) and determine the correct figure.
+- Investigate the Housekeeping productivity-goal discrepancy (0.88 loaded vs. a recalled 1.45 historical target) and determine the correct figure. **Handoff item, 9/11/26:** too much detail for the client-ready status letter (kept generic there as "audit the productivity-goals and update with any revised budget decision") — needs to go to whoever is running Moran's post-visit follow-up calls, believed to be **Taylor Walton**. Pete already asked Taylor directly; no reply yet as of 9/11/26.
 - Decide the six-hour-shift unpaid-lunch policy question with HR/legal.
 - Decide whether to configure the department-meeting 2-hour minimum as an actual shift-length rule (currently policy-only).
 - Extend the rooms forecast window — property's revenue analyst currently sends 10 days; Unifocus needs roughly 16.
