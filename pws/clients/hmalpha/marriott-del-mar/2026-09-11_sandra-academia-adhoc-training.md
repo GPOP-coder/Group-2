@@ -41,7 +41,8 @@
 
 ## Open Items
 
-- [ ] **Two unexplained schedule anomalies from this session** — the back-to-back AM/PM shift assignment and "Eric's" fully-blacked-out availability — both flagged by Pete himself as needing a closer look, not resolved live.
+- [x] **Back-to-back AM/PM shift assignment — resolved 9/12/26.** A Laundry placeholder employee had no Employee Maintenance availability restrictions set, so autoschedule drafted it into consecutive AM and PM shifts. Pete corrected the availability settings 9/12/26. Broader lesson logged in `pws/foundations/03-implementation-analysis-methodology.md` §5c: placeholders need real availability restrictions, not just Sub Only + schedule-export exclusion — worth auditing other existing placeholders for the same gap.
+- [ ] **"Eric's" fully-blacked-out availability** — still unexplained, not resolved live.
 - [ ] **Confirm who owns Marriott Del Mar's post-implementation follow-up cadence** — Taylor Walton or John Grech; unclear even to Pete as of this session. Same underlying gap as the still-open "config consultant of record" item in kb.md.
 - [ ] Assignments/split cook jobs (Banquet Cook vs. Outlet Cook) — Sandra interested, not yet built.
 - [ ] Rooms forecast horizon (10 days vs. 16 needed) — third independent confirmation of the same gap; still needs a fix on the ProfitSword side.
