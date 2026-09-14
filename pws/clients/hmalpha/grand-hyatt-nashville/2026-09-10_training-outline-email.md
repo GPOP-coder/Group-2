@@ -64,7 +64,6 @@ Each manager must sign up for one of the sessions below.
 | E | Office Hours | Thursday, 10/1 | 9 am – 12 pm (CT) |
 | F | Office Hours | Thursday, 10/1 | 2 pm – 5 pm (CT) |
 | G | Office Hours | Friday, 10/2 | 9 am – 12 pm (CT) |
-| H | Office Hours | Friday, 10/2 | 2 pm – 5 pm (CT) |
 
 *Note: Two full days of office hours are available this week — use this time for deeper follow-up, department-specific questions, or additional hands-on practice beyond the standard curriculum.*
 
@@ -113,7 +112,7 @@ Senior Workforce Performance Consultant
 ## Open Items / Pre-Training Checklist
 
 - [x] Schedule confirmed against the 9/10/26 resource calendar: full Mon–Fri week, Sunday-evening arrival — no travel-compression risk
-- [ ] Decide what fills the extra Friday office-hours day — deeper follow-up/department questions is the default framing above, but worth considering whether Nashville's larger, from-scratch build (not cloned, per kb.md) warrants dedicated content instead of open-ended office hours
+- [x] **Friday 2-5pm CT office hours (option H) removed by Pete, 9/13/26** — collides with his departure to the airport. Friday now ends at option G (9am-12pm CT); the "what fills the extra Friday" question is moot since that slot no longer exists.
 - [ ] Property admins (Marc/Rachael/Gideon) to collect and track attendee sign-ups (A/B/C/D manager options) — not Pete's task; 36-person roster now on file for reference, see contacts.md
 - [x] **Admin distribution confirmed 9/10/26: 3 people only** — Marc Sternagel (GM), Rachael Haines (DOF), Gideon Packianathan (HRD). Pete confirmed this is the standard HMAlpha pattern, not the wider 6-person group.
 - [ ] Confirm all attendees have active Unifocus credentials
