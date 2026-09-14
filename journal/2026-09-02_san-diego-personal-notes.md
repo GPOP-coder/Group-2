@@ -34,3 +34,15 @@ In the same call (before the Del Mar topic), Pete referenced a former colleague 
 **Identified 9/2/26: JD is Jaideep Abraham** — `jaideep.abraham@hyatt.com`, signs email as "(NASGH)." Found via Outlook search of the Unifocus mailbox: he's CC'd repeatedly (Feb–Apr 2026) on the "Rosewood Unifocus Migration to CTF Project!" thread alongside Aaron Longley and Megan Knowles (Rosewood Baha Mar contacts), consistent with him being the Grand Hyatt Baha Mar-side counterpart on that migration work — matching the office-sharing story above.
 
 Not urgent, but worth remembering as a loose thread — cross-reference `pws/clients/baha-mar/2026-09-02_casino-prospecting-followup-email.md` for the live Baha Mar Casino prospecting thread this connects to.
+
+---
+
+## How the family visits actually played out (9/10–9/11/26)
+
+Resolves the "bantering back and forth" uncertainty above — both family members were seen, on separate nights, rather than picking one:
+
+**Thursday night, 9/10/26** — Dinner with Kim's brother **Doug** and his girlfriend **Linda** at **The Poseidon** in Del Mar.
+
+**Friday night, 9/11/26** — Pete's paternal uncle **Richard ("Uncle Dick")** and his new girlfriend (name/contact forthcoming) drove down, arrived at the hotel a bit early, and decided to book a room there themselves — Pete found out immediately after wrapping his session with Sandra Academia, too late to work out a rate for them. The three ate dinner at the hotel and talked until about 9 PM. Pete then worked late (sending out the Moran status letter, packing), up until 1:30 AM, awake again at 6 AM. Uncle Dick tried to make it down for breakfast Saturday morning but overslept — the two spoke by phone instead, and Pete thanked him for making the trip. Pete (an intermittent faster, skips breakfast normally) was packed and out by 8 AM, Uber at 9 AM, in time for the SAN→OMA flight home.
+
+**Open item:** Pete has a long Plaud transcript from Uncle Dick (Pete's paternal uncle, Richard — see Friday dinner above) with "great family detail" — not yet processed as of 9/12/26. Process when available; personal/family content only, not client-facing.

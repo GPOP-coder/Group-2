@@ -67,8 +67,8 @@ This is the same one-page weekly cycle taught throughout HMAlpha training, but w
 
 ## Open / Unresolved Items
 
-- [ ] **Confirm which CI field Unifocus is actually reading for booking type** (Business Type vs. the more granular Group Type) — likely reading the wrong one; Pete to verify and correct with the interface team if so
-- [ ] Map all ~10 Group Type options (including AA and other rarely-used codes) once the correct field is confirmed
+- [x] **Confirmed which CI field Unifocus is actually reading for booking type: Group Type (the granular one).** **Reframed 9/12/26, per Pete:** not "the wrong field" — Business Type (the coarser field) is likely what any HM Alpha CI property should read; pulling Group Type was probably the wrong original call, likely portfolio-wide, worth raising with Nicole Mendez/Devon Peters but not an urgent Del Mar fix.
+- [ ] Map all ~10 Group Type options (including AA and other rarely-used codes) — Group is what's actually in use, so this is the real near-term work regardless of the Business Type question above
 - [ ] Decide bartender-labor approach: recode dinner+bar as "reception," or commit to the manual bartender-count field — currently neither is happening
 - [ ] Build a bartender job code and labor standard (doesn't exist at all currently)
 - [ ] Decide who owns **Actual KBI entry** (Stephanie/sales vs. finance vs. Sandra/Mark) — segregation-of-duties question raised, not resolved

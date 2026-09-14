@@ -193,6 +193,18 @@ This is a standard step for building any contract-labor placeholder, not a Moran
 
 **Open curiosity, noted 9/12/26:** Pete wants to examine **John Grech's placeholder method** at some point — a different consultant's approach to the same contract-labor-placeholder problem, not yet compared against Pete's own convention (job-code ID + job-title/agency display name, half sub-only, export unchecked). Worth a deliberate look whenever the opportunity comes up, to see whether it's worth folding into this methodology doc as an alternative or a refinement.
 
+## 5c. Contract-Labor Placeholder Employees — Availability Settings Required Too
+*Added 2026-09-12, from a live double-shift defect found and fixed at Marriott Del Mar*
+
+### The Problem
+A placeholder employee built without Employee Maintenance availability restrictions is, as far as autoschedule is concerned, available for *every* shift they're otherwise eligible for — not just the shift(s) they were conceptually built to cover. At Del Mar, a Laundry placeholder built to represent second-shift (PM) contract coverage had no availability blocks set at all. With most of that shift's actual headcount running contract, and nothing blocking the AM slot, autoschedule drafted the placeholder into back-to-back AM and PM shifts on the same day — a defect that normally can't happen (the system generally prevents same-employee back-to-back full shifts) but availability gaps are one of the ways it slips through. Confirmed live 9/11/26 during a Sandra Academia ad-hoc session, fixed by Pete 9/12/26.
+
+### The Fix
+Placeholder employees need the same Employee Maintenance availability configuration real employees get — restricted to the shift(s)/days they're actually meant to represent — not just the Sub Only flag and "Include in Schedule Export" unchecked (see §5b). Skipping availability setup on the assumption that a placeholder is "just a placeholder" leaves it eligible for anything, including shifts that create real scheduling defects like this one.
+
+### Why This Matters
+This is a third checklist item for any contract-labor placeholder build, alongside the naming convention (§5a cross-reference) and the schedule-export exclusion (§5b): **(1) capacity/autoschedule ceiling, (2) exclude from schedule export, (3) set real availability restrictions.** Skipping #3 doesn't just leave a placeholder under-constrained cosmetically — it can actively generate defective schedules (double shifts, wrong-shift coverage) that look like a system bug but are actually a build-completeness gap. Worth checking on every future placeholder build, and worth auditing existing placeholders (at Del Mar and elsewhere) that were built before this lesson was learned.
+
 ---
 
 ## 6. Post-Implementation Recovery

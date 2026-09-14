@@ -30,7 +30,7 @@ Loads at the start of every session. Keep current. Last updated: 2026-09-09
 | Tamara Holland | Kim's donor's mother | Kristian Nicole Holland's mother — raising all 5 of Kristian's children as their guardian (grandchildren, ages 4–14). Tamara's own 4 children are adults. hollandtamara@yahoo.com \| (316) 806-7316 \| 717 Lexington Rd, Wichita KS 67218. Gift sent: heartbeat bear with Kim's heartbeat recording. |
 | Thomaree Holland | Kim's donor's daughter | Kristian Nicole Holland's 15-year-old daughter. Met Kim June 20, 2026 at National Transplant Games, Denver. Attended with Virginia (family friend). Composed beyond her years — spoke publicly about her mother. |
 | Jessica (Jessie) Brazeal | Daughter | Married Brian; kids Cecilia (4) and Astrid (8 mo) |
-| Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2), baby due Sept 2026 |
+| Jennifer (Jennie) | Daughter | Married Rusty; kid Charlie (2). **Second child, a girl, born 9/12/26 ~5:06 AM CT** — name not yet known (Kim knows, not telling; Pete to learn it in person in Omaha the evening of 9/12/26). |
 | William Castellano | Father | Age 90, Orlando FL (near Camille), Pensacola primary residence |
 | Camille | Sister | Orlando FL — twin with Tom |
 | Tom (Tommy) Castellano | Brother | Twin with Camille. Handled early renter correspondence for Pensacola property. |
