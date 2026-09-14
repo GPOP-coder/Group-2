@@ -24,7 +24,7 @@
 | Derek Miller | City Planning — led design/build of the Baby Bob | ⏳ Scheduled | **8/25/2026, 10:00 AM, in person** |
 | Ron Hopp | Council Bluffs parks/recreation; bridge project participant | ⏳ Scheduled | **8/25/2026, 11:00 AM, by phone** — Pete sent him the number/info 8/14/26; (402) 884-0633 |
 | Todd Graham | CEO, Iowa West Foundation | ⏳ Scheduled | **8/25/2026, 1:00 PM, by phone** — number to be sent |
-| Mike Fahey | Mayor of Omaha (succeeded Daub) | ⏳ Scheduled | Date TBD |
+| Mike Fahey | Mayor of Omaha (succeeded Daub) | ✅ Complete | September 9, 2026; edited transcript received from Legacy same week. Full transcript + key moments: [2026-09-09_fahey-interview-transcript.md](2026-09-09_fahey-interview-transcript.md), [2026-09-09_fahey-interview-key-moments.md](2026-09-09_fahey-interview-key-moments.md) |
 | Larry Foster | Dir. of Parks & Recreation under Daub; project organizer | 🔵 Should be interviewee | Group consensus: he's been organizing interviews instead of being in one |
 | Rich Sorich | Council Bluffs | 🔵 On list | Larry Foster's list |
 | John Batt | Back to the River Board member | 🔵 Suggested | Suggested by Ron Hopp; had recollections of pre-bridge discussions |

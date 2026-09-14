@@ -16,6 +16,7 @@
 - **Left out as internal-only, not client-facing:** Pete's personal expressed interest in reclaiming the DoubleTree San Diego Del Mar engagement from John Grech; Mark Ziomek's "make Sandra suffer" remark and the scheduling-conflict saga behind it; Val's personal week (family loss, move); Pete's own travel logistics (extended stay, uncle visit, cruise/Nashville stretch); the placeholder-methodology cross-references to Moran and the PWS foundations doc, which are internal IP, not client status.
 - **Two schedule anomalies found late in the week (9/11) are still genuinely unexplained** — not yet triaged into a "known non-Unifocus cause" bucket the way similar-looking issues at Moran eventually were. Don't understate these as resolved.
 - Status/Trend indicator below is a first-pass call, not yet confirmed by Pete.
+- **Call with Taylor Walton set for tomorrow, 9/14/26 (per Teams sidebar 9/13/26).** Pete asked Taylor about this draft directly; Taylor replied he's "way behind" and proposed a call to work it out together rather than reviewing async — Pete agreed. Treat this report as not yet reconciled with the configurer's own view until that call happens.
 
 ---
 
