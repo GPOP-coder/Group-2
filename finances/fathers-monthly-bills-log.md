@@ -15,6 +15,8 @@ Recurring bills per CLAUDE.md: ECUA, FPL, Cox, USAA Rental Property Insurance, C
 | 2026-08-24 | USAA Rental Property Insurance | TBD | — | Paid; amount/confirmation not yet logged |
 | 2026-08-24 | Lively (Best Buy medical alert) | TBD | — | Paid; amount/confirmation not yet logged |
 | 2026-08-24 | USAA credit card | TBD | — | Paid; amount/confirmation not yet logged |
+| 2026-09-09 | USAA Rental Property Insurance | $56.12 | 7859430485 | Paid from USAA Signature Visa *0149; delivered by 9/9, bill due 9/26 |
+| 2026-09-09 | USAA Visa (credit card) | $423.75 | 7859463363 | USAA Signature Visa *0149 balance paid from Navy Fed checking *1701 |
 
 ---
 

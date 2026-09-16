@@ -231,6 +231,9 @@ This applies across all PWS clients, not just Unifocus engagements.
 
 - [ ] PWS employment opportunity: Product Owner role under Priyanka Kalia (VP Product Management) — compensation not yet discussed
 - [ ] M365 connector (pcastellano@unifocus.com): approved and active — monitor and provide feedback
+- [ ] **Database audits reintroduced (9/16/26 monthly consultant meeting)** — full process now defined (consultant implements → PM assigns auditor → structured worksheet review → findings + due date → consultant corrects). Not yet assigned to Pete for a specific property, but check inbox — some audits reportedly already went out with no consultant response. See [2026-09-16 US Monthly Consultant Meeting](2026-09-16_us-monthly-consultant-meeting.md) for full pitfalls list (banquet mapping, naming consistency, master jobs/KBIs for multi-hotel clients — explicitly named H.M. Alpha and Rockbridge/MakeReady, both active Pete client groups).
+- [ ] **Smartsheet checklists now required** for project accountability (all consultants) — backfill any existing Nashville/Scottsdale-style checklist for Pete's own properties and keep current; enforcement was explicitly flagged.
+- [ ] **Post-AWS-migration cross-property risk:** working two properties side-by-side in the same browser can misroute changes to whichever refreshed most recently. Use two separate browsers (not two tabs) when doing cross-property work — directly relevant to Baha Mar campus sessions.
 
 ---
 

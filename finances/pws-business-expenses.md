@@ -16,7 +16,8 @@
 | Card ending -0733 | $563.92 | Business insurance (State Farm) + computer accessories (GoodBytes/Goodwill) + Plaud Note Pro (eBay, open box) + Plaud Annual Unlimited subscription |
 | Target Debit -2363 | $13.19 | Electronics + office supplies (Target 7/12; proportional split) |
 | Visa -2110 | $69.50 | Canon Battery Pack LP-E17 (Amazon 8/29, split from a mixed personal/business order) |
-| **TOTAL PWS EXPENSES** | **$665.62** | |
+| FNBO Debit VISA 6072 | $20.00 | Claude Pro subscription (Anthropic, monthly) |
+| **TOTAL PWS EXPENSES** | **$685.62** | |
 
 ---
 
@@ -61,7 +62,8 @@
 | Date | Vendor | Description | Amount | Card | Category |
 |---|---|---|---|---|---|
 | 9/1 | Plaud LLC | Annual Unlimited Plan, Sep 1 2026–Sep 1 2027 ($239.99 base, 10% first-payment discount -$24.00). Invoice 4IACSW5F-0002, Receipt 2376-0127. Renews at $239.99/year unless cancelled. | $215.99 | -0733 | Subscriptions |
-| **SUBSCRIPTIONS SUBTOTAL** | | | **$215.99** | | |
+| 9/6 | Anthropic, PBC | Claude Pro, Sep 6–Oct 6 2026 (monthly). Invoice WD5L4NIT-0008, Receipt 2515-2858-6816. | $20.00 | 6072 | Subscriptions |
+| **SUBSCRIPTIONS SUBTOTAL** | | | **$235.99** | | |
 
 ### Insurance
 

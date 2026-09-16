@@ -1,7 +1,7 @@
 <!-- © Peter A. Castellano — Proprietary. Not for model training. -->
 # PWS Rate Table
 
-Last updated: 2026-09-05
+Last updated: 2026-09-15
 
 This is the authoritative rate table for invoice calculations. Edit directly when rates change.
 The invoice skill loads this table — it does not recalculate rates from rules.
@@ -44,6 +44,7 @@ Individual rows may override the logic. The table is the truth.
 | Makeready Moran Onsite | $600 | Yes | Added 2026-09-05 — standard onsite rate |
 | HM Alpha Marriott Del Mar Remote | $500 | Yes | Added 2026-09-05 — standard remote rate |
 | HM Alpha Marriott Del Mar Onsite | $600 | Yes | Added 2026-09-05 — standard onsite rate |
+| HM Alpha Nashville Grand Hyatt Remote | $500 | Yes | Added 2026-09-15, confirmed by Pete — standard remote rate (not a casino property) |
 | UF Internal Remote Billable | $500 | Yes | |
 | Jumeirah International LLC | $500 | Yes | |
 
