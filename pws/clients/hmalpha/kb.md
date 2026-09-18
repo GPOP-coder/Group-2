@@ -74,7 +74,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 | Intercon NO (InterContinental New Orleans) | W8 — 7/6 | Steve Carrell | John Grech |
 | WLP (Westin La Paloma) | W14 — 8/17 | Steve Carrell | John Grech |
 | Marriott Del Mar | W17 — 9/7 ✅ confirmed 9/2/26 | TBD | Taylor Walton |
-| DoubleTree San Diego Del Mar | Reassigned to John Grech — config Oct 5, training Oct 19, 2026 (Pete no longer trainer; learned informally 9/2/26). **Confirmed 9/12/26: this is the "DoubleTree" engagement Pete had expected to roll onto the week of 9/14/26 that got moved off his schedule** — matches this reassignment, not a separate/unrelated DoubleTree property. **Pete has expressed a personal desire to get back on this engagement, but it is not reflected in the current plan.** | John Grech | TBD |
+| DoubleTree San Diego Del Mar | Config Oct 5, 2026 — John Grech. **Pete confirmed 9/18/26 he wants the training assignment back** (config stays with John; Pete wants training only) — first floated 9/14/26 with Taylor Walton, now an active ask, pending Pete confirming it fits his own calendar. **Training week under review:** previously noted as Oct 19, but Pete's stated general HMAlpha pattern (two install weeks + one gap week + training week) applied to an Oct 5 config start would put training the week of **Oct 26** instead — would also resolve a potential conflict with the tentative Heathman, Portland training (Oct 19–22). Not yet confirmed with Alain/John/Taylor. | John Grech | TBD |
 | Grand Hyatt Nashville | Sep 28–Oct 2, 2026 ✅ confirmed | Steve Carrell / Taylor Walton (Labor Standards Testing & Sign-off, week of 9/7/26 per 9/10/26 project plan Gantt — corrects earlier "~Sep 1–5" estimate from the 8/27 call) | Taylor Walton (weekly labor meeting support continuing weeks of 10/5–10/26 per same Gantt) |
 | DoubleTree Sunrise | Oct 12–14, 2026 | Steve Carrell (config, week of Sep 28) | TBD |
 | All others | — | Various | Ralph/Taylor/John |
@@ -157,6 +157,7 @@ See [Resource Calendar](2026-06-24_resource-calendar.md) for full week-by-week c
 - [HM Alpha Weekly Call Notes — August 20, 2026](2026-08-20_weekly-hma-call-notes.md)
 - [HM Alpha Weekly Call Notes — August 27, 2026](2026-08-27_weekly-hma-call-notes.md)
 - [HM Alpha Weekly Call Notes — September 10, 2026](2026-09-10_weekly-hma-call-notes.md)
+- [HM Alpha Weekly Call Notes — September 17, 2026](2026-09-17_weekly-hma-call-notes.md)
 - [HM Alpha Training Contacts](../../../memory/contacts_hmalpha_training_2026.md)
 - [Marriott Brand KB](../../../brands/marriott/kb.md)
 - [Union Station Nashville Yards — Contacts](union-station-nashville/contacts.md)

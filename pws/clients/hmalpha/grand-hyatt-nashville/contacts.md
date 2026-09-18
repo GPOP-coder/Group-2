@@ -17,7 +17,7 @@
 | Name | Role | Email |
 |---|---|---|
 | Marc Sternagel | General Manager | Marc.Sternagel@Hyatt.com |
-| Rachael Haines | Director of Finance (DOF) | rachael.haines@hyatt.com |
+| Rachael Haines-Bennett | Regional Director of Finance | rachael.haines-bennett@hyatt.com |
 | Gideon Packianathan | Human Resources | gideon.packianathan@hyatt.com |
 
 ---
@@ -79,4 +79,5 @@ Cross-referenced against the roster above — not yet confirmed with the propert
 
 - Builds from scratch in Unifocus (not cloned from another property — per HM Alpha kb.md engagement notes)
 - Part of Wave 1/2 pilot rollout; see [HM Alpha Client KB](../kb.md) for full portfolio and wave status
-- **Admin vs. Manager classification confirmed 9/10/26:** Admin-session distribution is limited to **3** — Marc Sternagel (GM), Rachael Haines (DOF), Gideon Packianathan (HRD) — the standard HMAlpha pattern, per Pete. (Marriott Del Mar used a wider 6-person admin group; that was not the standard to follow here.) The remaining 33 users sign up for one Manager Training option (A–D).
+- **Admin vs. Manager classification confirmed 9/10/26:** Admin-session distribution is limited to **3** — Marc Sternagel (GM), Rachael Haines-Bennett (Regional DOF), Gideon Packianathan (HRD) — the standard HMAlpha pattern, per Pete. (Marriott Del Mar used a wider 6-person admin group; that was not the standard to follow here.) The remaining 33 users sign up for one Manager Training option (A–D).
+- **Rachael's email/title corrected 9/16/26:** actual working address is rachael.haines-bennett@hyatt.com (hyphenated surname), not rachael.haines@hyatt.com as originally sourced from Nicole Mendez's 7/17/26 contact sheet — her replies consistently use the hyphenated address. Title is "Regional Director of Finance," not plain "Director of Finance."

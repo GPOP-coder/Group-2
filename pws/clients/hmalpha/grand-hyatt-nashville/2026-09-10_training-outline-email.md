@@ -111,6 +111,7 @@ Senior Workforce Performance Consultant
 
 ## Open Items / Pre-Training Checklist
 
+- [ ] **⚠️ Schedule change under discussion, 9/17/26 — CALL TODAY, 4:30 PM CT.** Rachael flagged Monday 9/28 as too compressed for the admins who need to attend Admin Training and asked whether it can move to Wednesday 9/30 instead. Pete agreed to a call to work out details — confirmed for 4:30 PM CT today (9/17/26). Nothing changed yet; Mon–Fri week structure below is the pre-call state.
 - [x] Schedule confirmed against the 9/10/26 resource calendar: full Mon–Fri week, Sunday-evening arrival — no travel-compression risk
 - [x] **Friday 2-5pm CT office hours (option H) removed by Pete, 9/13/26** — collides with his departure to the airport. Friday now ends at option G (9am-12pm CT); the "what fills the extra Friday" question is moot since that slot no longer exists.
 - [ ] Property admins (Marc/Rachael/Gideon) to collect and track attendee sign-ups (A/B/C/D manager options) — not Pete's task; 36-person roster now on file for reference, see contacts.md

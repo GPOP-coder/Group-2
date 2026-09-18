@@ -168,6 +168,66 @@ Rounding settings (Threshold Below One, Threshold Above One) govern how leftover
 
 ---
 
+## Database Audit Methodology (John Grech, standardized/reintroduced 9/16/26)
+
+*Captured from the raw transcript of the 9/16/26 US Monthly Consultant Meeting — John walked the full team (including two newer consultants, Itzaso and Akram) through Unifocus's database-audit tool and process live. Several of the conventions John taught trace directly back to Pete's own work — noted inline where John said so explicitly. Worth keeping as reference: this is the same institutional-knowledge-transfer dynamic behind the "signature hallmarks" tracking goal in CLAUDE.md's Training Methodology section.*
+
+### The Process
+
+1. Consultant finishes implementation, tells the PM it's ready.
+2. PM assigns an auditor (a different set of eyes — explicitly **not** a "you did this wrong" exercise, John's framing).
+3. Auditor works through a structured worksheet: a summary page plus tabs for property config, task scheduler, revenue centers, KBIs, mapping, labor structure, labor standards.
+4. Auditor sends findings to the consultant + PM with a due date.
+5. **The auditor does not make corrections — "they're your eyes, not your hands."** The original consultant fixes their own work and confirms back.
+
+**Time expectations:** first audit ever done, up to half a day. Typical hotel, 1–2 hours. Complex hotel, up to half a day. Once familiar with the tool, a small hotel should take about an hour.
+
+**Tool caveat:** the audit worksheet imports reports from the *current* software — if Clara changes the underlying reporting, this whole process may need rework. Not urgent, just a known dependency.
+
+### What an Auditor Actually Checks
+
+- **Revenue Centers:** minimum volume should always be zero. Units must be set correctly per outlet (e.g., a restaurant should be set to **covers**, not left default) — this specifically matters for Makeready/Rockbridge corporate reporting, which depends on it.
+- **KBIs:** an **input KBI must be flagged "Primary" or it won't show up in Budgeter at all** — easy-to-miss, high-consequence setting. Statistical KBIs should be set up for trend-adjusted smoothing (the standard forecasting method in current use).
+- **Banquet mapping — the single highest-value thing to check:** confirm every function/meal type that's actually being sent is actually mapped. John's live example from an unaudited property: **banquet breakfast covers were mapped to lunch** — silently wrong the entire time the property had been live, only caught by happenstance during this first-ever audit. This is the concrete case for why every database eventually needs one, not just new ones.
+- **Forecast KBI mapping example, also live:** a hotel's overnight room service wasn't included in the Total IRD Covers calculation — created a false picture of overnight in-room-dining volume.
+- **Labor Standards — the most common real mistake, repeated for emphasis:** **shift time and standard time not matching.** A 6-hour shift paired with an 8-hour standard silently overpays every shift. John's practice: highlight the specific tab/row on the summary page so the consultant can go straight to the fix.
+
+### Consistency Rules — several explicitly traced back to Pete
+
+- **Case and naming consistency across a multi-property client** (e.g., all-caps vs. not) — matters more the more properties share one HMAlpha-style database; looks unprofessional otherwise.
+- **Keep job names short** — names that are too long get clipped in reports and in the scheduler.
+- **Shift time format:** either the system default or military time — pick one per multi-hotel client and stick to it.
+- **Order shifts by start time** — don't let an overnight shift sit at the top of the list.
+- **Master jobs and master KBIs are required for multi-hotel clients** (explicitly named: HMAlpha, Rockbridge/Makeready) — without them, corporate rollup reports come out wrong. A named person on Unifocus's side builds these corporate reports for Makeready/Rockbridge and is directly affected when master jobs are missing.
+- **KBI naming/numbering convention — John's own words: "This goes back — Pete is the guy that kind of initiated this way back when, as far as the way we name things."** Plan your KBI layout before building (matches the existing Banquet KBI Numbering Pattern section below — same origin). Example: if breakfast is KBI-series 11 at one outlet, it should be 11 everywhere, regardless of outlet.
+- **Seasonality:** no gaps or overlaps between seasons. Overlaps over-award labor; gaps under-award it — worse when the standard lives at the Assignment level.
+- **Step standards:** build with no gaps between tiers (e.g., 0–200, 200-infinity — either butting tiers directly against each other or open-ended tiers both work, as long as nothing is skipped).
+- **>3 FTEs per shift → the job must be a variable standard, not fixed** — John: **"We did have a rule of thumb, which goes back to when Pete and I were doing Hiltons way back when."** The diagnostic question to ask a manager who insists on a fixed headcount: do you really need all of them at the slowest hour, or only at the busiest? Build in the variability standards exist to provide.
+
+### Named Database Templates (built ~2 years ago during a go-live task force with John, Akram, Sophie)
+
+Exist but haven't been consistently used at database-creation time — a real, agreed loss of implementation-time savings:
+
+- **Resort** — cloned from Great Wolf Lodge
+- **Full-service five-star**
+- **"Box Marriott"** — one restaurant + room service only
+- **Limited service** — has a breakfast area
+- **Select service** — no F&B at all
+
+Revenue centers in these templates use generic names (Restaurant One/Two/Three) rather than real property names, and come with repetitive calculated KBIs (stayovers, stayovers-to-clean, etc.) prebuilt — Akram's specific pain point citing 4 simultaneous Red Sea properties needing the exact same KBIs built by hand each time.
+
+**Why they've drifted out of use:** template selection has to happen **at database creation, at the PM/Jira-ticket level** — once a database exists, you're "toasted," in John's words; there's no retrofitting a template after the fact. Ralph used to personally specify which template to use on each Jira ticket; since his departure, nobody's been enforcing the picker option. Alain's follow-up: regroup with "Boss Casey" and Shilpa to make sure directors/PMs default to it going forward.
+
+### AWS Migration — Cross-Property Browser Risk (mechanism, not just the workaround)
+
+Post-migration, opening two properties side-by-side as tabs in the *same* browser is dangerous, not just inconvenient: refreshing one silently routes subsequent edits to whichever property refreshed most recently — you can be looking at "Property A" on screen while every change you make actually lands in "Property B." **Use two entirely separate browsers** (e.g., Safari + Chrome) when referencing two properties side-by-side, never two tabs in one browser. Already known to Taylor/Itzaso from Jumeirah multi-property work.
+
+### Employee User Maps — mobile-specific gotcha, now resolved
+
+If a client uses the mobile app, it's easy to forget the one-time Employee User Map step per user. A ~8-month-old anomaly where drag-and-drop scheduling briefly *required* this mapping even for non-mobile users has since resolved on its own — Taylor confirmed it's working normally again, root cause never formally documented. Worth adding "employee user mapping" as a standing line on the implementation checklist for any client using mobile, regardless.
+
+---
+
 ## Standard Banquet KBI Numbering Pattern
 
 *Cross-client standard. Used repeatedly across PWS engagements. Captured May 29, 2026.*
@@ -216,6 +276,22 @@ Special and Wedding apply across Breakfast, Lunch, Dinner, AND Reception — not
 ### Meal Period Notes
 - **Late:** Not typically seen in banquet KBI structures. Prepare numbering to accommodate (5700s) but don't build unless the property uses it.
 - **Afternoon / Overnight (Rosewood-specific):** Brand additions beyond USALI standard. Map Afternoon → Lunch in Unifocus unless a dedicated KBI is needed. Falls into USALI "Other" bucket.
+
+---
+
+## Dashboard / In-Week Data Reliability — Standing Teaching Point
+
+*Pete's own consistent guidance to clients, reaffirmed 9/18/26 in the context of the Mohonk and Westin La Paloma dashboard-accuracy concerns raised that week.*
+
+**The rule Pete always teaches:** clients *can* look at the current week, in the week — but it will **never be fully reliable**, for a structural reason, not a bug: actual hours, operating volumes, and generated standard hours arrive/refresh on different schedules within the week. Comparing actual-vs-standard mid-week is inherently comparing numbers computed at different points in a still-incomplete data cycle, regardless of property.
+
+**This holds true even for properties uploading volumes daily.** It gets categorically worse for a property like **Mohonk, which only uploads its volumes (covers) once a week** — for those properties, the in-week dashboard view will **never** be accurate, not just "less accurate than ideal." Daily covers would narrow the gap but wouldn't eliminate it; the underlying multi-feed-timing issue is inherent to how the dashboard is built, not something any one property's data-entry cadence can fully fix.
+
+**How to apply:** when a client raises "the dashboard looks wrong mid-week" as a defect report, the first move is this standing explanation — check whether it's the expected in-week unreliability (near-universal) before escalating as a property-specific bug. Genuine property-specific bugs (e.g., a truly broken mapping) still get escalated on their own merits; this teaching point explains the *baseline* unreliability every property should expect, not an excuse to wave off real findings.
+
+**Internal gap, flagged by Pete 9/18/26: this isn't just client-facing guidance Unifocus's own teams should already share.** The reporting/dashboard developers, the integration team, and consultants themselves apparently aren't consistently communicating about this well-understood structural limitation internally — each surfaces the "dashboard looks wrong" symptom fresh rather than starting from the shared baseline understanding above. Worth raising directly when talking to product (e.g., the Chris call re: WLP/Mohonk dashboard feedback) — the ask isn't just "improve accuracy," it's "make sure reporting/dashboard/integration/consulting are aligned on what's structurally expected vs. genuinely broken," so this doesn't keep getting rediscovered client-by-client as if it were new.
+
+**Confirmed from Unifocus Product Management itself, 9/18/26 (Kris Ballew, replying to Susanna's Mohonk recap):** Kris independently articulated essentially the same rule — the Home Screen only displays Actual/Standard Hours calculated elsewhere, doesn't update in real time for third-party-timekeeping clients like Mohonk (ADP), and is meant for reviewing the *previous* day's finalized data, not the current in-progress day. His framing: *"If managers are opening the Home Screen before that point, we should set the same expectation we would for someone running the Labor Effectiveness Report or Weekly Labor Summary too early."* This confirms the internal gap isn't a knowledge gap — Product clearly understands and can articulate this — it's a **proactive-communication** gap: this understanding isn't reaching consultants/clients before confusion happens, only after someone escalates. Full detail: `pws/clients/mohonk/2026-09-17_bron-followup-reconciliation-dashboard-contract.md`.
 
 ---
 

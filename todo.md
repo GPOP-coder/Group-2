@@ -1,8 +1,12 @@
 # Pete Castellano — To Do
 
-Last updated: 2026-08-31
+Last updated: 2026-09-17
 
 ---
+
+## Today — 2026-09-17
+
+- [ ] **The Moran status letter — re-read before sending.** Finalized 9/16–9/17/26 at 🟡 Caution/Improved after a same-day correction: root cause turned out to be a universal Sub-Only import defect (not the narrower per-job read from Unifocus support's 9/14 reply), which Pete personally fixed across all 87 hourly employees same-day. Word doc updated and ready at `MakeReady\Moran\Status Letter\Unifocus Status Letter - Makeready Moran 2026-09-05.docx`; markdown source at `pws/clients/makeready/the-moran/2026-09-05_status-letter-client-ready.md`. Send to Alain, cc pm@unifocus.com + personal emails, once reviewed.
 
 ## Today — 2026-08-31
 

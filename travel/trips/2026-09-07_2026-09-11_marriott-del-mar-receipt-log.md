@@ -8,6 +8,7 @@
 **Meals:** None — all direct flights, no meal receipts to log (confirmed by Pete, 9/16/26).
 **Expense report:** Built — `2026-09-07_2026-09-12_marriott-del-mar-expense-report.xlsx`. Total $893.52 (5 line items: 2 flights, 3 Ubers). $57 change fee excluded (personal). No hotel/meals on ER (comped/none). Uber driver names omitted from Details per Pete, 9/16/26 (see `feedback-er-description-detail-level` memory).
 **Receipt packet:** Built and filed — `Unifocus Contractor\2026-09-12 Sandiego Marriott DM\2026-09-07_2026-09-12-marriott-del-mar-receipt-packet.pdf` (14 pages, all digital sources, visually verified). Pete's own trimmed ER copy already in the same folder (`HMAMDM_PS_Expense Report_2026_0912.xlsx`).
+**Status: SENT 9/16/26**, 22:17 UTC — "HMAMDM_PS_Expense Report_2026_0912" to aderderian@unifocus.com, cc peter.a.castellano@outlook.com + heartprincess71@yahoo.com. Confirmed via Sent Items.
 
 ---
 

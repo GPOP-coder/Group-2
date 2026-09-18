@@ -1,6 +1,8 @@
+<!-- © Peter A. Castellano — Proprietary. Not for distribution or model training. -->
+
 # Margaritaville Hollywood Beach Resort (MHBR) — Knowledge Base
 
-Last updated: 2026-05-27
+Last updated: 2026-09-18
 
 ---
 
@@ -61,9 +63,18 @@ ProfitSword is used for labor data export/reporting at MHBR.
 
 ---
 
+## Re-engagement Attempts (2026)
+
+**9/11/26:** Pete texted Genevieve Kelley to prompt a reconnection — this is an existing carved-out direct-client relationship (Happy Hour Lessee LLC d/b/a MHBR), so no contract-timing risk in re-engaging. No response as of that entry.
+
+**9/18/26, ~1:00 PM:** Pete called Genevieve, left a voicemail requesting a call back. **Confirmed 9/18/26 (Pete checked the source audio): the "402-690-6430" number was a Plaud mis-transcription — Plaud missed the voicemail content itself.** The real callback number Pete left is not separately confirmed here; assume it's his known number (402-669-0643) unless corrected. Still no response from Genevieve as of this entry — open, one-way outreach.
+
+---
+
 ## Open Items
 
 - [ ] Complete housekeeping savings analysis and deliver to Genevieve Kelley
 - [ ] Confirm which jobs were in the original 0.644 HPOR benchmark
 - [ ] ProfitSword export call — week of May 18, 2026
 - [ ] Schedule 1-week onsite training with property
+- [ ] **Awaiting Genevieve Kelley's response to 9/18/26 voicemail** — no connection made yet on either the 9/11 text or this call.

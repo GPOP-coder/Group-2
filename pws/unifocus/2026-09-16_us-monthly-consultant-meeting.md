@@ -7,7 +7,7 @@
 **Attendees (TeamsMaestro):** Akram Chahin, Alain Derderian, Itsaso Burgos, Pete Castellano, Daniel Rebeille-Borgella, John Grech, Sophie Ponce, Taylor Walton.
 **Invited, didn't attend:** Daniel Guerrero, Elliott Welburn, Dina Abushokka, Shilpa Bhando, Stephen Carrell.
 
-**Speaker mapping (inferred, not confirmed):** Plaud's "Speaker 1" is almost certainly **Alain Derderian** — both summaries independently place the same person on-site in Jackson Hole with Dina, then PTO in Dallas. Speaker 4 handles Scottsdale and is a likely audit-load candidate; not confidently identified (Akram or John Grech, unconfirmed).
+**Speaker mapping — confirmed 9/17/26 via a second, name-resolved Plaud export:** Speaker 1 = **Alain Derderian**; Speaker 4 = **John Grech** (handles Scottsdale, reported successful Smartsheet use there, likely to carry a large share of the audit load). Full attendee list per this export: Alain Derderian, Akram Chahin, Taylor Walton, John Grech.
 
 **Note:** Ralph Varble (former CCO, resigned effective 8/31/26) is absent from both TeamsMaestro attendee lists — first monthly consultant meeting since his departure.
 
@@ -50,7 +50,9 @@ So the split is: **Alain gets the bulk of Ralph's book; Shilpa keeps only Jumeir
 - Labor standards: shift time must match standard time; naming consistency (case, abbreviations); shift order by start time; use master jobs/KBIs for multi-hotel clients (explicitly named: **H.M. Alpha, Rockbridge/MakeReady** — both Pete's active client groups); consistent KBI numbering/name formats; seasonality without gaps/overlaps; **variable standards recommended when more than 3 FTEs per shift**; step standards designed without gaps.
 - **Some audits have already gone out with no consultant response** — explicit ask to check inboxes and respond.
 
-**Status:** Every database will get an audit eventually. Assignments TBD; Speaker 4 (unconfirmed identity) likely to handle a large share as time allows. To be added to the consultant checklist: "Request PM audit" and "Complete audit corrections."
+**Status:** Every database will get an audit eventually. Assignments TBD; John Grech likely to handle a large share as time allows. To be added to the consultant checklist: "Request PM audit" and "Complete audit corrections."
+
+**Full methodology mined from the raw transcript, 9/17/26 — John walked through the actual audit tool live, and traced several conventions (KBI naming/numbering, the >3-FTE variable-standard rule) directly back to Pete's own work from their Hilton days together.** Real, reusable reference material — logged in full at [Unifocus KB § Database Audit Methodology](kb.md#database-audit-methodology-john-grech-standardizedreintroduced-91626), not duplicated here.
 
 ---
 
@@ -83,7 +85,7 @@ Problem: properties have been cloned from already-manipulated versions, causing 
 - Real project checklists exist (Nashville, Scottsdale named specifically) in the "HM Alpha" folder — most are still blank.
 - Goal: PMs track progress via notes/attachments (e.g., attach weekly call scorecards — Scottsdale specifically called out).
 - Smartsheet is a bridge tool — plan is to eventually migrate to a new PM/onboarding tool with client portals and per-task time tracking.
-- Speaker 4 reported successful use on Scottsdale; accountability will be enforced going forward — team members must backfill and keep updating.
+- John Grech reported successful use on Scottsdale; accountability will be enforced going forward — team members must backfill and keep updating.
 
 **Action for Pete:** if any of his HM Alpha/Makeready properties have a Smartsheet checklist already created, backfill it and keep it current going forward — this was called out as an enforced expectation, not optional.
 

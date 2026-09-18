@@ -7,7 +7,7 @@
 **Brand:** DoubleTree (Hilton)
 **EMS:** Delphi
 **Trainer:** Pete Castellano
-**Training week:** Oct 12–14, 2026 (per HM Alpha kb.md — Pete training, replacing Akram Chahin; config by Steve Carrell week of Sept 28)
+**Training week:** Oct 12–14, 2026 on the resource calendar (per HM Alpha kb.md — Pete training, replacing Akram Chahin; config by Steve Carrell week of Sept 28) — **⚠️ length questioned by Pete 9/18/26, not yet confirmed final.** See [2026-09-18 Schedule Length Question](2026-09-18_schedule-length-question-nicole-mendez.md).
 **Source:** Property org roster, provided 8/20/26
 
 ---

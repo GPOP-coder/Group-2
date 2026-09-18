@@ -6,6 +6,13 @@
 
 **Status: Sent to Alain Derderian 9/11/26, delayed delivery scheduled for Sat 9/12/26, 7:00 AM PT.** Sent as the Word doc (`OneDrive\...\MakeReady\Moran\Status Letter\Unifocus Status Letter - Makeready Moran 2026-09-05.docx`), matching this markdown exactly as of the final "Other" section reorder. Email also asked Alain whether he wants to continue Ralph's old practice of reviewing status letters before distribution — see `project_unifocus-post-ralph-relationships` memory.
 
+**Alain confirmed 9/15/26: yes, continue sending status letters to him — and cc `pm@unifocus.com` on these going forward, not just him personally.** He also flagged that the letter needs updating to reflect the 9/14 ticket comment (letter's last note was 9/11) before it goes back out.
+
+**Status/Trend, final as of 9/17/26: 🟡 Caution | Improved.** This went through two revisions the same evening as the story developed:
+1. First pass (9/16, based on Nguon's 9/14 comment alone): 🟡 Caution/Improved — treated the three examples as isolated, mostly-explained property-side gaps.
+2. Corrected (9/16, once Pete found the real scope): reverted to 🟠 At Risk/Unchanged — the Sub-Only issue turned out to be a **universal import defect** (every primary job Yes, every secondary job No, reversed) affecting most of the hourly workforce, and the 9/11 fill-rate "improvement" was confirmed to be placeholder employees only, not real progress.
+3. **Final (9/16 evening):** Pete personally corrected the Sub-Only flag across all 87 hourly employees (including the 47 contract-labor placeholders) the same day he found it — a completed, property-wide fix, not just a diagnosis. 🟡 Caution/Improved reflects that real corrective action, while stopping short of On Target since it's not yet validated against Friday's automated run. See "Update, 9/16/26" below for the full story — supersedes the "Update, 9/14/26" paragraph's narrower framing.
+
 **Editorial notes (do not paste into the form):**
 - **Status/Trend confirmed by Pete 9/8/26: 🟡 Caution** (changed from the 9/5 first-pass 🔴 At Risk call) — reflects both Friday's partial auto-schedule improvement and the additional ground covered on Friday afternoon's follow-up call (further evidence ruling out employee availability as the cause, a distinct schedule-quality gap found and assigned an owner, and the contract-labor placeholder walkthrough delivered).
 - **Left out as internal-only, not client-facing status:** Steve Carrell's read on the property's/Makeready's broader enthusiasm or commitment toward Unifocus, and any related speculation about the wider Makeready/Unifocus relationship; the internal email-delivery mail-profile mixup on 9/3; storm context beyond its two concrete operational effects; and the play-by-play of which support rep proposed which wrong theory — condensed to what was actually found and what's still needed from Unifocus.
@@ -27,7 +34,7 @@
 | **Go-Live Date** | This week (and ongoing) — the property's automated weekly schedule-generation cycle is now correctly running on its intended Thursday/Friday timing; the first full run against a live planning week (9/13-9/19) fired Friday 9/4 and produced a partial, still-incomplete result — see Project Status. |
 | **Distribution List** | The Moran / Makeready: Robbie Nasser (Area Managing Director), Michelle Lewis (Corp. Dir. Rooms & Guest Experience), Monica Brock (DOF). Unifocus: Steve Carrell, Taylor Walton, John Grech, Alain Derderian, Shilpa Bhando (VP Operations). |
 
-**Status: 🟠 At Risk | Since Previous Update: Deteriorated**
+**Status: 🟡 Caution | Since Previous Update: Improved**
 
 **Project Status:** Training for this visit is fully delivered, minus a few administrative topics to cover with Monica Brock. 
 
@@ -91,6 +98,7 @@ No formal budget-vs-standards pass has been completed for this property. The bud
 - Schedule a remote or return-visit follow-up to close the Admin curriculum gap: Forecast Structure and Work Rules.
 - Schedule a dedicated F&B forecasting follow-up regarding manual Action Stations, and Bartender KBIs with whoever owns that role.
 - Department managers to complete employee Employee Maintenance especially Assignment settings for Room Attendant, Houseperson, and similar jobs.  This was found to be blocking those specific jobs' schedules from populating; a manager task, not a Unifocus fix.
+- **Updated 9/16/26 — the root cause was broader than first understood and has been corrected:** every hourly employee's primary job was imported with Sub Only = Yes (blocking auto-scheduling) and secondary jobs with Sub Only = No — reversed property-wide, not isolated to Laundry Attendant/Allegory Bar. Pete corrected this across all 87 hourly employees (including the 47 contract-labor placeholders) same-day. Remaining property tasks: complete Employee Maintenance (Scheduling tab, Assignments tab) for hourly staff department-wide; add Assignments for the placeholder employees in Room Attendant/Houseperson (Standard + Daylight Savings) and Cooks if the property wants them to auto-schedule.
 
 **Configuration**
 - Confirm and correct the ADP job/department-code mismatch issues found during the visit; apply Makeready corporate payroll's secondary job coding list as indicated by their own corporate investigation.
@@ -106,12 +114,37 @@ No formal budget-vs-standards pass has been completed for this property. The bud
 - Establish a consistent owner for who closes out banquet BEOs in Delphi so the interface provides actual cover counts and banquet labor standards receive credit for labor actually worked.
 
 **Other**
-- **Resolve the Generate Schedules issues — the critical path item for this engagement.**  Unifocus support now has specific, evidence-based comparisons to examine.
-- Confirm a resolution date for the Generate Schedules defect and validate it against a full live weekly cycle before treating go-live as complete.
+- **Validate the Sub Only fix against Friday's automated run** — the critical path item now that the correction is applied. A substantial fill-rate jump would confirm the fix; anything short of that means a residual cause remains.
+- Confirm whether the next Employee Reconcile import reverses the Sub Only correction, and whether newly imported hourly employees default to the same incorrect setting — both need to hold for this to be durable, not a one-time fix.
+- Confirm a resolution date for UNIFOCUS-261575 and validate against a full live weekly cycle before treating go-live as complete.
 
 ---
 
 **Update, 9/11/26:** This week's automated run showed real, substantial improvement over the 9/4 baseline: shift fill rate rose from approximately 7% to approximately 39%, and the scheduled-vs-projected hours variance improved from -90% to -62%. Contract-labor placeholders are contributing to the fill rate as well. This progress follows several configuration corrections made this week. Whether these corrections are the cause of the improvement, or whether other factors also contributed, is not yet confirmed. UNIFOCUS-261575 remains open with Unifocus support as of this writing. We view this as encouraging progress, not confirmation that the underlying issue is resolved.
+
+**Update, 9/14/26 (superseded by 9/16 below — kept for the record):** Unifocus support (Nguon Zhong) responded on UNIFOCUS-261575 with findings on the three specific examples flagged as unexplained defect evidence in the 9/11 update:
+- **Public Area Attendant (Housekeeping):** confirmed correct — the 14 hours the standard calls for did generate; two days without 3–9pm coverage were correctly suppressed by a KBI volume threshold. Not a defect.
+- **Laundry Attendant (Housekeeping):** attributed to employees not yet added to a required Assignment.
+- **Allegory Bar (all jobs):** attributed to those employees' jobs being flagged Sub Only = Yes.
+
+This reply was accurate for Allegory Bar as far as it went, but understated the actual scope — see below.
+
+**Update, 9/16/26 — Root Cause Identified as a Universal Import Defect, and Corrected Property-Wide Same Day:**
+
+Pete's own investigation found that the Sub Only issue wasn't specific to Allegory Bar — it was a **property-wide import defect affecting most of the hourly workforce**: on initial import, every employee's **primary/home job was set Sub Only = Yes** (blocking auto-scheduling) and every **secondary job was set Sub Only = No** — the reverse of correct. Since most hourly employees hold only their one primary job, this single reversed setting explains the great majority of the property's unfilled shifts, not just the three examples given to support on 9/8. Confirmed with a concrete example: Room Attendant Mavire Villar's actual job (Room Attendant, her real assignment) was flagged Sub Only = Yes, while two placeholder-rate jobs she doesn't work (Houseperson, Attendant Laundry) were flagged No.
+
+**This also means the 9/11 fill-rate improvement (7% → 39%) reported above was not real progress on the underlying defect** — it came entirely from newly created contract-labor placeholder employees added that week, not from any actual fix. Regular-employee auto-scheduling remained exactly as broken through 9/16 as it was on 8/31.
+
+**Pete corrected this the same day it was found:** reviewed all 87 hourly employees, including the 47 contract-labor placeholders, and set every regular Moran hourly employee's primary job to Sub Only = No and secondary jobs to Sub Only = Yes. This is a completed, property-wide fix, not a pending recommendation.
+
+**Three things being watched before calling this resolved:**
+1. Whether Friday's automated run shows a substantial jump in fill rate as a direct result of this fix.
+2. Whether the next morning's Employee Reconcile import reverses the correction.
+3. Whether newly imported hourly employees default to the same incorrect Sub Only = Yes setting going forward — if so, this will keep recurring with every new hire.
+
+**Two related items still owed by the property, separate from this fix:**
+1. Nearly every department still hasn't completed Employee Maintenance (Scheduling tab, and Assignments tab where required) for their hourly staff — needed regardless of the Sub Only correction.
+2. The 47 contract-labor placeholders still need Assignments added if the property wants them to auto-schedule (specifically Room Attendant/Houseperson — Standard and Daylight Savings Assignments — and Cooks).
 
 
 

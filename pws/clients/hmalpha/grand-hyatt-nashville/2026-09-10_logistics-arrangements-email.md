@@ -58,12 +58,20 @@ Senior Workforce Performance Consultant
 ## Open Items
 
 - [x] **Outbound flight booked 9/10/26:** Southwest CNTHN2, Sun 9/27, OMA-MDW-BNA, departs OMA 6:20 PM, arrives BNA 10:10 PM. $293.20 (Visa ••••2674).
-- [ ] Confirm Cc — Devon Peters / Nicole Mendez, matching Del Mar/WLP precedent
+- [x] Confirm Cc — Devon Peters / Nicole Mendez, matching Del Mar/WLP precedent — confirmed via the actual 9/14–9/16 room-logistics thread, both cc'd throughout.
 - [x] **Director of Sales identified 9/10/26:** Lallie Lupton, lallie.lupton@hyatt.com — from the full 36-person Unifocus user list Pete pulled and saved to [contacts.md](contacts.md). Full suggested-invitee list for all three optional sessions now in contacts.md.
-- [ ] Book Pete's return flight: BNA → OMA, Friday evening 10/2 (Friday is now a full office-hours day per the resource calendar, not a travel day)
-- [ ] Confirm comp room / F&B arrangements with the property
+- [x] **Return flight booked 9/14/26:** Southwest BM7S76, Fri 10/2, BNA-MCO-OMA (WN3343/WN4804), departs BNA 4:35 PM, arrives OMA 10:40 PM. $343.20 (Visa ••••2674). See CLAUDE.md Upcoming Travel.
+- [x] **Comp room / F&B confirmed via room-logistics thread, 9/14–9/16/26** — see "Room Dates — Resolved" below.
 - [ ] Confirm meeting space availability for the week
-- [ ] **Pack for Nashville before leaving for the cruise (9/19)** — a separate bag packed alongside the cruise luggage, not repacked during the one-day home stop between Sat 9/26 landing and Sunday evening departure.
+- [ ] **⚠️ Training schedule possibly changing — call today, 9/17/26, 4:30 PM CT.** Rachael asked to move Admin Training from Monday 9/28 to Wednesday 9/30 (Monday's too compressed for the required admins). Pete and Rachael are working out details live rather than over email. See [Training Outline Email](2026-09-10_training-outline-email.md) open items for status.
+- [ ] **⚠️ Reservation confirmation received 10:41 AM, 9/17/26 (confirmation #8825105) shows checkout Wednesday, 9/30, 11:00 AM — only 3 nights (9/27–9/29), not through the planned Friday 10/2 departure.** Sent before the 4:30 PM call, likely an interim/partial update tied to the schedule discussion above rather than the final state. **Confirm the room gets extended back through Friday 10/2 once the Admin Training date question is resolved** — don't let this quietly stand as the final reservation.
+- [x] **Pack for Nashville before leaving for the cruise (9/19)** — reminder retained; not yet confirmed done.
+
+## Room Dates — Resolved (9/16/26)
+
+Rachael Haines-Bennett (Regional Director of Finance, Grand Hyatt Nashville — note corrected email below) flagged the property is **oversold during the training week** and pushed for room dates (9/14, follow-up 9/15). Alain Derderian answered on Pete's behalf same day (9/15, "urgent") stating Pete needs a room **9/28–10/2** and is the only consultant coming — but this undercounted by one night. **Pete corrected directly, 9/16/26:** he's flying in *Sunday* 9/27 (late arrival, per the CNTHN2 outbound flight) and needs the room that night too — so the actual room block is **Sunday 9/27 through Friday 10/2 departure (evening)**, not starting Monday 9/28. Confirmed to Rachael, cc'd to the full distribution (Alain, Devon Peters, Nicole Mendez, Matthew Schupbach, Steve Carrell, Taylor Walton, Susanna Briggs).
+
+**Contact correction:** Rachael's actual working email is **rachael.haines-bennett@hyatt.com** (not rachael.haines@hyatt.com as originally listed in contacts.md, sourced from Nicole Mendez's 7/17/26 contact sheet) — her replies consistently come from the hyphenated address. Title also more precisely "Regional Director of Finance," not just "Director of Finance." Update contacts.md to match.
 
 ---
 
