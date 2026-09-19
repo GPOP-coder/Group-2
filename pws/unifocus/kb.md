@@ -1,0 +1,376 @@
+# Unifocus — Knowledge Base
+
+Last updated: 2026-09-02
+
+---
+
+## Support Ticket Conventions — On-Site/Urgent Tickets
+
+**Per Alain Derderian's group-wide guidance, relayed to Pete 8/31/26 (7:51 PM):** Unifocus's escalation automations key off subject-line format, so on-site/urgent tickets need a consistent subject line across the whole consultant group to trigger escalation reliably.
+
+**Required subject line format:**
+```
+Consultant On-Site - Hotel Name - Subject Description
+```
+
+**Avoid:** the word "CLIENT" and special characters like `!`, `*`, `"` — these can throw off the escalation automation rather than helping.
+
+**Examples (from Alain's email):**
+- `Consultant On-Site - Yosemite Resorts - Receiving Ajax Error when attempting to add Labor Standards`
+- `Consultant On-Site - Eau Palm Beach Resort - All Clients Labor Report Error`
+- `Consultant On-Site - JA Resorts - Labor Dashboard keeps disappearing - JA Database - Ocean View`
+
+Alain adds himself as a Watcher to any ticket meeting escalation criteria under this format, to help push it along.
+
+**Note:** The Moran's UNIFOCUS-261575 (filed 8/31/26, subject "Schedules Not Generating - Consultant on property") predates this guidance and doesn't follow the format — not worth re-filing, but every urgent/on-site ticket going forward should use this subject convention.
+
+---
+
+## Platform Overview
+
+Unifocus is a workforce management platform. PWS's consulting methodology is grounded in Unifocus architecture and best practices. All client work involving Unifocus is proprietary — not for model training.
+
+**Company facts (per standard kickoff deck, confirmed 2026-07-03):** 42 years of consulting; software line since 1999 (27 years). Over 3,000 customers in 114 countries. HQ Dallas, TX; other offices in London, Singapore, Shanghai, Delhi. Hospitality-only focus. 4 core products: Time & Attendance, **Planning & Scheduling** (PWS's engagement area), Operations Suite, Survey Solutions.
+
+**Kickoff/onboarding content:** See [Unifocus Implementation Kickoff Guide](../kb/unifocus-implementation-kickoff-guide.md) for the full client-facing kickoff framework (implementation phases, conceptual Forecast→Standards→Schedule model, weekly labor cycle, success factors, post-go-live adoption practices).
+
+---
+
+## Core Concepts
+
+### Implementation as a Capstone System — Why ADP/HR Miscoding Always Surfaces
+
+**Pete's observation, 9/2/26 (Moran implementation, generalized from a pattern seen across clients):** Unifocus is a **capstone system** — it sits on top of and depends on the accuracy of every upstream system feeding it (ADP job/department codes, Work Records, PMS, POS). Because the auto-scheduler and labor standards require exact, correct job coding to function, implementing Unifocus reliably **shines a light on long-standing silent data-quality problems** that existed for years without consequence — nobody noticed or cared because nothing downstream depended on the data being right.
+
+**Why this matters:** these findings are not Unifocus bugs and not implementation mistakes — they're pre-existing property-side data debt that the implementation process is what finally makes visible and consequential. Recurring examples across engagements: employees coded to a job they no longer actually work (valet parkers who moved to Bell years ago, still coded as valet — see The Moran, 9/2/26), missing secondary job codes causing real payroll issues nobody had caught (Jesse Sandberg working Night Auditor with no differential pay code, Moran), stray/mismatched TK and Reconcile codes from manual Paychex edits drifting out of exact-match format (WLP, 8/27/26), unexplained bulk attributes with no clear origin (Mohonk's "Work Class 12" mystery). **How to apply:** frame these findings to clients as expected and normal ("this is common, it's not unusual" — Pete's own words), not as a Unifocus problem or a property failure. It's a natural, valuable byproduct of implementation, not a sign something's going wrong.
+
+### Labor Standards — Purpose
+Labor standards **model the number of hours required to run an operation** — not the number of hours to schedule. Schedulers must understand this distinction. The schedule is a product of the standard, but the manager controls it once drafted.
+
+### Daily Hours vs. Units/Shift
+Two separate settings within a labor standard. Always evaluate independently.
+
+| Setting | What it controls |
+|---|---|
+| **Daily Hours** | Total hours the standard says the outlet needs to operate |
+| **Units/Shift** | Volume-driven metric (covers, transactions, etc.) that drives incremental staffing |
+
+**Diagnosis sequence:** Always examine Daily Hours first before looking at Units/Shift.
+
+---
+
+### Partial Shifts / Short Shifts
+
+**What happens:** When Daily Hours do not divide evenly by the shift length, the remainder generates a short shift. There is no "partial shift feature" to enable or disable — this is inherent system behavior.
+
+**Floor:** The minimum shift length setting determines the shortest shift the system will generate. If the remainder of hours meets or exceeds that minimum, a short shift is scheduled.
+
+**Example:** A 2.5-hour minimum shift length with a remainder triggering that threshold produces a 5:15–7:45pm shift in a dinner operation.
+
+**Fix:** Set Daily Hours to a clean multiple of the **actual** shift length — verify real shift duration, not just the labeled duration in the standard. No remainder = no short shift.
+
+**Client guidance:** Explain outcomes and actions, not mechanics. Tell the client what to expect and what to do — not how the calculation works.
+
+**Important distinction:**
+- "Note the issue and move on" applies when the standard is correctly configured and a rare edge case creates an occasional short shift
+- When short shifts are systematic (recurring every week on the same shift), the standard itself is misconfigured — diagnose and fix the standard, don't tell the client to absorb it
+
+---
+
+### Shift Length Accuracy
+
+- Always verify the **actual** shift duration against the labeled shift length in the standard
+- A shift labeled 4.5 hours that actually runs 5 hours (e.g., 5:15–10:15pm) will produce systematic short shifts even when Daily Hours appear to be a clean multiple
+- Confirm actual start/end times with the client before diagnosing Daily Hours math
+- Common source of error: historical shift lengths that changed operationally but were never updated in the standard
+
+---
+
+### Shift Generation Sequence
+
+Unifocus generates shifts in this order. Understanding the sequence is essential for diagnosing short shift and rounding problems.
+
+1. **Hours first** — The standard calculates total hours required (Daily Hours + volume-driven Units/Shift)
+2. **Full shifts** — System fills as many complete shifts as the hours allow
+3. **Remainder** — Any leftover hours are evaluated against rounding rules
+4. **Rounding Threshold Below One** — If the remainder is below this value, it is absorbed (no additional shift generated). Set to 0.00 = nothing is absorbed; any remainder triggers a shift.
+5. **Rounding Threshold Above One** — If the remainder exceeds this value, it rounds up to a full shift
+6. **Min/Max Shift Length** — If a new shift is created from the remainder, it must fall within these bounds. If the remainder is below the minimum, no shift is created. If it meets or exceeds the minimum, a short shift appears.
+
+**Key insight:** A leftover hour might become a 5-hour shift (if rounding rounds up) or disappear entirely (if absorbed) or produce a short shift (if it hits the minimum floor) — depending entirely on these settings working together.
+
+**Mohonk Main Dining example:** Rounding Threshold Below One = 0.00 means nothing is absorbed. Any remainder creates a shift. Min shift length = 2.5 hours. So even a small remainder produces a visible short shift.
+
+---
+
+### Schedule Generation Sequence — Standards → Shifts → Auto-Scheduler
+
+*Captured 2026-07-03, from Mohonk beverage jobs troubleshooting.*
+
+Three distinct steps, in order. Each depends on the one before it — a failure anywhere upstream will look identical to a failure at the final step unless you check each stage independently.
+
+1. **Forecast Volumes** — the demand input (covers, transactions, etc.) that feeds the standard.
+2. **Generate Projected Hours** — applies the labor standard to the forecast and **creates shifts**. This is where "standard hours" live.
+3. **Generate Schedules** — activates the **auto-scheduler**, which **fills** the shifts created in step 2 with employees, according to the settings in **Employee Maintenance** (controlled by the manager).
+
+**Critical misconception:** The output looks like the auto-scheduler "schedules employees." It does not. **It fills shifts that already exist.** If no shift was created in step 2, there is nothing for the auto-scheduler to fill in step 3 — and the symptom presents identically to an auto-scheduler failure.
+
+**Troubleshooting order — always work backwards from the end result:**
+1. Check the job in the auto-scheduler. **Pick the correct week first** — if the reporting party didn't specify one, don't assume; check the current/upcoming week ending (WE) and say so explicitly when documenting. Are there **unassigned Open Shifts**?
+   - **Yes** → shifts exist, meaning steps 1–2 worked (forecast and standard hours generated correctly). The problem is downstream of shift creation — but don't jump straight to Employee Maintenance. See step 2.
+   - **No** → shifts were never created. Stop looking at the auto-scheduler entirely — the problem is upstream, in Generate Projected Hours / the standard itself.
+2. **Before diagnosing Employee Maintenance, check the Generate Schedules task itself (Task Scheduler → the task's Labor Structure / job selection).** Confirmed failure mode (Mohonk, 2026-07-03): the task can have a Labor Structure selection that **silently excludes specific jobs**. Shifts for those jobs generate correctly and sit as unassigned Open Shifts forever — not because no eligible employee existed, but because the auto-scheduler task never ran against that job at all. This looks identical to an Employee Maintenance eligibility problem from the schedule screen alone; the only way to catch it is to open the task's job selection list and check whether the affected job is actually checked.
+3. Only after confirming the job is in-scope for the Generate Schedules task should you move to true Employee Maintenance diagnosis (availability, qualifications, scheduling rules).
+
+**Why this matters:** "Job X isn't auto-scheduling" is a description of the end result, not a diagnosis. It conflates at least three independent failure points: shift generation (step 2), task scope/configuration (which jobs the Generate Schedules task even considers), and shift filling (actual employee eligibility). Always work backwards through all three before concluding it's an Employee Maintenance issue.
+
+**Related pattern — Task Scheduler as a recurring root cause:** [UNIFOCUS-247559](https://ufjira.atlassian.net/browse/UNIFOCUS-247559) (Mohonk Founders outlet, Generate Projected Hours) was resolved by creating a new task and disabling the old one. The Mohonk beverage jobs case (2026-07-03) is a different Task Scheduler failure mode on the Generate Schedules task — not a stale/duplicate task, but an incomplete job selection within the task's configuration. Both point to the same lesson: when a job's numbers look right but its output is missing, check the **task configuration itself**, not just the standard or the schedule screen.
+
+---
+
+### Day-of-Week Shift Differentiation
+
+- Unifocus allows separate shift configurations by day of week within the same job
+- A day-specific shift with a different length than the rest of the week creates a de facto split standard
+- Each day's Daily Hours must be calibrated independently to that day's shift length
+- Misalignment between shift length and Daily Hours multiples is a common source of short shifts
+- Always confirm whether day-of-week differences are intentional before correcting
+
+---
+
+### Jobs and Assignments
+
+**Jobs** are the base labor classification in Unifocus (e.g., Server, Cook, Bartender).
+
+**Assignments** (sub-jobs) allow different labor standards to exist under a single job code. Use cases:
+- **Kitchen stations:** TA tracks the job (Cook), but standards are by station (Grill, Fryer, Salads, Prep)
+- **Seasonality:** Separate assignments for Summer vs. Winter with different hours of operation and effective dates
+- Standards can live on the job, the assignment, or both
+
+**Effective dates** apply to both jobs and assignments. This enables seasonal configuration without creating new job codes.
+
+**Permanent limitation:** Jobs and assignments cannot be deleted — only deactivated. Deactivated items can linger and create confusion in the interface. There is no tool to make them disappear completely.
+
+**Pete's philosophy on assignments:**
+- Do NOT use job codes or assignments to indicate time of day (AM vs. PM) — there are better tools for that within the standard itself
+- Overuse of assignments creates configuration debt that is painful to unwind
+- When assignments are misused, the correct fix is deactivation and migration of standards to the appropriate department/job level
+
+---
+
+### Rounding — Purpose and Limits
+
+Rounding settings (Threshold Below One, Threshold Above One) govern how leftover hours after full shifts are handled. They are **not** the right tool for preventing partial shifts caused by misconfigured standards.
+
+- Changing rounding to hide a short-shift symptom creates downstream problems elsewhere
+- The correct fix for systematic short shifts is always to correct the standard itself (Daily Hours as a clean multiple of actual shift length)
+- Rounding is a fine-tuning tool, not a diagnostic workaround
+
+---
+
+## Database Audit Methodology (John Grech, standardized/reintroduced 9/16/26)
+
+*Captured from the raw transcript of the 9/16/26 US Monthly Consultant Meeting — John walked the full team (including two newer consultants, Itzaso and Akram) through Unifocus's database-audit tool and process live. Several of the conventions John taught trace directly back to Pete's own work — noted inline where John said so explicitly. Worth keeping as reference: this is the same institutional-knowledge-transfer dynamic behind the "signature hallmarks" tracking goal in CLAUDE.md's Training Methodology section.*
+
+### The Process
+
+1. Consultant finishes implementation, tells the PM it's ready.
+2. PM assigns an auditor (a different set of eyes — explicitly **not** a "you did this wrong" exercise, John's framing).
+3. Auditor works through a structured worksheet: a summary page plus tabs for property config, task scheduler, revenue centers, KBIs, mapping, labor structure, labor standards.
+4. Auditor sends findings to the consultant + PM with a due date.
+5. **The auditor does not make corrections — "they're your eyes, not your hands."** The original consultant fixes their own work and confirms back.
+
+**Time expectations:** first audit ever done, up to half a day. Typical hotel, 1–2 hours. Complex hotel, up to half a day. Once familiar with the tool, a small hotel should take about an hour.
+
+**Tool caveat:** the audit worksheet imports reports from the *current* software — if Clara changes the underlying reporting, this whole process may need rework. Not urgent, just a known dependency.
+
+### What an Auditor Actually Checks
+
+- **Revenue Centers:** minimum volume should always be zero. Units must be set correctly per outlet (e.g., a restaurant should be set to **covers**, not left default) — this specifically matters for Makeready/Rockbridge corporate reporting, which depends on it.
+- **KBIs:** an **input KBI must be flagged "Primary" or it won't show up in Budgeter at all** — easy-to-miss, high-consequence setting. Statistical KBIs should be set up for trend-adjusted smoothing (the standard forecasting method in current use).
+- **Banquet mapping — the single highest-value thing to check:** confirm every function/meal type that's actually being sent is actually mapped. John's live example from an unaudited property: **banquet breakfast covers were mapped to lunch** — silently wrong the entire time the property had been live, only caught by happenstance during this first-ever audit. This is the concrete case for why every database eventually needs one, not just new ones.
+- **Forecast KBI mapping example, also live:** a hotel's overnight room service wasn't included in the Total IRD Covers calculation — created a false picture of overnight in-room-dining volume.
+- **Labor Standards — the most common real mistake, repeated for emphasis:** **shift time and standard time not matching.** A 6-hour shift paired with an 8-hour standard silently overpays every shift. John's practice: highlight the specific tab/row on the summary page so the consultant can go straight to the fix.
+
+### Consistency Rules — several explicitly traced back to Pete
+
+- **Case and naming consistency across a multi-property client** (e.g., all-caps vs. not) — matters more the more properties share one HMAlpha-style database; looks unprofessional otherwise.
+- **Keep job names short** — names that are too long get clipped in reports and in the scheduler.
+- **Shift time format:** either the system default or military time — pick one per multi-hotel client and stick to it.
+- **Order shifts by start time** — don't let an overnight shift sit at the top of the list.
+- **Master jobs and master KBIs are required for multi-hotel clients** (explicitly named: HMAlpha, Rockbridge/Makeready) — without them, corporate rollup reports come out wrong. A named person on Unifocus's side builds these corporate reports for Makeready/Rockbridge and is directly affected when master jobs are missing.
+- **KBI naming/numbering convention — John's own words: "This goes back — Pete is the guy that kind of initiated this way back when, as far as the way we name things."** Plan your KBI layout before building (matches the existing Banquet KBI Numbering Pattern section below — same origin). Example: if breakfast is KBI-series 11 at one outlet, it should be 11 everywhere, regardless of outlet.
+- **Seasonality:** no gaps or overlaps between seasons. Overlaps over-award labor; gaps under-award it — worse when the standard lives at the Assignment level.
+- **Step standards:** build with no gaps between tiers (e.g., 0–200, 200-infinity — either butting tiers directly against each other or open-ended tiers both work, as long as nothing is skipped).
+- **>3 FTEs per shift → the job must be a variable standard, not fixed** — John: **"We did have a rule of thumb, which goes back to when Pete and I were doing Hiltons way back when."** The diagnostic question to ask a manager who insists on a fixed headcount: do you really need all of them at the slowest hour, or only at the busiest? Build in the variability standards exist to provide.
+
+### Named Database Templates (built ~2 years ago during a go-live task force with John, Akram, Sophie)
+
+Exist but haven't been consistently used at database-creation time — a real, agreed loss of implementation-time savings:
+
+- **Resort** — cloned from Great Wolf Lodge
+- **Full-service five-star**
+- **"Box Marriott"** — one restaurant + room service only
+- **Limited service** — has a breakfast area
+- **Select service** — no F&B at all
+
+Revenue centers in these templates use generic names (Restaurant One/Two/Three) rather than real property names, and come with repetitive calculated KBIs (stayovers, stayovers-to-clean, etc.) prebuilt — Akram's specific pain point citing 4 simultaneous Red Sea properties needing the exact same KBIs built by hand each time.
+
+**Why they've drifted out of use:** template selection has to happen **at database creation, at the PM/Jira-ticket level** — once a database exists, you're "toasted," in John's words; there's no retrofitting a template after the fact. Ralph used to personally specify which template to use on each Jira ticket; since his departure, nobody's been enforcing the picker option. Alain's follow-up: regroup with "Boss Casey" and Shilpa to make sure directors/PMs default to it going forward.
+
+### AWS Migration — Cross-Property Browser Risk (mechanism, not just the workaround)
+
+Post-migration, opening two properties side-by-side as tabs in the *same* browser is dangerous, not just inconvenient: refreshing one silently routes subsequent edits to whichever property refreshed most recently — you can be looking at "Property A" on screen while every change you make actually lands in "Property B." **Use two entirely separate browsers** (e.g., Safari + Chrome) when referencing two properties side-by-side, never two tabs in one browser. Already known to Taylor/Itzaso from Jumeirah multi-property work.
+
+### Employee User Maps — mobile-specific gotcha, now resolved
+
+If a client uses the mobile app, it's easy to forget the one-time Employee User Map step per user. A ~8-month-old anomaly where drag-and-drop scheduling briefly *required* this mapping even for non-mobile users has since resolved on its own — Taylor confirmed it's working normally again, root cause never formally documented. Worth adding "employee user mapping" as a standing line on the implementation checklist for any client using mobile, regardless.
+
+---
+
+## Standard Banquet KBI Numbering Pattern
+
+*Cross-client standard. Used repeatedly across PWS engagements. Captured May 29, 2026.*
+
+### Meal Period Code Ranges (5xxx = own banquet at each property)
+
+| Range | Meal Period | Notes |
+|---|---|---|
+| 5100s | Breakfast | |
+| 5200s | Lunch | |
+| 5300s | Dinner | Late not typically seen in banquet KBIs |
+| 5400s | Receptions | |
+| 5500s | Meetings | |
+| 5600s | Breaks | |
+
+### Sub-Code Convention Within Each Range
+
+| Ending | Meaning |
+|---|---|
+| x00 | **Total** (e.g., 5100 = Breakfast Total) |
+| x01 | **Group** |
+| x02 | **Local** |
+
+Group and Local are added back together for labor standards; the split is for Revenue Center forecasting only.
+
+### Service Types Within Meal Periods (Breakfast, Lunch, Dinner, Reception)
+
+- Plated
+- Buffet
+- Continental
+- Box
+- Special
+- Wedding
+
+Special and Wedding apply across Breakfast, Lunch, Dinner, AND Reception — not just Dinner territory.
+
+### Reception Types
+
+| Type | Food Served? | USALI Customers? |
+|---|---|---|
+| Cocktail | No (beverages only) | ❌ 0 customers |
+| Light / Lite | Yes | ✅ Count attendees |
+| Full | Yes | ✅ Count attendees |
+| Heavy | Yes | ✅ Count attendees |
+
+### Meal Period Notes
+- **Late:** Not typically seen in banquet KBI structures. Prepare numbering to accommodate (5700s) but don't build unless the property uses it.
+- **Afternoon / Overnight (Rosewood-specific):** Brand additions beyond USALI standard. Map Afternoon → Lunch in Unifocus unless a dedicated KBI is needed. Falls into USALI "Other" bucket.
+
+---
+
+## Dashboard / In-Week Data Reliability — Standing Teaching Point
+
+*Pete's own consistent guidance to clients, reaffirmed 9/18/26 in the context of the Mohonk and Westin La Paloma dashboard-accuracy concerns raised that week.*
+
+**The rule Pete always teaches:** clients *can* look at the current week, in the week — but it will **never be fully reliable**, for a structural reason, not a bug: actual hours, operating volumes, and generated standard hours arrive/refresh on different schedules within the week. Comparing actual-vs-standard mid-week is inherently comparing numbers computed at different points in a still-incomplete data cycle, regardless of property.
+
+**This holds true even for properties uploading volumes daily.** It gets categorically worse for a property like **Mohonk, which only uploads its volumes (covers) once a week** — for those properties, the in-week dashboard view will **never** be accurate, not just "less accurate than ideal." Daily covers would narrow the gap but wouldn't eliminate it; the underlying multi-feed-timing issue is inherent to how the dashboard is built, not something any one property's data-entry cadence can fully fix.
+
+**How to apply:** when a client raises "the dashboard looks wrong mid-week" as a defect report, the first move is this standing explanation — check whether it's the expected in-week unreliability (near-universal) before escalating as a property-specific bug. Genuine property-specific bugs (e.g., a truly broken mapping) still get escalated on their own merits; this teaching point explains the *baseline* unreliability every property should expect, not an excuse to wave off real findings.
+
+**Internal gap, flagged by Pete 9/18/26: this isn't just client-facing guidance Unifocus's own teams should already share.** The reporting/dashboard developers, the integration team, and consultants themselves apparently aren't consistently communicating about this well-understood structural limitation internally — each surfaces the "dashboard looks wrong" symptom fresh rather than starting from the shared baseline understanding above. Worth raising directly when talking to product (e.g., the Chris call re: WLP/Mohonk dashboard feedback) — the ask isn't just "improve accuracy," it's "make sure reporting/dashboard/integration/consulting are aligned on what's structurally expected vs. genuinely broken," so this doesn't keep getting rediscovered client-by-client as if it were new.
+
+**Confirmed from Unifocus Product Management itself, 9/18/26 (Kris Ballew, replying to Susanna's Mohonk recap):** Kris independently articulated essentially the same rule — the Home Screen only displays Actual/Standard Hours calculated elsewhere, doesn't update in real time for third-party-timekeeping clients like Mohonk (ADP), and is meant for reviewing the *previous* day's finalized data, not the current in-progress day. His framing: *"If managers are opening the Home Screen before that point, we should set the same expectation we would for someone running the Labor Effectiveness Report or Weekly Labor Summary too early."* This confirms the internal gap isn't a knowledge gap — Product clearly understands and can articulate this — it's a **proactive-communication** gap: this understanding isn't reaching consultants/clients before confusion happens, only after someone escalates. Full detail: `pws/clients/mohonk/2026-09-17_bron-followup-reconciliation-dashboard-contract.md`.
+
+---
+
+## Client Communication Standard (PWS)
+
+> Explain outcomes and actions, not mechanics. The client's job is to run the operation. Our job is to know why it works. Reserve technical detail for when the client specifically needs it to make a decision.
+
+This applies across all PWS clients, not just Unifocus engagements.
+
+---
+
+## Open Items
+
+- [ ] PWS employment opportunity: Product Owner role under Priyanka Kalia (VP Product Management) — compensation not yet discussed
+- [ ] M365 connector (pcastellano@unifocus.com): approved and active — monitor and provide feedback
+- [ ] **Database audits reintroduced (9/16/26 monthly consultant meeting)** — full process now defined (consultant implements → PM assigns auditor → structured worksheet review → findings + due date → consultant corrects). Not yet assigned to Pete for a specific property, but check inbox — some audits reportedly already went out with no consultant response. See [2026-09-16 US Monthly Consultant Meeting](2026-09-16_us-monthly-consultant-meeting.md) for full pitfalls list (banquet mapping, naming consistency, master jobs/KBIs for multi-hotel clients — explicitly named H.M. Alpha and Rockbridge/MakeReady, both active Pete client groups).
+- [ ] **Smartsheet checklists now required** for project accountability (all consultants) — backfill any existing Nashville/Scottsdale-style checklist for Pete's own properties and keep current; enforcement was explicitly flagged.
+- [ ] **Post-AWS-migration cross-property risk:** working two properties side-by-side in the same browser can misroute changes to whichever refreshed most recently. Use two separate browsers (not two tabs) when doing cross-property work — directly relevant to Baha Mar campus sessions.
+
+---
+
+## KBIs — Key Business Indicators
+
+KBIs are calculated metrics in Unifocus that aggregate operational data for forecasting, reporting, and labor planning.
+
+**KBI calculation triggers — three paths:** Any of the following will run KBI formulas and fail if a formula references a nonexistent KBI code:
+1. **Calculate KBIs task** — scheduled system task; only runs when a forecast has been entered for that period
+2. **Generate Standard Hours** — triggers KBI calculations as part of the standard hours generation process
+3. **Generate Projected Hours** — also triggers KBI calculations
+
+All three must succeed for labor planning to function correctly. A broken formula blocks all three.
+
+**Day qualifier — required in all KBI formula references:** Every cross-reference to another KBI must include a day qualifier. `[0]` = today's value. `[-1]` = yesterday's value. Omitting the qualifier causes the calculation to fail even if the KBI code itself is valid. Example: `##7010[0]*.9` is correct; `##7010*.9` will fail.
+
+**Cross-property KBIs:** KBIs that aggregate data across multiple properties within a shared database (e.g., Baha Mar campus). Must be built at each property individually and tested to confirm cross-property inclusion is correct after any property is added to the database.
+
+**Purpose of cross-property KBIs:** The goal is Resort Total Rooms, Arrivals, Guests, and Stayovers — and most critically, **Resort Total Available Guests by meal period**. Campus-wide outlets whose covers are modeled by regression depend on the entire resort guest population (total guests minus all banquet events). All property inputs must be accurate for the regression to produce valid results.
+
+**Implementation anti-pattern:** Do NOT replicate property-specific operational KBIs (e.g., GH housekeeping workload) in other properties' databases. Each property only needs its own operational KBIs plus the cross-property aggregates. Duplicating property-specific KBIs across the campus creates noise, confusion, and maintenance burden.
+
+**Total Resort KBI:** Aggregates rooms + banquet available guests for each meal period across all properties. The target end-state for Baha Mar's cross-property KBI build.
+
+**Stayover KBI:** Tracks guests staying over (not arriving or departing). Separate formula from arrival/departure counts; a common source of formula errors when KBI IDs change or are referenced incorrectly.
+
+---
+
+## Actuals vs. Budget — Two Different Paths to the Same Granular KBIs
+
+*Standard Unifocus practice, not client-specific. Captured 2026-07-20 from the Rosewood/Baha Mar BNQ Hours fix — see `pws/clients/baha-mar/kb.md` item 17 and `pws/clients/baha-mar/2026-07-20_bnq-hours-call-notes.md` for the concrete case this generalizes from.*
+
+Labor standards are always activated by the **granular Ttl KBIs** (e.g., Ttl Plated, Ttl Buffet, Ttl Continental for meal periods; Ttl Cocktail/Light/Full/Heavy for Reception). But those granular Ttl numbers get populated two completely different ways depending on whether you're looking at day-to-day/week-to-week actuals or at budget:
+
+**Day-to-day / week-to-week (actuals):**
+- Granular **Group and Local** KBIs come in directly from the EMS (Delphi, in Rosewood's case) — already split by Group vs Local *and* by service type (Plated/Buffet/Continental/Cocktail/etc.), because that's the level of detail real bookings carry.
+- Those granular Grp + Loc KBIs get **totaled up** into the matching granular Ttl KBI (Ttl Plated = Grp Plated + Loc Plated, etc.).
+- The granular Ttl KBIs activate the labor standards.
+
+**Budget (forward planning):**
+- Budget input is deliberately **generalized** — properties only forecast at the meal-period level: Breakfast, Lunch, Dinner, Reception (the Ttl-level #5100/#5200/#5300/#5400-style KBIs), with no Group/Local split and no service-type breakdown.
+- The system takes those general meal-period Ttl inputs and uses **historical percentages** (real Plated/Buffet/Continental/Cocktail/Light/Full/Heavy splits from prior actuals) to break each one down into the granular Ttl KBIs.
+- Those derived granular Ttl KBIs then activate the labor standards for budget purposes — same standards, same granular KBI targets as actuals, just populated top-down from a simpler input instead of bottom-up from Grp+Loc EMS detail.
+
+**Why this matters for diagnosing "standard generating no/wrong hours" issues:** check which path is actually feeding the KBI in question. A property (or a consultant) entering budget data at the Group/Local or already-granular level — rather than at the general Ttl meal-period level — breaks the percentage-based budget path, even though the same granular KBI would populate correctly from real EMS data during actuals. The fix is rarely "rebuild the KBI structure" — it's almost always "put the input at the right level for the path you're actually on."
+
+---
+
+## Banquet Mapping — Booking/Event Type Combinations
+
+Unifocus maps imported banquet data (from EMS/Delphi) to internal planning using Booking/Event Type combinations. The mapping screen only shows combinations the system has encountered in an actual import.
+
+**Problem:** Initial mapping captures only the combinations present in BEOs imported at go-live. New combinations added later are invisible to the mapping screen.
+
+**Solution — Dummy BEO File Approach:**
+1. Create a synthetic BEO file containing every valid Booking/Event Type combination for a property
+2. Monali Desai (Lead, Data Integration & Interface Implementation) does a one-time import
+3. All combinations become visible in the mapping screen
+4. Dummy file is deleted — does not affect any past or future planning weeks
+5. Full mapping can now be completed
+
+This is a one-time setup step per property. Must be repeated if new combinations are ever added to the EMS.
+
+**Delphi:** The Event Management System (EMS) used for banquet/event management at hotel properties. Can be property-specific or a shared companywide instance. Banquet files are exported from Delphi and imported into Unifocus.

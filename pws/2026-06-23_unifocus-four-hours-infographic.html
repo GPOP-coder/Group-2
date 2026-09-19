@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unifocus — The Four Types of Hours</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .page {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* HEADER */
+  .header {
+    background: #1b3f5e;
+    color: #fff;
+    padding: 16px 32px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .header-title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  .header-subtitle {
+    font-size: 12px;
+    color: #a8c4d8;
+    margin-top: 3px;
+    font-weight: 400;
+  }
+  .header-tagline {
+    font-size: 11px;
+    color: #7ab3cf;
+    text-align: right;
+    font-style: italic;
+    max-width: 300px;
+    line-height: 1.4;
+  }
+
+  /* MAIN GRID */
+  .grid-wrapper {
+    padding: 14px 28px 10px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .axis-labels {
+    display: grid;
+    grid-template-columns: 68px 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+  }
+  .axis-label-blank { }
+  .axis-label {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #5a7a93;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #c8d8e4;
+  }
+
+  .grid-body {
+    display: grid;
+    grid-template-columns: 68px 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr auto;
+    gap: 10px;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .row-label-cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8px;
+  }
+  .row-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5a7a93;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-right: 2px solid #c8d8e4;
+    padding-right: 7px;
+    text-align: center;
+  }
+
+  /* QUADRANT CARDS */
+  .card {
+    border-radius: 8px;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+  }
+  .card.system { background: #1b3f5e; color: #fff; }
+  .card.manager { background: #2e7da6; color: #fff; }
+
+  .card-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 20px;
+    width: fit-content;
+    flex-shrink: 0;
+  }
+  .card.system .card-badge { background: rgba(255,255,255,0.15); color: #a8d0e8; }
+  .card.manager .card-badge { background: rgba(255,255,255,0.15); color: #cce8f8; }
+
+  .card-name {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .card-formula {
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.85;
+    flex: 1;
+  }
+  .card-formula .formula-line {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+  }
+  .card-formula .equals {
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 1;
+  }
+  .card-formula .result {
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 1;
+  }
+
+  .card-question {
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.75;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    flex-shrink: 0;
+  }
+
+  .comparison-cell {
+    background: #e8f2f8;
+    border: 2px dashed #1b3f5e;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 20px;
+  }
+
+  .comparison-arrow {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1b3f5e;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+
+  .comparison-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #1b3f5e;
+    white-space: nowrap;
+  }
+
+  .comparison-question {
+    font-size: 11px;
+    color: #4a6a80;
+    line-height: 1.3;
+    font-style: italic;
+  }
+
+  /* BOTTOM SECTION */
+  .insights {
+    padding: 0 28px 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+    flex-shrink: 0;
+  }
+
+  .insight-card {
+    background: #f4f8fb;
+    border-left: 4px solid #1b3f5e;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+  }
+  .insight-card.orange { border-left-color: #c8741a; }
+  .insight-card h4 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #1b3f5e;
+    margin-bottom: 5px;
+  }
+  .insight-card.orange h4 { color: #c8741a; }
+  .insight-card p {
+    font-size: 11px;
+    color: #4a5f6e;
+    line-height: 1.5;
+  }
+  .insight-card .metric {
+    display: inline-block;
+    background: #1b3f5e;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 2px;
+  }
+  .insight-card.orange .metric { background: #c8741a; }
+
+  /* FOOTER */
+  .footer {
+    background: #1b3f5e;
+    color: #7ab3cf;
+    font-size: 10px;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .footer a { color: #a8c4d8; text-decoration: none; }
+
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; border-radius: 0; width: 100%; height: 100vh; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <div class="header-title">The Four Types of Hours</div>
+      <div class="header-subtitle">Understanding How Unifocus Measures Planning &amp; Execution</div>
+    </div>
+    <div class="header-tagline">
+      "Unifocus is a comparison machine.<br>Every answer starts with: <em>compared to what?</em>"
+    </div>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid-wrapper">
+
+    <!-- Axis column labels -->
+    <div class="axis-labels">
+      <div class="axis-label-blank"></div>
+      <div class="axis-label">System-Generated</div>
+      <div class="axis-label">Manager / Team</div>
+    </div>
+
+    <div class="grid-body">
+
+      <!-- ROW LABEL: PLANNING -->
+      <div class="row-label-cell" style="grid-row: 1;">
+        <div class="row-label">Planning Layer</div>
+      </div>
+
+      <!-- PROJECTED (top-left) -->
+      <div class="card system" style="grid-column:2; grid-row:1;">
+        <div class="card-badge">System Calculates</div>
+        <div class="card-name">Projected</div>
+        <div class="card-formula">
+          <div class="formula-line">Forecast Volume</div>
+          <div class="formula-line">× Labor Standard</div>
+          <div class="formula-line"><span class="equals">=</span> <span class="result">Hours You Should Schedule</span></div>
+        </div>
+        <div class="card-question">The system's recommendation before the week begins.</div>
+      </div>
+
+      <!-- SCHEDULED (top-right) -->
+      <div class="card manager" style="grid-column:3; grid-row:1;">
+        <div class="card-badge">Manager Decides</div>
+        <div class="card-name">Scheduled</div>
+        <div class="card-formula">
+          <div class="formula-line">Manager's Plan</div>
+          <div class="formula-line">(Who, When, How Many)</div>
+          <div class="formula-line"><span class="equals">=</span> <span class="result">Hours on the Schedule</span></div>
+        </div>
+        <div class="card-question">What the manager actually committed to. May match — or diverge from — projected.</div>
+      </div>
+
+      <!-- PLANNING COMPARISON BANNER -->
+      <div class="row-label-cell" style="grid-row:2;"></div>
+      <div class="comparison-cell" style="grid-column:2 / span 2; grid-row:2;">
+        <div class="comparison-arrow">⟵ &nbsp; Projected &nbsp; vs. &nbsp; Scheduled &nbsp; ⟶</div>
+        <div class="comparison-label">Planning Accuracy</div>
+        <div class="comparison-question">Did the manager schedule to match the forecast?</div>
+      </div>
+
+      <!-- ROW LABEL: EXECUTION -->
+      <div class="row-label-cell" style="grid-row:3;">
+        <div class="row-label">Execution Layer</div>
+      </div>
+
+      <!-- STANDARD (bottom-left) -->
+      <div class="card system" style="grid-column:2; grid-row:3;">
+        <div class="card-badge">System Calculates</div>
+        <div class="card-name">Standard</div>
+        <div class="card-formula">
+          <div class="formula-line">Actual Volume</div>
+          <div class="formula-line">× Labor Standard</div>
+          <div class="formula-line"><span class="equals">=</span> <span class="result">Hours You Should Have Used</span></div>
+        </div>
+        <div class="card-question">Your real budget. Volume already happened — this is the target.</div>
+      </div>
+
+      <!-- ACTUAL (bottom-right) -->
+      <div class="card manager" style="grid-column:3; grid-row:3;">
+        <div class="card-badge">Team Delivers</div>
+        <div class="card-name">Actual</div>
+        <div class="card-formula">
+          <div class="formula-line">Hours Worked on the Floor</div>
+          <div class="formula-line">(Punches + Payroll)</div>
+          <div class="formula-line"><span class="equals">=</span> <span class="result">What Really Happened</span></div>
+        </div>
+        <div class="card-question">What the team actually did. Compare to Standard to know if you're on budget.</div>
+      </div>
+
+      <!-- EXECUTION COMPARISON BANNER -->
+      <div class="row-label-cell" style="grid-row:4;"></div>
+      <div class="comparison-cell" style="grid-column:2 / span 2; grid-row:4;">
+        <div class="comparison-arrow">⟵ &nbsp; Standard &nbsp; vs. &nbsp; Actual &nbsp; ⟶</div>
+        <div class="comparison-label">Execution Accuracy</div>
+        <div class="comparison-question">Did the team execute to the agreed standard — are you on budget?</div>
+      </div>
+
+    </div><!-- end grid-body -->
+  </div><!-- end grid-wrapper -->
+
+  <!-- INSIGHTS -->
+  <div class="insights">
+
+    <div class="insight-card">
+      <h4>Standard = Flexible Budget</h4>
+      <p>Standard is not a fixed number — it's a <strong>ratio</strong>. When volume goes up, standard hours go up. When volume goes down, standard hours go down. <span class="metric">Actual = Standard</span> means you're on budget, regardless of absolute hours.</p>
+    </div>
+
+    <div class="insight-card">
+      <h4>Guests Run Your Business</h4>
+      <p>Guest demand drives everything. Volume drives the standard → standard is your budget. <em>"We were busy"</em> becomes <span class="metric">115% to standard</span>. Measurement replaces opinion. Every manager can explain their number.</p>
+    </div>
+
+    <div class="insight-card orange">
+      <h4>Two Conversations</h4>
+      <p><strong>CFO / Finance:</strong> <span class="metric orange">Standard ↔ Actual</span> — Are labor costs in line with volume? Am I on budget?<br><br>
+      <strong>GM / Operations:</strong> Both rows — Did we plan right? Did we execute? Where did we diverge?</p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <span>© Peter A. Castellano — Platinum Workforce Strategies, LLC — Proprietary. Not for redistribution.</span>
+    <span>Methodology: Unifocus WFM | Adapted from Akram Chahin framework</span>
+  </div>
+
+</div>
+</body>
+</html>
