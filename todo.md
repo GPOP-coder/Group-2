@@ -1,8 +1,20 @@
 # Pete Castellano — To Do
 
-Last updated: 2026-09-17
+Last updated: 2026-09-19
 
 ---
+
+## This Weekend (9/20–21/26) — Lenovo Yoga, on the trip
+
+- [ ] **Connect the Gmail/Google Workspace connector.** No longer needs the custom-OAuth-app setup from July — it's now native. Just authenticate with pete.castellano@gmail.com via claude.ai → Settings → Connectors. See `reference_google_workspace_mcp_setup` memory (updated 9/19/26).
+- [ ] **Check whether pete@platinumworkforcestrategies.com (GoDaddy) is on "Microsoft 365 from GoDaddy" or GoDaddy's own Workspace Email** — check GoDaddy billing/dashboard. If it's the M365 variant, the existing M365 connector may be able to authorize it directly (unconfirmed with Anthropic, worth just trying); if it's plain Workspace Email, it's not natively connectable right now.
+- [ ] **Book ground transportation for the 9/23/26 Baha Mar/Nassau port stop** (see `pws/clients/baha-mar/2026-09-23_bahamas-cruise-stop-visit-plan.md`) — book the estimated 8 AM–5:30 PM window with MTS now, buffer plenty of time before the 5:30 PM ship departure.
+- [ ] **Pensacola: locate the Neptune flood insurance confirmation** (policy #, premium, coverage period) in personal email — purchased 9/19/26 via Gabriel/USAA, documentation not yet on file. See `finances/pensacola-property-insurance-log.md`.
+
+## Flagged for later, not urgent tonight (9/19/26, 1:40 AM)
+
+- [ ] **Get the accumulated contacts.csv staging queue actually imported into Outlook.** `contacts/contacts.csv` has been collecting new contacts all session (Erika Torres, Joseph Abraham, etc.) per the standing capture protocol, but the import-back-into-Outlook step hasn't happened in a while — needs a real pass.
+- [ ] **Consider restructuring the contacts source of truth.** Pete's read (9/19/26): the current repo-CSV-staging → manual-Outlook-import loop may not be the right long-term architecture. Worth exploring whether there's a place Claude can help maintain directly (e.g., writing contacts via the M365 connector, if/once write-tool use is authorized — currently Pete has Claude on read-only M365 tools, see `feedback_m365_readonly_first` memory) rather than a one-way staging file that still needs manual import. **Explicit caution, same day: Google and Apple/iCloud both have old, outdated contact data — whatever this restructuring looks like, don't treat either as an authoritative source to sync from into the real source of truth (`peter.a.castellano@outlook.com`).** See `feedback_contacts_sync_workflow_defaults` memory. Not decided — a design conversation for a future session, not tonight.
 
 ## Today — 2026-09-17
 
